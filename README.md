@@ -1,5 +1,6 @@
 # [Input](#input)
 * [Ambient Occlusion](#ambient-occlusion)
+* [Attribute](#attribute)
 
 
 <br>
@@ -37,3 +38,32 @@ Gölgelerin maksimum yayılabileceği mesafe. Normalde gölgeler köşelerden me
 
 * #### Normal (Socket Input)
 Bilmiyorum.
+
+
+
+## [Attribute](https://docs.blender.org/manual/en/latest/render/shader_nodes/input/attribute.html)
+Obje üzerinden gelen değerleri alıp kullanmana yarar ama artık neredeyse hiç kullanılmıyor.
+
+
+* #### Color (Output)
+Bilmiyorum.
+
+* #### Vector (Output)
+Bilmiyorum.
+
+* #### Fac (Output)
+Bilmiyorum.
+
+* #### Alpha (Output)
+Bilmiyorum.
+
+* #### Type (Node Input)
+Bilmiyorum.
+
+* #### Name (Node Input)
+Bilmiyorum.
+
+
+
+
+

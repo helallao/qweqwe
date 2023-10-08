@@ -1,6 +1,8 @@
 # [Input](#input)
 * [Ambient Occlusion](#ambient-occlusion)
 * [Attribute](#attribute)
+* [Bevel](#bevel)
+* [Camera Data](#camera-data)
 
 
 <br>
@@ -62,6 +64,51 @@ Bilmiyorum.
 
 * #### Name (Node Input)
 Bilmiyorum.
+
+
+
+## [Bevel](https://docs.blender.org/manual/en/latest/render/shader_nodes/input/bevel.html)
+Mesh'in kenar olan kısımlarını açısal farklara dayanarak bulur ve bu kenarlara bevel uygulanmış normal map'i output olarak verir.
+
+
+* #### Normal (Output)
+Bevel uygulanmış normal map.
+
+* #### Samples (Node Input)
+Normal map ve bevel kalitesi.
+
+* #### Radius (Socket Input)
+Bevel miktarı/derecesi/şiddeti.
+
+* #### Normal (Socket Input)
+Bilmiyorum.
+
+
+
+## [Camera Data](https://docs.blender.org/manual/en/latest/render/shader_nodes/input/camera_data.html)
+Kamera yani bakış açısı ile ilgili bilgileri verir.
+
+
+* #### View Vector (Output)
+Kameranın baktığı yön vektörü.
+
+* #### View Z Depth (Output)
+Kameraya olan uzaklık değeri, yani "View Distance" output'u gibidir ama daha farklı bir çalışma şekli vardır. Sanal bir plane (düz plaka/levha yani düzlem) oluşturulur ve bu plane'in normal'i (yani baktığı yön) kameranın baktığı yöndür. Bu output da bu plane'e olan uzaklık değerini döndürür (obje üzerindeki her bir nokta için).
+
+* #### View Distance (Output)
+Kameraya olan uzaklık değeri (obje üzerindeki her bir nokta için).
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

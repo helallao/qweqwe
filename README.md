@@ -1,4 +1,4 @@
-# [Input](#input)
+# [Input](#input-1)
 * [Ambient Occlusion](#ambient-occlusion)
 * [Attribute](#attribute)
 * [Bevel](#bevel)
@@ -20,9 +20,9 @@
 * [Volume Info](#volume-info)
 * [Wireframe](#wireframe)
 
-# [Output](#output)
+# [Output](#output-1)
 
-# [Shader](#shader)
+# [Shader](#shader-1)
 * [Add Shader](#add-shader)
 
 

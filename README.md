@@ -28,6 +28,7 @@
 * [Diffuse BSDF](#diffuse-bsdf)
 * [Emission](#emission)
 * [Glass BSDF](#glass-bsdf)
+* [Glossy BSDF](#glossy-bsdf)
 
 
 <br>
@@ -448,9 +449,6 @@ Shader.
 * #### Mode Input (Node Input)
 Buradan farklı modlar kullanarak cam shader'ı oluşturabilirsiniz.
 
-* #### Mode Input (Node Input)
-Buradan farklı modlar kullanarak cam shader'ı oluşturabilirsiniz.
-
 * #### Color (Socket Input)
 Cam rengi.
 
@@ -462,6 +460,39 @@ Camın arkasını ne kadar keskin gösterecegini etkiler. 0'da iken arkayı tam 
 
 * #### Normal (Socket Input)
 Bilmiyorum.
+
+
+
+## [Glossy BSDF](https://docs.blender.org/manual/en/latest/render/shader_nodes/shader/glossy.html)
+Ayna shader'ı oluşturmaya yarar. Yani yüzeyi ayna gibi gelen ışıgı yansıtan shader oluşturur.
+
+
+* #### BSDF (Output)
+Shader.
+
+* #### Mode Input (Node Input)
+Buradan farklı modlar kullanarak ayna shader'ı oluşturabilirsiniz.
+
+* #### Color (Socket Input)
+Ayna rengi.
+
+* #### Roughness (Socket Input)
+Aynanın ne kadar gösterecegini etkiler. 0'da iken pürüzsüz gösterir, yükselttikçe bulanık gösterir.
+
+* #### Normal (Socket Input)
+Bilmiyorum.
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

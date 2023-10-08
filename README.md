@@ -11,30 +11,30 @@
 
 
 
-## Ambient Occlusion
-Mesh'in gölgede kalan kısımlarını hesaplar ve renk mapini verir.
+## [Ambient Occlusion](https://docs.blender.org/manual/en/latest/render/shader_nodes/input/ao.html)
+Mesh'in üzerindeki gölgeleri veya gölgede kalan kısımlarını hesaplıp renki ve grayscale map'lerini verir. Bu hesaplama aslında ışıktan bağımsızdır yani gerçekten ışığın nereye vurduğunu nereye vurmadığını kontrol etmez. Gölgeleme işlemi çoğunlukla mesh'in kenarlarında ve çevresi bloklanan kısımlarında olur.
 
 
-* #### [Color (Output)]()
-Mesh Color inputuna verilen renk ile boyanmıştır. Bu output ise mesh'in rengini verir ama tamamen Color inputuna verilen renk ile boyanmış halde degil de, gölge vuran kısımların siyaha kaymış halini verir.
+* #### Color (Output)
+"Color" inputuna verdiginiz renk map'inin gölge vuran kısımlarının siyaha kaymış halini verir. Yani renkli map'e sanki gölge vurmuş gibi siyah renk eklenmiş halini verir.
 
-* #### [AO (Output)]()
+* #### AO (Output)
 Gölge vuran kısımların siyaha kaymış, diger kısımların da beyaz oldugu siyah-beyaz 1d renk.
 
-* #### [Samples (Input)]()
+* #### Samples (Input
 Gölge vuran kısımların kalitesi.
 
-* #### [Inside (Input)]()
+* #### Inside (Input)
 Gölge vuran kısımlar mesh'in içine göre hesaplanır.
 
-* #### [Only Local (Input)]()
+* #### Only Local (Input)
 Açıkken gölgeler sadece mesh'in kendisinden gelir. Kapalıyken başka objelerden de gölge gelebilir.
 
-* #### [Color (Input)]()
+* #### Color (Input)
 Mesh'in rengi.
 
-* #### [Distance (Input)]()
+* #### Distance (Input)
 Gölgelerin maksimum gidebilecegi mesafe. Normalde gölgeler köşelerden mesh'in etrafına dogru biraz yayılır. Bu ayar ile yayılım mesafesini ayarlarsın. Eger bu ayarı kısarsan gölgelerin köşeye dogru kısıtlandıgını görebilirsin.
 
-* #### [Normal (Input)]()
+* #### Normal (Input)
 Bilmiyorum.

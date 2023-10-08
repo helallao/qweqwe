@@ -27,6 +27,7 @@
 * [Anisotropic BSDF](#anisotropic-bsdf)
 * [Diffuse BSDF](#diffuse-bsdf)
 * [Emission](#emission)
+* [Glass BSDF](#glass-bsdf)
 
 
 <br>
@@ -436,7 +437,30 @@ Emission şiddeti.
 
 
 
+## [Glass BSDF](https://docs.blender.org/manual/en/latest/render/shader_nodes/shader/glass.html)
+Cam shader'ı oluşturmaya yarar.
 
+
+* #### BSDF (Output)
+Shader.
+
+* #### Mode Input (Node Input)
+Buradan farklı modlar kullanarak cam shader'ı oluşturabilirsiniz.
+
+* #### Mode Input (Node Input)
+Buradan farklı modlar kullanarak cam shader'ı oluşturabilirsiniz.
+
+* #### Color (Socket Input)
+Cam rengi.
+
+* #### Roughness (Socket Input)
+Camın arkasını ne kadar keskin gösterecegini etkiler. 0'da iken arkayı tam gösterir, yükselttikçe arkayı bulanık gösterir.
+
+* #### IOR (Socket Input)
+[Index of Refraction](https://en.wikipedia.org/wiki/Refractive_index) degerini ayarlar, yani ışığın yönünün camın içinden geçerken kırılma derecesini.
+
+* #### Normal (Socket Input)
+Bilmiyorum.
 
 
 

@@ -35,7 +35,7 @@
 
 
 # Input
-
+Bu kategorideki node'lar bu shader'ı kullanan objenin/mesh'in bilgilerini verirler. Bu bilgileri kullanarak shader'ı yapılandırırız. Bu yüzden kategorinin ismi "Input".
 
 
 ## [Ambient Occlusion](https://docs.blender.org/manual/en/latest/render/shader_nodes/input/ao.html)
@@ -395,6 +395,7 @@ Bilmiyorum.
 
 
 # Shader
+Bu kategorideki node'lar ana shader türlerini barındırır. Bu shader node'ları ile farklı shader türlerini kullanarak istedigimiz shader'ı yapabiliriz. En fazla kullanılan shader türü [Principled BSDF'dir](a) çünkü birçok shader türünü kendi içerisinde barındırır. Principled BSDF bu kategorideki birçok shader türü node'larının yerine kullanılabilir, dolayısıyla birçok node zaten gereksiz gibi düşünebilirsiniz ama öyle degil. Bazı node'larda Principled BSDF node'unda olmayan özellikler de var, dolayısıyla bu özellikleri kullanmak için o node'lara da ihtiyacımız var.
 
 
 ## [Add Shader](https://docs.blender.org/manual/en/latest/render/shader_nodes/shader/add.html)

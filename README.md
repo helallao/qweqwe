@@ -31,6 +31,7 @@
 * [Glossy BSDF](#glossy-bsdf)
 * [Hair BSDF](#hair-bsdf)
 * [Holdout](#holdout)
+* [Mix Shader](#mix-shader)
 
 
 <br>
@@ -497,6 +498,24 @@ Bu shader boşluk oluşturmaya yarar. Ekranda bu shader'ın oldugu yer silinir, 
 
 * #### Holdout (Output)
 Shader.
+
+
+
+## [Mix Shader](https://docs.blender.org/manual/en/latest/render/shader_nodes/shader/mix.html)
+Verilen iki shader'ı birleştirir.
+
+
+* #### Shader (Output)
+Sonuç shader'ı.
+
+* #### Fac (Socket Input)
+Faktör degeri, bu deger 0'a kaydıkça 1. shader, 1'e kaydıkça 2. shader kullanılır. 0.5 yaparsanız iki shader'ın ortası olur. Bu şekilde istediginiz gibi oranlama yapabilirsiniz.
+
+* #### Shader (Socket Input)
+Karıştırılacak 1. shader.
+
+* #### Shader 2 (Socket Input)
+Karıştırılacak 2. shader.
 
 
 

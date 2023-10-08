@@ -17,6 +17,8 @@
 * [Texture Coordinate](#texture-coordinate)
 * [UV Map](#uv-map)
 * [Value](#value)
+* [Volume Info](#volume-info)
+* [Wireframe](#wireframe)
 
 
 <br>
@@ -360,6 +362,34 @@ Bilmiyorum.
 
 ## [Value](https://docs.blender.org/manual/en/latest/render/shader_nodes/input/value.html)
 Float veri tipinde bir deger oluşturmanıza yarar, yani sayı degeri oluşturmanıza yarar. Oluşturduğunuz degeri sayı input'u (gri) olan herhangi bir node'a bağlayabilirsiniz.
+
+
+
+## [Volume Info](https://docs.blender.org/manual/en/latest/render/shader_nodes/input/volume_info.html)
+Bilmiyorum.
+
+
+
+## [Wireframe](https://docs.blender.org/manual/en/latest/render/shader_nodes/input/wireframe.html)
+Bilmiyorum.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

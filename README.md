@@ -3,6 +3,8 @@
 * [Attribute](#attribute)
 * [Bevel](#bevel)
 * [Camera Data](#camera-data)
+* [Color Attribute](#color-attribute)
+* [Curves Info](#curves-info)
 
 
 <br>
@@ -101,6 +103,43 @@ Kameraya olan uzaklık değeri, yani "View Distance" output'u gibidir ama daha f
 Kameraya olan uzaklık değeri (obje üzerindeki her bir nokta için).
 
 
+
+## [Color Attribute](https://docs.blender.org/manual/en/latest/render/shader_nodes/input/vertex_color.html)
+Bilmiyorum.
+
+
+* #### Color (Output)
+Bilmiyorum.
+
+* #### Alpha (Output)
+Bilmiyorum.
+
+* #### Text Input (Node Input)
+Bilmiyorum.
+
+
+
+## [Curves Info](https://docs.blender.org/manual/en/latest/render/shader_nodes/input/hair_info.html)
+Bilmiyorum.
+
+
+* #### Is Strand (Output)
+Bilmiyorum.
+
+* #### Intercept (Output)
+Bilmiyorum.
+
+* #### Length (Output)
+Bilmiyorum.
+
+* #### Thickness (Output)
+Bilmiyorum.
+
+* #### Tangent Normal (Output)
+Bilmiyorum.
+
+* #### Random (Output)
+Bilmiyorum.
 
 
 

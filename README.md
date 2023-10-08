@@ -29,6 +29,8 @@
 * [Emission](#emission)
 * [Glass BSDF](#glass-bsdf)
 * [Glossy BSDF](#glossy-bsdf)
+* [Hair BSDF](#hair-bsdf)
+* [Holdout](#holdout)
 
 
 <br>
@@ -484,11 +486,17 @@ Bilmiyorum.
 
 
 
+## [Hair BSDF](https://docs.blender.org/manual/en/latest/render/shader_nodes/shader/hair.html)
+Bilmiyorum.
 
 
 
+## [Holdout](https://docs.blender.org/manual/en/latest/render/shader_nodes/shader/holdout.html)
+Bu shader boşluk oluşturmaya yarar. Ekranda bu shader'ın oldugu yer silinir, arkayı da göstermez.
 
 
+* #### Holdout (Output)
+Shader.
 
 
 

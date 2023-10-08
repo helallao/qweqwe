@@ -26,6 +26,7 @@
 * [Add Shader](#add-shader)
 * [Anisotropic BSDF](#anisotropic-bsdf)
 * [Diffuse BSDF](#diffuse-bsdf)
+* [Emission](#emission)
 
 
 <br>
@@ -418,6 +419,20 @@ Bilmiyorum.
 ## [Diffuse BSDF](https://docs.blender.org/manual/en/latest/render/shader_nodes/shader/diffuse.html)
 Bilmiyorum.
 
+
+
+## [Emission](https://docs.blender.org/manual/en/latest/render/shader_nodes/shader/emission.html)
+Bilmiyorum.
+
+
+* #### Emission (Output)
+Sonuç shader'ı.
+
+* #### Color (Socket Input)
+Renk.
+
+* #### Strength (Socket Input)
+Emission şiddeti.
 
 
 

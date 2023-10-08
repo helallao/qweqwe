@@ -5,6 +5,7 @@
 * [Camera Data](#camera-data)
 * [Color Attribute](#color-attribute)
 * [Curves Info](#curves-info)
+* [Fresnel](#fresnel)
 
 
 <br>
@@ -143,8 +144,18 @@ Bilmiyorum.
 
 
 
+## [Fresnel](https://docs.blender.org/manual/en/latest/render/shader_nodes/input/fresnel.html)
+Objenin yüzeyinden ne kadar ışıgın yansıdıgını hesaplar, yansıma miktarı fazla ise beyaza (yani 1'e) düşük ise siyaha (yani 0'a) kayan bir grayscale map verir. Yaptıgı işlemler şöyle gerçekleşir, kameranın bakış açısı ile yüzeyin bakış açısını baz alarak, aralarındaki paralellik yüksekse siyaha (yani 0'a) kayan, aralarındaki paralellik düşükse (en fazla 90 dereceye kadar) beyaza kayan (yani 1'e) grayscale map verir. Yani kameranın bakış açısı ile yüzeyin bakış açısının paralelligini kontrol eder. Bu işlem genellikle obje'nin kenarlarından ortasına dogru beyazdan siyaha kayan bir renk map'i oluşturur.
 
 
+* #### Fac (Output)
+Grayscale map.
+
+* #### IOR (Socket Input)
+Bu deger arttıkça output map'indeki beyaz renkler köşelerden ortaya dogru yaklaşır. Azalttıkça köşelere yaklaşır. Aslında bu deger yüzeyin [Index of Refraction](https://en.wikipedia.org/wiki/Refractive_index) degerini ayarlar, yani ışıgın yönünün obje içinden geçerken kırılma derecesini.
+
+* #### Normal (Socket Input)
+Bilmiyorum.
 
 
 

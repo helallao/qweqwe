@@ -6,6 +6,7 @@
 * [Color Attribute](#color-attribute)
 * [Curves Info](#curves-info)
 * [Fresnel](#fresnel)
+* [Geometry](#geometry)
 
 
 <br>
@@ -39,7 +40,7 @@ Bu ayar açıkken gölgeler sadece mesh'in kendisinden gelebilir yani gölgeler 
 Mesh'in shader'ı. Bu inputa mesh'in rengi yani texture'u baglanabilir. Renk inputu yani.
 
 * #### Distance (Socket Input)
-Gölgelerin maksimum yayılabileceği mesafe. Normalde gölgeler köşelerden mesh'in etrafına dogru biraz yayılır. Bu ayar ile yayılım mesafesini ayarlayabilirsiniz. Eger bu ayarı azaltırsanız gölgelerin köşeye dogru kısıtlandıgını görebilirsiniz, arttırırsanız da gölgeler daha fazla yayılır.
+Gölgelerin maksimum yayılabileceği mesafe. Normalde gölgeler köşelerden mesh'in etrafına doğru biraz yayılır. Bu ayar ile yayılım mesafesini ayarlayabilirsiniz. Eger bu ayarı azaltırsanız gölgelerin köşeye doğru kısıtlandıgını görebilirsiniz, arttırırsanız da gölgeler daha fazla yayılır.
 
 * #### Normal (Socket Input)
 Bilmiyorum.
@@ -145,23 +146,50 @@ Bilmiyorum.
 
 
 ## [Fresnel](https://docs.blender.org/manual/en/latest/render/shader_nodes/input/fresnel.html)
-Objenin yüzeyinden ne kadar ışıgın yansıdıgını hesaplar, yansıma miktarı fazla ise beyaza (yani 1'e) düşük ise siyaha (yani 0'a) kayan bir grayscale map verir. Yaptıgı işlemler şöyle gerçekleşir, kameranın bakış açısı ile yüzeyin bakış açısını baz alarak, aralarındaki paralellik yüksekse siyaha (yani 0'a) kayan, aralarındaki paralellik düşükse (en fazla 90 dereceye kadar) beyaza kayan (yani 1'e) grayscale map verir. Yani kameranın bakış açısı ile yüzeyin bakış açısının paralelligini kontrol eder. Bu işlem genellikle obje'nin kenarlarından ortasına dogru beyazdan siyaha kayan bir renk map'i oluşturur.
+Objenin yüzeyinden ne kadar ışıgın yansıdıgını hesaplar, yansıma miktarı fazla ise beyaza (yani 1'e) düşük ise siyaha (yani 0'a) kayan bir grayscale map verir. Yaptıgı işlemler şöyle gerçekleşir, kameranın bakış açısı ile yüzeyin bakış açısını baz alarak, aralarındaki paralellik yüksekse siyaha (yani 0'a) kayan, aralarındaki paralellik düşükse (en fazla 90 dereceye kadar) beyaza kayan (yani 1'e) grayscale map verir. Yani kameranın bakış açısı ile yüzeyin bakış açısının paralelligini kontrol eder. Bu işlem genellikle obje'nin kenarlarından ortasına doğru beyazdan siyaha kayan bir renk map'i oluşturur.
 
 
 * #### Fac (Output)
 Grayscale map.
 
 * #### IOR (Socket Input)
-Bu deger arttıkça output map'indeki beyaz renkler köşelerden ortaya dogru yaklaşır. Azalttıkça köşelere yaklaşır. Aslında bu deger yüzeyin [Index of Refraction](https://en.wikipedia.org/wiki/Refractive_index) degerini ayarlar, yani ışıgın yönünün obje içinden geçerken kırılma derecesini.
+Bu deger arttıkça output map'indeki beyaz renkler köşelerden ortaya doğru yaklaşır. Azalttıkça köşelere yaklaşır. Aslında bu deger yüzeyin [Index of Refraction](https://en.wikipedia.org/wiki/Refractive_index) degerini ayarlar, yani ışığın yönünün obje içinden geçerken kırılma derecesini.
 
 * #### Normal (Socket Input)
 Bilmiyorum.
 
 
 
+## [Geometry](https://docs.blender.org/manual/en/latest/render/shader_nodes/input/geometry.html)
+Mesh hakkında geometrik bilgiler verir.
 
 
+* #### Position (Output)
+Shader render edilirken mesh üzerindeki her bir nokta için dünya üzerindeki pozisyon vektörü. Yani shader ekrana çizilirken her bir nokta için bu bilgi farklı olabilir, her bir noktanın sahip olduğu bu bilgiyi verir.
 
+* #### Normal (Output)
+Shader render edilirken mesh üzerindeki her bir nokta için noktanın baktığı yön vektörü. Yani shader ekrana çizilirken her bir nokta için bu bilgi farklı olabilir, her bir noktanın sahip olduğu bu bilgiyi verir.
+
+* #### Tangent (Output)
+Bilmiyorum.
+
+* #### True Normal (Output)
+"Normal" output'u ile aynıdır ama mesh'in her bir yüzü için yüzün baktığı yönü verir. Yani her bir yüz için yüzün sahip olduğu bu bilgiyi verir.
+
+* #### Incoming (Output)
+Shader render edilirken mesh üzerindeki her bir nokta için noktanın kameraya doğru baktığı yön vektörü. Yani shader ekrana çizilirken her bir nokta için bu bilgi farklı olabilir, her bir noktanın sahip olduğu bu bilgiyi verir.
+
+* #### Parametric (Output)
+Mesh'in her bir üçgeni için (dörtgenleri de üçgene çevirir) UV degerini verir. Bu UV degeri ile bütün üçgenler üzerinde işlemler yapabilirsin.
+
+* #### Backfacing (Output)
+Mesh'in ön ve arka yüzünü ayırt etmek içindir. İç olan taraf için 1, dış olan taraf için 0 degeri döndürür.
+
+* #### Pointiness (Output)
+Mesh'in keskin açıları için 1'e kayan deger, düz olan kısımları için 0'a kayan deger verir.
+
+* #### Random Per Island (Output)
+Bu shader'ı kullanan her obje için 0 ile 1 arasında rastgele deger verir.
 
 
 

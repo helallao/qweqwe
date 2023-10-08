@@ -195,7 +195,7 @@ Bu shader'ı kullanan her obje için 0 ile 1 arasında rastgele deger verir.
 
 
 ## [Layer Weight](https://docs.blender.org/manual/en/latest/render/shader_nodes/input/layer_weight.html)
-[Fresnel](#fresnel) gibidir. Ek olarak keskinlik ayarı da vardır. IOR input'u yerine "Blend" input'unu kullanır.
+[Fresnel](#fresnel) gibidir. Ek olarak keskinlik ayarı da vardır. "IOR" input'u yerine "Blend" input'unu kullanır.
 
 
 * #### Fresnel (Output)

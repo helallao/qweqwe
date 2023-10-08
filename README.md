@@ -1,6 +1,5 @@
-# Kategoriler
-
-* [Input](#input)
+# [Input](#input)
+* [Ambient Occlusion](#ambient-occlusion)
 
 
 <br>

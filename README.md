@@ -14,6 +14,7 @@
 * [Point Info](#point-info)
 * [RGB](#rgb)
 * [Tangent](#tangent)
+* [Texture Coordinate](#texture-coordinate)
 
 
 <br>
@@ -307,15 +308,36 @@ Bilmiyorum.
 
 
 
+## [Texture Coordinate](https://docs.blender.org/manual/en/latest/render/shader_nodes/input/texture_coordinate.html)
+Texture'ları düzgün bir şekilde mesh'e yerleştirebilmemiz için gerekli olan mesh boyut degerlerini verir.
 
 
+* #### Generated (Output)
+Bilmiyorum.
 
+* #### Normal (Output)
+Mesh'in her bir yüzünün baktığı yön degerini verir.
 
+* #### UV (Output)
+Bilmiyorum.
 
+* #### Object (Output)
+Bilmiyorum.
 
+* #### Camera (Output)
+Kameranın bakış açısına göre texture'u yerleştirmeye yarar, nereden bakarsan bak aynı görünür.
 
+* #### Window (Output)
+"Camera" output'u ile aynıdır, tek farkı ekran büyüklüğüne göre boyutları x ve y eksenlerinde oranlar.
 
+* #### Reflection (Output)
+Bilmiyorum.
 
+* #### Object (Node Input)
+Bilmiyorum.
+
+* #### From Instancer (Node Input)
+Bilmiyorum.
 
 
 

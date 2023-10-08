@@ -10,6 +10,9 @@
 * [Layer Weight](#layer-weight)
 * [Light Path](#light-path)
 * [Object Info](#object-info)
+* [Particle Info](#particle-info)
+* [Point Info](#point-info)
+* [RGB](#rgb)
 
 
 <br>
@@ -282,6 +285,19 @@ Objenin material ayarlarından ayarlanmış "pass index" degerini verir.
 Bu shader'ı kullanan her obje için 0 ile 1 arası rastgele deger verir.
 
 
+
+## [Particle Info](https://docs.blender.org/manual/en/latest/render/shader_nodes/input/particle_info.html)
+Bilmiyorum.
+
+
+
+## [Point Info](https://docs.blender.org/manual/en/latest/render/shader_nodes/input/point_info.html)
+Bilmiyorum.
+
+
+
+## [RGB](https://docs.blender.org/manual/en/latest/render/shader_nodes/input/rgb.html)
+Renk veri tipinde bir deger oluşturmanıza yarar, yani renk oluşturmanıza yarar. Oluşturduğunuz rengi renk input'u olan herhangi bir node'a bağlayabilirsiniz.
 
 
 

@@ -193,4 +193,19 @@ Bu shader'ı kullanan her obje için 0 ile 1 arasında rastgele deger verir.
 
 
 
+## [Layer Weight](https://docs.blender.org/manual/en/latest/render/shader_nodes/input/layer_weight.html)
+[Fresnel](#fresnel) gibidir. Ek olarak açıya göre deger döndürme modu da vardır.
+
+
+* #### Fresnel (Output)
+[Fresnel](#fresnel) ile aynı mantıkta çalışır, [Fresnel'in](#fresnel) [Fac](#fac) output'u ile aynıdır.
+
+
+
+
+
+
+
+
+
 

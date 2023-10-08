@@ -8,6 +8,7 @@
 * [Fresnel](#fresnel)
 * [Geometry](#geometry)
 * [Layer Weight](#layer-weight)
+* [Light Path](#light-path)
 
 
 <br>
@@ -147,7 +148,7 @@ Bilmiyorum.
 
 
 ## [Fresnel](https://docs.blender.org/manual/en/latest/render/shader_nodes/input/fresnel.html)
-Objenin yüzeyinden ne kadar ışıgın yansıdıgını hesaplar, yansıma miktarı fazla ise beyaza (yani 1'e) düşük ise siyaha (yani 0'a) kayan bir grayscale map verir. Yaptıgı işlemler şöyle gerçekleşir, kameranın bakış açısı ile yüzeyin bakış açısını baz alarak, aralarındaki paralellik yüksekse siyaha (yani 0'a) kayan, aralarındaki paralellik düşükse (en fazla 90 dereceye kadar) beyaza kayan (yani 1'e) grayscale map verir. Yani kameranın bakış açısı ile yüzeyin bakış açısının paralelligini kontrol eder. Bu işlem genellikle obje'nin kenarlarından ortasına doğru beyazdan siyaha kayan bir renk map'i oluşturur.
+Objenin yüzeyinden ne kadar ışığın yansıdıgını hesaplar, yansıma miktarı fazla ise beyaza (yani 1'e) düşük ise siyaha (yani 0'a) kayan bir grayscale map verir. Yaptıgı işlemler şöyle gerçekleşir, kameranın bakış açısı ile yüzeyin bakış açısını baz alarak, aralarındaki paralellik yüksekse siyaha (yani 0'a) kayan, aralarındaki paralellik düşükse (en fazla 90 dereceye kadar) beyaza kayan (yani 1'e) grayscale map verir. Yani kameranın bakış açısı ile yüzeyin bakış açısının paralelligini kontrol eder. Bu işlem genellikle obje'nin kenarlarından ortasına doğru beyazdan siyaha kayan bir renk map'i oluşturur.
 
 
 * #### Fac (Output)
@@ -211,6 +212,49 @@ Fresnel efekti için keskinlik derecesini ayarlar. Degeri düştükçe fresnel e
 Bilmiyorum.
 
 
+
+## [Light Path](https://docs.blender.org/manual/en/latest/render/shader_nodes/input/light_path.html)
+Kameranın yolladığı ışık ışınları (ray) ile ilgili bilgiler verir.
+
+
+* #### Is Camera Ray (Output)
+Işıgın geldiği noktanın tam olarak mesh'e ait olup olmadığını kontrol eder. Yani eger ışık kameraya mesh üzerinden geliyorsa yani yansıma yoksa ve orijinal konum dışında bir yerden gelmiyorsa 1 döndürür, eger yansıma ile geliyorsa yani orijinal konumdan gelmiyorsa 0 döndürür.
+
+* #### Is Shadow Ray (Output)
+Işığın geldiği noktanın gölge olan kısma ait olup olmadığını kontrol eder (hem mesh'in üzerindeki hem yerdeki). Eger ışık kameraya gölge olan kısımdan geliyorsa 1, gölge olmayan kısımdan geliyorsa 0 döndürür.
+
+* #### Is Diffuse Ray (Output)
+Işığın geldiği noktanın direktmen mesh'e mi ait yoksa başka bir yerden sekerek gelen bir ışıga mı ait olup olmadığını kontrol eder. Yani eger ışık ışını (ray) direktmen mesh'e değiyorsa 0 döndürür, eger başka bir yerden sekip değiyorsa 1 döndürür. Mesela bunu kullanıp iki shader'ı birleştirirken mix faktörü olarak kullanırsan, mesh'e yeşil renk ve mesh dışındaki her şeye mesh'i kırmızı olarak yansıtabilirsin.
+
+* #### Is Glossy Ray (Output)
+Bilmiyorum.
+
+* #### Is Singular Ray (Output)
+Bilmiyorum.
+
+* #### Is Reflection Ray (Output)
+Bilmiyorum.
+
+* #### Is Transmission Ray (Output)
+Bilmiyorum.
+
+* #### Ray Length (Output)
+Işık ışınının (ray) gittiği mesafe degeri. 0'dan başlayıp sonsuza kadar artabilir.
+
+* #### Ray Depth (Output)
+Işık ışınının (ray) toplamda kaç defa sektigini veya kaç şeyin içinden geçtigini gösterir. Mesela direktmen kameraya geldiyse 1 döndürür, kameranın önünde cam varsa ve camdan geldiyse 2 döndürür. Bu sayı sonsuza kadar artabilir.
+
+* #### Diffuse Depth (Output)
+Bilmiyorum.
+
+* #### Glossy Depth (Output)
+Bilmiyorum.
+
+* #### Transparent Depth (Output)
+Işık ışınının (ray) toplamda kaç saydam şeyin içinden geçtiğini gösterir.
+
+* #### Transmission Depth (Output)
+Bilmiyorum.
 
 
 

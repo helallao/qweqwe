@@ -20,6 +20,10 @@
 * [Volume Info](#volume-info)
 * [Wireframe](#wireframe)
 
+# [Output](#output)
+# [Shader](#shader)
+* [Add Shader](#add-shader)
+
 
 <br>
 <br>
@@ -374,19 +378,32 @@ Bilmiyorum.
 Bilmiyorum.
 
 
+<br>
+<br>
 
 
+# Output
 
 
+<br>
+<br>
 
 
+# Shader
 
 
+## [Add Shader](https://docs.blender.org/manual/en/latest/render/shader_nodes/shader/add.html)
+Verilen iki shader'ı toplar, birbirlerine ekler. Sonuç daha parlak olur.
 
 
+* #### Shader (Output)
+Sonuç.
 
+* #### Shader (Socket Input)
+Bilmiyorum.
 
-
+* #### Shader 2 (Socket Input)
+Bilmiyorum.
 
 
 

@@ -9,6 +9,7 @@
 * [Geometry](#geometry)
 * [Layer Weight](#layer-weight)
 * [Light Path](#light-path)
+* [Object Info](#object-info)
 
 
 <br>
@@ -255,6 +256,40 @@ Işık ışınının (ray) toplamda kaç saydam şeyin içinden geçtiğini gös
 
 * #### Transmission Depth (Output)
 Bilmiyorum.
+
+
+
+## [Object Info](https://docs.blender.org/manual/en/latest/render/shader_nodes/input/object_info.html)
+Obje hakkında bilgiler verir.
+
+
+* #### Location (Output)
+Objenin orijin noktasını verir. Geometry'deki ["Position"](#position-output) gibi her nokta için konum vermez, sadece objenin orijin noktasını verir.
+
+* #### Color (Output)
+Objenin ayarlardan ayarlanmış renk degerini verir.
+
+* #### Alpha (Output)
+Bilmiyorum.
+
+* #### Object Index (Output)
+Objenin ayarlardan ayarlanmış "pass index" degerini verir.
+
+* #### Material Index (Output)
+Objenin material ayarlarından ayarlanmış "pass index" degerini verir.
+
+* #### Random (Output)
+Bu shader'ı kullanan her obje için 0 ile 1 arası rastgele deger verir.
+
+
+
+
+
+
+
+
+
+
 
 
 

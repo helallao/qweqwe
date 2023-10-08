@@ -7,6 +7,7 @@
 * [Curves Info](#curves-info)
 * [Fresnel](#fresnel)
 * [Geometry](#geometry)
+* [Layer Weight](#layer-weight)
 
 
 <br>
@@ -194,16 +195,20 @@ Bu shader'ı kullanan her obje için 0 ile 1 arasında rastgele deger verir.
 
 
 ## [Layer Weight](https://docs.blender.org/manual/en/latest/render/shader_nodes/input/layer_weight.html)
-[Fresnel](#fresnel) gibidir. Ek olarak açıya göre deger döndürme modu da vardır.
+[Fresnel](#fresnel) gibidir. Ek olarak keskinlik ayarı da vardır. IOR input'u yerine "Blend" input'unu kullanır.
 
 
 * #### Fresnel (Output)
-[Fresnel](#fresnel) ile aynı mantıkta çalışır, [Fresnel'in](#fresnel) [Fac](#fac) output'u ile aynıdır.
+[Fresnel](#fresnel) ile aynı mantıkta çalışır, Fresnel'in [Fac](#fac-output-1) output'u ile aynıdır.
 
+* #### Facing (Output)
+[Fresnel](#fresnel) ile aynı mantıkta çalışır ama daha keskindir. Normal Fresnel yüzeyleri bir bütün gibi etkilerken bu özellik her bir noktayı etkilermiş gibi output verir. Yani noktanın baktığı yön ile kameranın baktığı yönün paralelligi birazcık azalsa hemen fark eder. Bu da fresnel efektinin dairesel olarak dağıldığını bile görebilmemizi sağlar.
 
+* #### Blend (Socket Input)
+Fresnel efekti için keskinlik derecesini ayarlar. Degeri düştükçe fresnel efekti şiddetlenir, arttıkça fresnel efekti azalır.
 
-
-
+* #### Normal (Socket Input)
+Bilmiyorum.
 
 
 

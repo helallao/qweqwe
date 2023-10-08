@@ -24,6 +24,8 @@
 
 # [Shader](#shader-1)
 * [Add Shader](#add-shader)
+* [Anisotropic BSDF](#anisotropic-bsdf)
+* [Diffuse BSDF](#diffuse-bsdf)
 
 
 <br>
@@ -408,7 +410,13 @@ Bilmiyorum.
 
 
 
+## [Anisotropic BSDF](https://docs.blender.org/manual/en/latest/render/shader_nodes/shader/anisotropic.html)
+Bilmiyorum.
 
+
+
+## [Diffuse BSDF](https://docs.blender.org/manual/en/latest/render/shader_nodes/shader/diffuse.html)
+Bilmiyorum.
 
 
 

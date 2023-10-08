@@ -15,6 +15,8 @@
 * [RGB](#rgb)
 * [Tangent](#tangent)
 * [Texture Coordinate](#texture-coordinate)
+* [UV Map](#uv-map)
+* [Value](#value)
 
 
 <br>
@@ -338,6 +340,29 @@ Bilmiyorum.
 
 * #### From Instancer (Node Input)
 Bilmiyorum.
+
+
+
+## [UV Map](https://docs.blender.org/manual/en/latest/render/shader_nodes/input/uv_map.html)
+Bilmiyorum.
+
+
+* #### UV (Output)
+Bilmiyorum.
+
+* #### From Instancer (Node Input)
+Bilmiyorum.
+
+* #### Text Input (Node Input)
+Bilmiyorum.
+
+
+
+## [Value](https://docs.blender.org/manual/en/latest/render/shader_nodes/input/value.html)
+Float veri tipinde bir deger oluşturmanıza yarar, yani sayı degeri oluşturmanıza yarar. Oluşturduğunuz degeri sayı input'u (gri) olan herhangi bir node'a bağlayabilirsiniz.
+
+
+
 
 
 

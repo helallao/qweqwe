@@ -525,3 +525,12 @@ Karıştırılacak 2. shader.
 
 
 
+
+
+
+
+
+
+
+
+

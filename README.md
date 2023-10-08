@@ -13,6 +13,7 @@
 * [Particle Info](#particle-info)
 * [Point Info](#point-info)
 * [RGB](#rgb)
+* [Tangent](#tangent)
 
 
 <br>
@@ -298,6 +299,20 @@ Bilmiyorum.
 
 ## [RGB](https://docs.blender.org/manual/en/latest/render/shader_nodes/input/rgb.html)
 Renk veri tipinde bir deger oluşturmanıza yarar, yani renk oluşturmanıza yarar. Oluşturduğunuz rengi renk input'u olan herhangi bir node'a bağlayabilirsiniz.
+
+
+
+## [Tangent](https://docs.blender.org/manual/en/latest/render/shader_nodes/input/tangent.html)
+Bilmiyorum.
+
+
+
+
+
+
+
+
+
 
 
 

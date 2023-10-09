@@ -29,6 +29,7 @@
 # [Shader](#shader-1)
 * [Add Shader](#add-shader)
 * [Anisotropic BSDF](#anisotropic-bsdf)
+* [Background](#background)
 * [Diffuse BSDF](#diffuse-bsdf)
 * [Emission](#emission)
 * [Glass BSDF](#glass-bsdf)
@@ -453,10 +454,12 @@ Bilmiyorum.
 Bilmiyorum.
 
 
+## [Background](https://docs.blender.org/manual/en/latest/render/shader_nodes/shader/background.html)
+(World moduna özeldir) Bilmiyorum.
+
 
 ## [Diffuse BSDF](https://docs.blender.org/manual/en/latest/render/shader_nodes/shader/diffuse.html)
 Bilmiyorum.
-
 
 
 ## [Emission](https://docs.blender.org/manual/en/latest/render/shader_nodes/shader/emission.html)

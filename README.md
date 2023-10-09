@@ -39,6 +39,7 @@
 * [Subsurface Scattering](#subsurface-scattering)
 * [Toon BSDF](#toon-bsdf)
 * [Translucent BSDF](#translucent-bsdf)
+* [Transparent BSDF](#transparent-bsdf)
 
 
 <br>
@@ -738,8 +739,15 @@ Bilmiyorum.
 
 
 
+## [Transparent BSDF](https://docs.blender.org/manual/en/latest/render/shader_nodes/shader/transparent.html)
+Objeyi görünmez yapar.
 
 
+* #### BSDF (Output)
+Sonuç shader'ı.
+
+* #### Color (Socket Input)
+Ana renk. Eger renk beyaz olursa yani (1, 1, 1) tamamen görünmez olur. Eger herhangi bir renk verirseniz o renkte görünür.
 
 
 

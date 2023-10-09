@@ -532,23 +532,23 @@ GGX | Multiscatter GGX
 ‎GGX | Multiscatter GGX'e göre daha hızlı ama dogruluk bakımından onun kadar dogru degil. Bunu seçerseniz "Transmission Roughness" ayarı açılır. Multiscatter GGX'e göre shader daha koyu olur.
 ‎Multiscatter GGX | Bu mod GGX'e göre enerjiyi daha fazla muhafaza eder. Yani ışık ışınları enerjisi bitene kadar sekmeye devam eder. Bu da daha parlak ve gerçekçi bir görünüm ile sonuçlanır. Roughness degeri düşük olan shader'larda ışınların sekmesi zor olacağı için etkisini de kaybeder, yani roughness degeri yüksek olan shader'larda etkisi daha belli olur. Hesaplama bakımından GGX'e göre 2.5% daha yavaştır.
 
-* #### Mode Input (Node Input)
+* #### Subsurface Method Mode (Node Input)
 asd
 
 * #### Base Color (Socket Input)
 Shader'ın ana rengi.
 
 * #### Subsurface (Socket Input)
-asd
+Bu deger arttıkça Subsurface Scattering etkisi de artar. Subsurface etkisi şudur, arkadan ışık vurunca objenin iç renginin yüzeye vurması ve yüzeyin biraz bu renge kaymasıdır. Mesela insan derisi örnek verilebilir, parmağınızı herhangi bir ışığın üstüne koydugunuzda parmagınız kırmızı şekilde ışıgı yansıtır. İşte buna Subsurface Scattering (SSS) deniyor.
 
 * #### Subsurface Radius (Socket Input)
-asd
+İnput olarak 3 boyutlu vektör alır. Her bir kanal kırmızı, yeşil ve mavi ışığın Subsurface etkisi derecesini belirler. Yani mesela default olarak verilen deger (1.0, 0.2, 0.1) dir. Bu da kırmızı ışığın daha fazla Subsurface Scattering etkisi yapacağını gösterir.
 
 * #### Subsurface Color (Socket Input)
-asd
+Subsurface Scattering etkisi için kullanılacak renk.
 
 * #### Subsurface IOR (Socket Input)
-asd
+[Index of Refraction](https://en.wikipedia.org/wiki/Refractive_index) degerini ayarlar, yani ışığın yönünün obje içinden geçerken kırılma derecesini.
 
 * #### Subsurface Anisotropy (Socket Input)
 asd

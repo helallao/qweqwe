@@ -557,46 +557,46 @@ asd
 Objeyi metalik hale getirir.
 
 * #### Specular (Socket Input)
-asd
+Işığı yansıtma derecesi. 0 iken hiç yansıtmaz, arttıkça daha fazla yansıtır.
 
 * #### Specular Tint (Socket Input)
-asd
+Yansıyan ışıga yüzeyin rengini verme derecesi. 0 iken yansıyan ışığın rengini degiştirmez. 1 iken yansıyan ışığa yüzeyin de rengini ekler. Yani yansıtırken kendi rengini de ekler.
 
 * #### Roughness (Socket Input)
 Objenin yüzeyinin ne kadar pürüzlü olduğunu ayarlar. 0 iken pürüzsüzdür ve yansıtma özelligi artar. 1 iken çok pürüzlüdür ve yansıtma özelligi azalır.
 
 * #### Anisotropic (Socket Input)
-asd
+Anisotropic ve Anisotropic Rotation ayarları ışığın yansıtma yönünü değiştirmek ile ilgilidir. Anisotropic Rotation ayarı yönü degiştirir. Anisotropic ayarı ise bu yön degiştirmenin ne kadar etkili olacağını belirler.
 
 * #### Anisotropic Rotation (Socket Input)
-asd
+Anisotropic ve Anisotropic Rotation ayarları ışığın yansıtma yönünü değiştirmek ile ilgilidir. Anisotropic Rotation ayarı yönü degiştirir. Anisotropic ayarı ise bu yön degiştirmenin ne kadar etkili olacağını belirler.
 
 * #### Sheen (Socket Input)
-asd
+Bu ayar genellikle giyisi tarzı shader'larda kullanılıyor. Kenarlara ışığın yansımasından dolayı parlaklık efekti ekler.
 
 * #### Sheen Tint (Socket Input)
-asd
+Aynı Specular Tint gibi, Sheen etkisinin verdigi parlaklığa yüzeyin de rengini eklemesine sebep olur.
 
 * #### Clearcoat (Socket Input)
-asd
+Clearcoat sanki yüzey bir şey ile kaplanmış gibi görünmesine sebep olur. İkincil bir yüzey oluşturur. Araba boyası gibi.
 
 * #### Clearcoat Roughness (Socket Input)
-asd
+Clearcoat için Roughness degeri.
 
 * #### IOR (Socket Input)
-asd
+[Index of Refraction](https://en.wikipedia.org/wiki/Refractive_index) degerini ayarlar, yani ışığın yönünün obje içinden geçerken kırılma derecesini.
 
 * #### Transmission (Socket Input)
-asd
+Objeyi saydam yapar.
 
 * #### Transmission Roughness (Socket Input)
-asd
+Transmission için Roughness degeri.
 
 * #### Emission (Socket Input)
-asd
+Emission ayarı Base Color gibidir. Yüzey rengini ayarlar. Emission Strength ayarı ile yüzey renginin şiddetini arttırabiliriz. Şiddet arttıkça renk neon gibi parlamaya başlar ve ışık saçar.
 
 * #### Emission Strength (Socket Input)
-asd
+Emission şiddeti.
 
 * #### Alpha (Socket Input)
 asd

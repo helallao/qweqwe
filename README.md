@@ -37,6 +37,7 @@
 * [Principled Volume](#principled-volume)
 * [Refraction BSDF](#refraction-bsdf)
 * [Subsurface Scattering](#subsurface-scattering)
+* [Toon BSDF](#toon-bsdf)
 
 
 <br>
@@ -692,12 +693,34 @@ Subsurface Scattering etkisi derecesi.
 * #### Anisotropy (Socket Input)
 Subsurface Scattering etkisi için ışığın yansıma yönünü değiştirme derecesi.
 
+* #### Normal (Socket Input)
+Bilmiyorum.
 
 
 
+## [Toon BSDF](https://docs.blender.org/manual/en/latest/render/shader_nodes/shader/toon.html)
+Yansımaları keskin bir şekilde hesaplayan bir shader türüdür. Çizgi film tarzı, çok detaya kaçmadan olabildigince sade bir şekilde görünüm verir. Keskinligini Smooth input'u ile ayarlayabilirsiniz.
 
 
+* #### BSDF (Output)
+Sonuç shader'ı.
 
+* #### Component Mode (Node Input)
+Mod | Açıklama
+:---: | :---:
+‎Diffuse | [Diffuse BSDF](#diffuse-bsdf) türünde shader kullanır. Yani tek renk.
+Glossy | [Glossy BSDF](#glossy-bsdf) türünde shader kullanır. Yani ayna gibi.
 
+* #### Color (Socket Input)
+Ana renk.
+
+* #### Size (Socket Input)
+Yansımaların boyutu.
+
+* #### Smooth (Socket Input)
+Keskinliği azaltır, yumuşaklık ekler. 0'da iken yansımalar keskin, arttıkça daha yumuşak olur.
+
+* #### Normal (Socket Input)
+Bilmiyorum.
 
 

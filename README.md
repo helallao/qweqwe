@@ -519,10 +519,96 @@ Karıştırılacak 2. shader.
 
 
 
+## [Principled BSDF](https://docs.blender.org/manual/en/latest/render/shader_nodes/shader/principled.html)
+Birçok shader türünün birleşimi olan tek bir shader'dır. En çok kullanılan shader budur.
 
 
+* #### BSDF (Output)
+Sonuç shader'ı.
+
+* #### Distribution Mode (Node Input)
+asd
+
+* #### Mode Input (Node Input)
+asd
+
+* #### Base Color (Socket Input)
+Shader'ın ana rengi.
+
+* #### Subsurface (Socket Input)
+asd
+
+* #### Subsurface Radius (Socket Input)
+asd
+
+* #### Subsurface Color (Socket Input)
+asd
+
+* #### Subsurface IOR (Socket Input)
+asd
+
+* #### Subsurface Anisotropy (Socket Input)
+asd
+
+* #### Metallic (Socket Input)
+asd
+
+* #### Specular (Socket Input)
+asd
+
+* #### Specular Tint (Socket Input)
+asd
+
+* #### Roughness (Socket Input)
+asd
+
+* #### Anisotropic (Socket Input)
+asd
+
+* #### Anisotropic Rotation (Socket Input)
+asd
+
+* #### Sheen (Socket Input)
+asd
+
+* #### Sheen Tint (Socket Input)
+asd
+
+* #### Clearcoat (Socket Input)
+asd
+
+* #### Clearcoat Roughness (Socket Input)
+asd
+
+* #### IOR (Socket Input)
+asd
+
+* #### Transmission (Socket Input)
+asd
+
+* #### Transmission Roughness (Socket Input)
+asd
+
+* #### Emission (Socket Input)
+asd
+
+* #### Emission Strength (Socket Input)
+asd
+
+* #### Alpha (Socket Input)
+asd
+
+* #### Normal (Socket Input)
+asd
+
+* #### Clearcoat Normal (Socket Input)
+asd
+
+* #### Tangent (Socket Input)
+asd
 
 
+https://pixelandpoly.com/ior.html
 
 
 

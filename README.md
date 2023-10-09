@@ -21,6 +21,10 @@
 * [Wireframe](#wireframe)
 
 # [Output](#output-1)
+* [AOV Output](#aov-output)
+* [Light Output](#light-output)
+* [Material Output](#material-output)
+* [World Output](#world-output)
 
 # [Shader](#shader-1)
 * [Add Shader](#add-shader)
@@ -403,6 +407,23 @@ Bilmiyorum.
 
 
 # Output
+Bu kategorideki node'lar oluşturulan shader'ın bağlandığı output node'larının olduğu kategoridir.
+
+
+## [AOV Output](https://docs.blender.org/manual/en/latest/render/shader_nodes/output/aov.html)
+Bilmiyorum.
+
+
+## [Light Output](https://docs.blender.org/manual/en/latest/render/shader_nodes/output/light.html)
+Bilmiyorum.
+
+
+## [Material Output](https://docs.blender.org/manual/en/latest/render/shader_nodes/output/material.html)
+Bilmiyorum.
+
+
+## [World Output](https://docs.blender.org/manual/en/latest/render/shader_nodes/output/world.html)
+(World moduna özeldir) Bilmiyorum.
 
 
 <br>

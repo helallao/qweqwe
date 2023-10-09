@@ -305,19 +305,19 @@ Obje hakkında bilgiler verir.
 Objenin orijin noktasını verir. Geometry'deki ["Position"](#position-output) gibi her nokta için konum vermez, sadece objenin orijin noktasını verir.
 
 * #### Color (Output)
-Objenin ayarlardan ayarlanmış renk degerini verir.
+Objenin ayarlarından ayarlanmış renk degerini verir.
 
 * #### Alpha (Output)
 Bilmiyorum.
 
 * #### Object Index (Output)
-Objenin ayarlardan ayarlanmış "pass index" degerini verir.
+Objenin ayarlarından ayarlanmış "pass index" degerini verir.
 
 * #### Material Index (Output)
 Objenin material ayarlarından ayarlanmış "pass index" degerini verir.
 
 * #### Random (Output)
-Bu shader'ı kullanan her obje için 0 ile 1 arası rastgele deger verir.
+Bu shader'ı kullanan her obje için birbirinden farklı olmak üzere 0 ile 1 arası rastgele deger verir.
 
 
 
@@ -358,7 +358,7 @@ Bilmiyorum.
 Bilmiyorum.
 
 * #### Camera (Output)
-Kameranın bakış açısına göre texture'u yerleştirmeye yarar, nereden bakarsan bak aynı görünür.
+Kameranın bakış açısına göre texture'u yerleştirmeye yarar, nereden bakarsak bakalım aynı görünür.
 
 * #### Window (Output)
 "Camera" output'u ile aynıdır, tek farkı ekran büyüklüğüne göre boyutları x ve y eksenlerinde oranlar.
@@ -384,7 +384,7 @@ Bilmiyorum.
 * #### From Instancer (Node Input)
 Bilmiyorum.
 
-* #### Text Input (Node Input)
+* #### UV Map (Node Input)
 Bilmiyorum.
 
 
@@ -415,12 +415,15 @@ Bu kategorideki node'lar oluşturulan shader'ın bağlandığı output node'lar�
 Bilmiyorum.
 
 
+
 ## [Light Output](https://docs.blender.org/manual/en/latest/render/shader_nodes/output/light.html)
 Bilmiyorum.
 
 
+
 ## [Material Output](https://docs.blender.org/manual/en/latest/render/shader_nodes/output/material.html)
 Bilmiyorum.
+
 
 
 ## [World Output](https://docs.blender.org/manual/en/latest/render/shader_nodes/output/world.html)
@@ -432,7 +435,7 @@ Bilmiyorum.
 
 
 # Shader
-Bu kategorideki node'lar ana shader türlerini barındırır. Bu shader node'ları ile farklı shader türlerini kullanarak istedigimiz shader'ı yapabiliriz. En fazla kullanılan shader türü [Principled BSDF'dir](a) çünkü birçok shader türünü kendi içerisinde barındırır. Principled BSDF bu kategorideki birçok shader türü node'larının yerine kullanılabilir, dolayısıyla birçok node zaten gereksiz gibi düşünebilirsiniz ama öyle degil. Bazı node'larda Principled BSDF node'unda olmayan özellikler de var, dolayısıyla bu özellikleri kullanmak için o node'lara da ihtiyacımız var.
+Bu kategorideki node'lar ana shader türlerini barındırır. Bu shader node'ları ile farklı shader türlerini kullanarak istedigimiz shader'ı yapabiliriz. En fazla kullanılan shader türü [Principled BSDF'dir](#principled-bsdf) çünkü birçok shader türünü kendi içerisinde barındırır. Principled BSDF bu kategorideki birçok shader türü node'larının yerine kullanılabilir, dolayısıyla birçok node zaten gereksiz gibi düşünebilirsiniz ama öyle degil. Bazı node'larda Principled BSDF node'unda olmayan özellikler de var, dolayısıyla bu özellikleri kullanmak için o node'lara da ihtiyacımız var.
 
 
 ## [Add Shader](https://docs.blender.org/manual/en/latest/render/shader_nodes/shader/add.html)
@@ -440,13 +443,13 @@ Verilen iki shader'ı toplar, birbirlerine ekler. Sonuç daha parlak olur.
 
 
 * #### Shader (Output)
-Sonuç.
+Sonuç shader'ı.
 
 * #### Shader (Socket Input)
-Bilmiyorum.
+Toplanacak shader.
 
 * #### Shader 2 (Socket Input)
-Bilmiyorum.
+Toplanacak shader.
 
 
 
@@ -454,16 +457,19 @@ Bilmiyorum.
 Bilmiyorum.
 
 
+
 ## [Background](https://docs.blender.org/manual/en/latest/render/shader_nodes/shader/background.html)
 (World moduna özeldir) Bilmiyorum.
+
 
 
 ## [Diffuse BSDF](https://docs.blender.org/manual/en/latest/render/shader_nodes/shader/diffuse.html)
 Bilmiyorum.
 
 
+
 ## [Emission](https://docs.blender.org/manual/en/latest/render/shader_nodes/shader/emission.html)
-Bilmiyorum.
+Emission [Diffuse BSDF](#diffuse-bsdf) gibidir ama neona benzer. Emission yüzey rengini ayarlar, buna ek olarak "Strength" ayarı ile yüzey renginin şiddetini arttırabiliriz. Şiddet arttıkça renk neon gibi parlamaya başlar ve ışık saçar.
 
 
 * #### Emission (Output)
@@ -491,7 +497,7 @@ Buradan farklı modlar kullanarak cam shader'ı oluşturabilirsiniz.
 Cam rengi.
 
 * #### Roughness (Socket Input)
-Camın arkasını ne kadar keskin gösterecegini etkiler. 0'da iken arkayı tam gösterir, yükselttikçe arkayı bulanık gösterir.
+Camın arkasını ne kadar keskin göstereceğini etkiler. 0'da iken arkayı tam gösterir, yükselttikçe arkayı bulanık gösterir.
 
 * #### IOR (Socket Input)
 [Index of Refraction](https://en.wikipedia.org/wiki/Refractive_index) degerini ayarlar, yani ışığın yönünün camın içinden geçerken kırılma derecesini.
@@ -502,7 +508,7 @@ Bilmiyorum.
 
 
 ## [Glossy BSDF](https://docs.blender.org/manual/en/latest/render/shader_nodes/shader/glossy.html)
-Ayna shader'ı oluşturmaya yarar. Yani yüzeyi ayna gibi gelen ışıgı yansıtan shader oluşturur.
+Ayna shader'ı oluşturmaya yarar. Yani yüzeyi ayna gibi gelen ışığı yansıtan shader oluşturur.
 
 
 * #### BSDF (Output)
@@ -515,7 +521,7 @@ Buradan farklı modlar kullanarak ayna shader'ı oluşturabilirsiniz.
 Ayna rengi.
 
 * #### Roughness (Socket Input)
-Aynanın ne kadar gösterecegini etkiler. 0'da iken pürüzsüz gösterir, yükselttikçe bulanık gösterir.
+Aynanın ne kadar keskin gösterecegini etkiler. 0'da iken pürüzsüz gösterir, yükselttikçe bulanık gösterir.
 
 * #### Normal (Socket Input)
 Bilmiyorum.
@@ -544,7 +550,7 @@ Verilen iki shader'ı birleştirir.
 Sonuç shader'ı.
 
 * #### Fac (Socket Input)
-Faktör degeri, bu deger 0'a kaydıkça 1. shader, 1'e kaydıkça 2. shader kullanılır. 0.5 yaparsanız iki shader'ın ortası olur. Bu şekilde istediginiz gibi oranlama yapabilirsiniz.
+Faktör degeri, bu deger 0'a kaydıkça 1. shader, 1'e kaydıkça 2. shader kullanılır. 0.5 yaparsanız iki shader'ın ortası olur. Bu şekilde istediğiniz gibi oranlama yapabilirsiniz.
 
 * #### Shader (Socket Input)
 Karıştırılacak 1. shader.
@@ -565,30 +571,30 @@ Sonuç shader'ı.
 Mod | Açıklama
 :---: | :---:
 ‎GGX | Multiscatter GGX'e göre daha hızlı ama dogruluk bakımından onun kadar dogru degil. Bunu seçerseniz "Transmission Roughness" ayarı açılır. Multiscatter GGX'e göre shader daha koyu olur.
-‎Multiscatter GGX | Bu mod GGX'e göre enerjiyi daha fazla muhafaza eder. Yani ışık ışınları enerjisi bitene kadar sekmeye devam eder. Bu da daha parlak ve gerçekçi bir görünüm ile sonuçlanır. Roughness degeri düşük olan shader'larda ışınların sekmesi zor olacağı için etkisini de kaybeder, yani roughness degeri yüksek olan shader'larda etkisi daha belli olur. Hesaplama bakımından GGX'e göre 2.5% daha yavaştır.
+‎Multiscatter GGX | Bu mod GGX'e göre enerjiyi daha fazla muhafaza eder. Yani ışık ışınları enerjisi bitene kadar sekmeye devam eder. Bu da daha parlak ve gerçekçi bir görünüm ile sonuçlanır. "Roughness" degeri düşük olan shader'larda ışınların sekmesi zor olacağı için etkisini de kaybeder, yani "Roughness" degeri yüksek olan shader'larda etkisi daha belli olur. Hesaplama bakımından GGX'e göre 2.5% daha yavaştır.
 
 <img src="Dosyalar/DistributionTypes.png">
 
 * #### Subsurface Method Mode (Node Input)
-asd
+Bilmiyorum.
 
 * #### Base Color (Socket Input)
 Shader'ın ana rengi.
 
 * #### Subsurface (Socket Input)
-Bu deger arttıkça Subsurface Scattering etkisi de artar. Subsurface Scattering etkisi şudur, arkadan ışık vurunca objenin iç renginin yüzeye vurması ve yüzeyin biraz bu renge kaymasıdır. Mesela insan derisi örnek verilebilir, parmağınızı herhangi bir ışığın üstüne koydugunuzda parmagınız kırmızı şekilde ışıgı yansıtır. İşte buna Subsurface Scattering (SSS) deniyor.
+Bu deger arttıkça "Subsurface Scattering" etkisi de artar. "Subsurface Scattering" etkisi şudur, arkadan ışık vurunca objenin iç renginin yüzeye vurması ve yüzeyin biraz bu renge kaymasıdır. Mesela insan derisi örnek verilebilir, parmağınızı herhangi bir ışığın üstüne koyduğunuzda parmağınız kırmızı şekilde ışığı yansıtır. İşte buna "Subsurface Scattering" (SSS) deniyor.
 
 * #### Subsurface Radius (Socket Input)
-İnput olarak 3 boyutlu vektör alır. Her bir kanal kırmızı, yeşil ve mavi ışığın Subsurface Scattering etkisi derecesini belirler. Yani mesela default olarak verilen deger (1.0, 0.2, 0.1) dir. Bu da kırmızı ışığın daha fazla Subsurface Scattering etkisi yapacağını gösterir.
+İnput olarak 3 boyutlu vektör alır. Her bir kanal kırmızı, yeşil ve mavi ışığın "Subsurface Scattering" etkisi derecesini belirler. Yani mesela default olarak verilen deger (1.0, 0.2, 0.1) dir. Bu da kırmızı ışığın daha fazla "Subsurface Scattering" etkisi yapacağını gösterir.
 
 * #### Subsurface Color (Socket Input)
-Subsurface Scattering etkisi için kullanılacak renk.
+"Subsurface Scattering" etkisi için kullanılacak renk.
 
 * #### Subsurface IOR (Socket Input)
 [Index of Refraction](https://en.wikipedia.org/wiki/Refractive_index) degerini ayarlar, yani ışığın yönünün obje içinden geçerken kırılma derecesini.
 
 * #### Subsurface Anisotropy (Socket Input)
-Subsurface Scattering etkisi için ışığın yansıma yönünü değiştirme derecesi.
+"Subsurface Scattering" etkisi için ışığın yansıma yönünü değiştirme derecesi.
 
 * #### Metallic (Socket Input)
 Objeyi metalik hale getirir.
@@ -597,28 +603,28 @@ Objeyi metalik hale getirir.
 Işığı yansıtma derecesi. 0 iken hiç yansıtmaz, arttıkça daha fazla yansıtır.
 
 * #### Specular Tint (Socket Input)
-Yansıyan ışıga yüzeyin rengini verme derecesi. 0 iken yansıyan ışığın rengini degiştirmez. 1 iken yansıyan ışığa yüzeyin de rengini ekler. Yani yansıtırken kendi rengini de ekler.
+Yansıyan ışığa yüzeyin rengini verme derecesi. 0 iken yansıyan ışığın rengini degiştirmez. 1 iken yansıyan ışığa yüzeyin de rengini ekler. Yani yansıtırken kendi rengini de ekler.
 
 * #### Roughness (Socket Input)
 Objenin yüzeyinin ne kadar pürüzlü olduğunu ayarlar. 0 iken pürüzsüzdür ve yansıtma özelligi artar. 1 iken çok pürüzlüdür ve yansıtma özelligi azalır.
 
 * #### Anisotropic (Socket Input)
-Anisotropic ve Anisotropic Rotation ayarları ışığın yansıtma yönünü değiştirmek ile ilgilidir. Anisotropic Rotation ayarı yönü degiştirir. Anisotropic ayarı ise bu yön degiştirmenin ne kadar etkili olacağını belirler.
+"Anisotropic" ve "Anisotropic Rotation" ayarları ışığın yansıtma yönünü değiştirmek ile ilgilidir. "Anisotropic Rotation" ayarı yönü degiştirir. "Anisotropic" ayarı ise bu yön degiştirmenin ne kadar etkili olacağını belirler.
 
 * #### Anisotropic Rotation (Socket Input)
-Anisotropic ve Anisotropic Rotation ayarları ışığın yansıtma yönünü değiştirmek ile ilgilidir. Anisotropic Rotation ayarı yönü degiştirir. Anisotropic ayarı ise bu yön degiştirmenin ne kadar etkili olacağını belirler.
+"Anisotropic" ve "Anisotropic Rotation" ayarları ışığın yansıtma yönünü değiştirmek ile ilgilidir. "Anisotropic Rotation" ayarı yönü degiştirir. "Anisotropic" ayarı ise bu yön degiştirmenin ne kadar etkili olacağını belirler.
 
 * #### Sheen (Socket Input)
-Bu ayar genellikle giyisi tarzı shader'larda kullanılıyor. Kenarlara ışığın yansımasından dolayı parlaklık efekti ekler.
+Bu ayar genellikle giysi tarzı shader'larda kullanılıyor. Kenarlara ışığın yansımasından dolayı parlaklık efekti ekler.
 
 * #### Sheen Tint (Socket Input)
-Aynı Specular Tint gibi, Sheen etkisinin verdigi parlaklığa yüzeyin de rengini eklemesine sebep olur.
+Aynı "Specular Tint" gibi, "Sheen" etkisinin verdigi parlaklığa yüzeyin de rengini eklemesine sebep olur.
 
 * #### Clearcoat (Socket Input)
 Clearcoat sanki yüzey bir şey ile kaplanmış gibi görünmesine sebep olur. İkincil bir yüzey oluşturur. Araba boyası gibi.
 
 * #### Clearcoat Roughness (Socket Input)
-Clearcoat için Roughness degeri.
+"Clearcoat" için Roughness degeri.
 
 * #### IOR (Socket Input)
 [Index of Refraction](https://en.wikipedia.org/wiki/Refractive_index) degerini ayarlar, yani ışığın yönünün obje içinden geçerken kırılma derecesini. [Buradan](https://pixelandpoly.com/ior.html) gerçek hayattaki birçok materyalin IOR degerine ulaşabilirsiniz.
@@ -630,7 +636,7 @@ Objeyi saydam yapar.
 Transmission için Roughness degeri.
 
 * #### Emission (Socket Input)
-Emission ayarı Base Color gibidir. Yüzey rengini ayarlar. Emission Strength ayarı ile yüzey renginin şiddetini arttırabiliriz. Şiddet arttıkça renk neon gibi parlamaya başlar ve ışık saçar.
+Emission ayarı Base Color gibidir. Yüzey rengini ayarlar. "Emission Strength" ayarı ile yüzey renginin şiddetini arttırabiliriz. Şiddet arttıkça renk neon gibi parlamaya başlar ve ışık saçar.
 
 * #### Emission Strength (Socket Input)
 Emission şiddeti.
@@ -639,10 +645,10 @@ Emission şiddeti.
 asd
 
 * #### Normal (Socket Input)
-Bu ayar sayesinde yüzeydeki noktalar için sahte yükseklik verebiliriz. Yani aslında yüksekligi olmayan yüzeyleri sanki yükseklikleri varmış gibi gösterebiliriz.
+Bu ayar sayesinde yüzeydeki noktalar için sahte yükseklik verebilirsiniz. Yani aslında yüksekligi olmayan yüzeyleri sanki yükseklikleri varmış gibi gösterebilirsiniz.
 
 * #### Clearcoat Normal (Socket Input)
-Clearcoat için Normal verebilmemize yarar.
+"Clearcoat" için Normal verebilmemize yarar.
 
 * #### Tangent (Socket Input)
 asd
@@ -677,7 +683,7 @@ Sonuç shader'ı.
 * #### Distribution Mode (Node Input)
 Mod | Açıklama
 :---: | :---:
-‎Sharp | Beckmann ve GGX'in aksine Roughness input'undan bağımsız olarak arkayı keskin gösterir.
+‎Sharp | Beckmann ve GGX'in aksine "Roughness" input'undan bağımsız olarak arkayı keskin gösterir.
 Beckmann | GGX'e göre koyu kısımları daha dogru gösterir. Test edip kendiniz görmelisiniz.
 GGX | Beckmann'e göre koyu kısımları daha az gösterir. Test edip kendiniz görmelisiniz.
 
@@ -696,7 +702,7 @@ Bilmiyorum.
 
 
 ## [Subsurface Scattering](https://docs.blender.org/manual/en/latest/render/shader_nodes/shader/sss.html)
-Subsurface Scattering etkisi oluşturmanıza yarar. Subsurface Scattering etkisi şudur, arkadan ışık vurunca objenin iç renginin yüzeye vurması ve yüzeyin biraz bu renge kaymasıdır. Mesela insan derisi örnek verilebilir, parmağınızı herhangi bir ışığın üstüne koydugunuzda parmagınız kırmızı şekilde ışıgı yansıtır. İşte buna Subsurface Scattering (SSS) deniyor.
+"Subsurface Scattering" etkisi oluşturmanıza yarar. "Subsurface Scattering" etkisi şudur, arkadan ışık vurunca objenin iç renginin yüzeye vurması ve yüzeyin biraz bu renge kaymasıdır. Mesela insan derisi örnek verilebilir, parmağınızı herhangi bir ışığın üstüne koyduğunuzda parmağınız kırmızı şekilde ışığı yansıtır. İşte buna "Subsurface Scattering" (SSS) deniyor.
 
 
 * #### BSSRDF (Output)
@@ -708,19 +714,19 @@ Mod | Açıklama
 ‎a | a
 
 * #### Color (Socket Input)
-Subsurface Scattering etkisi için kullanılacak renk.
+"Subsurface Scattering" etkisi için kullanılacak renk.
 
 * #### Scale (Socket Input)
-Subsurface Scattering etkisi derecesi.
+"Subsurface Scattering" etkisi derecesi.
 
 * #### Radius (Socket Input)
-İnput olarak 3 boyutlu vektör alır. Her bir kanal kırmızı, yeşil ve mavi ışığın Subsurface Scattering etkisi derecesini belirler. Yani mesela default olarak verilen deger (1.0, 0.2, 0.1) dir. Bu da kırmızı ışığın daha fazla Subsurface Scattering etkisi yapacağını gösterir.
+İnput olarak 3 boyutlu vektör alır. Her bir kanal kırmızı, yeşil ve mavi ışığın "Subsurface Scattering" etkisi derecesini belirler. Yani mesela default olarak verilen deger (1.0, 0.2, 0.1) dir. Bu da kırmızı ışığın daha fazla "Subsurface Scattering" etkisi yapacağını gösterir.
 
 * #### IOR (Socket Input)
 [Index of Refraction](https://en.wikipedia.org/wiki/Refractive_index) degerini ayarlar, yani ışığın yönünün obje içinden geçerken kırılma derecesini.
 
 * #### Anisotropy (Socket Input)
-Subsurface Scattering etkisi için ışığın yansıma yönünü değiştirme derecesi.
+"Subsurface Scattering" etkisi için ışığın yansıma yönünü değiştirme derecesi.
 
 * #### Normal (Socket Input)
 Bilmiyorum.
@@ -728,7 +734,7 @@ Bilmiyorum.
 
 
 ## [Toon BSDF](https://docs.blender.org/manual/en/latest/render/shader_nodes/shader/toon.html)
-Yansımaları keskin bir şekilde hesaplayan bir shader türüdür. Çizgi film tarzı, çok detaya kaçmadan olabildigince sade bir şekilde görünüm verir. Keskinligini Smooth input'u ile ayarlayabilirsiniz.
+Yansımaları keskin bir şekilde hesaplayan bir shader türüdür. Çizgi film tarzı, çok detaya kaçmadan olabildiğince sade bir şekilde görünüm verir. Keskinligini Smooth input'u ile ayarlayabilirsiniz.
 
 
 * #### BSDF (Output)
@@ -779,7 +785,7 @@ Ana renk. Eger renk beyaz olursa yani (1, 1, 1) tamamen görünmez olur. Eger he
 
 
 ## [Velvet BSDF](https://docs.blender.org/manual/en/latest/render/shader_nodes/shader/velvet.html)
-Objeye yansımalar ekler, sanki kıyafet shader'ı gibi.
+Objeye yansımalar ekler, sanki giysi shader'ı gibi.
 
 
 * #### BSDF (Output)

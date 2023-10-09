@@ -33,6 +33,9 @@
 * [Holdout](#holdout)
 * [Mix Shader](#mix-shader)
 * [Principled BSDF](#principled-bsdf)
+* [Principled Hair BSDF](#principled-hair-bsdf)
+* [Principled Volume](#principled-volume)
+* [Refraction BSDF](#refraction-bsdf)
 
 
 <br>
@@ -528,7 +531,7 @@ Birçok shader türünün birleşimi olan tek bir shader'dır. En çok kullanıl
 Sonuç shader'ı.
 
 * #### Distribution Mode (Node Input)
-GGX | Multiscatter GGX
+Mod | Açıklama
 :---: | :---:
 ‎GGX | Multiscatter GGX'e göre daha hızlı ama dogruluk bakımından onun kadar dogru degil. Bunu seçerseniz "Transmission Roughness" ayarı açılır. Multiscatter GGX'e göre shader daha koyu olur.
 ‎Multiscatter GGX | Bu mod GGX'e göre enerjiyi daha fazla muhafaza eder. Yani ışık ışınları enerjisi bitene kadar sekmeye devam eder. Bu da daha parlak ve gerçekçi bir görünüm ile sonuçlanır. Roughness degeri düşük olan shader'larda ışınların sekmesi zor olacağı için etkisini de kaybeder, yani roughness degeri yüksek olan shader'larda etkisi daha belli olur. Hesaplama bakımından GGX'e göre 2.5% daha yavaştır.
@@ -615,8 +618,49 @@ asd
 
 
 
+## [Principled Hair BSDF](https://docs.blender.org/manual/en/latest/render/shader_nodes/shader/hair_principled.html)
+Bilmiyorum.
 
 
+* #### BSDF (Output)
+Sonuç shader'ı.
+
+
+
+## [Principled Volume](https://docs.blender.org/manual/en/latest/render/shader_nodes/shader/volume_principled.html)
+Bilmiyorum.
+
+
+* #### BSDF (Output)
+Sonuç shader'ı.
+
+
+
+## [Refraction BSDF](https://docs.blender.org/manual/en/latest/render/shader_nodes/shader/refraction.html)
+Cam shader'ı oluşturmamıza yarar.
+
+
+* #### BSDF (Output)
+Sonuç shader'ı.
+
+* #### Distribution Mode (Node Input)
+Mod | Açıklama
+:---: | :---:
+‎Sharp | Beckmann ve GGX'in aksine Roughness input'undan bağımsız olarak arkayı keskin gösterir.
+Beckmann | GGX'e göre koyu kısımları daha dogru gösterir. Test edip kendiniz görmelisiniz.
+GGX | Beckmann'e göre koyu kısımları daha az gösterir. Test edip kendiniz görmelisiniz.
+
+* #### Color (Socket Input)
+Cam rengi.
+
+* #### Roughness (Socket Input)
+Camın arkasını ne kadar keskin gösterecegini etkiler. 0'da iken arkayı tam gösterir, yükselttikçe arkayı bulanık gösterir.
+
+* #### IOR (Socket Input)
+[Index of Refraction](https://en.wikipedia.org/wiki/Refractive_index) degerini ayarlar, yani ışığın yönünün camın içinden geçerken kırılma derecesini.
+
+* #### Normal (Socket Input)
+Bilmiyorum.
 
 
 

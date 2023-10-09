@@ -40,6 +40,9 @@
 * [Toon BSDF](#toon-bsdf)
 * [Translucent BSDF](#translucent-bsdf)
 * [Transparent BSDF](#transparent-bsdf)
+* [Velvet BSDF](#velvet-bsdf)
+* [Volume Absorption](#volume-absorption)
+* [Volume Scatter](#volume-scatter)
 
 
 <br>
@@ -751,13 +754,53 @@ Ana renk. Eger renk beyaz olursa yani (1, 1, 1) tamamen görünmez olur. Eger he
 
 
 
+## [Velvet BSDF](https://docs.blender.org/manual/en/latest/render/shader_nodes/shader/velvet.html)
+Objeye yansımalar ekler, sanki kıyafet shader'ı gibi.
+
+
+* #### BSDF (Output)
+Sonuç shader'ı.
+
+* #### Color (Socket Input)
+Ana renk.
+
+* #### Sigma (Socket Input)
+Yansıma ekleme derecesi, arttırdıkça daha fazla yansıma ekler.
+
+* #### Normal (Socket Input)
+Bilmiyorum.
 
 
 
+## [Volume Absorption](https://docs.blender.org/manual/en/latest/render/shader_nodes/shader/volume_absorption.html)
+asd
+
+
+* #### Volume (Output)
+Sonuç shader'ı.
+
+* #### Color (Socket Input)
+Ana renk.
+
+* #### Density (Socket Input)
+asd
 
 
 
+## [Volume Scatter](https://docs.blender.org/manual/en/latest/render/shader_nodes/shader/volume_scatter.html)
+asd
 
 
+* #### Volume (Output)
+Sonuç shader'ı.
+
+* #### Color (Socket Input)
+Ana renk.
+
+* #### Density (Socket Input)
+asd
+
+* #### Anisotropy (Socket Input)
+asd
 
 

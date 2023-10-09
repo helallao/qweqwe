@@ -38,6 +38,7 @@
 * [Refraction BSDF](#refraction-bsdf)
 * [Subsurface Scattering](#subsurface-scattering)
 * [Toon BSDF](#toon-bsdf)
+* [Translucent BSDF](#translucent-bsdf)
 
 
 <br>
@@ -720,7 +721,35 @@ Yansımaların boyutu.
 * #### Smooth (Socket Input)
 Keskinliği azaltır, yumuşaklık ekler. 0'da iken yansımalar keskin, arttıkça daha yumuşak olur.
 
+
+
+## [Translucent BSDF](https://docs.blender.org/manual/en/latest/render/shader_nodes/shader/translucent.html)
+Objeye saydamlık ekler. Saydam obje ışığı geçirebilir. Işık vurdugu zaman objenin yüzeyinde ışığın etkisini görebilirsiniz.
+
+
+* #### BSDF (Output)
+Sonuç shader'ı.
+
+* #### Color (Socket Input)
+Ana renk.
+
 * #### Normal (Socket Input)
 Bilmiyorum.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

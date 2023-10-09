@@ -527,7 +527,10 @@ Birçok shader türünün birleşimi olan tek bir shader'dır. En çok kullanıl
 Sonuç shader'ı.
 
 * #### Distribution Mode (Node Input)
-asd
+GGX | Multiscatter GGX
+:---: | :---:
+‎GGX | Multiscatter GGX'e göre daha hızlı ama dogruluk bakımından onun kadar dogru degil. Bunu seçerseniz "Transmission Roughness" ayarı açılır. Multiscatter GGX'e göre shader daha koyu olur.
+‎Multiscatter GGX | Bu mod GGX'e göre enerjiyi daha fazla muhafaza eder. Yani ışık ışınları enerjisi bitene kadar sekmeye devam eder. Bu da daha parlak ve gerçekçi bir görünüm ile sonuçlanır. Roughness degeri düşük olan shader'larda ışınların sekmesi zor olacağı için etkisini de kaybeder, yani roughness degeri yüksek olan shader'larda etkisi daha belli olur. Hesaplama bakımından GGX'e göre 2.5% daha yavaştır.
 
 * #### Mode Input (Node Input)
 asd

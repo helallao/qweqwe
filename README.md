@@ -36,6 +36,7 @@
 * [Principled Hair BSDF](#principled-hair-bsdf)
 * [Principled Volume](#principled-volume)
 * [Refraction BSDF](#refraction-bsdf)
+* [Subsurface Scattering](#subsurface-scattering)
 
 
 <br>
@@ -545,10 +546,10 @@ asd
 Shader'ın ana rengi.
 
 * #### Subsurface (Socket Input)
-Bu deger arttıkça Subsurface Scattering etkisi de artar. Subsurface etkisi şudur, arkadan ışık vurunca objenin iç renginin yüzeye vurması ve yüzeyin biraz bu renge kaymasıdır. Mesela insan derisi örnek verilebilir, parmağınızı herhangi bir ışığın üstüne koydugunuzda parmagınız kırmızı şekilde ışıgı yansıtır. İşte buna Subsurface Scattering (SSS) deniyor.
+Bu deger arttıkça Subsurface Scattering etkisi de artar. Subsurface Scattering etkisi şudur, arkadan ışık vurunca objenin iç renginin yüzeye vurması ve yüzeyin biraz bu renge kaymasıdır. Mesela insan derisi örnek verilebilir, parmağınızı herhangi bir ışığın üstüne koydugunuzda parmagınız kırmızı şekilde ışıgı yansıtır. İşte buna Subsurface Scattering (SSS) deniyor.
 
 * #### Subsurface Radius (Socket Input)
-İnput olarak 3 boyutlu vektör alır. Her bir kanal kırmızı, yeşil ve mavi ışığın Subsurface etkisi derecesini belirler. Yani mesela default olarak verilen deger (1.0, 0.2, 0.1) dir. Bu da kırmızı ışığın daha fazla Subsurface Scattering etkisi yapacağını gösterir.
+İnput olarak 3 boyutlu vektör alır. Her bir kanal kırmızı, yeşil ve mavi ışığın Subsurface Scattering etkisi derecesini belirler. Yani mesela default olarak verilen deger (1.0, 0.2, 0.1) dir. Bu da kırmızı ışığın daha fazla Subsurface Scattering etkisi yapacağını gösterir.
 
 * #### Subsurface Color (Socket Input)
 Subsurface Scattering etkisi için kullanılacak renk.
@@ -557,7 +558,7 @@ Subsurface Scattering etkisi için kullanılacak renk.
 [Index of Refraction](https://en.wikipedia.org/wiki/Refractive_index) degerini ayarlar, yani ışığın yönünün obje içinden geçerken kırılma derecesini.
 
 * #### Subsurface Anisotropy (Socket Input)
-Subsurface Scattering etkisi için ışığın yansıtma yönünü değiştirme derecesi.
+Subsurface Scattering etkisi için ışığın yansıma yönünü değiştirme derecesi.
 
 * #### Metallic (Socket Input)
 Objeyi metalik hale getirir.
@@ -661,6 +662,36 @@ Camın arkasını ne kadar keskin gösterecegini etkiler. 0'da iken arkayı tam 
 
 * #### Normal (Socket Input)
 Bilmiyorum.
+
+
+
+## [Subsurface Scattering](https://docs.blender.org/manual/en/latest/render/shader_nodes/shader/sss.html)
+Subsurface Scattering etkisi oluşturmanıza yarar. Subsurface Scattering etkisi şudur, arkadan ışık vurunca objenin iç renginin yüzeye vurması ve yüzeyin biraz bu renge kaymasıdır. Mesela insan derisi örnek verilebilir, parmağınızı herhangi bir ışığın üstüne koydugunuzda parmagınız kırmızı şekilde ışıgı yansıtır. İşte buna Subsurface Scattering (SSS) deniyor.
+
+
+* #### BSSRDF (Output)
+Sonuç shader'ı.
+
+* #### Subsurface Method (Node Input)
+Mod | Açıklama
+:---: | :---:
+‎a | a
+
+* #### Color (Socket Input)
+Subsurface Scattering etkisi için kullanılacak renk.
+
+* #### Scale (Socket Input)
+Subsurface Scattering etkisi derecesi.
+
+* #### Radius (Socket Input)
+İnput olarak 3 boyutlu vektör alır. Her bir kanal kırmızı, yeşil ve mavi ışığın Subsurface Scattering etkisi derecesini belirler. Yani mesela default olarak verilen deger (1.0, 0.2, 0.1) dir. Bu da kırmızı ışığın daha fazla Subsurface Scattering etkisi yapacağını gösterir.
+
+* #### IOR (Socket Input)
+[Index of Refraction](https://en.wikipedia.org/wiki/Refractive_index) degerini ayarlar, yani ışığın yönünün obje içinden geçerken kırılma derecesini.
+
+* #### Anisotropy (Socket Input)
+Subsurface Scattering etkisi için ışığın yansıma yönünü değiştirme derecesi.
+
 
 
 

@@ -32,6 +32,7 @@
 * [Hair BSDF](#hair-bsdf)
 * [Holdout](#holdout)
 * [Mix Shader](#mix-shader)
+* [Principled BSDF](#principled-bsdf)
 
 
 <br>
@@ -551,7 +552,7 @@ Subsurface Scattering etkisi için kullanılacak renk.
 [Index of Refraction](https://en.wikipedia.org/wiki/Refractive_index) degerini ayarlar, yani ışığın yönünün obje içinden geçerken kırılma derecesini.
 
 * #### Subsurface Anisotropy (Socket Input)
-asd
+Subsurface Scattering etkisi için ışığın yansıtma yönünü değiştirme derecesi.
 
 * #### Metallic (Socket Input)
 Objeyi metalik hale getirir.
@@ -584,7 +585,7 @@ Clearcoat sanki yüzey bir şey ile kaplanmış gibi görünmesine sebep olur. �
 Clearcoat için Roughness degeri.
 
 * #### IOR (Socket Input)
-[Index of Refraction](https://en.wikipedia.org/wiki/Refractive_index) degerini ayarlar, yani ışığın yönünün obje içinden geçerken kırılma derecesini.
+[Index of Refraction](https://en.wikipedia.org/wiki/Refractive_index) degerini ayarlar, yani ışığın yönünün obje içinden geçerken kırılma derecesini. [Buradan](https://pixelandpoly.com/ior.html) gerçek hayattaki birçok materyalin IOR degerine ulaşabilirsiniz.
 
 * #### Transmission (Socket Input)
 Objeyi saydam yapar.
@@ -602,16 +603,16 @@ Emission şiddeti.
 asd
 
 * #### Normal (Socket Input)
-asd
+Bu ayar sayesinde yüzeydeki noktalar için sahte yükseklik verebiliriz. Yani aslında yüksekligi olmayan yüzeyleri sanki yükseklikleri varmış gibi gösterebiliriz.
 
 * #### Clearcoat Normal (Socket Input)
-asd
+Clearcoat için Normal verebilmemize yarar.
 
 * #### Tangent (Socket Input)
 asd
 
 
-https://pixelandpoly.com/ior.html
+
 
 
 

@@ -554,7 +554,7 @@ Subsurface Scattering etkisi için kullanılacak renk.
 asd
 
 * #### Metallic (Socket Input)
-asd
+Objeyi metalik hale getirir.
 
 * #### Specular (Socket Input)
 asd
@@ -563,7 +563,7 @@ asd
 asd
 
 * #### Roughness (Socket Input)
-asd
+Objenin yüzeyinin ne kadar pürüzlü olduğunu ayarlar. 0 iken pürüzsüzdür ve yansıtma özelligi artar. 1 iken çok pürüzlüdür ve yansıtma özelligi azalır.
 
 * #### Anisotropic (Socket Input)
 asd

@@ -824,7 +824,9 @@ Sonuç shader'ı.
 * #### Subsurface Method (Node Input)
 Mod | Açıklama
 :---: | :---:
-‎a | a
+‎Christensen-Burley | Random Walk'a göre daha hızlı ama daha az doğru.
+‎Random Walk (Fixed Radius) | Random Walk'a göre daha az detaylı. Kapalı mesh'lerde doğru çalışır, yüzleri üst üste gelmiş mesh'lerde sorun çıkarabilir.
+‎Random Walk | ‎Kullanıcıdan aldıgı değerlere göre radius değerini hesapladığı için Random Walk (Fixed Radius)'a göre daha detaylı. Kapalı mesh'lerde doğru çalışır, yüzleri üst üste gelmiş mesh'lerde sorun çıkarabilir.
 
 * #### Color (Socket Input)
 "Subsurface Scattering" etkisi için kullanılacak renk.

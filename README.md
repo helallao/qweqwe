@@ -540,7 +540,8 @@ Objenin yüzeyinin ne kadar pürüzlü olduğunu ayarlar. 0 iken pürüzsüzdür
 Bilmiyorum.
 
 * #### Tangent (Socket Input)
-Bilmiyorum.
+[Tangent](#tangent) node'undan gelen degeri bağlayabilirsiniz.
+
 
 
 ## [Background](https://docs.blender.org/manual/en/latest/render/shader_nodes/shader/background.html)

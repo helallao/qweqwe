@@ -53,6 +53,8 @@ Aşağıdaki döküman Cycles render motoru kullanıldığı varsayılarak hazı
 
 # [Texture](#texture-1)
 * [Brick Texture](#brick-texture)
+* [Checker Texture](#checker-texture)
+
 
 <br>
 <br>
@@ -1010,6 +1012,34 @@ Tuğlaların uzunluğunu ayarlar.
 
 * #### Row Height (Socket Input)
 Tuğlaların boyunu ayarlar.
+
+
+
+## [Checker Texture](https://docs.blender.org/manual/en/latest/render/shader_nodes/textures/checker.html)
+Checker texture'u (türkçesi damalı, kareli, yani satranç tahtası gibi) oluşturmamıza yarar.
+
+
+* #### Color (Output)
+Texture.
+
+* #### Fac (Output)
+Her bir kare için siyah ve beyaz (0 ve 1) renklere sahip grayscale map.
+
+* #### Vector (Socket Input)
+Bilmiyorum.
+
+* #### Color1 (Socket Input)
+Kareler için 1. renk.
+
+* #### Color2 (Socket Input)
+Kareler için 2. renk.
+
+* #### Scale (Socket Input)
+Texture'un boyutu. Ayrıca eger "Vector" input'una birşey bağlamadıysanız bu input'a vereceğiniz değer X ve Y eksenindeki kare sayısını temsil eder, yani 8 yaparsanız 8x8 64 kare elde edersiniz, aynı satranç tahtası gibi.
+
+
+
+
 
 
 

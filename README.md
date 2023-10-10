@@ -278,22 +278,22 @@ Işığın [Glossy shader](#glossy-bsdf) özelliği taşıyan bir shader'dan gel
 Işık ışını eger tek bir yol izleyerek kameraya geliyorsa 1 degeri döndürür. Eger ışık ışını tek bir doğru yol izlemeden kameraya geliyorsa 0 degeri döndürür. Bu şu anlama geliyor, ışık ışını bir yüzeye çarptığında yüzeyin pürüzlülüğüne yani yansıtmasına göre birden fazla ışık ışını şeklinde etrafa saçılabilir veya tek bir ışık ışını şeklinde yansıyabilir. Eger yüzey çok pürüzlü ise ışık ışını çok fazla parçacığa ayrılacak ve yansıma çok bulanık olacaktır. Eger yüzey pürüzsüz ise ışık ışını tek bir parça olarak yansıyacak ve görüntü hiç bozulmamış, keskin bir halde olacaktır. İşte bu keskin yansıma yapan yüzeyler görüntüyü bozmadan yansıtırlar, yani tek bir ışık ışını şeklinde. "Is Singular Ray" özelliği de bize ışığın kameraya tek bir ışık ışını şeklinde geldiği noktaları verir. Ayna buna en iyi örneklerden biridir.
 
 * #### Is Reflection Ray (Output)
-Eger ışık ışını bir yerden sekip de kameraya geldiyse yani yansıma ise 1, degilse 0 döndürür.
+Eger ışık ışını bir yerden sekip de kameraya geldiyse yani yansıma ise 1, degilse 0 döndürür. Yani objenin yansıma olup olmadığını kontrol eder.
 
 * #### Is Transmission Ray (Output)
-Bilmiyorum.
+Eger ışık ışını saydam bir objeden geçip de kameraya geldiyse 1, degilse 0 döndürür. Yani objenin saydam bir objeden geçip geçmediğini kontrol eder.
 
 * #### Ray Length (Output)
 Işık ışınının (ray) gittiği mesafe degeri. 0'dan başlayıp sonsuza kadar artabilir.
 
 * #### Ray Depth (Output)
-Işık ışınının (ray) toplamda kaç defa sektiğini veya kaç şeyin içinden geçtiğini gösterir. Mesela direktmen kameraya geldiyse 1 döndürür, kameranın önünde cam varsa ve camdan geldiyse 2 döndürür. Bu sayı sonsuza kadar artabilir.
+Işık ışınının (ray) toplamda kaç defa sektiğini veya kaç şeyin içinden geçtiğini gösterir. Mesela direktmen kameraya geldiyse 1 döndürür, kameranın önünde cam varsa ve camdan geçip geldiyse 2 döndürür. Bu sayı sonsuza kadar artabilir.
 
 * #### Diffuse Depth (Output)
-Bilmiyorum.
+Çalışma mantığı "Ray Depth" ile aynıdır ama sadece [Diffuse shader](#diffuse-bsdf) özelliği taşıyan shader'lara özeldir. Yani ışık ışınının (ray) toplamda kaç defa [Diffuse shader](#diffuse-bsdf) özelliği taşıyan shader'lardan sektiğini gösterir. Bu sayı sonsuza kadar artabilir.
 
 * #### Glossy Depth (Output)
-Bilmiyorum.
+Çalışma mantığı "Ray Depth" ile aynıdır ama sadece [Glossy shader](#glossy-bsdf) özelliği taşıyan shader'lara özeldir. Yani ışık ışınının (ray) toplamda kaç defa [Glossy shader](#glossy-bsdf) özelliği taşıyan shader'lardan sektiğini veya geçtiğini gösterir. Bu sayı sonsuza kadar artabilir.
 
 * #### Transparent Depth (Output)
 Işık ışınının (ray) toplamda kaç saydam şeyin içinden geçtiğini gösterir.

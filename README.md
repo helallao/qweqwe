@@ -269,7 +269,7 @@ Işığın geldiği noktanın tam olarak objeye ait olup olmadığını kontrol 
 Işığın geldiği noktanın gölge olan kısma ait olup olmadığını kontrol eder (hem objenin üzerindeki hem gölgenin vurduğu yerdeki). Eger ışık kameraya gölge olan kısımdan geliyorsa 1'e kayan, gölge olmayan kısımdan geliyorsa 0'a kayan deger döndürür.
 
 * #### Is Diffuse Ray (Output)
-Işığın geldiği noktanın direktmen objeye mi ait yoksa başka bir yerden sekerek gelen bir ışığa mı ait olup olmadığını kontrol eder. Yani eger ışık ışını (ray) direktmen objeye değiyorsa 1 döndürür, eger başka bir yerden sekip değiyorsa 0 döndürür.
+Bunu "Is Camera Ray" ile karıştırabilirsiniz çünkü çalışma şekli ona çok benziyor, "Is Camera Ray" ışığın geldiği noktanın objeye ait olup olmadığını kontrol ederken, "Is Diffuse Ray" ışığın [Diffuse shader](#diffuse-bsdf) özelliği taşıyan bir shader'dan gelip gelmediğini kontrol eder.
 
 * #### Is Glossy Ray (Output)
 Bilmiyorum.

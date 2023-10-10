@@ -212,7 +212,7 @@ Shader render edilirken mesh üzerindeki her bir nokta için dünya üzerindeki 
 Shader render edilirken mesh üzerindeki her bir nokta için noktanın baktığı yön vektörü. Yani shader ekrana çizilirken her bir nokta için bu bilgi farklı olabilir, her bir noktaya göre bu bilgiyi verir.
 
 * #### Tangent (Output)
-Bilmiyorum.
+[Tangent](#tangent) node'u ile aynı şeyi verir dolayısıyla Tangent node'una bakın. Default olarak Z eksenindeki tangent degerini verir, istediğiniz ekseni seçemezsiniz o yüzden Tangent node'unu kullanın.
 
 * #### True Normal (Output)
 "Normal" output'u ile aynıdır ama mesh'in her bir yüzü için yüzün baktığı yönü verir. Yani her bir yüz için yüze göre bu bilgiyi verir.
@@ -337,7 +337,17 @@ Renk veri tipinde bir deger oluşturmanıza yarar, yani renk oluşturmanıza yar
 
 
 ## [Tangent](https://docs.blender.org/manual/en/latest/render/shader_nodes/input/tangent.html)
-Bilmiyorum.
+[Anisotropic BSDF](#anisotropic-bsdf) için tangent yönünü değiştirmenize yarar, isterseniz XYZ eksenlerinden birini seçebilir veya full kontrol için UV Map kullanabilirsiniz.
+
+
+* #### Tangent (Output)
+Tangent degeri.
+
+* #### Direction Type (Node Input)
+Mod | Açıklama
+:---: | :---:
+‎Radial | Normalde kullanılan dairesel tangent. İstediğiniz ekseni seçebilirsiniz.
+‎UV Map | Verilen UV Map'e göre tangent şekillenir. UV Map üzerinde değişiklik yaptığınızda tangent'in de değiştiğini görebilirsiniz.
 
 
 

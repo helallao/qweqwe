@@ -545,7 +545,17 @@ Bilmiyorum.
 
 
 ## [Background](https://docs.blender.org/manual/en/latest/render/shader_nodes/shader/background.html)
-(World moduna özeldir) Bilmiyorum.
+(World moduna özeldir) Dünyanın genel ışığını ayarlar.
+
+
+* #### Background (Output)
+Shader.
+
+* #### Color (Socket Input)
+Ana renk.
+
+* #### Strength (Socket Input)
+"Color" input'una verdiğiniz rengin parlama şiddeti.
 
 
 

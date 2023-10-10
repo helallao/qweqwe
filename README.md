@@ -685,7 +685,11 @@ Mod | Açıklama
 <img src="Dosyalar/DistributionTypes.png">
 
 * #### Subsurface Method Mode (Node Input)
-Bilmiyorum.
+Mod | Açıklama
+:---: | :---:
+‎Christensen-Burley | Random Walk'a göre daha hızlı ama daha az doğru.
+‎Random Walk (Fixed Radius) | Random Walk'a göre daha az detaylı. Kapalı mesh'lerde doğru çalışır, yüzleri üst üste gelmiş mesh'lerde sorun çıkarabilir.
+‎Random Walk | ‎Kullanıcıdan aldıgı değerlere göre radius değerini hesapladığı için Random Walk (Fixed Radius)'a göre daha detaylı. Kapalı mesh'lerde doğru çalışır, yüzleri üst üste gelmiş mesh'lerde sorun çıkarabilir.
 
 * #### Base Color (Socket Input)
 Shader'ın ana rengi.

@@ -976,16 +976,40 @@ a
 "Offset" ve "Frequency" input'ları beraber çalışırlar. "Offset" input'u offset vermeye yani tuğlanın yerini ileri geri almaya yarar. Değer 0 ile 1 arasında değiştikçe tuğlalar soldaki ve sağdaki tuğlanın yerine doğru kayar. "Frequency" input'u da offset verme işleminin kaç tuğlada bir yapılacağını belirler. Mesela 3 olarak ayarlarsanız her 3 tuğlanın ikisi aynı, sonuncusu offsetli olur.
 
 * #### Squash (Node Input)
-"Squash" ve "Frequency" input'ları beraber çalışırlar. "Squash" input'u tuğlanın uzunluğunu değiştirmeye yarar, değer arttıkça tuğlaların da uzunluğu artar, değer küçüldükçe tuğlaların da uzunluğu azalır. "Frequency" input'u da "Squash" işleminin kaç tuğlada bir yapılacağını belirler. Mesela 3 olarak ayarlarsanız her 3 tuğlanın ikisinin uzunluğu aynı, sonuncusunun uzunluğu farklı olur.
+"Squash" ve "Frequency" input'ları beraber çalışırlar. "Squash" input'u bazı tuğlaların uzunluğunu değiştirmeye yarar, değer arttıkça tuğlaların da uzunluğu artar, değer küçüldükçe tuğlaların da uzunluğu azalır. "Frequency" input'u da "Squash" işleminin kaç tuğlada bir yapılacağını belirler. Mesela 3 olarak ayarlarsanız her 3 tuğlanın ikisinin uzunluğu aynı, sonuncusunun uzunluğu farklı olur.
 
 * #### Frequency (Node Input)
 "Squash" ve "Frequency" input'ları beraber çalışırlar. "Squash" input'u tuğlanın uzunluğunu değiştirmeye yarar, değer arttıkça tuğlaların da uzunluğu artar, değer küçüldükçe tuğlaların da uzunluğu azalır. "Frequency" input'u da "Squash" işleminin kaç tuğlada bir yapılacağını belirler. Mesela 3 olarak ayarlarsanız her 3 tuğlanın ikisinin uzunluğu aynı, sonuncusunun uzunluğu farklı olur.
 
+* #### Vector (Socket Input)
+a
 
+* #### Color1 (Socket Input)
+Tuğlalar için 1. renk.
 
+* #### Color2 (Socket Input)
+Tuğlalar için 2. renk.
 
+* #### Mortar (Socket Input)
+Tuğlaların arasındaki çukurların rengi.
 
+* #### Scale (Socket Input)
+Texture'un boyutu.
 
+* #### Mortar Size (Socket Input)
+Tuğlaların arasındaki çukurların boyutu.
+
+* #### Mortar Smooth (Socket Input)
+Tuğlaların çukurlar ile birleştikleri kısımdaki yumuşaklık efektini ayarlar. Değer 0'a yaklaştıkça geçişin çok keskin olduğunu, değer arttıkça daha yumuşak bir geçiş olduğunu görebilirsiniz (kamerayı çukura iyice yaklaştırıp bu değeri değiştirirseniz ne dediğimi anlarsınız).
+
+* #### Bias (Socket Input)
+Tuğlaların rengini ayarlar. -1 iken bütün tuğlalar "Color1" input'una verilen renkte olur, +1 iken bütün tuğlalar "Color2" input'una verilen renkte olur. 0 iken iki rengin de karışımı olur.
+
+* #### Brick Width (Socket Input)
+Tuğlaların uzunluğunu ayarlar.
+
+* #### Row Height (Socket Input)
+Tuğlaların boyunu ayarlar.
 
 
 

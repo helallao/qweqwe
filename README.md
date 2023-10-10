@@ -519,10 +519,10 @@ Shader.
 * #### Distribution (Node Input)
 Mod | Açıklama
 :---: | :---:
-Beckmann |
-‎GGX | Multiscatter GGX'e göre daha hızlı ama dogruluk bakımından onun kadar dogru degil. Multiscatter GGX'e göre shader daha koyu olur.
-‎Multiscatter GGX | Bu mod GGX'e göre enerjiyi daha fazla muhafaza eder. Yani ışık ışınları enerjisi bitene kadar sekmeye devam eder. Bu da daha parlak ve gerçekçi bir görünüm ile sonuçlanır. "Roughness" degeri düşük olan shader'larda ışınların sekmesi zor olacağı için etkisini de kaybeder, yani "Roughness" degeri yüksek olan shader'larda etkisi daha belli olur. Hesaplama bakımından GGX'e göre 2.5% daha yavaştır.
-Ashikhmin-Shirley |
+Beckmann | "Beckmann" ve "Ashikhmin-Shirley" modları diğer modlara göre daha keskindir.
+‎GGX | "GGX" ve "Multiscatter GGX" modları diğer modlara göre daha yumuşaktır.
+‎Multiscatter GGX | "GGX" ve "Multiscatter GGX" modları diğer modlara göre daha yumuşaktır.
+Ashikhmin-Shirley | "Beckmann" ve "Ashikhmin-Shirley" modları diğer modlara göre daha keskindir.
 
 * #### Color (Socket Input)
 Ana renk.

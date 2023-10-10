@@ -785,7 +785,7 @@ Ana renk. Eger renk beyaz olursa yani (1, 1, 1) tamamen görünmez olur. Eger he
 
 
 ## [Velvet BSDF](https://docs.blender.org/manual/en/latest/render/shader_nodes/shader/velvet.html)
-Objeye yansımalar ekler, sanki giysi shader'ı gibi.
+Objeye yansımalar ekler, sanki giysi tarzı maddelerin shader'ı gibi.
 
 
 * #### BSDF (Output)

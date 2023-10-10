@@ -296,10 +296,10 @@ Işık ışınının (ray) toplamda kaç defa sektiğini veya kaç şeyin içind
 Çalışma mantığı "Ray Depth" ile aynıdır ama sadece [Glossy shader](#glossy-bsdf) özelliği taşıyan shader'lara özeldir. Yani ışık ışınının (ray) toplamda kaç defa [Glossy shader](#glossy-bsdf) özelliği taşıyan shader'lardan sektiğini veya geçtiğini gösterir. Bu sayı sonsuza kadar artabilir.
 
 * #### Transparent Depth (Output)
-Işık ışınının (ray) toplamda kaç saydam şeyin içinden geçtiğini gösterir.
+Çalışma mantığı "Ray Depth" ile aynıdır ama sadece [Transparent shader](#transparent-bsdf) özelliği taşıyan shader'lara özeldir. Yani ışık ışınının (ray) toplamda kaç defa [Transparent shader](#transparent-bsdf) özelliği taşıyan shader'lardan sektiğini veya geçtiğini gösterir. Bu sayı sonsuza kadar artabilir.
 
 * #### Transmission Depth (Output)
-Bilmiyorum.
+Çalışma mantığı "Ray Depth" ile aynıdır ama sadece Transmission shader özelliği taşıyan shader'lara özeldir. Yani ışık ışınının (ray) toplamda kaç defa Transmission shader özelliği taşıyan shader'lardan sektiğini veya geçtiğini gösterir. Bu sayı sonsuza kadar artabilir.
 
 
 

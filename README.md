@@ -314,7 +314,7 @@ Objenin orijin noktasını verir. Geometry'deki ["Position"](#position-output) g
 Objenin ayarlarından ayarlanmış renk degerini verir.
 
 * #### Alpha (Output)
-Bilmiyorum.
+Objenin ayarlarından ayarlanmış renk degerinin alpha kanalını verir.
 
 * #### Object Index (Output)
 Objenin ayarlarından ayarlanmış "pass index" degerini verir.

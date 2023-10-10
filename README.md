@@ -1050,7 +1050,25 @@ Bilmiyorum.
 Bilmiyorum.
 
 
+* #### Color (Output)
+"Color" ile "Fac" output'ları arasında ne fark olduğunu bilmiyorum. İkisi de gradient texture'unu veriyor.
 
+* #### Fac (Output)
+"Color" ile "Fac" output'ları arasında ne fark olduğunu bilmiyorum. İkisi de gradient texture'unu veriyor.
+
+* #### Type (Node Input)
+Mod | Açıklama
+:---: | :---:
+‎Linear | Doğrusal, "Vector" input'u ile verilen texture coordinate'in X ekseni değeri ile aynıdır. 0'dan 1'e doğru yüzey boyunca değer döndürür.
+Quadratic | "Linear" ile aynıdır ama daha yumuşak bir geçişi vardır.
+Easing | "Linear" ile "Quadratic" modlarının karışımı.
+Diagonal | "Vector" input'u ile verilen texture coordinate'in X ve Y eksenlerinin değerinin karışımına göre değer döndürür.
+Spherical | 0'dan 1'e doğru değil de 1'den 0'a kayan bir şekilde "Diagonal" moduna benzeyen ama daha keskin bir şekilde daire şekli oluşturan bir değer döndürür.
+Quadratic Sphere | "Spherical" ile aynıdır ama daha yumuşak bir geçişi vardır.
+Radial | "Vector" input'u ile verilen texture coordinate'in Z eksenini baz alarak dairesel bir şekilde gradient döndürür.
+
+* #### Vector (Socket Input)
+Bilmiyorum.
 
 
 

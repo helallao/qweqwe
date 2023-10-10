@@ -1,3 +1,5 @@
+** DİKKAT! Aşağıdaki döküman Cycles render motoru kullanıldığı varsayılarak hazırlanmıştır. Eger farklı bir render motoru kullanıyorsanız birçok özellik farklılık gösterecek veya çalışmayacaktır. **
+
 # [Input](#input-1)
 * [Ambient Occlusion](#ambient-occlusion)
 * [Attribute](#attribute)

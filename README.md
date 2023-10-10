@@ -51,6 +51,8 @@ Aşağıdaki döküman Cycles render motoru kullanıldığı varsayılarak hazı
 * [Volume Absorption](#volume-absorption)
 * [Volume Scatter](#volume-scatter)
 
+# [Texture](#texture-1)
+* [Brick Texture](#brick-texture)
 
 <br>
 <br>
@@ -947,5 +949,32 @@ Alanının yoğunluğu.
 
 * #### Anisotropy (Socket Input)
 Bu ayar alanın içinden geçen ışığın dağılacağı yönü ayarlar. 0 iken eşit şekilde etrafa dağılır, artılara gittikçe öne doğru, eksilere gittikçe arkaya doğru dağılır.
+
+
+<br>
+<br>
+
+
+# Texture
+Bilmiyorum.
+
+
+## [Brick Texture](https://docs.blender.org/manual/en/latest/render/shader_nodes/textures/brick.html)
+Bilmiyorum.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

@@ -510,8 +510,37 @@ Toplanacak shader.
 
 
 ## [Anisotropic BSDF](https://docs.blender.org/manual/en/latest/render/shader_nodes/shader/anisotropic.html)
+[Diffuse BSDF](#diffuse-bsdf) gibidir ama ek olarak "anisotropy" özelliği vardır. "Anisotropy" özelliği ışığın yansıma yönünü değiştirebilmemizi sağlar. Hani dvd'lerin arka yüzü rengarenktir ve açıyı değiştirdikçe yansıma hareket eder ya, işte bu "anisotropy" denen efekt. "Anisotropy" özelliği ile ilgili olan iki ayar "Anisotropy" ve "Rotation" input'larıdır.
+
+
+* #### BSDF (Output)
+Shader.
+
+* #### Distribution (Node Input)
+Mod | Açıklama
+:---: | :---:
+Beckmann |
+‎GGX | Multiscatter GGX'e göre daha hızlı ama dogruluk bakımından onun kadar dogru degil. Multiscatter GGX'e göre shader daha koyu olur.
+‎Multiscatter GGX | Bu mod GGX'e göre enerjiyi daha fazla muhafaza eder. Yani ışık ışınları enerjisi bitene kadar sekmeye devam eder. Bu da daha parlak ve gerçekçi bir görünüm ile sonuçlanır. "Roughness" degeri düşük olan shader'larda ışınların sekmesi zor olacağı için etkisini de kaybeder, yani "Roughness" degeri yüksek olan shader'larda etkisi daha belli olur. Hesaplama bakımından GGX'e göre 2.5% daha yavaştır.
+Ashikhmin-Shirley |
+
+* #### Color (Socket Input)
+Ana renk.
+
+* #### Roughness (Socket Input)
+Objenin yüzeyinin ne kadar pürüzlü olduğunu ayarlar. 0 iken pürüzsüzdür ve yansıtma özelligi artar. 1 iken çok pürüzlüdür ve yansıtma özelligi azalır.
+
+* #### Anisotropy (Socket Input)
+"Anisotropy" ve "Rotation" ayarları ışığın yansıtma yönünü değiştirmek ile ilgilidir. "Rotation" ayarı yönü degiştirir. "Anisotropy" ayarı ise bu yön degiştirmenin ne kadar etkili olacağını belirler.
+
+* #### Rotation (Socket Input)
+"Anisotropy" ve "Rotation" ayarları ışığın yansıtma yönünü değiştirmek ile ilgilidir. "Rotation" ayarı yönü degiştirir. "Anisotropy" ayarı ise bu yön degiştirmenin ne kadar etkili olacağını belirler.
+
+* #### Normal (Socket Input)
 Bilmiyorum.
 
+* #### Tangent (Socket Input)
+Bilmiyorum.
 
 
 ## [Background](https://docs.blender.org/manual/en/latest/render/shader_nodes/shader/background.html)

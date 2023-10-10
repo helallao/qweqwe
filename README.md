@@ -261,13 +261,15 @@ Kameranın yolladığı ışık ışınları (ray) ile ilgili bilgiler verir. Ev
 
 
 * #### Is Camera Ray (Output)
-Işığın geldiği noktanın tam olarak objeye ait olup olmadığını kontrol eder. Yani eger ışık kameraya mesh üzerinden geliyorsa yani yansıma yoksa ve orijinal konum dışında bir yerden gelmiyorsa 1 döndürür, eger yansıma ile geliyorsa yani orijinal konumdan gelmiyorsa 0 döndürür.
+Işığın geldiği noktanın tam olarak objeye ait olup olmadığını kontrol eder. Yani eger ışık kameraya mesh üzerinden geliyorsa yani yansıma yoksa ve orijinal konum dışında bir yerden gelmiyorsa 1 döndürür, eger yansıma ile geliyorsa yani orijinal konumdan gelmiyorsa 0 döndürür. Mesela bunu kullanıp iki shader'ı birleştirirken mix faktörü olarak kullanırsanız, objeyi yeşil renk yapabilir ve obje dışındaki her şeye objeyi kırmızı olarak yansıtabilirsiniz (örnek veriyorum).
+
+<img src="Dosyalar/IsCameraRay.png">
 
 * #### Is Shadow Ray (Output)
-Işığın geldiği noktanın gölge olan kısma ait olup olmadığını kontrol eder (hem mesh'in üzerindeki hem yerdeki). Eger ışık kameraya gölge olan kısımdan geliyorsa 1, gölge olmayan kısımdan geliyorsa 0 döndürür.
+Işığın geldiği noktanın gölge olan kısma ait olup olmadığını kontrol eder (hem objenin üzerindeki hem gölgenin vurduğu yerdeki). Eger ışık kameraya gölge olan kısımdan geliyorsa 1'e kayan, gölge olmayan kısımdan geliyorsa 0'a kayan deger döndürür.
 
 * #### Is Diffuse Ray (Output)
-Işığın geldiği noktanın direktmen mesh'e mi ait yoksa başka bir yerden sekerek gelen bir ışığa mı ait olup olmadığını kontrol eder. Yani eger ışık ışını (ray) direktmen objeye değiyorsa 1 döndürür, eger başka bir yerden sekip değiyorsa 0 döndürür. Mesela bunu kullanıp iki shader'ı birleştirirken mix faktörü olarak kullanırsanız, mesh'e yeşil renk ve mesh dışındaki her şeye mesh'i kırmızı olarak yansıtabilirsiniz (örnek veriyorum yani).
+Işığın geldiği noktanın direktmen objeye mi ait yoksa başka bir yerden sekerek gelen bir ışığa mı ait olup olmadığını kontrol eder. Yani eger ışık ışını (ray) direktmen objeye değiyorsa 1 döndürür, eger başka bir yerden sekip değiyorsa 0 döndürür.
 
 * #### Is Glossy Ray (Output)
 Bilmiyorum.

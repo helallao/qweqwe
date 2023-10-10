@@ -443,7 +443,14 @@ Bilmiyorum.
 
 
 ## [Light Output](https://docs.blender.org/manual/en/latest/render/shader_nodes/output/light.html)
-Bilmiyorum.
+Işık shader'ı oluşturmak için kullanılır.
+
+
+* #### Target (Node Input)
+Bu shader için hangi render motorunun kullanılacağını belirtir. Mesela 2 tane Material Output oluşturup birinin "Target" input'unu Cycles, digerininkini de Eevee yaparsanız. Cycles render motoru seçiliyken "Target" input'u Cycles olan shader render edilir. Eevee render motoru seçiliyken "Target" input'u Eevee olan shader render edilir.
+
+* #### Surface (Socket Input)
+Işık shader'ı.
 
 
 
@@ -452,7 +459,7 @@ Normalde kullandığımız shader output'udur. Yüzey ve volume (alan, hava) sha
 
 
 * #### Target (Node Input)
-Bu shader için hangi render motorunun kullanılacağını belirtir. Mesela 2 tane Material Output oluşturup birinin "Target" input'unu Cycles, digerininkini de Eevee yaparsanız. Cycles render motoru seçiliyken "Target" input'unu Cycles olan shader render edilir. Eevee render motoru seçiliyken "Target" input'unu Eevee olan shader render edilir.
+Bu shader için hangi render motorunun kullanılacağını belirtir. Mesela 2 tane Material Output oluşturup birinin "Target" input'unu Cycles, digerininkini de Eevee yaparsanız. Cycles render motoru seçiliyken "Target" input'u Cycles olan shader render edilir. Eevee render motoru seçiliyken "Target" input'u Eevee olan shader render edilir.
 
 * #### Surface (Socket Input)
 Yüzey (genellikle katı madde) shader'ı.
@@ -470,7 +477,7 @@ Bilmiyorum.
 
 
 * #### Target (Node Input)
-Bu shader için hangi render motorunun kullanılacağını belirtir. Mesela 2 tane Material Output oluşturup birinin "Target" input'unu Cycles, digerininkini de Eevee yaparsanız. Cycles render motoru seçiliyken "Target" input'unu Cycles olan shader render edilir. Eevee render motoru seçiliyken "Target" input'unu Eevee olan shader render edilir.
+Bu shader için hangi render motorunun kullanılacağını belirtir. Mesela 2 tane Material Output oluşturup birinin "Target" input'unu Cycles, digerininkini de Eevee yaparsanız. Cycles render motoru seçiliyken "Target" input'u Cycles olan shader render edilir. Eevee render motoru seçiliyken "Target" input'u Eevee olan shader render edilir.
 
 * #### Surface (Socket Input)
 Dünya shader'ı.

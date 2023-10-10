@@ -751,7 +751,7 @@ Emission ayarı Base Color gibidir. Yüzey rengini ayarlar. "Emission Strength" 
 Emission şiddeti.
 
 * #### Alpha (Socket Input)
-asd
+Shader için alpha değeri. Alpha değeri saydamlık (veya opaklık) derecesini ayarlar. Eger texture kullanıyorsanız buraya texture'un alpha kanalını bağlayabilirsiniz. 0 yaptığınızda saydam, 1 yaptığınızda opak olur.
 
 * #### Normal (Socket Input)
 Bu ayar sayesinde yüzeydeki noktalar için sahte yükseklik verebilirsiniz. Yani aslında yüksekligi olmayan yüzeyleri sanki yükseklikleri varmış gibi gösterebilirsiniz.
@@ -760,7 +760,7 @@ Bu ayar sayesinde yüzeydeki noktalar için sahte yükseklik verebilirsiniz. Yan
 "Clearcoat" için Normal verebilmemize yarar.
 
 * #### Tangent (Socket Input)
-asd
+"Anisotropy" ayarı ile ilgilidir. [Tangent](#tangent) node'undan gelen degeri bağlayabilirsiniz.
 
 
 

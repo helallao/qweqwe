@@ -358,7 +358,7 @@ Mod | Açıklama
 
 
 ## [Texture Coordinate](https://docs.blender.org/manual/en/latest/render/shader_nodes/input/texture_coordinate.html)
-Texture'ları düzgün bir şekilde mesh'e yerleştirebilmemiz için gerekli olan mesh boyut degerlerini verir.
+Shader'ları ve Texture'ları düzgün bir şekilde mesh'e yerleştirebilmemiz için gerekli olan mesh boyut degerlerini verir.
 
 
 * #### Generated (Output)

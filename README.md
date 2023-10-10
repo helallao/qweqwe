@@ -275,10 +275,10 @@ Bunu "Is Camera Ray" ile karıştırabilirsiniz çünkü çalışma şekli ona �
 Işığın [Glossy shader](#glossy-bsdf) özelliği taşıyan bir shader'dan gelip gelmediğini (direktmen) kontrol eder.
 
 * #### Is Singular Ray (Output)
-Işık ışını eger tek bir yol izleyerek kameraya geliyorsa 1 degeri döndürür. Eger ışık ışını tek bir doğru yol izlemeden kameraya geliyorsa 0 degeri döndürür. Bu şu anlama geliyor, ışık ışını bir yüzeye çarptığında yüzeyin pürüzlülüğüne yani yansıtmasına göre birden fazla ışık ışını şeklinde etrafa saçılabilir veya tek bir ışık ışını şeklinde yansıyabilir. Eger yüzey çok pürüzlü ise ışık ışını çok fazla parçacığa ayrılacak ve yansıma çok bulanık olacaktır. Eger yüzey pürüzsüz ise ışık ışını tek bir parça olarak yansıyacak ve görüntü hiç bozulmamış, keskin bir halde olacaktır. İşte bu keskin yansıma yapan yüzeyler görüntüyü bozmadan yansıtırlar, yani tek bir ışık ışını şeklinde. "Is Singular Ray" özelliği de bize ışığın kameraya tek bir ışık ışını şeklinde geldiği noktaları verir.
+Işık ışını eger tek bir yol izleyerek kameraya geliyorsa 1 degeri döndürür. Eger ışık ışını tek bir doğru yol izlemeden kameraya geliyorsa 0 degeri döndürür. Bu şu anlama geliyor, ışık ışını bir yüzeye çarptığında yüzeyin pürüzlülüğüne yani yansıtmasına göre birden fazla ışık ışını şeklinde etrafa saçılabilir veya tek bir ışık ışını şeklinde yansıyabilir. Eger yüzey çok pürüzlü ise ışık ışını çok fazla parçacığa ayrılacak ve yansıma çok bulanık olacaktır. Eger yüzey pürüzsüz ise ışık ışını tek bir parça olarak yansıyacak ve görüntü hiç bozulmamış, keskin bir halde olacaktır. İşte bu keskin yansıma yapan yüzeyler görüntüyü bozmadan yansıtırlar, yani tek bir ışık ışını şeklinde. "Is Singular Ray" özelliği de bize ışığın kameraya tek bir ışık ışını şeklinde geldiği noktaları verir. Ayna buna en iyi örneklerden biridir.
 
 * #### Is Reflection Ray (Output)
-Bilmiyorum.
+Eger ışık ışını bir yerden sekip de kameraya geldiyse yani yansıma ise 1, degilse 0 döndürür.
 
 * #### Is Transmission Ray (Output)
 Bilmiyorum.

@@ -560,6 +560,19 @@ Ana renk.
 
 
 ## [Diffuse BSDF](https://docs.blender.org/manual/en/latest/render/shader_nodes/shader/diffuse.html)
+En basit shader'dır. Tek renk shader oluşturur.
+
+
+* #### BSDF (Output)
+Shader.
+
+* #### Color (Socket Input)
+Ana renk.
+
+* #### Roughness (Socket Input)
+Objenin yüzeyinin ne kadar pürüzlü olduğunu ayarlar. 0 iken pürüzsüzdür ve yansıtma özelliği artar. 1 iken çok pürüzlüdür ve yansıtma özelliği azalır.
+
+* #### Normal (Socket Input)
 Bilmiyorum.
 
 

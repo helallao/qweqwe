@@ -89,7 +89,7 @@ Bilmiyorum.
 
 
 ## [Attribute](https://docs.blender.org/manual/en/latest/render/shader_nodes/input/attribute.html)
-Obje üzerinden gelen değerleri alıp kullanmamıza yarar ama artık neredeyse hiç kullanılmıyor.
+Obje üzerinden gelen değerleri alıp kullanmamıza yarar ama artık neredeyse hiç kullanılmıyor. Henüz diğer node'lardan birinde kullanılmamış (dolayısıyla kullanıma açılmamış, test aşamasındaki) attribute'leri (bilgi, deger) almamıza yarar. Listeye [buradan](https://blender.stackexchange.com/questions/14262/what-can-you-call-from-the-attribute-node#14267) ulaşabilirsiniz.
 
 
 * #### Color (Output)

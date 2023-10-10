@@ -964,10 +964,10 @@ Tuğla texture'u oluşturmamıza yarar.
 
 
 * #### Color (Output)
-a
+Texture.
 
 * #### Fac (Output)
-a
+Grayscale çukur map'i. 1 veya 1'e kayan değere sahip olan kısımların çukurları ifade ettiği grayscale map.
 
 * #### Offset (Node Input)
 "Offset" ve "Frequency" input'ları beraber çalışırlar. "Offset" input'u offset vermeye yani tuğlanın yerini ileri geri almaya yarar. Değer 0 ile 1 arasında değiştikçe tuğlalar soldaki ve sağdaki tuğlanın yerine doğru kayar. "Frequency" input'u da offset verme işleminin kaç tuğlada bir yapılacağını belirler. Mesela 3 olarak ayarlarsanız her 3 tuğlanın ikisi aynı, sonuncusu offsetli olur.
@@ -982,7 +982,7 @@ a
 "Squash" ve "Frequency" input'ları beraber çalışırlar. "Squash" input'u tuğlanın uzunluğunu değiştirmeye yarar, değer arttıkça tuğlaların da uzunluğu artar, değer küçüldükçe tuğlaların da uzunluğu azalır. "Frequency" input'u da "Squash" işleminin kaç tuğlada bir yapılacağını belirler. Mesela 3 olarak ayarlarsanız her 3 tuğlanın ikisinin uzunluğu aynı, sonuncusunun uzunluğu farklı olur.
 
 * #### Vector (Socket Input)
-a
+Bilmiyorum.
 
 * #### Color1 (Socket Input)
 Tuğlalar için 1. renk.

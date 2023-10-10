@@ -54,6 +54,8 @@ Aşağıdaki döküman Cycles render motoru kullanıldığı varsayılarak hazı
 # [Texture](#texture-1)
 * [Brick Texture](#brick-texture)
 * [Checker Texture](#checker-texture)
+* [Environment Texture](#environment-texture)
+* [Gradient Texture](#gradient-texture)
 
 
 <br>
@@ -1036,6 +1038,27 @@ Kareler için 2. renk.
 
 * #### Scale (Socket Input)
 Texture'un boyutu. Ayrıca eger "Vector" input'una birşey bağlamadıysanız bu input'a vereceğiniz değer X ve Y eksenindeki kare sayısını temsil eder, yani 8 yaparsanız 8x8 64 kare elde edersiniz, aynı satranç tahtası gibi.
+
+
+
+## [Environment Texture](https://docs.blender.org/manual/en/latest/render/shader_nodes/textures/environment.html)
+Bilmiyorum.
+
+
+
+## [Gradient Texture](https://docs.blender.org/manual/en/latest/render/shader_nodes/textures/gradient.html)
+Bilmiyorum.
+
+
+
+
+
+
+
+
+
+
+
 
 
 

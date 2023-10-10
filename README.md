@@ -148,17 +148,17 @@ Kameraya olan uzaklık değeri (obje üzerindeki her bir nokta için).
 
 
 ## [Color Attribute](https://docs.blender.org/manual/en/latest/render/shader_nodes/input/vertex_color.html)
-Bilmiyorum.
+Objenin ayarlarından "Color Attributes" bölümüne eklenmiş renk degerlerini almamıza yarar.
 
 
 * #### Color (Output)
-Bilmiyorum.
+Renk.
 
 * #### Alpha (Output)
-Bilmiyorum.
+Alpha degeri.
 
 * #### Color Attribute (Node Input)
-Bilmiyorum.
+Attribute'un ismi. İsimleri bilmenize gerek yok zaten bu bölüme tıkladığınızda otomatikmen şu anki attribute'leri listeleyecektir. Ayrıca şu an seçili olan attribute silinmişse bu bölüm kırmızıya döner (deneyip görebilirsiniz).
 
 
 

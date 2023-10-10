@@ -416,7 +416,17 @@ Bilmiyorum.
 
 
 ## [Wireframe](https://docs.blender.org/manual/en/latest/render/shader_nodes/input/wireframe.html)
-Bilmiyorum.
+Mesh'in üzerindeki her bir üçgen için (dörtgenleri de üçgene çevirir) kenarları beyaz (yani 1), geriye kalan kısımları siyah (yani 0) olacak şekilde bir grayscale map verir. Yani wireframe efekti oluşturur.
+
+
+* #### Fac (Output)
+Grayscale map.
+
+* #### Pixel Size (Node Input)
+Bu ayar açıkken "Size" input'u ekrandaki piksel sayısını temsil edecek şekilde kenarların kalınlığını ayarlar. Yani piksel bakımından kalınlık modunu açar.
+
+* #### Size (Socket Input)
+Kenarların kalınlığı.
 
 
 <br>

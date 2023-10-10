@@ -461,12 +461,22 @@ Yüzey (genellikle katı madde) shader'ı.
 Volume (katı madde olmayan) shader'ı.
 
 * #### Displacement (Socket Input)
-asd.
+Bilmiyorum.
 
 
 
 ## [World Output](https://docs.blender.org/manual/en/latest/render/shader_nodes/output/world.html)
-(World moduna özeldir) Bilmiyorum.
+(World moduna özeldir) Dünyanın genel olarak havasını/ışığını etkiler.
+
+
+* #### Target (Node Input)
+Bu shader için hangi render motorunun kullanılacağını belirtir. Mesela 2 tane Material Output oluşturup birinin "Target" input'unu Cycles, digerininkini de Eevee yaparsanız. Cycles render motoru seçiliyken "Target" input'unu Cycles olan shader render edilir. Eevee render motoru seçiliyken "Target" input'unu Eevee olan shader render edilir.
+
+* #### Surface (Socket Input)
+Dünya shader'ı.
+
+* #### Volume (Socket Input)
+Volume (alan, hava) shader'ı.
 
 
 <br>

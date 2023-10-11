@@ -62,6 +62,7 @@ Aşağıdaki döküman Cycles render motoru kullanıldığı varsayılarak hazı
 * [Musgrave Texture](#musgrave-texture)
 * [Noise Texture](#noise-texture)
 * [Point Density](#point-density)
+* [Sky Texture](#sky-texture)
 
 
 <br>
@@ -1351,10 +1352,10 @@ Nishita | En kapsamlı gökyüzü ayarları bu moddadır.
 "Sky Type" ayarı "Nishita" modundayken vardır. Güneşin kendisinin görünümünü açar/kapatır.
 
 * #### Sun Size (Node Input)
-"Sky Type" ayarı "Nishita" modundayken ve "Sun Disc" ayarı açıkken vardır. Güneşin büyüklüğünü ayarlar.
+"Sky Type" ayarı "Nishita" modundayken ve "Sun Disc" ayarı açıkken vardır. Güneşin büyüklüğünü ayarlar. Eger güneşi göremiyorsanız "Sun Intensity" ayarını kısmayı deneyin.
 
 * #### Sun Intensity (Node Input)
-"Sky Type" ayarı "Nishita" modundayken ve "Sun Disc" ayarı açıkken vardır.
+"Sky Type" ayarı "Nishita" modundayken ve "Sun Disc" ayarı açıkken vardır. Güneşin parlaklığını ayarlar.
 
 * #### Sun Elevation (Node Input)
 "Sky Type" ayarı "Nishita" modundayken vardır. Güneşin yükleşini ayarlar.
@@ -1364,5 +1365,16 @@ Nishita | En kapsamlı gökyüzü ayarları bu moddadır.
 
 * #### Altitude (Node Input)
 "Sky Type" ayarı "Nishita" modundayken vardır. Dünyamızın daha doğrusu sahnenin olduğu konumun rakımını ayarlar.
+
+* #### Air (Node Input)
+"Sky Type" ayarı "Nishita" modundayken vardır. Havanın yoğunluğunu ayarlar. Mesela 0 iken yoğunluk hiç olmadığı için uzaydaymışız gibi bir gökyüzü olur, arttırdıkça da yoğunluk arttığı için gökyüzü koyulaşmaya başlar.
+
+* #### Dust (Node Input)
+"Sky Type" ayarı "Nishita" modundayken vardır. Havanın yoğunluğunu ayarlar. Bu ayarı şöyle düşünün, 0 iken havada hiç sis yok ve her şey net, bu ayarı arttırdıkça dünyaya sis yayılıyor ve güneş ışığı bu sisin içinden geçmek zorunda kalıyormuş gibi düşünün.
+
+* #### Ozone (Node Input)
+"Sky Type" ayarı "Nishita" modundayken vardır. Ozon tabakasının yoğunluğu. Bu ayarı yükseltmek havaya mavi rengini verir.
+
+
 
 

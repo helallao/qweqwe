@@ -1402,9 +1402,18 @@ Mod | Açıklama
 F1 | Default mod, noktaların olduğu yer tam siyahtır (yani 0), noktadan uzaklaştıkça değer artar ve 1'e yaklaşır.
 F2 | F1 gibidir ama yumuşaklık (yani yükseklik) değerinin geçişi dairesel değil de kareseldir. Yani yükseklik geçişi kareseldir.
 Smooth F1 | F1 ile neredeyse aynıdır ama bu modda "Smoothness" ayarı açılır. "Smoothness" ayarı ile yumuşaklık (yani yükseklik) değerinin geçişini daha yumuşak yapabilirsiniz.
+Distance to Edge | Kenarlara olan uzaklığa göre yumuşaklık (yani yükseklik) değeri belirlenir.
+N-Sphere Radius | Her bir noktanın sahip olduğu yarıçap değerini verir.
 
 * #### Distance Metric (Node Input)
-a
+Bu ayar "Feature" ayarı "F1", "F2" ve "Smooth F1" modundayken vardır. "Feature" ayarı gibi noktaların yükseklik değerlerinin, yumuşaklıklarının oluşturulma şeklini belirler.
+
+Mod | Açıklama
+:---: | :---:
+Euclidean | Default mod, [Euclidean distance](https://en.wikipedia.org/wiki/Euclidean_distance) formülünü kullanır.
+Manhattan | Euclidean gibidir ama yumuşaklık (yani yükseklik) değerinin geçişi dairesel değil de kareseldir. Yani yükseklik geçişi kareseldir. [Manhattan distance](https://en.wikipedia.org/wiki/Taxicab_geometry) formülünü kullanır.
+Chebychev | Manhattan gibidir, sadece karesel geçişlerin yönünün 45 derece kaymış halini verir. [Chebychev distance](https://en.wikipedia.org/wiki/Chebyshev_distance) formülünü kullanır.
+Minkowski | Bu modda "Exponent" input'u açılır. "Exponent" input'u ile yumuşaklık (yani yükseklik) değerinin geçiş derecesini kendiniz ayarlayabilirsiniz, bu da çok kapsamlı bir şekilde tam istediğiniz geçişi yapabilmenize olanak sağlar. [Minkowski distance](https://en.wikipedia.org/wiki/Minkowski_distance) formülünü kullanır.
 
 * #### Vector (Socket Input)
 Texture'un oluşturulacağı konumu belirten texture coordinate değeri.
@@ -1412,9 +1421,24 @@ Texture'un oluşturulacağı konumu belirten texture coordinate değeri.
 * #### Scale (Socket Input)
 Texture'un boyutu.
 
+* #### Exponent (Socket Input)
+Yumuşaklık (yani yükseklik) değerinin geçiş derecesini kendiniz ayarlayabilirsiniz.
+
 * #### Smoothness (Socket Input)
 "Feature" ayarı "Smooth F1" modundayken vardır. Yumuşaklık (yani yükseklik) değerinin geçişini daha yumuşak yapabilirsiniz.
 
 * #### Randomness (Socket Input)
 Oluşturulan noktaların konumlarının rastgeleliği, 0'da iken noktalar düzenli olarak dağıtılır, yükselttikçe noktaların konumuna rastgelelik verilir.
+
+
+
+
+
+
+
+
+
+
+
+
 

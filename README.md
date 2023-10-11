@@ -1253,8 +1253,11 @@ Noise'in detay derecesi, arttırdıkça detay da artar ve yakından bakarsanız 
 * #### Lacunarity (Socket Input)
 "Lacunarity" ile "Dimension" ayarları beraber çalışırlar. "Lacunarity" noise ekleyerek texture'u bozarken, "Dimension" bu bozulmaları tekrar eski haline getirir, yani mesela "Dimension" ayarını çok yükseltirseniz "Lacunarity" ayarının eklediği bozulmaların geri alındığını ve tekrar baştaki texture'a döndüğünü görebilirsiniz. Ayrıca "Dimension" ayarının çalışabilmesi için "Lacunarity" ayarının 1'den büyük olması gerekir, yani "Lacunarity" ayarının texture'a biraz noise eklemiş olması gerekir.
 
+* #### Offset (Socket Input)
+"Type" ayarı "Ridged Multifractal", "Hybrid Multifractal" ve "Hetero Terrain" modunda iken vardır. Bu değer arttıkça texture'daki siyah kısımlar beyaz olmaya başlar.
 
-
+* #### Gain (Socket Input)
+"Type" ayarı "Ridged Multifractal" ve "Hybrid Multifractal" modunda iken vardır. Bu değer arttıkça texture'daki siyah ve beyaz renklerin kontrastı artar yani siyahlar daha siyah, beyazlar daha beyaz olur. Bu da aralardaki yumuşak geçişlerin yok olup keskin geçişlerin olmasına sebep olur. Ayrıca bu ayarın çalışabilmesi için detay derecesinin yüksek olması (yani "Detail" ayarı) ve biraz da noise yani "Lacunarity" verilmiş olması gerekir.
 
 
 

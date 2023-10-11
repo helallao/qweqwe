@@ -1133,6 +1133,8 @@ Mod | Açıklama
 Sadece "Projection" ayarı "Box" modunda iken vardır. Texture'un birbiri ile birleştiği kenar kısımları yumuşatır (çevredeki pikseller ile birleştirme).
 
 * #### Extension (Node Input)
+UV texture'un sınırlarının dışına çıktığında ne olacağını belirler.
+
 Mod | Açıklama
 :---: | :---:
 ‎Repeat | UV texture'un sınırlarının dışına çıktığında texture'u tekrarlar (tiling).
@@ -1140,8 +1142,29 @@ Extend | UV texture'un sınırlarının dışına çıktığında texture'u sün
 Clip | "Repeat" modunun tam tersi, UV texture'un sınırlarının dışına çıktığında texture'u tekrarlamaz (tiling yapmaz).
 Mirror | "Repeat" gibidir ama her tekrarlamada texture'u tekrarlandığı eksende (tiling) ters döndürür. Yani aynalanmış gibi ters olur.
 
+* #### Source (Node Input)
+Kullanılan kaynağın türünü belirler.
 
+Single Image | Tek resim.
+Image Sequence | Arka arkaya gelen birden fazla resim diziniz varsa ve sayısal olarak isimlendirilmişlerse (mesela 001, 002, 003 gibi), resimler ardı ardına oynatılır.
+Movie | Video dosyası oynatır.
+Generated | Bilmiyorum.
+UDIM Tiles | Bilmiyorum.
 
+* #### Frames (Node Input)
+Sadece "Source" ayarı "Image Sequence" ve "Movie" ayarında iken vardır. Toplamda kullanılacak frame sayısı.
+
+* #### Start Frame (Node Input)
+Sadece "Source" ayarı "Image Sequence" ve "Movie" ayarında iken vardır. Shader'ın bu texture animasyonunu oynatacağı frame numarası. Yani dünyanız üzerinde kaçıncı frame'e gelince bu texture'un animasyonunun oynamaya başlayacağını belirler.
+
+* #### Offset (Node Input)
+Sadece "Source" ayarı "Image Sequence" ve "Movie" ayarında iken vardır. Texture'un animasyonunun kaçıncı frame'den oynatılacagını belirler. Yani diyelim ki animasyonunuzun 10. frame'inden oynamaya başlamasını istiyorsunuz, o zaman bu ayarı 10 yaparsınız.
+
+* #### Cyclic (Node Input)
+Sadece "Source" ayarı "Image Sequence" ve "Movie" ayarında iken vardır. Bu ayar açıksa texture'un animasyonu bitince tekrar başlar.
+
+* #### Auto Refresh (Node Input)
+Sadece "Source" ayarı "Image Sequence" ve "Movie" ayarında iken vardır. Texture'un animasyonunun viewport üzerinde de gösterilmesini sağlar. Bu ayar kapalı olsa da olmasa da zaten render'da texture'un animasyonu görünür. Bu ayar sadece viewport ile ilgilidir.
 
 
 

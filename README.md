@@ -56,6 +56,7 @@ Aşağıdaki döküman Cycles render motoru kullanıldığı varsayılarak hazı
 * [Checker Texture](#checker-texture)
 * [Environment Texture](#environment-texture)
 * [Gradient Texture](#gradient-texture)
+* [IES Texture](#ies-texture)
 
 
 <br>
@@ -1072,8 +1073,24 @@ Texture'un oluşturulacağı konumu belirten texture coordinate değeri.
 
 
 
+## [IES Texture](https://docs.blender.org/manual/en/latest/render/shader_nodes/textures/ies.html)
+"ies" uzantılı dosyaları kullanabilmemize yarar. "ies" dosyası lambalarda kullanılan farklı ışık şekillerini tutan dosyalardır. İnternette "online free ies" diye aratırsanız bedava ies dosyaları bulabilirsiniz. Bu texture'u (shader'ı) bir lamba (ışık) objesinde kullanmalısınız.
 
 
+* #### Fac (Output)
+Texture.
+
+* #### Mode (Node Input)
+Mod | Açıklama
+:---: | :---:
+‎Internal | "ies" dosyasındaki yazıyı kopyalayıp yapıştırarak kullanabilirsiniz.
+External | Bilgisayarınızdan dosya yolunu belirterek kullanabilirsiniz.
+
+* #### Vector (Socket Input)
+Texture'un oluşturulacağı konumu belirten texture coordinate değeri.
+
+* #### Strength (Socket Input)
+Işık şiddeti.
 
 
 

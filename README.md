@@ -61,6 +61,7 @@ Aşağıdaki döküman Cycles render motoru kullanıldığı varsayılarak hazı
 * [Magic Texture](#magic-texture)
 * [Musgrave Texture](#musgrave-texture)
 * [Noise Texture](#noise-texture)
+* [Point Density](#point-density)
 
 
 <br>
@@ -1316,8 +1317,8 @@ Noise texture'unun şekillerinin ne kadar dağınık olacağını belirler. Artt
 
 
 
-
-
+## [Point Density](https://docs.blender.org/manual/en/latest/render/shader_nodes/textures/point_density.html)
+Bilmiyorum.
 
 
 

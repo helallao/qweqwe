@@ -92,7 +92,7 @@ Mesh'in shader'ı. Bu inputa mesh'in rengi yani texture'u baglanabilir. Renk inp
 Gölgelerin maksimum yayılabileceği mesafe. Normalde gölgeler köşelerden mesh'in etrafına doğru biraz yayılır. Bu ayar ile yayılım mesafesini ayarlayabilirsiniz. Eger bu ayarı azaltırsanız gölgelerin köşeye doğru kısıtlandığını görebilirsiniz, arttırırsanız da gölgeler daha fazla yayılır.
 
 * #### Normal (Socket Input)
-Bilmiyorum.
+Eger shader'ın kullandığı normal map varsa buraya bağlayın. İşlemler normal map dikkate alınarak yapılır.
 
 
 
@@ -134,7 +134,7 @@ Normal map ve bevel kalitesi.
 Bevel miktarı/derecesi/şiddeti.
 
 * #### Normal (Socket Input)
-Bilmiyorum.
+Eger shader'ın kullandığı normal map varsa buraya bağlayın. İşlemler normal map dikkate alınarak yapılır.
 
 
 
@@ -205,7 +205,7 @@ Grayscale map.
 Bu deger arttıkça output map'indeki beyaz renkler köşelerden ortaya doğru yaklaşır. Azalttıkça köşelere yaklaşır. Aslında bu deger yüzeyin [Index of Refraction](https://en.wikipedia.org/wiki/Refractive_index) degerini ayarlar, yani ışığın yönünün obje içinden geçerken kırılma derecesini.
 
 * #### Normal (Socket Input)
-Bilmiyorum.
+Eger shader'ın kullandığı normal map varsa buraya bağlayın. İşlemler normal map dikkate alınarak yapılır.
 
 
 
@@ -256,7 +256,7 @@ Bu shader'ı kullanan her obje için birbirinden farklı olmak üzere 0 ile 1 ar
 Fresnel efekti için keskinlik derecesini ayarlar. Degeri düştükçe fresnel efekti şiddetlenir, arttıkça fresnel efekti azalır.
 
 * #### Normal (Socket Input)
-Bilmiyorum.
+Eger shader'ın kullandığı normal map varsa buraya bağlayın. İşlemler normal map dikkate alınarak yapılır.
 
 
 
@@ -543,7 +543,7 @@ Objenin yüzeyinin ne kadar pürüzlü olduğunu ayarlar. 0 iken pürüzsüzdür
 "Anisotropy" ve "Rotation" ayarları ışığın yansıtma yönünü değiştirmek ile ilgilidir. "Rotation" ayarı yönü degiştirir. "Anisotropy" ayarı ise bu yön degiştirmenin ne kadar etkili olacağını belirler.
 
 * #### Normal (Socket Input)
-Bilmiyorum.
+Eger shader'ın kullandığı normal map varsa buraya bağlayın. İşlemler normal map dikkate alınarak yapılır.
 
 * #### Tangent (Socket Input)
 [Tangent](#tangent) node'undan gelen degeri bağlayabilirsiniz.
@@ -579,7 +579,7 @@ Ana renk.
 Objenin yüzeyinin ne kadar pürüzlü olduğunu ayarlar. 0 iken pürüzsüzdür ve yansıtma özelliği artar. 1 iken çok pürüzlüdür ve yansıtma özelliği azalır.
 
 * #### Normal (Socket Input)
-Bilmiyorum.
+Eger shader'ın kullandığı normal map varsa buraya bağlayın. İşlemler normal map dikkate alınarak yapılır.
 
 
 
@@ -618,7 +618,7 @@ Camın arkasını ne kadar keskin göstereceğini etkiler. 0'da iken arkayı tam
 [Index of Refraction](https://en.wikipedia.org/wiki/Refractive_index) degerini ayarlar, yani ışığın yönünün camın içinden geçerken kırılma derecesini.
 
 * #### Normal (Socket Input)
-Bilmiyorum.
+Eger shader'ın kullandığı normal map varsa buraya bağlayın. İşlemler normal map dikkate alınarak yapılır.
 
 
 
@@ -639,7 +639,7 @@ Ayna rengi.
 Aynanın ne kadar keskin gösterecegini etkiler. 0'da iken pürüzsüz gösterir, yükselttikçe bulanık gösterir.
 
 * #### Normal (Socket Input)
-Bilmiyorum.
+Eger shader'ın kullandığı normal map varsa buraya bağlayın. İşlemler normal map dikkate alınarak yapılır.
 
 
 
@@ -816,7 +816,7 @@ Camın arkasını ne kadar keskin gösterecegini etkiler. 0'da iken arkayı tam 
 [Index of Refraction](https://en.wikipedia.org/wiki/Refractive_index) degerini ayarlar, yani ışığın yönünün camın içinden geçerken kırılma derecesini.
 
 * #### Normal (Socket Input)
-Bilmiyorum.
+Eger shader'ın kullandığı normal map varsa buraya bağlayın. İşlemler normal map dikkate alınarak yapılır.
 
 
 
@@ -850,7 +850,7 @@ Mod | Açıklama
 "Subsurface Scattering" etkisi için ışığın yansıma yönünü değiştirme derecesi.
 
 * #### Normal (Socket Input)
-Bilmiyorum.
+Eger shader'ın kullandığı normal map varsa buraya bağlayın. İşlemler normal map dikkate alınarak yapılır.
 
 
 
@@ -889,7 +889,7 @@ Sonuç shader'ı.
 Ana renk.
 
 * #### Normal (Socket Input)
-Bilmiyorum.
+Eger shader'ın kullandığı normal map varsa buraya bağlayın. İşlemler normal map dikkate alınarak yapılır.
 
 
 
@@ -919,7 +919,7 @@ Ana renk.
 Yansıma ekleme derecesi, arttırdıkça daha fazla yansıma ekler.
 
 * #### Normal (Socket Input)
-Bilmiyorum.
+Eger shader'ın kullandığı normal map varsa buraya bağlayın. İşlemler normal map dikkate alınarak yapılır.
 
 
 
@@ -986,7 +986,7 @@ Grayscale çukur map'i. 1 veya 1'e kayan değere sahip olan kısımların çukur
 "Squash" ve "Frequency" input'ları beraber çalışırlar. "Squash" input'u tuğlanın uzunluğunu değiştirmeye yarar, değer arttıkça tuğlaların da uzunluğu artar, değer küçüldükçe tuğlaların da uzunluğu azalır. "Frequency" input'u da "Squash" işleminin kaç tuğlada bir yapılacağını belirler. Mesela 3 olarak ayarlarsanız her 3 tuğlanın ikisinin uzunluğu aynı, sonuncusunun uzunluğu farklı olur.
 
 * #### Vector (Socket Input)
-Bilmiyorum.
+Texture'un oluşturulacağı konumu belirten texture coordinate değeri.
 
 * #### Color1 (Socket Input)
 Tuğlalar için 1. renk.

@@ -57,6 +57,7 @@ Aşağıdaki döküman Cycles render motoru kullanıldığı varsayılarak hazı
 * [Environment Texture](#environment-texture)
 * [Gradient Texture](#gradient-texture)
 * [IES Texture](#ies-texture)
+* [Image Texture](#image-texture)
 
 
 <br>
@@ -1165,6 +1166,36 @@ Sadece "Source" ayarı "Image Sequence" ve "Movie" ayarında iken vardır. Bu ay
 
 * #### Auto Refresh (Node Input)
 Sadece "Source" ayarı "Image Sequence" ve "Movie" ayarında iken vardır. Texture'un animasyonunun viewport üzerinde de gösterilmesini sağlar. Bu ayar kapalı olsa da olmasa da zaten render'da texture'un animasyonu görünür. Bu ayar sadece viewport ile ilgilidir.
+
+* #### Color Space (Node Input)
+Texture'un içersinde barındırdığı bilgiye göre renk uzayı.
+
+Mod | Açıklama
+:---: | :---:
+Filmic Log | 
+Filmic sRGB | 
+Linear | 
+Linear ACES | 
+Linear ACEScg | 
+Non-Color | 
+Raw | 
+sRGB | 
+XYZ | 
+
+* #### Alpha (Node Input)
+Bilmiyorum.
+
+Mod | Açıklama
+:---: | :---:
+Straight | 
+Premultiplied |
+Channel Packed |
+None |
+
+* #### Vector (Socket Input)
+Texture'un oluşturulacağı konumu belirten texture coordinate değeri.
+
+
 
 
 

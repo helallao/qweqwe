@@ -60,6 +60,7 @@ Aşağıdaki döküman Cycles render motoru kullanıldığı varsayılarak hazı
 * [Image Texture](#image-texture)
 * [Magic Texture](#magic-texture)
 * [Musgrave Texture](#musgrave-texture)
+* [Noise Texture](#noise-texture)
 
 
 <br>
@@ -1234,10 +1235,9 @@ Grayscale map.
 Mod | Açıklama
 :---: | :---:
 1D | "W" input'una verilen her bir değer bir nokta olarak ele alınır ve her nokta için tek bir değer verir. Eger "W" input'una texture coordinate verirseniz dalga gibi bir efekt oluşturduğunu görürsünüz.
-2D | 2D texture verir.
+2D | 2D texture verir. Yani Z ekseni umursanmaz.
 3D | 3D texture verir.
 4D | "3D" modundaymış gibi çalışıp "W" input'u ile seed verebilme özelliğini açar.
-
 
 * #### Type (Node Input)
 Noise texture'unu oluşturan algoritmalardır.
@@ -1275,6 +1275,53 @@ Noise'in detay derecesi, arttırdıkça detay da artar ve yakından bakarsanız 
 
 * #### Gain (Socket Input)
 "Type" ayarı "Ridged Multifractal" ve "Hybrid Multifractal" modunda iken vardır. Bu değer arttıkça texture'daki siyah ve beyaz renklerin kontrastı artar yani siyahlar daha siyah, beyazlar daha beyaz olur. Bu da aralardaki yumuşak geçişlerin yok olup keskin geçişlerin olmasına sebep olur. Ayrıca bu ayarın çalışabilmesi için detay derecesinin yüksek olması (yani "Detail" ayarı) ve biraz da noise yani "Lacunarity" verilmiş olması gerekir.
+
+
+
+## [Noise Texture](https://docs.blender.org/manual/en/latest/render/shader_nodes/textures/noise.html)
+Noise (gürültü) texture'u oluşturmamıza yarar.
+
+
+* #### Fac (Output)
+Grayscale map.
+
+* #### Color (Output)
+Renkli map.
+
+* #### Dimensions (Node Input)
+Mod | Açıklama
+:---: | :---:
+1D | "W" input'una verilen her bir değer bir nokta olarak ele alınır ve her nokta için tek bir değer verir. Eger "W" input'una texture coordinate verirseniz dalga gibi bir efekt oluşturduğunu görürsünüz.
+2D | 2D texture verir. Yani Z ekseni umursanmaz.
+3D | 3D texture verir.
+4D | "3D" modundaymış gibi çalışıp "W" input'u ile seed verebilme özelliğini açar.
+
+* #### Vector (Socket Input)
+Texture'un oluşturulacağı konumu belirten texture coordinate değeri.
+
+* #### W (Socket Input)
+"Dimensions" ayarı "1D" ve "4D" modunda iken vardır. "1D" modunda noktanın konumunu belirtir. "4D" modunda ise seed olarak kullanılır. Seed demek verilen sayıya göre işlemlerin bilgisayarda o sayıya özel olarak rastgele gerçekleşmesi demektir. Aynı seed'i kullandığınızda hep aynı sonucu alırsınız.
+
+* #### Scale (Socket Input)
+Texture'un boyutu.
+
+* #### Detail (Socket Input)
+Noise'in detay derecesi, arttırdıkça detay da artar ve yakından bakarsanız texture'un keskinleştiğini görebilirsiniz. Detay arttıkça texture yumuşak geçişleri kaybedip keskin geçişlere sahip olur.
+
+* #### Roughness (Socket Input)
+Noise texture'unun ne kadar pürüzlü olacağını belirler. 0'da iken yumuşak geçişlere sahip olan bir texture verirken, 1'de tamamen her yeri dağınık ve pürüzlü bir texture verir.
+
+* #### Distortion (Socket Input)
+Noise texture'unun şekillerinin ne kadar dağınık olacağını belirler. Arttırdıkça şekiller rastgele yönlere doğru birbirleri ile karışırlar.
+
+
+
+
+
+
+
+
+
 
 
 

@@ -1334,12 +1334,15 @@ Farklı gökyüzü modlarını buradan seçebilirsiniz. Ayrıca thumbnail üzeri
 
 Mod | Açıklama
 :---: | :---:
-Preetham |
-Hosek/Wilkie |
-Nishita |
+Preetham | Aydınlık bir gökyüzü texture'u verir.
+Hosek/Wilkie | Preetham'a göre daha farklı görünümleri var.
+Nishita | En kapsamlı gökyüzü ayarları bu moddadır.
 
 * #### Turbidity (Node Input)
-a
+"Sky Type" ayarı "Preetham" ve "Hosek/Wilkie" modundayken vardır. 1'den 10'a doğru soğuktan sıcağa gökyüzü görünümü verir.
+
+* #### Ground Albedo (Node Input)
+"Sky Type" ayarı "Hosek/Wilkie" modundayken vardır. Yeryüzünden seken ışık miktarını ayarlar. Arttıkça gökyüzü de parlaklaşır.
 
 * #### Vector (Socket Input)
 Texture'un oluşturulacağı konumu belirten texture coordinate değeri.

@@ -59,6 +59,7 @@ Aşağıdaki döküman Cycles render motoru kullanıldığı varsayılarak hazı
 * [IES Texture](#ies-texture)
 * [Image Texture](#image-texture)
 * [Magic Texture](#magic-texture)
+* [Musgrave Texture](#musgrave-texture)
 
 
 <br>
@@ -1219,6 +1220,24 @@ Texture'un boyutu.
 
 * #### Distortion (Socket Input)
 Bu değer değiştikçe texture'daki şekiller de değişir.
+
+
+
+## [Musgrave Texture](https://docs.blender.org/manual/en/latest/render/shader_nodes/textures/musgrave.html)
+Noise (gürültü) texture'u oluşturmamıza yarar.
+
+
+* #### Height (Output)
+Grayscale yükseklik mapi.
+
+
+
+
+
+
+
+
+
 
 
 

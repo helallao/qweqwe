@@ -1228,16 +1228,23 @@ Noise (gürültü) texture'u oluşturmamıza yarar.
 
 
 * #### Height (Output)
-Grayscale yükseklik mapi.
+Grayscale map.
 
+* #### Dimensions (Node Input)
+Bilmiyorum.
 
+* #### Type (Node Input)
+Bilmiyorum.
 
+* #### Vector (Socket Input)
+Texture'un oluşturulacağı konumu belirten texture coordinate değeri.
 
+* #### Scale (Socket Input)
+Texture'un boyutu.
 
+* #### Detail (Socket Input)
+Noise'in detay derecesi, arttırdıkça detay da artar ve yakından bakarsanız texture'un keskinleştiğini görebilirsiniz. Detay arttıkça texture yumuşak geçişleri kaybedip keskin geçişlere sahip olur. Aşağıdaki resimde detay derecesi 5 ve 10 olan texture'ların arasındaki farkı görebilirsiniz.
 
-
-
-
-
+<img src="Dosyalar/MusgraveDetail.png">
 
 

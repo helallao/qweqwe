@@ -1094,6 +1094,31 @@ Işık şiddeti.
 
 
 
+## [Image Texture](https://docs.blender.org/manual/en/latest/render/shader_nodes/textures/image.html)
+Texture'ları (resim) shader içinde kullanabilmemize yarar.
+
+
+* #### Color (Output)
+Texture.
+
+* #### Alpha (Output)
+Texture'un alpha kanalı.
+
+* #### Image (Node Input)
+Buradan "New" butonuna basarak blender'ın kendi sunduğu texture'lardan birini oluşturabilirsiniz. "Open" butonuna basarak bilgisayarınızdan texture açabilirsiniz.
+
+* #### Interpolation (Node Input)
+Buradan texture'a uygulanan yumuşatma (çevredeki pikseller ile birleştirme) işleminin nasıl olacağını seçebilirsiniz.
+
+Mod | Açıklama
+:---: | :---:
+‎Linear | Yanyana olan pikselleri yumuşatır.
+Cubic | Yumuşatma işlemi çok fazladır.
+Closest | Yumuşatma işlemi uygulanmaz. Verdiğiniz texture'un bütün pikselleri aynen kullanılır.
+Smart | Texture büyütüldükçe "Cubic" modunu, küçültüldükçe "Linear" modunu kullanır.
+
+
+
 
 
 

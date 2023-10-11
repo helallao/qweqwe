@@ -1247,4 +1247,17 @@ Noise'in detay derecesi, arttırdıkça detay da artar ve yakından bakarsanız 
 
 <img src="Dosyalar/MusgraveDetail.png">
 
+* #### Dimension (Socket Input)
+"Lacunarity" ile "Dimension" ayarları beraber çalışırlar. "Lacunarity" noise ekleyerek texture'u bozarken, "Dimension" bu bozulmaları tekrar eski haline getirir, yani mesela "Dimension" ayarını çok yükseltirseniz "Lacunarity" ayarının eklediği bozulmaların geri alındığını ve tekrar baştaki texture'a döndüğünü görebilirsiniz. Ayrıca "Dimension" ayarının çalışabilmesi için "Lacunarity" ayarının 1'den büyük olması gerekir, yani "Lacunarity" ayarının texture'a biraz noise eklemiş olması gerekir.
+
+* #### Lacunarity (Socket Input)
+"Lacunarity" ile "Dimension" ayarları beraber çalışırlar. "Lacunarity" noise ekleyerek texture'u bozarken, "Dimension" bu bozulmaları tekrar eski haline getirir, yani mesela "Dimension" ayarını çok yükseltirseniz "Lacunarity" ayarının eklediği bozulmaların geri alındığını ve tekrar baştaki texture'a döndüğünü görebilirsiniz. Ayrıca "Dimension" ayarının çalışabilmesi için "Lacunarity" ayarının 1'den büyük olması gerekir, yani "Lacunarity" ayarının texture'a biraz noise eklemiş olması gerekir.
+
+
+
+
+
+
+
+
 

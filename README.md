@@ -1392,7 +1392,12 @@ Texture.
 Texture.
 
 * #### Dimensions (Node Input)
-a
+Mod | Açıklama
+:---: | :---:
+1D | "W" input'una verilen her bir değer bir nokta olarak ele alınır ve her nokta için tek bir değer verir. Eger "W" input'una texture coordinate verirseniz dalga gibi bir efekt oluşturduğunu görürsünüz.
+2D | 2D texture verir. Yani Z ekseni umursanmaz.
+3D | 3D texture verir.
+4D | "3D" modundaymış gibi çalışıp "W" input'u ile seed verebilme özelliğini açar.
 
 * #### Feature (Node Input)
 Noktaların yükseklik değerlerinin, yumuşaklıklarının oluşturulma modu.
@@ -1417,6 +1422,9 @@ Minkowski | Bu modda "Exponent" input'u açılır. "Exponent" input'u ile yumuş
 
 * #### Vector (Socket Input)
 Texture'un oluşturulacağı konumu belirten texture coordinate değeri.
+
+* #### W (Socket Input)
+"Dimensions" ayarı "1D" ve "4D" modunda iken vardır. "1D" modunda noktanın konumunu belirtir. "4D" modunda ise seed olarak kullanılır. Seed demek verilen sayıya göre işlemlerin bilgisayarda o sayıya özel olarak rastgele gerçekleşmesi demektir. Aynı seed'i kullandığınızda hep aynı sonucu alırsınız.
 
 * #### Scale (Socket Input)
 Texture'un boyutu.

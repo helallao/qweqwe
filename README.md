@@ -1379,17 +1379,42 @@ Nishita | En kapsamlı gökyüzü ayarları bu moddadır.
 
 
 ## [Voronoi Texture](https://docs.blender.org/manual/en/latest/render/shader_nodes/textures/voronoi.html)
-a
+Rastgele noktalar oluşturup bu noktaların oldukları konuma göre, aralarındaki farka göre, kenarlara olan uzaklıklarına göre çeşitli şekiller oluşturur.
 
+
+* #### Distance (Output)
+Noktaların grayscale yükseklik map'i.
 
 * #### Color (Output)
 Texture.
 
+* #### Position (Output)
+Texture.
 
+* #### Dimensions (Node Input)
+a
 
+* #### Feature (Node Input)
+Noktaların yükseklik değerlerinin, yumuşaklıklarının oluşturulma modu.
 
+Mod | Açıklama
+:---: | :---:
+F1 | Default mod, noktaların olduğu yer tam siyahtır (yani 0), noktadan uzaklaştıkça değer artar ve 1'e yaklaşır.
+F2 | F1 gibidir ama yumuşaklık (yani yükseklik) değerinin geçişi dairesel değil de kareseldir. Yani yükseklik geçişi kareseldir.
+Smooth F1 | F1 ile neredeyse aynıdır ama bu modda "Smoothness" ayarı açılır. "Smoothness" ayarı ile yumuşaklık (yani yükseklik) değerinin geçişini daha yumuşak yapabilirsiniz.
 
+* #### Distance Metric (Node Input)
+a
 
+* #### Vector (Socket Input)
+Texture'un oluşturulacağı konumu belirten texture coordinate değeri.
 
+* #### Scale (Socket Input)
+Texture'un boyutu.
 
+* #### Smoothness (Socket Input)
+"Feature" ayarı "Smooth F1" modundayken vardır. Yumuşaklık (yani yükseklik) değerinin geçişini daha yumuşak yapabilirsiniz.
+
+* #### Randomness (Socket Input)
+Oluşturulan noktaların konumlarının rastgeleliği, 0'da iken noktalar düzenli olarak dağıtılır, yükselttikçe noktaların konumuna rastgelelik verilir.
 

@@ -58,6 +58,7 @@ Aşağıdaki döküman Cycles render motoru kullanıldığı varsayılarak hazı
 * [Gradient Texture](#gradient-texture)
 * [IES Texture](#ies-texture)
 * [Image Texture](#image-texture)
+* [Magic Texture](#magic-texture)
 
 
 <br>
@@ -1197,8 +1198,27 @@ Texture'un oluşturulacağı konumu belirten texture coordinate değeri.
 
 
 
+## [Magic Texture](https://docs.blender.org/manual/en/latest/render/shader_nodes/textures/magic.html)
+Rastgele renklerin ve şekillerin oluştuğu rengarenk bir texture verir.
 
 
+* #### Color (Output)
+Texture.
+
+* #### Fac (Output)
+Grayscale texture.
+
+* #### Depth (Node Input)
+Tekrarlama sayısı. Bu değer değiştikçe texture'daki şekiller de değişir.
+
+* #### Vector (Socket Input)
+Texture'un oluşturulacağı konumu belirten texture coordinate değeri.
+
+* #### Scale (Socket Input)
+Texture'un boyutu.
+
+* #### Distortion (Socket Input)
+Bu değer değiştikçe texture'daki şekiller de değişir.
 
 
 

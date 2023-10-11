@@ -1234,7 +1234,15 @@ Grayscale map.
 Bilmiyorum.
 
 * #### Type (Node Input)
-Bilmiyorum.
+Noise texture'unu oluşturan algoritmalardır.
+
+Mod | Açıklama
+:---: | :---:
+Multifractal | fBM'e göre koyu kısımlar daha açık renkli.
+Ridged Multifractal | Açık renkli olan kısımları koyu renkle çevreler.
+Hybrid Multifractal | Hetero Terrain gibidir ama açık olan kısımları da etkiler.
+fBM (Fractal Brownian Motion) | Default mod.
+Hetero Terrain (Heterogeneous Terrain) | Koyu olan kısımları daha koyu yapar, açık olan kısımlar aynı kalır.
 
 * #### Vector (Socket Input)
 Texture'un oluşturulacağı konumu belirten texture coordinate değeri.

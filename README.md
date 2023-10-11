@@ -1389,7 +1389,10 @@ Noktaların grayscale yükseklik map'i.
 Texture.
 
 * #### Position (Output)
-Texture.
+Her bir noktanın kendi çevresinin yani kapladığı alanın değerini verir.
+
+* #### W (Output)
+"Dimensions" ayarı "1D" ve "4D" modunda iken vardır. "W" input'una verilen değeri direktmen döndürür.
 
 * #### Dimensions (Node Input)
 Mod | Açıklama

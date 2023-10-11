@@ -1117,9 +1117,17 @@ Cubic | Yumuşatma işlemi çok fazladır.
 Closest | Yumuşatma işlemi uygulanmaz. Verdiğiniz texture'un bütün pikselleri aynen kullanılır.
 Smart | Texture büyütüldükçe "Cubic" modunu, küçültüldükçe "Linear" modunu kullanır.
 
+* #### Projection (Node Input)
+Texture'un obje üzerine nasıl yerleştirileceğini belirler.
 
+Mod | Açıklama
+:---: | :---:
+‎Flat | Texture düz bir şekilde tek yöne doğru yerleştirilir.
+‎Box | Texture'u bütün eksenlere doğru yerleştirir.
+‎Sphere | Küresel olarak yerleştirir.
+‎Tube | Silindirel olarak yerleştirir.
 
-
+<img src="Dosyalar/ProjectionTexture.png">
 
 
 

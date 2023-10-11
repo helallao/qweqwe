@@ -1322,6 +1322,28 @@ Bilmiyorum.
 
 
 
+## [Sky Texture](https://docs.blender.org/manual/en/latest/render/shader_nodes/textures/sky.html)
+[Background](#background) shader'ına bağlanarak kullanılabilecek bir gökyüzü shader'ı oluşturur. Muhtemelen World modunda kullanırsınız.
+
+
+* #### Color (Output)
+Texture.
+
+* #### Sky Type (Node Input)
+Farklı gökyüzü modlarını buradan seçebilirsiniz. Ayrıca thumbnail üzerinden gökyüzünün yönünü değiştirebilirsiniz.
+
+Mod | Açıklama
+:---: | :---:
+Preetham |
+Hosek/Wilkie |
+Nishita |
+
+* #### Turbidity (Node Input)
+a
+
+* #### Vector (Socket Input)
+Texture'un oluşturulacağı konumu belirten texture coordinate değeri.
+
 
 
 

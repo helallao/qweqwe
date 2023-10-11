@@ -63,6 +63,7 @@ Aşağıdaki döküman Cycles render motoru kullanıldığı varsayılarak hazı
 * [Noise Texture](#noise-texture)
 * [Point Density](#point-density)
 * [Sky Texture](#sky-texture)
+* [Voronoi Texture](#voronoi-texture)
 
 
 <br>
@@ -1374,6 +1375,20 @@ Nishita | En kapsamlı gökyüzü ayarları bu moddadır.
 
 * #### Ozone (Node Input)
 "Sky Type" ayarı "Nishita" modundayken vardır. Ozon tabakasının yoğunluğu. Bu ayarı yükseltmek havaya mavi rengini verir.
+
+
+
+## [Voronoi Texture](https://docs.blender.org/manual/en/latest/render/shader_nodes/textures/voronoi.html)
+a
+
+
+* #### Color (Output)
+Texture.
+
+
+
+
+
 
 
 

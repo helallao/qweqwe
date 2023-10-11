@@ -964,7 +964,7 @@ Bu kategorideki node'lar shader içerisinde kullanılacak belirli şekilleri olu
 
 
 ## [Brick Texture](https://docs.blender.org/manual/en/latest/render/shader_nodes/textures/brick.html)
-Tuğla texture'u oluşturmamıza yarar.
+Tuğla texture'u oluşturur.
 
 
 * #### Color (Output)
@@ -1018,7 +1018,7 @@ Tuğlaların boyunu ayarlar.
 
 
 ## [Checker Texture](https://docs.blender.org/manual/en/latest/render/shader_nodes/textures/checker.html)
-Checker texture'u (türkçesi damalı, kareli, yani satranç tahtası gibi) oluşturmamıza yarar.
+Checker texture'u (türkçesi damalı, kareli, yani satranç tahtası gibi) oluşturur.
 
 
 * #### Color (Output)
@@ -1028,7 +1028,7 @@ Texture.
 Her bir kare için siyah ve beyaz (0 ve 1) renklere sahip grayscale map.
 
 * #### Vector (Socket Input)
-Bilmiyorum.
+Texture'un oluşturulacağı konumu belirten texture coordinate değeri.
 
 * #### Color1 (Socket Input)
 Kareler için 1. renk.
@@ -1047,7 +1047,7 @@ Bilmiyorum.
 
 
 ## [Gradient Texture](https://docs.blender.org/manual/en/latest/render/shader_nodes/textures/gradient.html)
-Bilmiyorum.
+0'dan 1'e veya 1'den 0'a doğru, belirli formüller ile kayan grayscale texture'lar oluşturur.
 
 
 * #### Color (Output)
@@ -1068,7 +1068,7 @@ Quadratic Sphere | "Spherical" ile aynıdır ama daha yumuşak bir geçişi vard
 Radial | "Vector" input'u ile verilen texture coordinate'in Z eksenini baz alarak dairesel bir şekilde gradient döndürür.
 
 * #### Vector (Socket Input)
-Bilmiyorum.
+Texture'un oluşturulacağı konumu belirten texture coordinate değeri.
 
 
 

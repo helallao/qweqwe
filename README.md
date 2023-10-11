@@ -1345,12 +1345,24 @@ Nishita | En kapsamlı gökyüzü ayarları bu moddadır.
 "Sky Type" ayarı "Hosek/Wilkie" modundayken vardır. Yeryüzünden seken ışık miktarını ayarlar. Arttıkça gökyüzü de parlaklaşır.
 
 * #### Vector (Socket Input)
-Texture'un oluşturulacağı konumu belirten texture coordinate değeri.
+"Sky Type" ayarı "Preetham" ve "Hosek/Wilkie" modundayken vardır. Texture'un oluşturulacağı konumu belirten texture coordinate değeri.
 
+* #### Sun Disc (Node Input)
+"Sky Type" ayarı "Nishita" modundayken vardır. Güneşin kendisinin görünümünü açar/kapatır.
 
+* #### Sun Size (Node Input)
+"Sky Type" ayarı "Nishita" modundayken ve "Sun Disc" ayarı açıkken vardır. Güneşin büyüklüğünü ayarlar.
 
+* #### Sun Intensity (Node Input)
+"Sky Type" ayarı "Nishita" modundayken ve "Sun Disc" ayarı açıkken vardır.
 
+* #### Sun Elevation (Node Input)
+"Sky Type" ayarı "Nishita" modundayken vardır. Güneşin yükleşini ayarlar.
 
+* #### Sun Rotation (Node Input)
+"Sky Type" ayarı "Nishita" modundayken vardır. Güneşin dünya çevresindeki konumunu ayarlar.
 
+* #### Altitude (Node Input)
+"Sky Type" ayarı "Nishita" modundayken vardır. Dünyamızın daha doğrusu sahnenin olduğu konumun rakımını ayarlar.
 
 

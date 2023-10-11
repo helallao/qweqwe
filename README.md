@@ -1129,6 +1129,18 @@ Mod | Açıklama
 
 <img src="Dosyalar/ProjectionTexture.png">
 
+* #### Blend (Node Input)
+Sadece "Projection" ayarı "Box" modunda iken vardır. Texture'un birbiri ile birleştiği kenar kısımları yumuşatır (çevredeki pikseller ile birleştirme).
+
+* #### Extension (Node Input)
+Mod | Açıklama
+:---: | :---:
+‎Repeat | UV texture'un sınırlarının dışına çıktığında texture'u tekrarlar (tiling).
+Extend | UV texture'un sınırlarının dışına çıktığında texture'u sündürür.
+Clip | "Repeat" modunun tam tersi, UV texture'un sınırlarının dışına çıktığında texture'u tekrarlamaz (tiling yapmaz).
+Mirror | "Repeat" gibidir ama her tekrarlamada texture'u tekrarlandığı eksende (tiling) ters döndürür. Yani aynalanmış gibi ters olur.
+
+
 
 
 

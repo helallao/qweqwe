@@ -1706,11 +1706,33 @@ Texture/renk.
 
 
 # Vector
-a
+Açıklama.
 
 
 ## [Bump](https://docs.blender.org/manual/en/latest/render/shader_nodes/vector/bump.html)
-a
+Verilen grayscale texture'dan bump map (yükseklik map'i) oluşturmaya yarar.
+
+
+* #### Normal (Output)
+Bump map.
+
+* #### Invert (Node Input)
+Bu ayar açıldığında yükseklik map'i tersine çevirilir. Yüksek olan kısımlar alçak, alçak olan kısımlar yüksek olur. Yani siyah değerler (yani 0) dışa, beyaz değerler (yani 1) içe doğru ilerler.
+
+* #### Strength (Socket Input)
+Oluşturulan yükseklik map'inin etki derecesi. "Distance" ayarının aksine yükseklik map'inin şeklini değiştirmez, sadece etki derecesini ayarlar.
+
+* #### Distance (Socket Input)
+Oluşturulan yükseklik map'inin yüksekliğini arttırır. "Strength" ayarının aksine yükseklik map'inin şeklini değiştirir.
+
+* #### Height (Socket Input)
+Grayscale texture, yükseklik map'i. Siyah değerler (yani 0) içe, beyaz değerler (yani 1) dışa doğru ilerler.
+
+* #### Normal (Socket Input)
+Eger shader'ın kullandığı normal map varsa buraya bağlayın. İşlemler normal map dikkate alınarak yapılır.
+
+
+
 
 
 

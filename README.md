@@ -1576,6 +1576,27 @@ Gamma değeri.
 
 
 
+## [Hue/Saturation/Value](https://docs.blender.org/manual/en/latest/render/shader_nodes/color/hue_saturation.html)
+Verilen texture/renk'e HSV renk modelinde renk değişimi uygular.
+
+
+* #### Color (Output)
+Sonuç.
+
+* #### Hue (Socket Input)
+Ton değişimi. 0'dan 1'e doğru gittikçe rengi renk paletinde 360 derece döndürür.
+
+* #### Saturation (Socket Input)
+1'den 0'a doğru gittikçe texture/renk siyah beyaz olur. 1'den yukarıya doğru gittikçe renkler canlanmaya başlar.
+
+* #### Value (Socket Input)
+Texture/renk'in genel olarak parlaklığını ayarlar.
+
+* #### Fac (Socket Input)
+Texture/renk'e uygulanan işlemlerin etki derecesi.
+
+* #### Color (Socket Input)
+Texture/renk.
 
 
 

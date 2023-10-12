@@ -82,6 +82,7 @@ Aşağıdaki döküman Cycles render motoru kullanıldığı varsayılarak hazı
 * [Mapping](#mapping)
 * [Normal](#normal)
 * [Normal Map](#normal-map)
+* [Vector Curves](#vector-curves)
 
 
 <br>
@@ -1830,6 +1831,23 @@ Normal map şiddeti.
 * #### Color (Socket Input)
 Normal map texture'u.
 
+
+
+## [Vector Curves](https://docs.blender.org/manual/en/latest/render/shader_nodes/vector/curves.html)
+[RGB Curves](#rgb-curves) node'unun vektörler için olan versiyonudur.
+
+
+* #### Vector (Output)
+Sonuç.
+
+* #### Curve (Node Input)
+Açıklama için [RGB Curves](#rgb-curves) node'una bakın.
+
+* #### Fac (Socket Input)
+Yapılan işlemin etki derecesi.
+
+* #### Vector (Socket Input)
+Vektör.
 
 
 

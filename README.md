@@ -81,6 +81,7 @@ Aşağıdaki döküman Cycles render motoru kullanıldığı varsayılarak hazı
 * [Displacement](#displacement)
 * [Mapping](#mapping)
 * [Normal](#normal)
+* [Normal Map](#normal-map)
 
 
 <br>
@@ -432,7 +433,7 @@ Bilmiyorum.
 Bilmiyorum.
 
 * #### UV Map (Node Input)
-Bilmiyorum.
+Kullanılacak UV map.
 
 
 
@@ -1810,12 +1811,24 @@ Sonuç normal'ı.
 
 
 
+## [Normal Map](https://docs.blender.org/manual/en/latest/render/shader_nodes/vector/normal_map.html)
+Normal Map texture'undan normal map oluşturmaya yarar.
 
 
+* #### Normal (Output)
+Normal map.
 
+* #### Space (Node Input)
+Normal map uzayı.
 
+* #### UV Map (Node Input)
+Kullanılacak UV map.
 
+* #### Strength (Socket Input)
+Normal map şiddeti.
 
+* #### Color (Socket Input)
+Normal map texture'u.
 
 
 

@@ -1621,23 +1621,23 @@ Texture/renk.
 
 
 ## [Light Falloff](https://docs.blender.org/manual/en/latest/render/shader_nodes/color/light_falloff.html)
-a
+Işık shader'ı oluşturmak için kullanılır. Bu node'un neden bu kategoride olduğunu bilmiyorum, [Shader](#shader-1) kategorisinde olmalıydı.
 
 
 * #### Quadratic (Output)
-a
+Linear ve Constant'a göre daha gerçekçi bir görünümü vardır. Uzaklaştıkça azalan bir ışık görünümü verir.
 
 * #### Linear (Output)
-a
+Uzaklaştıkça azalan bir ışık görünümü verir. Quadratic kadar yumuşak bir geçişi yoktur ve daha fazla ışık verir.
 
 * #### Constant (Output)
-a
+Quadratic ve Linear'a göre çok daha şiddetli ışık verir. Çok uzak mesafelere kadar yüksek şiddette ışık vermeye devam eder.
 
 * #### Strength (Socket Input)
-a
+Işık şiddeti.
 
 * #### Smooth (Socket Input)
-a
+Yumuşaklık derecesi, zaten Quadratic, Linear ve Constant output'ları kendi başlarına yumuşaklık efektine sahip oldukları için, bu ayar ışığın şiddetini azaltıyor gibi görünüyor.
 
 
 

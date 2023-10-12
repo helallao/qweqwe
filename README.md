@@ -65,6 +65,7 @@ Aşağıdaki döküman Cycles render motoru kullanıldığı varsayılarak hazı
 * [Sky Texture](#sky-texture)
 * [Voronoi Texture](#voronoi-texture)
 * [Wave Texture](#wave-texture)
+* [White Noise Texture](#white-noise-texture)
 
 
 <br>
@@ -1505,6 +1506,29 @@ Dalgalara offset vermemize yani ileri geri almamıza yarar.
 
 
 
+## [White Noise Texture](https://docs.blender.org/manual/en/latest/render/shader_nodes/textures/white_noise.html)
+Siyah ile beyaz arasında rastgele renklere sahip texture oluşturur.
+
+
+* #### Value (Output)
+Grayscale texture.
+
+* #### Color (Output)
+Texture.
+
+* #### Dimensions (Node Input)
+Mod | Açıklama
+:---: | :---:
+1D | "W" input'una verilen her bir değer bir nokta olarak ele alınır ve her nokta için tek bir değer verir. Eger "W" input'una texture coordinate verirseniz dalga gibi bir efekt oluşturduğunu görürsünüz.
+2D | 2D texture verir. Yani Z ekseni umursanmaz.
+3D | 3D texture verir.
+4D | "3D" modundaymış gibi çalışıp "W" input'u ile seed verebilme özelliğini açar.
+
+* #### Vector (Socket Input)
+Texture'un oluşturulacağı konumu belirten texture coordinate değeri.
+
+* #### W (Socket Input)
+"Dimensions" ayarı "1D" ve "4D" modunda iken vardır. "1D" modunda noktanın konumunu belirtir. "4D" modunda ise seed olarak kullanılır. Seed demek verilen sayıya göre işlemlerin bilgisayarda o sayıya özel olarak rastgele gerçekleşmesi demektir. Aynı seed'i kullandığınızda hep aynı sonucu alırsınız.
 
 
 

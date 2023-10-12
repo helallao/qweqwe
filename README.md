@@ -76,6 +76,9 @@ Aşağıdaki döküman Cycles render motoru kullanıldığı varsayılarak hazı
 * [Mix Color](#mix-color)
 * [RGB Curves](#rgb-curves)
 
+# [Vector](#vector-1)
+* [Bump](#bump)
+
 
 <br>
 <br>
@@ -1698,6 +1701,16 @@ Yapılan işlemin etki derecesi.
 Texture/renk.
 
 
+<br>
+<br>
+
+
+# Vector
+a
+
+
+## [Bump](https://docs.blender.org/manual/en/latest/render/shader_nodes/vector/bump.html)
+a
 
 
 

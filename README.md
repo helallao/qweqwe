@@ -67,6 +67,9 @@ Aşağıdaki döküman Cycles render motoru kullanıldığı varsayılarak hazı
 * [Wave Texture](#wave-texture)
 * [White Noise Texture](#white-noise-texture)
 
+# [Color](#color-1)
+* [Brightness/Contrast](#brick-texture)
+
 
 <br>
 <br>
@@ -1531,9 +1534,20 @@ Texture'un oluşturulacağı konumu belirten texture coordinate değeri.
 "Dimensions" ayarı "1D" ve "4D" modunda iken vardır. "1D" modunda noktanın konumunu belirtir. "4D" modunda ise seed olarak kullanılır. Seed demek verilen sayıya göre işlemlerin bilgisayarda o sayıya özel olarak rastgele gerçekleşmesi demektir. Aynı seed'i kullandığınızda hep aynı sonucu alırsınız.
 
 
+<br>
+<br>
 
 
+# Color
+Bu kategorideki node'lar renkler üzerinde işlemler yapmamıza yarayan nodları içerir.
 
+
+## [Brightness/Contrast](https://docs.blender.org/manual/en/latest/render/shader_nodes/color/bright_contrast.html)
+a
+
+
+* #### Value (Output)
+Grayscale texture.
 
 
 

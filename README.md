@@ -70,6 +70,11 @@ Aşağıdaki döküman Cycles render motoru kullanıldığı varsayılarak hazı
 # [Color](#color-1)
 * [Brightness/Contrast](#brightnesscontrast)
 * [Gamma](#gamma)
+* [Hue/Saturation/Value](#huesaturationvalue)
+* [Invert Color](#invert-color)
+* [Light Falloff](#light-falloff)
+* [Mix Color](#mix-color)
+* [RGB Curves](#rgb-curves)
 
 
 <br>
@@ -1600,16 +1605,57 @@ Texture/renk.
 
 
 
+## [Invert Color](https://docs.blender.org/manual/en/latest/render/shader_nodes/color/invert_color.html)
+Verilen texture/renk'in renklerini tersine çevirir.
+
+
+* #### Color (Output)
+Sonuç.
+
+* #### Fac (Socket Input)
+Renk değiştirme derecesi.
+
+* #### Color (Socket Input)
+Texture/renk.
 
 
 
+## [Light Falloff](https://docs.blender.org/manual/en/latest/render/shader_nodes/color/light_falloff.html)
+a
+
+
+* #### Quadratic (Output)
+a
+
+* #### Linear (Output)
+a
+
+* #### Constant (Output)
+a
+
+* #### Strength (Socket Input)
+a
+
+* #### Smooth (Socket Input)
+a
 
 
 
+## [Mix Color](https://docs.blender.org/manual/en/latest/render/shader_nodes/color/mix.html)
+a
+
+
+* #### Result (Output)
+a
 
 
 
+## [RGB Curves](https://docs.blender.org/manual/en/latest/render/shader_nodes/color/rgb_curves.html)
+a
 
+
+* #### Result (Output)
+a
 
 
 

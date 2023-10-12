@@ -78,6 +78,7 @@ Aşağıdaki döküman Cycles render motoru kullanıldığı varsayılarak hazı
 
 # [Vector](#vector-1)
 * [Bump](#bump)
+* [Displacement](#displacement)
 
 
 <br>
@@ -1732,6 +1733,30 @@ Grayscale texture, yükseklik map'i. Siyah değerler (yani 0) içe, beyaz değer
 Eger shader'ın kullandığı normal map varsa buraya bağlayın. İşlemler normal map dikkate alınarak yapılır.
 
 
+
+## [Displacement](https://docs.blender.org/manual/en/latest/render/shader_nodes/vector/bump.html)
+Verilen grayscale texture'dan displacement map (yükseklik map'i) oluşturmaya yarar.
+
+
+* #### Displacement (Output)
+Displacement map.
+
+* #### Space (Node Input)
+Mod | Açıklama
+:---: | :---:
+a | a
+
+* #### Height (Socket Input)
+a
+
+* #### Midlevel (Socket Input)
+a
+
+* #### Scale (Socket Input)
+a
+
+* #### Normal (Socket Input)
+Eger shader'ın kullandığı normal map varsa buraya bağlayın. İşlemler normal map dikkate alınarak yapılır.
 
 
 

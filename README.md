@@ -80,6 +80,7 @@ Aşağıdaki döküman Cycles render motoru kullanıldığı varsayılarak hazı
 * [Bump](#bump)
 * [Displacement](#displacement)
 * [Mapping](#mapping)
+* [Normal](#normal)
 
 
 <br>
@@ -1788,6 +1789,32 @@ Texture coordinate rotasyon değeri.
 
 * #### Scale (Socket Input)
 Texture coordinate boyut değeri.
+
+
+
+## [Normal](https://docs.blender.org/manual/en/latest/render/shader_nodes/vector/normal.html)
+Bu node'u istediğiniz yöne bakan normal oluşturmak veya elinizde olan iki normal'ı [Dot Product](https://en.wikipedia.org/wiki/Dot_product) kullanarak karşılaştırmak için kullanabilirsiniz. Normal input'ları için node size interaktif thumbnail'ler sunuyor. Bunlar ile normal'ları ayarlayabilirsiniz. Muhtemelen sadece 1. normal'ı bu şekilde ayarlarsınız çünkü 2. normal 1. normal ile karşılaştırmak için kullanlıyor ve muhtemelen socket kullanarak normal değeri bağlayacaksınız. İnteraktif thumbnail'lerdeki kürelerin beyaz olan tarafları normal'ın baktığı yönü temsil ediyor ve "Normal" output'u bu normal değerini veriyor. Bu normal'ı shader'ların sadece belirli yerlerine efektler uygulamak için kullanabilirsiniz. "Dot" output'u 1. ve 2. normal değerlerinin [Dot Product](https://en.wikipedia.org/wiki/Dot_product) kullanılarak karşılaştırılmasından çıkan sonucu verir. Bunu da elinizdeki normal değeri istediğiniz yöne bakıyor mu diye kontrol etmek için kullanabilirsiniz.
+
+
+* #### Normal (Output)
+Sonuç normal'ı.
+
+* #### Dot (Output)
+1. ve 2. normal'ın karşılaştırılması sonucu çıkan değer. Eğer normal'lar aynı yöne bakıyorsa 1, aralarında 90 derece veya daha fazla fark varsa 0 döndürür.
+
+* #### Normal 1 (Node Input)
+1. normal değeri, socket kullanarak normal bağlayamazsınız, node üzerinden ayarlayabilirsiniz.
+
+* #### Normal 2 (Socket Input)
+2. normal değeri, buraya 1. normal ile karşılaştırmak istediğiniz normal'ı verebilirsiniz.
+
+
+
+
+
+
+
+
 
 
 

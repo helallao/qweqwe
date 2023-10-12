@@ -1642,11 +1642,36 @@ a
 
 
 ## [Mix Color](https://docs.blender.org/manual/en/latest/render/shader_nodes/color/mix.html)
-a
+Sayı, renk ve vektör değerlerini karıştırır.
 
 
 * #### Result (Output)
-a
+Sonuç.
+
+* #### Data Type (Node Input)
+Mod | Açıklama
+:---: | :---:
+Float | İki sayıyı karıştırır.
+Vector | İki vektörü karıştırır.
+Color | İki rengi karıştırır.
+
+* #### Blending Mode (Node Input)
+Sadece "Data Type" ayarı "Vector" ve "Color" modundayken vardır. "Vector" modunda "Non-Uniform" ve "Uniform" diye iki mod vardır. "Non-Uniform" modunu kullanarak vektörlerin her bir kanalı için ayrı faktör değerleri verebilirsiniz. "Color" modunda çok fazla mod var, her biri hakkında detaylı açıklamalara [buradan](https://docs.krita.org/en/reference_manual/blending_modes.html#available-blending-modes) ulaşabilirsiniz.
+
+* #### Clamp Result (Node Input)
+Sadece "Data Type" ayarı "Color" modundayken vardır. Sonucu clamp eder, yani 0'dan küçük olan değerler 0'a, 1'den büyük olan değerler 1'e çekilir. Sonuç değerleri 0-1 arasında olur.
+
+* #### Clamp Factor (Node Input)
+"Factor" input'una verilen değerleri clamp eder, yani 0'dan küçük olan değerler 0'a, 1'den büyük olan değerler 1'e çekilir. "Factor" değerleri 0-1 arasında olur.
+
+* #### Factor (Socket Input)
+1. ve 2. değerler arasındaki karışım oranı. Faktör değeri 0 iken 1. input'a verilen değer (A), 1 iken 2. input'a verilen değer (B) kullanılır.
+
+* #### A (Socket Input)
+Karıştırılacak 1. değer.
+
+* #### B (Socket Input)
+Karıştırılacak 2. değer.
 
 
 

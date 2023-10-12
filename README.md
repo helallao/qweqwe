@@ -1744,16 +1744,17 @@ Displacement map.
 * #### Space (Node Input)
 Mod | Açıklama
 :---: | :---:
-a | a
+Object Space | Objeyi scale etmek displacement map'ini de etkiler.
+World Space | Objeyi scale etmek displacement map'ini etkilemez, sadece "Scale" input'u etkiler (eğer bu modda da scale işlemi displacement map'ini etkiliyorsa, viewport shading'inizi solid'e alıp tekrar render'a alın, aslında etki etmediğini göreceksiniz).
 
 * #### Height (Socket Input)
-a
+Grayscale texture, yükseklik map'i. Siyah değerler (yani 0) içe, beyaz değerler (yani 1) dışa doğru ilerler.
 
 * #### Midlevel (Socket Input)
-a
+Eğer materyalin ayarlardan displacement modu displacement olarak seçildiyse, displacement kullandığınızda shader'ın geriye doğru kaydığını görebilirsiniz. Midlevel ayarı shader'ı düzgün bir şekilde oturtmak için shader'ı ileri alır.
 
 * #### Scale (Socket Input)
-a
+Oluşturulan yükseklik map'inin yükseklik derecesi.
 
 * #### Normal (Socket Input)
 Eger shader'ın kullandığı normal map varsa buraya bağlayın. İşlemler normal map dikkate alınarak yapılır.

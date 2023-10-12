@@ -79,6 +79,7 @@ Aşağıdaki döküman Cycles render motoru kullanıldığı varsayılarak hazı
 # [Vector](#vector-1)
 * [Bump](#bump)
 * [Displacement](#displacement)
+* [Mapping](#mapping)
 
 
 <br>
@@ -1758,6 +1759,35 @@ Oluşturulan yükseklik map'inin yükseklik derecesi.
 
 * #### Normal (Socket Input)
 Eger shader'ın kullandığı normal map varsa buraya bağlayın. İşlemler normal map dikkate alınarak yapılır.
+
+
+
+## [Mapping](https://docs.blender.org/manual/en/latest/render/shader_nodes/vector/mapping.html)
+Verilen texture coordinate değeri üzerinde düzenleme yapar.
+
+
+* #### Vector (Output)
+Texture coordinate değeri.
+
+* #### Type (Node Input)
+Mod | Açıklama
+:---: | :---:
+Point | Default mod. İşlemleri (Scale -> Rotation -> Location) sıralamasında yapar.
+Texture | Point ile aynıdır, tek farkı işlemleri (Location -> Rotation -> Scale) sıralamasında yapmasıdır.
+Vector | Vektörleri kullanır, vektörlerin konumu olmadığı için konumu ayarlayamazsınız.
+Normal | Scale ederken normalleri de baz alarak scale işlemi uygular. Sanki sündürürmüş gibi efekt verir. Mesela küre üzerinde kullanırken texture'un kürenin üst ve altına doğru küçülmesini istiyorsanız bunu kullanabilirsiniz.
+
+* #### Vector (Socket Input)
+Kullanılacak texture coordinate değeri.
+
+* #### Location (Socket Input)
+Texture coordinate konum değeri.
+
+* #### Rotation (Socket Input)
+Texture coordinate rotasyon değeri.
+
+* #### Scale (Socket Input)
+Texture coordinate boyut değeri.
 
 
 

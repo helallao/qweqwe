@@ -64,6 +64,7 @@ Aşağıdaki döküman Cycles render motoru kullanıldığı varsayılarak hazı
 * [Point Density](#point-density)
 * [Sky Texture](#sky-texture)
 * [Voronoi Texture](#voronoi-texture)
+* [Wave Texture](#wave-texture)
 
 
 <br>
@@ -1441,6 +1442,66 @@ Yumuşaklık (yani yükseklik) değerinin geçiş derecesini kendiniz ayarlayabi
 * #### Randomness (Socket Input)
 Oluşturulan noktaların konumlarının rastgeleliği, 0'da iken noktalar düzenli olarak dağıtılır, yükselttikçe noktaların konumuna rastgelelik verilir.
 
+
+
+## [Wave Texture](https://docs.blender.org/manual/en/latest/render/shader_nodes/textures/wave.html)
+Dalga şeklinde texture oluşturur.
+
+
+* #### Color (Output)
+Texture.
+
+* #### Fac (Output)
+Grayscale texture.
+
+* #### Type (Node Input)
+Dalga türü.
+
+Mod | Açıklama
+:---: | :---:
+Bands | Dalgalar düz çizgiler halinde olur.
+Rings | Dalgalar halkalar halinde olur.
+
+* #### Bands/Rings Direction (Node Input)
+Dalgaların yönü.
+
+Mod | Açıklama
+:---: | :---:
+X | X ekseni.
+Y | Y ekseni.
+Z | Z ekseni.
+Diagonal | Dalgalar çaprazlama şekilde olur.
+Spherical | "Type" ayarı "Rings" modundayken vardır. Dalgalar dairesel şekilde olur.
+
+* #### Wave Profile (Node Input)
+Dalgaların geçişlerini belirleyen modlardır.
+
+Mod | Açıklama
+:---: | :---:
+Sine | Default mod.
+Saw | Dalgalar keskin geçişlere sahip olur.
+Triangle | Sine gibidir ama geçişleri keskin bir şekilde atlayarak yapar.
+
+* #### Vector (Socket Input)
+Texture'un oluşturulacağı konumu belirten texture coordinate değeri.
+
+* #### Scale (Socket Input)
+Texture'un boyutu.
+
+* #### Distortion (Socket Input)
+Arttırdıkça dalgaların konumlarına rastgelelik verir, yani karıştırır.
+
+* #### Detail (Socket Input)
+Texture'un detay derecesi, arttırdıkça detay da artar ve yakından bakarsanız texture'un keskinleştiğini görebilirsiniz. Detay arttıkça texture yumuşak geçişleri kaybedip keskin geçişlere sahip olur.
+
+* #### Detail Scale (Socket Input)
+Texture'un detay derecesi, bunu şöyle düşünün, eğer dalgaların boyutunu uzatırsanız dalgalar texture üzerinde daha fazla yer kaplar ve daha fazla detaya sahip olmuş olurlar. İşte bu ayar da bu mantıkta çalışıyor, detay ekleyebilmek için dalgalara ekleme yapar.
+
+* #### Detail Roughness (Socket Input)
+0'a yaklaştıkça detayların geçişi yumuşak olur yani dalgaların geçişi yumuşak olur, 1'e yaklaştıkça geçişler de keskinleşir.
+
+* #### Phase Offset (Socket Input)
+Dalgalara offset vermemize yani ileri geri almamıza yarar.
 
 
 

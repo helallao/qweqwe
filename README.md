@@ -1676,13 +1676,22 @@ Karıştırılacak 2. değer.
 
 
 ## [RGB Curves](https://docs.blender.org/manual/en/latest/render/shader_nodes/color/rgb_curves.html)
-a
+Verilen texture/renk'in renklerini curve aracılığı ile ayarlamamıza yarar.
 
 
-* #### Result (Output)
-a
+* #### Color (Output)
+Sonuç.
 
+* #### Curve (Node Input)
+Curve noktalar koyarak bu noktalar arasında eğim oluşturabildiğiniz bölümdür. Eğimin üzerine tıklayarak yeni noktalar ekleyebilirsiniz, böylelikle istediğiniz kadar detay verebilirsiniz. Çalışma mantığı şudur, input olarak verilen texture'un içerisindeki her bir değer (piksel) için renk değerini kontrol eder ve yaptığınız eğim üzerinde bu değerin geldiği yerdeki değeri alıp, yeni değeri koyar. Yani şöyle, siz şimdi bir eğim tasarlayacaksınız, bu eğimin X ve Y eksenlerinde değerleri olacak. X eksenindeki her bir değer, input olarak verilen texture'un içerisindeki her bir renk değerinin (piksel) konumunu temsil ediyor. Y eksenindeki her bir değer, bu rengin yerine yerleştirilecek yeni renk değerini temsil ediyor. Mesela diyelim ki elinizde soldan sağa doğru siyahtan beyaza kayan renklere sahip bir texture var. Bu texture üzerinde RGB Curves kullandınız ve bu texture'un çok beyaz kısımlarını siyaha kaydırmak istiyorsunuz. Mesela 0.4'den büyük değere sahip olan yerleri siyah yapacaksınız. Bu durumda oluşturduğunuz curve'ün X ekseninde 0.4'den sonrasını ayarlamalısınız. Mesela ben 0.4'den sonrasında renkler beyazlaştıkça daha da siyah olmasını istiyorum. Bu durumda yaptığınız eğim aşağıdaki resimde gördüğünüz gibi olmalıdır.
 
+<img src="Dosyalar/ColorCurve.png">
+
+* #### Fac (Socket Input)
+Yapılan işlemin etki derecesi.
+
+* #### Color (Socket Input)
+Texture/renk.
 
 
 

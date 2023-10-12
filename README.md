@@ -68,7 +68,8 @@ Aşağıdaki döküman Cycles render motoru kullanıldığı varsayılarak hazı
 * [White Noise Texture](#white-noise-texture)
 
 # [Color](#color-1)
-* [Brightness/Contrast](#brick-texture)
+* [Brightness/Contrast](#brightnesscontrast)
+* [Gamma](#gamma)
 
 
 <br>
@@ -1543,11 +1544,57 @@ Bu kategorideki node'lar renkler üzerinde işlemler yapmamıza yarayan nodları
 
 
 ## [Brightness/Contrast](https://docs.blender.org/manual/en/latest/render/shader_nodes/color/bright_contrast.html)
-a
+Verilen texture/renk'in parlaklığını ve kontrastını arttırır.
 
 
-* #### Value (Output)
-Grayscale texture.
+* #### Color (Output)
+Sonuç.
+
+* #### Color (Socket Input)
+Texture/renk.
+
+* #### Bright (Socket Input)
+Arttırdıkça texture/renk'e değer ekler ve bu da sonucun beyaza yaklaşmasına sebep olur.
+
+* #### Contrast (Socket Input)
+Renkleri keskinleştirir. Bu da her rengin daha da parlak olması ile sonuçlanır.
+
+
+
+## [Gamma](https://docs.blender.org/manual/en/latest/render/shader_nodes/color/gamma.html)
+Verilen texture/renk'in [gamma değerini](https://en.wikipedia.org/wiki/Gamma_correction) değiştirir.
+
+
+* #### Color (Output)
+Sonuç.
+
+* #### Color (Socket Input)
+Texture/renk.
+
+* #### Gamma (Socket Input)
+Gamma değeri.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -501,7 +501,7 @@ Yüzey (genellikle katı madde) shader'ı.
 Volume (katı madde olmayan) shader'ı.
 
 * #### Displacement (Socket Input)
-Bilmiyorum.
+Displacement map bağlayabilirsiniz (bkz. [Displacement](#displacement)).
 
 
 
@@ -1851,9 +1851,26 @@ Vektör.
 
 
 
+## [Vector Displacement](https://docs.blender.org/manual/en/latest/render/shader_nodes/vector/vector_displacement.html)
+a
+
+<img src="Dosyalar/VectorDisplacement.png">
 
 
+* #### Displacement (Output)
+Displacement map.
 
+* #### Space (Node Input)
+Displacement map uzayı.
+
+* #### Vector (Socket Input)
+a
+
+* #### Midlevel (Socket Input)
+Eğer materyalin ayarlardan displacement modu displacement olarak seçildiyse, displacement kullandığınızda shader'ın geriye doğru kaydığını görebilirsiniz. Midlevel ayarı shader'ı düzgün bir şekilde oturtmak için shader'ı ileri alır.
+
+* #### Scale (Socket Input)
+Oluşturulan yükseklik map'inin yükseklik derecesi.
 
 
 

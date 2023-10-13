@@ -84,6 +84,7 @@ Aşağıdaki döküman Cycles render motoru kullanıldığı varsayılarak hazı
 * [Normal Map](#normal-map)
 * [Vector Curves](#vector-curves)
 * [Vector Displacement](#vector-displacement)
+* [Vector Transform](#vector-transform)
 
 
 <br>
@@ -1875,7 +1876,8 @@ Oluşturulan yükseklik map'inin yükseklik derecesi.
 
 
 
-
+## [Vector Transform](https://docs.blender.org/manual/en/latest/render/shader_nodes/vector/transform.html)
+Bilmiyorum.
 
 
 

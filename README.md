@@ -93,6 +93,7 @@ Aşağıdaki döküman Cycles render motoru kullanıldığı varsayılarak hazı
 * [Color Ramp](#color-ramp)
 * [Combine Color](#combine-color)
 * [Combine XYZ](#combine-xyz)
+* [Float Curve](#float-curve)
 
 
 <br>
@@ -1940,7 +1941,7 @@ Maximum değeri.
 
 
 ## [Color Ramp](https://docs.blender.org/manual/en/latest/render/shader_nodes/converter/color_ramp.html)
-[RGB Curves](#rgb-curves) node'unun renkler için olan versiyonudur. Ayrıca curve yerine daha basit bir widget kullanılmış.
+[RGB Curves](#rgb-curves) node'unun renkler için olan versiyonudur. Curve yerine Color Ramp Widget kullanılmış hali.
 
 
 * #### Color (Output)
@@ -1993,6 +1994,33 @@ Y.
 
 * #### Z (Socket Input)
 Z.
+
+
+
+## [Float Curve](https://docs.blender.org/manual/en/latest/render/shader_nodes/converter/float_curve.html)
+[RGB Curves](#rgb-curves) node'unun float (grayscale) değerler için olan versiyonudur.
+
+
+* #### Value (Output)
+Değer.
+
+* #### Curve Widget (Node Input)
+Açıklama için [RGB Curves](#rgb-curves) node'una bakın.
+
+* #### Fac (Socket Input)
+Yapılan işlemin etki derecesi.
+
+* #### Value (Socket Input)
+Texture/değer.
+
+
+
+
+
+
+
+
+
 
 
 

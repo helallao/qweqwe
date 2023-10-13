@@ -87,6 +87,9 @@ Aşağıdaki döküman Cycles render motoru kullanıldığı varsayılarak hazı
 * [Vector Rotate](#vector-rotate)
 * [Vector Transform](#vector-transform)
 
+# [Converter](#converter-1)
+* [Blackbody](#blackbody)
+
 
 <br>
 <br>
@@ -1884,6 +1887,33 @@ Bilmiyorum.
 
 ## [Vector Transform](https://docs.blender.org/manual/en/latest/render/shader_nodes/vector/transform.html)
 Bilmiyorum.
+
+
+<br>
+<br>
+
+
+# Converter
+a
+
+
+## [Blackbody](https://docs.blender.org/manual/en/latest/render/shader_nodes/converter/blackbody.html)
+Gerçekçi olması amacıyla verdiğiniz kelvin sıcaklık derecesine göre renk oluşturur.
+
+
+* #### Color (Output)
+Renk.
+
+* #### Temper (Socket Input)
+Kelvin biriminde sıcaklık derecesi.
+
+
+
+
+
+
+
+
 
 
 

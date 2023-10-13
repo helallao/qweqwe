@@ -103,6 +103,8 @@ Aşağıdaki döküman Cycles render motoru kullanıldığı varsayılarak hazı
 * [Vector Math](#vector-math)
 * [Wavelength](#wavelength)
 
+# [Script](#script-1)
+* [Script](#script-2)
 
 <br>
 <br>
@@ -2198,6 +2200,22 @@ Renk.
 
 * #### Wavelength (Socket Input)
 Dalga boyu.
+
+
+<br>
+<br>
+
+
+# Script
+Bu kategorideki "Script" node'unu kullanarak [OSL (Open Shading Language)](https://github.com/AcademySoftwareFoundation/OpenShadingLanguage) shader dilinde yazdığınız kodları kullanabilirsiniz.
+
+
+## [Script](https://docs.blender.org/manual/en/latest/render/shader_nodes/osl.html)
+Bu node ile [OSL (Open Shading Language)](https://github.com/AcademySoftwareFoundation/OpenShadingLanguage) shader dilinde yazdığınız kodları kullanabilirsiniz. OSL kullanabilmek için render ayarlarından "Open Shading Language" ayarını açmanız gerekir. "Internal" modunda kodları yazı olarak yazabilir, "External" modunda bilgisayarınızdan dosya yolunu belirterek kullanabilirsiniz.
+
+
+
+
 
 
 

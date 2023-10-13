@@ -89,6 +89,7 @@ Aşağıdaki döküman Cycles render motoru kullanıldığı varsayılarak hazı
 
 # [Converter](#converter-1)
 * [Blackbody](#blackbody)
+* [Clamp](#clamp)
 
 
 <br>
@@ -1909,10 +1910,29 @@ Kelvin biriminde sıcaklık derecesi.
 
 
 
+## [Clamp](https://docs.blender.org/manual/en/latest/render/shader_nodes/converter/clamp.html)
+Verilen değeri verilen minimum ve maximum değer arasında tutar. Yani minimum 1 maximum 5 ise sayı minimumdan küçük olduğunda tekrar minimuma yükseltilir, sayı maximumdan büyük olduğunda tekrar maximuma indirilir.
 
 
+* #### Result (Output)
+Sonuç.
 
+* #### Clamp Type (Node Input)
+Clamp modu.
 
+Mod | Açıklama
+:---: | :---:
+Min Max | Eger minimum maximumdan büyükse (yani maximum minimumdan küçükse) sonuç değeri her zaman maximum değeri olur.
+Range | Eger minimum maximumdan büyükse (yani maximum minimumdan küçükse) minimum ve maximum değerleri yer değiştirir. Yani bu modda önemli olan hangi input'un minimum hangisinin maximum olduğu değildir. Verilen iki input'un küçük olanı minimum olarak büyük olanı maximum olarak alınır.
+
+* #### Value (Socket Input)
+Değer.
+
+* #### Min (Socket Input)
+Minimum değeri.
+
+* #### Max (Socket Input)
+Maximum değeri.
 
 
 

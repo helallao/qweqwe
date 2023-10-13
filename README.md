@@ -110,6 +110,10 @@ Aşağıdaki döküman Cycles render motoru kullanıldığı varsayılarak hazı
 * [Make Group](#make-group)
 * [Ungroup](#ungroup)
 
+# [Layout](#layout-1)
+* [Frame](#frame)
+* [Reroute](#reroute)
+
 
 <br>
 <br>
@@ -2228,7 +2232,7 @@ Bu kategorideki node'lar grup oluşturmaya yarar. Gruplar yazılımdaki fonksiyo
 
 
 ## [Make Group](https://docs.blender.org/manual/en/latest/render/shader_nodes/groups.html)
-Seçilen node'lar üzerinden grup oluşturur. İsterseniz Ctrl + G kısayolunu da kullanabilirsiniz.
+Seçilen node'lar üzerinden grup oluşturur. İsterseniz Ctrl + G kısayolunu da kullanabilirsiniz. Oluşturduğunuz gruba tab tuşuna basarak girebilir/çıkabilirsiniz. Grup hakkında ayarlamaları "N" tuşuna basarak sağdaki toolbar üzerinden yapabilirsiniz.
 
 
 
@@ -2236,9 +2240,21 @@ Seçilen node'lar üzerinden grup oluşturur. İsterseniz Ctrl + G kısayolunu d
 Seçilen grubu bozar, içerisindeki kodları dışarıya alır ve grubu siler. İsterseniz Ctrl + Alt + G kısayolunu da kullanabilirsiniz.
 
 
+<br>
+<br>
+
+
+# Layout
+Bu kategorideki node'lar düzenleme için kullanılır.
+
+
+## [Frame]()
+İçerisine node'lar koyabileceğiniz bir çerçeve oluşturur. Sadece düzenleme amaçlıdır. Çerçeve hakkında ayarlamaları "N" tuşuna basarak sağdaki toolbar üzerinden yapabilirsiniz.
 
 
 
+## [Reroute]()
+Node bağlarını düzenlemek için ek node bağı ekler. Sadece düzenleme amaçlıdır.
 
 
 

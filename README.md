@@ -2015,18 +2015,45 @@ Texture/değer.
 
 
 
+## [Map Range](https://docs.blender.org/manual/en/latest/render/shader_nodes/converter/map_range.html)
+Verilen değeleri belirli bir aralıktan başka bir aralığa oranlar. 
 
 
+* #### Result (Output)
+Değer.
 
+* #### Data Type (Node Input)
+İsterseniz vektör de kullanabilirsiniz.
 
+* #### Interpolation Type (Node Input)
+Geçiş/yumuşaklık derecesini belirleyen mod.
 
+Mod | Açıklama
+:---: | :---:
+Linear | Default mod. Doğrusal.
+Stepped Linear | Doğrusal ama oranı belirlediğiniz adım sayısı kadar parçaya bölüp bu şekilde yerleştirir. Adım sayısını arttırdıkça detay da artar. Adım sayısını "Steps" input'u ile belirleyebilirsiniz.
+Smooth Step | Yumuşak geçiş.
+Smoother Step | Yumuşak geçiş.
 
+* #### Clamp (Node Input)
+Bu ayar açıkken değerler 0 ile 1 arasında tutulur.
 
+* #### Value/Vector (Socket Input)
+Kullanılacak değer.
 
+* #### From Min (Socket Input)
+Şu anki oranın minimum değeri.
 
+* #### From Max (Socket Input)
+Şu anki oranın maximum değeri.
 
+* #### To Min (Socket Input)
+Yeni oranın minimum değeri.
 
+* #### To Max (Socket Input)
+Yeni oranın maximum değeri.
 
-
+* #### Steps (Socket Input)
+Sadece "Interpolation Type" ayarı "Stepped Linear" modundayken vardır. Adım sayısı.
 
 

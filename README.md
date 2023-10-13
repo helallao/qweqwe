@@ -95,6 +95,8 @@ Aşağıdaki döküman Cycles render motoru kullanıldığı varsayılarak hazı
 * [Combine XYZ](#combine-xyz)
 * [Float Curve](#float-curve)
 * [Map Range](#map-range)
+* [Math](#math)
+* [Mix](#mix)
 
 
 <br>
@@ -2056,5 +2058,71 @@ Yeni oranın maximum değeri.
 
 * #### Steps (Socket Input)
 Sadece "Interpolation Type" ayarı "Stepped Linear" modundayken vardır. Adım sayısı.
+
+
+
+## [Math](https://docs.blender.org/manual/en/latest/render/shader_nodes/converter/math.html)
+Matematiksel işlemler yapmamıza yarar.
+
+
+* #### Value (Output)
+Sonuç.
+
+* #### Operation (Node Input)
+Yapılacak matematiksel işlem
+
+Mod | Açıklama
+:---: | :---:
+a | a
+
+* #### Clamp (Node Input)
+Bu ayar açıkken sonuç değeri 0 ile 1 arasında tutulur.
+
+
+
+## [Mix](https://docs.blender.org/manual/en/latest/render/shader_nodes/converter/mix.html)
+Verilen iki flaot, vektör veya renk değerini karıştırır.
+
+
+* #### Result (Output)
+Sonuç.
+
+* #### Data Type (Node Input)
+Mod | Açıklama
+:---: | :---:
+Float | İki sayıyı karıştırır.
+Vector | İki vektörü karıştırır.
+Color | İki rengi karıştırır.
+
+* #### Blending Mode (Node Input)
+Sadece "Data Type" ayarı "Color" modundayken vardır. Çok fazla mod var, her biri hakkında detaylı açıklamalara [buradan](https://docs.krita.org/en/reference_manual/blending_modes.html#available-blending-modes) ulaşabilirsiniz.
+
+* #### Factor Mode (Node Input)
+Sadece "Data Type" ayarı "Vector" modundayken vardır. "Non-Uniform" ve "Uniform" diye iki mod vardır. "Non-Uniform" modunu kullanarak vektörlerin her bir kanalı için ayrı faktör değerleri verebilirsiniz.
+
+* #### Clamp Result (Node Input)
+Sadece "Data Type" ayarı "Color" modundayken vardır. Sonucu clamp eder, yani 0'dan küçük olan değerler 0'a, 1'den büyük olan değerler 1'e çekilir. Sonuç değerleri 0-1 arasında olur.
+
+* #### Clamp Factor (Node Input)
+"Factor" input'una verilen değerleri clamp eder, yani 0'dan küçük olan değerler 0'a, 1'den büyük olan değerler 1'e çekilir. "Factor" değerleri 0-1 arasında olur.
+
+* #### Factor (Socket Input)
+1. ve 2. değerler arasındaki karışım oranı. Faktör değeri 0 iken 1. input'a verilen değer (A), 1 iken 2. input'a verilen değer (B) kullanılır.
+
+* #### A (Socket Input)
+Karıştırılacak 1. değer.
+
+* #### B (Socket Input)
+Karıştırılacak 2. değer.
+
+
+
+
+
+
+
+
+
+
 
 

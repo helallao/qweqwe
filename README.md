@@ -106,6 +106,11 @@ Aşağıdaki döküman Cycles render motoru kullanıldığı varsayılarak hazı
 # [Script](#script-1)
 * [Script](#script-2)
 
+# [Group](#group-1)
+* [Make Group](#make-group)
+* [Ungroup](#ungroup)
+
+
 <br>
 <br>
 
@@ -2214,13 +2219,21 @@ Bu kategorideki "Script" node'unu kullanarak [OSL (Open Shading Language)](https
 Bu node ile [OSL (Open Shading Language)](https://github.com/AcademySoftwareFoundation/OpenShadingLanguage) shader dilinde yazdığınız kodları kullanabilirsiniz. OSL kullanabilmek için render ayarlarından "Open Shading Language" ayarını açmanız gerekir. "Internal" modunda kodları yazı olarak yazabilir, "External" modunda bilgisayarınızdan dosya yolunu belirterek kullanabilirsiniz.
 
 
+<br>
+<br>
+
+
+# Group
+Bu kategorideki node'lar grup oluşturmaya yarar. Gruplar yazılımdaki fonksiyonlar gibidir, aynı kodları tekrar yazmaktan bizi kurtarırlar. Yaptığınız bütün gruplar bu kategoride gösterilir. Grupları başka materyallere de ekleyebilirsiniz.
+
+
+## [Make Group](https://docs.blender.org/manual/en/latest/render/shader_nodes/groups.html)
+Seçilen node'lar üzerinden grup oluşturur. İsterseniz Ctrl + G kısayolunu da kullanabilirsiniz.
 
 
 
-
-
-
-
+## [Ungroup](https://docs.blender.org/manual/en/latest/render/shader_nodes/groups.html)
+Seçilen grubu bozar, içerisindeki kodları dışarıya alır ve grubu siler. İsterseniz Ctrl + Alt + G kısayolunu da kullanabilirsiniz.
 
 
 

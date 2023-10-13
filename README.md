@@ -97,6 +97,9 @@ Aşağıdaki döküman Cycles render motoru kullanıldığı varsayılarak hazı
 * [Map Range](#map-range)
 * [Math](#math)
 * [Mix](#mix)
+* [RGB to BW](#rgb-to-bw)
+* [Separate Color](#separate-color)
+* [Separate XYZ](#separate-xyz)
 
 
 <br>
@@ -2117,12 +2120,52 @@ Karıştırılacak 2. değer.
 
 
 
+## [RGB to BW](https://docs.blender.org/manual/en/latest/render/shader_nodes/converter/rgb_to_bw.html)
+Verilen texture/renk değerini Black White yani siyah beyaz yapar.
+
+
+* #### Val (Output)
+Grayscale.
+
+* #### Color (Socket Input)
+Texture/renk.
 
 
 
+## [Separate Color](https://docs.blender.org/manual/en/latest/render/shader_nodes/converter/separate_color.html)
+Verdiğiniz texture/renk'in bütün kanallarını ayrı ayrı verir.
+
+
+* #### Red (Output)
+Kırmızı.
+
+* #### Green (Output)
+Yeşil.
+
+* #### Blue (Output)
+Mavi.
+
+* #### Mode (Node Input)
+Renk formatı.
+
+* #### Color (Socket Input)
+Texture/renk.
 
 
 
+## [Separate XYZ](https://docs.blender.org/manual/en/latest/render/shader_nodes/converter/separate_xyz.html)
+Verdiğiniz vektörün bütün kanallarını ayrı ayrı verir.
 
 
+* #### X (Output)
+X.
+
+* #### Y (Output)
+Y.
+
+* #### Z (Output)
+Z.
+
+* #### Vector (Socket Input)
+Vektör.
 

@@ -84,6 +84,7 @@ Aşağıdaki döküman Cycles render motoru kullanıldığı varsayılarak hazı
 * [Normal Map](#normal-map)
 * [Vector Curves](#vector-curves)
 * [Vector Displacement](#vector-displacement)
+* [Vector Rotate](#vector-rotate)
 * [Vector Transform](#vector-transform)
 
 
@@ -1873,6 +1874,11 @@ Eğer materyalin ayarlardan displacement modu displacement olarak seçildiyse, d
 
 * #### Scale (Socket Input)
 Oluşturulan yükseklik map'inin yükseklik derecesi.
+
+
+
+## [Vector Rotate](https://docs.blender.org/manual/en/latest/render/shader_nodes/vector/vector_rotate.html)
+Bilmiyorum.
 
 
 

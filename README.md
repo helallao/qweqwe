@@ -94,6 +94,7 @@ Aşağıdaki döküman Cycles render motoru kullanıldığı varsayılarak hazı
 * [Combine Color](#combine-color)
 * [Combine XYZ](#combine-xyz)
 * [Float Curve](#float-curve)
+* [Map Range](#map-range)
 
 
 <br>
@@ -2016,7 +2017,7 @@ Texture/değer.
 
 
 ## [Map Range](https://docs.blender.org/manual/en/latest/render/shader_nodes/converter/map_range.html)
-Verilen değeleri belirli bir aralıktan başka bir aralığa oranlar. 
+Verilen değeleri belirli bir aralıktan başka bir aralığa oranlar. Mesela 0-1 arası olan değerlerinizi 0-10 arasında oranladığınızda, 0.4 olan bi değer 4 olur. 0.1 olan değer 1 olur. Bu şekilde "From" ve "To" input'larına verdiğiniz değerlere göre oran çıkarılır. Ayrıca bu işlem gerçekleşirken minimum ve maximum değerler sadece oran için minimum ve maksimum değeri temsil eder. Yani mesela "From Min" ve "From Max" olarak 0.5 ve 1 verdiğinizde, 0.5'in altında olan değerler bu oranlamadan etkilenmeyecek diye bir şey yok. Bütün değerler orandan etkilenir.
 
 
 * #### Result (Output)

@@ -91,6 +91,8 @@ Aşağıdaki döküman Cycles render motoru kullanıldığı varsayılarak hazı
 * [Blackbody](#blackbody)
 * [Clamp](#clamp)
 * [Color Ramp](#color-ramp)
+* [Combine Color](#combine-color)
+* [Combine XYZ](#combine-xyz)
 
 
 <br>
@@ -1955,13 +1957,42 @@ Texture.
 
 
 
+## [Combine Color](https://docs.blender.org/manual/en/latest/render/shader_nodes/converter/combine_color.html)
+Verdiğiniz grayscale değerler ile renk oluşturmanıza yarar.
+
+
+* #### Color (Output)
+Renk değeri.
+
+* #### Mode (Node Input)
+Renk formatı.
+
+* #### Red (Socket Input)
+Kırmızı.
+
+* #### Green (Socket Input)
+Yeşil.
+
+* #### Blue (Socket Input)
+Mavi.
 
 
 
+## [Combine XYZ](https://docs.blender.org/manual/en/latest/render/shader_nodes/converter/combine_xyz.html)
+Verdiğiniz grayscale değerler ile vektör oluşturmanıza yarar.
 
 
+* #### Vector (Output)
+Vektör değeri.
 
+* #### X (Socket Input)
+X.
 
+* #### Y (Socket Input)
+Y.
+
+* #### Z (Socket Input)
+Z.
 
 
 

@@ -101,6 +101,7 @@ Aşağıdaki döküman Cycles render motoru kullanıldığı varsayılarak hazı
 * [Separate Color](#separate-color)
 * [Separate XYZ](#separate-xyz)
 * [Vector Math](#vector-math)
+* [Wavelength](#wavelength)
 
 
 <br>
@@ -2188,8 +2189,15 @@ a | a
 
 
 
+## [Wavelength](https://docs.blender.org/manual/en/latest/render/shader_nodes/converter/wavelength.html)
+Işık dalga boyuna göre renk verir. Işık spektrumundan belirli bir rengi almak için kullanılabilir.
 
 
+* #### Color (Output)
+Renk.
+
+* #### Wavelength (Socket Input)
+Dalga boyu.
 
 
 

@@ -90,6 +90,7 @@ Aşağıdaki döküman Cycles render motoru kullanıldığı varsayılarak hazı
 # [Converter](#converter-1)
 * [Blackbody](#blackbody)
 * [Clamp](#clamp)
+* [Color Ramp](#color-ramp)
 
 
 <br>
@@ -1933,6 +1934,34 @@ Minimum değeri.
 
 * #### Max (Socket Input)
 Maximum değeri.
+
+
+
+## [Color Ramp](https://docs.blender.org/manual/en/latest/render/shader_nodes/converter/color_ramp.html)
+[RGB Curves](#rgb-curves) node'unun renkler için olan versiyonudur. Ayrıca curve yerine daha basit bir widget kullanılmış.
+
+
+* #### Color (Output)
+Renk değeri.
+
+* #### Alpha (Output)
+Alpha değeri.
+
+* #### Color Ramp Widget (Node Input)
+Açıklama için [RGB Curves](#rgb-curves) bölümüne bakın, çalışma mantıkları neredeyse aynı. Ayrıca Color Ramp Widget hakkında açıklamalara da [buradan](https://docs.blender.org/manual/en/latest/interface/controls/templates/color_ramp.html#ui-color-ramp-widget) ulaşabilirsiniz.
+
+* #### Fac (Socket Input)
+Texture.
+
+
+
+
+
+
+
+
+
+
 
 
 

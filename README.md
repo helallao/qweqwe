@@ -83,6 +83,7 @@ Aşağıdaki döküman Cycles render motoru kullanıldığı varsayılarak hazı
 * [Normal](#normal)
 * [Normal Map](#normal-map)
 * [Vector Curves](#vector-curves)
+* [Vector Displacement](#vector-displacement)
 
 
 <br>
@@ -1852,7 +1853,7 @@ Vektör.
 
 
 ## [Vector Displacement](https://docs.blender.org/manual/en/latest/render/shader_nodes/vector/vector_displacement.html)
-a
+Normal [Displacement](#displacement) işleminin aksine, yüzleri sadece yukarı kaldırmakla kalmaz, aynı zamanda yüzleri 3 eksende hareket de ettirebilir.
 
 <img src="Dosyalar/VectorDisplacement.png">
 
@@ -1864,7 +1865,7 @@ Displacement map.
 Displacement map uzayı.
 
 * #### Vector (Socket Input)
-a
+Eğer kullanmak istediğiniz displacement map varsa buraya bağlayabilirsiniz.
 
 * #### Midlevel (Socket Input)
 Eğer materyalin ayarlardan displacement modu displacement olarak seçildiyse, displacement kullandığınızda shader'ın geriye doğru kaydığını görebilirsiniz. Midlevel ayarı shader'ı düzgün bir şekilde oturtmak için shader'ı ileri alır.

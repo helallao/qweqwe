@@ -100,6 +100,7 @@ Aşağıdaki döküman Cycles render motoru kullanıldığı varsayılarak hazı
 * [RGB to BW](#rgb-to-bw)
 * [Separate Color](#separate-color)
 * [Separate XYZ](#separate-xyz)
+* [Vector Math](#vector-math)
 
 
 <br>
@@ -2168,4 +2169,39 @@ Z.
 
 * #### Vector (Socket Input)
 Vektör.
+
+
+
+## [Vector Math](https://docs.blender.org/manual/en/latest/render/shader_nodes/converter/vector_math.html)
+Vektörler üzerinde matematiksel işlemler yapmamıza yarar.
+
+
+* #### Vector (Output)
+Sonuç.
+
+* #### Operation (Node Input)
+Yapılacak matematiksel işlem
+
+Mod | Açıklama
+:---: | :---:
+a | a
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

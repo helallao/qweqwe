@@ -1741,7 +1741,7 @@ Texture/renk.
 
 
 # Vector
-Bu kategoride vektörler ve texture coordinate değerleri ile ilgili işlemleri yapmamıza yarayan node'lar vardır..
+Bu kategoride vektörler ve texture coordinate değerleri ile ilgili işlemleri yapmamıza yarayan node'lar vardır.
 
 
 ## [Bump](https://docs.blender.org/manual/en/latest/render/shader_nodes/vector/bump.html)

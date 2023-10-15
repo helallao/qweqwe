@@ -1918,7 +1918,7 @@ Bilmiyorum.
 
 
 # Converter
-a
+Bu kategoride veriler üzerinde işlemler yapmamıza yarayan, araç görevi gören node'lar vardır.
 
 
 ## [Blackbody](https://docs.blender.org/manual/en/latest/render/shader_nodes/converter/blackbody.html)

@@ -1017,7 +1017,7 @@ Bu ayar alanın içinden geçen ışığın dağılacağı yönü ayarlar. 0 ike
 
 
 # Texture
-Bu kategorideki node'lar shader içerisinde kullanılacak belirli şekilleri oluşturmamızı sağlar.
+Bu kategorideki node'lar shader içerisinde kullanılacak belirli şekilleri oluşturmamızı sağlar. Ayrıca bu node'lar "Procedural Material" (texture kullanmadan, node'lar ile belirli şekiller oluşturduğumuz) oluşturma konusunda çok kullanışlıdırlar.
 
 
 ## [Brick Texture](https://docs.blender.org/manual/en/latest/render/shader_nodes/textures/brick.html)

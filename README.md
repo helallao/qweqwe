@@ -2122,8 +2122,8 @@ Floor | Değeri en yakın küçük tam sayıya yuvarlar. Mesela 1.1 -> 1 olur, 1
 Ceil | Değeri en yakın büyük tam sayıya yuvarlar. Mesela 1.1 -> 2 olur, 1.7 -> 2 olur.
 Truncate | Değerin kesirli kısmını siler. Mesela 1.1 -> 1 olur, 1.7 -> 1 olur.
 Fraction | Değerin kesirli kısmını verir. Mesela 2.1 -> 0.1 olur, 3.7 -> 0.7 olur.
-Modulo | 
-
+Modulo | Verilen A değerinin B değerine bölümünden kalan değeri verir. Mesela 5/2 -> 1 olur.
+Wrap | Kodlara [buradan](https://github.com/blender/blender/blob/594f47ecd2d5367ca936cf6fc6ec8168c2b360d0/source/blender/gpu/shaders/material/gpu_shader_material_math_util.glsl#L37) ulaşabilirsiniz. Tabi kodlar ile anlaması zor olduğu için [desmos](https://www.desmos.com/calculator/1ddt189vns) üzerinden yaptığım örneğe de bakabilirsiniz. "Max" değerinin verilen değerden küçük olan en büyük katınının, değer ile aralarındaki farka göre, "Min" ve "Max" olarak belirlenen aralıkta bir değer verir.
 
 
 * #### Clamp (Node Input)

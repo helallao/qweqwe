@@ -2099,7 +2099,19 @@ Divide | A değerini B değerine böler (A / B).
 Multiply Add | "Value" değerini "Multiplier" değeri ile çarpar (yani "Multiplier" çarpan görevi görüyor), sonra da sonuca "Addend" değerini ekler (Value * Multiplier + Addend). 
 Power | "Base" değerinin "Exponent" değeri kadar üssünü alır. Mesela "Base" 2, "Exponent" 3 olsun. 2\*2\*2=8 olur.
 Logarithm | "Value" değerinin "Base" değeri taban alınarak logaritmasını hesaplar. Mesela "Value" 100, "Base" 10 olsun, sonuç 2 olur çünkü 100'ün 10 tabanına göre logaritması 2'dir.
+Square Root | Karekök alır.
+Inverse Square Root | Verilen değerin karekökünün 1'e bölümünü verir (1 / sqrt(Value)).
+Absolute | Mutlak değerini alır.
+Exponent | "Value" değeri kadar [e sayısının](https://tr.wikipedia.org/wiki/E_say%C4%B1s%C4%B1) üssünü alır.
 
+Comparison | Açıklama
+:---: | :---:
+Minimum | İki değerin küçük olanını verir.
+Maximum | İki değerin büyük olanını verir.
+Less Than | Eğer "Value" değeri "Threshold" değerinden küçükse 1, değilse 0 döndürür. Yani küçük mü diye kontrol eder.
+Greater Than | Eğer "Value" değeri "Threshold" değerinden büyükse 1, değilse 0 döndürür. Yani büyük mü diye kontrol eder.
+Sign | Eğer değer 0'dan küçükse -1, değer 0'a eşitse 0, 0'dan büyükse +1 döndürür. Bunu verdiğiniz değerin sayı doğrusunun ne tarafında olduğunu gösteriyormuş gibi düşünün. Sol -1, orta 0, sağ +1.
+Compare | a
 
 * #### Clamp (Node Input)
 Bu ayar açıkken sonuç değeri 0 ile 1 arasında tutulur.

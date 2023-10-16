@@ -205,10 +205,11 @@ Kameranın baktığı yön vektörü.
 * #### View Z Depth (Output)
 Kameraya olan uzaklık değeri, yani "View Distance" output'u gibidir ama daha farklı bir çalışma şekli vardır. Sanal bir plane (düz plaka/levha yani düzlem) oluşturulur ve bu plane'in normal'i (yani baktığı yön) kameranın baktığı yöndür. Bu output da bu plane'e olan uzaklık değerini döndürür (obje üzerindeki her bir nokta için).
 
-<img src="Dosyalar/View_Z_Depth.png">
-
 * #### View Distance (Output)
 Kameraya olan uzaklık değeri (obje üzerindeki her bir nokta için).
+
+
+<img src="Dosyalar/View_Z_Depth.png">
 
 
 

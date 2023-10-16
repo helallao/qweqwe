@@ -426,16 +426,16 @@ Shader'ları ve texture'ları düzgün bir şekilde mesh'e yerleştirebilmemiz i
 
 
 * #### Generated (Output)
-Bilmiyorum.
+Otomatik olarak hesaplanmış UV'yi (Texture Space) kullanır. Eğer çok basit bir mesh'iniz varsa ve bu UV güzel ise kullanabilirsiniz ama çoğu durumda UV güzel bir şekilde oturmayacaktır, böyle durumlarda kendi yaptığınız UV'yi kullanabilirsiniz.
 
 * #### Normal (Output)
 Mesh'in her bir yüzünün baktığı yön degerini verir.
 
 * #### UV (Output)
-Bilmiyorum.
+Mesh'in ayarlarından ayarlanmış aktif UV'sini verir.
 
 * #### Object (Output)
-Bilmiyorum.
+"Object" input'una verdiğiniz objenin transform değerlerini (Location, Rotation, Scale) UV olarak kullanır.
 
 * #### Camera (Output)
 Kameranın bakış açısına göre texture'u yerleştirmeye yarar, nereden bakarsak bakalım aynı görünür.
@@ -444,10 +444,10 @@ Kameranın bakış açısına göre texture'u yerleştirmeye yarar, nereden baka
 "Camera" output'u ile aynıdır, tek farkı ekran büyüklüğüne göre boyutları x ve y eksenlerinde oranlar.
 
 * #### Reflection (Output)
-Bilmiyorum.
+Yüzeyden yansıyan vektörlerin yönlerini UV olarak kullanır.
 
 * #### Object (Node Input)
-Bilmiyorum.
+"Object" output'u için kullanılacak obje.
 
 * #### From Instancer (Node Input)
 Bilmiyorum.

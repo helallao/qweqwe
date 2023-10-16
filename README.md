@@ -2177,7 +2177,7 @@ Sadece "Data Type" ayarı "Color" modundayken vardır. Sonucu clamp eder, yani 0
 "Factor" input'una verilen değerleri clamp eder, yani 0'dan küçük olan değerler 0'a, 1'den büyük olan değerler 1'e çekilir. "Factor" değerleri 0-1 arasında olur.
 
 * #### Factor (Socket Input)
-1. ve 2. değerler arasındaki karışım oranı. Faktör değeri 0 iken 1. input'a verilen değer (A), 1 iken 2. input'a verilen değer (B) kullanılır.
+1\. ve 2. değerler arasındaki karışım oranı. Faktör değeri 0 iken 1. input'a verilen değer (A), 1 iken 2. input'a verilen değer (B) kullanılır.
 
 * #### A (Socket Input)
 Karıştırılacak 1. değer.

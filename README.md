@@ -455,11 +455,11 @@ Bilmiyorum.
 
 
 ## [UV Map](https://docs.blender.org/manual/en/latest/render/shader_nodes/input/uv_map.html)
-Bilmiyorum.
+Eğer objenin birden fazla UV map'i varsa, istediğinizi seçebilmenize yarar.
 
 
 * #### UV (Output)
-Bilmiyorum.
+UV map.
 
 * #### From Instancer (Node Input)
 Bilmiyorum.

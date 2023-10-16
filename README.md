@@ -2098,6 +2098,7 @@ Multiply | İki değeri çarpar (A \* B).
 Divide | A değerini B değerine böler (A / B).
 Multiply Add | "Value" değerini "Multiplier" değeri ile çarpar (yani "Multiplier" çarpan görevi görüyor), sonra da sonuca "Addend" değerini ekler (Value * Multiplier + Addend). 
 Power | "Base" değerinin "Exponent" değeri kadar üssünü alır. Mesela "Base" 2, "Exponent" 3 olsun. 2\*2\*2=8 olur.
+Logarithm | "Value" değerinin "Base" değeri taban alınarak logaritmasını hesaplar. Mesela "Value" 100, "Base" 10 olsun, sonuç 2 olur çünkü 100'ün 10 tabanına göre logaritması 2'dir.
 
 
 * #### Clamp (Node Input)

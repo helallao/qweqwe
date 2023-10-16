@@ -2115,6 +2115,16 @@ Compare | Verilen iki değerin aralarındaki fark "Epsilon" değerinden fazla de
 Smooth Minimum | Kodlara [buradan](https://github.com/blender/blender/blob/594f47ecd2d5367ca936cf6fc6ec8168c2b360d0/source/blender/gpu/shaders/material/gpu_shader_material_math.glsl#L204) ulaşabilirsiniz. Tabi kodlar ile anlaması zor olduğu için [desmos](https://www.desmos.com/calculator/bkew6yvmke) üzerinden yaptığım örneğe de bakabilirsiniz. Verilen iki değerin küçük olanını seçer. "Distance" değeri verilen iki değerin arasındaki fark değerini geçtikten sonra, arttıkça output olarak gelen minimum değeri de azalmaya devam eder. Yani mesela diyelim ki 5 ve 4 verdiniz, "Distance" değeri 1'den az iken sonuç hep minimum yani 4'e eşit olur, ama "Distance" değeri 1'i geçtikten sonra output değeri de 4'den aşağıya doğru azalmaya başlar.
 Smooth Maximum | Kodlara [buradan](https://github.com/blender/blender/blob/594f47ecd2d5367ca936cf6fc6ec8168c2b360d0/source/blender/gpu/shaders/material/gpu_shader_material_math.glsl#L215) ulaşabilirsiniz. "Smooth Minimum" ile aynıdır ama maximum değeri döndürür ve azalmak yerine artar.
 
+Rounding | Açıklama
+:---: | :---:
+Round | Değeri en yakın sayıya yuvarlar.
+Floor | Değeri en yakın küçük tam sayıya yuvarlar. Mesela 1.1 -> 1 olur, 1.7 -> 1 olur.
+Ceil | Değeri en yakın büyük tam sayıya yuvarlar. Mesela 1.1 -> 2 olur, 1.7 -> 2 olur.
+Truncate | Değerin kesirli kısmını siler. Mesela 1.1 -> 1 olur, 1.7 -> 1 olur.
+Fraction | Değerin kesirli kısmını verir. Mesela 2.1 -> 0.1 olur, 3.7 -> 0.7 olur.
+Modulo | 
+
+
 
 * #### Clamp (Node Input)
 Bu ayar açıkken sonuç değeri 0 ile 1 arasında tutulur.

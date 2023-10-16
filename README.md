@@ -1202,6 +1202,8 @@ Mirror | "Repeat" gibidir ama her tekrarlamada texture'u tekrarlandığı eksend
 * #### Source (Node Input)
 Kullanılan kaynağın türünü belirler.
 
+Mod | Açıklama
+:---: | :---:
 Single Image | Tek resim.
 Image Sequence | Arka arkaya gelen birden fazla resim diziniz varsa ve sayısal olarak isimlendirilmişlerse (mesela 001, 002, 003 gibi), resimler ardı ardına oynatılır.
 Movie | Video dosyası oynatır.

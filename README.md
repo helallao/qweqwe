@@ -2088,11 +2088,17 @@ Matematiksel işlemler yapmamıza yarar.
 Sonuç.
 
 * #### Operation (Node Input)
-Yapılacak matematiksel işlem
+Yapılacak matematiksel işlem.
 
-Mod | Açıklama
+Functions | Açıklama
 :---: | :---:
-a | a
+Add | İki değeri toplar (A + B).
+Subtract | A değerinden B değerini çıkarır (A - B).
+Multiply | İki değeri çarpar (A \* B).
+Divide | A değerini B değerine böler (A / B).
+Multiply Add | "Value" değerini "Multiplier" değeri ile çarpar (yani "Multiplier" çarpan görevi görüyor), sonra da sonuca "Addend" değerini ekler (Value * Multiplier + Addend). 
+Power | "Base" değerinin "Exponent" değeri kadar üssünü alır. Mesela "Base" 2, "Exponent" 3 olsun. 2\*2\*2=8 olur.
+
 
 * #### Clamp (Node Input)
 Bu ayar açıkken sonuç değeri 0 ile 1 arasında tutulur.

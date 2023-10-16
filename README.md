@@ -2111,7 +2111,10 @@ Maximum | İki değerin büyük olanını verir.
 Less Than | Eğer "Value" değeri "Threshold" değerinden küçükse 1, değilse 0 döndürür. Yani küçük mü diye kontrol eder.
 Greater Than | Eğer "Value" değeri "Threshold" değerinden büyükse 1, değilse 0 döndürür. Yani büyük mü diye kontrol eder.
 Sign | Eğer değer 0'dan küçükse -1, değer 0'a eşitse 0, 0'dan büyükse +1 döndürür. Bunu verdiğiniz değerin sayı doğrusunun ne tarafında olduğunu gösteriyormuş gibi düşünün. Sol -1, orta 0, sağ +1.
-Compare | a
+Compare | Verilen iki değerin aralarındaki fark "Epsilon" değerinden fazla değilse 1, fazla ise 0 döndürür. Yani değerlerin farkını belirlediğiniz maksimum fark değerine yani "Epsilon" değerine göre kontrol eder.
+Smooth Minimum | Kodlara [buradan](https://github.com/blender/blender/blob/594f47ecd2d5367ca936cf6fc6ec8168c2b360d0/source/blender/gpu/shaders/material/gpu_shader_material_math.glsl#L204) ulaşabilirsiniz. Tabi kodlar ile anlaması zor olduğu için [desmos](https://www.desmos.com/calculator/bkew6yvmke) üzerinden yaptığım örneğe de bakabilirsiniz. Verilen iki değerin küçük olanını seçer. "Distance" değeri verilen iki değerin arasındaki fark değerini geçtikten sonra, arttıkça output olarak gelen minimum değeri de azalmaya devam eder. Yani mesela diyelim ki 5 ve 4 verdiniz, "Distance" değeri 1'den az iken sonuç hep minimum yani 4'e eşit olur, ama "Distance" değeri 1'i geçtikten sonra output değeri de 4'den aşağıya doğru azalmaya başlar.
+Smooth Maximum | Kodlara [buradan](https://github.com/blender/blender/blob/594f47ecd2d5367ca936cf6fc6ec8168c2b360d0/source/blender/gpu/shaders/material/gpu_shader_material_math.glsl#L215) ulaşabilirsiniz. "Smooth Minimum" ile aynıdır ama maximum değeri döndürür ve azalmak yerine artar.
+
 
 * #### Clamp (Node Input)
 Bu ayar açıkken sonuç değeri 0 ile 1 arasında tutulur.

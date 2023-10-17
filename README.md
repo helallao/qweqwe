@@ -120,7 +120,7 @@ Aşağıdaki döküman Cycles render motoru kullanıldığı varsayılarak hazı
 
 
 # Input
-Bu kategorideki node'lar bu shader'ı kullanan objenin/mesh'in bilgilerini verirler. Bu bilgileri kullanarak shader'ı yapılandırırız. Bu yüzden kategorinin ismi "Input" dur.
+Bu kategorideki node'lar bu shader'ı kullanan obje/mesh'in bilgilerini verirler. Bu bilgileri kullanarak shader'ı yapılandırırız. Bu yüzden kategorinin ismi "Input" dur.
 
 
 ## [Ambient Occlusion](https://docs.blender.org/manual/en/latest/render/shader_nodes/input/ao.html)
@@ -137,16 +137,16 @@ Gölge vuran kısımların siyaha kaydığı (yani 0'a), diğer kısımların da
 Gölge vuran kısımlar hesaplanırken kullanılacak hesaplama kalitesi.
 
 * #### Inside (Node Input)
-Bu ayar açıldığında gölge vuran kısımlar mesh'in dışına göre değilde içine göre hesaplanır.
+Bu ayar açıldığında gölge vuran kısımlar mesh'in dışına göre değil de içine göre hesaplanır.
 
 * #### Only Local (Node Input)
 Bu ayar açıkken gölgeler sadece mesh'in kendisinden gelebilir yani gölgeler mesh'in kendi kendini bloklayan kısımlarına göre hesaplanır. Bu ayar kapalıyken başka objelerin de bloklaması ile mesh gölgelenebilir.
 
 * #### Color (Socket Input)
-Mesh'in shader'ı. Bu inputa mesh'in rengi yani texture'u baglanabilir. Renk inputu yani.
+Mesh'in gölgeleme işleminden önceki shader'ı. Bu inputa mesh'in rengi yani texture'u baglanabilir. Renk inputu yani. "Color" output'u bu input'a verilen renk map'inin gölge vuran kısımlarının siyaha kaymış halini verecek.
 
 * #### Distance (Socket Input)
-Gölgelerin maksimum yayılabileceği mesafe. Normalde gölgeler köşelerden mesh'in etrafına doğru biraz yayılır. Bu ayar ile yayılım mesafesini ayarlayabilirsiniz. Eger bu ayarı azaltırsanız gölgelerin köşeye doğru kısıtlandığını görebilirsiniz, arttırırsanız da gölgeler daha fazla yayılır.
+Gölgelerin maksimum yayılabileceği mesafe. Normalde gölgeler köşe/kenarlar'dan mesh'in etrafına doğru biraz yayılır. Bu ayar ile yayılım mesafesini ayarlayabilirsiniz. Eger bu ayarı azaltırsanız gölgelerin köşeye doğru kısıtlandığını görebilirsiniz, arttırırsanız da gölgeler daha fazla yayılır.
 
 * #### Normal (Socket Input)
 Eger shader'ın kullandığı normal map varsa buraya bağlayın. İşlemler normal map dikkate alınarak yapılır.
@@ -154,7 +154,7 @@ Eger shader'ın kullandığı normal map varsa buraya bağlayın. İşlemler nor
 
 
 ## [Attribute](https://docs.blender.org/manual/en/latest/render/shader_nodes/input/attribute.html)
-Obje üzerinden gelen değerleri alıp kullanmamıza yarar ama artık neredeyse hiç kullanılmıyor. Henüz diğer node'lardan birinde kullanılmamış (dolayısıyla kullanıma açılmamış, test aşamasındaki) attribute'leri (bilgi, deger) almamıza yarar. Listeye [buradan](https://blender.stackexchange.com/questions/14262/what-can-you-call-from-the-attribute-node#14267) ulaşabilirsiniz.
+Obje üzerinden gelen değerleri alıp kullanmamıza yarar ama artık neredeyse hiç kullanılmıyor. Henüz diğer node'lardan birinde kullanılmamış (dolayısıyla kullanıma açılmamış, test aşamasındaki) attribute'leri (bilgi, deger) almamıza yarar. Attribute listesine [buradan](https://blender.stackexchange.com/questions/14262/what-can-you-call-from-the-attribute-node#14267) (ayrıca linkteki kodların olduğu [link](https://github.com/martijnberger/blender/blob/master/intern/cycles/render/attribute.cpp#L191)) ulaşabilirsiniz.
 
 
 * #### Color (Output)

@@ -595,19 +595,19 @@ Ashikhmin-Shirley | "Beckmann" ve "Ashikhmin-Shirley" modları diğer modlara g�
 Ana renk.
 
 * #### Roughness (Socket Input)
-Objenin yüzeyinin ne kadar pürüzlü olduğunu ayarlar. 0 iken pürüzsüzdür ve yansıtma özelligi artar. 1 iken çok pürüzlüdür ve yansıtma özelligi azalır.
+Objenin yüzeyinin ne kadar pürüzlü olduğunu ayarlar. 0 iken pürüzsüzdür ve yansıtma özelliği artar, 1 iken çok pürüzlüdür ve yansıtma özelliği azalır.
 
 * #### Anisotropy (Socket Input)
-"Anisotropy" ve "Rotation" ayarları ışığın yansıtma yönünü değiştirmek ile ilgilidir. "Rotation" ayarı yönü degiştirir. "Anisotropy" ayarı ise bu yön degiştirmenin ne kadar etkili olacağını belirler.
+"Anisotropy" ve "Rotation" ayarları ışığın yansıma yönünü değiştirmek ile ilgilidir. "Rotation" ayarı yönü degiştirir. "Anisotropy" ayarı ise bu yön degiştirmenin ne kadar etkili olacağını belirler.
 
 * #### Rotation (Socket Input)
-"Anisotropy" ve "Rotation" ayarları ışığın yansıtma yönünü değiştirmek ile ilgilidir. "Rotation" ayarı yönü degiştirir. "Anisotropy" ayarı ise bu yön degiştirmenin ne kadar etkili olacağını belirler.
+"Anisotropy" ve "Rotation" ayarları ışığın yansıma yönünü değiştirmek ile ilgilidir. "Rotation" ayarı yönü degiştirir. "Anisotropy" ayarı ise bu yön degiştirmenin ne kadar etkili olacağını belirler.
 
 * #### Normal (Socket Input)
 Eger shader'ın kullandığı normal map varsa buraya bağlayın. İşlemler normal map dikkate alınarak yapılır.
 
 * #### Tangent (Socket Input)
-[Tangent](#tangent) node'undan gelen degeri bağlayabilirsiniz.
+[Tangent](#tangent) node'undan gelen değeri bağlayabilirsiniz.
 
 
 
@@ -637,7 +637,7 @@ Shader.
 Ana renk.
 
 * #### Roughness (Socket Input)
-Objenin yüzeyinin ne kadar pürüzlü olduğunu ayarlar. 0 iken pürüzsüzdür ve yansıtma özelliği artar. 1 iken çok pürüzlüdür ve yansıtma özelliği azalır.
+Objenin yüzeyinin ne kadar pürüzlü olduğunu ayarlar. 0 iken pürüzsüzdür ve yansıtma özelliği artar, 1 iken çok pürüzlüdür ve yansıtma özelliği azalır.
 
 * #### Normal (Socket Input)
 Eger shader'ın kullandığı normal map varsa buraya bağlayın. İşlemler normal map dikkate alınarak yapılır.
@@ -676,7 +676,7 @@ Cam rengi.
 Camın arkasını ne kadar keskin göstereceğini etkiler. 0'da iken arkayı tam gösterir, yükselttikçe arkayı bulanık gösterir.
 
 * #### IOR (Socket Input)
-[Index of Refraction](https://en.wikipedia.org/wiki/Refractive_index) degerini ayarlar, yani ışığın yönünün camın içinden geçerken kırılma derecesini.
+[Index of Refraction](https://en.wikipedia.org/wiki/Refractive_index) değerini ayarlar, yani ışığın yönünün camın içinden geçerken kırılma derecesini.
 
 * #### Normal (Socket Input)
 Eger shader'ın kullandığı normal map varsa buraya bağlayın. İşlemler normal map dikkate alınarak yapılır.
@@ -697,7 +697,7 @@ Buradan farklı modlar kullanarak ayna shader'ı oluşturabilirsiniz.
 Ayna rengi.
 
 * #### Roughness (Socket Input)
-Aynanın ne kadar keskin gösterecegini etkiler. 0'da iken pürüzsüz gösterir, yükselttikçe bulanık gösterir.
+Aynanın ne kadar keskin göstereceğini etkiler. 0'da iken pürüzsüz gösterir, yükselttikçe bulanık gösterir.
 
 * #### Normal (Socket Input)
 Eger shader'ın kullandığı normal map varsa buraya bağlayın. İşlemler normal map dikkate alınarak yapılır.
@@ -710,7 +710,7 @@ Bilmiyorum.
 
 
 ## [Holdout](https://docs.blender.org/manual/en/latest/render/shader_nodes/shader/holdout.html)
-Bu shader boşluk oluşturmaya yarar. Ekranda bu shader'ın oldugu yer silinir, arkayı da göstermez.
+Bu shader boşluk oluşturmaya yarar. Ekranda bu shader'ın olduğu yer silinir, arkayı da göstermez.
 
 
 * #### Holdout (Output)
@@ -726,7 +726,7 @@ Verilen iki shader'ı birleştirir.
 Sonuç shader'ı.
 
 * #### Fac (Socket Input)
-Faktör degeri, bu deger 0'a kaydıkça 1. shader, 1'e kaydıkça 2. shader kullanılır. 0.5 yaparsanız iki shader'ın ortası olur. Bu şekilde istediğiniz gibi oranlama yapabilirsiniz.
+Faktör değeri, bu değer 0'a kaydıkça 1. shader, 1'e kaydıkça 2. shader kullanılır. 0.5 yaparsanız iki shader'ın ortası olur. Bu şekilde istediğiniz gibi oranlama yapabilirsiniz.
 
 * #### Shader (Socket Input)
 Karıştırılacak 1. shader.
@@ -747,7 +747,7 @@ Sonuç shader'ı.
 Mod | Açıklama
 :---: | :---:
 ‎GGX | Multiscatter GGX'e göre daha hızlı ama dogruluk bakımından onun kadar dogru degil. Bunu seçerseniz "Transmission Roughness" ayarı açılır. Multiscatter GGX'e göre shader daha koyu olur.
-‎Multiscatter GGX | Bu mod GGX'e göre enerjiyi daha fazla muhafaza eder. Yani ışık ışınları enerjisi bitene kadar sekmeye devam eder. Bu da daha parlak ve gerçekçi bir görünüm ile sonuçlanır. "Roughness" degeri düşük olan shader'larda ışınların sekmesi zor olacağı için etkisini de kaybeder, yani "Roughness" degeri yüksek olan shader'larda etkisi daha belli olur. Hesaplama bakımından GGX'e göre 2.5% daha yavaştır.
+‎Multiscatter GGX | Bu mod GGX'e göre enerjiyi daha fazla muhafaza eder. Yani ışık ışınları enerjisi bitene kadar sekmeye devam eder. Bu da daha parlak ve gerçekçi bir görünüm ile sonuçlanır. "Roughness" degeri yüksek olan shader'larda ışınların sekmesi zor olacağı için etkisini de kaybeder, yani "Roughness" degeri düşük olan shader'larda etkisi daha belli olur. Hesaplama bakımından GGX'e göre 2.5% daha yavaştır.
 
 <img src="Dosyalar/DistributionTypes.png">
 
@@ -756,13 +756,13 @@ Mod | Açıklama
 :---: | :---:
 ‎Christensen-Burley | Random Walk'a göre daha hızlı ama daha az doğru.
 ‎Random Walk (Fixed Radius) | Random Walk'a göre daha az detaylı. Kapalı mesh'lerde doğru çalışır, yüzleri üst üste gelmiş mesh'lerde sorun çıkarabilir.
-‎Random Walk | ‎Kullanıcıdan aldıgı değerlere göre radius değerini hesapladığı için Random Walk (Fixed Radius)'a göre daha detaylı. Kapalı mesh'lerde doğru çalışır, yüzleri üst üste gelmiş mesh'lerde sorun çıkarabilir.
+‎Random Walk | ‎Kullanıcıdan aldığı değerlere göre radius değerini hesapladığı için Random Walk (Fixed Radius)'a göre daha detaylı. Kapalı mesh'lerde doğru çalışır, yüzleri üst üste gelmiş mesh'lerde sorun çıkarabilir.
 
 * #### Base Color (Socket Input)
 Shader'ın ana rengi.
 
 * #### Subsurface (Socket Input)
-Bu deger arttıkça "Subsurface Scattering" etkisi de artar. "Subsurface Scattering" etkisi şudur, arkadan ışık vurunca objenin iç renginin yüzeye vurması ve yüzeyin biraz bu renge kaymasıdır. Mesela insan derisi örnek verilebilir, parmağınızı herhangi bir ışığın üstüne koyduğunuzda parmağınız kırmızı şekilde ışığı yansıtır. İşte buna "Subsurface Scattering" (SSS) deniyor.
+Bu değer arttıkça "Subsurface Scattering" etkisi de artar. "Subsurface Scattering" etkisi şudur, arkadan ışık vurunca objenin iç renginin yüzeye vurması ve yüzeyin biraz bu renge kaymasıdır. Mesela insan derisi örnek verilebilir, parmağınızı herhangi bir ışığın üstüne koyduğunuzda parmağınız kırmızı şekilde ışığı yansıtır. İşte buna "Subsurface Scattering" (SSS) deniyor.
 
 * #### Subsurface Radius (Socket Input)
 İnput olarak 3 boyutlu vektör alır. Her bir kanal kırmızı, yeşil ve mavi ışığın "Subsurface Scattering" etkisi derecesini belirler. Yani mesela default olarak verilen deger (1.0, 0.2, 0.1) dir. Bu da kırmızı ışığın daha fazla "Subsurface Scattering" etkisi yapacağını gösterir.
@@ -771,7 +771,7 @@ Bu deger arttıkça "Subsurface Scattering" etkisi de artar. "Subsurface Scatter
 "Subsurface Scattering" etkisi için kullanılacak renk.
 
 * #### Subsurface IOR (Socket Input)
-[Index of Refraction](https://en.wikipedia.org/wiki/Refractive_index) degerini ayarlar, yani ışığın yönünün obje içinden geçerken kırılma derecesini.
+[Index of Refraction](https://en.wikipedia.org/wiki/Refractive_index) değerini ayarlar, yani ışığın yönünün obje içinden geçerken kırılma derecesini.
 
 * #### Subsurface Anisotropy (Socket Input)
 "Subsurface Scattering" etkisi için ışığın yansıma yönünü değiştirme derecesi.
@@ -786,13 +786,13 @@ Işığı yansıtma derecesi. 0 iken hiç yansıtmaz, arttıkça daha fazla yans
 Yansıyan ışığa yüzeyin rengini verme derecesi. 0 iken yansıyan ışığın rengini degiştirmez. 1 iken yansıyan ışığa yüzeyin de rengini ekler. Yani yansıtırken kendi rengini de ekler.
 
 * #### Roughness (Socket Input)
-Objenin yüzeyinin ne kadar pürüzlü olduğunu ayarlar. 0 iken pürüzsüzdür ve yansıtma özelligi artar. 1 iken çok pürüzlüdür ve yansıtma özelligi azalır.
+Objenin yüzeyinin ne kadar pürüzlü olduğunu ayarlar. 0 iken pürüzsüzdür ve yansıtma özelliği artar. 1 iken çok pürüzlüdür ve yansıtma özelliği azalır.
 
 * #### Anisotropic (Socket Input)
 "Anisotropic" ve "Anisotropic Rotation" ayarları ışığın yansıtma yönünü değiştirmek ile ilgilidir. "Anisotropic Rotation" ayarı yönü degiştirir. "Anisotropic" ayarı ise bu yön degiştirmenin ne kadar etkili olacağını belirler.
 
 * #### Anisotropic Rotation (Socket Input)
-"Anisotropic" ve "Anisotropic Rotation" ayarları ışığın yansıtma yönünü değiştirmek ile ilgilidir. "Anisotropic Rotation" ayarı yönü degiştirir. "Anisotropic" ayarı ise bu yön degiştirmenin ne kadar etkili olacağını belirler.
+"Anisotropic" ve "Anisotropic Rotation" ayarları ışığın yansıma yönünü değiştirmek ile ilgilidir. "Anisotropic Rotation" ayarı yönü degiştirir. "Anisotropic" ayarı ise bu yön degiştirmenin ne kadar etkili olacağını belirler.
 
 * #### Sheen (Socket Input)
 Bu ayar genellikle giysi tarzı shader'larda kullanılıyor. Kenarlara ışığın yansımasından dolayı parlaklık efekti ekler.
@@ -831,7 +831,7 @@ Bu ayar sayesinde yüzeydeki noktalar için sahte yükseklik verebilirsiniz. Yan
 "Clearcoat" için Normal verebilmemize yarar.
 
 * #### Tangent (Socket Input)
-"Anisotropy" ayarı ile ilgilidir. [Tangent](#tangent) node'undan gelen degeri bağlayabilirsiniz.
+"Anisotropy" ayarı ile ilgilidir. [Tangent](#tangent) node'undan gelen değeri bağlayabilirsiniz.
 
 
 
@@ -864,7 +864,7 @@ Sonuç shader'ı.
 Mod | Açıklama
 :---: | :---:
 ‎Sharp | Beckmann ve GGX'in aksine "Roughness" input'undan bağımsız olarak arkayı keskin gösterir.
-Beckmann | GGX'e göre koyu kısımları daha dogru gösterir. Test edip kendiniz görmelisiniz.
+Beckmann | GGX'e göre koyu kısımları daha doğru gösterir. Test edip kendiniz görmelisiniz.
 GGX | Beckmann'e göre koyu kısımları daha az gösterir. Test edip kendiniz görmelisiniz.
 
 * #### Color (Socket Input)
@@ -874,7 +874,7 @@ Cam rengi.
 Camın arkasını ne kadar keskin gösterecegini etkiler. 0'da iken arkayı tam gösterir, yükselttikçe arkayı bulanık gösterir.
 
 * #### IOR (Socket Input)
-[Index of Refraction](https://en.wikipedia.org/wiki/Refractive_index) degerini ayarlar, yani ışığın yönünün camın içinden geçerken kırılma derecesini.
+[Index of Refraction](https://en.wikipedia.org/wiki/Refractive_index) değerini ayarlar, yani ışığın yönünün camın içinden geçerken kırılma derecesini.
 
 * #### Normal (Socket Input)
 Eger shader'ın kullandığı normal map varsa buraya bağlayın. İşlemler normal map dikkate alınarak yapılır.
@@ -905,7 +905,7 @@ Mod | Açıklama
 İnput olarak 3 boyutlu vektör alır. Her bir kanal kırmızı, yeşil ve mavi ışığın "Subsurface Scattering" etkisi derecesini belirler. Yani mesela default olarak verilen deger (1.0, 0.2, 0.1) dir. Bu da kırmızı ışığın daha fazla "Subsurface Scattering" etkisi yapacağını gösterir.
 
 * #### IOR (Socket Input)
-[Index of Refraction](https://en.wikipedia.org/wiki/Refractive_index) degerini ayarlar, yani ışığın yönünün obje içinden geçerken kırılma derecesini.
+[Index of Refraction](https://en.wikipedia.org/wiki/Refractive_index) değerini ayarlar, yani ışığın yönünün obje içinden geçerken kırılma derecesini.
 
 * #### Anisotropy (Socket Input)
 "Subsurface Scattering" etkisi için ışığın yansıma yönünü değiştirme derecesi.
@@ -916,7 +916,7 @@ Eger shader'ın kullandığı normal map varsa buraya bağlayın. İşlemler nor
 
 
 ## [Toon BSDF](https://docs.blender.org/manual/en/latest/render/shader_nodes/shader/toon.html)
-Yansımaları keskin bir şekilde hesaplayan bir shader türüdür. Çizgi film tarzı, çok detaya kaçmadan olabildiğince sade bir şekilde görünüm verir. Keskinligini Smooth input'u ile ayarlayabilirsiniz.
+Yansımaları keskin bir şekilde hesaplayan bir shader türüdür. Çizgi film tarzı, çok detaya kaçmadan olabildiğince sade bir şekilde görünüm verir. Keskinliğini Smooth input'u ile ayarlayabilirsiniz.
 
 
 * #### BSDF (Output)

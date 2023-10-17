@@ -1,4 +1,4 @@
-Aşağıdaki döküman Cycles render motoru kullanıldığı varsayılarak hazırlanmıştır. Eger farklı bir render motoru kullanıyorsanız birçok özellik farklılık gösterecek veya çalışmayacaktır.
+Aşağıdaki döküman Cycles render motoru kullanıldığı varsayılarak hazırlanmıştır. Eğer farklı bir render motoru kullanıyorsanız birçok özellik farklılık gösterecek veya çalışmayacaktır.
 
 # [Input](#input-1)
 * [Ambient Occlusion](#ambient-occlusion)
@@ -146,10 +146,10 @@ Bu ayar açıkken gölgeler sadece mesh'in kendisinden gelebilir yani gölgeler 
 Mesh'in gölgeleme işleminden önceki shader'ı. Bu inputa mesh'in rengi yani texture'u baglanabilir. Renk inputu yani. "Color" output'u bu input'a verilen renk map'inin gölge vuran kısımlarının siyaha kaymış halini verecek.
 
 * #### Distance (Socket Input)
-Gölgelerin maksimum yayılabileceği mesafe. Normalde gölgeler köşe/kenarlar'dan mesh'in etrafına doğru biraz yayılır. Bu ayar ile yayılım mesafesini ayarlayabilirsiniz. Eger bu ayarı azaltırsanız gölgelerin köşeye doğru kısıtlandığını görebilirsiniz, arttırırsanız da gölgeler daha fazla yayılır.
+Gölgelerin maksimum yayılabileceği mesafe. Normalde gölgeler köşe/kenarlar'dan mesh'in etrafına doğru biraz yayılır. Bu ayar ile yayılım mesafesini ayarlayabilirsiniz. Eğer bu ayarı azaltırsanız gölgelerin köşeye doğru kısıtlandığını görebilirsiniz, arttırırsanız da gölgeler daha fazla yayılır.
 
 * #### Normal (Socket Input)
-Eger shader'ın kullandığı normal map varsa buraya bağlayın. İşlemler normal map dikkate alınarak yapılır.
+Eğer shader'ın kullandığı normal map varsa buraya bağlayın. İşlemler normal map dikkate alınarak yapılır.
 
 <img src="Dosyalar/AmbientOcclusion.png">
 <img src="Dosyalar/AmbientOcclusion2.png">
@@ -157,7 +157,7 @@ Eger shader'ın kullandığı normal map varsa buraya bağlayın. İşlemler nor
 
 
 ## [Attribute](https://docs.blender.org/manual/en/latest/render/shader_nodes/input/attribute.html)
-Obje üzerinden gelen değerleri alıp kullanmamıza yarar ama artık neredeyse hiç kullanılmıyor. Henüz diğer node'lardan birinde kullanılmamış (dolayısıyla kullanıma açılmamış, test aşamasındaki) attribute'leri (bilgi, deger) almamıza yarar. Attribute listesine [buradan](https://blender.stackexchange.com/questions/14262/what-can-you-call-from-the-attribute-node#14267) (ayrıca linkteki kodların olduğu [link](https://github.com/martijnberger/blender/blob/master/intern/cycles/render/attribute.cpp#L191)) ulaşabilirsiniz.
+Obje üzerinden gelen değerleri alıp kullanmamıza yarar ama artık neredeyse hiç kullanılmıyor. Henüz diğer node'lardan birinde kullanılmamış (dolayısıyla kullanıma açılmamış, test aşamasındaki) attribute'leri (bilgi, değer) almamıza yarar. Attribute listesine [buradan](https://blender.stackexchange.com/questions/14262/what-can-you-call-from-the-attribute-node#14267) (ayrıca linkteki kodların olduğu [link](https://github.com/martijnberger/blender/blob/master/intern/cycles/render/attribute.cpp#L191)) ulaşabilirsiniz.
 
 
 * #### Color (Output)
@@ -194,7 +194,7 @@ Normal map ve bevel kalitesi.
 Bevel miktarı/derecesi/şiddeti.
 
 * #### Normal (Socket Input)
-Eger shader'ın kullandığı normal map varsa buraya bağlayın. İşlemler normal map dikkate alınarak yapılır.
+Eğer shader'ın kullandığı normal map varsa buraya bağlayın. İşlemler normal map dikkate alınarak yapılır.
 
 
 
@@ -266,7 +266,7 @@ Grayscale map.
 Bu değer arttıkça output map'indeki beyaz renkler köşelerden ortaya doğru yaklaşır, azalttıkça köşelere yaklaşır. Aslında bu değer yüzeyin [Index of Refraction](https://en.wikipedia.org/wiki/Refractive_index) değerini ayarlar, yani ışığın yönünün obje içinden geçerken kırılma derecesini.
 
 * #### Normal (Socket Input)
-Eger shader'ın kullandığı normal map varsa buraya bağlayın. İşlemler normal map dikkate alınarak yapılır.
+Eğer shader'ın kullandığı normal map varsa buraya bağlayın. İşlemler normal map dikkate alınarak yapılır.
 
 
 
@@ -290,16 +290,16 @@ Shader render edilirken mesh üzerindeki her bir nokta için noktanın baktığ�
 Shader render edilirken mesh üzerindeki her bir nokta için noktanın kameraya doğru baktığı yön vektörü. Yani shader ekrana çizilirken her bir nokta için bu bilgi farklı olabilir, her bir noktaya göre bu bilgiyi verir.
 
 * #### Parametric (Output)
-Mesh'in her bir üçgeni için (dörtgenleri de üçgene çevirir) UV degerini verir. Bu UV degeri ile bütün üçgenler üzerinde işlemler yapabilirsiniz.
+Mesh'in her bir üçgeni için (dörtgenleri de üçgene çevirir) UV değerini verir. Bu UV değeri ile bütün üçgenler üzerinde işlemler yapabilirsiniz.
 
 * #### Backfacing (Output)
-Mesh'in ön ve arka yüzünü ayırt etmek içindir. İç olan taraf için 1, dış olan taraf için 0 degeri döndürür.
+Mesh'in ön ve arka yüzünü ayırt etmek içindir. İç olan taraf için 1, dış olan taraf için 0 değeri döndürür.
 
 * #### Pointiness (Output)
-Mesh'in keskin açıları için 1'e kayan deger, düz olan kısımları için 0'a kayan deger verir.
+Mesh'in keskin açıları için 1'e kayan değer, düz olan kısımları için 0'a kayan değer verir.
 
 * #### Random Per Island (Output)
-Bu shader'ı kullanan her obje için birbirinden farklı olmak üzere 0 ile 1 arasında rastgele deger verir.
+Bu shader'ı kullanan her obje için birbirinden farklı olmak üzere 0 ile 1 arasında rastgele değer verir.
 
 
 
@@ -317,7 +317,7 @@ Bu shader'ı kullanan her obje için birbirinden farklı olmak üzere 0 ile 1 ar
 Fresnel efekti için keskinlik derecesini ayarlar. Değer düştükçe fresnel efekti şiddetlenir, arttıkça fresnel efekti azalır.
 
 * #### Normal (Socket Input)
-Eger shader'ın kullandığı normal map varsa buraya bağlayın. İşlemler normal map dikkate alınarak yapılır.
+Eğer shader'ın kullandığı normal map varsa buraya bağlayın. İşlemler normal map dikkate alınarak yapılır.
 
 
 
@@ -328,12 +328,12 @@ Kameranın yolladığı ışık ışınları (ray) ile ilgili bilgiler verir. Ev
 
 
 * #### Is Camera Ray (Output)
-Işığın geldiği noktanın tam olarak objeye ait olup olmadığını kontrol eder. Yani eğer ışık kameraya mesh üzerinden geliyorsa yani yansıma yoksa ve orijinal konum dışında bir yerden gelmiyorsa 1 döndürür, eger yansıma ile geliyorsa yani orijinal konumdan gelmiyorsa 0 döndürür. Mesela bunu kullanıp iki shader'ı birleştirirken mix faktörü olarak kullanırsanız, objeyi yeşil renk yapabilir ve obje dışındaki her şeye objeyi kırmızı olarak yansıtabilirsiniz (örnek veriyorum).
+Işığın geldiği noktanın tam olarak objeye ait olup olmadığını kontrol eder. Yani eğer ışık kameraya mesh üzerinden geliyorsa yani yansıma yoksa ve orijinal konum dışında bir yerden gelmiyorsa 1 döndürür, eğer yansıma ile geliyorsa yani orijinal konumdan gelmiyorsa 0 döndürür. Mesela bunu kullanıp iki shader'ı birleştirirken mix faktörü olarak kullanırsanız, objeyi yeşil renk yapabilir ve obje dışındaki her şeye objeyi kırmızı olarak yansıtabilirsiniz (örnek veriyorum).
 
 <img src="Dosyalar/IsCameraRay.png">
 
 * #### Is Shadow Ray (Output)
-Işığın geldiği noktanın gölge olan kısma ait olup olmadığını kontrol eder (hem objenin üzerindeki hem gölgenin vurduğu yerdeki). Eger ışık kameraya gölge olan kısımdan geliyorsa 1'e kayan, gölge olmayan kısımdan geliyorsa 0'a kayan deger döndürür.
+Işığın geldiği noktanın gölge olan kısma ait olup olmadığını kontrol eder (hem objenin üzerindeki hem gölgenin vurduğu yerdeki). Eğer ışık kameraya gölge olan kısımdan geliyorsa 1'e kayan, gölge olmayan kısımdan geliyorsa 0'a kayan değer döndürür.
 
 * #### Is Diffuse Ray (Output)
 Bunu "Is Camera Ray" ile karıştırabilirsiniz çünkü çalışma şekli ona çok benziyor, "Is Camera Ray" ışığın geldiği noktanın objeye ait olup olmadığını kontrol ederken, "Is Diffuse Ray" ışığın [Diffuse shader](#diffuse-bsdf) özelliği taşıyan bir shader'dan gelip gelmediğini (direktmen) kontrol eder.
@@ -342,31 +342,31 @@ Bunu "Is Camera Ray" ile karıştırabilirsiniz çünkü çalışma şekli ona �
 Işığın [Glossy shader](#glossy-bsdf) özelliği taşıyan bir shader'dan gelip gelmediğini (direktmen) kontrol eder.
 
 * #### Is Singular Ray (Output)
-Işık ışını eger tek bir yol izleyerek kameraya geliyorsa 1 degeri döndürür. Eger ışık ışını tek bir doğru yol izlemeden kameraya geliyorsa 0 degeri döndürür. Bu şu anlama geliyor, ışık ışını bir yüzeye çarptığında yüzeyin pürüzlülüğüne yani yansıtmasına göre birden fazla ışık ışını şeklinde etrafa saçılabilir veya tek bir ışık ışını şeklinde de yansıyabilir. Eger yüzey çok pürüzlü ise ışık ışını çok fazla parçacığa ayrılacak ve yansıma çok bulanık olacaktır. Eger yüzey pürüzsüz ise ışık ışını tek bir parça olarak yansıyacak ve görüntü hiç bozulmamış, keskin bir halde olacaktır. İşte bu keskin yansıma yapan yüzeyler görüntüyü bozmadan yansıtırlar, yani tek bir ışık ışını şeklinde. Bu output da bize ışığın kameraya tek bir ışık ışını şeklinde geldiği noktaları verir. Ayna buna en iyi örneklerden biridir.
+Işık ışını eğer tek bir yol izleyerek kameraya geliyorsa 1 değeri döndürür. Eğer ışık ışını tek bir doğru yol izlemeden kameraya geliyorsa 0 değeri döndürür. Bu şu anlama geliyor, ışık ışını bir yüzeye çarptığında yüzeyin pürüzlülüğüne yani yansıtmasına göre birden fazla ışık ışını şeklinde etrafa saçılabilir veya tek bir ışık ışını şeklinde de yansıyabilir. Eğer yüzey çok pürüzlü ise ışık ışını çok fazla parçacığa ayrılacak ve yansıma çok bulanık olacaktır. Eğer yüzey pürüzsüz ise ışık ışını tek bir parça olarak yansıyacak ve görüntü hiç bozulmamış, keskin bir halde olacaktır. İşte bu keskin yansıma yapan yüzeyler görüntüyü bozmadan yansıtırlar, yani tek bir ışık ışını şeklinde. Bu output da bize ışığın kameraya tek bir ışık ışını şeklinde geldiği noktaları verir. Ayna buna en iyi örneklerden biridir.
 
 * #### Is Reflection Ray (Output)
-Eger ışık ışını bir yerden sekip de kameraya geldiyse yani yansıma ise 1, degilse 0 döndürür. Yani ışığın yansıma olup olmadığını kontrol eder.
+Eğer ışık ışını bir yerden sekip de kameraya geldiyse yani yansıma ise 1, degilse 0 döndürür. Yani ışığın yansıma olup olmadığını kontrol eder.
 
 * #### Is Transmission Ray (Output)
-Eger ışık ışını saydam bir objeden geçip de kameraya geldiyse 1, degilse 0 döndürür. Yani objenin saydam bir objeden geçip geçmediğini kontrol eder.
+Eğer ışık ışını saydam bir objeden geçip de kameraya geldiyse 1, degilse 0 döndürür. Yani objenin saydam bir objeden geçip geçmediğini kontrol eder.
 
 * #### Ray Length (Output)
-Işık ışınının (ray) gittiği mesafe degeri. 0'dan başlayıp sonsuza kadar artabilir.
+Işık ışınının (ray) gittiği mesafe değeri. 0'dan başlayıp sonsuza kadar artabilir.
 
 * #### Ray Depth (Output)
-Işık ışınının (ray) toplamda kaç defa sektiğini veya kaç şeyin içinden geçtiğini gösterir. Mesela direktmen kameraya geldiyse 1 döndürür, kameranın önünde cam varsa ve camdan geçip geldiyse 2 döndürür. Bu sayı sonsuza kadar artabilir.
+Işık ışınının (ray) toplamda kaç defa sektiğini veya kaç şeyin içinden geçtiğini gösterir. Mesela direktmen kameraya geldiyse 1 döndürür, kameranın önünde cam varsa ve camdan geçip geldiyse 2 döndürür. Bu sayı en fazla render ayarlarından ayarlanan (Properties > Render > Light Paths > Max Bounces > Total) maximum sekme sayısı kadar olabilir.
 
 * #### Diffuse Depth (Output)
-Çalışma mantığı "Ray Depth" ile aynıdır ama sadece [Diffuse shader](#diffuse-bsdf) özelliği taşıyan shader'lara özeldir. Yani ışık ışınının (ray) toplamda kaç defa [Diffuse shader](#diffuse-bsdf) özelliği taşıyan shader'lardan sektiğini gösterir. Bu sayı sonsuza kadar artabilir.
+Çalışma mantığı "Ray Depth" ile aynıdır ama sadece [Diffuse shader](#diffuse-bsdf) özelliği taşıyan shader'lara özeldir. Yani ışık ışınının (ray) toplamda kaç defa [Diffuse shader](#diffuse-bsdf) özelliği taşıyan shader'lardan sektiğini gösterir. Bu sayı en fazla render ayarlarından ayarlanan (Properties > Render > Light Paths > Max Bounces > Diffuse) maximum sekme sayısı kadar olabilir.
 
 * #### Glossy Depth (Output)
-Çalışma mantığı "Ray Depth" ile aynıdır ama sadece [Glossy shader](#glossy-bsdf) özelliği taşıyan shader'lara özeldir. Yani ışık ışınının (ray) toplamda kaç defa [Glossy shader](#glossy-bsdf) özelliği taşıyan shader'lardan sektiğini veya geçtiğini gösterir. Bu sayı sonsuza kadar artabilir.
+Çalışma mantığı "Ray Depth" ile aynıdır ama sadece [Glossy shader](#glossy-bsdf) özelliği taşıyan shader'lara özeldir. Yani ışık ışınının (ray) toplamda kaç defa [Glossy shader](#glossy-bsdf) özelliği taşıyan shader'lardan sektiğini veya geçtiğini gösterir. Bu sayı en fazla render ayarlarından ayarlanan (Properties > Render > Light Paths > Max Bounces > Glossy) maximum sekme sayısı kadar olabilir.
 
 * #### Transparent Depth (Output)
-Çalışma mantığı "Ray Depth" ile aynıdır ama sadece [Transparent shader](#transparent-bsdf) özelliği taşıyan shader'lara özeldir. Yani ışık ışınının (ray) toplamda kaç defa [Transparent shader](#transparent-bsdf) özelliği taşıyan shader'lardan sektiğini veya geçtiğini gösterir. Bu sayı sonsuza kadar artabilir.
+Çalışma mantığı "Ray Depth" ile aynıdır ama sadece [Transparent shader](#transparent-bsdf) özelliği taşıyan shader'lara özeldir. Yani ışık ışınının (ray) toplamda kaç defa [Transparent shader](#transparent-bsdf) özelliği taşıyan shader'lardan sektiğini veya geçtiğini gösterir. Bu sayı en fazla render ayarlarından ayarlanan (Properties > Render > Light Paths > Max Bounces > Transparent) maximum sekme sayısı kadar olabilir.
 
 * #### Transmission Depth (Output)
-Çalışma mantığı "Ray Depth" ile aynıdır ama sadece Transmission shader özelliği taşıyan shader'lara özeldir. Yani ışık ışınının (ray) toplamda kaç defa Transmission shader özelliği taşıyan shader'lardan sektiğini veya geçtiğini gösterir. Bu sayı sonsuza kadar artabilir.
+Çalışma mantığı "Ray Depth" ile aynıdır ama sadece Transmission shader özelliği taşıyan shader'lara özeldir. Yani ışık ışınının (ray) toplamda kaç defa Transmission shader özelliği taşıyan shader'lardan sektiğini veya geçtiğini gösterir. Bu sayı en fazla render ayarlarından ayarlanan (Properties > Render > Light Paths > Max Bounces > Transmission) maximum sekme sayısı kadar olabilir.
 
 
 
@@ -378,10 +378,10 @@ Obje hakkında bilgiler verir.
 Objenin orijin noktasını verir. Geometry'deki ["Position"](#position-output) gibi her nokta için konum vermez, sadece objenin orijin noktasını verir.
 
 * #### Color (Output)
-Objenin ayarlarından ayarlanmış renk degerini (Properties > Object > Viewport Display > Color) verir.
+Objenin ayarlarından ayarlanmış renk değerini (Properties > Object > Viewport Display > Color) verir.
 
 * #### Alpha (Output)
-Objenin ayarlarından ayarlanmış renk degerinin (Properties > Object > Viewport Display > Color) alpha kanalını verir.
+Objenin ayarlarından ayarlanmış renk değerinin (Properties > Object > Viewport Display > Color) alpha kanalını verir.
 
 * #### Object Index (Output)
 Objenin ayarlarından ayarlanmış "Pass Index" (Properties > Object > Relation > Pass Index) değerini verir.
@@ -414,7 +414,7 @@ Renk veri tipinde bir değer oluşturmanıza yarar, yani renk oluşturmanıza ya
 
 
 * #### Tangent (Output)
-Tangent degeri.
+Tangent değeri.
 
 * #### Direction Type (Node Input)
 Mod | Açıklama
@@ -432,7 +432,7 @@ Shader'ları ve texture'ları düzgün bir şekilde mesh'e yerleştirebilmemiz i
 Otomatik olarak hesaplanmış UV'yi (Texture Space) kullanır. Eğer çok basit bir mesh'iniz varsa ve bu UV güzel ise kullanabilirsiniz ama çoğu durumda UV güzel bir şekilde oturmayacaktır, böyle durumlarda kendi yaptığınız UV'yi kullanabilirsiniz.
 
 * #### Normal (Output)
-Mesh'in her bir yüzünün baktığı yön degerini verir.
+Mesh'in her bir yüzünün baktığı yön değerini verir.
 
 * #### UV (Output)
 Mesh'in ayarlarından ayarlanmış (Properties > Data > UV Maps) aktif UV'sini (yanında kamera işareti olan) verir.
@@ -604,7 +604,7 @@ Objenin yüzeyinin ne kadar pürüzlü olduğunu ayarlar. 0 iken pürüzsüzdür
 "Anisotropy" ve "Rotation" ayarları ışığın yansıma yönünü değiştirmek ile ilgilidir. "Rotation" ayarı yönü degiştirir. "Anisotropy" ayarı ise bu yön degiştirmenin ne kadar etkili olacağını belirler.
 
 * #### Normal (Socket Input)
-Eger shader'ın kullandığı normal map varsa buraya bağlayın. İşlemler normal map dikkate alınarak yapılır.
+Eğer shader'ın kullandığı normal map varsa buraya bağlayın. İşlemler normal map dikkate alınarak yapılır.
 
 * #### Tangent (Socket Input)
 [Tangent](#tangent) node'undan gelen değeri bağlayabilirsiniz.
@@ -640,7 +640,7 @@ Ana renk.
 Objenin yüzeyinin ne kadar pürüzlü olduğunu ayarlar. 0 iken pürüzsüzdür ve yansıtma özelliği artar, 1 iken çok pürüzlüdür ve yansıtma özelliği azalır.
 
 * #### Normal (Socket Input)
-Eger shader'ın kullandığı normal map varsa buraya bağlayın. İşlemler normal map dikkate alınarak yapılır.
+Eğer shader'ın kullandığı normal map varsa buraya bağlayın. İşlemler normal map dikkate alınarak yapılır.
 
 
 
@@ -679,7 +679,7 @@ Camın arkasını ne kadar keskin göstereceğini etkiler. 0'da iken arkayı tam
 [Index of Refraction](https://en.wikipedia.org/wiki/Refractive_index) değerini ayarlar, yani ışığın yönünün camın içinden geçerken kırılma derecesini.
 
 * #### Normal (Socket Input)
-Eger shader'ın kullandığı normal map varsa buraya bağlayın. İşlemler normal map dikkate alınarak yapılır.
+Eğer shader'ın kullandığı normal map varsa buraya bağlayın. İşlemler normal map dikkate alınarak yapılır.
 
 
 
@@ -700,7 +700,7 @@ Ayna rengi.
 Aynanın ne kadar keskin göstereceğini etkiler. 0'da iken pürüzsüz gösterir, yükselttikçe bulanık gösterir.
 
 * #### Normal (Socket Input)
-Eger shader'ın kullandığı normal map varsa buraya bağlayın. İşlemler normal map dikkate alınarak yapılır.
+Eğer shader'ın kullandığı normal map varsa buraya bağlayın. İşlemler normal map dikkate alınarak yapılır.
 
 
 
@@ -747,7 +747,7 @@ Sonuç shader'ı.
 Mod | Açıklama
 :---: | :---:
 ‎GGX | Multiscatter GGX'e göre daha hızlı ama dogruluk bakımından onun kadar dogru degil. Bunu seçerseniz "Transmission Roughness" ayarı açılır. Multiscatter GGX'e göre shader daha koyu olur.
-‎Multiscatter GGX | Bu mod GGX'e göre enerjiyi daha fazla muhafaza eder. Yani ışık ışınları enerjisi bitene kadar sekmeye devam eder. Bu da daha parlak ve gerçekçi bir görünüm ile sonuçlanır. "Roughness" degeri yüksek olan shader'larda ışınların sekmesi zor olacağı için etkisini de kaybeder, yani "Roughness" degeri düşük olan shader'larda etkisi daha belli olur. Hesaplama bakımından GGX'e göre 2.5% daha yavaştır.
+‎Multiscatter GGX | Bu mod GGX'e göre enerjiyi daha fazla muhafaza eder. Yani ışık ışınları enerjisi bitene kadar sekmeye devam eder. Bu da daha parlak ve gerçekçi bir görünüm ile sonuçlanır. "Roughness" değeri yüksek olan shader'larda ışınların sekmesi zor olacağı için etkisini de kaybeder, yani "Roughness" değeri düşük olan shader'larda etkisi daha belli olur. Hesaplama bakımından GGX'e göre 2.5% daha yavaştır.
 
 <img src="Dosyalar/DistributionTypes.png">
 
@@ -765,7 +765,7 @@ Shader'ın ana rengi.
 Bu değer arttıkça "Subsurface Scattering" etkisi de artar. "Subsurface Scattering" etkisi şudur, arkadan ışık vurunca objenin iç renginin yüzeye vurması ve yüzeyin biraz bu renge kaymasıdır. Mesela insan derisi örnek verilebilir, parmağınızı herhangi bir ışığın üstüne koyduğunuzda parmağınız kırmızı şekilde ışığı yansıtır. İşte buna "Subsurface Scattering" (SSS) deniyor.
 
 * #### Subsurface Radius (Socket Input)
-İnput olarak 3 boyutlu vektör alır. Her bir kanal kırmızı, yeşil ve mavi ışığın "Subsurface Scattering" etkisi derecesini belirler. Yani mesela default olarak verilen deger (1.0, 0.2, 0.1) dir. Bu da kırmızı ışığın daha fazla "Subsurface Scattering" etkisi yapacağını gösterir.
+İnput olarak 3 boyutlu vektör alır. Her bir kanal kırmızı, yeşil ve mavi ışığın "Subsurface Scattering" etkisi derecesini belirler. Yani mesela default olarak verilen değer (1.0, 0.2, 0.1) dir. Bu da kırmızı ışığın daha fazla "Subsurface Scattering" etkisi yapacağını gösterir.
 
 * #### Subsurface Color (Socket Input)
 "Subsurface Scattering" etkisi için kullanılacak renk.
@@ -804,16 +804,16 @@ Aynı "Specular Tint" gibi, "Sheen" etkisinin verdigi parlaklığa yüzeyin de r
 Clearcoat sanki yüzey bir şey ile kaplanmış gibi görünmesine sebep olur. İkincil bir yüzey oluşturur. Araba boyası gibi.
 
 * #### Clearcoat Roughness (Socket Input)
-"Clearcoat" için Roughness degeri.
+"Clearcoat" için Roughness değeri.
 
 * #### IOR (Socket Input)
-[Index of Refraction](https://en.wikipedia.org/wiki/Refractive_index) degerini ayarlar, yani ışığın yönünün obje içinden geçerken kırılma derecesini. [Buradan](https://pixelandpoly.com/ior.html) gerçek hayattaki birçok materyalin IOR degerine ulaşabilirsiniz.
+[Index of Refraction](https://en.wikipedia.org/wiki/Refractive_index) değerini ayarlar, yani ışığın yönünün obje içinden geçerken kırılma derecesini. [Buradan](https://pixelandpoly.com/ior.html) gerçek hayattaki birçok materyalin IOR değerine ulaşabilirsiniz.
 
 * #### Transmission (Socket Input)
 Objeyi saydam yapar.
 
 * #### Transmission Roughness (Socket Input)
-Transmission için Roughness degeri.
+Transmission için Roughness değeri.
 
 * #### Emission (Socket Input)
 Emission ayarı Base Color gibidir. Yüzey rengini ayarlar. "Emission Strength" ayarı ile yüzey renginin şiddetini arttırabiliriz. Şiddet arttıkça renk neon gibi parlamaya başlar ve ışık saçar.
@@ -822,7 +822,7 @@ Emission ayarı Base Color gibidir. Yüzey rengini ayarlar. "Emission Strength" 
 Emission şiddeti.
 
 * #### Alpha (Socket Input)
-Shader için alpha değeri. Alpha değeri saydamlık (veya opaklık) derecesini ayarlar. Eger texture kullanıyorsanız buraya texture'un alpha kanalını bağlayabilirsiniz. 0 yaptığınızda saydam, 1 yaptığınızda opak olur.
+Shader için alpha değeri. Alpha değeri saydamlık (veya opaklık) derecesini ayarlar. Eğer texture kullanıyorsanız buraya texture'un alpha kanalını bağlayabilirsiniz. 0 yaptığınızda saydam, 1 yaptığınızda opak olur.
 
 * #### Normal (Socket Input)
 Bu ayar sayesinde yüzeydeki noktalar için sahte yükseklik verebilirsiniz. Yani aslında yüksekligi olmayan yüzeyleri sanki yükseklikleri varmış gibi gösterebilirsiniz.
@@ -877,7 +877,7 @@ Camın arkasını ne kadar keskin gösterecegini etkiler. 0'da iken arkayı tam 
 [Index of Refraction](https://en.wikipedia.org/wiki/Refractive_index) değerini ayarlar, yani ışığın yönünün camın içinden geçerken kırılma derecesini.
 
 * #### Normal (Socket Input)
-Eger shader'ın kullandığı normal map varsa buraya bağlayın. İşlemler normal map dikkate alınarak yapılır.
+Eğer shader'ın kullandığı normal map varsa buraya bağlayın. İşlemler normal map dikkate alınarak yapılır.
 
 
 
@@ -902,7 +902,7 @@ Mod | Açıklama
 "Subsurface Scattering" etkisi derecesi.
 
 * #### Radius (Socket Input)
-İnput olarak 3 boyutlu vektör alır. Her bir kanal kırmızı, yeşil ve mavi ışığın "Subsurface Scattering" etkisi derecesini belirler. Yani mesela default olarak verilen deger (1.0, 0.2, 0.1) dir. Bu da kırmızı ışığın daha fazla "Subsurface Scattering" etkisi yapacağını gösterir.
+İnput olarak 3 boyutlu vektör alır. Her bir kanal kırmızı, yeşil ve mavi ışığın "Subsurface Scattering" etkisi derecesini belirler. Yani mesela default olarak verilen değer (1.0, 0.2, 0.1) dir. Bu da kırmızı ışığın daha fazla "Subsurface Scattering" etkisi yapacağını gösterir.
 
 * #### IOR (Socket Input)
 [Index of Refraction](https://en.wikipedia.org/wiki/Refractive_index) değerini ayarlar, yani ışığın yönünün obje içinden geçerken kırılma derecesini.
@@ -911,7 +911,7 @@ Mod | Açıklama
 "Subsurface Scattering" etkisi için ışığın yansıma yönünü değiştirme derecesi.
 
 * #### Normal (Socket Input)
-Eger shader'ın kullandığı normal map varsa buraya bağlayın. İşlemler normal map dikkate alınarak yapılır.
+Eğer shader'ın kullandığı normal map varsa buraya bağlayın. İşlemler normal map dikkate alınarak yapılır.
 
 
 
@@ -950,7 +950,7 @@ Sonuç shader'ı.
 Ana renk.
 
 * #### Normal (Socket Input)
-Eger shader'ın kullandığı normal map varsa buraya bağlayın. İşlemler normal map dikkate alınarak yapılır.
+Eğer shader'ın kullandığı normal map varsa buraya bağlayın. İşlemler normal map dikkate alınarak yapılır.
 
 
 
@@ -962,7 +962,7 @@ Objeyi görünmez yapar.
 Sonuç shader'ı.
 
 * #### Color (Socket Input)
-Ana renk. Eger renk beyaz olursa yani (1, 1, 1) tamamen görünmez olur. Eger herhangi bir renk verirseniz o renkte görünür.
+Ana renk. Eğer renk beyaz olursa yani (1, 1, 1) tamamen görünmez olur. Eğer herhangi bir renk verirseniz o renkte görünür.
 
 
 
@@ -980,7 +980,7 @@ Ana renk.
 Yansıma ekleme derecesi, arttırdıkça daha fazla yansıma ekler.
 
 * #### Normal (Socket Input)
-Eger shader'ın kullandığı normal map varsa buraya bağlayın. İşlemler normal map dikkate alınarak yapılır.
+Eğer shader'ın kullandığı normal map varsa buraya bağlayın. İşlemler normal map dikkate alınarak yapılır.
 
 
 
@@ -1098,7 +1098,7 @@ Kareler için 1. renk.
 Kareler için 2. renk.
 
 * #### Scale (Socket Input)
-Texture'un boyutu. Ayrıca eger "Vector" input'una birşey bağlamadıysanız bu input'a vereceğiniz değer X ve Y eksenindeki kare sayısını temsil eder, yani 8 yaparsanız 8x8 64 kare elde edersiniz, aynı satranç tahtası gibi.
+Texture'un boyutu. Ayrıca eğer "Vector" input'una birşey bağlamadıysanız bu input'a vereceğiniz değer X ve Y eksenindeki kare sayısını temsil eder, yani 8 yaparsanız 8x8 64 kare elde edersiniz, aynı satranç tahtası gibi.
 
 
 
@@ -1292,7 +1292,7 @@ Grayscale map.
 * #### Dimensions (Node Input)
 Mod | Açıklama
 :---: | :---:
-1D | "W" input'una verilen her bir değer bir nokta olarak ele alınır ve her nokta için tek bir değer verir. Eger "W" input'una texture coordinate verirseniz dalga gibi bir efekt oluşturduğunu görürsünüz.
+1D | "W" input'una verilen her bir değer bir nokta olarak ele alınır ve her nokta için tek bir değer verir. Eğer "W" input'una texture coordinate verirseniz dalga gibi bir efekt oluşturduğunu görürsünüz.
 2D | 2D texture verir. Yani Z ekseni umursanmaz.
 3D | 3D texture verir.
 4D | "3D" modundaymış gibi çalışıp "W" input'u ile seed verebilme özelliğini açar.
@@ -1349,7 +1349,7 @@ Renkli map.
 * #### Dimensions (Node Input)
 Mod | Açıklama
 :---: | :---:
-1D | "W" input'una verilen her bir değer bir nokta olarak ele alınır ve her nokta için tek bir değer verir. Eger "W" input'una texture coordinate verirseniz dalga gibi bir efekt oluşturduğunu görürsünüz.
+1D | "W" input'una verilen her bir değer bir nokta olarak ele alınır ve her nokta için tek bir değer verir. Eğer "W" input'una texture coordinate verirseniz dalga gibi bir efekt oluşturduğunu görürsünüz.
 2D | 2D texture verir. Yani Z ekseni umursanmaz.
 3D | 3D texture verir.
 4D | "3D" modundaymış gibi çalışıp "W" input'u ile seed verebilme özelliğini açar.
@@ -1408,7 +1408,7 @@ Nishita | En kapsamlı gökyüzü ayarları bu moddadır.
 "Sky Type" ayarı "Nishita" modundayken vardır. Güneşin kendisinin görünümünü açar/kapatır.
 
 * #### Sun Size (Node Input)
-"Sky Type" ayarı "Nishita" modundayken ve "Sun Disc" ayarı açıkken vardır. Güneşin büyüklüğünü ayarlar. Eger güneşi göremiyorsanız "Sun Intensity" ayarını kısmayı deneyin.
+"Sky Type" ayarı "Nishita" modundayken ve "Sun Disc" ayarı açıkken vardır. Güneşin büyüklüğünü ayarlar. Eğer güneşi göremiyorsanız "Sun Intensity" ayarını kısmayı deneyin.
 
 * #### Sun Intensity (Node Input)
 "Sky Type" ayarı "Nishita" modundayken ve "Sun Disc" ayarı açıkken vardır. Güneşin parlaklığını ayarlar.
@@ -1452,7 +1452,7 @@ Her bir noktanın kendi çevresinin yani kapladığı alanın değerini verir.
 * #### Dimensions (Node Input)
 Mod | Açıklama
 :---: | :---:
-1D | "W" input'una verilen her bir değer bir nokta olarak ele alınır ve her nokta için tek bir değer verir. Eger "W" input'una texture coordinate verirseniz dalga gibi bir efekt oluşturduğunu görürsünüz.
+1D | "W" input'una verilen her bir değer bir nokta olarak ele alınır ve her nokta için tek bir değer verir. Eğer "W" input'una texture coordinate verirseniz dalga gibi bir efekt oluşturduğunu görürsünüz.
 2D | 2D texture verir. Yani Z ekseni umursanmaz.
 3D | 3D texture verir.
 4D | "3D" modundaymış gibi çalışıp "W" input'u ile seed verebilme özelliğini açar.
@@ -1572,7 +1572,7 @@ Texture.
 * #### Dimensions (Node Input)
 Mod | Açıklama
 :---: | :---:
-1D | "W" input'una verilen her bir değer bir nokta olarak ele alınır ve her nokta için tek bir değer verir. Eger "W" input'una texture coordinate verirseniz dalga gibi bir efekt oluşturduğunu görürsünüz.
+1D | "W" input'una verilen her bir değer bir nokta olarak ele alınır ve her nokta için tek bir değer verir. Eğer "W" input'una texture coordinate verirseniz dalga gibi bir efekt oluşturduğunu görürsünüz.
 2D | 2D texture verir. Yani Z ekseni umursanmaz.
 3D | 3D texture verir.
 4D | "3D" modundaymış gibi çalışıp "W" input'u ile seed verebilme özelliğini açar.
@@ -1770,7 +1770,7 @@ Oluşturulan yükseklik map'inin yüksekliğini arttırır. "Strength" ayarını
 Grayscale texture, yükseklik map'i. Siyah değerler (yani 0) içe, beyaz değerler (yani 1) dışa doğru ilerler.
 
 * #### Normal (Socket Input)
-Eger shader'ın kullandığı normal map varsa buraya bağlayın. İşlemler normal map dikkate alınarak yapılır.
+Eğer shader'ın kullandığı normal map varsa buraya bağlayın. İşlemler normal map dikkate alınarak yapılır.
 
 
 
@@ -1797,7 +1797,7 @@ Eğer materyalin ayarlardan displacement modu displacement olarak seçildiyse, d
 Oluşturulan yükseklik map'inin yükseklik derecesi.
 
 * #### Normal (Socket Input)
-Eger shader'ın kullandığı normal map varsa buraya bağlayın. İşlemler normal map dikkate alınarak yapılır.
+Eğer shader'ın kullandığı normal map varsa buraya bağlayın. İşlemler normal map dikkate alınarak yapılır.
 
 
 
@@ -1951,8 +1951,8 @@ Clamp modu.
 
 Mod | Açıklama
 :---: | :---:
-Min Max | Eger minimum maximumdan büyükse (yani maximum minimumdan küçükse) sonuç değeri her zaman maximum değeri olur.
-Range | Eger minimum maximumdan büyükse (yani maximum minimumdan küçükse) minimum ve maximum değerleri yer değiştirir. Yani bu modda önemli olan hangi input'un minimum hangisinin maximum olduğu değildir. Verilen iki input'un küçük olanı minimum olarak büyük olanı maximum olarak alınır.
+Min Max | Eğer minimum maximumdan büyükse (yani maximum minimumdan küçükse) sonuç değeri her zaman maximum değeri olur.
+Range | Eğer minimum maximumdan büyükse (yani maximum minimumdan küçükse) minimum ve maximum değerleri yer değiştirir. Yani bu modda önemli olan hangi input'un minimum hangisinin maximum olduğu değildir. Verilen iki input'un küçük olanı minimum olarak büyük olanı maximum olarak alınır.
 
 * #### Value (Socket Input)
 Değer.

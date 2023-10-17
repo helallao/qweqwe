@@ -151,6 +151,9 @@ Gölgelerin maksimum yayılabileceği mesafe. Normalde gölgeler köşe/kenarlar
 * #### Normal (Socket Input)
 Eger shader'ın kullandığı normal map varsa buraya bağlayın. İşlemler normal map dikkate alınarak yapılır.
 
+<img src="Dosyalar/AmbientOcclusion.png">
+<img src="Dosyalar/AmbientOcclusion2.png">
+
 
 
 ## [Attribute](https://docs.blender.org/manual/en/latest/render/shader_nodes/input/attribute.html)

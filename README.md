@@ -206,7 +206,7 @@ Kamera yani bakış açısı ile ilgili bilgileri verir.
 Kameranın baktığı yön vektörü.
 
 * #### View Z Depth (Output)
-Kameraya olan uzaklık değeri, yani "View Distance" output'u gibidir ama daha farklı bir çalışma şekli vardır. Sanal bir plane (düz plaka/levha yani düzlem) oluşturulur ve bu plane'in normal'i (yani baktığı yön) kameranın baktığı yöndür. Bu output da bu plane'e olan uzaklık değerini döndürür (obje üzerindeki her bir nokta için).
+Kameraya olan uzaklık değeri, yani "View Distance" output'u gibidir ama daha farklı bir çalışma şekli vardır. Sanal bir plane (düz plaka/levha yani düzlem) oluşturulur ve bu plane'in normal'i (yani baktığı yön) kameranın baktığı yöndür ve output da bu plane'e olan uzaklık değerini döndürür (obje üzerindeki her bir nokta için).
 
 * #### View Distance (Output)
 Kameraya olan uzaklık değeri (obje üzerindeki her bir nokta için).
@@ -217,17 +217,17 @@ Kameraya olan uzaklık değeri (obje üzerindeki her bir nokta için).
 
 
 ## [Color Attribute](https://docs.blender.org/manual/en/latest/render/shader_nodes/input/vertex_color.html)
-Objenin ayarlarından "Color Attributes" bölümüne eklenmiş renk degerlerini almamıza yarar.
+Objenin ayarlarından "Color Attributes" bölümüne eklenmiş renk değerlerini almamıza yarar.
 
 
 * #### Color (Output)
 Renk.
 
 * #### Alpha (Output)
-Alpha degeri.
+Alpha değeri.
 
 * #### Color Attribute (Node Input)
-Attribute'un ismi. İsimleri bilmenize gerek yok zaten bu bölüme tıkladığınızda otomatikmen şu anki attribute'leri listeleyecektir. Ayrıca şu an seçili olan attribute silinmişse bu bölüm kırmızıya döner (deneyip görebilirsiniz).
+Attribute'ün ismi. İsimleri bilmenize gerek yok zaten bu bölüme tıkladığınızda otomatikmen şu anki attribute'leri listeleyecektir. Ayrıca şu an seçili olan attribute silinmişse bu bölüm kırmızıya döner (deneyip görebilirsiniz).
 
 
 
@@ -256,14 +256,14 @@ Bilmiyorum.
 
 
 ## [Fresnel](https://docs.blender.org/manual/en/latest/render/shader_nodes/input/fresnel.html)
-Objenin yüzeyinden ne kadar ışığın yansıdığını hesaplar, yansıma miktarı fazla ise beyaza (yani 1'e) düşük ise siyaha (yani 0'a) kayan bir grayscale map verir. Yaptıgı işlemler şöyle gerçekleşir, kameranın bakış açısı ile yüzeyin bakış açısını baz alarak, aralarındaki paralellik yüksekse siyaha (yani 0'a) kayan, aralarındaki paralellik düşükse (en fazla 90 dereceye kadar) beyaza kayan (yani 1'e) grayscale map verir. Yani kameranın bakış açısı ile yüzeyin bakış açısının paralelligini kontrol eder. Bu işlem genellikle obje'nin kenarlarından ortasına doğru beyazdan siyaha kayan bir renk map'i oluşturur.
+Objenin yüzeyinden ne kadar ışığın yansıdığını hesaplar, yansıma miktarı fazla ise beyaza (yani 1'e) düşük ise siyaha (yani 0'a) kayan bir grayscale map verir. Yaptıgı işlemler şöyle gerçekleşir, kameranın bakış açısı ile yüzeyin bakış açısını baz alarak, aralarındaki paralellik oranı yüksekse siyaha (yani 0'a) kayan, aralarındaki paralellik oranı düşükse (en fazla 90 dereceye kadar çünkü 90'da zaten dik açı oluşturmuş olurlar yani paralellik 0 olur) beyaza kayan (yani 1'e) grayscale map verir. Yani kameranın bakış açısı ile yüzeyin bakış açısının paralelligini kontrol eder. Bu işlem genellikle obje'nin kenarlarından ortasına doğru beyazdan siyaha kayan bir renk map'i oluşturur. Fresnel'i özellikle shader'ın çevresi (bakış açımıza göre) yani kenarı üzerinde efekt oluşturacağımız zaman kullanırız.
 
 
 * #### Fac (Output)
 Grayscale map.
 
 * #### IOR (Socket Input)
-Bu deger arttıkça output map'indeki beyaz renkler köşelerden ortaya doğru yaklaşır. Azalttıkça köşelere yaklaşır. Aslında bu deger yüzeyin [Index of Refraction](https://en.wikipedia.org/wiki/Refractive_index) degerini ayarlar, yani ışığın yönünün obje içinden geçerken kırılma derecesini.
+Bu değer arttıkça output map'indeki beyaz renkler köşelerden ortaya doğru yaklaşır, azalttıkça köşelere yaklaşır. Aslında bu değer yüzeyin [Index of Refraction](https://en.wikipedia.org/wiki/Refractive_index) değerini ayarlar, yani ışığın yönünün obje içinden geçerken kırılma derecesini.
 
 * #### Normal (Socket Input)
 Eger shader'ın kullandığı normal map varsa buraya bağlayın. İşlemler normal map dikkate alınarak yapılır.

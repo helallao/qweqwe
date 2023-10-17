@@ -1731,9 +1731,9 @@ Detaylı açıklamalara [buradan](https://docs.blender.org/manual/en/latest/inte
 
 <img src="Dosyalar/ColorCurve.png">
 
-Ayrıca yukarıdan RGB olmak üzere istediğiniz renk kanalını özel olarak veya C seçeneğini seçerek "combined" yani bütün kanalları birden düzenleyebilirsiniz. Büyüteç işaretleri ile eğimi yakınlaştırabilir/uzaklaştırabilirsiniz. En sağdaki ok işaretinden eğimi veya eğimin görünümünü sıfırlayabilirsiniz. "Extend Horizontal" ayarı ile baştaki ve sondaki noktaları başa ve sona doğru düz bir şekilde gitmeye ayarlayabilirsiniz, "Extend Extrapolated" ayarı ile tekrar eski haline getirebilirsiniz. En sağdaki ok işaretinin bir solundaki bölümden X ve Y ekseni için sınırları ayarlayabilirsiniz.
+Ayrıca yukarıdan RGB olmak üzere istediğiniz renk kanalını özel olarak veya C seçeneğini seçerek "Combined" yani bütün kanalları birden düzenleyebilirsiniz. Büyüteç işaretleri ile eğimi yakınlaştırabilir/uzaklaştırabilirsiniz. En sağdaki ok işaretinden eğimi veya eğimin görünümünü sıfırlayabilirsiniz. "Extend Horizontal" ayarı ile baştaki ve sondaki noktaları başa ve sona doğru düz bir şekilde gitmeye ayarlayabilirsiniz, "Extend Extrapolated" ayarı ile tekrar eski haline getirebilirsiniz. En sağdaki ok işaretinin bir solundaki bölümden X ve Y ekseni için sınırları ayarlayabilirsiniz.
 
-Herhangi bir noktayı seçerseniz eğimin altında o noktanın X ve Y değerleri gösterilir, buradan konumunu ve değerini ayarlayabilirsiniz, sağındaki X işaretinden noktayı silebilirsiniz (baştaki ve sondaki hariç). Ayrıca buradan soldaki 3 buton ile noktanın diğer noktalarla birleşme modunu da ayarlayabilirsiniz.
+Herhangi bir noktayı seçerseniz eğimin altında o noktanın X ve Y değerleri gösterilir, buradan konumunu ve değerini ayarlayabilirsiniz, sağındaki X işaretinden noktayı silebilirsiniz (baştaki ve sondaki noktalar hariç). Ayrıca buradan soldaki 3 buton ile noktanın diğer noktalarla birleşme modunu da ayarlayabilirsiniz.
 
 * #### Fac (Socket Input)
 Yapılan işlemin etki derecesi.

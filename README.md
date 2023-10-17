@@ -405,7 +405,7 @@ Bilmiyorum.
 
 
 ## [RGB](https://docs.blender.org/manual/en/latest/render/shader_nodes/input/rgb.html)
-Renk veri tipinde bir deger oluşturmanıza yarar, yani renk oluşturmanıza yarar. Oluşturduğunuz rengi renk input'u olan herhangi bir node'a bağlayabilirsiniz.
+Renk veri tipinde bir değer oluşturmanıza yarar, yani renk oluşturmanıza yarar. Oluşturduğunuz rengi renk input'u olan herhangi bir node'a bağlayabilirsiniz.
 
 
 
@@ -425,7 +425,7 @@ Mod | Açıklama
 
 
 ## [Texture Coordinate](https://docs.blender.org/manual/en/latest/render/shader_nodes/input/texture_coordinate.html)
-Shader'ları ve texture'ları düzgün bir şekilde mesh'e yerleştirebilmemiz için gerekli olan mesh boyut degerlerini verir.
+Shader'ları ve texture'ları düzgün bir şekilde mesh'e yerleştirebilmemiz için gerekli olan mesh boyut değerlerini verir.
 
 
 * #### Generated (Output)
@@ -435,7 +435,7 @@ Otomatik olarak hesaplanmış UV'yi (Texture Space) kullanır. Eğer çok basit 
 Mesh'in her bir yüzünün baktığı yön degerini verir.
 
 * #### UV (Output)
-Mesh'in ayarlarından ayarlanmış aktif UV'sini verir.
+Mesh'in ayarlarından ayarlanmış (Properties > Data > UV Maps) aktif UV'sini (yanında kamera işareti olan) verir.
 
 * #### Object (Output)
 "Object" input'una verdiğiniz objenin transform değerlerini (Location, Rotation, Scale) UV olarak kullanır.
@@ -473,7 +473,7 @@ Kullanılacak UV map.
 
 
 ## [Value](https://docs.blender.org/manual/en/latest/render/shader_nodes/input/value.html)
-Float veri tipinde bir deger oluşturmanıza yarar, yani sayı degeri oluşturmanıza yarar. Oluşturduğunuz degeri sayı input'u (gri) olan herhangi bir node'a bağlayabilirsiniz.
+Float veri tipinde bir değer oluşturmanıza yarar, yani sayı değeri oluşturmanıza yarar. Oluşturduğunuz değeri sayı input'u (gri) olan herhangi bir node'a bağlayabilirsiniz.
 
 
 
@@ -526,7 +526,7 @@ Normalde kullandığımız shader output'udur. Yüzey ve volume (alan, hava) sha
 
 
 * #### Target (Node Input)
-Bu shader için hangi render motorunun kullanılacağını belirtir. Mesela 2 tane Material Output oluşturup birinin "Target" input'unu Cycles, digerininkini de Eevee yaparsanız. Cycles render motoru seçiliyken "Target" input'u Cycles olan shader render edilir. Eevee render motoru seçiliyken "Target" input'u Eevee olan shader render edilir.
+Bu shader için hangi render motorunun kullanılacağını belirtir. Mesela 2 tane Material Output oluşturup birinin "Target" input'unu Cycles, diğerininkini de Eevee yaparsanız. Cycles render motoru seçiliyken "Target" input'u Cycles olan shader render edilir. Eevee render motoru seçiliyken "Target" input'u Eevee olan shader render edilir.
 
 * #### Surface (Socket Input)
 Yüzey (genellikle katı madde) shader'ı.
@@ -558,7 +558,7 @@ Volume (alan, hava) shader'ı.
 
 
 # Shader
-Bu kategorideki node'lar ana shader türlerini barındırır. Bu shader node'ları ile farklı shader türlerini kullanarak istedigimiz shader'ı yapabiliriz. En fazla kullanılan shader türü [Principled BSDF'dir](#principled-bsdf) çünkü birçok shader türünü kendi içerisinde barındırır. Principled BSDF bu kategorideki birçok shader türü node'larının yerine kullanılabilir, dolayısıyla birçok node zaten gereksiz gibi düşünebilirsiniz ama öyle degil. Bazı node'larda Principled BSDF node'unda olmayan özellikler de var, dolayısıyla bu özellikleri kullanmak için o node'lara da ihtiyacımız var.
+Bu kategorideki node'lar ana shader türlerini barındırır. Bu shader node'ları ile farklı shader türlerini kullanarak istediğimiz shader'ı yapabiliriz. En fazla kullanılan shader türü [Principled BSDF'dir](#principled-bsdf) çünkü birçok shader türünü kendi içerisinde barındırır. Principled BSDF bu kategorideki birçok shader türü node'larının yerine kullanılabilir, dolayısıyla birçok node zaten gereksiz gibi düşünebilirsiniz ama aslında öyle degil. Bazı node'larda Principled BSDF node'unda olmayan özellikler de var, dolayısıyla bu özellikleri kullanmak için o node'lara da ihtiyacımız var. Ayrıca Principled BSDF kullandığınız zaman otomatikmen oluşturduğunuz shader Principled BSDF shader'ında olan bütün özellikleri taşır ama belki biz sadece belirli bir özelliği istiyor olabiliriz. Mesela [Emission](#emission) shader'ı istiyor olabilirsiniz ama bunun için Principled BSDF kullanırsanız otomatikmen [Diffuse](#diffuse-bsdf) shader'ı da kullanmış olursunuz. Böyle durumlar için shader'ların ayrı ayrı olması bize kendi kombinasyonumuzu yapabilme olanağı sunar.
 
 
 ## [Add Shader](https://docs.blender.org/manual/en/latest/render/shader_nodes/shader/add.html)

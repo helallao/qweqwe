@@ -1469,7 +1469,7 @@ Distance to Edge | Kenarlara olan uzaklığa göre yumuşaklık (yani yükseklik
 N-Sphere Radius | Her bir noktanın sahip olduğu yarıçap değerini verir.
 
 * #### Distance Metric (Node Input)
-Bu ayar "Feature" ayarı "F1", "F2" ve "Smooth F1" modundayken vardır. "Feature" ayarı gibi noktaların yükseklik değerlerinin, yumuşaklıklarının oluşturulma şeklini belirler.
+"Feature" ayarı "F1", "F2" ve "Smooth F1" modundayken vardır. "Feature" ayarı gibi noktaların yükseklik değerlerinin, yumuşaklıklarının oluşturulma şeklini belirler.
 
 Mod | Açıklama
 :---: | :---:
@@ -1700,10 +1700,10 @@ Vector | İki vektörü karıştırır.
 Color | İki rengi karıştırır.
 
 * #### Blending Mode (Node Input)
-Sadece "Data Type" ayarı "Vector" ve "Color" modundayken vardır. "Vector" modunda "Non-Uniform" ve "Uniform" diye iki mod vardır. "Non-Uniform" modunu kullanarak vektörlerin her bir kanalı için ayrı faktör değerleri verebilirsiniz. "Color" modunda çok fazla mod var, her biri hakkında detaylı açıklamalara [buradan](https://docs.krita.org/en/reference_manual/blending_modes.html#available-blending-modes) ulaşabilirsiniz.
+"Data Type" ayarı "Vector" ve "Color" modundayken vardır. "Vector" modunda "Non-Uniform" ve "Uniform" diye iki mod vardır. "Non-Uniform" modunu kullanarak vektörlerin her bir kanalı için ayrı faktör değerleri verebilirsiniz. "Color" modunda çok fazla mod var, her biri hakkında detaylı açıklamalara [buradan](https://docs.krita.org/en/reference_manual/blending_modes.html#available-blending-modes) ulaşabilirsiniz.
 
 * #### Clamp Result (Node Input)
-Sadece "Data Type" ayarı "Color" modundayken vardır. Sonucu clamp eder, yani 0'dan küçük olan değerler 0'a, 1'den büyük olan değerler 1'e çekilir. Sonuç değerleri 0-1 arasında olur.
+"Data Type" ayarı "Color" modundayken vardır. Sonucu clamp eder, yani 0'dan küçük olan değerler 0'a, 1'den büyük olan değerler 1'e çekilir. Sonuç değerleri 0-1 arasında olur.
 
 * #### Clamp Factor (Node Input)
 "Factor" input'una verilen değerleri clamp eder, yani 0'dan küçük olan değerler 0'a, 1'den büyük olan değerler 1'e çekilir. "Factor" değerleri 0-1 arasında olur.
@@ -1940,7 +1940,7 @@ Kelvin biriminde sıcaklık derecesi.
 
 
 ## [Clamp](https://docs.blender.org/manual/en/latest/render/shader_nodes/converter/clamp.html)
-Verilen değeri verilen minimum ve maximum değer arasında tutar. Yani minimum 1 maximum 5 ise sayı minimumdan küçük olduğunda tekrar minimuma yükseltilir, sayı maximumdan büyük olduğunda tekrar maximuma indirilir.
+Verilen değeri verilen minimum ve maximum değer arasında tutar. Yani minimum 1 maximum 5 ise sayı 1'den küçük olduğunda tekrar 1'e yükseltilir, sayı 5'den büyük olduğunda tekrar 5'e indirilir.
 
 
 * #### Result (Output)
@@ -1966,7 +1966,7 @@ Maximum değeri.
 
 
 ## [Color Ramp](https://docs.blender.org/manual/en/latest/render/shader_nodes/converter/color_ramp.html)
-[RGB Curves](#rgb-curves) node'unun renkler için olan versiyonudur. Curve yerine Color Ramp Widget kullanılmış hali.
+[RGB Curves](#rgb-curves) node'unun renkler için olan versiyonudur. Curve yerine [Color Ramp Widget](https://docs.blender.org/manual/en/latest/interface/controls/templates/color_ramp.html#ui-color-ramp-widget) kullanılmış hali.
 
 
 * #### Color (Output)
@@ -2079,7 +2079,7 @@ Yeni oranın minimum değeri.
 Yeni oranın maximum değeri.
 
 * #### Steps (Socket Input)
-Sadece "Interpolation Type" ayarı "Stepped Linear" modundayken vardır. Adım sayısı.
+"Interpolation Type" ayarı "Stepped Linear" modundayken vardır. Adım sayısı.
 
 
 
@@ -2168,13 +2168,13 @@ Vector | İki vektörü karıştırır.
 Color | İki rengi karıştırır.
 
 * #### Blending Mode (Node Input)
-Sadece "Data Type" ayarı "Color" modundayken vardır. Çok fazla mod var, her biri hakkında detaylı açıklamalara [buradan](https://docs.krita.org/en/reference_manual/blending_modes.html#available-blending-modes) ulaşabilirsiniz.
+"Data Type" ayarı "Color" modundayken vardır. Çok fazla mod var, her biri hakkında detaylı açıklamalara [buradan](https://docs.krita.org/en/reference_manual/blending_modes.html#available-blending-modes) ulaşabilirsiniz.
 
 * #### Factor Mode (Node Input)
-Sadece "Data Type" ayarı "Vector" modundayken vardır. "Non-Uniform" ve "Uniform" diye iki mod vardır. "Non-Uniform" modunu kullanarak vektörlerin her bir kanalı için ayrı faktör değerleri verebilirsiniz.
+"Data Type" ayarı "Vector" modundayken vardır. "Non-Uniform" ve "Uniform" diye iki mod vardır. "Non-Uniform" modunu kullanarak vektörlerin her bir kanalı için ayrı faktör değerleri verebilirsiniz.
 
 * #### Clamp Result (Node Input)
-Sadece "Data Type" ayarı "Color" modundayken vardır. Sonucu clamp eder, yani 0'dan küçük olan değerler 0'a, 1'den büyük olan değerler 1'e çekilir. Sonuç değerleri 0-1 arasında olur.
+"Data Type" ayarı "Color" modundayken vardır. Sonucu clamp eder, yani 0'dan küçük olan değerler 0'a, 1'den büyük olan değerler 1'e çekilir. Sonuç değerleri 0-1 arasında olur.
 
 * #### Clamp Factor (Node Input)
 "Factor" input'una verilen değerleri clamp eder, yani 0'dan küçük olan değerler 0'a, 1'den büyük olan değerler 1'e çekilir. "Factor" değerleri 0-1 arasında olur.
@@ -2249,7 +2249,7 @@ Vektörler üzerinde matematiksel işlemler yapmamıza yarar.
 Sonuç.
 
 * #### Operation (Node Input)
-Yapılacak matematiksel işlem
+Yapılacak matematiksel işlem.
 
 Mod | Açıklama
 :---: | :---:
@@ -2289,12 +2289,12 @@ Bu kategorideki node'lar grup oluşturmaya yarar. Gruplar yazılımdaki fonksiyo
 
 
 ## [Make Group](https://docs.blender.org/manual/en/latest/render/shader_nodes/groups.html)
-Seçilen node'lar üzerinden grup oluşturur. İsterseniz Ctrl + G kısayolunu da kullanabilirsiniz. Oluşturduğunuz gruba tab tuşuna basarak girebilir/çıkabilirsiniz. Grup hakkında ayarlamaları "N" tuşuna basarak sağdaki toolbar üzerinden yapabilirsiniz.
+Seçilen node'lar üzerinden grup oluşturur. İsterseniz "Ctrl + G" kısayolunu da kullanabilirsiniz. Oluşturduğunuz gruba "Tab" tuşuna basarak girebilir/çıkabilirsiniz. Grup hakkında ayarlamaları "N" tuşuna basarak sağdaki toolbar üzerinden yapabilirsiniz.
 
 
 
 ## [Ungroup](https://docs.blender.org/manual/en/latest/render/shader_nodes/groups.html)
-Seçilen grubu bozar, içerisindeki kodları dışarıya alır ve grubu siler. İsterseniz Ctrl + Alt + G kısayolunu da kullanabilirsiniz.
+Seçilen grubu bozar, içerisindeki kodları dışarıya alır ve grubu siler. İsterseniz "Ctrl + Alt + G" kısayolunu da kullanabilirsiniz.
 
 
 <br>

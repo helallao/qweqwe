@@ -217,7 +217,7 @@ Kameraya olan uzaklık değeri (obje üzerindeki her bir nokta için).
 
 
 ## [Color Attribute](https://docs.blender.org/manual/en/latest/render/shader_nodes/input/vertex_color.html)
-Objenin ayarlarından "Color Attributes" bölümüne eklenmiş renk değerlerini almamıza yarar.
+Objenin ayarlarından "Color Attributes" (Properties > Data > Color Attributes) bölümüne eklenmiş renk değerlerini almamıza yarar.
 
 
 * #### Color (Output)
@@ -271,7 +271,7 @@ Eger shader'ın kullandığı normal map varsa buraya bağlayın. İşlemler nor
 
 
 ## [Geometry](https://docs.blender.org/manual/en/latest/render/shader_nodes/input/geometry.html)
-Mesh hakkında geometrik bilgiler verir.
+Mesh hakkında geometrik bilgiler verir. 
 
 
 * #### Position (Output)
@@ -281,10 +281,10 @@ Shader render edilirken mesh üzerindeki her bir nokta için dünya üzerindeki 
 Shader render edilirken mesh üzerindeki her bir nokta için noktanın baktığı yön vektörü. Yani shader ekrana çizilirken her bir nokta için bu bilgi farklı olabilir, her bir noktaya göre bu bilgiyi verir.
 
 * #### Tangent (Output)
-[Tangent](#tangent) node'u ile aynı şeyi verir dolayısıyla Tangent node'una bakın. Default olarak Z eksenindeki tangent degerini verir, istediğiniz ekseni seçemezsiniz o yüzden Tangent node'unu kullanın.
+[Tangent](#tangent) node'u ile aynı şeyi verir dolayısıyla [Tangent](#tangent) node'una bakın. Default olarak Z eksenindeki tangent değerini verir ve istediğiniz ekseni seçemezsiniz o yüzden [Tangent](#tangent) node'unu kullanın.
 
 * #### True Normal (Output)
-"Normal" output'u ile aynıdır ama mesh'in her bir yüzü için yüzün baktığı yönü verir. Yani her bir yüz için yüze göre bu bilgiyi verir.
+"Normal" output'u ile aynıdır ama noktalar için değil de yüzler içindir yani mesh'in her bir yüzü için yüzün baktığı yönü verir.
 
 * #### Incoming (Output)
 Shader render edilirken mesh üzerindeki her bir nokta için noktanın kameraya doğru baktığı yön vektörü. Yani shader ekrana çizilirken her bir nokta için bu bilgi farklı olabilir, her bir noktaya göre bu bilgiyi verir.
@@ -314,7 +314,7 @@ Bu shader'ı kullanan her obje için birbirinden farklı olmak üzere 0 ile 1 ar
 [Fresnel](#fresnel) ile aynı mantıkta çalışır ama daha keskindir. Fresnel yüzeyleri bir bütün gibi etkilerken bu özellik her bir noktayı etkilermiş gibi output verir. Yani noktanın baktığı yön ile kameranın baktığı yönün paralelligi birazcık azalsa hemen fark edilir. Bu da hesaplanan efektin dairesel olarak dağıldığını bile görebilmemizi sağlar (test ederek kendiniz de görebilirsiniz).
 
 * #### Blend (Socket Input)
-Fresnel efekti için keskinlik derecesini ayarlar. Degeri düştükçe fresnel efekti şiddetlenir, arttıkça fresnel efekti azalır.
+Fresnel efekti için keskinlik derecesini ayarlar. Değer düştükçe fresnel efekti şiddetlenir, arttıkça fresnel efekti azalır.
 
 * #### Normal (Socket Input)
 Eger shader'ın kullandığı normal map varsa buraya bağlayın. İşlemler normal map dikkate alınarak yapılır.
@@ -328,7 +328,7 @@ Kameranın yolladığı ışık ışınları (ray) ile ilgili bilgiler verir. Ev
 
 
 * #### Is Camera Ray (Output)
-Işığın geldiği noktanın tam olarak objeye ait olup olmadığını kontrol eder. Yani eger ışık kameraya mesh üzerinden geliyorsa yani yansıma yoksa ve orijinal konum dışında bir yerden gelmiyorsa 1 döndürür, eger yansıma ile geliyorsa yani orijinal konumdan gelmiyorsa 0 döndürür. Mesela bunu kullanıp iki shader'ı birleştirirken mix faktörü olarak kullanırsanız, objeyi yeşil renk yapabilir ve obje dışındaki her şeye objeyi kırmızı olarak yansıtabilirsiniz (örnek veriyorum).
+Işığın geldiği noktanın tam olarak objeye ait olup olmadığını kontrol eder. Yani eğer ışık kameraya mesh üzerinden geliyorsa yani yansıma yoksa ve orijinal konum dışında bir yerden gelmiyorsa 1 döndürür, eger yansıma ile geliyorsa yani orijinal konumdan gelmiyorsa 0 döndürür. Mesela bunu kullanıp iki shader'ı birleştirirken mix faktörü olarak kullanırsanız, objeyi yeşil renk yapabilir ve obje dışındaki her şeye objeyi kırmızı olarak yansıtabilirsiniz (örnek veriyorum).
 
 <img src="Dosyalar/IsCameraRay.png">
 
@@ -342,10 +342,10 @@ Bunu "Is Camera Ray" ile karıştırabilirsiniz çünkü çalışma şekli ona �
 Işığın [Glossy shader](#glossy-bsdf) özelliği taşıyan bir shader'dan gelip gelmediğini (direktmen) kontrol eder.
 
 * #### Is Singular Ray (Output)
-Işık ışını eger tek bir yol izleyerek kameraya geliyorsa 1 degeri döndürür. Eger ışık ışını tek bir doğru yol izlemeden kameraya geliyorsa 0 degeri döndürür. Bu şu anlama geliyor, ışık ışını bir yüzeye çarptığında yüzeyin pürüzlülüğüne yani yansıtmasına göre birden fazla ışık ışını şeklinde etrafa saçılabilir veya tek bir ışık ışını şeklinde yansıyabilir. Eger yüzey çok pürüzlü ise ışık ışını çok fazla parçacığa ayrılacak ve yansıma çok bulanık olacaktır. Eger yüzey pürüzsüz ise ışık ışını tek bir parça olarak yansıyacak ve görüntü hiç bozulmamış, keskin bir halde olacaktır. İşte bu keskin yansıma yapan yüzeyler görüntüyü bozmadan yansıtırlar, yani tek bir ışık ışını şeklinde. "Is Singular Ray" özelliği de bize ışığın kameraya tek bir ışık ışını şeklinde geldiği noktaları verir. Ayna buna en iyi örneklerden biridir.
+Işık ışını eger tek bir yol izleyerek kameraya geliyorsa 1 degeri döndürür. Eger ışık ışını tek bir doğru yol izlemeden kameraya geliyorsa 0 degeri döndürür. Bu şu anlama geliyor, ışık ışını bir yüzeye çarptığında yüzeyin pürüzlülüğüne yani yansıtmasına göre birden fazla ışık ışını şeklinde etrafa saçılabilir veya tek bir ışık ışını şeklinde de yansıyabilir. Eger yüzey çok pürüzlü ise ışık ışını çok fazla parçacığa ayrılacak ve yansıma çok bulanık olacaktır. Eger yüzey pürüzsüz ise ışık ışını tek bir parça olarak yansıyacak ve görüntü hiç bozulmamış, keskin bir halde olacaktır. İşte bu keskin yansıma yapan yüzeyler görüntüyü bozmadan yansıtırlar, yani tek bir ışık ışını şeklinde. Bu output da bize ışığın kameraya tek bir ışık ışını şeklinde geldiği noktaları verir. Ayna buna en iyi örneklerden biridir.
 
 * #### Is Reflection Ray (Output)
-Eger ışık ışını bir yerden sekip de kameraya geldiyse yani yansıma ise 1, degilse 0 döndürür. Yani objenin yansıma olup olmadığını kontrol eder.
+Eger ışık ışını bir yerden sekip de kameraya geldiyse yani yansıma ise 1, degilse 0 döndürür. Yani ışığın yansıma olup olmadığını kontrol eder.
 
 * #### Is Transmission Ray (Output)
 Eger ışık ışını saydam bir objeden geçip de kameraya geldiyse 1, degilse 0 döndürür. Yani objenin saydam bir objeden geçip geçmediğini kontrol eder.
@@ -378,19 +378,19 @@ Obje hakkında bilgiler verir.
 Objenin orijin noktasını verir. Geometry'deki ["Position"](#position-output) gibi her nokta için konum vermez, sadece objenin orijin noktasını verir.
 
 * #### Color (Output)
-Objenin ayarlarından ayarlanmış renk degerini verir.
+Objenin ayarlarından ayarlanmış renk degerini (Properties > Object > Viewport Display > Color) verir.
 
 * #### Alpha (Output)
-Objenin ayarlarından ayarlanmış renk degerinin alpha kanalını verir.
+Objenin ayarlarından ayarlanmış renk degerinin (Properties > Object > Viewport Display > Color) alpha kanalını verir.
 
 * #### Object Index (Output)
-Objenin ayarlarından ayarlanmış "pass index" degerini verir.
+Objenin ayarlarından ayarlanmış "Pass Index" (Properties > Object > Relation > Pass Index) değerini verir.
 
 * #### Material Index (Output)
-Objenin material ayarlarından ayarlanmış "pass index" degerini verir.
+Objenin material ayarlarından ayarlanmış "Pass Index" (Properties > Material > Settings > Pass Index) değerini verir.
 
 * #### Random (Output)
-Bu shader'ı kullanan her obje için birbirinden farklı olmak üzere 0 ile 1 arası rastgele deger verir.
+Bu shader'ı kullanan her obje için birbirinden farklı olmak üzere 0 ile 1 arası rastgele değer verir.
 
 
 

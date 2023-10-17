@@ -1041,7 +1041,7 @@ Grayscale çukur map'i. 1 veya 1'e kayan değere sahip olan kısımların çukur
 "Offset" ve "Frequency" input'ları beraber çalışırlar. "Offset" input'u offset vermeye yani tuğlanın yerini ileri geri almaya yarar. Değer 0 ile 1 arasında değiştikçe tuğlalar soldaki ve sağdaki tuğlanın yerine doğru kayar. "Frequency" input'u da offset verme işleminin kaç tuğlada bir yapılacağını belirler. Mesela 3 olarak ayarlarsanız her 3 tuğlanın ikisi aynı, sonuncusu offsetli olur.
 
 * #### Squash (Node Input)
-"Squash" ve "Frequency" input'ları beraber çalışırlar. "Squash" input'u bazı tuğlaların uzunluğunu değiştirmeye yarar, değer arttıkça tuğlaların da uzunluğu artar, değer küçüldükçe tuğlaların da uzunluğu azalır. "Frequency" input'u da "Squash" işleminin kaç tuğlada bir yapılacağını belirler. Mesela 3 olarak ayarlarsanız her 3 tuğlanın ikisinin uzunluğu aynı, sonuncusunun uzunluğu farklı olur.
+"Squash" ve "Frequency" input'ları beraber çalışırlar. "Squash" input'u tuğlanın uzunluğunu değiştirmeye yarar, değer arttıkça tuğlaların da uzunluğu artar, değer küçüldükçe tuğlaların da uzunluğu azalır. "Frequency" input'u da "Squash" işleminin kaç tuğlada bir yapılacağını belirler. Mesela 3 olarak ayarlarsanız her 3 tuğlanın ikisinin uzunluğu aynı, sonuncusunun uzunluğu farklı olur.
 
 * #### Frequency (Node Input)
 "Squash" ve "Frequency" input'ları beraber çalışırlar. "Squash" input'u tuğlanın uzunluğunu değiştirmeye yarar, değer arttıkça tuğlaların da uzunluğu artar, değer küçüldükçe tuğlaların da uzunluğu azalır. "Frequency" input'u da "Squash" işleminin kaç tuğlada bir yapılacağını belirler. Mesela 3 olarak ayarlarsanız her 3 tuğlanın ikisinin uzunluğu aynı, sonuncusunun uzunluğu farklı olur.
@@ -1134,7 +1134,7 @@ Texture'un oluşturulacağı konumu belirten texture coordinate değeri.
 
 
 ## [IES Texture](https://docs.blender.org/manual/en/latest/render/shader_nodes/textures/ies.html)
-"ies" uzantılı dosyaları kullanabilmemize yarar. "ies" dosyası lambalarda kullanılan farklı ışık şekillerini tutan dosyalardır. İnternette "online free ies" diye aratırsanız bedava ies dosyaları bulabilirsiniz. Bu texture'u (shader'ı) bir lamba (ışık) objesinde kullanmalısınız.
+"ies" uzantılı dosyaları kullanabilmemize yarar. "ies" dosyası lambalarda kullanılan farklı ışık şekillerini tutan dosyalardır. İnternette ["online free ies"](https://www.google.com/search?q=online+free+ies) diye aratırsanız bedava ies dosyaları bulabilirsiniz. Bu texture'u (shader'ı) bir lamba (ışık) objesinde kullanmalısınız.
 
 
 * #### Fac (Output)
@@ -1380,7 +1380,7 @@ Bilmiyorum.
 
 
 ## [Sky Texture](https://docs.blender.org/manual/en/latest/render/shader_nodes/textures/sky.html)
-[Background](#background) shader'ına bağlanarak kullanılabilecek bir gökyüzü shader'ı oluşturur. Muhtemelen World modunda kullanırsınız.
+[Background](#background) shader'ına bağlanarak kullanılabilecek bir gökyüzü shader'ı oluşturur. World modunda kullanılır.
 
 
 * #### Color (Output)
@@ -1528,7 +1528,7 @@ Diagonal | Dalgalar çaprazlama şekilde olur.
 Spherical | "Type" ayarı "Rings" modundayken vardır. Dalgalar dairesel şekilde olur.
 
 * #### Wave Profile (Node Input)
-Dalgaların geçişlerini belirleyen modlardır.
+Dalgaların geçişlerini belirleyen mod.
 
 Mod | Açıklama
 :---: | :---:
@@ -1681,7 +1681,7 @@ Quadratic ve Linear'a göre çok daha şiddetli ışık verir. Çok uzak mesafel
 Işık şiddeti.
 
 * #### Smooth (Socket Input)
-Yumuşaklık derecesi, zaten Quadratic, Linear ve Constant output'ları kendi başlarına yumuşaklık efektine sahip oldukları için, bu ayar ışığın şiddetini azaltıyor gibi görünüyor.
+Yumuşaklık derecesi, zaten Quadratic, Linear ve Constant output'ları kendi başlarına yumuşaklık efektine sahip oldukları için, bu ayar sanki ışığın şiddetini azaltıyor gibi görünüyor.
 
 
 

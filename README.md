@@ -30,9 +30,10 @@ Alt + R | Kullanılan texture/resim'leri yeniler. Yapılan değişiklik falan va
 Ctrl + Shift + Sağ Mouse | Ctrl + Shift tuşlarına basarken bir node üzerine sağ tık yapıp da başka bir node üzerine kaydırırsanız otomatik olarak mix node'u ekler. İki node'un da ilk input'unu mix node'una bağlar.
 Shift + C | "Settings From Active" ayarı aktif node'un bütün özelliklerini seçilen node'lara aktarır. Seçilen node'ların aynı türden olması gerekir. <br><br> "from Active Node's Label" ayarı aktif node'un label'ını seçilen node'lara aktarır. <br><br> "from Linked Node's Label" ayarı seçilen node'ların, sondan başlayarak label'larını kendisine bağlı (linked) node'un label'ı ile değiştirir. <br><br> "from Linked Output's Name" ayarı seçilen node'ların, sondan başlayarak isimlerini kendisine bağlı (linked) node'un ismi ile değiştirir.
 Alt + Sağ Mouse | Alt tuşuna basarken bir node üzerine sağ tık yapıp da başka bir node üzerine kaydırırsanız otomatik olarak bağlama işlemi yapar. Bağlanan node'un ilk output'unu, bağlanacak node'un o veri tipine uygun ilk input'una bağlar. Tek output'u olan node'lar için güzeldir.
+Shift + Alt + D | Seçilmiş node'ların output bağlarını koparır.
 Alt + S | Seçili olan node'un ilk iki input'unun bağlarını değiştirir.
 Shift + P | Seçili olan node'ları frame içerisine alır.
-Alt + X | Kullanımamış (bağlanmamış) node'ları siler.
+Alt + X | Kullanılmamış (bağlanmamış) node'ları siler.
 
 
 

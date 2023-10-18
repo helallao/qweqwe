@@ -25,7 +25,7 @@ G | Node'u hareket ettirir.
 A | Editördeki bütün node'ları seçer.
 Home | Bütün node'lara odaklanır. Editörün büyüklüğünü bütün node'ları görecek hale getirir.
 X / Delete | X veya Delete tuşuna basarsanız seçili olan node'lar silinir.
-Shift + A | Yeni node ekleme menüsünü açar.
+Shift + A | Yeni node ekleme menüsünü açar. Bu menüde
 Ctrl + C | Seçilen node'ları panoya kopyalar.
 Ctrl + V | Panoda en son kopyalanan şeyi yapıştırır.
 Shift + D | Seçilen node'ları duplicate eder yani kopyalarını oluşturur.
@@ -57,7 +57,7 @@ Shift + C | "Settings From Active" ayarı aktif node'un bütün özelliklerini s
 Shift + V | Seçilen node'ların label'ını aktif node'un label'ı olarak ayarlar.
 Alt + Sağ Mouse | Alt tuşuna basarken bir node üzerine sağ tık yapıp da başka bir node üzerine kaydırırsanız otomatik olarak bağlama işlemi yapar. Bağlanan node'un ilk output'unu, bağlanacak node'un o veri tipine uygun ilk input'una bağlar. Tek output'u olan node'lar için kullanışlıdır.
 Shift + Alt + D | Seçilmiş node'ların output bağlarını koparır.
-Alt + S | Seçili olan node'un input'larına bağlanan ilk iki bağın yerlerini değiştirir.
+Alt + S | Seçili olan iki node'un output'larının bağlandığı yerleri birbiri arasında değiştirir.
 Shift + P | Seçili olan node'ları frame içerisine alır.
 Alt + X | Kullanılmamış (bağlanmamış) node'ları siler.
 Shift + Sağ Mouse Kaydırma | Shift tuşuna basarken sağ mouse tuşunuza basıp node editörü üzerinde kaydırırsanız bir çizgi çıktığını göreceksiniz. Bu çizginin üzerine gelen bütün bağlara [Reroute](#reroute) eklenir.

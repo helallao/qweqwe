@@ -14,12 +14,22 @@ Aşağıdaki döküman Cycles render motoru kullanıldığı varsayılarak hazı
 <details>
 <summary>Node Editör Kısayolları</summary>
 
-Aşağıdaki kısayolların çoğu [Node Wrangler](https://docs.blender.org/manual/en/latest/addons/node/node_wrangler.html) eklentisinin özellikleridir. Node Wrangler eklentisini etkinleştirmek için sol üstteki "Edit" menüsünden Preferences > Add-ons > "Node Wrangler" şeklinde aratın ve çıkan eklentiyi aktifleştirin.
+Aşağıdaki kısayolların çoğu [Node Wrangler](https://docs.blender.org/manual/en/latest/addons/node/node_wrangler.html) eklentisinin özellikleridir. Node Wrangler eklentisini etkinleştirmek için sol üstteki "Edit" menüsünden Preferences > Add-ons > "Node Wrangler" şeklinde aratın ve çıkan eklentiyi aktifleştirin. Sadece gerekli gördüğüm kısayolları ekledim, amacım ne var ne yoksa yazmak değil, zaten bütün kısayolları Preferences > Keymap bölümünde bulabilirsiniz.
 
 Kısayol | Açıklama
 :---: | :---:
+Shift + W | Node Wrangler menüsünü açar.
+Shift + A | Yeni node ekleme menüsünü açar.
+Ctrl + Shift + Sol Mouse | Ctrl + Shift tuşlarına basarken bir node üzerine sol tık yaparsanız o node'u otomatikmen output node'una bağlar, yani o node'un içeriğini görüntüler.
+Backspace (Silme tuşu) | Seçilen node'ların bütün ayarlarını sıfırlar. Yapılan değişiklikleri kaldırır.
 ‎Shift + S | Seçili olan node'ları açılan panelden seçtiğiniz yeni node'a çevirir.
+Alt + R | Kullanılan texture/resim'leri yeniler. Yapılan değişiklik falan varsa diye.
+Ctrl + Shift + Sağ Mouse | Ctrl + Shift tuşlarına basarken bir node üzerine sağ tık yapıp da başka bir node üzerine kaydırırsanız otomatik olarak mix node'u ekler. İki node'un da ilk input'unu mix node'una bağlar.
 Shift + C | "Settings From Active" ayarı aktif node'un bütün özelliklerini seçilen node'lara aktarır. Seçilen node'ların aynı türden olması gerekir. <br><br> "from Active Node's Label" ayarı aktif node'un label'ını seçilen node'lara aktarır. <br><br> "from Linked Node's Label" ayarı seçilen node'ların, sondan başlayarak label'larını kendisine bağlı (linked) node'un label'ı ile değiştirir. <br><br> "from Linked Output's Name" ayarı seçilen node'ların, sondan başlayarak isimlerini kendisine bağlı (linked) node'un ismi ile değiştirir.
+Alt + Sağ Mouse | Alt tuşuna basarken bir node üzerine sağ tık yapıp da başka bir node üzerine kaydırırsanız otomatik olarak bağlama işlemi yapar. Bağlanan node'un ilk output'unu, bağlanacak node'un o veri tipine uygun ilk input'una bağlar. Tek output'u olan node'lar için güzeldir.
+
+
+
 
 
 

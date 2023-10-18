@@ -16,7 +16,7 @@ Aşağıdaki döküman Cycles render motoru kullanıldığı varsayılarak hazı
 <summary>Node Editörü Kısayolları</summary>
 <br>
 
-Aşağıdaki kısayolların çoğu [Node Wrangler](https://docs.blender.org/manual/en/latest/addons/node/node_wrangler.html) eklentisinin özellikleridir. Node Wrangler eklentisini etkinleştirmek için sol üstteki "Edit" menüsünden (Preferences > Add-ons > "Node Wrangler" şeklinde aratın) ve çıkan eklentiyi aktifleştirin. Sadece gerekli gördüğüm kısayolları ekledim, amacım ne var ne yoksa yazmak değil, zaten bütün kısayolları Preferences > Keymap bölümünde bulabilirsiniz. Kısayollar en yararlıdan en yararsıza (yani kullanışsıza) göre sıralanmıştır ama dediğim gibi, sadece gerekli gördüğüm kısayolları ekledim, en alttaki kısayol bile yeri gelince kullanılabilir.
+Aşağıdaki kısayolların çoğu [Node Wrangler](https://docs.blender.org/manual/en/latest/addons/node/node_wrangler.html) eklentisinin özellikleridir. Node Wrangler eklentisini etkinleştirmek için sol üstteki "Edit" menüsünden (Preferences > Add-ons > "Node Wrangler" şeklinde aratın) ve çıkan eklentiyi etkinleştirin. Sadece gerekli gördüğüm kısayolları ekledim, amacım ne var ne yoksa yazmak değil, zaten bütün kısayolları Preferences > Keymap bölümünde bulabilirsiniz. Kısayollar en yararlıdan en yararsıza (yani kullanışsıza) göre sıralanmıştır ama dediğim gibi, sadece gerekli gördüğüm kısayolları ekledim, en alttaki kısayol bile yeri gelince kullanılabilir.
 
 Genel Kısayollar | Açıklama
 :---: | :---:

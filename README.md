@@ -16,9 +16,12 @@ Aşağıdaki döküman Cycles render motoru kullanıldığı varsayılarak hazı
 
 Aşağıdaki kısayolların çoğu [Node Wrangler](https://docs.blender.org/manual/en/latest/addons/node/node_wrangler.html) eklentisinin özellikleridir. Node Wrangler eklentisini etkinleştirmek için sol üstteki "Edit" menüsünden Preferences > Add-ons > "Node Wrangler" şeklinde aratın ve çıkan eklentiyi aktifleştirin.
 
-Mod | Açıklama
+Kısayol | Açıklama
 :---: | :---:
 ‎Shift + S | Seçili olan node'ları açılan panelden seçtiğiniz yeni node'a çevirir.
+Shift + C | "Settings From Active" ayarı aktif node'un bütün özelliklerini seçilen node'lara aktarır. Seçilen node'ların aynı türden olması gerekir. <br><br> "from Active Node's Label" ayarı aktif node'un label'ını seçilen node'lara aktarır. <br><br> "from Linked Node's Label" ayarı seçilen node'ların, sondan başlayarak label'larını kendisine bağlı (linked) node'un label'ı ile değiştirir. <br><br> "from Linked Output's Name" ayarı seçilen node'ların, sondan başlayarak isimlerini kendisine bağlı (linked) node'un ismi ile değiştirir.
+
+
 
 </details>
 

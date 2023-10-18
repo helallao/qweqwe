@@ -18,21 +18,31 @@ Aşağıdaki döküman Cycles render motoru kullanıldığı varsayılarak hazı
 
 Aşağıdaki kısayolların çoğu [Node Wrangler](https://docs.blender.org/manual/en/latest/addons/node/node_wrangler.html) eklentisinin özellikleridir. Node Wrangler eklentisini etkinleştirmek için sol üstteki "Edit" menüsünden (Preferences > Add-ons > "Node Wrangler" şeklinde aratın) ve çıkan eklentiyi aktifleştirin. Sadece gerekli gördüğüm kısayolları ekledim, amacım ne var ne yoksa yazmak değil, zaten bütün kısayolları Preferences > Keymap bölümünde bulabilirsiniz. Kısayollar en yararlıdan en yararsıza (yani kullanışsıza) göre sıralanmıştır ama dediğim gibi, sadece gerekli gördüğüm kısayolları ekledim, en alttaki kısayol bile yeri gelince kullanılabilir.
 
-Kısayol | Açıklama
+Genel Kısayollar | Açıklama
 :---: | :---:
-Shift + W | Node Wrangler menüsünü açar.
-Shift + A | Yeni node ekleme menüsünü açar.
 G | Node'u hareket ettirir.
-Shift + D | Seçilen node'ları duplicate eder yani kopyalarını oluşturur.
-M | Seçilen node'ları mute eder, yani siz açana kadar (aynı işlemi tekrarlayın) yoklarmış gibi varsayılır.
+A | Editördeki bütün node'ları seçer.
 Home | Bütün node'lara odaklanır. Editörün büyüklüğünü bütün node'ları görecek hale getirir.
 X / Delete | X veya Delete tuşuna basarsanız seçili olan node'lar silinir.
-A | Editördeki bütün node'ları seçer.
+Shift + A | Yeni node ekleme menüsünü açar.
+Ctrl + C | Seçilen node'ları panoya kopyalar.
+Ctrl + V | Panoda en son kopyalanan şeyi yapıştırır.
+Shift + D | Seçilen node'ları duplicate eder yani kopyalarını oluşturur.
+Shift + W | Node Wrangler menüsünü açar.
+M | Seçilen node'ları mute eder, yani siz açana kadar (aynı işlemi tekrarlayın) yoklarmış gibi varsayılır.
+
+<br>
+
+Grup Kısayolları | Açıklama
+:---: | :---:
 Ctrl + G | Seçilen node'lardan [grup](#make-group) oluşturur.
 Ctrl + Alt + G | Seçilen gruptaki node'ları dışarı alır, gruptan çıkarır.
 Tab | En son seçilen gruba girer/çıkar. Eğer iç içe birden fazla grup oluşturduysanız ve tab tuşu ile çıkılmaz hale getirdiyseniz, editör üzerine sağ tıklayarak "Exit Group" butonunu kullanabilirsiniz.
-Ctrl + C | Seçilen node'ları panoya kopyalar.
-Ctrl + V | Panoda en son kopyalanan şeyi yapıştırır.
+
+<br>
+
+Kısayol | Açıklama
+:---: | :---:
 Ctrl + Shift + Sol Mouse | Ctrl + Shift tuşlarına basarken bir node üzerine sol tık yaparsanız o node'u otomatikmen output node'una bağlar, yani o node'un içeriğini görüntüler.
 Backspace (Silme tuşu) | Seçilen node'ların bütün ayarlarını sıfırlar. Yapılan değişiklikleri kaldırır.
 ‎Shift + S | Seçili olan node'ları açılan panelden seçtiğiniz yeni node'a çevirir.

@@ -14,7 +14,7 @@ Aşağıdaki döküman Cycles render motoru kullanıldığı varsayılarak hazı
 <details>
 <summary>Node Editör Kısayolları</summary>
 
-Aşağıdaki kısayolların çoğu [Node Wrangler](https://docs.blender.org/manual/en/latest/addons/node/node_wrangler.html) eklentisinin özellikleridir. Node Wrangler eklentisini etkinleştirmek için sol üstteki "Edit" menüsünden Preferences > Add-ons > "Node Wrangler" şeklinde aratın ve çıkan eklentiyi aktifleştirin. Sadece gerekli gördüğüm kısayolları ekledim, amacım ne var ne yoksa yazmak değil, zaten bütün kısayolları Preferences > Keymap bölümünde bulabilirsiniz.
+Aşağıdaki kısayolların çoğu [Node Wrangler](https://docs.blender.org/manual/en/latest/addons/node/node_wrangler.html) eklentisinin özellikleridir. Node Wrangler eklentisini etkinleştirmek için sol üstteki "Edit" menüsünden Preferences > Add-ons > "Node Wrangler" şeklinde aratın ve çıkan eklentiyi aktifleştirin. Sadece gerekli gördüğüm kısayolları ekledim, amacım ne var ne yoksa yazmak değil, zaten bütün kısayolları Preferences > Keymap bölümünde bulabilirsiniz. Kısayollar en yararlıdan en yararsıza (yani kullanışsıza) göre sıralanmıştır ama dediğim gibi, sadece gerekli gördüğüm kısayolları ekledim, en alttaki kısayol bile yeri gelince kullanılabilir.
 
 Kısayol | Açıklama
 :---: | :---:
@@ -23,13 +23,14 @@ Shift + A | Yeni node ekleme menüsünü açar.
 Ctrl + Shift + Sol Mouse | Ctrl + Shift tuşlarına basarken bir node üzerine sol tık yaparsanız o node'u otomatikmen output node'una bağlar, yani o node'un içeriğini görüntüler.
 Backspace (Silme tuşu) | Seçilen node'ların bütün ayarlarını sıfırlar. Yapılan değişiklikleri kaldırır.
 ‎Shift + S | Seçili olan node'ları açılan panelden seçtiğiniz yeni node'a çevirir.
+Ctrl + T | Herhangi bir [shader](#shader-1) node'u seçtikten sonra Ctrl + T tuşlarına basarsanız sizin için otomatiken [Mapping](#mapping) node'una bağlanmış [Texture Coordinate](#texture-coordinate) değeri ile birlikte [Image Texture](#image-texture) node'u ekler. Eğer [Image Texture](#image-texture) node'u seçili iken Ctrl + T tuşlarına basarsanız aynı işlem gerçekleşir ama sadece [Mapping](#mapping) node'una bağlanmış [Texture Coordinate](#texture-coordinate) değeri eklenir.
 Alt + R | Kullanılan texture/resim'leri yeniler. Yapılan değişiklik falan varsa diye.
 Ctrl + Shift + Sağ Mouse | Ctrl + Shift tuşlarına basarken bir node üzerine sağ tık yapıp da başka bir node üzerine kaydırırsanız otomatik olarak mix node'u ekler. İki node'un da ilk input'unu mix node'una bağlar.
 Shift + C | "Settings From Active" ayarı aktif node'un bütün özelliklerini seçilen node'lara aktarır. Seçilen node'ların aynı türden olması gerekir. <br><br> "from Active Node's Label" ayarı aktif node'un label'ını seçilen node'lara aktarır. <br><br> "from Linked Node's Label" ayarı seçilen node'ların, sondan başlayarak label'larını kendisine bağlı (linked) node'un label'ı ile değiştirir. <br><br> "from Linked Output's Name" ayarı seçilen node'ların, sondan başlayarak isimlerini kendisine bağlı (linked) node'un ismi ile değiştirir.
 Alt + Sağ Mouse | Alt tuşuna basarken bir node üzerine sağ tık yapıp da başka bir node üzerine kaydırırsanız otomatik olarak bağlama işlemi yapar. Bağlanan node'un ilk output'unu, bağlanacak node'un o veri tipine uygun ilk input'una bağlar. Tek output'u olan node'lar için güzeldir.
-
-
-
+Alt + S | Seçili olan node'un ilk iki input'unun bağlarını değiştirir.
+Shift + P | Seçili olan node'ları frame içerisine alır.
+Alt + X | Kullanımamış (bağlanmamış) node'ları siler.
 
 
 

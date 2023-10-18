@@ -22,10 +22,23 @@ Kısayol | Açıklama
 :---: | :---:
 Shift + W | Node Wrangler menüsünü açar.
 Shift + A | Yeni node ekleme menüsünü açar.
+G | Node'u hareket ettirir.
+Shift + D | Seçilen node'ları duplicate eder yani kopyalarını oluşturur.
+M | Seçilen node'ları mute eder, yani siz açana kadar (aynı işlemi tekrarlayın) yoklarmış gibi varsayılır.
+Home | Bütün node'lara odaklanır. Editörün büyüklüğünü bütün node'ları görecek hale getirir.
+X / Delete | X veya Delete tuşuna basarsanız seçili olan node'lar silinir.
+A | Editördeki bütün node'ları seçer.
+Ctrl + G | Seçilen node'lardan [grup](#make-group) oluşturur.
+Ctrl + Alt + G | Seçilen gruptaki node'ları dışarı alır, gruptan çıkarır.
+Tab | En son seçilen gruba girer/çıkar. Eğer iç içe birden fazla grup oluşturduysanız ve tab tuşu ile çıkılmaz hale getirdiyseniz, editör üzerine sağ tıklayarak "Exit Group" butonunu kullanabilirsiniz.
+Ctrl + C | Seçilen node'ları panoya kopyalar.
+Ctrl + V | Panoda en son kopyalanan şeyi yapıştırır.
 Ctrl + Shift + Sol Mouse | Ctrl + Shift tuşlarına basarken bir node üzerine sol tık yaparsanız o node'u otomatikmen output node'una bağlar, yani o node'un içeriğini görüntüler.
 Backspace (Silme tuşu) | Seçilen node'ların bütün ayarlarını sıfırlar. Yapılan değişiklikleri kaldırır.
 ‎Shift + S | Seçili olan node'ları açılan panelden seçtiğiniz yeni node'a çevirir.
 Ctrl + T | Herhangi bir [shader](#shader-1) node'u seçtikten sonra Ctrl + T tuşlarına basarsanız sizin için otomatiken [Mapping](#mapping) node'una bağlanmış [Texture Coordinate](#texture-coordinate) değeri ile birlikte [Image Texture](#image-texture) node'u ekler. Eğer [Image Texture](#image-texture) node'u seçili iken Ctrl + T tuşlarına basarsanız aynı işlem gerçekleşir ama sadece [Mapping](#mapping) node'una bağlanmış [Texture Coordinate](#texture-coordinate) değeri eklenir.
+Ctrl + Sağ Mouse Kaydırma | Ctrl tuşuna basarken sağ mouse tuşunuza basıp node editörü üzerinde kaydırırsanız bir çizgi çıktığını göreceksiniz. Bu çizginin üzerine gelen bütün bağlar koparılır.
+Ctrl + Alt + Sağ Mouse Kaydırma | Ctrl + Alt tuşlarına basarken sağ mouse tuşunuza basıp node editörü üzerinde kaydırırsanız bir çizgi çıktığını göreceksiniz. Bu çizginin üzerine gelen bütün bağlar mute edilir, yani siz açana kadar (aynı işlemi tekrarlayın) yoklarmış gibi varsayılır.
 Alt + R | Kullanılan texture/resim'leri yeniler. Yapılan değişiklik falan varsa diye.
 Ctrl + Shift + Sağ Mouse | Ctrl + Shift tuşlarına basarken bir node üzerine sağ tık yapıp da başka bir node üzerine kaydırırsanız otomatik olarak mix node'u ekler. İki node'un da ilk input'unu mix node'una bağlar.
 Shift + C | "Settings From Active" ayarı aktif node'un bütün özelliklerini seçilen node'lara aktarır. Seçilen node'ların aynı türden olması gerekir. <br><br> "from Active Node's Label" ayarı aktif node'un label'ını seçilen node'lara aktarır. <br><br> "from Linked Node's Label" ayarı seçilen node'ların, sondan başlayarak label'larını kendisine bağlı (linked) node'un label'ı ile değiştirir. <br><br> "from Linked Output's Name" ayarı seçilen node'ların, sondan başlayarak isimlerini kendisine bağlı (linked) node'un ismi ile değiştirir.
@@ -34,7 +47,8 @@ Shift + Alt + D | Seçilmiş node'ların output bağlarını koparır.
 Alt + S | Seçili olan node'un ilk iki input'unun bağlarını değiştirir.
 Shift + P | Seçili olan node'ları frame içerisine alır.
 Alt + X | Kullanılmamış (bağlanmamış) node'ları siler.
-
+Shift + Sağ Mouse Kaydırma | Shift tuşuna basarken sağ mouse tuşunuza basıp node editörü üzerinde kaydırırsanız bir çizgi çıktığını göreceksiniz. Bu çizginin üzerine gelen bütün bağlara [Reroute](#reroute) eklenir.
+Ctrl + F | Editördeki node'lar üzerinde arama yapmamıza yarar.
 
 
 </details>

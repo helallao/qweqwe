@@ -3,12 +3,25 @@ Aşağıdaki döküman Cycles render motoru kullanıldığı varsayılarak hazı
 # Ek Bilgiler
 
 <details>
-<summary>Güzel kaynaklar</summary>
+<summary>Güzel Kaynaklar</summary>
 
 * [The Blender 2.8 Encyclopedia](https://www.udemy.com/course/the-blender-encyclopedia/) - Udemy'deki sayısı bir elin parmaklarını geçmeyecek kadar az olan, gerçekten uğraşılmış kurslardan birisi. Bizim için önemli olan 14. bölüm "Shaders and Materials", bütün shader node'larının kendisine özel videolarının olduğu bölüm, tabi isterseniz diğer kısımlara da bakabilirsiniz. [Buradan](https://btdig.com/search?q=The+Blender+2.8+Encyclopedia) torrent'ini bulabilirsiniz (vpn gerekebilir).
 * [The Cycles Encyclopedia](https://www.blenderdiplom.com/en/shop/576-the-cycles-encyclopedia.html) - Cycles üzerine shaderlar ve daha fazlası hakkında en kapsamlı kaynaklardan birisi. [Buradan](https://annas-archive.org/md5/070b8cc769760f1cd49350c046940a3e) pdf'ini indirebilirsiniz.
 
 </details>
+
+
+<details>
+<summary>Node Editör Kısayolları</summary>
+
+Aşağıdaki kısayolların çoğu [Node Wrangler](https://docs.blender.org/manual/en/latest/addons/node/node_wrangler.html) eklentisinin özellikleridir. Node Wrangler eklentisini etkinleştirmek için sol üstteki "Edit" menüsünden Preferences > Add-ons > "Node Wrangler" şeklinde aratın ve çıkan eklentiyi aktifleştirin.
+
+Mod | Açıklama
+:---: | :---:
+‎Shift + S | Seçili olan node'ları açılan panelden seçtiğiniz yeni node'a çevirir.
+
+</details>
+
 
 
 # [Input](#input-1)

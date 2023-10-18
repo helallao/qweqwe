@@ -8,6 +8,7 @@ Aşağıdaki döküman Cycles render motoru kullanıldığı varsayılarak hazı
 
 * [The Blender 2.8 Encyclopedia](https://www.udemy.com/course/the-blender-encyclopedia/) - Udemy'deki sayısı bir elin parmaklarını geçmeyecek kadar az olan, gerçekten uğraşılmış kurslardan birisi. Bizim için önemli olan 14. bölüm "Shaders and Materials", bütün shader node'larının kendisine özel videolarının olduğu bölüm, tabi isterseniz diğer kısımlara da bakabilirsiniz. [Buradan](https://btdig.com/search?q=The+Blender+2.8+Encyclopedia) torrent'ini bulabilirsiniz (vpn gerekebilir).
 * [The Cycles Encyclopedia](https://www.blenderdiplom.com/en/shop/576-the-cycles-encyclopedia.html) - Cycles üzerine shaderlar ve daha fazlası hakkında en kapsamlı kaynaklardan birisi. [Buradan](https://annas-archive.org/md5/070b8cc769760f1cd49350c046940a3e) pdf'ini indirebilirsiniz.
+* [Blender Procedural Material Tutorials](https://www.youtube.com/playlist?list=PLsGl9GczcgBs6TtApKKK-L_0Nm6fovNPk) - 100 üzeri "Procedural Material" yapımı videosu.
 
 </details>
 

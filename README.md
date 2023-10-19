@@ -1040,6 +1040,9 @@ Keskinliği azaltır, yumuşaklık ekler. 0'da iken yansımalar keskin, arttık�
 ## [Translucent BSDF](https://docs.blender.org/manual/en/latest/render/shader_nodes/shader/translucent.html)
 Objeye saydamlık ekler. Saydam obje ışığı geçirebilir. Işık vurdugu zaman objenin yüzeyinde ışığın etkisini görebilirsiniz.
 
+<img src="Dosyalar/TranslucentSurfaceRay.png">
+<img src="Dosyalar/Translucent.png">
+
 
 * #### BSDF (Output)
 Sonuç shader'ı.
@@ -1056,6 +1059,7 @@ Eğer shader'ın kullandığı normal map varsa buraya bağlayın. İşlemler no
 Objeyi görünmez yapar.
 
 <img src="Dosyalar/TransparentSurfaceRay.png">
+
 
 * #### BSDF (Output)
 Sonuç shader'ı.

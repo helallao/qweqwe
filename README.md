@@ -339,23 +339,23 @@ Eğer shader'ın kullandığı normal map varsa buraya bağlayın. İşlemler no
 
 
 ## [Geometry](https://docs.blender.org/manual/en/latest/render/shader_nodes/input/geometry.html)
-Mesh hakkında geometrik bilgiler verir. 
+Mesh hakkında geometrik bilgiler verir. Eğer açıklamalarda "her bir nokta için" yazısı görüyorsanız, bu output değerinin render edilirken her bir nokta için farklı bilgiler döndüreceğini belirtir.
 
 
 * #### Position (Output)
-Shader render edilirken mesh üzerindeki her bir nokta için dünya üzerindeki pozisyon vektörü. Yani shader ekrana çizilirken her bir nokta için bu bilgi farklı olabilir, her bir noktaya göre bu bilgiyi verir.
+Shader render edilirken mesh üzerindeki her bir nokta için dünya üzerindeki pozisyon vektörü.
 
 * #### Normal (Output)
-Shader render edilirken mesh üzerindeki her bir nokta için noktanın baktığı yön vektörü. Yani shader ekrana çizilirken her bir nokta için bu bilgi farklı olabilir, her bir noktaya göre bu bilgiyi verir.
+Shader render edilirken mesh üzerindeki her bir nokta için noktanın baktığı yön vektörü. Normal map'lerin etkisi de hesaplanır.
 
 * #### Tangent (Output)
 [Tangent](#tangent) node'u ile aynı şeyi verir dolayısıyla [Tangent](#tangent) node'una bakın. Default olarak Z eksenindeki tangent değerini verir ve istediğiniz ekseni seçemezsiniz o yüzden [Tangent](#tangent) node'unu kullanın.
 
 * #### True Normal (Output)
-"Normal" output'u ile aynıdır ama noktalar için değil de yüzler içindir yani mesh'in her bir yüzü için yüzün baktığı yönü verir.
+"Normal" output'u ile aynıdır ama normal map'lerin etkisini katmadan ve smooth shading'in verdiği "interpolated normals" olmadan (yani normal yönlerinin smooth edilmeden) hesaplama yapar.
 
 * #### Incoming (Output)
-Shader render edilirken mesh üzerindeki her bir nokta için noktanın kameraya doğru baktığı yön vektörü. Yani shader ekrana çizilirken her bir nokta için bu bilgi farklı olabilir, her bir noktaya göre bu bilgiyi verir.
+Shader render edilirken mesh üzerindeki her bir nokta için noktanın kameraya doğru baktığı yön vektörü.
 
 * #### Parametric (Output)
 Mesh'in her bir üçgeni için (dörtgenleri de üçgene çevirir) UV değerini verir. Bu UV değeri ile bütün üçgenler üzerinde işlemler yapabilirsiniz.

@@ -870,6 +870,8 @@ Objenin yüzeyinin ne kadar pürüzlü olduğunu ayarlar. 0 iken pürüzsüzdür
 * #### Anisotropic Rotation (Socket Input)
 "Anisotropic" ve "Anisotropic Rotation" ayarları ışığın yansıma yönünü değiştirmek ile ilgilidir. "Anisotropic Rotation" ayarı yönü degiştirir. "Anisotropic" ayarı ise bu yön degiştirmenin ne kadar etkili olacağını belirler.
 
+<img src="Dosyalar/AnisotropicSurface.png">
+
 * #### Sheen (Socket Input)
 Bu ayar genellikle giysi tarzı shader'larda kullanılıyor. Kenarlara ışığın yansımasından dolayı parlaklık efekti ekler.
 
@@ -889,7 +891,7 @@ Clearcoat sanki yüzey bir şey ile kaplanmış gibi görünmesine sebep olur. �
 Objeyi saydam yapar.
 
 * #### Transmission Roughness (Socket Input)
-Transmission için Roughness değeri.
+Sadece "Distribution Mode" ayarı "GGX" modundayken vardır. Transmission için Roughness değeri.
 
 * #### Emission (Socket Input)
 Emission ayarı Base Color gibidir. Yüzey rengini ayarlar. "Emission Strength" ayarı ile yüzey renginin şiddetini arttırabiliriz. Şiddet arttıkça renk neon gibi parlamaya başlar ve ışık saçar.

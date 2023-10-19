@@ -630,7 +630,9 @@ Bu kategorideki node'lar ana shader türlerini barındırır. Bu shader node'lar
 
 
 ## [Add Shader](https://docs.blender.org/manual/en/latest/render/shader_nodes/shader/add.html)
-Verilen iki shader'ı toplar, birbirlerine ekler. Sonuç daha parlak olur.
+Verilen iki shader'ı toplar, birbirlerine ekler. Sonuç daha parlak olur. Sonuç ["energy conserving"](http://www.neilblevins.com/art_lessons/energy_conservation/energy_conservation.htm) olmayan yani ışığın sektiği yüzeylerin bilgisini düzgün hesaplayamayan bir shader olabilir.
+
+<img src="Dosyalar/AddShader.png">
 
 
 * #### Shader (Output)

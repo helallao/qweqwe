@@ -652,10 +652,12 @@ Shader.
 * #### Distribution (Node Input)
 Mod | Açıklama
 :---: | :---:
-Beckmann | "Beckmann" ve "Ashikhmin-Shirley" modları diğer modlara göre daha keskindir.
-‎GGX | "GGX" ve "Multiscatter GGX" modları diğer modlara göre daha yumuşaktır.
-‎Multiscatter GGX | "GGX" ve "Multiscatter GGX" modları diğer modlara göre daha yumuşaktır.
-Ashikhmin-Shirley | "Beckmann" ve "Ashikhmin-Shirley" modları diğer modlara göre daha keskindir.
+Beckmann | GGX'e göre daha az koyu gösterir.
+‎GGX | Beckmann'e göre daha koyu gösterir.
+‎Multiscatter GGX | Bu mod GGX'e göre enerjiyi daha fazla muhafaza eder. Yani ışık ışınları enerjisi bitene kadar sekmeye devam eder. Bu da daha parlak ve gerçekçi bir görünüm ile sonuçlanır. "Roughness" değeri düşük olan shader'larda ışınların sekmesi az olacağı için etkisini de kaybeder, yani "Roughness" değeri yüksek olan shader'larda etkisi daha belli olur. Hesaplama bakımından GGX'e göre 2.5% daha yavaştır.
+Ashikhmin-Shirley | GGX gibi koyu gösterir.
+
+<img src="Dosyalar/AnisotropicMods.png">
 
 * #### Color (Socket Input)
 Ana renk.
@@ -740,8 +742,8 @@ Shader.
 Mod | Açıklama
 :---: | :---:
 ‎Sharp | Bu modda "Roughness" ayarının hiç etkisi olmaz. Arkayı %100 keskin gösterecekseniz bu ayarı kullanabilirsiniz. Ayrıca diğer modlardan daha hızlıdır.
-Beckmann | GGX'e göre koyu kısımları daha doğru gösterir. Test edip kendiniz görmelisiniz.
-GGX | Beckmann'e göre koyu kısımları daha az gösterir. Test edip kendiniz görmelisiniz.
+Beckmann | GGX'e göre daha az koyu gösterir.
+GGX | Beckmann'e göre daha koyu gösterir.
 Multiscatter GGX | Bu mod GGX'e göre enerjiyi daha fazla muhafaza eder. Yani ışık ışınları enerjisi bitene kadar sekmeye devam eder. Bu da daha parlak ve gerçekçi bir görünüm ile sonuçlanır. "Roughness" değeri düşük olan shader'larda ışınların sekmesi az olacağı için etkisini de kaybeder, yani "Roughness" değeri yüksek olan shader'larda etkisi daha belli olur. Hesaplama bakımından GGX'e göre 2.5% daha yavaştır.
 
 <img src="Dosyalar/GlassSurfaceModes.png">
@@ -960,8 +962,8 @@ Sonuç shader'ı.
 Mod | Açıklama
 :---: | :---:
 ‎Sharp | Bu modda "Roughness" ayarının hiç etkisi olmaz. Arkayı %100 keskin gösterecekseniz bu ayarı kullanabilirsiniz. Ayrıca diğer modlardan daha hızlıdır.
-Beckmann | GGX'e göre koyu kısımları daha doğru gösterir. Test edip kendiniz görmelisiniz.
-GGX | Beckmann'e göre koyu kısımları daha az gösterir. Test edip kendiniz görmelisiniz.
+Beckmann | GGX'e göre daha az koyu gösterir.
+GGX | Beckmann'e göre daha koyu gösterir.
 
 <img src="Dosyalar/Refraction_Roughness-IOR.png">
 

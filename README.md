@@ -401,7 +401,7 @@ Işığın geldiği noktanın tam olarak objeye ait olup olmadığını kontrol 
 <img src="Dosyalar/IsCameraRay.png">
 
 * #### Is Shadow Ray (Output)
-Işığın geldiği noktanın gölge olan kısma ait olup olmadığını kontrol eder (hem objenin üzerindeki hem gölgenin vurduğu yerdeki). Eğer ışık kameraya gölge olan kısımdan geliyorsa 1'e kayan, gölge olmayan kısımdan geliyorsa 0'a kayan değer döndürür.
+Işığın geldiği noktanın gölge olan kısma ait olup olmadığını kontrol eder (hem objenin üzerindeki hem gölgenin vurduğu yerdeki). Eğer ışık kameraya gölge olan kısımdan geliyorsa 1, gölge olmayan kısımdan geliyorsa 0 döndürür.
 
 * #### Is Diffuse Ray (Output)
 Bunu "Is Camera Ray" ile karıştırabilirsiniz çünkü çalışma şekli ona çok benziyor, "Is Camera Ray" ışığın geldiği noktanın objeye ait olup olmadığını kontrol ederken, "Is Diffuse Ray" ışığın [Diffuse shader](#diffuse-bsdf) özelliği taşıyan bir shader'dan gelip gelmediğini (direktmen) kontrol eder.

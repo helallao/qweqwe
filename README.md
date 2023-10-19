@@ -940,6 +940,8 @@ Sonuç shader'ı.
 ## [Refraction BSDF](https://docs.blender.org/manual/en/latest/render/shader_nodes/shader/refraction.html)
 Cam shader'ı oluşturmamıza yarar.
 
+<img src="Dosyalar/RefractionSurfaceRay.png">
+
 
 * #### BSDF (Output)
 Sonuç shader'ı.

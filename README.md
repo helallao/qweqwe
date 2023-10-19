@@ -877,8 +877,12 @@ Objenin yüzeyinin ne kadar pürüzlü olduğunu ayarlar. 0 iken pürüzsüzdür
 * #### Sheen (Socket Input)
 Bu ayar genellikle giysi tarzı shader'larda kullanılıyor. Kenarlara ışığın yansımasından dolayı parlaklık efekti ekler.
 
+<img src="Dosyalar/Sheen.png">
+
 * #### Sheen Tint (Socket Input)
 Aynı "Specular Tint" gibi, "Sheen" etkisinin verdigi parlaklığa yüzeyin de rengini eklemesine sebep olur.
+
+<img src="Dosyalar/SheenTint.png">
 
 * #### Clearcoat (Socket Input)
 Clearcoat sanki yüzey bir şey ile kaplanmış gibi görünmesine sebep olur. İkincil bir yüzey oluşturur. Araba boyası gibi.

@@ -1094,6 +1094,8 @@ Eğer shader'ın kullandığı normal map varsa buraya bağlayın. İşlemler no
 ## [Volume Absorption](https://docs.blender.org/manual/en/latest/render/shader_nodes/shader/volume_absorption.html)
 [Volume Absorption](#volume-absorption) ile [Volume Scatter](#volume-scatter) birbirlerine benzerlerdir, dolayısıyla bu ikisinin açıklamalarını dikkatli okuyup aralarındaki farkları anlamak gerekli. Volume Absorption içinden geçen ışığı emer. Bu da sanki renkli gözlük takmış ve gözlükten bakıyormuşsunuz gibi veya ışık renkli bir camdan geçiyormuş gibi efekt verir ve bu camın emme gücü ile rengini ayarlayabilirsiniz.
 
+<img src="Dosyalar/VolumeAbsorption.png">
+
 
 * #### Volume (Output)
 Sonuç shader'ı.
@@ -1109,6 +1111,8 @@ Alanının yoğunluğu.
 ## [Volume Scatter](https://docs.blender.org/manual/en/latest/render/shader_nodes/shader/volume_scatter.html)
 [Volume Absorption](#volume-absorption) ile [Volume Scatter](#volume-scatter) birbirlerine benzerlerdir, dolayısıyla bu ikisinin açıklamalarını dikkatli okuyup aralarındaki farkları anlamak gerekli. Volume Scatter içinden geçen ışığı farklı yönlere dağıtır. Bu da sanki orada bir alan varmış gibi efekt verir, mesela duman efekti gibi veya toz efekti gibi. Bu alanın rengini ve yoğunluğunu ayarlayabilirsiniz.
 
+<img src="Dosyalar/VolumeScatter.png">
+
 
 * #### Volume (Output)
 Sonuç shader'ı.
@@ -1121,6 +1125,8 @@ Alanının yoğunluğu.
 
 * #### Anisotropy (Socket Input)
 Bu ayar alanın içinden geçen ışığın dağılacağı yönü ayarlar. 0 iken eşit şekilde etrafa dağılır, artılara gittikçe öne doğru, eksilere gittikçe arkaya doğru dağılır.
+
+<img src="Dosyalar/VolumeScatter_Anisotropy.png">
 
 
 <br>

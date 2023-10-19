@@ -407,10 +407,10 @@ Işığın geldiği noktanın tam olarak objeye ait olup olmadığını kontrol 
 <img src="Dosyalar/IsShadowRay.png">
 
 * #### Is Diffuse Ray (Output)
-Bunu "Is Camera Ray" ile karıştırabilirsiniz çünkü çalışma şekli ona çok benziyor, "Is Camera Ray" ışığın geldiği noktanın objeye ait olup olmadığını kontrol ederken, "Is Diffuse Ray" ışığın [Diffuse shader](#diffuse-bsdf) özelliği taşıyan bir shader'dan gelip gelmediğini (direktmen) kontrol eder.
+Bunu "Is Camera Ray" ile karıştırabilirsiniz çünkü çalışma şekli ona çok benziyor, "Is Camera Ray" ışığın geldiği noktanın objeye ait olup olmadığını kontrol ederken, "Is Diffuse Ray" ışığın [Diffuse shader](#diffuse-bsdf) özelliği taşıyan bir shader'dan gelip gelmediğini (direktmen) kontrol eder. Yani [Toon BSDF](#toon-bsdf) "Diffuse" modundayken de çarpan ışığı [Diffuse shader](#diffuse-bsdf) özelliği taşıyan bir shader'a çarpmış ışık ışınına döndürür. [Subsurface Scattering](#subsurface-scattering) de buna dahildir.
 
 * #### Is Glossy Ray (Output)
-Işığın [Glossy shader](#glossy-bsdf) özelliği taşıyan bir shader'dan gelip gelmediğini (direktmen) kontrol eder.
+Işığın [Glossy shader](#glossy-bsdf) özelliği taşıyan bir shader'dan gelip gelmediğini (direktmen) kontrol eder. Yani [Toon BSDF](#toon-bsdf) "Glossy" modundayken de çarpan ışığı [Glossy shader](#glossy-bsdf) özelliği taşıyan bir shader'a çarpmış ışık ışınına döndürür. [Anisotropic BSDF](#anisotropic-bsdf) ve [Glass BSDF](#glass-bsdf) de buna dahildir.
 
 * #### Is Singular Ray (Output)
 Işık ışını eğer tek bir yol izleyerek kameraya geliyorsa 1 değeri döndürür. Eğer ışık ışını tek bir doğru yol izlemeden kameraya geliyorsa 0 değeri döndürür. Bu şu anlama geliyor, ışık ışını bir yüzeye çarptığında yüzeyin pürüzlülüğüne yani yansıtmasına göre birden fazla ışık ışını şeklinde etrafa saçılabilir veya tek bir ışık ışını şeklinde de yansıyabilir. Eğer yüzey çok pürüzlü ise ışık ışını çok fazla parçacığa ayrılacak ve yansıma çok bulanık olacaktır. Eğer yüzey pürüzsüz ise ışık ışını tek bir parça olarak yansıyacak ve görüntü hiç bozulmamış, keskin bir halde olacaktır. İşte bu keskin yansıma yapan yüzeyler görüntüyü bozmadan yansıtırlar, yani tek bir ışık ışını şeklinde. Bu output da bize ışığın kameraya tek bir ışık ışını şeklinde geldiği noktaları verir. Ayna buna en iyi örneklerden biridir.
@@ -419,7 +419,7 @@ Işık ışını eğer tek bir yol izleyerek kameraya geliyorsa 1 değeri dönd�
 Eğer ışık ışını bir yerden sekip de kameraya geldiyse yani yansıma ise 1, degilse 0 döndürür. Yani ışığın yansıma olup olmadığını kontrol eder.
 
 * #### Is Transmission Ray (Output)
-Eğer ışık ışını saydam bir objeden geçip de kameraya geldiyse 1, degilse 0 döndürür. Yani objenin saydam bir objeden geçip geçmediğini kontrol eder.
+Eğer ışık ışını saydam bir objeden geçip de kameraya geldiyse 1, degilse 0 döndürür. Yani objenin saydam bir objeden geçip geçmediğini kontrol eder. [Glass BSDF](#glass-bsdf), [Translucent BSDF](#translucent-bsdf) ve [Refraction BSDF](#refraction-bsdf) de çarpan ışığı [Glossy shader](#glossy-bsdf) özelliği taşıyan bir shader'a çarpmış ışık ışınına döndürür.
 
 * #### Ray Length (Output)
 Işık ışınının (ray) gittiği mesafe değeri. 0'dan başlayıp sonsuza kadar artabilir.

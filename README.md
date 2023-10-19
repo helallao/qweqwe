@@ -506,7 +506,7 @@ Mesh'in her bir yüzünün baktığı yön değerini verir.
 Mesh'in ayarlarından ayarlanmış (Properties > Data > UV Maps) aktif UV'sini (yanında kamera işareti olan) verir.
 
 * #### Object (Output)
-"Object" input'una verdiğiniz objenin transform değerlerini (Location, Rotation, Scale) UV olarak kullanır.
+"Object" input'una verdiğiniz objenin transform değerlerini (Location, Rotation, Scale) UV olarak kullanır. Eğer "Object" input'una bişe vermediyseniz mesh'in kendisini kullanır.
 
 * #### Camera (Output)
 Kameranın bakış açısına göre texture'u yerleştirmeye yarar, nereden bakarsak bakalım aynı görünür.
@@ -518,7 +518,7 @@ Kameranın bakış açısına göre texture'u yerleştirmeye yarar, nereden baka
 Yüzeyden yansıyan vektörlerin yönlerini UV olarak kullanır.
 
 * #### Object (Node Input)
-"Object" output'u için kullanılacak obje.
+"Object" output'u için kullanılacak obje. Boş bırakırsanız mesh'in kendisini kullanır.
 
 * #### From Instancer (Node Input)
 Bilmiyorum.

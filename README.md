@@ -730,12 +730,21 @@ Emission şiddeti.
 ## [Glass BSDF](https://docs.blender.org/manual/en/latest/render/shader_nodes/shader/glass.html)
 Cam shader'ı oluşturmaya yarar.
 
+<img src="Dosyalar/GlassSurfaceRay.png">
+
 
 * #### BSDF (Output)
 Shader.
 
 * #### Mode Input (Node Input)
-Buradan farklı modlar kullanarak cam shader'ı oluşturabilirsiniz.
+Mod | Açıklama
+:---: | :---:
+‎Sharp | Bu modda "Roughness" ayarının hiç etkisi olmaz. Arkayı %100 keskin gösterecekseniz bu ayarı kullanabilirsiniz. Ayrıca diğer modlardan daha hızlıdır.
+Beckmann | GGX'e göre koyu kısımları daha doğru gösterir. Test edip kendiniz görmelisiniz.
+GGX | Beckmann'e göre koyu kısımları daha az gösterir. Test edip kendiniz görmelisiniz.
+Multiscatter GGX | Bu mod GGX'e göre enerjiyi daha fazla muhafaza eder. Yani ışık ışınları enerjisi bitene kadar sekmeye devam eder. Bu da daha parlak ve gerçekçi bir görünüm ile sonuçlanır. "Roughness" değeri düşük olan shader'larda ışınların sekmesi az olacağı için etkisini de kaybeder, yani "Roughness" değeri yüksek olan shader'larda etkisi daha belli olur. Hesaplama bakımından GGX'e göre 2.5% daha yavaştır.
+
+<img src="Dosyalar/GlassSurfaceModes.png">
 
 * #### Color (Socket Input)
 Cam rengi.
@@ -755,6 +764,7 @@ Eğer shader'ın kullandığı normal map varsa buraya bağlayın. İşlemler no
 Ayna shader'ı oluşturmaya yarar. Yani yüzeyi ayna gibi gelen ışığı yansıtan shader oluşturur.
 
 <img src="Dosyalar/GlossySurfaceRay.png">
+
 
 * #### BSDF (Output)
 Shader.
@@ -949,7 +959,7 @@ Sonuç shader'ı.
 * #### Distribution Mode (Node Input)
 Mod | Açıklama
 :---: | :---:
-‎Sharp | Beckmann ve GGX'in aksine "Roughness" input'undan bağımsız olarak arkayı keskin gösterir.
+‎Sharp | Bu modda "Roughness" ayarının hiç etkisi olmaz. Arkayı %100 keskin gösterecekseniz bu ayarı kullanabilirsiniz. Ayrıca diğer modlardan daha hızlıdır.
 Beckmann | GGX'e göre koyu kısımları daha doğru gösterir. Test edip kendiniz görmelisiniz.
 GGX | Beckmann'e göre koyu kısımları daha az gösterir. Test edip kendiniz görmelisiniz.
 

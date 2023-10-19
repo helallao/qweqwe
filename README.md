@@ -953,6 +953,8 @@ Mod | Açıklama
 Beckmann | GGX'e göre koyu kısımları daha doğru gösterir. Test edip kendiniz görmelisiniz.
 GGX | Beckmann'e göre koyu kısımları daha az gösterir. Test edip kendiniz görmelisiniz.
 
+<img src="Dosyalar/Refraction_Roughness-IOR.png">
+
 * #### Color (Socket Input)
 Cam rengi.
 

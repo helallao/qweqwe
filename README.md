@@ -361,7 +361,7 @@ Shader render edilirken mesh üzerindeki her bir nokta için noktanın kameraya 
 Mesh'in her bir üçgeni için (dörtgenleri de üçgene çevirir) UV değerini verir. Bu UV değeri ile bütün üçgenler üzerinde işlemler yapabilirsiniz.
 
 * #### Backfacing (Output)
-Mesh'in ön ve arka yüzünü ayırt etmek içindir. İç olan taraf için 1, dış olan taraf için 0 değeri döndürür.
+Mesh'in ön ve arka yüzünü ayırt etmek içindir. İç (arka) olan taraf için 1, dış (ön) olan taraf için 0 değeri döndürür.
 
 * #### Pointiness (Output)
 Mesh'in keskin açıları için 1'e kayan değer, düz olan kısımları için 0'a kayan değer verir.

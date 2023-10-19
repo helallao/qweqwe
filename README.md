@@ -765,7 +765,7 @@ Sharp | Bu modda "Roughness" ayarının hiç etkisi olmaz. %100 mükemmel yansı
 Beckmann | Default mod. Eğer internette "Beckmann microfacet distribution" şeklinde falan aratırsanız teknik bilgi bulabilirsiniz.
 ‎GGX | Beckmann'e göre kendisini gölgeleme (self-shadowing) konusunda biraz daha gerçekçi. Beckmann ile aralarındaki fark çok küçük, GGX biraz daha noisy va daha az detaylı yansıma veriyor.
 Ashikmin-Shirley | "Multiscatter GGX" gibi enerjiyi daha fazla muhafaza eder. Bu da gerçekçilik ekler. Karanlıkta kalan kısımlarda biraz sorunlu görünüm verebilir. "Roughness" değeri düşükken Beckmann ve GGX modlarının ortalaması gibi çalışır ama "Roughness" değeri 0.7'yi geçtikten sonra Beckmann ve GGX modlarından daha fazla koyu (darker) görünüm verir.
-‎Multiscatter GGX | Bu mod GGX'e göre enerjiyi daha fazla muhafaza eder. Yani ışık ışınları enerjisi bitene kadar sekmeye devam eder. Bu da daha parlak ve gerçekçi bir görünüm ile sonuçlanır. "Roughness" değeri yüksek olan shader'larda ışınların sekmesi zor olacağı için etkisini de kaybeder, yani "Roughness" değeri düşük olan shader'larda etkisi daha belli olur. Hesaplama bakımından GGX'e göre 2.5% daha yavaştır.
+‎Multiscatter GGX | Bu mod GGX'e göre enerjiyi daha fazla muhafaza eder. Yani ışık ışınları enerjisi bitene kadar sekmeye devam eder. Bu da daha parlak ve gerçekçi bir görünüm ile sonuçlanır. "Roughness" değeri düşük olan shader'larda ışınların sekmesi az olacağı için etkisini de kaybeder, yani "Roughness" değeri yüksek olan shader'larda etkisi daha belli olur. Hesaplama bakımından GGX'e göre 2.5% daha yavaştır.
 
 <img src="Dosyalar/GlossyMods.png">
 
@@ -823,7 +823,7 @@ Sonuç shader'ı.
 Mod | Açıklama
 :---: | :---:
 ‎GGX | Multiscatter GGX'e göre daha hızlı ama dogruluk bakımından onun kadar dogru degil. Bunu seçerseniz "Transmission Roughness" ayarı açılır. Multiscatter GGX'e göre shader daha koyu olur.
-‎Multiscatter GGX | Bu mod GGX'e göre enerjiyi daha fazla muhafaza eder. Yani ışık ışınları enerjisi bitene kadar sekmeye devam eder. Bu da daha parlak ve gerçekçi bir görünüm ile sonuçlanır. "Roughness" değeri yüksek olan shader'larda ışınların sekmesi zor olacağı için etkisini de kaybeder, yani "Roughness" değeri düşük olan shader'larda etkisi daha belli olur. Hesaplama bakımından GGX'e göre 2.5% daha yavaştır.
+‎Multiscatter GGX | Bu mod GGX'e göre enerjiyi daha fazla muhafaza eder. Yani ışık ışınları enerjisi bitene kadar sekmeye devam eder. Bu da daha parlak ve gerçekçi bir görünüm ile sonuçlanır. "Roughness" değeri düşük olan shader'larda ışınların sekmesi az olacağı için etkisini de kaybeder, yani "Roughness" değeri yüksek olan shader'larda etkisi daha belli olur. Hesaplama bakımından GGX'e göre 2.5% daha yavaştır.
 
 <img src="Dosyalar/DistributionTypes.png">
 

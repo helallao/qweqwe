@@ -667,7 +667,9 @@ Objenin yüzeyinin ne kadar pürüzlü olduğunu ayarlar. 0 iken pürüzsüzdür
 "Anisotropy" ve "Rotation" ayarları ışığın yansıma yönünü değiştirmek ile ilgilidir. "Rotation" ayarı yönü degiştirir. "Anisotropy" ayarı ise bu yön degiştirmenin ne kadar etkili olacağını belirler.
 
 * #### Rotation (Socket Input)
-"Anisotropy" ve "Rotation" ayarları ışığın yansıma yönünü değiştirmek ile ilgilidir. "Rotation" ayarı yönü degiştirir. "Anisotropy" ayarı ise bu yön degiştirmenin ne kadar etkili olacağını belirler.
+"Anisotropy" ve "Rotation" ayarları ışığın yansıma yönünü değiştirmek ile ilgilidir. "Rotation" ayarı yönü degiştirir. "Anisotropy" ayarı ise bu yön degiştirmenin ne kadar etkili olacağını belirler. Rotation değeri 0 iken 0 dereceyi, 1 iken 360 dereceyi ifade eder. Mesela 0.25 kullanırsanız 360 * 0.25 = 90 derece olur.
+
+<img src="Dosyalar/AnisotropicSurface.png">
 
 * #### Normal (Socket Input)
 Eğer shader'ın kullandığı normal map varsa buraya bağlayın. İşlemler normal map dikkate alınarak yapılır.
@@ -865,10 +867,10 @@ Yansıyan ışığa yüzeyin rengini verme derecesi. 0 iken yansıyan ışığı
 Objenin yüzeyinin ne kadar pürüzlü olduğunu ayarlar. 0 iken pürüzsüzdür ve yansıtma özelliği artar. 1 iken çok pürüzlüdür ve yansıtma özelliği azalır.
 
 * #### Anisotropic (Socket Input)
-"Anisotropic" ve "Anisotropic Rotation" ayarları ışığın yansıtma yönünü değiştirmek ile ilgilidir. "Anisotropic Rotation" ayarı yönü degiştirir. "Anisotropic" ayarı ise bu yön degiştirmenin ne kadar etkili olacağını belirler.
+"Anisotropic" ve "Anisotropic Rotation" ayarları ışığın yansıma yönünü değiştirmek ile ilgilidir. "Anisotropic Rotation" ayarı yönü degiştirir. "Anisotropic" ayarı ise bu yön degiştirmenin ne kadar etkili olacağını belirler.
 
 * #### Anisotropic Rotation (Socket Input)
-"Anisotropic" ve "Anisotropic Rotation" ayarları ışığın yansıma yönünü değiştirmek ile ilgilidir. "Anisotropic Rotation" ayarı yönü degiştirir. "Anisotropic" ayarı ise bu yön degiştirmenin ne kadar etkili olacağını belirler.
+"Anisotropic" ve "Anisotropic Rotation" ayarları ışığın yansıma yönünü değiştirmek ile ilgilidir. "Anisotropic Rotation" ayarı yönü degiştirir. "Anisotropic" ayarı ise bu yön degiştirmenin ne kadar etkili olacağını belirler. Rotation değeri 0 iken 0 dereceyi, 1 iken 360 dereceyi ifade eder. Mesela 0.25 kullanırsanız 360 * 0.25 = 90 derece olur.
 
 <img src="Dosyalar/AnisotropicSurface.png">
 

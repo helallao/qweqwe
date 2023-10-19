@@ -752,12 +752,20 @@ Eğer shader'ın kullandığı normal map varsa buraya bağlayın. İşlemler no
 ## [Glossy BSDF](https://docs.blender.org/manual/en/latest/render/shader_nodes/shader/glossy.html)
 Ayna shader'ı oluşturmaya yarar. Yani yüzeyi ayna gibi gelen ışığı yansıtan shader oluşturur.
 
+<img src="Dosyalar/GlossySurfaceRay.png">
 
 * #### BSDF (Output)
 Shader.
 
 * #### Mode Input (Node Input)
-Buradan farklı modlar kullanarak ayna shader'ı oluşturabilirsiniz.
+
+Mod | Açıklama
+:---: | :---:
+Sharp | Bu modda "Roughness" ayarının hiç etkisi olmaz. %100 mükemmel yansıma yapacaksanız bu ayarı kullanabilirsiniz. Ayrıca diğer modlardan daha hızlıdır.
+Beckmann | Default mod. Eğer internette "Beckmann microfacet distribution" şeklinde falan aratırsanız teknik bilgi bulabilirsiniz.
+‎GGX | Beckmann'e göre kendisini gölgeleme (self-shadowing) konusunda biraz daha gerçekçi. Beckmann ile aralarındaki fark çok küçük, GGX biraz daha noisy va daha az detaylı yansıma veriyor.
+Ashikmin-Shirley | "Multiscatter GGX" gibi enerjiyi daha fazla muhafaza eder. Bu da gerçekçilik ekler.
+‎Multiscatter GGX | Bu mod GGX'e göre enerjiyi daha fazla muhafaza eder. Yani ışık ışınları enerjisi bitene kadar sekmeye devam eder. Bu da daha parlak ve gerçekçi bir görünüm ile sonuçlanır. "Roughness" değeri yüksek olan shader'larda ışınların sekmesi zor olacağı için etkisini de kaybeder, yani "Roughness" değeri düşük olan shader'larda etkisi daha belli olur. Hesaplama bakımından GGX'e göre 2.5% daha yavaştır.
 
 * #### Color (Socket Input)
 Ayna rengi.

@@ -403,6 +403,8 @@ Işığın geldiği noktanın tam olarak objeye ait olup olmadığını kontrol 
 * #### Is Shadow Ray (Output)
 "Shadow Ray" kameradan yollanan ışık ışınının gölge bir yere çarptıktan sonra ışık kaynağına ulaşıp sekme işleminin sonlanması böylelikle ışık ışınının gölgeden gelmesi demektir. Yani ışığın geldiği noktanın gölge olan kısma ait olup olmadığını kontrol eder (hem objenin üzerindeki hem gölgenin vurduğu yerdeki). Eğer ışık ışını gölgeden sektikten sonra direktmen ışık kaynağına geliyorsa 1, gelmiyorsa 0 döndürür.
 
+<img src="Dosyalar/ShadowRay.png">
+
 * #### Is Diffuse Ray (Output)
 Bunu "Is Camera Ray" ile karıştırabilirsiniz çünkü çalışma şekli ona çok benziyor, "Is Camera Ray" ışığın geldiği noktanın objeye ait olup olmadığını kontrol ederken, "Is Diffuse Ray" ışığın [Diffuse shader](#diffuse-bsdf) özelliği taşıyan bir shader'dan gelip gelmediğini (direktmen) kontrol eder.
 

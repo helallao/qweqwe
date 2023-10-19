@@ -229,22 +229,22 @@ Obje üzerinden gelen değerleri alıp kullanmamıza yarar ama artık neredeyse 
 
 
 * #### Color (Output)
-Bilmiyorum.
+Eğer alınan değer renk değeri ise output olarak bunu kullanır.
 
 * #### Vector (Output)
-Bilmiyorum.
+Eğer alınan değer vektör değeri ise output olarak bunu kullanır.
 
 * #### Fac (Output)
-Bilmiyorum.
+Eğer alınan değer float (sayı) değeri ise output olarak bunu kullanır..
 
 * #### Alpha (Output)
-Bilmiyorum.
+Eğer alınan değer renk değeri ise alpha kanalı için output olarak bunu kullanır.
 
 * #### Type (Node Input)
-Bilmiyorum.
+Almaya çalıştığınız değerin türü, olduğu kategori de denebilir.
 
 * #### Name (Node Input)
-Bilmiyorum.
+Almaya çalıştığınız değerin (attribute) ismi.
 
 
 

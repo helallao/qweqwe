@@ -190,7 +190,9 @@ Bu kategorideki node'lar bu shader'ı kullanan obje/mesh'in bilgilerini verirler
 
 
 ## [Ambient Occlusion](https://docs.blender.org/manual/en/latest/render/shader_nodes/input/ao.html)
-Mesh'in üzerindeki gölgeleri veya gölgede kalan kısımlarını hesaplayıp renkli ve grayscale map'lerini verir. Bu hesaplama aslında ışıktan bağımsızdır yani gerçekten ışığın nereye vurduğunu nereye vurmadığını kontrol etmez. Gölgeleme işlemi çoğunlukla mesh'in kenarlarında ve çevresi bloklanan kısımlarında olur.
+Mesh'in üzerindeki gölgeleri veya gölgede kalan kısımlarını hesaplayıp renkli ve grayscale map'lerini verir. Bu hesaplama aslında ışıktan bağımsızdır yani gerçekten ışığın nereye vurduğunu nereye vurmadığını kontrol etmez. Gölgeleme işlemi çoğunlukla mesh'in kenarlarında ve çevresi bloklanan kısımlarında (başka meshler tarafından da olabilir, kendisinden de) olur.
+
+<img src="Dosyalar/AmbientOcclusionRay.png">
 
 
 * #### Color (Output)

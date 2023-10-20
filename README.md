@@ -2394,8 +2394,14 @@ Yapılacak matematiksel işlem.
 
 Mod | Açıklama
 :---: | :---:
-a | a
-
+Add | İki vektörü toplar (A + B).
+Subtract | A vektöründen B vektörünü çıkarır (A - B).
+Multiply | İki vektörü çarpar (A * B).
+Divide | A vektörünü B vektörüne böler (A / B). 0 ile bölüm 0 döndürür.
+Multiply Add | "Vector" değerini "Multiplier" değeri ile çarpar (yani "Multiplier" çarpan görevi görüyor), sonra da sonuca "Addend" değerini ekler (Value * Multiplier + Addend).
+Cross Product | İki vektörün [Cross Product'ını](https://en.wikipedia.org/wiki/Cross_product) verir.
+Project | Bilmiyorum.
+Reflect | Bilmiyorum.
 
 
 ## [Wavelength](https://docs.blender.org/manual/en/latest/render/shader_nodes/converter/wavelength.html)

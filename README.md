@@ -446,7 +446,7 @@ Obje hakkında bilgiler verir.
 
 
 * #### Location (Output)
-Objenin orijin noktasını verir. Geometry'deki ["Position"](#position-output) gibi her nokta için konum vermez, sadece objenin orijin noktasını verir.
+Objenin orijin noktasının dünya üzerindeki konumunu verir. Geometry'deki ["Position"](#position-output) gibi her nokta için konum vermez, sadece objenin orijin noktasını verir.
 
 * #### Color (Output)
 Objenin ayarlarından ayarlanmış renk değerini (Properties > Object > Viewport Display > Color) verir.

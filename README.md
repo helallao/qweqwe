@@ -2402,7 +2402,26 @@ Multiply Add | "Vector" değerini "Multiplier" değeri ile çarpar (yani "Multip
 Cross Product | İki vektörün [Cross Product'ını](https://en.wikipedia.org/wiki/Cross_product) verir.
 Project | Bilmiyorum.
 Reflect | Bilmiyorum.
-
+Refract | Bilmiyorum.
+Faceforward | Bilmiyorum.
+Dot Product | İki vektörün [Dot Product'ını](https://en.wikipedia.org/wiki/Dot_product) verir.
+Distance | İki vektörün arasındaki mesafeyi verir.
+Length | Vektörün uzunluğunu (magnitude) verir.
+Scale | Vektörün her bir eksendeki değerini verdiğiniz "Scale" değeri ile çarpar.
+Normalize | Vektörün normalized (unit vector) halini yani 0 - 1 arası değerlere indirilmiş halini verir. Vektörü yön vektörüne dönüştürür de denebilir (unit vector aynı zamanda yön vektörü ile aynı olduğu için).
+Absolute | Vektörün mutlak değerini alır.
+Absolute | Vektörün mutlak değerini alır.
+Minimum | İki vektörün küçük olanını verir.
+Maximum | İki vektörün büyük olanını verir.
+Floor | [Math](#math) node'undaki floor'un vektörler için olan versiyonu.
+Ceil | [Math](#math) node'undaki ceil'in vektörler için olan versiyonu.
+Fraction | [Math](#math) node'undaki fraction'ın vektörler için olan versiyonu.
+Modulo | [Math](#math) node'undaki modulo'nun vektörler için olan versiyonu.
+Wrap | [Math](#math) node'undaki wrap'in vektörler için olan versiyonu.
+Snap | [Math](#math) node'undaki snap'in vektörler için olan versiyonu.
+Sine | Vektörün [Sinüs](https://en.wikipedia.org/wiki/Sine) değerini verir.
+Cosine | Vektörün [Kosinüs](https://en.wikipedia.org/wiki/Trigonometric_functions) değerini verir.
+Tangent | Vektörün [Tanjant](https://en.wikipedia.org/wiki/Trigonometric_functions) değerini verir.
 
 ## [Wavelength](https://docs.blender.org/manual/en/latest/render/shader_nodes/converter/wavelength.html)
 Işık dalga boyuna göre renk verir. Işık spektrumundan belirli bir rengi almak için kullanılabilir.

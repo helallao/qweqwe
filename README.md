@@ -2029,7 +2029,30 @@ Oluşturulan yükseklik map'inin yükseklik derecesi.
 
 
 ## [Vector Rotate](https://docs.blender.org/manual/en/latest/render/shader_nodes/vector/vector_rotate.html)
-Bilmiyorum.
+Verilen vektörü belirlediğiniz orijin noktası çevresinde döndürebilmenize yarar.
+
+
+* #### Vector (Output)
+Sonuç vektörü.
+
+* #### Type (Node Input)
+Mod | Açıklama
+:---: | :---:
+Axis Angle | Bu modda "Axis" ve "Angle" adında iki input açılır. Axis input'u dönme işleminin olacağı ekseni belirtir. Angle input'u da dönme derecesini belirtir (0 - 360). Yani bu modda ekseni ve dereceyi kendiniz ayarlayabilirsiniz.
+X Axis | Bu modda "Angle" adında bir input açılır. Dönme işlemi X ekseninde, Angle input'una verdiğiniz derecede (0 - 360) olur.
+Y Axis | Bu modda "Angle" adında bir input açılır. Dönme işlemi Y ekseninde, Angle input'una verdiğiniz derecede (0 - 360) olur.
+Z Axis | Bu modda "Angle" adında bir input açılır. Dönme işlemi Z ekseninde, Angle input'una verdiğiniz derecede (0 - 360) olur.
+Euler | Bu modda "Rotation" adında bir input açılır. Dönme işlemi orijin noktası yani Center input'u baz alınarak yapılır. Her eksendeki dönme derecesi Rotation input'una verilen XYZ değerlerine göre belirlenir.
+
+* #### Invert (Node Input)
+Dönme işlemini tersine çevirir. Ters yöne çevirir gibi de düşünebilirsiniz.
+
+* #### Vector (Socket Input)
+Vektör.
+
+* #### Center (Socket Input)
+Orijin noktası.
+
 
 
 

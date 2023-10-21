@@ -1353,25 +1353,25 @@ Texture'un içersinde barındırdığı bilgiye göre renk uzayı.
 
 Mod | Açıklama
 :---: | :---:
-Filmic Log | 
-Filmic sRGB | 
-Linear | 
-Linear ACES | 
-Linear ACEScg | 
-Non-Color | 
-Raw | 
-sRGB | 
-XYZ | 
+Filmic Log | Fazla teknik bilgiye giriyor, öğrenmek isterseniz [buraya](https://blender.stackexchange.com/questions/144854/blender-2-8-image-texture-node-and-color-space) bakabilirsiniz.
+Filmic sRGB | Fazla teknik bilgiye giriyor, öğrenmek isterseniz [buraya](https://blender.stackexchange.com/questions/144854/blender-2-8-image-texture-node-and-color-space) bakabilirsiniz.
+Linear | Blender'ın kendi kullandığı uzay.
+Linear ACES | Fazla teknik bilgiye giriyor, öğrenmek isterseniz [buraya](https://blender.stackexchange.com/questions/144854/blender-2-8-image-texture-node-and-color-space) bakabilirsiniz.
+Linear ACEScg | Fazla teknik bilgiye giriyor, öğrenmek isterseniz [buraya](https://blender.stackexchange.com/questions/144854/blender-2-8-image-texture-node-and-color-space) bakabilirsiniz.
+Non-Color | Renk bilgisi tutmayan texture'lar için kullanmanız gereken uzay, mesela normal map veya grayscale texture'lar (alpha değeri tutan).
+Raw | Herhangi bir uzay olmadan, direktmen resim dosyasının içeriği.
+sRGB | Standart RGB yani renkli texture'lar için kullanmanız gereken uzay.
+XYZ | Fazla teknik bilgiye giriyor, öğrenmek isterseniz [buraya](https://blender.stackexchange.com/questions/144854/blender-2-8-image-texture-node-and-color-space) bakabilirsiniz.
 
 * #### Alpha (Node Input)
-Bilmiyorum.
+Texture'un alpha değeri. Bu ayarların tam olarak ne işe yaradığını bilmiyorum.
 
 Mod | Açıklama
 :---: | :---:
-Straight | 
-Premultiplied |
-Channel Packed |
-None |
+Straight | Texture'un renk ve alpha değerini ayrı ayrı verir.
+Premultiplied | Texture'un renk değerlerini alpha kanalı ile çarpıp verir.
+Channel Packed | Texture'un her kanalında farklı map'ler olduğunu ve birbirlerinden bağımsız olduğunu belirtir.
+None | Alpha kanalını umursamaz, "Alpha" output'u tamamen 1 döndürür yani opak olur.
 
 * #### Vector (Socket Input)
 Texture'un oluşturulacağı konumu belirten texture coordinate değeri.

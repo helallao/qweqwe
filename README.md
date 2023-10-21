@@ -1291,9 +1291,11 @@ Buradan texture'a uygulanan yumuşatma (çevredeki pikseller ile birleştirme) i
 Mod | Açıklama
 :---: | :---:
 ‎Linear | Yanyana olan pikselleri yumuşatır.
-Cubic | Yumuşatma işlemi çok fazladır.
+Cubic | Yumuşatma işlemi çok fazladır. Texture'u blurlu yapar.
 Closest | Yumuşatma işlemi uygulanmaz. Verdiğiniz texture'un bütün pikselleri aynen kullanılır.
-Smart | Texture büyütüldükçe "Cubic" modunu, küçültüldükçe "Linear" modunu kullanır.
+Smart | Cycles hangi modun kullanılacağına kendisi karar verir.
+
+<img src="Dosyalar/ImageTexture_Interpolation.png">
 
 * #### Projection (Node Input)
 Texture'un obje üzerine nasıl yerleştirileceğini belirler.
@@ -1328,8 +1330,8 @@ Mod | Açıklama
 Single Image | Tek resim.
 Image Sequence | Arka arkaya gelen birden fazla resim diziniz varsa ve sayısal olarak isimlendirilmişlerse (mesela 001, 002, 003 gibi), resimler ardı ardına oynatılır.
 Movie | Video dosyası oynatır.
-Generated | Bilmiyorum.
-UDIM Tiles | Bilmiyorum.
+Generated | Blender tarafından oluşturulmuş hazır texture.
+UDIM Tiles | UDIM texture'u kullanır.
 
 * #### Frames (Node Input)
 Sadece "Source" ayarı "Image Sequence" ve "Movie" ayarında iken vardır. Toplamda kullanılacak frame sayısı.

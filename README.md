@@ -1221,7 +1221,32 @@ Texture'un boyutu. Ayrıca eğer "Vector" input'una birşey bağlamadıysanız b
 
 
 ## [Environment Texture](https://docs.blender.org/manual/en/latest/render/shader_nodes/textures/environment.html)
-Bilmiyorum.
+Dünyanıza 360 derece texture ekleyebilmenizi sağlar. "World" modunda da kullanabilirsiniz, diğer modlarda da ama muhtemelen "World" modunda kullanacaksınız. Output değerini [Background](#background) node'una bağlayarak dünyanızın arka planını ayarlayabilirsiniz. Genellikle HDRi texture'ları kullanılır. [HDRi Haven'dan](https://hdri-haven.com/) bedava HDRi texture'ları bulup kullanabilirsiniz.
+
+
+* #### Color (Output)
+Texture. Bu değeri [Background](#background) node'una bağlayarak dünyanızın arka planını ayarlayabilirsiniz.
+
+* #### Image (Node Input)
+Buradan "New" butonuna basarak blender'ın kendi sunduğu texture'lardan birini oluşturabilirsiniz. "Open" butonuna basarak bilgisayarınızdan texture açabilirsiniz.
+
+* #### Interpolation (Node Input)
+[Image Texture](#image-texture) node'una bakın.
+
+* #### Projection (Node Input)
+Buradan kullandığınız texture'un kullandığı modu seçebilirsiniz.
+
+* #### Source (Node Input)
+[Image Texture](#image-texture) node'una bakın.
+
+* #### Color Space (Node Input)
+[Image Texture](#image-texture) node'una bakın.
+
+* #### Alpha (Node Input)
+[Image Texture](#image-texture) node'una bakın.
+
+* #### Vector (Socket Input)
+Texture'un oluşturulacağı konumu belirten texture coordinate değeri.
 
 
 

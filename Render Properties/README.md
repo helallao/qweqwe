@@ -53,7 +53,7 @@ Aşağıdaki döküman Cycles render motoru kullanıldığı varsayılarak hazı
 * [Transparent (Max Bounces)](#transparent)
 * [Direct Light (Clamping)](#direct-light)
 * [Indirect Light (Clamping)](#indirect-light)
-
+* [Filter Glossy (Caustics)](#filter-glossy)
 
 <br>
 <br>
@@ -214,7 +214,10 @@ Işığın direktmen vurduğu yerlerde ışık parlaklığını düşürebilmemi
 Işığın sekerek vurduğu yerlerde ışık parlaklığını düşürebilmemize yarar. Eğer render aldıktan sonra noise gibi etrafta nokta nokta parlayan kısımlar görüyorsanız muhtemelen indirect light yani ışığın sekerek vurduğu noktalardan dolayıdır. Bu ayarı kısarak bu noktaların parlaklığını düşürebilir yani daha görünmez yapabilirsiniz ama unutmayın, bu ayar ışığın sekerek vurduğu bütün noktaları etkiler, yani render üzerinde genel olarak parlaklık düşüşüne sebep olabilir, aynısı "Direct Light" ayarı için de geçerli. Yine de nokta nokta parlak ışıklar kalıyorsa bu ayarı düşürebilirsiniz. Çok fazla düşürmek bazı sorunlar çıkarabilir.
 
 
+## Caustics
 
+* #### Filter Glossy
+a
 
 
 

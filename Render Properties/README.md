@@ -82,6 +82,7 @@ Aşağıdaki döküman Cycles render motoru kullanıldığı varsayılarak hazı
 * [Child Particles (Render)](#child-particles-1)
 * [Texture Limit (Render)](#texture-limit-1)
 
+
 <br>
 <br>
 
@@ -327,28 +328,28 @@ Bu kategoride sahne için hem Viewport hem de render üzerinde kullanılacak öz
 ## Viewport
 
 * #### Max Subdivision
-a
+Viewport için sahnedeki objelerin "Subdivision Surface" ve "Multiresolution Modifier" modifier'larının "subdivision" sayısı limiti. Yani mesela diyelim ki bu ayarı 2 yaptınız, o zaman modifier'ların hiçbirisi bu sayıdan fazla "subdivision" oluşturamaz.
 
 * #### Child Particles
-a
+Viewport için "Child Particle" özelliği kullanan bütün Particle System'lar için Child Particle limiti. Mesela bu ayarı 0.5 yaparsak %50 yani Child Particle'ların sadece yarısı oluşturulur.
 
 * #### Texture Limit
-a
+Viewport için texture kullanan bütün materyaller için maximum texture çözünürlüğü. Mesela bunu 1024 yani 1k yaparsanız 4k texture'lar kullanamazsınız.
 
 * #### Volume Resolution
-a
+Viewport için volume kullanan objeler için volume kalitesi/çözünürlüğü. Mesela bu ayarı 0.5 yaparsak %50 yani volume'ların kalitesi yarıya düşer.
 
 
 ## Render
 
 * #### Max Subdivision
-a
+Render için sahnedeki objelerin "Subdivision Surface" ve "Multiresolution Modifier" modifier'larının "subdivision" sayısı limiti. Yani mesela diyelim ki bu ayarı 2 yaptınız, o zaman modifier'ların hiçbirisi bu sayıdan fazla "subdivision" oluşturamaz.
 
 * #### Child Particles
-a
+Render için "Child Particle" özelliği kullanan bütün Particle System'lar için Child Particle limiti. Mesela bu ayarı 0.5 yaparsak %50 yani Child Particle'ların sadece yarısı oluşturulur.
 
 * #### Texture Limit
-a
+Render için texture kullanan bütün materyaller için maximum texture çözünürlüğü. Mesela bunu 1024 yani 1k yaparsanız 4k texture'lar kullanamazsınız.
 
 
 

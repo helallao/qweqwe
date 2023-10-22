@@ -78,7 +78,9 @@ Aşağıdaki döküman Cycles render motoru kullanıldığı varsayılarak hazı
 * [Child Particles (Viewport)](#child-particles)
 * [Texture Limit (Viewport)](#texture-limit)
 * [Volume Resolution (Viewport)](#volume-resolution)
-
+* [Max Subdivision (Render)](#max-subdivision-1)
+* [Child Particles (Render)](#child-particles-1)
+* [Texture Limit (Render)](#texture-limit-1)
 
 <br>
 <br>

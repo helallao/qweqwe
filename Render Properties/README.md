@@ -73,6 +73,12 @@ Aşağıdaki döküman Cycles render motoru kullanıldığı varsayılarak hazı
 * [Shape (Viewport Display)](#shape-1)
 * [Additional Subdivision (Viewport Display)](#additional-subdivision)
 
+# [Simplify](#simplify-1)
+* [Max Subdivision (Viewport)](#max-subdivision)
+* [Child Particles (Viewport)](#child-particles)
+* [Texture Limit (Viewport)](#texture-limit)
+* [Volume Resolution (Viewport)](#volume-resolution)
+
 
 <br>
 <br>
@@ -312,11 +318,35 @@ a
 a
 
 
+# [Simplify](https://docs.blender.org/manual/en/3.6/render/cycles/render_settings/simplify.html)
+Bu kategoride sahne için hem Viewport hem de render üzerinde kullanılacak özellikleri sınırlandırabiliriz. Buradaki ayarlar ile genel olarak sahne üzerinde efektlere sınırlar koyabiliriz. Kategorinin yanındaki tik işaretine basarak bu sınırlandırmaları etkinleştirebilir/devre dışı bırakabilirsiniz.
 
 
+## Viewport
+
+* #### Max Subdivision
+a
+
+* #### Child Particles
+a
+
+* #### Texture Limit
+a
+
+* #### Volume Resolution
+a
 
 
+## Render
 
+* #### Max Subdivision
+a
+
+* #### Child Particles
+a
+
+* #### Texture Limit
+a
 
 
 

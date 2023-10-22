@@ -44,6 +44,8 @@ Aşağıdaki döküman Cycles render motoru kullanıldığı varsayılarak hazı
 * [Min Light Bounces (Advanced)](#min-light-bounces)
 * [Min Transparent Bounces (Advanced)](#min-transparent-bounces)
 
+# [Light Paths](#light-paths-1)
+* [Total (Max Bounces)](#total)
 
 <br>
 <br>
@@ -166,9 +168,18 @@ Işığın minimum sekme sayısı. Bu sayıyı arttırmak render'daki noise'ı a
 Transparent ışık ışınları için minimum sekme sayısı. Bu sayıyı arttırmak render'daki noise'ı azaltabilir ama render süresi uzar.
 
 
+<br>
+<br>
 
 
+# [Light Paths](https://docs.blender.org/manual/en/3.6/render/cycles/render_settings/light_paths.html)
+Bu kategoride.
 
+
+## Max Bounces
+
+* #### Total
+a
 
 
 

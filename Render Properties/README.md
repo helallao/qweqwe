@@ -217,7 +217,7 @@ Işığın sekerek vurduğu yerlerde ışık parlaklığını düşürebilmemize
 ## Caustics
 
 * #### Filter Glossy
-Bu ayarları anlatmadan önce caustics'in ne olduğunu bilmelisiniz. [Buradan](https://en.wikipedia.org/wiki/Caustic_(optics)) wikipedia sayfasına bakabilirsiniz. Kısacası saydam objelere ışık vurduktan sonra arka yüzeye objenin oluşturduğu şekiller diyebiliriz. Bu ayarı arttırmak caustics'i yani objenin arkasına yaptığı yansımayı yumuşatır, blur efekti ekler. Eğer bu ayarı 0 yaparsanız blur efekti de uygulanmaz, objenin arkasına yaptığı yansımanın çok keskin olduğunu görebilirsiniz.
+Bu ayarları anlatmadan önce caustics'in ne olduğunu bilmelisiniz. [Buradan](https://en.wikipedia.org/wiki/Caustic_(optics)) wikipedia sayfasına bakabilirsiniz. Kısacası saydam objelere ışık vurduktan sonra arka yüzeye objenin oluşturduğu şekiller diyebiliriz. Bu ayarı arttırmak caustics'i yani objenin arkasına yaptığı yansımayı yumuşatır, blur efekti ekler. Eğer bu ayarı 0 yaparsanız blur efekti uygulanmaz, objenin arkasına yaptığı yansıma keskin olur. Aşağıdaki resimden farkı görebilirsiniz.
 
 <img src="../Dosyalar/Render_Caustics_FilterGlossy.png">
 

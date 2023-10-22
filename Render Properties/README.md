@@ -70,7 +70,7 @@ Aşağıdaki döküman Cycles render motoru kullanıldığı varsayılarak hazı
 # [Curves](#curves-1)
 * [Shape](#shape)
 * [Curve Subdivisions](#curve-subdivisions)
-* [Shape (Viewport Display)](#shape)
+* [Shape (Viewport Display)](#shape-1)
 * [Additional Subdivision (Viewport Display)](#additional-subdivision)
 
 

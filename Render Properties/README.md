@@ -54,6 +54,10 @@ Aşağıdaki döküman Cycles render motoru kullanıldığı varsayılarak hazı
 * [Direct Light (Clamping)](#direct-light)
 * [Indirect Light (Clamping)](#indirect-light)
 * [Filter Glossy (Caustics)](#filter-glossy)
+* [Reflective Caustics (Caustics)](#reflective-caustics)
+* [Refractive Caustics (Caustics)](#refractive-caustics)
+
+
 
 <br>
 <br>
@@ -221,9 +225,11 @@ Bu ayarları anlatmadan önce caustics'in ne olduğunu bilmelisiniz. [Buradan](h
 
 <img src="../Dosyalar/Render_Caustics_FilterGlossy.png">
 
+* #### Reflective Caustics
+Objenin ışık vurunca arkasına yaptığı yansımaya objenin rengini eklemeyi kapatır.
 
-
-
+* #### Refractive Caustics
+Objenin ışık vurunca arkasına yaptığı yansımayı kapatır, sadece gölge olur.
 
 
 

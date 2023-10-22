@@ -62,6 +62,11 @@ Aşağıdaki döküman Cycles render motoru kullanıldığı varsayılarak hazı
 * [Viewport Bounces (Fast GI Approximation)](#viewport-bounces)
 * [Render Bounces (Fast GI Approximation)](#render-bounces)
 
+# [Volumes](#volumes-1)
+* [Step Rate Render](#step-rate-render)
+* [Viewport](#viewport)
+* [Max Steps](#max-steps)
+
 
 <br>
 <br>
@@ -259,8 +264,22 @@ Viewport için ışığın kaç defa sektikten sonra hesaplanacağını ayarlar.
 Render için ışığın kaç defa sektikten sonra hesaplanacağını ayarlar.
 
 
+<br>
+<br>
 
 
+# [Volumes](https://docs.blender.org/manual/en/3.6/render/cycles/render_settings/volumes.html)
+a
+
+
+* #### Step Rate Render
+a
+
+* #### Viewport
+a
+
+* #### Max Steps
+a
 
 
 

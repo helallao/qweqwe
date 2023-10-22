@@ -290,7 +290,7 @@ Volume hesaplanırken gönderilen ışınların volume içerisinde ne kadar deri
 
 
 # [Curves](https://docs.blender.org/manual/en/3.6/render/cycles/render_settings/hair.html)
-a.
+Bu kategorinin eski adı "Hair" di.
 
 
 * #### Shape

@@ -192,7 +192,7 @@ Bu kategorideki node'lar bu shader'ı kullanan obje/mesh'in bilgilerini verirler
 ## [Ambient Occlusion](https://docs.blender.org/manual/en/latest/render/shader_nodes/input/ao.html)
 Mesh'in üzerindeki gölgeleri veya gölgede kalan kısımlarını hesaplayıp renkli ve grayscale map'lerini verir. Bu hesaplama aslında ışıktan bağımsızdır yani gerçekten ışığın nereye vurduğunu nereye vurmadığını kontrol etmez. Gölgeleme işlemi çoğunlukla mesh'in kenarlarında ve çevresi bloklanan kısımlarında (başka meshler tarafından da olabilir, kendisinden de) olur.
 
-<img src="../Dosyalar/AmbientOcclusionRay.png">
+<img src="../Dosyalar/Shader_AmbientOcclusionRay.png">
 
 
 * #### Color (Output)
@@ -219,8 +219,8 @@ Gölgelerin maksimum yayılabileceği mesafe. Normalde gölgeler köşe/kenarlar
 * #### Normal (Socket Input)
 Eğer shader'ın kullandığı normal map varsa buraya bağlayın. İşlemler normal map dikkate alınarak yapılır.
 
-<img src="../Dosyalar/AmbientOcclusion.png">
-<img src="../Dosyalar/AmbientOcclusion2.png">
+<img src="../Dosyalar/Shader_AmbientOcclusion.png">
+<img src="../Dosyalar/Shader_AmbientOcclusion2.png">
 
 
 
@@ -280,7 +280,7 @@ Kameraya olan uzaklık değeri, yani "View Distance" output'u gibidir ama daha f
 Kameraya olan uzaklık değeri (obje üzerindeki her bir nokta için).
 
 
-<img src="../Dosyalar/View_Z_Depth.png">
+<img src="../Dosyalar/Shader_View_Z_Depth.png">
 
 
 
@@ -392,19 +392,19 @@ Eğer shader'ın kullandığı normal map varsa buraya bağlayın. İşlemler no
 ## [Light Path](https://docs.blender.org/manual/en/latest/render/shader_nodes/input/light_path.html)
 Kameranın yolladığı ışık ışınları (ray) ile ilgili bilgiler verir. Evet ışınlar kameraya gelmiyor, kamera ışıklara doğru ışınlar yolluyor. Gerçek hayattaki ışığın yazılımsal olarak çalışma şekli bu (Path Tracing). Bu node'u anlatırken ışık ışınlarının (ray) farklı farklı yüzeylerden sektiğini ve kameraya ulaştığını göreceksiniz. "Path Tracing" özelliği ışık ışınının başına gelen bütün olayları kaydeder. Bu sayede ışık ışınlarının hangi yüzeylerden sektiğini bile bilebileceksiniz. Yani ışık ışınlarının sektiği yüzeylerin hangi shader türüne ait olduğu çok önemli. Aşağıdaki resime bakın.
 
-<img src="../Dosyalar/LightPath_Ray.png">
+<img src="../Dosyalar/Shader_LightPath_Ray.png">
 
 
 * #### Is Camera Ray (Output)
 Işığın geldiği noktanın tam olarak objeye ait olup olmadığını kontrol eder. Yani eğer ışık kameraya mesh üzerinden geliyorsa yani yansıma yoksa ve orijinal konum dışında bir yerden gelmiyorsa 1 döndürür, eğer yansıma ile geliyorsa yani orijinal konumdan gelmiyorsa 0 döndürür. Mesela bunu kullanıp iki shader'ı birleştirirken mix faktörü olarak kullanırsanız, objeyi yeşil renk yapabilir ve obje dışındaki her şeye objeyi kırmızı olarak yansıtabilirsiniz (örnek veriyorum).
 
-<img src="../Dosyalar/IsCameraRay.png">
+<img src="../Dosyalar/Shader_IsCameraRay.png">
 
 * #### Is Shadow Ray (Output)
 "Shadow Ray" kameradan yollanan ışık ışınının gölge bir yere çarptıktan sonra ışık kaynağına ulaşıp sekme işleminin sonlanması böylelikle ışık ışınının gölgeden gelmesi demektir. Yani ışığın geldiği noktanın gölge olan kısma ait olup olmadığını kontrol eder (hem objenin üzerindeki hem gölgenin vurduğu yerdeki). Eğer ışık ışını gölgeden sektikten sonra direktmen ışık kaynağına geliyorsa 1, gelmiyorsa 0 döndürür.
 
-<img src="../Dosyalar/ShadowRay.png">
-<img src="../Dosyalar/IsShadowRay.png">
+<img src="../Dosyalar/Shader_ShadowRay.png">
+<img src="../Dosyalar/Shader_IsShadowRay.png">
 
 * #### Is Diffuse Ray (Output)
 Bunu "Is Camera Ray" ile karıştırabilirsiniz çünkü çalışma şekli ona çok benziyor, "Is Camera Ray" ışığın geldiği noktanın objeye ait olup olmadığını kontrol ederken, "Is Diffuse Ray" ışığın [Diffuse shader](#diffuse-bsdf) özelliği taşıyan bir shader'dan gelip gelmediğini (direktmen) kontrol eder. Yani [Toon BSDF](#toon-bsdf) "Diffuse" modundayken de çarpan ışığı [Diffuse shader](#diffuse-bsdf) özelliği taşıyan bir shader'a çarpmış ışık ışınına döndürür. [Subsurface Scattering](#subsurface-scattering) de buna dahildir.
@@ -635,7 +635,7 @@ Bu kategorideki node'lar ana shader türlerini barındırır. Bu shader node'lar
 ## [Add Shader](https://docs.blender.org/manual/en/latest/render/shader_nodes/shader/add.html)
 Verilen iki shader'ı toplar, birbirlerine ekler. Sonuç daha parlak olur. Sonuç ["energy conserving"](http://www.neilblevins.com/art_lessons/energy_conservation/energy_conservation.htm) olmayan yani ışığın sektiği yüzeylerin bilgisini düzgün hesaplayamayan bir shader olabilir.
 
-<img src="../Dosyalar/AddShader.png">
+<img src="../Dosyalar/Shader_AddShader.png">
 
 
 * #### Shader (Output)
@@ -664,7 +664,7 @@ Beckmann | GGX'e göre daha az koyu gösterir.
 ‎Multiscatter GGX | Bu mod GGX'e göre enerjiyi daha fazla muhafaza eder. Yani ışık ışınları enerjisi bitene kadar sekmeye devam eder. Bu da daha parlak ve gerçekçi bir görünüm ile sonuçlanır. "Roughness" değeri düşük olan shader'larda ışınların sekmesi az olacağı için etkisini de kaybeder, yani "Roughness" değeri yüksek olan shader'larda etkisi daha belli olur. Hesaplama bakımından GGX'e göre 2.5% daha yavaştır.
 Ashikhmin-Shirley | GGX gibi koyu gösterir.
 
-<img src="../Dosyalar/AnisotropicMods.png">
+<img src="../Dosyalar/Shader_AnisotropicMods.png">
 
 * #### Color (Socket Input)
 Ana renk.
@@ -678,7 +678,7 @@ Objenin yüzeyinin ne kadar pürüzlü olduğunu ayarlar. 0 iken pürüzsüzdür
 * #### Rotation (Socket Input)
 "Anisotropy" ve "Rotation" ayarları ışığın yansıma yönünü değiştirmek ile ilgilidir. "Rotation" ayarı yönü degiştirir. "Anisotropy" ayarı ise bu yön degiştirmenin ne kadar etkili olacağını belirler. Rotation değeri 0 iken 0 dereceyi, 1 iken 360 dereceyi ifade eder. Mesela 0.25 kullanırsanız 360 * 0.25 = 90 derece olur.
 
-<img src="../Dosyalar/AnisotropicSurface.png">
+<img src="../Dosyalar/Shader_AnisotropicSurface.png">
 
 * #### Normal (Socket Input)
 Eğer shader'ın kullandığı normal map varsa buraya bağlayın. İşlemler normal map dikkate alınarak yapılır.
@@ -739,7 +739,7 @@ Emission şiddeti.
 ## [Glass BSDF](https://docs.blender.org/manual/en/latest/render/shader_nodes/shader/glass.html)
 Cam shader'ı oluşturmaya yarar.
 
-<img src="../Dosyalar/GlassSurfaceRay.png">
+<img src="../Dosyalar/Shader_GlassSurfaceRay.png">
 
 
 * #### BSDF (Output)
@@ -753,7 +753,7 @@ Beckmann | GGX'e göre daha az koyu gösterir.
 GGX | Beckmann'e göre daha koyu gösterir.
 Multiscatter GGX | Bu mod GGX'e göre enerjiyi daha fazla muhafaza eder. Yani ışık ışınları enerjisi bitene kadar sekmeye devam eder. Bu da daha parlak ve gerçekçi bir görünüm ile sonuçlanır. "Roughness" değeri düşük olan shader'larda ışınların sekmesi az olacağı için etkisini de kaybeder, yani "Roughness" değeri yüksek olan shader'larda etkisi daha belli olur. Hesaplama bakımından GGX'e göre 2.5% daha yavaştır.
 
-<img src="../Dosyalar/GlassSurfaceModes.png">
+<img src="../Dosyalar/Shader_GlassSurfaceModes.png">
 
 * #### Color (Socket Input)
 Cam rengi.
@@ -772,7 +772,7 @@ Eğer shader'ın kullandığı normal map varsa buraya bağlayın. İşlemler no
 ## [Glossy BSDF](https://docs.blender.org/manual/en/latest/render/shader_nodes/shader/glossy.html)
 Ayna shader'ı oluşturmaya yarar. Yani yüzeyi ayna gibi gelen ışığı yansıtan shader oluşturur.
 
-<img src="../Dosyalar/GlossySurfaceRay.png">
+<img src="../Dosyalar/Shader_GlossySurfaceRay.png">
 
 
 * #### BSDF (Output)
@@ -788,7 +788,7 @@ Beckmann | Default mod. Eğer internette "Beckmann microfacet distribution" şek
 Ashikmin-Shirley | "Multiscatter GGX" gibi enerjiyi daha fazla muhafaza eder. Bu da gerçekçilik ekler. Karanlıkta kalan kısımlarda biraz sorunlu görünüm verebilir. "Roughness" değeri düşükken Beckmann ve GGX modlarının ortalaması gibi çalışır ama "Roughness" değeri 0.7'yi geçtikten sonra Beckmann ve GGX modlarından daha fazla koyu (darker) görünüm verir.
 ‎Multiscatter GGX | Bu mod GGX'e göre enerjiyi daha fazla muhafaza eder. Yani ışık ışınları enerjisi bitene kadar sekmeye devam eder. Bu da daha parlak ve gerçekçi bir görünüm ile sonuçlanır. "Roughness" değeri düşük olan shader'larda ışınların sekmesi az olacağı için etkisini de kaybeder, yani "Roughness" değeri yüksek olan shader'larda etkisi daha belli olur. Hesaplama bakımından GGX'e göre 2.5% daha yavaştır.
 
-<img src="../Dosyalar/GlossyMods.png">
+<img src="../Dosyalar/Shader_GlossyMods.png">
 
 * #### Color (Socket Input)
 Ayna rengi.
@@ -846,7 +846,7 @@ Mod | Açıklama
 ‎GGX | Multiscatter GGX'e göre daha hızlı ama dogruluk bakımından onun kadar dogru degil. Bunu seçerseniz "Transmission Roughness" ayarı açılır. Multiscatter GGX'e göre shader daha koyu olur.
 ‎Multiscatter GGX | Bu mod GGX'e göre enerjiyi daha fazla muhafaza eder. Yani ışık ışınları enerjisi bitene kadar sekmeye devam eder. Bu da daha parlak ve gerçekçi bir görünüm ile sonuçlanır. "Roughness" değeri düşük olan shader'larda ışınların sekmesi az olacağı için etkisini de kaybeder, yani "Roughness" değeri yüksek olan shader'larda etkisi daha belli olur. Hesaplama bakımından GGX'e göre 2.5% daha yavaştır.
 
-<img src="../Dosyalar/DistributionTypes.png">
+<img src="../Dosyalar/Shader_DistributionTypes.png">
 
 * #### Subsurface Method Mode (Node Input)
 Mod | Açıklama
@@ -891,17 +891,17 @@ Objenin yüzeyinin ne kadar pürüzlü olduğunu ayarlar. 0 iken pürüzsüzdür
 * #### Anisotropic Rotation (Socket Input)
 "Anisotropic" ve "Anisotropic Rotation" ayarları ışığın yansıma yönünü değiştirmek ile ilgilidir. "Anisotropic Rotation" ayarı yönü degiştirir. "Anisotropic" ayarı ise bu yön degiştirmenin ne kadar etkili olacağını belirler. Rotation değeri 0 iken 0 dereceyi, 1 iken 360 dereceyi ifade eder. Mesela 0.25 kullanırsanız 360 * 0.25 = 90 derece olur.
 
-<img src="../Dosyalar/AnisotropicSurface.png">
+<img src="../Dosyalar/Shader_AnisotropicSurface.png">
 
 * #### Sheen (Socket Input)
 Bu ayar genellikle giysi tarzı shader'larda kullanılıyor. Kenarlara ışığın yansımasından dolayı parlaklık efekti ekler.
 
-<img src="../Dosyalar/Sheen.png">
+<img src="../Dosyalar/Shader_Sheen.png">
 
 * #### Sheen Tint (Socket Input)
 Aynı "Specular Tint" gibi, "Sheen" etkisinin verdigi parlaklığa yüzeyin de rengini eklemesine sebep olur.
 
-<img src="../Dosyalar/SheenTint.png">
+<img src="../Dosyalar/Shader_SheenTint.png">
 
 * #### Clearcoat (Socket Input)
 Clearcoat sanki yüzey bir şey ile kaplanmış gibi görünmesine sebep olur. İkincil bir yüzey oluşturur. Araba boyası gibi.
@@ -959,7 +959,7 @@ Sonuç shader'ı.
 ## [Refraction BSDF](https://docs.blender.org/manual/en/latest/render/shader_nodes/shader/refraction.html)
 Cam shader'ı oluşturmamıza yarar.
 
-<img src="../Dosyalar/RefractionSurfaceRay.png">
+<img src="../Dosyalar/Shader_RefractionSurfaceRay.png">
 
 
 * #### BSDF (Output)
@@ -972,7 +972,7 @@ Mod | Açıklama
 Beckmann | GGX'e göre daha az koyu gösterir.
 GGX | Beckmann'e göre daha koyu gösterir.
 
-<img src="../Dosyalar/Refraction_Roughness-IOR.png">
+<img src="../Dosyalar/Shader_Refraction_Roughness-IOR.png">
 
 * #### Color (Socket Input)
 Cam rengi.
@@ -1049,8 +1049,8 @@ Keskinliği azaltır, yumuşaklık ekler. 0'da iken yansımalar keskin, arttık�
 ## [Translucent BSDF](https://docs.blender.org/manual/en/latest/render/shader_nodes/shader/translucent.html)
 Objeye saydamlık ekler. Saydam obje ışığı geçirebilir. Işık vurdugu zaman objenin yüzeyinde ışığın etkisini görebilirsiniz.
 
-<img src="../Dosyalar/TranslucentSurfaceRay.png">
-<img src="../Dosyalar/Translucent.png">
+<img src="../Dosyalar/Shader_TranslucentSurfaceRay.png">
+<img src="../Dosyalar/Shader_Translucent.png">
 
 
 * #### BSDF (Output)
@@ -1067,7 +1067,7 @@ Eğer shader'ın kullandığı normal map varsa buraya bağlayın. İşlemler no
 ## [Transparent BSDF](https://docs.blender.org/manual/en/latest/render/shader_nodes/shader/transparent.html)
 Objeyi görünmez yapar.
 
-<img src="../Dosyalar/TransparentSurfaceRay.png">
+<img src="../Dosyalar/Shader_TransparentSurfaceRay.png">
 
 
 * #### BSDF (Output)
@@ -1099,7 +1099,7 @@ Eğer shader'ın kullandığı normal map varsa buraya bağlayın. İşlemler no
 ## [Volume Absorption](https://docs.blender.org/manual/en/latest/render/shader_nodes/shader/volume_absorption.html)
 [Volume Absorption](#volume-absorption) ile [Volume Scatter](#volume-scatter) birbirlerine benzerlerdir, dolayısıyla bu ikisinin açıklamalarını dikkatli okuyup aralarındaki farkları anlamak gerekli. Volume Absorption içinden geçen ışığı emer. Bu da sanki renkli gözlük takmış ve gözlükten bakıyormuşsunuz gibi veya ışık renkli bir camdan geçiyormuş gibi efekt verir ve bu camın emme gücü ile rengini ayarlayabilirsiniz.
 
-<img src="../Dosyalar/VolumeAbsorption.png">
+<img src="../Dosyalar/Shader_VolumeAbsorption.png">
 
 
 * #### Volume (Output)
@@ -1116,7 +1116,7 @@ Alanının yoğunluğu.
 ## [Volume Scatter](https://docs.blender.org/manual/en/latest/render/shader_nodes/shader/volume_scatter.html)
 [Volume Absorption](#volume-absorption) ile [Volume Scatter](#volume-scatter) birbirlerine benzerlerdir, dolayısıyla bu ikisinin açıklamalarını dikkatli okuyup aralarındaki farkları anlamak gerekli. Volume Scatter içinden geçen ışığı farklı yönlere dağıtır. Bu da sanki orada bir alan varmış gibi efekt verir, mesela duman efekti gibi veya toz efekti gibi. Bu alanın rengini ve yoğunluğunu ayarlayabilirsiniz.
 
-<img src="../Dosyalar/VolumeScatter.png">
+<img src="../Dosyalar/Shader_VolumeScatter.png">
 
 
 * #### Volume (Output)
@@ -1131,7 +1131,7 @@ Alanının yoğunluğu.
 * #### Anisotropy (Socket Input)
 Bu ayar alanın içinden geçen ışığın dağılacağı yönü ayarlar. 0 iken eşit şekilde etrafa dağılır, artılara gittikçe öne doğru, eksilere gittikçe arkaya doğru dağılır.
 
-<img src="../Dosyalar/VolumeScatter_Anisotropy.png">
+<img src="../Dosyalar/Shader_VolumeScatter_Anisotropy.png">
 
 
 <br>
@@ -1320,7 +1320,7 @@ Cubic | Yumuşatma işlemi çok fazladır. Texture'u blurlu yapar.
 Closest | Yumuşatma işlemi uygulanmaz. Verdiğiniz texture'un bütün pikselleri aynen kullanılır.
 Smart | Cycles hangi modun kullanılacağına kendisi karar verir.
 
-<img src="../Dosyalar/ImageTexture_Interpolation.png">
+<img src="../Dosyalar/Shader_ImageTexture_Interpolation.png">
 
 * #### Projection (Node Input)
 Texture'un obje üzerine nasıl yerleştirileceğini belirler.
@@ -1332,7 +1332,7 @@ Mod | Açıklama
 ‎Sphere | Küresel olarak yerleştirir.
 ‎Tube | Silindirel olarak yerleştirir.
 
-<img src="../Dosyalar/ProjectionTexture.png">
+<img src="../Dosyalar/Shader_ProjectionTexture.png">
 
 * #### Blend (Node Input)
 Sadece "Projection" ayarı "Box" modunda iken vardır. Texture'un birbiri ile birleştiği kenar kısımları yumuşatır (çevredeki pikseller ile birleştirme).
@@ -1465,7 +1465,7 @@ Texture'un boyutu.
 * #### Detail (Socket Input)
 Noise'in detay derecesi, arttırdıkça detay da artar ve yakından bakarsanız texture'un keskinleştiğini görebilirsiniz. Detay arttıkça texture yumuşak geçişleri kaybedip keskin geçişlere sahip olur. Aşağıdaki resimde detay derecesi 5 ve 10 olan texture'ların arasındaki farkı görebilirsiniz.
 
-<img src="../Dosyalar/MusgraveDetail.png">
+<img src="../Dosyalar/Shader_MusgraveDetail.png">
 
 * #### Dimension (Socket Input)
 "Lacunarity" ile "Dimension" ayarları beraber çalışırlar. "Lacunarity" noise ekleyerek texture'u bozarken, "Dimension" bu bozulmaları tekrar eski haline getirir, yani mesela "Dimension" ayarını çok yükseltirseniz "Lacunarity" ayarının eklediği bozulmaların geri alındığını ve tekrar baştaki texture'a döndüğünü görebilirsiniz. Ayrıca "Dimension" ayarının çalışabilmesi için "Lacunarity" ayarının 1'den büyük olması gerekir, yani "Lacunarity" ayarının texture'a biraz noise eklemiş olması gerekir.
@@ -1874,7 +1874,7 @@ Sonuç.
 * #### Curve Widget (Node Input)
 Detaylı açıklamalara [buradan](https://docs.blender.org/manual/en/latest/interface/controls/templates/curve.html#ui-curve-widget) ulaşabilirsiniz. Curve noktalar koyarak bu noktalar arasında eğim oluşturabildiğiniz bölümdür. Eğimin üzerine tıklayarak yeni noktalar ekleyebilirsiniz, böylelikle istediğiniz kadar detay verebilirsiniz. Çalışma mantığı şudur, input olarak verilen texture'un içerisindeki her bir değer (piksel) için renk değerini kontrol eder ve yaptığınız eğim üzerinde bu değerin geldiği yerdeki değeri alıp, yeni değeri koyar. Yani şöyle, siz şimdi bir eğim tasarlayacaksınız, bu eğimin X ve Y eksenlerinde değerleri olacak. X eksenindeki her bir değer, input olarak verilen texture'un içerisindeki her bir renk değerinin (piksel) konumunu temsil ediyor. Y eksenindeki her bir değer, bu rengin yerine yerleştirilecek yeni renk değerini temsil ediyor. Mesela diyelim ki elinizde soldan sağa doğru siyahtan beyaza kayan renklere sahip bir texture var. Bu texture üzerinde RGB Curves kullandınız ve bu texture'un çok beyaz kısımlarını siyaha kaydırmak istiyorsunuz. Mesela 0.4'den büyük değere sahip olan yerleri siyah yapacaksınız. Bu durumda oluşturduğunuz curve'ün X ekseninde 0.4'den sonrasını ayarlamalısınız. Mesela ben 0.4'den sonrasında renkler beyazlaştıkça daha da siyah olmasını istiyorum. Bu durumda yaptığınız eğim aşağıdaki resimde gördüğünüz gibi olmalıdır. Aşağıdaki eğimde olan şey şu, X değeri yani input olarak verilen texture'un içerisindeki her bir renk değeri (piksel) oluşturduğumuz eğime göre yeni değerler ile değiştiriliyor ve bu değiştirme esnasında 0.4'den büyük olan değerler eğim üzerinde geldiği konumun Y değerini alıyor. Yani değeri 0.6 olan renkler yaptığımız eğimin X ekseninin 0.6 konumundaki Y ekseni değerini alıyor.
 
-<img src="../Dosyalar/ColorCurve.png">
+<img src="../Dosyalar/Shader_ColorCurve.png">
 
 Ayrıca yukarıdan RGB olmak üzere istediğiniz renk kanalını özel olarak veya C seçeneğini seçerek "Combined" yani bütün kanalları birden düzenleyebilirsiniz. Büyüteç işaretleri ile eğimi yakınlaştırabilir/uzaklaştırabilirsiniz. En sağdaki ok işaretinden eğimi veya eğimin görünümünü sıfırlayabilirsiniz. "Extend Horizontal" ayarı ile baştaki ve sondaki noktaları başa ve sona doğru düz bir şekilde gitmeye ayarlayabilirsiniz, "Extend Extrapolated" ayarı ile tekrar eski haline getirebilirsiniz. En sağdaki ok işaretinin bir solundaki bölümden X ve Y ekseni için sınırları ayarlayabilirsiniz.
 
@@ -2035,7 +2035,7 @@ Vektör.
 ## [Vector Displacement](https://docs.blender.org/manual/en/latest/render/shader_nodes/vector/vector_displacement.html)
 Normal [Displacement](#displacement) işleminin aksine, yüzleri sadece yukarı kaldırmakla kalmaz, aynı zamanda yüzleri 3 eksende hareket de ettirebilir.
 
-<img src="../Dosyalar/VectorDisplacement.png">
+<img src="../Dosyalar/Shader_VectorDisplacement.png">
 
 
 * #### Displacement (Output)

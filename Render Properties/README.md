@@ -67,6 +67,9 @@ Aşağıdaki döküman Cycles render motoru kullanıldığı varsayılarak hazı
 * [Viewport](#viewport-1)
 * [Max Steps](#max-steps)
 
+# [Curves](#curves-1)
+* [Shape](#shape)
+
 
 <br>
 <br>
@@ -282,8 +285,16 @@ Viewport için volume kalitesi. Bu ayarın değerini düşürdükçe kalite arta
 Volume hesaplanırken gönderilen ışınların volume içerisinde ne kadar derine gidebileceğini belirler. Bu ayarın default değeri çok yüksek, 10-30 arası bir şeyler yapabilirsiniz. Eğer kaliteli olsun diyorsanız 100 yapabilirsiniz ama 1000 yapmayın çünkü gereksiz oluyor ve render süresi uzuyor.
 
 
+<br>
+<br>
 
 
+# [Curves](https://docs.blender.org/manual/en/3.6/render/cycles/render_settings/hair.html)
+a.
+
+
+* #### Shape
+a
 
 
 

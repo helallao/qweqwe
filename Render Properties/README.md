@@ -73,7 +73,7 @@ Sadece "Render Engine" ayarı "Cycles" iken vardır. Shader'larda Open Shading L
 
 
 # [Sampling](https://docs.blender.org/manual/en/3.6/render/cycles/render_settings/sampling.html)
-Bu kategoride genel olarak sampling işlemi ile ilgili ayarlar yani ışık ışınları ile ilgili ayarlar vardır.
+Bu kategoride genel olarak render ve sampling işlemi ile ilgili ayarlar yani ışık ışınları ile ilgili ayarlar vardır.
 
 
 ## Viewport
@@ -173,7 +173,7 @@ Transparent ışık ışınları için minimum sekme sayısı. Bu sayıyı artt�
 
 
 # [Light Paths](https://docs.blender.org/manual/en/3.6/render/cycles/render_settings/light_paths.html)
-Bu kategoride.
+Bu kategoride ışık ve ışık ışınları ile ilgili ayarlar vardır.
 
 
 ## Max Bounces

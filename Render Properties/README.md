@@ -41,6 +41,8 @@ Aşağıdaki döküman Cycles render motoru kullanıldığı varsayılarak hazı
 * [Sample Offset (Advanced)](#sample-offset)
 * [Scrambling Distance (Advanced)](#scrambling-distance)
 * [Multiplier (Advanced)](#multiplier)
+* [Min Light Bounces (Advanced)](#min-light-bounces)
+* [Min Transparent Bounces (Advanced)](#min-transparent-bounces)
 
 
 <br>
@@ -157,9 +159,11 @@ Render alırken kaçıncı frame'den başlanacağını belirler. Yani verdiğini
 * #### Multiplier
 "Scrambling Distance" ayarı derecesi. 1 ve üzeri iken Scrambling kapalı anlamına gelir. Değeri düşürdükçe Scrambling artar. Yani bu değeri düşürünce rastgelelik de azalıyormuş gibi düşünün. Bu değeri render'da bozulmaların olmadığı dereceye manuel olarak ayarlayıp kullanabilirsiniz.
 
+* #### Min Light Bounces
+Işığın minimum sekme sayısı. Bu sayıyı arttırmak render'daki noise'ı azaltabilir ama render süresi uzar.
 
-
-
+* #### Min Transparent Bounces
+Transparent ışık ışınları için minimum sekme sayısı. Bu sayıyı arttırmak render'daki noise'ı azaltabilir ama render süresi uzar.
 
 
 

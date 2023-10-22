@@ -69,6 +69,9 @@ Aşağıdaki döküman Cycles render motoru kullanıldığı varsayılarak hazı
 
 # [Curves](#curves-1)
 * [Shape](#shape)
+* [Curve Subdivisions](#curve-subdivisions)
+* [Shape (Viewport Display)](#shape)
+* [Additional Subdivision (Viewport Display)](#additional-subdivision)
 
 
 <br>
@@ -296,13 +299,17 @@ Bu kategorinin eski adı "Hair" di.
 * #### Shape
 a
 
+* #### Curve Subdivisions
+a
 
 
+## Viewport Display
 
+* #### Shape
+a
 
-
-
-
+* #### Additional Subdivision
+a
 
 
 

@@ -139,9 +139,14 @@ Light Tree ışıkların şiddetini/uzaklığı falan hesaplayıp, ışıkların
 ## Advanced
 
 * #### Seed
-a
+Noise için seed kullanabilmemize yarar. Farklı seed numarası vermek her defasında farklı noise oluşturur. Eğer yandaki saat işaretine tıklarsanız otomatikmen her frame'de seed numarasını rastgele seçer. Bu da render'da tek bir noise olmasının önüne geçer. Aşağıdaki videolardan tek bir noise olduğunda ve her frame'de farklı noise olduğunda nasıl sonuçlar çıktığını görebilirsiniz.
 
+<video src='https://github.com/helallao/qweqwe/assets/78656003/be6beed1-b937-4165-9c0a-9282b9d27522'></video>
 <video src='https://github.com/helallao/qweqwe/assets/78656003/70fa39e8-8364-4c70-8acc-2264f8e8b859'></video>
+
+
+
+
 
 
 

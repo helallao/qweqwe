@@ -37,6 +37,10 @@ Aşağıdaki döküman Cycles render motoru kullanıldığı varsayılarak hazı
 * [Prefilter (Render)](#prefilter)
 * [Light Tree (Lights)](#light-tree)
 * [Light Threshold (Lights)](#light-threshold)
+* [Seed (Advanced)](#seed)
+* [Sample Offset (Advanced)](#sample-offset)
+* [Scrambling Distance (Advanced)](#scrambling-distance)
+* [Multiplier (Advanced)](#multiplier)
 
 
 <br>
@@ -144,11 +148,14 @@ Noise için seed kullanabilmemize yarar. Farklı seed numarası vermek her defas
 <video src='https://github.com/helallao/qweqwe/assets/78656003/be6beed1-b937-4165-9c0a-9282b9d27522'></video>
 <video src='https://github.com/helallao/qweqwe/assets/78656003/70fa39e8-8364-4c70-8acc-2264f8e8b859'></video>
 
+* #### Sample Offset
+Render alırken kaçıncı frame'den başlanacağını belirler. Yani verdiğiniz sayı kadar frame'i atlar.
 
+* #### Scrambling Distance
+"Automatic" ve "Viewport" şeklinde iki seçenek var. "Viewport" seçeneği "Scrambling Distance" ayarını Viewport için aktifleştirir. "Automatic" ayarı "Scrambling Distance" ayarını için "Multiplier" değerini otomatik olarak belirleyen bir modu açar. Yani "Automatic" modu blender'ın "Multiplier" değerini kendisinin belirlemesini söyler. "Automatic" güzel sonuçlar vermeyebilir bu yüzden "Multiplier" değerini kendiniz test ederek bulmanız daha doğrudur. İlk baş "Scrambling Distance" ayarının ne olduğundan bahsedelim, "Scrambling Distance" ayarı birbirine komşu piksellerin rastgeleligini azaltır, böylelikle pikseller arasında benzerlik olur, aynı zamanda bu işlem önbellekte olan bilgileri birden fazla piksel için kullanabildiği için render işlemlerini azaltır. Daha az işlem ile aynı kaliteye yakın render alabilmemize yarar.
 
-
-
-
+* #### Multiplier
+"Scrambling Distance" ayarı derecesi. 1 ve üzeri iken Scrambling kapalı anlamına gelir. Değeri düşürdükçe Scrambling artar. Yani bu değeri düşürünce rastgelelik de azalıyormuş gibi düşünün. Bu değeri render'da bozulmaların olmadığı dereceye manuel olarak ayarlayıp kullanabilirsiniz.
 
 
 

@@ -136,6 +136,74 @@ Light Tree ışıkların şiddetini/uzaklığı falan hesaplayıp, ışıkların
 "Light Threshold" ayarı kapatıldığında bu ayar aktifleşir. Bu ayar minimum ne kadar ışık şiddeti için hesaplama yapılması gerektiğini verir. Mesela çok düşük şiddetli veya çok uzakta olan ve etkisi çok az olan ışıkları hesaplama işlemlerine katmak istemiyorsanız bu ayarı biraz arttırabilirsiniz. Ya da minimum derecede etki eden ışıkları bile hesaplamak istiyorsanız bu ayarı düşürebilirsiniz. 0 yaparak bütün ışıkların hesaplanmasını sağlayabilirsiniz ama render süresi de uzar. Yani anladığınız üzere bu ayar ışık etkisinin hesaba katılabilmesi için minimum ne kadar olması gerektiğini belirtiyor, bu derecenin altında olan ışıklar da hesaplanmıyor.
 
 
+## Advanced
+
+* #### Seed
+a
+
+<video src="../Dosyalar/Render_Sampling_Seed.mp4"></video>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -51,6 +51,8 @@ Aşağıdaki döküman Cycles render motoru kullanıldığı varsayılarak hazı
 * [Transmission (Max Bounces)](#transmission)
 * [Volume (Max Bounces)](#volume)
 * [Transparent (Max Bounces)](#transparent)
+* [Direct Light (Clamping)](#direct-light)
+* [Indirect Light (Clamping)](#indirect-light)
 
 
 <br>
@@ -179,7 +181,7 @@ Transparent ışık ışınları için minimum sekme sayısı. Bu sayıyı artt�
 
 
 # [Light Paths](https://docs.blender.org/manual/en/3.6/render/cycles/render_settings/light_paths.html)
-Bu kategoride ışık ve ışık ışınları ile ilgili ayarlar vardır.
+Bu kategoride ışık ve ışık ışınları ile ilgili ayarlar vardır. Default olarak gelen değerler biraz fazla olabilir, tabi amacınıza göre bunları kendiniz belirlemelisiniz ama genel olarak güzel sonuç veren bir şekilde ayar yapacak olursanız şöyle yapabilirsiniz, sırasıyla: 4, 2, 2, 4, 0, 4.
 
 
 ## Max Bounces
@@ -203,6 +205,13 @@ Volume özelliği taşıyan shader'lar için maximum sekme sayısı.
 [Transparent](../Shader%20Nodes#transparent-bsdf) özelliği taşıyan shader'lar için maximum sekme sayısı.
 
 
+## Clamping
+
+* #### Direct Light
+Işığın direktmen vurduğu yerlerde ışık parlaklığını düşürebilmemize yarar. Bu ayarı değiştirmenin hem iyi hem kötü etkileri olacağı için gerçekten lazım değilse değiştirmeyin.
+
+* #### Indirect Light
+Işığın sekerek vurduğu yerlerde ışık parlaklığını düşürebilmemize yarar. Eğer render aldıktan sonra noise gibi etrafta nokta nokta parlayan kısımlar görüyorsanız muhtemelen indirect light yani ışığın sekerek vurduğu noktalardan dolayıdır. Bu ayarı kısarak bu noktaların parlaklığını düşürebilir yani daha görünmez yapabilirsiniz ama unutmayın, bu ayar ışığın sekerek vurduğu bütün noktaları etkiler, yani render üzerinde genel olarak parlaklık düşüşüne sebep olabilir, aynısı "Direct Light" ayarı için de geçerli. Yine de nokta nokta parlak ışıklar kalıyorsa bu ayarı düşürebilirsiniz. Çok fazla düşürmek bazı sorunlar çıkarabilir.
 
 
 

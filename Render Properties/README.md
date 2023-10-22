@@ -208,7 +208,7 @@ Volume özelliği taşıyan shader'lar için maximum sekme sayısı.
 ## Clamping
 
 * #### Direct Light
-Işığın direktmen vurduğu yerlerde ışık parlaklığını düşürebilmemize yarar. Bu ayarı değiştirmenin hem iyi hem kötü etkileri olacağı için gerçekten lazım değilse değiştirmeyin.
+Işığın direktmen vurduğu yerlerde ışık parlaklığını düşürebilmemize yarar. Bu ayarı değiştirmenin hem iyi hem kötü etkileri olacağı için gerçekten lazım değilse değiştirmeyin. Eğer değeri arttırırsanız ışık parlaklığı azalır.
 
 * #### Indirect Light
 Işığın sekerek vurduğu yerlerde ışık parlaklığını düşürebilmemize yarar. Eğer render aldıktan sonra noise gibi etrafta nokta nokta parlayan kısımlar görüyorsanız muhtemelen indirect light yani ışığın sekerek vurduğu noktalardan dolayıdır. Bu ayarı kısarak bu noktaların parlaklığını düşürebilir yani daha görünmez yapabilirsiniz ama unutmayın, bu ayar ışığın sekerek vurduğu bütün noktaları etkiler, yani render üzerinde genel olarak parlaklık düşüşüne sebep olabilir, aynısı "Direct Light" ayarı için de geçerli. Yine de nokta nokta parlak ışıklar kalıyorsa bu ayarı düşürebilirsiniz. Çok fazla düşürmek bazı sorunlar çıkarabilir.
@@ -217,11 +217,10 @@ Işığın sekerek vurduğu yerlerde ışık parlaklığını düşürebilmemize
 ## Caustics
 
 * #### Filter Glossy
-a
+Bu ayarları anlatmadan önce caustics'in ne olduğunu bilmelisiniz. [Buradan](https://en.wikipedia.org/wiki/Caustic_(optics)) wikipedia sayfasına bakabilirsiniz. Kısacası saydam objelere ışık vurduktan sonra arka yüzeye objenin oluşturduğu şekiller diyebiliriz. Bu ayarı arttırmak caustics'i yani objenin arkasına yaptığı yansımayı yumuşatır, blur efekti ekler. Eğer bu ayarı 0 yaparsanız blur efekti de uygulanmaz, objenin arkasına yaptığı yansımanın çok keskin olduğunu görebilirsiniz.
 
-
-
-
+<img src="../Dosyalar/Render_Caustics_FilterGlossy_0.png">
+<img src="../Dosyalar/Render_Caustics_FilterGlossy_1.png">
 
 
 

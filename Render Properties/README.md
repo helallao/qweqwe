@@ -141,7 +141,7 @@ Light Tree ışıkların şiddetini/uzaklığı falan hesaplayıp, ışıkların
 * #### Seed
 a
 
-<video src='../Dosyalar/Render_Sampling_Seed.mp4' width=180/>
+<video src='../Dosyalar/Render_Sampling_Seed.mp4'></video>
 
 
 

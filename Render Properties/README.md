@@ -56,7 +56,7 @@ Aşağıdaki döküman Cycles render motoru kullanıldığı varsayılarak hazı
 * [Filter Glossy (Caustics)](#filter-glossy)
 * [Reflective Caustics (Caustics)](#reflective-caustics)
 * [Refractive Caustics (Caustics)](#refractive-caustics)
-
+* [Method (Fast GI Approximation)](#method)
 
 
 <br>
@@ -232,7 +232,10 @@ Objenin ışık vurunca arkasına yaptığı yansımaya objenin rengini eklemeyi
 Objenin ışık vurunca arkasına yaptığı yansımayı kapatır, sadece gölge olur.
 
 
+## Fast GI Approximation
 
+* #### Method
+a
 
 
 

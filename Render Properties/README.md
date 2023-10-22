@@ -57,6 +57,10 @@ Aşağıdaki döküman Cycles render motoru kullanıldığı varsayılarak hazı
 * [Reflective Caustics (Caustics)](#reflective-caustics)
 * [Refractive Caustics (Caustics)](#refractive-caustics)
 * [Method (Fast GI Approximation)](#method)
+* [AO Factor (Fast GI Approximation)](#ao-factor)
+* [AO Distance (Fast GI Approximation)](#ao-distance)
+* [Viewport Bounces (Fast GI Approximation)](#viewport-bounces)
+* [Render Bounces (Fast GI Approximation)](#render-bounces)
 
 
 <br>
@@ -235,15 +239,24 @@ Objenin ışık vurunca arkasına yaptığı yansımayı kapatır, sadece gölge
 ## Fast GI Approximation
 
 * #### Method
-a
+"Fast GI Approximation" ayarı indirect light'lar için yani sekerek gelen ışıklar için global illumination kullanmak yerine [Ambient Occlusion](../Shader%20Nodes#ambient-occlusion) kullanır ve ışığı Ambient Occlusion değeri ile yüzeyin rengini değiştirerek (tint) simule eder. Bu da daha hızlı hesaplama ile sonuçlanır ama gerçekçi sonuçlar vermeyebilir. %40 civarında daha hızlı render almanıza olanak sağlar.
 
+Mod | Açıklama
+:---: | :---:
+‎Replace | Yüzeyin parlaklığını ve rengini ışığa göre yeniden hesaplar. Bu da toplam parlaklığın biraz azalmasına sebep olur.
+Add | Yüzeylerin parlaklığını ve rengini ışığa göre arttırır. Bu da daha parlak render oluşturur.
 
+* #### AO Factor
+[Ambient Occlusion](../Shader%20Nodes#ambient-occlusion) şiddeti.
 
+* #### AO Distance
+[Ambient Occlusion](../Shader%20Nodes#ambient-occlusion) için gölgeleri hesaplama mesafesi. Bu değer düşünce gölgeler de parlaklığını kaybeder.
 
+* #### Viewport Bounces
+Viewport için ışığın kaç defa sektikten sonra hesaplanacağını ayarlar.
 
-
-
-
+* #### Render Bounces
+Render için ışığın kaç defa sektikten sonra hesaplanacağını ayarlar.
 
 
 

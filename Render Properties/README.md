@@ -81,7 +81,8 @@ Aşağıdaki döküman Cycles render motoru kullanıldığı varsayılarak hazı
 * [Max Subdivision (Render)](#max-subdivision-1)
 * [Child Particles (Render)](#child-particles-1)
 * [Texture Limit (Render)](#texture-limit-1)
-
+* [Camera Culling (Culling)](#camera-culling)
+* [Distance Culling (Culling)](#distance-culling)
 
 <br>
 <br>
@@ -350,6 +351,22 @@ Render için "Child Particle" özelliği kullanan bütün Particle System'lar i�
 
 * #### Texture Limit
 Render için texture kullanan bütün materyaller için maximum texture çözünürlüğü. Mesela bunu 1024 yani 1k yaparsanız 4k texture'lar kullanamazsınız.
+
+
+## Culling
+
+* #### Camera Culling
+Kamera dışındaki şeyleri temizlememize yarar. Eğer bu ayarı 0 yaparsanız sahnede olacak şeylerin hepsinin kameranın içinde olması gerekir. Yani kamerada olmayan objeler sahneden kaldırılır ve sahneyi etkileyemez. Bu ayarı 0'dan yukarıya doğru arttırırsanız, kameranın gördüğü alanın çevresindeki şeyler de sahneye dahil olmaya başlar. Yani bunu bir nevi kameranın gördüğü alanı büyütüyormuşsunuz ve çevredeki objeler kameranın gördüğü alana dahil oluyor ve sahneden silinmiyor gibi düşünün (kamera gerçekten büyümüyor, örnek veriyorum). Yani kameranın çevreye doğru kapsadığı Culling alanını genişletir.
+
+* #### Distance Culling
+Bu ayar kameraya verdiğiniz değerden daha uzak olan şeyleri dahil etmez. Yani eğer objeler bu ayara verdiğiniz mesafe değerinden daha uzaktalarsa, yani bu mesafede değillerse sahneden silinirler.
+
+
+
+
+
+
+
 
 
 

@@ -46,6 +46,12 @@ Aşağıdaki döküman Cycles render motoru kullanıldığı varsayılarak hazı
 
 # [Light Paths](#light-paths-1)
 * [Total (Max Bounces)](#total)
+* [Diffuse (Max Bounces)](#diffuse)
+* [Glossy (Max Bounces)](#glossy)
+* [Transmission (Max Bounces)](#transmission)
+* [Volume (Max Bounces)](#volume)
+* [Transparent (Max Bounces)](#transparent)
+
 
 <br>
 <br>
@@ -179,17 +185,22 @@ Bu kategoride ışık ve ışık ışınları ile ilgili ayarlar vardır.
 ## Max Bounces
 
 * #### Total
-a
+Işık ışınları için toplam maximum sekme sayısı.
 
+* #### Diffuse
+[Diffuse](../Shader%20Nodes#is-diffuse-ray-output) özelliği taşıyan shader'lar için maximum sekme sayısı.
 
+* #### Glossy
+[Glossy](../Shader%20Nodes#is-glossy-ray-output) özelliği taşıyan shader'lar için maximum sekme sayısı.
 
+* #### Transmission
+[Transmission](../Shader%20Nodes#is-transmission-ray-output) özelliği taşıyan shader'lar için maximum sekme sayısı.
 
+* #### Volume
+Volume özelliği taşıyan shader'lar için maximum sekme sayısı.
 
-
-
-
-
-
+* #### Transparent
+[Transparent](../Shader%20Nodes#transparent-bsdf) özelliği taşıyan shader'lar için maximum sekme sayısı.
 
 
 

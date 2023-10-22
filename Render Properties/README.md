@@ -269,17 +269,17 @@ Render için ışığın kaç defa sektikten sonra hesaplanacağını ayarlar.
 
 
 # [Volumes](https://docs.blender.org/manual/en/3.6/render/cycles/render_settings/volumes.html)
-a
+Bu kategoride volume'ler ile ilgili ayarlar var.
 
 
 * #### Step Rate Render
-a
+Render için volume kalitesi. Bu ayarın değerini düşürdükçe kalite artar, arttırdıkça kalite düşer.
 
 * #### Viewport
-a
+Viewport için volume kalitesi. Bu ayarın değerini düşürdükçe kalite artar, arttırdıkça kalite düşer.
 
 * #### Max Steps
-a
+Volume hesaplanırken gönderilen ışınların volume içerisinde ne kadar derine gidebileceğini belirler. Bu ayarın default değeri çok yüksek, 10-30 arası bir şeyler yapabilirsiniz. Eğer kaliteli olsun diyorsanız 100 yapabilirsiniz ama 1000 yapmayın çünkü gereksiz oluyor ve render süresi uzuyor.
 
 
 

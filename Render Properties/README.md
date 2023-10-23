@@ -130,9 +130,9 @@ Aşağıdaki döküman Cycles render motoru kullanıldığı varsayılarak hazı
 * [View Transform](#view-transform)
 * [Look](#look)
 * [Exposure](#exposure-1)
-* [Gamma](#gamma-1)
+* [Gamma](#gamma)
 * [Sequencer](#sequencer)
-
+* [Curve Widget (Use Curve)](#curve-widget-1)
 
 
 

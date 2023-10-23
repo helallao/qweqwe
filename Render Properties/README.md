@@ -92,6 +92,11 @@ Aşağıdaki döküman Cycles render motoru kullanıldığı varsayılarak hazı
 
 # [Motion Blur](#motion-blur-1)
 * [Position](#position)
+* [Shutter](#shutter)
+* [Rolling Shutter](#rolling-shutter)
+* [Rolling Shutter Duration](#rolling-shutter-duration)
+* [Curve Widget (Shutter Curve)](#curve-widget)
+
 
 
 <br>
@@ -429,7 +434,7 @@ Sadece "Rolling Shutter" ayarı açıkken vardır. Rolling Shutter efektinin mot
 ## Shutter Curve
 
 * #### Curve Widget
-Curve Widget kullanımı hakkında detaylı açıklamalara [buradan](https://docs.blender.org/manual/en/latest/interface/controls/templates/curve.html#ui-curve-widget) ulaşabilirsiniz.
+Curve Widget kullanımı hakkında detaylı açıklamalara [buradan](https://docs.blender.org/manual/en/latest/interface/controls/templates/curve.html#ui-curve-widget) ulaşabilirsiniz. Curve'ün X ekseni zamanı temsil eder, yani önceki frame ve sonraki frame. Curve'ün Y ekseni fade derecesini yani sönme derecesini (yavaş yavaş yok olma, görünmezleşme) temsil eder.
 
 
 

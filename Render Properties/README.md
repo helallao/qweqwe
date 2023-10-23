@@ -107,6 +107,12 @@ Aşağıdaki döküman Cycles render motoru kullanıldığı varsayılarak hazı
 # [Performance](#performance-1)
 * [Threads Mode (Threads)](#threads-mode)
 * [Threads (Threads)](#threads)
+* [Use Tiling (Memory)](#use-tiling)
+* [Tile Size (Memory)](#tile-size)
+* [Use Spatial Splits (Acceleration Structure)](#use-spatial-splits)
+* [BVH Time Steps (Acceleration Structure)](#bvh-time-steps)
+* [Use Curves BVH (Acceleration Structure)](#use-curves-bvh)
+* [Use Compact BVH (Acceleration Structure)](#use-compact-bvh)
 
 
 <br>
@@ -523,6 +529,13 @@ Curves (hair) için daha fazla ram kullanımı ile daha hızlı render sunuyor. 
 
 * #### Use Compact BVH
 Bu ayarı açarsanız ram kullanımı azalır ama render süresi uzar.
+
+
+
+
+
+
+
 
 
 

@@ -101,6 +101,8 @@ Aşağıdaki döküman Cycles render motoru kullanıldığı varsayılarak hazı
 * [Exposure](#exposure)
 * [Type (Pixel Filter)](#type)
 * [Width (Pixel Filter)](#width)
+* [Transparent Glass (Transparent)](#transparent-glass)
+* [Roughness Threshold (Transparent)](#roughness-threshold)
 
 
 <br>
@@ -468,9 +470,14 @@ Blackman-Harris | Bu mod render'da hem yumuşatma efekti uyguladığı hem de ke
 Sadece "Type" ayarı "Gaussian" ve "Blackman-Harris" modunda iken vardır. Bu ayarın değerini yükselttikçe yumuşatma efekti arttırılır.
 
 
+## Transparent
+Bu kategorinin yanındaki tik işaretine tıklayarak sahnenizin arka planını yani dünyayı transparent yani görünmez yapabilirsiniz. Bu ayar eğer sahnenizin arka planını render'dan sonra ayarlayacaksanız kullanabilirsiniz. Ayrıca bu kategorideki alt ayarları kullanmak için de tik işaretine tıklamanız gerek.
 
+* #### Transparent Glass
+Bu ayar [Transparent](../Shader%20Nodes#transparent-bsdf) özelliği taşıyan shader'lar için arka planı göstermesini engellemeye yarar. Ayrıca bu ayar açıkken "Roughness Threshold" ayarı da açılır ve buradan roughness limiti koyabilirsiniz.
 
-
+* #### Roughness Threshold
+Sadece "Transparent Glass" ayarı açıkken vardır. Bu ayar "Transparent Glass" ayarı için roughness limiti olarak görev görür. [Transparent](../Shader%20Nodes#transparent-bsdf) özelliği taşıyan shader'ların roughness değeri eğer bu ayara verdiğiniz değerden yüksekse arka planı göstermezler yani opak olurlar. Eğer shader'ın roughness değeri bu ayara verdiğiniz değerden düşükse [Transparent](../Shader%20Nodes#transparent-bsdf) olabilir yani arka planı gösterebilir.
 
 
 

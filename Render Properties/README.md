@@ -3,7 +3,7 @@ Aşağıdaki döküman Cycles render motoru kullanıldığı varsayılarak hazı
 # Ek Bilgiler
 
 <details>
-<summary>Güzel Kaynaklar</summary>
+<summary>Kullanılan Güzel Kaynaklar</summary>
 <br>
 
 * [The Blender 2.8 Encyclopedia](https://www.udemy.com/course/the-blender-encyclopedia/) - Udemy'deki sayısı bir elin parmaklarını geçmeyecek kadar az olan, gerçekten uğraşılmış kurslardan birisi. Bizim için önemli olan 17. bölüm "Render (Cycles)", render ayarlarının açıklamalarının olduğu bölüm, tabi isterseniz diğer kısımlara da bakabilirsiniz. [Buradan](https://btdig.com/search?q=The+Blender+2.8+Encyclopedia) torrent'ini bulabilirsiniz (vpn gerekebilir).

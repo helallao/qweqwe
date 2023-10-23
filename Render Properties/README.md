@@ -610,7 +610,7 @@ Bu kategoride renk ayarları vardır.
 
 
 * #### Display Device
-Render'ın görüntüleneceği cihazın renk uzayı. Render bu renk uzayına göre yapılandırılır.
+Render'ın görüntüleneceği cihazın renk uzayı. Render bu renk uzayına göre yapılandırılır. Eğer monitörünüzün renk uzayı farklı değilse bu ayarı "sRGB" modunda bırakın.
 
 * #### View Transform
 a

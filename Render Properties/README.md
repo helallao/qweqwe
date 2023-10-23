@@ -129,8 +129,8 @@ Aşağıdaki döküman Cycles render motoru kullanıldığı varsayılarak hazı
 * [Display Device](#display-device)
 * [View Transform](#view-transform)
 * [Look](#look)
-* [Exposure](#exposure)
-* [Gamma](#gamma)
+* [Exposure](#exposure-1)
+* [Gamma](#gamma-1)
 * [Sequencer](#sequencer)
 
 

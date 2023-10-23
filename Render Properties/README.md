@@ -495,10 +495,19 @@ a.
 ## Threads
 
 * #### Threads Mode
-a.
+Eğer render için [Device](#device) olarak cpu (işlemci) kullanıyorsanız bu ayar ile toplamda kullanılacak thread sayısını belirleyebilirsiniz. "Auto-Detect" modunda otomatikmen bütün thread'ler kullanılır. "Fixed" modunda "Threads" ayarı açılır ve oradan kullanmak istediğiniz thread sayısını belirtebilirsiniz.
 
 * #### Threads
-a.
+Sadece "Threads Mode" ayarı "Fixed" modunda iken vardır. Buradan kullanılacak thread sayısını belirleyebilirsiniz.
+
+
+## Memory
+
+* #### Use Tiling
+Tile şeklinde render etme modunu açar. Eğer güzel tile değerleri verirseniz hızlı bir şekilde render gerçekleştirebilirsiniz.
+
+* #### Tile Size
+Render işleminde her bir tile için boyut değeri. Eğer gpu (ekran kartı) üzerinde render alıyorsanız en hızlı şekilde render almak için 512 veya 256 kullanabilirsiniz. Eğer cpu (işlemci) üzerinde render alıyorsanız en hızlı şekilde render almak için 64 veya 32 kullanabilirsiniz.
 
 
 

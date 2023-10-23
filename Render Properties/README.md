@@ -127,6 +127,15 @@ Aşağıdaki döküman Cycles render motoru kullanıldığı varsayılarak hazı
 
 # [Color Management](#color-management-1)
 * [Display Device](#display-device)
+* [View Transform](#view-transform)
+* [Look](#look)
+* [Exposure](#exposure)
+* [Gamma](#gamma)
+* [Sequencer](#sequencer)
+
+
+
+
 
 
 <br>
@@ -597,15 +606,31 @@ a.
 
 
 # [Color Management](https://docs.blender.org/manual/en/3.6/render/color_management.html)
-a.
+Bu kategoride renk ayarları vardır.
 
 
 * #### Display Device
-a.
+Render'ın görüntüleneceği cihazın renk uzayı. Render bu renk uzayına göre yapılandırılır.
 
+* #### View Transform
+a
 
+* #### Look
+a
 
+* #### Exposure
+a
 
+* #### Gamma
+a
+
+* #### Sequencer
+a
+
+## Use Curves
+
+* #### Curve Widget
+Curve Widget kullanımı hakkında detaylı açıklamalara [buradan](https://docs.blender.org/manual/en/latest/interface/controls/templates/curve.html#ui-curve-widget) ulaşabilirsiniz. Bu curve render'daki renkleri değiştirir, çalışma şekli aynen RGB Curves shader node'unun [Curve Widget'ı](../Shader%20Nodes#curve-widget-node-input) gibidir.
 
 
 

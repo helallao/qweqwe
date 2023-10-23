@@ -119,7 +119,7 @@ Aşağıdaki döküman Cycles render motoru kullanıldığı varsayılarak hazı
 # [Bake](#bake-1)
 
 # [Grease Pencil](#grease-pencil-2)
-
+* [Anti-Aliasing Threshold](#a)
 
 <br>
 <br>

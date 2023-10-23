@@ -402,12 +402,20 @@ a
 
 
 # [Motion Blur](https://docs.blender.org/manual/en/3.6/render/cycles/render_settings/motion_blur.html)
-a
+Bu kategoride [motion blur](https://en.wikipedia.org/wiki/Motion_blur) efekti ile ilgili ayarları yapabilirsiniz. Motion blur frame'ler arasına geçiş efekti ekler. Eğer animasyon yapıyorsanız motion blur animasyonlarınıza gerçekçilik ekleyecektir. Kategorinin yanındaki tik işaretine basarak motion blur'u etkinleştirebilir/devre dışı bırakabilirsiniz.
 
 
 * #### Position
-a
+Motion blur efektinin uygulanacağı yönü belirtir.
 
+Mod | Açıklama
+:---: | :---:
+‎Start on Frame | Şu anki frame'den sonraki frame'e doğru motion blur oluşturur. Yani mesela diyelim ki bi animasyon yaptınız ve 30. frame'i render ediyorsunuz. Eğer bu ayarı seçerseniz 30. frame'den 31. frame'e doğru motion blur efekti verilir.
+‎Center on Frame | Şu anki frame'den bir önceki ve sonraki frame'e doğru motion blur oluşturur yani tam ortada. Yani mesela diyelim ki bi animasyon yaptınız ve 30. frame'i render ediyorsunuz. Eğer bu ayarı seçerseniz 29. frame'den 31. frame'e doğru motion blur efekti verilir (daha doğrusu 30'dan 29 ve 31'e).
+‎End on Frame | Önceki frame'den şu anki frame'e doğru motion blur oluşturur. Yani mesela diyelim ki bi animasyon yaptınız ve 30. frame'i render ediyorsunuz. Eğer bu ayarı seçerseniz 29. frame'den 30. frame'e doğru motion blur efekti verilir.
+
+* #### Shutter
+Motion blur derecesi, bu değeri arttırmak motion blur efekti derecesini arttırır. 0 yaparsanız motion blur olmaz. Eğer isterseniz 1'den fazla değerler de verebilirsiniz. Bu ayarı arttırmak motion blur'u arttırır ve motion blur'un artması render süresini uzatır, aynı zamanda render'daki noise de artar.
 
 
 

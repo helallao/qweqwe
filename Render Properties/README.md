@@ -104,6 +104,10 @@ Aşağıdaki döküman Cycles render motoru kullanıldığı varsayılarak hazı
 * [Transparent Glass (Transparent)](#transparent-glass)
 * [Roughness Threshold (Transparent)](#roughness-threshold)
 
+# [Performance](#performance-1)
+* [Threads Mode (Threads)](#threads-mode)
+* [Threads (Threads)](#threads)
+
 
 <br>
 <br>
@@ -448,7 +452,7 @@ Curve Widget kullanımı hakkında detaylı açıklamalara [buradan](https://doc
 
 
 # [Film](https://docs.blender.org/manual/en/3.6/render/cycles/render_settings/film.html)
-Bu kategoride...
+Bu kategoride render ile ilgili görünüm ve filtre ayarları var.
 
 
 * #### Exposure
@@ -480,7 +484,21 @@ Bu ayar [Transparent](../Shader%20Nodes#transparent-bsdf) özelliği taşıyan s
 Sadece "Transparent Glass" ayarı açıkken vardır. Bu ayar "Transparent Glass" ayarı için roughness limiti olarak görev görür. [Transparent](../Shader%20Nodes#transparent-bsdf) özelliği taşıyan shader'ların roughness değeri eğer bu ayara verdiğiniz değerden yüksekse arka planı göstermezler yani opak olurlar. Eğer shader'ın roughness değeri bu ayara verdiğiniz değerden düşükse [Transparent](../Shader%20Nodes#transparent-bsdf) olabilir yani arka planı gösterebilir.
 
 
+<br>
+<br>
 
+
+# [Performance](https://docs.blender.org/manual/en/3.6/render/cycles/render_settings/performance.html)
+a.
+
+
+## Threads
+
+* #### Threads Mode
+a.
+
+* #### Threads
+a.
 
 
 

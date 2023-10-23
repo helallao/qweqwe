@@ -118,7 +118,7 @@ Aşağıdaki döküman Cycles render motoru kullanıldığı varsayılarak hazı
 
 # [Bake](#bake-1)
 
-# [Grease Pencil](#grease-pencil-1)
+# [Grease Pencil](#grease-pencil-2)
 
 
 <br>

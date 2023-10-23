@@ -613,10 +613,18 @@ Bu kategoride renk ayarları vardır.
 Render'ın görüntüleneceği cihazın renk uzayı. Render bu renk uzayına göre yapılandırılır. Eğer monitörünüzün renk uzayı farklı değilse bu ayarı "sRGB" modunda bırakın.
 
 * #### View Transform
-a
+Render edilen sahne bilgisinin nasıl dönüştürüleceğini belirler. Yani oluşturulacak resmin bilgisini hangi formata dönüştüreceğini belirler.
+
+Mod | Açıklama
+:---: | :---:
+‎Standard | "Display Device" dönüşümü haricinde dönüşüm yapmaz.
+Filmic | High Dynamic Range yani değeri 0-1 arası olmayan, daha yüksek olan değerleri de göstermek için, yani daha fazla detay göstermek için değerleri düzenleyip dönüşüm yapar.
+Filmic Log | Bilmiyorum.
+Raw | Dönüşüm yapmaz.
+False Color | Dynamic Range'i görüntülemek için sıcaklık map'i şeklinde dönüşüm yapar. Yani hangi kısımların daha parlak olduğunu anlayabilelim diye inceleme amaçlı bir dönüşümdür. Karanlık kısımlar (0'a kayan) koyu mavi, orta renkler yeşil, parlak/açık kısımlar kırmızı olarak görünür. Yani soğuktan sıcağa doğru (Koyu Mavi > Açık Mavi > Yeşil > Sarı > Kırmızı) şeklinde.
 
 * #### Look
-a
+"View Transform" dönüşümü gerçekleşmeden önce render'ın parlaklık derecesini değiştirir.
 
 * #### Exposure
 Render ışık parlağını ayarlar.

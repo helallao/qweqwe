@@ -114,6 +114,7 @@ Aşağıdaki döküman Cycles render motoru kullanıldığı varsayılarak hazı
 * [Use Curves BVH (Acceleration Structure)](#use-curves-bvh)
 * [Use Compact BVH (Acceleration Structure)](#use-compact-bvh)
 * [Final Render (Persistent Data)](#final-render)
+* [Pixel Size (Viewport)](#pixel-size)
 
 
 <br>
@@ -535,9 +536,13 @@ Bu ayarı açarsanız ram kullanımı azalır ama render süresi uzar.
 ## Final Render
 
 * #### Persistent Data
-a
+Bu ayar açıksa render işlemi gerçekleşirken veriler ram'de tutulur ve tekrar kullanılır böylelikle render süresi kısalır.
 
 
+## Viewport
+
+* #### Pixel Size
+Viewport için sahne çözünürlüğü, 2x yaparsanız %50, 4x yaparsanız %25 şeklinde.
 
 
 

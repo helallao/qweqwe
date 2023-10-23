@@ -633,7 +633,7 @@ Render ışık parlağını ayarlar.
 Render'ın [gamma değerini](https://en.wikipedia.org/wiki/Gamma_correction) değiştirir.
 
 * #### Sequencer
-a
+Renk uzayı, render bu renk uzayına göre yapılandırılır.
 
 ## Use Curves
 

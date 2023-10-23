@@ -606,7 +606,7 @@ a.
 
 
 # [Color Management](https://docs.blender.org/manual/en/3.6/render/color_management.html)
-Bu kategoride renk ayarları vardır.
+Bu kategoride renk ayarları vardır. Buradaki ayarları daha iyi anlamak için [buraya](https://blender.stackexchange.com/questions/134495/color-management-what-is-the-difference-between-display-device-view-transform) bakabilirsiniz.
 
 
 * #### Display Device

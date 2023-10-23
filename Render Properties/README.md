@@ -497,7 +497,7 @@ Sadece "Transparent Glass" ayarı açıkken vardır. Bu ayar "Transparent Glass"
 
 
 # [Performance](https://docs.blender.org/manual/en/3.6/render/cycles/render_settings/performance.html)
-a.
+Bu kategoride render performans ayarları vardır.
 
 
 ## Threads

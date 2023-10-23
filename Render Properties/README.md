@@ -121,6 +121,14 @@ Aşağıdaki döküman Cycles render motoru kullanıldığı varsayılarak hazı
 # [Grease Pencil](#grease-pencil-2)
 * [Anti-Aliasing Threshold](#anti-aliasing-threshold)
 
+# [Freestyle](#freestyle-1)
+* [Line Thickness Mode](#line-thickness-mode)
+* [Line Thickness](#line-thickness)
+
+# [Color Management](#color-management-1)
+* [Display Device](#display-device)
+
+
 <br>
 <br>
 
@@ -567,6 +575,34 @@ a.
 
 * #### Anti-Aliasing Threshold
 a.
+
+
+<br>
+<br>
+
+
+# [Freestyle](https://docs.blender.org/manual/en/3.6/render/freestyle/render.html)
+a.
+
+
+* #### Line Thickness Mode
+a.
+
+* #### Line Thickness
+a.
+
+
+<br>
+<br>
+
+
+# [Color Management](https://docs.blender.org/manual/en/3.6/render/color_management.html)
+a.
+
+
+* #### Display Device
+a.
+
 
 
 

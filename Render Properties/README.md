@@ -116,6 +116,10 @@ Aşağıdaki döküman Cycles render motoru kullanıldığı varsayılarak hazı
 * [Final Render (Persistent Data)](#final-render)
 * [Pixel Size (Viewport)](#pixel-size)
 
+# [Bake](#bake-1)
+
+# [Grease Pencil](#grease-pencil-1)
+
 
 <br>
 <br>
@@ -543,6 +547,29 @@ Bu ayar açıksa render işlemi gerçekleşirken veriler ram'de tutulur ve tekra
 
 * #### Pixel Size
 Viewport için sahne çözünürlüğü, 2x yaparsanız %50, 4x yaparsanız %25 şeklinde.
+
+
+<br>
+<br>
+
+
+# [Bake](https://docs.blender.org/manual/en/3.6/render/cycles/baking.html)
+a.
+
+
+<br>
+<br>
+
+
+# [Grease Pencil](https://docs.blender.org/manual/en/3.6/render/cycles/render_settings/grease_pencil.html)
+a.
+
+
+* #### Anti-Aliasing Threshold
+a.
+
+
+
 
 
 

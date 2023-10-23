@@ -132,7 +132,7 @@ Aşağıdaki döküman Cycles render motoru kullanıldığı varsayılarak hazı
 * [Exposure](#exposure-1)
 * [Gamma](#gamma)
 * [Sequencer](#sequencer)
-* [Curve Widget (Use Curve)](#curve-widget-1)
+* [Curve Widget (Use Curves)](#curve-widget-1)
 
 
 
@@ -619,10 +619,10 @@ a
 a
 
 * #### Exposure
-a
+Render ışık parlağını ayarlar.
 
 * #### Gamma
-a
+Render'ın [gamma değerini](https://en.wikipedia.org/wiki/Gamma_correction) değiştirir.
 
 * #### Sequencer
 a

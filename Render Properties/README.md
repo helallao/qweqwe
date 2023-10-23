@@ -90,6 +90,9 @@ Aşağıdaki döküman Cycles render motoru kullanıldığı varsayılarak hazı
 * [Layer Tinting (Grease Pencil)](#layer-tinting)
 * [Antialiasing (Grease Pencil)](#antialiasing)
 
+# [Motion Blur](#motion-blur-1)
+* [Position](#position)
+
 
 <br>
 <br>
@@ -329,6 +332,10 @@ a
 a
 
 
+<br>
+<br>
+
+
 # [Simplify](https://docs.blender.org/manual/en/3.6/render/cycles/render_settings/simplify.html)
 Bu kategoride sahne için hem Viewport hem de render üzerinde kullanılacak özellikleri sınırlandırabiliriz. Buradaki ayarlar ile genel olarak sahne üzerinde efektlere sınırlar koyabiliriz. Kategorinin yanındaki tik işaretine basarak bu sınırlandırmaları etkinleştirebilir/devre dışı bırakabilirsiniz.
 
@@ -387,6 +394,18 @@ a
 a
 
 * #### Antialiasing
+a
+
+
+<br>
+<br>
+
+
+# [Motion Blur](https://docs.blender.org/manual/en/3.6/render/cycles/render_settings/motion_blur.html)
+a
+
+
+* #### Position
 a
 
 

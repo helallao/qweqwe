@@ -99,6 +99,8 @@ Aşağıdaki döküman Cycles render motoru kullanıldığı varsayılarak hazı
 
 # [Film](#film-1)
 * [Exposure](#exposure)
+* [Type (Pixel Filter)](#type)
+* [Width (Pixel Filter)](#width)
 
 
 <br>
@@ -448,7 +450,24 @@ Bu kategoride...
 
 
 * #### Exposure
-a
+Render ışık parlağını ayarlar.
+
+
+## Pixel Filter
+
+* #### Type
+Render üzerindeki keskin kısımları yumuşatma efekti uygulayan filtedir.
+
+Mod | Açıklama
+:---: | :---:
+‎Box | Bu mod "Width" ayarına sahip değildir. Keskin kenarları ve detayları tutar ama bu keskin kısımlar render'ı kötü gösterebilir.
+‎Gaussian | Bu mod "Blackman-Harris" moduna göre biraz daha fazla yumuşatma efekti uygular ama "Blackman-Harris" modu hem detayları hem de yumuşatma efektini daha iyi ayarladığı için daha iyi sonuçlar verir.
+Blackman-Harris | Bu mod render'da hem yumuşatma efekti uyguladığı hem de keskin kenarlardaki detayı düzgün şekilde tuttuğu için en iyi sonucu verir.
+
+* #### Width
+Sadece "Type" ayarı "Gaussian" ve "Blackman-Harris" modunda iken vardır. Bu ayarın değerini yükselttikçe yumuşatma efekti arttırılır.
+
+
 
 
 

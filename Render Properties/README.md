@@ -417,6 +417,30 @@ Mod | Açıklama
 * #### Shutter
 Motion blur derecesi, bu değeri arttırmak motion blur efekti derecesini arttırır. 0 yaparsanız motion blur olmaz. Eğer isterseniz 1'den fazla değerler de verebilirsiniz. Bu ayarı arttırmak motion blur'u arttırır ve motion blur'un artması render süresini uzatır, aynı zamanda render'daki noise de artar.
 
+* #### Rolling Shutter
+Motion blur efekti için [Rolling shutter](https://en.wikipedia.org/wiki/Rolling_shutter) efekti kullanmamıza yarar. Yani hareketli bir şekilde motion blur hesaplanır.
+
+* #### Rolling Shutter Duration
+Sadece "Rolling Shutter" ayarı açıkken vardır. Rolling Shutter efektinin motion blur derecesini ayarlar. 0 iken motion blur olmaz, sadece rolling shutter efekti olur. 1 iken hem rolling shutter hem de motion blur olur.
+
+<video src='https://github.com/helallao/qweqwe/assets/78656003/932792eb-60b5-42f3-8cfa-dfe235504bf2'></video>
+
+
+## Shutter Curve
+
+* #### Curve Widget
+Curve Widget kullanımı hakkında detaylı açıklamalara [buradan](https://docs.blender.org/manual/en/latest/interface/controls/templates/curve.html#ui-curve-widget) ulaşabilirsiniz.
+
+
+
+
+
+
+
+
+
+
+
 
 
 

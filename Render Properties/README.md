@@ -113,6 +113,7 @@ Aşağıdaki döküman Cycles render motoru kullanıldığı varsayılarak hazı
 * [BVH Time Steps (Acceleration Structure)](#bvh-time-steps)
 * [Use Curves BVH (Acceleration Structure)](#use-curves-bvh)
 * [Use Compact BVH (Acceleration Structure)](#use-compact-bvh)
+* [Final Render (Persistent Data)](#final-render)
 
 
 <br>
@@ -531,7 +532,10 @@ Curves (hair) için daha fazla ram kullanımı ile daha hızlı render sunuyor. 
 Bu ayarı açarsanız ram kullanımı azalır ama render süresi uzar.
 
 
+## Final Render
 
+* #### Persistent Data
+a
 
 
 

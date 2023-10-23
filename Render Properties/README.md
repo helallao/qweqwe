@@ -510,6 +510,20 @@ Tile şeklinde render etme modunu açar. Eğer güzel tile değerleri verirseniz
 Render işleminde her bir tile için boyut değeri. Eğer gpu (ekran kartı) üzerinde render alıyorsanız en hızlı şekilde render almak için 512 veya 256 kullanabilirsiniz. Eğer cpu (işlemci) üzerinde render alıyorsanız en hızlı şekilde render almak için 64 veya 32 kullanabilirsiniz.
 
 
+## Acceleration Structure
+
+* #### Use Spatial Splits
+Bu ayar şu işe yarar, render süresini kısaltmak için build süresini yani hazırlık süresini uzatır, böylelikle render için harcanacak zaman build için harcanmış olur ama bu ayar kullanışsız görünüyor, bu ayarı açsanız bile build süresinden dolayı render süresi kısalmıyor. Bu ayarın gerçekten render süresini azaltabilecek bir hız katmasını istiyorsanız olması gereken senaryo şu, cpu'nuz yani işlemciniz iyi olmalı çünkü build aşaması cpu üzerinde gerçekleşiyor (sanırım) ve render ettiğiniz sahne baya detaylı olmalı. Ancak böyle bir durumda build süresi cpu'nuz iyi olduğu için kısalacağından ve render süresi de build işleminden dolayı kısalacağından daha hızlı render alabilirsiniz. Yine de çok kullanışlı durmuyor, tabi test edip kendiniz görmelisiniz.
+
+* #### BVH Time Steps
+Ne olduğu tam olarak bilmiyorum ama hesaplamalar [BVH](https://en.wikipedia.org/wiki/Bounding_volume_hierarchy) (Bounding volume hierarchy) ile parçalara bölünüp ayrı ayrı hesaplanıyor ve daha fazla ram kullanımı ile daha hızlı render sunuyor.
+
+* #### Use Curves BVH
+Curves (hair) için daha fazla ram kullanımı ile daha hızlı render sunuyor. Bu ayarı kapatırsanız ram kullanımı azalır ama render süresi uzar.
+
+* #### Use Compact BVH
+Bu ayarı açarsanız ram kullanımı azalır ama render süresi uzar.
+
 
 
 

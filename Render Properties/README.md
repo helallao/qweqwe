@@ -83,6 +83,13 @@ Aşağıdaki döküman Cycles render motoru kullanıldığı varsayılarak hazı
 * [Texture Limit (Render)](#texture-limit-1)
 * [Camera Culling (Culling)](#camera-culling)
 * [Distance Culling (Culling)](#distance-culling)
+* [Playback Only (Grease Pencil)](#playback-only)
+* [Fill (Grease Pencil)](#fill)
+* [Modifiers (Grease Pencil)](#modifiers)
+* [Shader Effects (Grease Pencil)](#shader-effects)
+* [Layer Tinting (Grease Pencil)](#layer-tinting)
+* [Antialiasing (Grease Pencil)](#antialiasing)
+
 
 <br>
 <br>
@@ -362,9 +369,25 @@ Kamera dışındaki şeyleri temizlememize yarar. Eğer bu ayarı 0 yaparsanız 
 Bu ayar kameraya verdiğiniz değerden daha uzak olan şeyleri dahil etmez. Yani eğer objeler bu ayara verdiğiniz mesafe değerinden daha uzaktalarsa, yani bu mesafede değillerse sahneden silinirler.
 
 
+## Grease Pencil
 
+* #### Playback Only
+a
 
+* #### Fill
+a
 
+* #### Modifiers
+a
+
+* #### Shader Effects
+a
+
+* #### Layer Tinting
+a
+
+* #### Antialiasing
+a
 
 
 

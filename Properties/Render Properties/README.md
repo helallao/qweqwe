@@ -273,19 +273,19 @@ Bu kategoride ışık ve ışık ışınları ile ilgili ayarlar vardır. Defaul
 Işık ışınları için toplam maximum sekme sayısı.
 
 * #### Diffuse
-[Diffuse](../Shader%20Nodes#is-diffuse-ray-output) özelliği taşıyan shader'lar için maximum sekme sayısı.
+[Diffuse](../../Shader%20Nodes#is-diffuse-ray-output) özelliği taşıyan shader'lar için maximum sekme sayısı.
 
 * #### Glossy
-[Glossy](../Shader%20Nodes#is-glossy-ray-output) özelliği taşıyan shader'lar için maximum sekme sayısı.
+[Glossy](../../Shader%20Nodes#is-glossy-ray-output) özelliği taşıyan shader'lar için maximum sekme sayısı.
 
 * #### Transmission
-[Transmission](../Shader%20Nodes#is-transmission-ray-output) özelliği taşıyan shader'lar için maximum sekme sayısı.
+[Transmission](../../Shader%20Nodes#is-transmission-ray-output) özelliği taşıyan shader'lar için maximum sekme sayısı.
 
 * #### Volume
 Volume özelliği taşıyan shader'lar için maximum sekme sayısı.
 
 * #### Transparent
-[Transparent](../Shader%20Nodes#transparent-bsdf) özelliği taşıyan shader'lar için maximum sekme sayısı.
+[Transparent](../../Shader%20Nodes#transparent-bsdf) özelliği taşıyan shader'lar için maximum sekme sayısı.
 
 
 ## Clamping
@@ -314,7 +314,7 @@ Objenin ışık vurunca arkasına yaptığı yansımayı kapatır, sadece gölge
 ## Fast GI Approximation
 
 * #### Method
-"Fast GI Approximation" ayarı indirect light'lar için yani sekerek gelen ışıklar için global illumination kullanmak yerine [Ambient Occlusion](../Shader%20Nodes#ambient-occlusion) kullanır ve ışığı Ambient Occlusion değeri ile yüzeyin rengini değiştirerek (tint) simule eder. Bu da daha hızlı hesaplama ile sonuçlanır ama gerçekçi sonuçlar vermeyebilir. %40 civarında daha hızlı render almanıza olanak sağlar.
+"Fast GI Approximation" ayarı indirect light'lar için yani sekerek gelen ışıklar için global illumination kullanmak yerine [Ambient Occlusion](../../Shader%20Nodes#ambient-occlusion) kullanır ve ışığı Ambient Occlusion değeri ile yüzeyin rengini değiştirerek (tint) simule eder. Bu da daha hızlı hesaplama ile sonuçlanır ama gerçekçi sonuçlar vermeyebilir. %40 civarında daha hızlı render almanıza olanak sağlar.
 
 Mod | Açıklama
 :---: | :---:
@@ -322,10 +322,10 @@ Mod | Açıklama
 Add | Yüzeylerin parlaklığını ve rengini ışığa göre arttırır. Bu da daha parlak render oluşturur.
 
 * #### AO Factor
-[Ambient Occlusion](../Shader%20Nodes#ambient-occlusion) şiddeti.
+[Ambient Occlusion](../../Shader%20Nodes#ambient-occlusion) şiddeti.
 
 * #### AO Distance
-[Ambient Occlusion](../Shader%20Nodes#ambient-occlusion) için gölgeleri hesaplama mesafesi. Bu değer düşünce gölgeler de parlaklığını kaybeder.
+[Ambient Occlusion](../../Shader%20Nodes#ambient-occlusion) için gölgeleri hesaplama mesafesi. Bu değer düşünce gölgeler de parlaklığını kaybeder.
 
 * #### Viewport Bounces
 Viewport için ışığın kaç defa sektikten sonra hesaplanacağını ayarlar.
@@ -507,10 +507,10 @@ Sadece "Type" ayarı "Gaussian" ve "Blackman-Harris" modunda iken vardır. Bu ay
 Bu kategorinin yanındaki tik işaretine tıklayarak sahnenizin arka planını yani dünyayı transparent yani görünmez yapabilirsiniz. Bu ayar eğer sahnenizin arka planını render'dan sonra ayarlayacaksanız kullanabilirsiniz. Ayrıca bu kategorideki alt ayarları kullanmak için de tik işaretine tıklamanız gerek.
 
 * #### Transparent Glass
-Bu ayar [Transparent](../Shader%20Nodes#transparent-bsdf) özelliği taşıyan shader'lar için arka planı göstermesini engellemeye yarar. Ayrıca bu ayar açıkken "Roughness Threshold" ayarı da açılır ve buradan roughness limiti koyabilirsiniz.
+Bu ayar [Transparent](../../Shader%20Nodes#transparent-bsdf) özelliği taşıyan shader'lar için arka planı göstermesini engellemeye yarar. Ayrıca bu ayar açıkken "Roughness Threshold" ayarı da açılır ve buradan roughness limiti koyabilirsiniz.
 
 * #### Roughness Threshold
-Sadece "Transparent Glass" ayarı açıkken vardır. Bu ayar "Transparent Glass" ayarı için roughness limiti olarak görev görür. [Transparent](../Shader%20Nodes#transparent-bsdf) özelliği taşıyan shader'ların roughness değeri eğer bu ayara verdiğiniz değerden yüksekse arka planı göstermezler yani opak olurlar. Eğer shader'ın roughness değeri bu ayara verdiğiniz değerden düşükse [Transparent](../Shader%20Nodes#transparent-bsdf) olabilir yani arka planı gösterebilir.
+Sadece "Transparent Glass" ayarı açıkken vardır. Bu ayar "Transparent Glass" ayarı için roughness limiti olarak görev görür. [Transparent](../../Shader%20Nodes#transparent-bsdf) özelliği taşıyan shader'ların roughness değeri eğer bu ayara verdiğiniz değerden yüksekse arka planı göstermezler yani opak olurlar. Eğer shader'ın roughness değeri bu ayara verdiğiniz değerden düşükse [Transparent](../../Shader%20Nodes#transparent-bsdf) olabilir yani arka planı gösterebilir.
 
 
 <br>
@@ -638,7 +638,7 @@ Renk uzayı, render bu renk uzayına göre yapılandırılır.
 ## Use Curves
 
 * #### Curve Widget
-Curve Widget kullanımı hakkında detaylı açıklamalara [buradan](https://docs.blender.org/manual/en/latest/interface/controls/templates/curve.html#ui-curve-widget) ulaşabilirsiniz. Bu curve render'daki renkleri değiştirir, çalışma şekli aynen RGB Curves shader node'unun [Curve Widget'ı](../Shader%20Nodes#curve-widget-node-input) gibidir.
+Curve Widget kullanımı hakkında detaylı açıklamalara [buradan](https://docs.blender.org/manual/en/latest/interface/controls/templates/curve.html#ui-curve-widget) ulaşabilirsiniz. Bu curve render'daki renkleri değiştirir, çalışma şekli aynen RGB Curves shader node'unun [Curve Widget'ı](../../Shader%20Nodes#curve-widget-node-input) gibidir.
 
 
 

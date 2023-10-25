@@ -4,7 +4,12 @@ Aşağıdaki döküman Cycles render motoru kullanıldığı varsayılarak hazı
 # [Format](#format-1)
 * [Resolution X](#resolution-x)
 * [Resolution Y](#resolution-y)
-* [Resolution Percentage (%)](#resolution-percentage)
+* [Resolution Percentage (%)](#resolution-percentage-)
+* [Aspect X](#aspect-x)
+* [Aspect Y](#aspect-y)
+* [Render Region](#render-region)
+* [Crop to Render Region](#crop-to-render-region)
+* [Frame Rate](#frame-rate)
 
 # [Frame Range](#frame-range-1)
 * [Frame Start](#frame-start)

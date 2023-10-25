@@ -1,1 +1,1 @@
-* ### [Render Properties](Properties%20Properties)
+* ### [Render Properties](Render%20Properties)

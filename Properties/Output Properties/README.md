@@ -15,8 +15,8 @@ Aşağıdaki döküman Cycles render motoru kullanıldığı varsayılarak hazı
 * [Frame Start](#frame-start)
 * [Frame End](#frame-end)
 * [Frame Step](#frame-step)
-* [Old (Frame Stretching)](#old)
-* [New (Frame Stretching)](#new)
+* [Old (Time Stretching)](#old)
+* [New (Time Stretching)](#new)
 
 
 <br>
@@ -70,13 +70,26 @@ Bitiş frame'i.
 Frame başına atlanacak frame sayısı, adım sayısı. Mesela bunu 2 yaparsanız her 2 frame'in biri animasyonda oynatılır.
 
 
-## Frame Stretching
+## Time Stretching
 
 * #### Old
-"Frame Stretching" frame ile oynatma hızının birbirlerinden farklı olarak ilerlemesini sağlar. Verdiğimiz orana göre animasyonu daha hızlı veya yavaş ilerlemeye alabiliriz. Blender'da default olarak bu ayar 100 olarak geliyor, aslında bu sayının kaç olduğunun önemi yok, önemli olan "Old" ile "New" sayılarının arasındaki oran. Mesela "Old" ve "New" 1 olarak ayarlanırsa oranlar eşit olacağı için 100'e ayarlandıklarında çıkacak animasyonunun aynısı olacaktır. Eğer oranlar farklı olursa, mesela "Old" 2, "New" 1 olursa oynatma hızı 2 kat daha hızlı oynatılacaktır. Oynatma hızının hızlı oynatılması ile frame hızı farklı şeylerdir, eğer animasyonu oynatırsanız bunu görebilirsiniz. Frame sayısı henüz yarıdayken animasyonun tamamının oynatıldığını görebilirsiniz. Yani oynatma hızını 2 katına çıkarmış olursunuz. Bu şekilde oynatma hızını hızlandırabilir/yavaşlatabilirsiniz. Ayrıca oranı manuel olarak hesaplamaktansa, eski ve yeni animasyonların frame sayısını girerek animasyonunuzun oynatma hızını başka bir animasyonun hızına ayarlayabilirsiniz.
+"Time Stretching" frame ile oynatma hızının birbirlerinden farklı olarak ilerlemesini sağlar. Verdiğimiz orana göre animasyonu daha hızlı veya yavaş ilerlemeye alabiliriz. Blender'da default olarak bu ayar 100 olarak geliyor, aslında bu sayının kaç olduğunun önemi yok, önemli olan "Old" ile "New" sayılarının arasındaki oran. Mesela "Old" ve "New" 1 olarak ayarlanırsa oranlar eşit olacağı için 100'e ayarlandıklarında çıkacak animasyonunun aynısı olacaktır. Eğer oranlar farklı olursa, mesela "Old" 2, "New" 1 olursa oynatma hızı 2 kat daha hızlı oynatılacaktır. Oynatma hızının hızlı oynatılması ile frame hızı farklı şeylerdir, eğer animasyonu oynatırsanız bunu görebilirsiniz. Frame sayısı henüz yarıdayken animasyonun tamamının oynatıldığını görebilirsiniz. Yani oynatma hızını 2 katına çıkarmış olursunuz. Bu şekilde oynatma hızını hızlandırabilir/yavaşlatabilirsiniz. Ayrıca oranı manuel olarak hesaplamaktansa, eski ve yeni animasyonların frame sayısını girerek animasyonunuzun oynatma hızını başka bir animasyonun hızına ayarlayabilirsiniz.
 
 * #### New
-"Frame Stretching" frame ile oynatma hızının birbirlerinden farklı olarak ilerlemesini sağlar. Verdiğimiz orana göre animasyonu daha hızlı veya yavaş ilerlemeye alabiliriz. Blender'da default olarak bu ayar 100 olarak geliyor, aslında bu sayının kaç olduğunun önemi yok, önemli olan "Old" ile "New" sayılarının arasındaki oran. Mesela "Old" ve "New" 1 olarak ayarlanırsa oranlar eşit olacağı için 100'e ayarlandıklarında çıkacak animasyonunun aynısı olacaktır. Eğer oranlar farklı olursa, mesela "Old" 2, "New" 1 olursa oynatma hızı 2 kat daha hızlı oynatılacaktır. Oynatma hızının hızlı oynatılması ile frame hızı farklı şeylerdir, eğer animasyonu oynatırsanız bunu görebilirsiniz. Frame sayısı henüz yarıdayken animasyonun tamamının oynatıldığını görebilirsiniz. Yani oynatma hızını 2 katına çıkarmış olursunuz. Bu şekilde oynatma hızını hızlandırabilir/yavaşlatabilirsiniz. Ayrıca oranı manuel olarak hesaplamaktansa, eski ve yeni animasyonların frame sayısını girerek animasyonunuzun oynatma hızını başka bir animasyonun hızına ayarlayabilirsiniz.
+"Time Stretching" frame ile oynatma hızının birbirlerinden farklı olarak ilerlemesini sağlar. Verdiğimiz orana göre animasyonu daha hızlı veya yavaş ilerlemeye alabiliriz. Blender'da default olarak bu ayar 100 olarak geliyor, aslında bu sayının kaç olduğunun önemi yok, önemli olan "Old" ile "New" sayılarının arasındaki oran. Mesela "Old" ve "New" 1 olarak ayarlanırsa oranlar eşit olacağı için 100'e ayarlandıklarında çıkacak animasyonunun aynısı olacaktır. Eğer oranlar farklı olursa, mesela "Old" 2, "New" 1 olursa oynatma hızı 2 kat daha hızlı oynatılacaktır. Oynatma hızının hızlı oynatılması ile frame hızı farklı şeylerdir, eğer animasyonu oynatırsanız bunu görebilirsiniz. Frame sayısı henüz yarıdayken animasyonun tamamının oynatıldığını görebilirsiniz. Yani oynatma hızını 2 katına çıkarmış olursunuz. Bu şekilde oynatma hızını hızlandırabilir/yavaşlatabilirsiniz. Ayrıca oranı manuel olarak hesaplamaktansa, eski ve yeni animasyonların frame sayısını girerek animasyonunuzun oynatma hızını başka bir animasyonun hızına ayarlayabilirsiniz.
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -1,4 +1,15 @@
-Aşağıdaki döküman Cycles render motoru kullanıldığı varsayılarak hazırlanmıştır. Cycles için output ayarlarının açıklamaları (Properties > Output) vardır. Eğer farklı bir render motoru kullanıyorsanız birçok özellik farklılık gösterecek veya çalışmayacaktır.
+Aşağıdaki döküman Cycles render motoru kullanıldığı varsayılarak hazırlanmıştır. Cycles için output ayarlarının açıklamaları (Properties > Output) vardır. Eğer farklı bir render motoru kullanıyorsanız bazı ayarlar farklılık gösterebilir veya olmayabilir.
+
+# Ek Bilgiler
+
+<details>
+<summary>Kullanılan Güzel Kaynaklar</summary>
+<br>
+
+* [Export animation renders the RIGHT way in Blender!](https://www.youtube.com/watch?v=UH-zqJ2Jx64) - Brandon's Drawings'in videosu. Kendisi blender hakkında en iyi [kaynaklardan birisidir](https://brandonsdrawings.com).
+
+</details>
+
 
 
 # [Format](#format-1)
@@ -35,6 +46,10 @@ Aşağıdaki döküman Cycles render motoru kullanıldığı varsayılarak hazı
 * [Note](#note)
 * [Burn Into Image](#burn-into-image)
 
+# [Post Processing](#post-processing-1)
+* [Compositing](#compositing)
+* [Sequencer](#sequencer)
+* [Dither](#dither)
 
 
 <br>
@@ -172,8 +187,20 @@ Dosyanın içerisine not eklemenize yarar.
 Resmin içerisinde görünecek yazı eklemenize yarar.
 
 
+<br>
+<br>
 
 
+# [Post Processing](https://docs.blender.org/manual/en/3.6/render/output/properties/post_processing.html)
+Render sonrası efektler/işlemler ile ilgili ayarların olduğu kategoridir.
 
 
+* #### Compositing
+Bu ayar açıkken composite node'ları kullanılır.
+
+* #### Sequencer
+Video Sequence editörünün output'unu render eder.
+
+* #### Dither
+Res
 

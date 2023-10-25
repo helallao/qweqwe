@@ -29,6 +29,13 @@ Aşağıdaki döküman Cycles render motoru kullanıldığı varsayılarak hazı
 * [Overwrite](#overwrite)
 * [Placeholders](#placeholders)
 
+# [Metadata](#metadata-1)
+* [Metadata Input](#metadata-input)
+* [Include](#include)
+* [Note](#note)
+* [Burn Into Image](#burn-into-image)
+
+
 
 <br>
 <br>
@@ -128,7 +135,41 @@ Eski dosyaları siler ve yeni oluşturur.
 Render işlemi başlayınca oluşturulacak bütün dosyalar için aynı isimde boş dosyalar oluşturur. Render ilerledikçe bu dosyaların içerisine bilgileri yazar. Yani render başlar başlamaz dosyaları oluşturur.
 
 
+<br>
+<br>
 
+
+# [Metadata](https://docs.blender.org/manual/en/3.6/render/output/properties/metadata.html)
+Çıktı dosyasına yazılacak bilgileri belirlediğiniz kategoridir. Metadata eklemeyi destekleyen formatlara [buradan](https://docs.blender.org/manual/en/3.6/files/media/image_formats.html) ulaşabilirsiniz.
+
+
+* #### Metadata Input
+Metadata'nın alınacağı yer.
+
+* #### Include
+Eklenecek bilgiler.
+
+Seçenek | Açıklama
+:---: | :---:
+‎Date | Dosyanın içerisine tarihi ekler.
+‎Time | Resmin içerisine saat/dakika ekler.
+‎Render Time | Resmin içerisine render edildiği saat/dakika ekler.
+Frame | Resmin içerisine frame numarasını ekler.
+Frame Range | Dosyanın içerisine toplam frame sayısını ekler.
+Memory | Dosyanın içerisine kullanılan maksimum ram derecesini ekler.
+Hostname | Dosyanın içerisine bilgisayarın [Hostname'ini](https://en.wikipedia.org/wiki/Hostname) ekler.
+Camera | Resmin içerisine aktif kameranın adını ekler.
+Lens | Resmin içerisine aktif kameranın lens değerlerini ekler.
+Scene | Dosyanın içerisine sahnenin adını ekler.
+Marker | Resmin içerisine son marker'ın ismini (animasyon çizelgelerinde kullanılan) ekler.
+Filename | Dosyanın içerisine ".blend" uzantılı dosyanızın ismini ekler, yani proje dosyanızın ismini.
+Strip Name | Bilmiyorum.
+
+* #### Note
+Dosyanın içerisine not eklemenize yarar.
+
+* #### Burn Into Image
+Resmin içerisinde görünecek yazı eklemenize yarar.
 
 
 

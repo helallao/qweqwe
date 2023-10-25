@@ -18,6 +18,17 @@ Aşağıdaki döküman Cycles render motoru kullanıldığı varsayılarak hazı
 * [Old (Time Stretching)](#old)
 * [New (Time Stretching)](#new)
 
+# [Stereoscopy](#stereoscopy-1)
+
+# [Output](#output-1)
+* [Output Path](#output-path)
+* [File Extensions](#file-extensions)
+* [Cache Results](#cache-results)
+* [File Format](#file-format)
+* [Color](#color)
+* [Overwrite](#overwrite)
+* [Placeholders](#placeholders)
+
 
 <br>
 <br>
@@ -79,10 +90,42 @@ Frame başına atlanacak frame sayısı, adım sayısı. Mesela bunu 2 yaparsan�
 "Time Stretching" frame ile oynatma hızının birbirlerinden farklı olarak ilerlemesini sağlar. Verdiğimiz orana göre animasyonu daha hızlı veya yavaş ilerlemeye alabiliriz. Blender'da default olarak bu ayar 100 olarak geliyor, aslında bu sayının kaç olduğunun önemi yok, önemli olan "Old" ile "New" sayılarının arasındaki oran. Mesela "Old" ve "New" 1 olarak ayarlanırsa oranlar eşit olacağı için 100'e ayarlandıklarında çıkacak animasyonunun aynısı olacaktır. Eğer oranlar farklı olursa, mesela "Old" 2, "New" 1 olursa oynatma hızı 2 kat daha hızlı oynatılacaktır. Oynatma hızının hızlı oynatılması ile frame hızı farklı şeylerdir, eğer animasyonu oynatırsanız bunu görebilirsiniz. Frame sayısı henüz yarıdayken animasyonun tamamının oynatıldığını görebilirsiniz. Yani oynatma hızını 2 katına çıkarmış olursunuz. Bu şekilde oynatma hızını hızlandırabilir/yavaşlatabilirsiniz. Ayrıca oranı manuel olarak hesaplamaktansa, eski ve yeni animasyonların frame sayısını girerek animasyonunuzun oynatma hızını başka bir animasyonun hızına ayarlayabilirsiniz.
 
 
+<br>
+<br>
 
 
+# [Stereoscopy](https://docs.blender.org/manual/en/3.6/render/output/properties/stereoscopy/index.html)
+a.
 
 
+<br>
+<br>
+
+
+# [Output](https://docs.blender.org/manual/en/3.6/render/output/properties/output.html)
+Render çıktısının dosyası ile ilgili ayarların olduğu bölümdür.
+
+
+* #### Output Path
+Çıktıların kaydedileceği klasör/dosya yolu.
+
+* #### File Extensions
+Dosyaların sonuna dosya uzantısı ekler.
+
+* #### Cache Results
+Çıktıyı önbelleğe alır, bilgileri önbelleğe almak sonraki frame'leri render ederken hız kazandırabilir.
+
+* #### File Format
+Buradan çıktının hangi dosya formatında kaydedileceğini ayarlayabilirsiniz. Eğer resim ise sizin için en iyi seçenek "PNG" olacaktır. Eğer video ise yine en iyi seçenek "PNG" olacaktır çünkü render işlemi esnasında bir hata oluşursa videoyu tekrar baştan render etmek vakit kaybı olur. Eğer "PNG" olarak kaydederseniz, olası bir render hatası durumunda sadece kalan frame'leri render etmeniz gerekir. Render işlemi bittikten sonra da "PNG" dosyaları ile video oluşturabilirsiniz.
+
+* #### Color
+Buradan renkleri seçebilirsiniz. "BW" (Black & White) seçeneği siyah beyaz, "RGB" seçeneği alpha kanalı olmadan renkli, "RGBA" seçeneği alpha kanalı ile birlikte renklidir.
+
+* #### Overwrite
+Eski dosyaları siler ve yeni oluşturur.
+
+* #### Placeholders
+Render işlemi başlayınca oluşturulacak bütün dosyalar için aynı isimde boş dosyalar oluşturur. Render ilerledikçe bu dosyaların içerisine bilgileri yazar. Yani render başlar başlamaz dosyaları oluşturur.
 
 
 

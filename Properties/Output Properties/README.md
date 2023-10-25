@@ -1,5 +1,3 @@
-Aşağıdaki döküman Cycles render motoru kullanıldığı varsayılarak hazırlanmıştır. Cycles için output ayarlarının açıklamaları (Properties > Output) vardır. Eğer farklı bir render motoru kullanıyorsanız bazı ayarlar farklılık gösterebilir veya olmayabilir.
-
 # Ek Bilgiler
 
 <details>
@@ -202,5 +200,5 @@ Bu ayar açıkken composite node'ları kullanılır.
 Video Sequence editörünün output'unu render eder.
 
 * #### Dither
-Res
+Keskin çizgilerden kurtulmak için [Dither](https://en.wikipedia.org/wiki/Dither) uygular. Yani blur efekti uygular da denebilir.
 

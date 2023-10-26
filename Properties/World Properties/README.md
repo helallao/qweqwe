@@ -49,7 +49,7 @@ Bu ayar Shader Editör'ünde "World" modunda shader kodlamak ile aynıdır. Volu
 <br>
 
 
-# [Ray Visibility]()
+# [Ray Visibility](https://docs.blender.org/manual/en/latest/render/cycles/world_settings.html#ray-visibility)
 a.
 
 

@@ -21,6 +21,11 @@
 # [Keying Sets](#keying-sets-1)
 
 # [Audio](#audio-1)
+* [Volume](#volume)
+* [Distance Model](#distance-model)
+* [Doppler Speed](#doppler-speed)
+* [Doppler Factor](#doppler-factor)
+* [Update Animation Cache](#update-animation-cache)
 
 
 <br>
@@ -98,6 +103,30 @@ Fizik efektleri (Physics Effects) için Z ekseninde yerçekimi.
 
 # [Keying Sets](https://docs.blender.org/manual/en/3.6/animation/keyframes/keying_sets.html)
 Bu kategoride "Keying Sets" ile ilgili ayarlar var. Blender'ın bu konu ile ilgili kendi kaynağını yeterince açıklayıcı buldum, linke tıklayarak okuyabilirsiniz. Ayrıca "Keying Sets" konusu birazcık animasyon editörleri bilgisi gerektirir, youtube'den blender'da timeline kullanımı hakkında videolara bakarsanız zaten hemen anlarsınız ([mesela bu](https://www.youtube.com/watch?v=BLebjFHiDqk)).
+
+
+<br>
+<br>
+
+
+# [Audio](https://docs.blender.org/manual/en/3.6/scene_layout/scene/properties.html#audio)
+Bu kategoride sahnedeki sesler ile ilgili ayarlar vardır.
+
+
+* #### Volume
+Sahne için ses seviyesi.
+
+* #### Distance Model
+Sesin uzaklığa göre azalma modu. Bu modlar hakkında teknik bilgi edinmek istiyorsanız [buraya](https://www.openal.org/documentation/openal-1.1-specification.pdf) bakabilirsiniz.
+
+* #### Doppler Speed
+[Doopler Etkisi](https://en.wikipedia.org/wiki/Doppler_effect) için sesin hızı, mesela bu değer hava için 343.3 m/s, su için 1560 m/s dir. Eğer spesifik bir ortam için Doppler Etkisi ses hızını arıyorsanız google'da aratabilirsiniz.
+
+* #### Doppler Factor
+[Doopler Etkisi](https://en.wikipedia.org/wiki/Doppler_effect) şiddetini kontrol eder.
+
+* #### Update Animation Cache
+Animasyonun önbellekteki ses verilerini siler. Refresh atar yani.
 
 
 

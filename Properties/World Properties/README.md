@@ -27,6 +27,9 @@ Aşağıdaki döküman Cycles render motoru kullanıldığı varsayılarak hazı
 * [Step Size (Volume)](#step-size)
 * [Light Group (Light Group)](#light-group)
 
+# [Viewport Display](#viewport-display-1)
+* [Color](#color)
+
 
 <br>
 <br>
@@ -128,10 +131,16 @@ Bilmiyorum.
 Bilmiyorum.
 
 
+<br>
+<br>
 
 
+# [Viewport Display](https://docs.blender.org/manual/en/latest/render/workbench/display_settings.html#world)
+Dünya için arka plan rengini ayarlabildiğiniz kategoridir.
 
 
+* #### Color
+Dünyanızın arka plan rengini ayarlayabilirsiniz. Sadece Viewport içindir, render edildiğinde arka plan bu renkte gözükmez. Bu rengin kullanılması için "Viewport Shading" modu "Solid" olmalıdır ve "Viewport Shading" menüsünden "Background" ayarı "World" olarak ayarlanmalıdır, [bakınız](https://blender.stackexchange.com/a/278541).
 
 
 

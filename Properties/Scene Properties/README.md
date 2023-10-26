@@ -18,6 +18,10 @@
 * [Gravity Y](#gravity-y)
 * [Gravity Z](#gravity-z)
 
+# [Keying Sets](#keying-sets-1)
+
+# [Audio](#audio-1)
+
 
 <br>
 <br>
@@ -88,7 +92,12 @@ Fizik efektleri (Physics Effects) için Y ekseninde yerçekimi.
 Fizik efektleri (Physics Effects) için Z ekseninde yerçekimi. 
 
 
+<br>
+<br>
 
+
+# [Keying Sets](https://docs.blender.org/manual/en/3.6/animation/keyframes/keying_sets.html)
+Bu kategoride "Keying Sets" ile ilgili ayarlar var. Blender'ın bu konu ile ilgili kendi kaynağını yeterince açıklayıcı buldum, linke tıklayarak okuyabilirsiniz. Ayrıca "Keying Sets" konusu birazcık animasyon editörleri bilgisi gerektirir, youtube'den blender'da timeline kullanımı hakkında videolara bakarsanız zaten hemen anlarsınız ([mesela bu](https://www.youtube.com/watch?v=BLebjFHiDqk)).
 
 
 

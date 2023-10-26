@@ -6,6 +6,8 @@ Aşağıdaki döküman Cycles render motoru kullanıldığı varsayılarak hazı
 # [Surface](#surface-1)
 * [Surface](#surface-2)
 
+# [Volume](#volume-1)
+* [Volume](#volume-2)
 
 <br>
 <br>
@@ -19,14 +21,24 @@ Buradan dünyanızın preview'ini (öngösterim) görebilirsiniz.
 <br>
 
 
-# [Surface](https://docs.blender.org/manual/en/3.6/scene_layout/scene/properties.html#units)
-Bu kategoride a.
+# [Surface]()
+Bu kategoride World yani sahne için shader ayarları vardır.
 
 
 * #### Surface
-a
+Bu ayar Shader Editör'ünde "World" modunda shader kodlamak ile aynıdır. Surface ayarı [World Output](https://github.com/helallao/qweqwe/tree/main/Shader%20Nodes#world-output) node'unun [Surface](https://github.com/helallao/qweqwe/tree/main/Shader%20Nodes#surface-socket-input-2) output'unu temsil eder. Dünyanın yani sahnenin shader'ını ayarlar.
 
 
+<br>
+<br>
+
+
+# [Volume]()
+Bu kategoride World yani sahne için shader ayarları vardır.
+
+
+* #### Volume
+Bu ayar Shader Editör'ünde "World" modunda shader kodlamak ile aynıdır. Volume ayarı [World Output](https://github.com/helallao/qweqwe/tree/main/Shader%20Nodes#world-output) node'unun [Volume](https://github.com/helallao/qweqwe/tree/main/Shader%20Nodes#volume-socket-input-1) output'unu temsil eder. Dünyanın yani sahnenin shader'ını ayarlar.
 
 
 

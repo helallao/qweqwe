@@ -21,6 +21,11 @@ Aşağıdaki döküman Cycles render motoru kullanıldığı varsayılarak hazı
 * [Map Resolution (Surface)](#map-resolution)
 * [Max Bounces (Surface)](#max-bounces)
 * [Shadow Caustics (Surface)](#shadow-caustics)
+* [Sampling (Volume)](#sampling)
+* [Interpolation (Volume)](#interpolation)
+* [Homogeneous (Volume)](#homogeneous)
+* [Step Size (Volume)](#step-size)
+* [Light Group (Light Group)](#light-group)
 
 
 <br>
@@ -105,7 +110,28 @@ Bilmiyorum.
 ## Volume
 
 * #### Sampling
-a
+Bilmiyorum.
+
+* #### Interpolation
+Bilmiyorum.
+
+* #### Homogeneous
+Bilmiyorum.
+
+* #### Step Size
+Bilmiyorum.
+
+
+## Light Group
+
+* #### Light Group
+Bilmiyorum.
+
+
+
+
+
+
 
 
 

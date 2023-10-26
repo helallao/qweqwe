@@ -30,8 +30,25 @@ Bilmiyorum.
 
 
 # [Units](https://docs.blender.org/manual/en/3.6/scene_layout/scene/properties.html#units)
-Bu kategoride sahne ile ilgili ayarlar var.
+Bu kategoride sahnenin ölçü sistemi ile ilgili ayarlar var.
 
 
 * #### Unit System
-a
+Kullanılacak ölçü sistemi. "None" seçerek blender'ın kendi ölçü sistemini, "Metric" seçerek metrik sistemi yani bizim de kullandığımız (metre, kilogram falan) ölçü sistemini, "Imperial" seçerek ingiliz ölçü sistemini (inch, feet falan) kullanabilirsiniz.
+
+* #### Unit Scale
+Ölçü değerleri için çarpan görevi görür.
+
+* #### Separate Units
+Ölçü değerlerini alt birimleriyle beraber gösterir. 1m yerine, 1m 0cm gibi.
+
+
+
+
+
+
+
+
+
+
+

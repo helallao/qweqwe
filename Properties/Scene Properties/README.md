@@ -27,6 +27,8 @@
 * [Doppler Factor](#doppler-factor)
 * [Update Animation Cache](#update-animation-cache)
 
+# [Rigid Body World](#rigid-body-world)
+
 
 <br>
 <br>
@@ -127,6 +129,17 @@ Sesin uzaklığa göre azalma modu. Bu modlar hakkında teknik bilgi edinmek ist
 
 * #### Update Animation Cache
 Animasyonun önbellekteki ses verilerini siler. Refresh atar yani.
+
+
+<br>
+<br>
+
+
+# [Rigid Body World](https://docs.blender.org/manual/en/3.6/scene_layout/scene/properties.html#rigid-body-world)
+Bilmiyorum.
+
+
+
 
 
 

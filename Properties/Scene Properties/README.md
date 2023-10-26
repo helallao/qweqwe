@@ -13,6 +13,10 @@
 * [Time](#time)
 * [Temperature](#temperature)
 
+# [Gravity](#gravity-1)
+* [Gravity X](#gravity-x)
+* [Gravity Y](#gravity-y)
+* [Gravity Z](#gravity-z)
 
 
 <br>
@@ -64,6 +68,30 @@ Süre için kullanılacak ölçü birimi. "Adaptive" seçerek otomatik moda alab
 
 * #### Temperature
 Sıcaklık için kullanılacak ölçü birimi.
+
+
+<br>
+<br>
+
+
+# [Gravity](https://docs.blender.org/manual/en/3.6/scene_layout/scene/properties.html#gravity)
+Bu kategoride yerçekimi ile ilgili ayarlar var.
+
+
+* #### Gravity X
+Fizik efektleri (Physics Effects) için X ekseninde yerçekimi. 
+
+* #### Gravity Y
+Fizik efektleri (Physics Effects) için Y ekseninde yerçekimi. 
+
+* #### Gravity Z
+Fizik efektleri (Physics Effects) için Z ekseninde yerçekimi. 
+
+
+
+
+
+
 
 
 

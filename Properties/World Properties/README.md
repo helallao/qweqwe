@@ -9,6 +9,10 @@ Aşağıdaki döküman Cycles render motoru kullanıldığı varsayılarak hazı
 # [Volume](#volume-1)
 * [Volume](#volume-2)
 
+# [Ray Visibility](#ray-visibility-1)
+* [Camera](#camera-1)
+
+
 <br>
 <br>
 
@@ -40,6 +44,17 @@ Bu kategoride World yani sahne için shader ayarları vardır.
 * #### Volume
 Bu ayar Shader Editör'ünde "World" modunda shader kodlamak ile aynıdır. Volume ayarı [World Output](https://github.com/helallao/qweqwe/tree/main/Shader%20Nodes#world-output) node'unun [Volume](https://github.com/helallao/qweqwe/tree/main/Shader%20Nodes#volume-socket-input-1) output'unu temsil eder. Dünyanın yani sahnenin shader'ını ayarlar.
 
+
+<br>
+<br>
+
+
+# [Ray Visibility]()
+a.
+
+
+* #### Camera
+a
 
 
 

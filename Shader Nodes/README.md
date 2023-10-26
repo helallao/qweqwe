@@ -1221,7 +1221,7 @@ Texture'un boyutu. Ayrıca eğer "Vector" input'una birşey bağlamadıysanız b
 
 
 ## [Environment Texture](https://docs.blender.org/manual/en/latest/render/shader_nodes/textures/environment.html)
-Dünyanıza 360 derece texture ekleyebilmenizi sağlar. "World" modunda da kullanabilirsiniz, diğer modlarda da ama muhtemelen "World" modunda kullanacaksınız. Output değerini [Background](#background) node'una bağlayarak dünyanızın arka planını ayarlayabilirsiniz. Genellikle HDRi texture'ları kullanılır. [HDRi Haven'dan](https://hdri-haven.com/) bedava HDRi texture'ları bulup kullanabilirsiniz.
+Dünyanıza 360 derece texture ekleyebilmenizi sağlar. "World" modunda da kullanılır. Output değerini [Background](#background) node'una bağlayarak dünyanızın arka planını ayarlayabilirsiniz. Genellikle HDRi texture'ları kullanılır. [HDRi Haven'dan](https://hdri-haven.com/) bedava HDRi texture'ları bulup kullanabilirsiniz. Ayrıca HDRi texture'lar içerisinde ışık bilgisi de tutar, yani sahnenizin/dünyanın ışığını da bu şekilde ayarlayabilirsiniz.
 
 
 * #### Color (Output)

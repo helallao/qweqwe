@@ -73,6 +73,35 @@ Transmission ray'lerini görünmez yapar. [Bakınız](../../Shader%20Nodes#is-tr
 Volume Scatter'den gelen ray'leri görünmez yapar.
 
 
+<br>
+<br>
+
+
+# [Settings](https://docs.blender.org/manual/en/latest/render/cycles/world_settings.html#ray-visibility)
+Dünya shader'ının render'ı hakkında ayarların olduğu kategoridir.
+
+
+## Surface
+
+* #### Sampling
+"Sampling" dünya shader'ının sahnedeki objeler üzerindeki ışık etkisinin kalitesini belirler. Bu ayar sampling modunu belirler. "None" modunda sampling kullanılmaz ve render'da noise olabilir. "Manual" modunda sampling ayarlarını yapabilirsiniz. "Auto" modunda sampling ayarı otomatik olarak belirlenir. "Manual" veya "Auto" modunu seçmek "Multiple Importance Sampling" ayarını açar. Bu ayar render'daki noise'ı azaltan bi özelliktir. Ayrıca [burayı](https://projects.blender.org/blender/blender/issues/72314) da okuyabilirsiniz, ".blend" dosyalarını yükleyerek kendiniz test edip bu ayarı anlayabilirsiniz.
+
+* #### Map Resolution
+Dünya shader'ının sahnedeki objeler üzerindeki ışık etkisinin kalitesini belirler. Bu değeri arttırmak render'daki noise'ı düşürür ama daha fazla ram kullanımı olur. Eğer HDRi kullanıyorsanız ve render üzerinde parlak noktalar (firefly) oluyorsa, bu ayarı arttırın.
+
+* #### Max Bounces
+Dünya shader'ından gelen ışıkların kameraya gelmeden önceki maksimum sekme sayısı.
+
+* #### Shadow Caustics
+Bilmiyorum.
+
+
+## Volume
+
+* #### Sampling
+a
+
+
 
 
 

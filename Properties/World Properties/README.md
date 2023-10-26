@@ -10,7 +10,7 @@ Aşağıdaki döküman Cycles render motoru kullanıldığı varsayılarak hazı
 * [Volume](#volume-2)
 
 # [Ray Visibility](#ray-visibility-1)
-* [Camera](#camera-1)
+* [Camera](#camera)
 
 
 <br>

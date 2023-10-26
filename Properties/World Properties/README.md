@@ -1,4 +1,4 @@
-Aşağıdaki döküman Cycles render motoru kullanıldığı varsayılarak hazırlanmıştır. Cycles için render ayarlarının açıklamaları (Properties > Render) vardır. Eğer farklı bir render motoru kullanıyorsanız birçok özellik farklılık gösterecek veya çalışmayacaktır.
+Aşağıdaki döküman Cycles render motoru kullanıldığı varsayılarak hazırlanmıştır. Cycles için render ayarlarının açıklamaları (Properties > Render) vardır. Eğer farklı bir render motoru kullanıyorsanız birçok özellik farklılık gösterecek veya çalışmayacaktır. Bu bölümdeki ayarları anlamak için [Shader Nodes](../../Shader%20Nodes) bölümüne de bakın.
 
 
 # [Preview](#preview-1)
@@ -11,6 +11,10 @@ Aşağıdaki döküman Cycles render motoru kullanıldığı varsayılarak hazı
 
 # [Ray Visibility](#ray-visibility-1)
 * [Camera](#camera)
+* [Diffuse](#diffuse)
+* [Glossy](#glossy)
+* [Transmission](#transmission)
+* [Volume Scatter](#volume-scatter)
 
 
 <br>
@@ -50,11 +54,23 @@ Bu ayar Shader Editör'ünde "World" modunda shader kodlamak ile aynıdır. Volu
 
 
 # [Ray Visibility](https://docs.blender.org/manual/en/latest/render/cycles/world_settings.html#ray-visibility)
-a.
+Ray (ışık ışınları) için visibility yani görünürlük ayarlarının olduğu kategoridir. Eğer ray'ler (ışık ışınları) hakkında bilgili değilseniz [Shader Nodes](../../Shader%20Nodes) bölümünün [Ek Bilgiler](../../Shader%20Nodes#ek-bilgiler) bölümündeki "The Cycles Encyclopedia" kitabını okuyun.
 
 
 * #### Camera
-a
+Kamera ray'lerini görünmez yapar. [Bakınız](../../Shader%20Nodes#is-camera-ray-output).
+
+* #### Diffuse
+Diffuse ray'lerini görünmez yapar. [Bakınız](../../Shader%20Nodes#is-diffuse-ray-output).
+
+* #### Glossy
+Glossy ray'lerini görünmez yapar. [Bakınız](../../Shader%20Nodes#is-glossy-ray-output).
+
+* #### Transmission
+Transmission ray'lerini görünmez yapar. [Bakınız](../../Shader%20Nodes#is-transmission-ray-output).
+
+* #### Volume Scatter
+Volume Scatter'den gelen ray'leri görünmez yapar.
 
 
 

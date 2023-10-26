@@ -16,6 +16,12 @@ Aşağıdaki döküman Cycles render motoru kullanıldığı varsayılarak hazı
 * [Transmission](#transmission)
 * [Volume Scatter](#volume-scatter)
 
+# [Settings](#settings-1)
+* [Sampling (Surface)](#sampling)
+* [Map Resolution (Surface)](#map-resolution)
+* [Max Bounces (Surface)](#max-bounces)
+* [Shadow Caustics (Surface)](#shadow-caustics)
+
 
 <br>
 <br>
@@ -100,9 +106,6 @@ Bilmiyorum.
 
 * #### Sampling
 a
-
-
-
 
 
 

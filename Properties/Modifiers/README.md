@@ -112,12 +112,14 @@ Her bir kopyanın bir önceki kopyaya olan offset'i yani uzaklığı, "Constant 
 
 
 ## Object Offset
-Belirttiğiniz objeye göre offset verir.
+Belirttiğiniz objeye göre offset verir. Bu modu sürekli küçülen kopyalar oluşturmak için veya belirli bir nokta etrafında kopyalar oluşturmak için kullanabilirsiniz.
 
-* #### Distance X/Y/Z
-a.
+* #### Object
+Referans objesi, offset bu objenin transform değerlerine göre (location, rotation, scale) hesaplanır.
 
 
+## Merge
+a
 
 
 

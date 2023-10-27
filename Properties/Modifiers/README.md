@@ -178,8 +178,23 @@ Weight | Kenarların "Bevel Weight" bilgisini kullanır.
 Vertex Group | Eğer kenarı oluşturan vertex'lerin hepsi "Vertex Group" input'una verilen vertex group'ta ise bevel uygulanır.
 
 
+## Profile
+Buradan bevel şeklini belirleyebilirsiniz.
+
+Mod | Açıklama
+:---: | :---:
+‎Superellipse | Default mod. "Shape" input'unun değerini arttırıp azaltarak bevel derecesini belirleyebilirsiniz.
+Custom | Bevel şeklini curve aracılığı ile belirleyebilirsiniz.
+
+* #### Sample Straight Edges
+Sadece "Profile" ayarı "Custom" modundayken vardır. Curve üzerindeki bütün noktaların handling type'ını yani önceki ve sonraki noktalara bağlanma modlarını vector'e çevirir. Yani noktalar birbirine direktmen bağlanır, ama bu curve üzerinde görünmez. Eğer bevel edilen kenarlara bakarsanız görebilirsiniz.
+
+* #### Sample Even Lengths
+Sadece "Profile" ayarı "Custom" modundayken vardır. Curve üzerindeki bütün noktaları eşit dağıtır. Aralarındaki mesafe eşit olur.
 
 
+## Geometry
+a.
 
 
 

@@ -194,7 +194,35 @@ Sadece "Profile" ayarı "Custom" modundayken vardır. Curve üzerindeki bütün 
 
 
 ## Geometry
-a.
+Bevel ile ilgili şekil ayarları.
+
+* #### Miter Inner/Outer
+Bu ayarlar bevel şekli ile ilgili. [Buradan](https://docs.blender.org/manual/en/3.6/modeling/modifiers/generate/bevel.html#id8) modların yaptığı değişiklikleri görebilirsiniz.
+
+* #### Spread
+Sadece "Miter Inner" ayarı "Arc" modundayken vardır. Ekstra vertice'leri yayma derecesini belirler.
+
+* #### Intersections
+"Grid Fill" modu default moddur. "Cutoff" modu bevel edilmiş kenarların birbiriyle birleştikleri kısmı siler.
+
+* #### Clamp Overlap
+Kenarların bevel edilen kısımlarının birbirleriyle çakışmasını engeller. Çakışmanın başladığı noktada bevel genişliğini durdurur.
+
+* #### Loop Slide
+Bevel edilen kenarlardan bazılarının bağlı olduğu face'lerin boyutu farklı olduğu için sünme oluyorsa bu ayarı açarak bütün kenarlardaki bevel'ları eşitleyebilirsiniz. Güzel video bulamadım ama [buna](https://youtu.be/vLzY4ApZZcE?t=907) bakabilirsiniz.
+
+
+## Shading
+Bevel ile ilgili shading ayarları.
+
+* #### Harden Normals
+Oluşturulan bevel face'lerinin normal'larını yani baktıkları yönleri düzenler. Shading sorunlarını çözer.
+
+
+
+
+
+
 
 
 

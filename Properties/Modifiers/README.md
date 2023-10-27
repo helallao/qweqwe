@@ -145,11 +145,26 @@ Bu ayarlar ile başlangıca ve sona (her kopya için değil, hepsinden önce ve 
 
 
 ## [Bevel](https://docs.blender.org/manual/en/3.6/modeling/modifiers/generate/bevel.html)
-a.
+Bildiğimiz bevel tool'unun modifier halidir. Daha gelişmiş özellik sunar. Eğer bevel tool'unu bilmiyorsanız internetten ilk baş onu ögrenin. Zaten ayarların çoğu bevel tool'undaki ayarlar ile aynı.
 
 
-* #### a
-a.
+* #### Width Type
+Bevel derecesini belirleyen modlardır.
+
+Mod | Açıklama
+:---: | :---:
+‎Offset | Kenarın face'ler üzerinde kenardan uzaklaşması olarak hesaplanır (resme bakın).
+‎Width | Bevel kenarlarının birbirlerinden uzaklaşması olarak hesaplanır, yani aralarındaki mesafe (resme bakın).
+Depth | Derinlik yani kenarların içe doğru uzaklaşması olarak hesaplanır (resme bakın).
+Percent | Face'lerin uzunluğuna göre yüzdelik olarak bevel hesaplanır. Eğer objenin yüzlerinin boyutu farklı ise, bevel derecesinin de farklı olduğunu görebilirsiniz. Mesela bir dikdörtgen üzerinde bevel modifier uygularsanız kenar'ın uzun olan face'ine daha geniş bevel uygulanmışken kısa olan face'ine daha dar bevel uygulandığını görebilirsiniz.
+Absolute | Tam olarak verdiğiniz değere göre bevel hesaplanır.
+
+<img src="../../Dosyalar/Modifiers_Bevel_WidthTypes.png">
+
+
+
+
+
 
 
 

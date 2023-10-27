@@ -97,15 +97,25 @@ Fit Length | "Length" input'unda belirttiğiniz mesafe değerine göre, verdiği
 Fit Curve | "Curve" input'unda belirttiğiniz curve'ün uzunluk değerine göre, verdiğiniz offset ile kaç tane kopya sığıyorsa o kadar kopya oluşturur. Bu modda offset kullanmak zorundasınız.
 
 
+## Relative Offset
+Objenin kendi büyüklük değerine göre offset verir.
+
+* #### Factor X/Y/Z
+Her bir kopyanın bir önceki kopyaya olan offset'i yani uzaklığı, "Relative Offset" yani objenin kendi büyüklük değerine göre offset olduğu için, herhangi bir ekseni 2 ayarlamak o eksende her kopyanın arasına objenin kendisi kadar boşluk konulmasına sebep olur.
 
 
+## Constant Offset
+Belirttiğiniz değere göre offset verir.
+
+* #### Distance X/Y/Z
+Her bir kopyanın bir önceki kopyaya olan offset'i yani uzaklığı, "Constant Offset" yani belirttiğiniz offset değeri objenin büyüklüğünden bağımsız olarak kullanılır.
 
 
+## Object Offset
+Belirttiğiniz objeye göre offset verir.
 
-
-
-
-
+* #### Distance X/Y/Z
+a.
 
 
 

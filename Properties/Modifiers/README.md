@@ -25,6 +25,7 @@
 
 # [Generate](#generate-1)
 * [Array](#array)
+* [Bevel](#bevel)
 
 
 <br>
@@ -84,7 +85,7 @@ Bu kategorideki modfier'lar objenin geometrisini direktmen değiştirmeyen, daha
 
 
 ## [Array](https://docs.blender.org/manual/en/3.6/modeling/modifiers/generate/array.html)
-Objeyi istediğiniz sayıda ve yönde kopyalar.
+Objeyi istediğiniz sayıda ve yönde kopyalar (aynı veriyi paylaşan kopyalar oluşturur).
 
 
 * #### Fit Type
@@ -98,10 +99,10 @@ Fit Curve | "Curve" input'unda belirttiğiniz curve'ün uzunluk değerine göre,
 
 
 ## Relative Offset
-Objenin kendi büyüklük değerine göre offset verir.
+Objenin kendi boyut değerlerine göre offset verir.
 
 * #### Factor X/Y/Z
-Her bir kopyanın bir önceki kopyaya olan offset'i yani uzaklığı, "Relative Offset" yani objenin kendi büyüklük değerine göre offset olduğu için, herhangi bir ekseni 2 ayarlamak o eksende her kopyanın arasına objenin kendisi kadar boşluk konulmasına sebep olur.
+Her bir kopyanın bir önceki kopyaya olan offset'i yani uzaklığı, "Relative Offset" yani objenin kendi boyut değerlerine göre offset olduğu için, mesela herhangi bir ekseni 2 ayarlamak o eksende her kopyanın arasına objenin kendisi kadar boşluk konulmasına sebep olur.
 
 
 ## Constant Offset
@@ -143,6 +144,12 @@ Bu ayarlar ile başlangıca ve sona (her kopya için değil, hepsinden önce ve 
 
 
 
+## [Bevel](https://docs.blender.org/manual/en/3.6/modeling/modifiers/generate/bevel.html)
+a.
+
+
+* #### a
+a.
 
 
 

@@ -5,6 +5,7 @@
 <br>
 
 * [The Blender 2.8 Encyclopedia](https://www.udemy.com/course/the-blender-encyclopedia/) - Udemy'deki sayısı bir elin parmaklarını geçmeyecek kadar az olan, gerçekten uğraşılmış kurslardan birisi. Bizim için önemli olan 9. bölüm "Modifiers", modifier'ların açıklamalarının olduğu bölüm, tabi isterseniz diğer kısımlara da bakabilirsiniz. [Buradan](https://btdig.com/search?q=The+Blender+2.8+Encyclopedia) torrent'ini bulabilirsiniz (vpn gerekebilir).
+* [All Modifiers in Blender](https://brandonsdrawings.com/modifiers/) - Brandon's Drawings'in sitesi. Kendisi blender hakkında en iyi kaynaklardan birisidir.
 
 </details>
 
@@ -83,8 +84,31 @@ Bu kategorideki modfier'lar objenin geometrisini direktmen değiştirmeyen, daha
 
 
 ## [Array](https://docs.blender.org/manual/en/3.6/modeling/modifiers/generate/array.html)
-Bilmiyorum.
+Objeyi istediğiniz sayıda ve yönde kopyalar.
 
 
-* #### a
-a
+* #### Fit Type
+Yerleştirme türü.
+
+Mod | Açıklama
+:---: | :---:
+‎Fixed Count | "Count" input'una verdiğiniz sayı kadar kopya oluşturulur.
+Fit Length | "Length" input'unda belirttiğiniz mesafe değerine göre, verdiğiniz offset ile kaç tane kopya sığıyorsa o kadar kopya oluşturur. Bu modda offset kullanmak zorundasınız.
+Fit Curve | "Curve" input'unda belirttiğiniz curve'ün uzunluk değerine göre, verdiğiniz offset ile kaç tane kopya sığıyorsa o kadar kopya oluşturur. Bu modda offset kullanmak zorundasınız.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -161,6 +161,21 @@ Absolute | Tam olarak verdiğiniz değere göre bevel hesaplanır.
 
 <img src="../../Dosyalar/Modifiers_Bevel_WidthTypes.png" width="300">
 
+* #### Amount
+Bevel miktarı, "Width Type" ayarına göre bu ayarın çalışma mantığı değişebilir.
+
+* #### Segments
+Segment sayısı. Bu ayar zaten bevel tool'unda da var.
+
+* #### Limit Method
+Bevel işlemini limitlememize yarayan modlardır.
+
+Mod | Açıklama
+:---: | :---:
+‎None | Limit yok.
+Angle | Kenarın face'ler arasındaki açısına göre limit kullanır. "Angle" input'una veridiğiniz açıdan az açıya sahip olan kenarlara bevel uygulanmaz.
+Weight | Kenarların "Bevel Weight" bilgisini kullanır.
+Vertex Group | Eğer kenarı oluşturan vertex'lerin hepsi "Vertex Group" input'una verilen vertex group'ta ise bevel uygulanır.
 
 
 

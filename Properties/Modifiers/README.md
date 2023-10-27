@@ -159,7 +159,7 @@ Depth | Derinlik yani kenarların içe doğru uzaklaşması olarak hesaplanır (
 Percent | Face'lerin uzunluğuna göre yüzdelik olarak bevel hesaplanır. Eğer objenin yüzlerinin boyutu farklı ise, bevel derecesinin de farklı olduğunu görebilirsiniz. Mesela bir dikdörtgen üzerinde bevel modifier uygularsanız kenar'ın uzun olan face'ine daha geniş bevel uygulanmışken kısa olan face'ine daha dar bevel uygulandığını görebilirsiniz.
 Absolute | Tam olarak verdiğiniz değere göre bevel hesaplanır.
 
-<img src="../../Dosyalar/Modifiers_Bevel_WidthTypes.png">
+<img src="../../Dosyalar/Modifiers_Bevel_WidthTypes.png" width="300">
 
 
 

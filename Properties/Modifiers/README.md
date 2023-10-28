@@ -393,13 +393,43 @@ Aynalama işleminin olacağı eksen.
 * #### Bisect
 Aynalama işlemi olurken mesh orijin noktasından karşı tarafa geçerse, yani aynalanan kısma geçerse, orijin noktasını geçen kısımlar otomatikmen silinir.
 
-<img src="../../Dosyalar/Modifiers_Mirror_Bisect.gif">
+<img src="../../Dosyalar/Modifiers_Mirror_Bisect.gif" width="400">
 
 * #### Flip
-a.
+Aynalama yönünü değiştirir, "Bisect" ayarı açıkken bu ayarı da açarsanız yönler değişir, aynalama yönü tam tersi olur. Eğer aynalama yönünün tersten olmasını istiyorsanız bu ayarı kullanabilirsiniz.
 
 * #### Mirror Object
 Orijin noktası olarak başka bir objenin transform bilgilerini (location, rotation) kullanmanıza yarar.
+
+* #### Clipping
+Mesh'in edit modda orijin noktasını geçen kısımları orijin noktasına geldikten sonra daha fazla ilerleyemez. Yani bu ayar mesh'in orijin noktasının karşısına geçmesine izin vermez.
+
+* #### Merge
+Mesh ile aynalanan kopyanın vertice'lerinin arasındaki mesafe bu ayara verdiğiniz değerden küçükse otomatikmen birleştirilir.
+
+* #### Bisect Distance
+"Bisect" ayarı için mesafe değeri. Orijin noktasına bu ayara verdiğiniz değerden daha yakın olan vertice'ler bisect edilir. Yani orijin noktasında birleştirilir.
+
+
+## Data
+
+* #### Mirror U/V
+Bilmiyorum.
+
+* #### Offset U/V
+Bilmiyorum.
+
+* #### Vertex Groups
+Bilmiyorum.
+
+* #### Flip UDIM
+Bilmiyorum.
+
+
+
+
+
+
 
 
 

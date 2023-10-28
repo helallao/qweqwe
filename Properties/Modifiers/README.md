@@ -347,7 +347,7 @@ Sadece "Mode" ayarı "Planar" modundayken vardır. Bu ayar face'lerin boundary (
 
 
 ## [Edge Split](https://docs.blender.org/manual/en/3.6/modeling/modifiers/generate/edge_split.html)
-Bu modifier mesh'in kenarlarını birbirinden ayırır, daha doğrusu face'leri birbirine bağlayan kenarları ayırır da denebilir çünkü kenarları ayırırken komşu face'lern birbirlerine olan açı farkına bakar. Bu modifier ile yapabildiklerinizin aynısını Auto Smooth (Properties > Data > Normals > Auto Smooth) ayarı ile de yapabilirsiniz.
+Bu modifier mesh'in kenarlarını birbirinden ayırır, daha doğrusu face'leri birbirine bağlayan kenarları ayırır da denebilir çünkü kenarları ayırırken komşu face'lern birbirlerine olan açı farkına bakar. Bu modifier ile yapabildiklerinizin aynısını Auto Smooth (Properties > Data > Normals > Auto Smooth) ayarı ile de yapabilirsiniz, dolayısıyla artık kullanılmıyor, ek bilgiler için [buraya](https://www.youtube.com/watch?v=xMI3G_M_3dE) bakabilirsiniz.
 
 
 * #### Edge Angle

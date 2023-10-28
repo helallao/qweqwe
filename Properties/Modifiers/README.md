@@ -383,11 +383,23 @@ Weight değerleri için limit değeri. Vertex Group'un veya seçilen armature'un
 
 
 
+## [Mirror](https://docs.blender.org/manual/en/3.6/modeling/modifiers/generate/mirror.html)
+Bu modifier mesh'i istediğiniz eksende aynalamanıza yarar, mesela yapmak istediğiniz obje simetrik ise sadece yarısını yapıp diğer yarısını da bu modifier ile yapabilirsiniz. Default olarak mesh'in orijin noktasını kullanır.
 
 
+* #### Axis
+Aynalama işleminin olacağı eksen.
 
+* #### Bisect
+Aynalama işlemi olurken mesh orijin noktasından karşı tarafa geçerse, yani aynalanan kısma geçerse, orijin noktasını geçen kısımlar otomatikmen silinir.
 
+<img src="../../Dosyalar/Modifiers_Mirror_Bisect.gif">
 
+* #### Flip
+a.
+
+* #### Mirror Object
+Orijin noktası olarak başka bir objenin transform bilgilerini (location, rotation) kullanmanıza yarar.
 
 
 

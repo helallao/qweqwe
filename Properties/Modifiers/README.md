@@ -32,6 +32,7 @@
 * [Edge Split](#edge-split)
 * [Geometry Nodes](#geometry-nodes)
 * [Mask](#mask)
+* [Mirror](#mirror)
 
 
 <br>

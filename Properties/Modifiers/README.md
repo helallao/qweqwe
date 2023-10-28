@@ -27,6 +27,7 @@
 * [Array](#array)
 * [Bevel](#bevel)
 * [Boolean](#boolean)
+* [Build](#build)
 
 
 <br>
@@ -274,8 +275,24 @@ Eğer "Solver" ayarı olarak "Exact" kullanıyorsanız ve sonuç hatalı oluyors
 
 
 
+## [Build](https://docs.blender.org/manual/en/3.6/modeling/modifiers/generate/build.html)
+Bu modifier objeye animasyonlu build efekti (inşa etme) verir. Belirtilen frame sayısına göre her frame'de objenin face'lerini görünmez halden görünür hale getirir. Bu da sanki obje yeniden oluşuyormuş gibi bir efekt verir. Ayrıca genellikle Build modifier'ı kullanıcı tarafından belirlenmiş face sıralamasına göre kullanılır. Face sıralamasını (Sort Order) nasıl yapacağınızı [buradan](https://brandonsdrawings.com/buildmodifier/) ögrenebilirsiniz.
 
 
+* #### Start Frame
+Animasyonun başlama frame'i. Mesela bunu 50 yaparsanız 50. frame'den sonra obje oluşmaya başlar.
+
+* #### Length
+Animasyonun kaç frame süreceğini belirler. Mesela 100 yaparsak inşa etme animasyonu 100 frame sürer.
+
+* #### Reversed
+İşlemi tersine çevirir, inşa etmek yerine yok eder. Başlangıçta tamamen görünür olan obje gitgide yok olur veya görünmez olur.
+
+* #### Randomize
+Face'lerin oluşma veya yok olma sıralamasını rastgele yapar.
+
+* #### Seed
+"Randomize" ayarı için seed değeri. Seed demek verilen sayıya göre işlemlerin bilgisayarda o sayıya özel olarak rastgele gerçekleşmesi demektir. Aynı seed'i kullandığınızda hep aynı sonucu alırsınız.
 
 
 

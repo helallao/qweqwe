@@ -26,6 +26,7 @@
 # [Generate](#generate-1)
 * [Array](#array)
 * [Bevel](#bevel)
+* [Boolean](#boolean)
 
 
 <br>

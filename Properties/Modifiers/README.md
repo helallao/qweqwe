@@ -364,18 +364,22 @@ Bilmiyorum.
 
 
 ## [Mask](https://docs.blender.org/manual/en/3.6/modeling/modifiers/generate/mask.html)
-Bilmiyorum.
+Bu modifier mesh'in sadece seçilen vertex group'unu veya seçilen armature'a bağlı olan kısmını gösterir, diğer kısımları göstermez. Bu modifier'ı debug aracı olarak kullanabilirsiniz.
 
 
+* #### Mode
+Mod.
 
+Mod | Açıklama
+:---: | :---:
+‎Vertex Group | Sadece verdiğiniz vertex group'u gösterir. Ayrıca weight değerlerine göre eleme de yapabilirsiniz.
+‎Armature | Mesh'in sadece verdiğiniz armature'a bağlı olan kısımlarını gösterir. Ayrıca weight değerlerine göre eleme de yapabilirsiniz.
 
+* #### Smooth
+Sadece "Mode" ayarı "Vertex Group" modunda iken vardır. Weight değerleri birbirine yakın olan kısımlar için yumuşak bir geçiş efekti verir. Yani tam olarak "Threshold" değerinden büyük olan yerleri göstermek yerine bölgedeki weight değerlerini ortalayıp keskin geçişleri yumuşak geçişe çevirir.
 
-
-
-
-
-
-
+* #### Threshold
+Weight değerleri için limit değeri. Vertex Group'un veya seçilen armature'un içinde olan vertex'lerin weight değeri bu değerden büyükse vertex gösterilir, küçükse veya eşitse gösterilmez.
 
 
 

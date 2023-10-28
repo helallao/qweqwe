@@ -306,7 +306,7 @@ Mod | Açıklama
 :---: | :---:
 ‎Collapse | Birbirine yakın olan vertex'leri birleştirir.
 Un-Subdivide | Subdivision yani face'leri bölme işleminin tam tersini yapar, face'leri birleştirir. "Iterations" input'una verdiğiniz sayı kadar bölme işlemi gerçekleşir.
-Planar | a
+Planar | Aralarındaki açı verdiğiniz açı değerinden az olan komşu face'leri birleştirir. Yani yönleri birbirine benzeyen face'leri birbirleriyle birleştirir.
 
 * #### Ratio
 Sadece "Mode" ayarı "Collapse" modundayken vardır. Vertex sayısını düşürme derecesini belirler. 1'den 0'a doğru indikçe vertex sayısı %100'den %0'a doğru azalır.
@@ -316,6 +316,29 @@ Sadece "Mode" ayarı "Collapse" modundayken vardır. Seçilen eksende simetriyi 
 
 * #### Triangulate
 Sadece "Mode" ayarı "Collapse" modundayken vardır. Bütün face'leri üçgene çevirir.
+
+* #### Vertex Group
+Sadece "Mode" ayarı "Collapse" modundayken vardır. Decimate modifier'ı belirli bir vertex group ile sınırlayabilirsiniz.
+
+* #### Factor
+Sadece "Mode" ayarı "Collapse" modundayken vardır. "Vertex Group" için etki derecesi.
+
+* #### Angle Limit
+Sadece "Mode" ayarı "Planar" modundayken vardır. Açı limiti, aralarındaki açı bu açıdan küçük olan komşu face'ler birleştirilir.
+
+* #### Delimit
+Sadece "Mode" ayarı "Planar" modundayken vardır. Belirli yerleri Decimate işleminin dışında bırakabilirsiniz.
+
+Mod | Açıklama
+:---: | :---:
+‎Normal | Normal'ları farklı yönlere bakan (ön/arka) face'leri Decimate işleminin dışında bırakır.
+Material | Farklı materyale sahip face'leri Decimate işleminin dışında bırakır.
+Seam | Seam olarak işaretlenmiş kenarları Decimate işleminin dışında bırakır.
+Sharp | Sharp olarak işaretlenmiş kenarları Decimate işleminin dışında bırakır.
+UVs | UV Map'te olan kenarları Decimate işleminin dışında bırakır.
+
+
+
 
 
 

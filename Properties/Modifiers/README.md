@@ -33,6 +33,7 @@
 * [Geometry Nodes](#geometry-nodes)
 * [Mask](#mask)
 * [Mirror](#mirror)
+* [Multiresolution](#multiresolution)
 
 
 <br>
@@ -428,6 +429,8 @@ Bilmiyorum.
 
 
 
+## [Multiresolution](https://docs.blender.org/manual/en/3.6/modeling/modifiers/generate/multiresolution.html)
+Bilmiyorum.
 
 
 

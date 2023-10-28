@@ -296,5 +296,27 @@ Face'lerin oluşma veya yok olma sıralamasını rastgele yapar.
 
 
 
+## [Decimate](https://docs.blender.org/manual/en/3.6/modeling/modifiers/generate/decimate.html)
+Bu modifier mesh üzerindeki vertex/face sayısını düşürmenize yarar.
+
+
+* #### Mode
+
+Mod | Açıklama
+:---: | :---:
+‎Collapse | Birbirine yakın olan vertex'leri birleştirir.
+Un-Subdivide | Subdivision yani face'leri bölme işleminin tam tersini yapar, face'leri birleştirir. "Iterations" input'una verdiğiniz sayı kadar bölme işlemi gerçekleşir.
+Planar | a
+
+* #### Ratio
+Sadece "Mode" ayarı "Collapse" modundayken vardır. Vertex sayısını düşürme derecesini belirler. 1'den 0'a doğru indikçe vertex sayısı %100'den %0'a doğru azalır.
+
+* #### Symmetry
+Sadece "Mode" ayarı "Collapse" modundayken vardır. Seçilen eksende simetriyi korur.
+
+* #### Triangulate
+Sadece "Mode" ayarı "Collapse" modundayken vardır. Bütün face'leri üçgene çevirir.
+
+
 
 

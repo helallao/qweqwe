@@ -232,12 +232,37 @@ Bilmiyorum.
 
 
 
+## [Boolean](https://docs.blender.org/manual/en/3.6/modeling/modifiers/generate/booleans.html)
+Başka bir objeyi kullanarak seçilen obje ile üst üste gelen kısımlar üzerinde işlemler yapabilirsiniz. Mesela kesiştikleri kısmı silebilirsiniz. Bu modifier'ı kullanırsanız mesh'iniz üzerinde n-gon'lar oluşabilir, mesh'inizin topolojisini bozabilir. Sadece basit mesh'ler için kullanın, kompleks mesh'lerinizde bu modifier'ı kullanmak kolaylık değil zorluk getirebilir.
 
 
+* #### Operation
+İşlem.
 
+Mod | Açıklama
+:---: | :---:
+‎Intersect | Modifier uygulanan objenin, diğer obje ile kesişen kısmı kalır, geriye kalan her yeri silinir.
+Union | İki obje birleştirilir.
+Difference | Modifier uygulanan objenin, diğer obje ile kesişen kısmı silinir. Yani diğer obje silici olarak kullanılır.
 
+* #### Operand Type
+Kullanılacak objenin türü. "Object" modunda tek bir obje belirtebilirsiniz. "Collection" modunda koleksiyon belirtebilirsiniz ve bu koleksiyondaki bütün objeler kullanılır.
 
+* #### Object/Collection
+Hedef obje/koleksiyon.
 
+* #### Solver
+Hesaplama algoritması.
 
+Mod | Açıklama
+:---: | :---:
+‎Fast | Hızlı ama tam doğru hesaplama sunmaz.
+Exact | "Fast" moduna göre daha yavaş ama hesaplamalar doğru.
+
+* #### Overlap Threshold
+Sadece "Solver" ayarı "Fast" modundayken vardır. İki face'in üst üste gelmiş olabilmesi için maximum mesafe değeri. Yani iki face'in aralarındaki mesafe bu değerden az ise üst üste gelmişler demektir.
+
+* #### Materials
+"Index Based" modunda yeni oluşturulan yüzler için Materials bölümündeki (Properties > Material) materyalleri sırasıyla kullanır. Eğer yeterli materyal yoksa sonuncuyu kullanır. "Transfer" modunda varsa hedef obje olarak kullanılan objenin materyalini, yoksa "Index Based" gibi modifier uygulanan objenin materyallerini kullanır.
 
 

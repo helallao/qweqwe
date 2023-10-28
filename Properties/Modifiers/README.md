@@ -28,6 +28,7 @@
 * [Bevel](#bevel)
 * [Boolean](#boolean)
 * [Build](#build)
+* [Decimate](#decimate)
 
 
 <br>

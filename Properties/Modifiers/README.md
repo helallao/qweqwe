@@ -337,7 +337,8 @@ Seam | Seam olarak işaretlenmiş kenarları Decimate işleminin dışında bır
 Sharp | Sharp olarak işaretlenmiş kenarları Decimate işleminin dışında bırakır.
 UVs | UV Map'te olan kenarları Decimate işleminin dışında bırakır.
 
-
+* #### All Boundaries
+Sadece "Mode" ayarı "Planar" modundayken vardır. Bu ayar face'lerin boundary (sınırları) yani kenarları üzerindeki bütün vertice'leri siler. Yani bir nevi n-gon oluşmasına engel olur da denebilir.
 
 
 

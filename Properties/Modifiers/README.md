@@ -30,6 +30,8 @@
 * [Build](#build)
 * [Decimate](#decimate)
 * [Edge Split](#edge-split)
+* [Geometry Nodes](#geometry-nodes)
+* [Mask](#mask)
 
 
 <br>
@@ -353,6 +355,26 @@ Aralarındaki açı bu açı değerinden fazla olan kenarlar birbirlerinden ayr�
 
 * #### Sharp Edges
 "Sharp" olarak işaretlenmiş kenarların açıları "Edge Angle" ayarında verdiğiniz açıdan küçük olsalar bile ayrılırlar.
+
+
+
+## [Geometry Nodes](https://docs.blender.org/manual/en/3.6/modeling/modifiers/generate/geometry_nodes.html)
+Bilmiyorum.
+
+
+
+## [Mask](https://docs.blender.org/manual/en/3.6/modeling/modifiers/generate/mask.html)
+Bilmiyorum.
+
+
+
+
+
+
+
+
+
+
 
 
 

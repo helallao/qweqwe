@@ -345,3 +345,16 @@ Sadece "Mode" ayarı "Planar" modundayken vardır. Bu ayar face'lerin boundary (
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+

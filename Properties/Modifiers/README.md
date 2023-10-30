@@ -487,7 +487,17 @@ Orijin noktası etrafında seçilen eksende dönme derecesi.
 Seçilen eksende yükseklik değeri.
 
 * #### Iterations
-"Angle" ve "Screw" ayarlarının tekrar etme sayısı. Yani mesela 3 metre uzunluğunda kıvrıla kıvrıla yukarıya doğru çıkan bi
+Tekrar etme sayısı. Bu sayıyı arttırarak oluşturduğunuz meshi tekrar edebilirsiniz. Her bir tekrar yani iteration uç uca eklenir.
+
+* #### Axis
+Dönme ekseni.
+
+* #### Axis Object
+Buradan obje seçerek orijin noktasını bu objeye göre belirleyebilirsiniz.
+
+* #### Object Screw
+Eğer bu ayarı açarsanız "Screw" input'u kapanır ve "Screw" değeri olarak verdiğiniz obje ile modifier'ın uygulandığı objenin "Axis" input'unda verdiğiniz eksendeki farkları kullanılır.
+
 
 
 

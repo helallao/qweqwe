@@ -35,6 +35,7 @@
 * [Mirror](#mirror)
 * [Multiresolution](#multiresolution)
 * [Remesh](#remesh)
+* [Screw](#screw)
 
 
 <br>
@@ -472,6 +473,27 @@ Sadece "Mode" ayarı "Voxel" modundayken vardır. Voxel büyüklüğünü ayarla
 
 * #### Adaptivity
 Sadece "Mode" ayarı "Voxel" modundayken vardır. Bu ayar da aslında "Voxel Size" ayarı gibi voxel büyüklüğünü ayarlar ama bu ayarı voxel büyüklüğünü ayarlıyormuş gibi değil de voxel'leri birleştiriyormuş gibi düşünün. Yani bu ayarı arttırdıkça voxel'ler birleşir, böylelikle de voxel yani face sayısı düşmüş olur.
+
+
+
+## [Screw](https://docs.blender.org/manual/en/3.6/modeling/modifiers/generate/screw.html)
+Bu modifier spin tool'unun modifier hali gibidir. Yaptıkları iş bakımından aynıdırlar denebilir.
+
+
+* #### Angle
+Orijin noktası etrafında seçilen eksende dönme derecesi.
+
+* #### Screw
+Seçilen eksende yükseklik değeri.
+
+* #### Iterations
+"Angle" ve "Screw" ayarlarının tekrar etme sayısı. Yani mesela 3 metre uzunluğunda kıvrıla kıvrıla yukarıya doğru çıkan bi
+
+
+
+
+
+
 
 
 

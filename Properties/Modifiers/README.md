@@ -498,12 +498,29 @@ Buradan obje seçerek orijin noktasını bu objeye göre belirleyebilirsiniz.
 * #### Object Screw
 Eğer bu ayarı açarsanız "Screw" input'u kapanır ve "Screw" değeri olarak verdiğiniz obje ile modifier'ın uygulandığı objenin "Axis" input'unda verdiğiniz eksendeki farkları kullanılır.
 
+* #### Steps Viewport
+Viewport için objenin step yani köşe sayısı.
+
+* #### Steps Render
+Render için objenin step yani köşe sayısı.
+
+* #### Merge
+Birbirine yakın olan vertice'leri birleştirmemize yarar. Buradan limiti ayarlayabilirsiniz. Ararlarındaki fark bu limit değerinden az olan vertice'ler birleştirilir.
+
+* #### Stretch UVs
+Eğer bu ayarı açarsanız seçtiğiniz eksende (U veya V) mesh'in UV'sini sündürür. Normalde mesh uzadıkça veya boyutu arttırkça U ve V eksenlerindeki UV değeri de tekrarlamaya başlar ama bu ayarı açarsanız tekrarlama değil de sıkıştırma işlemi uygulanır yani UV sündürülür ve mesh boyutuna göre şekillenir.
 
 
+## Normals
 
+* #### Smooth Shading
+Mesh'e smooth shade uygular.
 
+* #### Calculate Order
+a
 
-
+* #### Flip
+Normal'ların yönünü tersine çevirir.
 
 
 

@@ -434,6 +434,44 @@ Bilmiyorum.
 
 
 
+## [Remesh](https://docs.blender.org/manual/en/3.6/modeling/modifiers/generate/remesh.html)
+Bu modifier mesh'i quad'lar yani dörtgenler kullanarak yeniden oluşturur.
+
+
+* #### Mode
+Mod.
+
+Mod | Açıklama
+:---: | :---:
+‎Blocks | Mesh'i minecraft gibi küp küp yapar.
+Smooth | Dörtgenler arası yumuşak geçişler yapar. Yumuşak bir şekil verir.
+Sharp | "Smooth" modu gibidir ama keskin kısımları/köşeleri tutar.
+
+* #### Octree Depth
+Quad yani dörtgen sayısı/miktarı.
+
+* #### Scale
+Quad yani dörtgen sayısının/miktarının genel olarak scale değeri, dörtgenlerin büyüklüğünü ayarlar da denebilir.
+
+* #### Sharpness
+Sadece "Mode" ayarı "Sharp" modundayken vardır. Keskinlik derecesi.
+
+* #### Remove Disconnected
+Ana mesh'e bağlı olmayan kısımları silmeye yarar.
+
+* #### Threshold
+"Remove Disconnected" ayarı için threshold yani limit değeri. Silinecek kısımların ne kadar büyük olması gerektiğini belirtir.
+
+* #### Smooth Shading
+Mesh'e smooth shade uygular.
+
+
+
+
+
+
+
+
 
 
 

@@ -34,6 +34,7 @@
 * [Mask](#mask)
 * [Mirror](#mirror)
 * [Multiresolution](#multiresolution)
+* [Remesh](#remesh)
 
 
 <br>
@@ -446,6 +447,7 @@ Mod | Açıklama
 ‎Blocks | Mesh'i minecraft gibi küp küp yapar.
 Smooth | Dörtgenler arası yumuşak geçişler yapar. Yumuşak bir şekil verir.
 Sharp | "Smooth" modu gibidir ama keskin kısımları/köşeleri tutar.
+Voxel | Mesh'i voxel'ler ile yeniden oluşturur.
 
 * #### Octree Depth
 Quad yani dörtgen sayısı/miktarı.
@@ -465,10 +467,11 @@ Ana mesh'e bağlı olmayan kısımları silmeye yarar.
 * #### Smooth Shading
 Mesh'e smooth shade uygular.
 
+* #### Voxel Size
+Sadece "Mode" ayarı "Voxel" modundayken vardır. Voxel büyüklüğünü ayarlar. Düşürdükçe daha çok voxel olacağı için detay artar ama face sayısı da artar.
 
-
-
-
+* #### Adaptivity
+Sadece "Mode" ayarı "Voxel" modundayken vardır. Bu ayar da aslında "Voxel Size" ayarı gibi voxel büyüklüğünü ayarlar ama bu ayarı voxel büyüklüğünü ayarlıyormuş gibi değil de voxel'leri birleştiriyormuş gibi düşünün. Yani bu ayarı arttırdıkça voxel'ler birleşir, böylelikle de voxel yani face sayısı düşmüş olur.
 
 
 

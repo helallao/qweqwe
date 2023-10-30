@@ -517,7 +517,7 @@ Eğer bu ayarı açarsanız seçtiğiniz eksende (U veya V) mesh'in UV'sini sün
 Mesh'e smooth shade uygular.
 
 * #### Calculate Order
-a
+Kenarların sırasına göre normal'larını düzenler. Düzgün normal'lar için bu ayarı açın.
 
 * #### Flip
 Normal'ların yönünü tersine çevirir.

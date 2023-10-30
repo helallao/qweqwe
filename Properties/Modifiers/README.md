@@ -36,6 +36,8 @@
 * [Multiresolution](#multiresolution)
 * [Remesh](#remesh)
 * [Screw](#screw)
+* [Skin](#skin)
+* [Solidify](#solidify)
 
 
 <br>
@@ -521,6 +523,31 @@ Kenarların sırasına göre normal'larını düzenler. Düzgün normal'lar içi
 
 * #### Flip
 Normal'ların yönünü tersine çevirir.
+
+
+
+## [Skin](https://docs.blender.org/manual/en/3.6/modeling/modifiers/generate/skin.html)
+Bilmiyorum.
+
+
+
+## [Solidify](https://docs.blender.org/manual/en/3.6/modeling/modifiers/generate/solidify.html)
+Bilmiyorum.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

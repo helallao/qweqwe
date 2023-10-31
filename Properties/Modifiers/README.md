@@ -595,9 +595,22 @@ Mesh'e paralel yani düz bir kalınlık oluşturmak için vertex'lerin weight de
 Normal'ların yönünü tersine çevirir.
 
 * #### High Quality
-a.
+Bu ayarı açarsanız kalınlık hesaplamaları daha doğru olur ama hesaplamalar artacağı için yavaşlık ekleyebilir.
 
 
+## Materials
+
+* #### Material Offset
+Yeni oluşturulan kalınlıgın uç veya iç tarafları için (yani rim hariç, kalınlık hariç) materyal değeri. Bu değer şu anda kullanılan materyale ek olarak hesaplanır. Yani 1 yaparsanız bir sonraki, -1 yaparsanız bir önceki materyal kullanılır.
+
+* #### Rim
+Yeni oluşturulan kalınlıgın (rim) materyal değeri. Bu değer şu anda kullanılan materyale ek olarak hesaplanır. Yani 1 yaparsanız bir sonraki, -1 yaparsanız bir önceki materyal kullanılır.
+
+
+## Edge Data
+
+* #### Crease Inner
+a
 
 
 

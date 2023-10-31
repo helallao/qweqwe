@@ -532,16 +532,20 @@ Bilmiyorum.
 
 
 ## [Solidify](https://docs.blender.org/manual/en/3.6/modeling/modifiers/generate/solidify.html)
-Bilmiyorum.
+Solidify modifier'ı mesh'e kalınlık/derinlik ekler.
 
 
+* #### Mode
+a
 
+* #### Thickness
+Kalınlık.
 
+* #### Offset
+Kalınlığın ekleneceği yön, default olarak bu ayar -1'dir yani normal'ların tersine doğru yani içe doğru kalınlık ekler. Eğer bu ayarı 1 yaparsanız kalınlık normal'lar yönünde eklenir, yani dışa doğru. 0 yaparak iki yöne doğru da ortalı bir şekilde kalınlık ekleyebilirsiniz.
 
-
-
-
-
+* #### Even Thickness
+Eğer köşelerde uygulanan kalınlık azsa/fazlaysa bu ayarı açarak diğer kısımlar ile eşit şekilde kalınlık ekleyebilirsiniz. Daha fazla işlem gerektirdiği için yavaşlık ekleyebilir.
 
 
 

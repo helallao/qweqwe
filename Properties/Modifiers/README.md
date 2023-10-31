@@ -656,6 +656,12 @@ Mod | Açıklama
 ‎Catmull-Clark | Mesh'i subdivide ederken aynı zamanda yumuşak geçişler de uygular ve mesh'in şeklini de değiştirir.
 ‎Simple | Mesh'i sadece subdivide eder. Catmull-Clark'ın aksine şeklini değiştirmez.
 
+* #### Adaptive Subdivision
+Bu ayar sadece [Render Engine](../Render%20Properties#render-engine) "Cycles" iken ve [Feature Set](../Render%20Properties#feature-set) "Experimental" iken vardır. ["Adaptive Subdivision"](https://docs.blender.org/manual/en/3.6/render/cycles/object_settings/adaptive_subdiv.html) özelliğini açar.
+
+* #### Dicing Scale
+Sadece "Adaptive Subdivision" ayarı açıkken vardır. Dicing için scale değerini belirler. Bu değeri düşürürseniz daha fazla subdivision olur, arttırırsanız daha az. Ek ayarlara Render ayarlarında [Subdivision](../Render%20Properties#subdivision-1) kategorisinden ulaşabilirsiniz.
+
 * #### Levels Viewport
 Viewport için subdivide sayısı.
 

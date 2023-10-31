@@ -777,7 +777,7 @@ Bu modifier mesh'in kenarlarını kullanarak wireframe şekli oluşturur. Yani m
 Kenarların kalınlığı.
 
 * #### Offset
-Wireframe'in içe mi dışa mı doğru olacağını belirler.
+Wireframe'in içe mi dışa mı doğru olacağını belirler. -1'de içe, +1'de dışa doğru olur.
 
 * #### Boundary
 Kenarların köşe kısımlarını kapatır. Mesela bir küp mesh'inin bir yüzünü silerseniz ve wireframe modifier'ı uygularsanız silinen yüzün olduğu yerdeki kenarların uçlarının açık olduğunu görebilirsiniz. Uçları da kapatmak için bu ayarı açın.

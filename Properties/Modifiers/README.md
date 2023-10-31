@@ -543,6 +543,24 @@ Mod | Açıklama
 ‎Simple | Default mod. Tek bir kenarın 2'den fazla bağlı olduğu face olduğunda hata verebilir.
 Complex | Her türlü geometri için kesin sonuç sunar. Hesaplamalar daha fazla olduğu için bu modu seçmek yavaşlık ekleyebilir ama kesin sonuç döndürür.
 
+* #### Thickness Mode
+Sadece "Mode" ayarı "Complex" modundayken vardır.
+
+Mod | Açıklama
+:---: | :---:
+‎Fixed | Bu mod, "Mode" ayarı "Simple" modundayken ve "Even Thickness" ayarı kapalı iken olan sonucun benzerini verir.
+‎Even | Bu mod, "Mode" ayarı "Simple" modundayken ve "Even Thickness" ile "High Quality" ayarları açık iken olan sonucun benzerini verir.
+‎Constraints | Bu mod her noktada en iyi kalınlık değerini bulmaya çalışan gelişmiş bir moddur.
+
+* #### Boundary
+Sadece "Mode" ayarı "Complex" modundayken vardır.
+
+Mod | Açıklama
+:---: | :---:
+‎None | Herhangi bir değiklik yapılmaz.
+Round | Köşelerde keskin geçişler oluyorsa bunu önlemek için belirli noktalarda kalınlığı kısar.
+Flat | Düz bir geçiş olacak şekilde kalınlığı ayarlar.
+
 * #### Thickness
 Kalınlık.
 
@@ -551,6 +569,9 @@ Kalınlığın ekleneceği yön, default olarak bu ayar -1'dir yani normal'ları
 
 * #### Even Thickness
 Sadece "Mode" ayarı "Simple" modundayken vardır. Eğer köşelerde uygulanan kalınlık azsa/fazlaysa bu ayarı açarak diğer kısımlar ile eşit şekilde kalınlık ekleyebilirsiniz. Daha fazla işlem gerektirdiği için yavaşlık ekleyebilir.
+
+* #### Merge Threshold
+Aralarındaki fark bu değerden daha az olan vertex'ler birleştirilir.
 
 * #### Rim Fill
 Bu ayar açıkken kalınlık ile mesh birbirine bağlıdır. Eğer bu ayarı kapatırsanız oluşturulan kalınlık mesh'e bağlı olmaz, bu da sanki yeni bir yüzey oluşturmuşsunuz gibi, yani kopya oluşturmuşsunuz gibi bir görünüm verir. Oluşturulan kalınlık ile mesh birbirinden ayrı kalır.
@@ -564,12 +585,17 @@ Verdiğiniz Vertex Group içindeki vertex'ler kalınlaştırma işleminden etkil
 * #### Factor
 Vertex Group için factor değeri. Bu ayarın çalışma mantığı şudur, vertex group'un kalınlık değeri üzerinde ne kadar etkisi olacağını belirler. Mesela bu ayar 0 iken tamamen vertex group'un içindeki vertex'lerin weight değerleri kullanılır. Eğer bu ayarı 0.5 yaparsanız yarı yarıya vertex group kullanılır. Yani vertex group içerisinde weight değeri 0 olan vertex'ler olsa bile, bu vertex'ler sadece yarı yarıya vertex weight değerinden etkilendikleri için bu vertex'lere de "Thickness" input'una verdiğiniz değerin yarısı kadar kalınlık uygulanır. Yani kalınlık değerinin yarısı "Thickness" input'undan, yarısı vertex group'tan belirlenir. Eğer bu ayarı 1 yaparsanız vertex group'un hiç etkisi kalmaz. Yani vertex group içerisinde değeri 0 olan vertex'ler ile 1 olan vertex'ler arasında bir fark kalmaz.
 
+* #### Flat Faces
+Mesh'e paralel yani düz bir kalınlık oluşturmak için vertex'lerin weight değerlerini düzenler.
 
 
+## Normals
 
+* #### Flip
+Normal'ların yönünü tersine çevirir.
 
-
-
+* #### High Quality
+a.
 
 
 

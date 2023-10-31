@@ -39,7 +39,7 @@
 * [Skin](#skin)
 * [Solidify](#solidify)
 * [Subdivision Surface](#subdivision-surface)
-* [Triangulate](#triangulate)
+* [Triangulate](#triangulate-1)
 
 
 <br>
@@ -710,6 +710,39 @@ Bilmiyorum.
 
 ## [Triangulate](https://docs.blender.org/manual/en/3.6/modeling/modifiers/generate/triangulate.html)
 Bu modifier mesh'inizin face'lerini üçgene çevirir, triangulate eder.
+
+
+* #### Quad Method
+Quad'lar (dörtgen) için kullanılacak triangulation (üçgene çevirme) metodu.
+
+Mod | Açıklama
+:---: | :---:
+‎Beauty | Güzel bir şekilde bölmeye çalışır.
+Fixed | 1. ve 3. vertice'leri kullanarak quad'ları üçgene çevirir.
+Fixed Alternate | 2. ve 4. vertice'leri kullanarak quad'ları üçgene çevirir.
+Shortest Diagonal | Quad'ları en kısa köşegeni bölerek üçgene çevirir.
+Longest  Diagonal | Quad'ları en uzun köşegeni bölerek üçgene çevirir.
+
+* #### N-gon Method
+N-gon'lar (beşgen ve sonrası) için kullanılacak triangulation (üçgene çevirme) metodu.
+
+Mod | Açıklama
+:---: | :---:
+‎Beauty | Güzel bir şekilde bölmeye çalışır.
+Clip | Ear-clipping algoritması kullanır.
+
+* #### Minimum Vertices
+Triangulate edilecek face'lerin minimum vertice sayısı. Mesela bu ayarı 5 yaparsanız sadece beşgen ve sonrası çokgenler üçgene çevirilir.
+
+* #### Keep Normals
+Eğer [Custom Normals](https://docs.blender.org/manual/en/3.6/modeling/meshes/structure.html#modeling-meshes-normals-custom) kullanıyorsanız normal'ları bozmamaya çalışır.
+
+
+
+
+
+
+
 
 
 

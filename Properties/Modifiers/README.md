@@ -645,11 +645,50 @@ Bilmiyorum.
 
 
 ## [Subdivision Surface](https://docs.blender.org/manual/en/3.6/modeling/modifiers/generate/subdivision_surface.html)
-a.
+Subdivision Surface modifier'ı (veya Subsurf) mesh'inize ekstra geometri eklemenize yarar. Mesh'iniz ile low poly çalışıp (yani face sayısı az) işlerinizi bitirdikten sonra high poly (yani face sayısı fazla) yapabilmenize yarar.
 
 
-* #### a
-a.
+* #### Mode
+
+Mod | Açıklama
+:---: | :---:
+‎Catmull-Clark | Mesh'i subdivide ederken aynı zamanda yumuşak geçişler de uygular ve mesh'in şeklini de değiştirir.
+‎Simple | Mesh'i sadece subdivide eder. Catmull-Clark'ın aksine şeklini değiştirmez.
+
+* #### Levels Viewport
+Viewport için subdivide sayısı.
+
+* #### Levels Render
+Render için subdivide sayısı.
+
+* #### Optimal Display
+Viewport Shading "Wireframe" modundayken bu ayar mesh'in yeni oluşturulan kenarlarını göstermez. Sadece orijinal kenarları gösterir.
+
+
+## Advanced
+
+* #### Use Limit Surface
+Bu ayar açıkken vertice'ler sadece sonsuz sayıda subdivision uygulanabilecek yüzeylere koyulur.
+
+* #### Quality
+"Use Limit Surface" ayarı açıkken bu ayar vertice'lerin koyulacakları yerleri belirler. Bu ayarı çok fazla arttırmanıza gerek yok, default değeri yeterli aslında.
+
+* #### UV Smooth
+UV üzerinde yapılacak değişiklikleri belirler.
+
+Mod | Açıklama
+:---: | :---:
+‎None | UV üzerinde değişiklik yapılmaz.
+Keep Corners | Bilmiyorum.
+Keep Corners, Junctions | Bilmiyorum.
+Keep Corners, Junctions, Concave | Bilmiyorum.
+Keep Boundaries | Bilmiyorum.
+All | Bilmiyorum.
+
+
+
+
+
 
 
 

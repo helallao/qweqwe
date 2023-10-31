@@ -42,6 +42,7 @@
 * [Triangulate](#triangulate-1)
 * [Volume to Mesh](#volume-to-mesh)
 * [Weld](#weld)
+* [Wireframe](#wireframe)
 
 
 <br>
@@ -761,13 +762,15 @@ Connected | Objenin ayrık parçaları birleşemez, sadece birbirine connected y
 Aralarındaki mesafe bu değerden az olan vertice'ler birleştirilir.
 
 * #### Only Loose Edges
-Sadece "Mode" ayarı "Connected" modundayken vardır. 
+Sadece "Mode" ayarı "Connected" modundayken vardır. Sadece hiçbir face'e bağlı olmayan kenarları birleştirir.
 
 * #### Vertex Group
 Sadece seçilen vertex group içerisindeki weight değeri 0'dan büyük olan vertice'ler birleştirilir. Ayrıca kenardaki invert işareti (yani <-> işareti) işlemi tersine çevirir, yani invert kapalıyken weight değeri 0'dan büyük olan vertice'ler birleştirilir ve weight değeri 0 olan vertice'ler birleştirilmez iken, invert açıldığında weight değeri 0'dan büyük olan vertice'ler birleştirilmez ve weight değeri 0 olan vertice'ler birleştirilir.
 
 
 
+## [Wireframe](https://docs.blender.org/manual/en/3.6/modeling/modifiers/generate/wireframe.html)
+Bilmiyorum.
 
 
 

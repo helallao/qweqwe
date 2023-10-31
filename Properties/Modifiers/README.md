@@ -39,6 +39,7 @@
 * [Skin](#skin)
 * [Solidify](#solidify)
 * [Subdivision Surface](#subdivision-surface)
+* [Triangulate](#triangulate)
 
 
 <br>
@@ -698,6 +699,21 @@ Bilmiyorum.
 
 * #### Use Custom Normals
 Bilmiyorum.
+
+
+
+## [Triangulate](https://docs.blender.org/manual/en/3.6/modeling/modifiers/generate/triangulate.html)
+Bu modifier mesh'inizin face'lerini üçgene çevirir, triangulate eder.
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -770,11 +770,41 @@ Sadece seçilen vertex group içerisindeki weight değeri 0'dan büyük olan ver
 
 
 ## [Wireframe](https://docs.blender.org/manual/en/3.6/modeling/modifiers/generate/wireframe.html)
-Bilmiyorum.
+Bu modifier mesh'in kenarlarını kullanarak wireframe şekli oluşturur. Yani mesh'in kenarlarına kalınlık ekler ve mesh'in kenarlarının şekli oluşturulur.
 
 
+* #### Thickness
+Kenarların kalınlığı.
+
+* #### Offset
+Wireframe'in içe mi dışa mı doğru olacağını belirler.
+
+* #### Boundary
+a
+
+* #### Replace Original
+Bu ayar açıkken yeni oluşturulan wireframe şekli mesh'in yerini alır ve orijinal mesh silinir. Eğer bu ayarı kapatırsanız wireframe mesh'in üzerinde olur.
+
+* #### Even
+a
+
+* #### Relative
+a
+
+* #### Crease Edges
+a
+
+* #### Material Offset
+a
 
 
+## Vertex Group
+
+* #### Vertex Group
+a
+
+* #### Factor
+a
 
 
 

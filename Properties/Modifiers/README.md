@@ -780,7 +780,7 @@ Kenarların kalınlığı.
 Wireframe'in içe mi dışa mı doğru olacağını belirler.
 
 * #### Boundary
-a
+Kenarların köşe kısımlarını kapatır. Mesela bir küp mesh'inin bir yüzünü silerseniz ve wireframe modifier'ı uygularsanız silinen yüzün olduğu yerdeki kenarların uçlarının açık olduğunu görebilirsiniz. Uçları da kapatmak için bu ayarı açın.
 
 * #### Replace Original
 Bu ayar açıkken yeni oluşturulan wireframe şekli mesh'in yerini alır ve orijinal mesh silinir. Eğer bu ayarı kapatırsanız wireframe mesh'in üzerinde olur.
@@ -792,7 +792,7 @@ Bu ayar oluşturulan wireframe'in kenarlarının aynı kalınlığa sahip olmas�
 Oluşturulan wireframe'in kenarlarının kalınlıklarını kenarların uzunluğuna göre belirler. Bu da kenarların birbirleri arasında oranı varmış gibi bir görünüme sebep olur. Yani mesh'in geniş kısımlarında wireframe'in kenarları da kalın iken, küçük kısımlarında wireframe'in kenarları da ince görünüme sahip olur.
 
 * #### Crease Edges
-a
+Oluşturulan wireframe'in kenarlarına crease ekler. Crease değerini de buradan ayarlayabilirsiniz.
 
 * #### Material Offset
 Oluşturulan wireframe'in materyal değeri. Bu değer şu anda kullanılan materyale ek olarak hesaplanır. Yani 1 yaparsanız bir sonraki, -1 yaparsanız bir önceki materyal kullanılır.
@@ -801,10 +801,10 @@ Oluşturulan wireframe'in materyal değeri. Bu değer şu anda kullanılan mater
 ## Vertex Group
 
 * #### Vertex Group
-a
+Verdiğiniz Vertex Group içindeki vertex'lerin oluşturduğu kenarlar kalınlaştırma işleminden etkilenir. Vertex'lerin sahip olduğu weight değeri kullanılarak kenarların kalınlığı hesaplanır. 0 iken hiç kalınlık olmaz. 1 iken tam kalınlık olur.
 
 * #### Factor
-a
+Vertex Group için factor değeri. Bu ayarın çalışma mantığı şudur, vertex group'un kalınlık değeri üzerinde ne kadar etkisi olacağını belirler. Mesela bu ayar 0 iken tamamen vertex group'un içindeki vertex'lerin weight değerleri kullanılır. Eğer bu ayarı 0.5 yaparsanız yarı yarıya vertex group kullanılır. Yani vertex group içerisinde weight değeri 0 olan vertex'ler olsa bile, bu vertex'ler sadece yarı yarıya vertex weight değerinden etkilendikleri için bu vertex'lerin oluşturdukları kenarlara da "Thickness" input'una verdiğiniz değerin yarısı kadar kalınlık uygulanır. Yani kalınlık değerinin yarısı "Thickness" input'undan, yarısı vertex group'tan belirlenir. Eğer bu ayarı 1 yaparsanız vertex group'un hiç etkisi kalmaz. Yani vertex group içerisinde değeri 0 olan vertex'ler ile 1 olan vertex'ler arasında bir fark kalmaz.
 
 
 

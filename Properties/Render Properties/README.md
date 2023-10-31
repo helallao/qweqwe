@@ -377,10 +377,10 @@ Viewport için Dicing Rate değerini belirtir. Bu değeri düşürürseniz daha 
 Kamera dışındaki objeler için Dicing Rate çarpanı. Yani mesela bu ayarın değeri 4 iken kamera dışındaki objeler için Dicing Rate değeri 4 ile çarpılır. Bu da daha büyük bir değer çıkmasına sebep olur ve değer artınca da subdivision sayısı düşer. Kısacası kamera dışındaki objeler için detay derecesini ayarlamış oluruz. Bu değeri düşürürseniz kamera dışındaki objelerden kaliteli gölgeler ve yansımalar alabilirsiniz. Arttırırsanız da gölgeler ve yansımalar için kalite düşer ama render hızı artar.
 
 * #### Max Subdivisions
-a
+Mesh'ler için maksimum subdivision sayısı.
 
 * #### Dicing Camera
-a
+Dicing için kullanılacak kamera, uzaklıklar ve kamera dışındaki objeleri hesaplamak için bu kamera kullanılır. Eğer hareket eden bir kameranız varsa, her frame'de tekrardan Adaptive Subdivision hesaplamaları yapmamak için sabit bir kamera oluşturup bu ayara o kamera objesini bağlayabilirsiniz.
 
 
 <br>

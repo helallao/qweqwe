@@ -41,6 +41,7 @@
 * [Subdivision Surface](#subdivision-surface)
 * [Triangulate](#triangulate-1)
 * [Volume to Mesh](#volume-to-mesh)
+* [Weld](#weld)
 
 
 <br>
@@ -745,9 +746,25 @@ Bilmiyorum.
 
 
 
+## [Weld](https://docs.blender.org/manual/en/3.6/modeling/modifiers/generate/weld.html)
+Bu modifier birbirine yakın olan vertice'leri birleştirir.
 
 
+* #### Mode
 
+Mod | Açıklama
+:---: | :---:
+‎All | Objenin sahip olduğu bütün vertice'ler birleşebilir.
+Connected | Objenin ayrık parçaları birleşemez, sadece birbirine connected yani bağlı olan kısımlar kendi içinde birleşebilir.
+
+* #### Distance
+Aralarındaki mesafe bu değerden az olan vertice'ler birleştirilir.
+
+* #### Only Loose Edges
+Sadece "Mode" ayarı "Connected" modundayken vardır. 
+
+* #### Vertex Group
+Sadece seçilen vertex group içerisindeki weight değeri 0'dan büyük olan vertice'ler birleştirilir. Ayrıca kenardaki invert işareti (yani <-> işareti) işlemi tersine çevirir, yani invert kapalıyken weight değeri 0'dan büyük olan vertice'ler birleştirilir ve weight değeri 0 olan vertice'ler birleştirilmez iken, invert açıldığında weight değeri 0'dan büyük olan vertice'ler birleştirilmez ve weight değeri 0 olan vertice'ler birleştirilir.
 
 
 

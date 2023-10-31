@@ -368,13 +368,13 @@ Bu kategori "Adaptive Subdivision" ile ilgili ayarları barındırır. "Adaptive
 
 
 * #### Dicing Rate Render
-a
+Render için Dicing Rate değerini belirtir. Bu değeri düşürürseniz daha fazla subdivision olur, arttırırsanız daha az.
 
 * #### Dicing Rate Viewport
-a
+Viewport için Dicing Rate değerini belirtir. Bu değeri düşürürseniz daha fazla subdivision olur, arttırırsanız daha az.
 
 * #### Offscreen Scale
-a
+Kamera dışındaki objeler için Dicing Rate çarpanı. Yani mesela bu ayarın değeri 4 iken kamera dışındaki objeler için Dicing Rate değeri 4 ile çarpılır. Bu da daha büyük bir değer çıkmasına sebep olur ve değer artınca da subdivision sayısı düşer. Kısacası kamera dışındaki objeler için detay derecesini ayarlamış oluruz. Bu değeri düşürürseniz kamera dışındaki objelerden kaliteli gölgeler ve yansımalar alabilirsiniz. Arttırırsanız da gölgeler ve yansımalar için kalite düşer ama render hızı artar.
 
 * #### Max Subdivisions
 a

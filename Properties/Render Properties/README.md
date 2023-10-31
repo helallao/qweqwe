@@ -157,7 +157,7 @@ Bu kategori render ayarlarına başlamadan önce, render motorunu ve özellikler
 Buradan kullanacağınız render motorunu seçebilirsiniz.
 
 * #### Feature Set
-Sadece "Render Engine" ayarı "Cycles" iken vardır. "Experimental" ayarını seçerek deneysel özellikleri kullanabilirsiniz.
+Sadece "Render Engine" ayarı "Cycles" iken vardır. "Experimental" ayarını seçerek deneysel özellikleri kullanabilirsiniz. Bu deneysel özelliklerin en bilinenlerinden biri [Adaptive Subdivision'dır](#subdivision-1).
 
 * #### Device
 Sadece "Render Engine" ayarı "Cycles" iken vardır. Render işleminin cpu (işlemci) üzerinde mi yoksa gpu (ekran kartı) üzerinde yapılacağını seçebilirsiniz. Gpu (ekran kartı) seçeneğini kullanmadan önce ayarlara girip (Preferences) "System" menüsünde en üst bölümden gpu için kullanmak istediğimiz cihazı seçmeliyiz.
@@ -364,7 +364,7 @@ Volume hesaplanırken gönderilen ışınların volume içerisinde ne kadar deri
 
 
 # [Subdivision](https://docs.blender.org/manual/en/3.6/render/cycles/render_settings/subdivision.html)
-Bu kategori.
+Bu kategori "Adaptive Subdivision" ile ilgili ayarları barındırır. "Adaptive Subdivision" özelliği sadece [Feature Set](#feature-set) ayarı "Experimental" olarak ayarlandığında kullanılabilir. Dolayısıyla bu kategori de [Feature Set](#feature-set) ayarı "Experimental" olarak ayarlandığında görünecektir.
 
 
 * #### Dicing Rate Render

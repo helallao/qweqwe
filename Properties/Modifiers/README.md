@@ -610,7 +610,15 @@ Yeni oluşturulan kalınlıgın (rim) materyal değeri. Bu değer şu anda kulla
 ## Edge Data
 
 * #### Crease Inner
+İç tarafa crease ekler.
+
+* #### Crease Outer
+Dış tarafa crease ekler.
+
+* #### Rim
+Kalınlık (rim) üzerine crease ekler.
+
+<img src="../../Dosyalar/Modifiers_Solidify_Crease.png" width="400">
+
+* #### Bevel Convex
 a
-
-
-

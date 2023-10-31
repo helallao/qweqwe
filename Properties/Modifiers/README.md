@@ -610,15 +610,40 @@ Yeni oluşturulan kalınlıgın (rim) materyal değeri. Bu değer şu anda kulla
 ## Edge Data
 
 * #### Crease Inner
-İç tarafa crease ekler.
+Sadece "Mode" ayarı "Simple" modundayken vardır. İç tarafa crease ekler.
 
 * #### Crease Outer
-Dış tarafa crease ekler.
+Sadece "Mode" ayarı "Simple" modundayken vardır. Dış tarafa crease ekler.
 
 * #### Rim
-Kalınlık (rim) üzerine crease ekler.
+Sadece "Mode" ayarı "Simple" modundayken vardır. Kalınlık (rim) üzerine crease ekler.
 
 <img src="../../Dosyalar/Modifiers_Solidify_Crease.png" width="400">
 
 * #### Bevel Convex
-a
+Dış kenarlara eklenecek bevel weight değeri.
+
+
+## Thickness Clamp
+
+* #### Clamp
+Bilmiyorum.
+
+* #### Angle Clamp
+Bilmiyorum.
+
+
+## Output Vertex Groups
+
+* #### Shell
+Bilmiyorum.
+
+* #### Rim
+Bilmiyorum.
+
+
+
+
+
+
+

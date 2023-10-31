@@ -67,6 +67,13 @@ Aşağıdaki döküman Cycles render motoru kullanıldığı varsayılarak hazı
 * [Viewport](#viewport-1)
 * [Max Steps](#max-steps)
 
+# [Subdivision](#subdivision-1)
+* [Dicing Rate Render](#dicing-rate-render)
+* [Dicing Rate Viewport](#dicing-rate-viewport)
+* [Offscreen Scale](#offscreen-scale)
+* [Max Subdivisions](#max-subdivisions)
+* [Dicing Camera](#dicing-camera)
+
 # [Curves](#curves-1)
 * [Shape](#shape)
 * [Curve Subdivisions](#curve-subdivisions)
@@ -350,6 +357,30 @@ Viewport için volume kalitesi. Bu ayarın değerini düşürdükçe kalite arta
 
 * #### Max Steps
 Volume hesaplanırken gönderilen ışınların volume içerisinde ne kadar derine gidebileceğini belirler. Bu ayarın default değeri çok yüksek, 10-30 arası bir şeyler yapabilirsiniz. Eğer kaliteli olsun diyorsanız 100 yapabilirsiniz ama 1000 yapmayın çünkü gereksiz oluyor ve render süresi uzuyor.
+
+
+<br>
+<br>
+
+
+# [Subdivision](https://docs.blender.org/manual/en/3.6/render/cycles/render_settings/subdivision.html)
+Bu kategori.
+
+
+* #### Dicing Rate Render
+a
+
+* #### Dicing Rate Viewport
+a
+
+* #### Offscreen Scale
+a
+
+* #### Max Subdivisions
+a
+
+* #### Dicing Camera
+a
 
 
 <br>

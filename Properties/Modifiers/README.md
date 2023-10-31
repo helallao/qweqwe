@@ -536,7 +536,12 @@ Solidify modifier'ı mesh'e kalınlık/derinlik ekler.
 
 
 * #### Mode
-a
+Mod.
+
+Mod | Açıklama
+:---: | :---:
+‎Simple | Default mod. Tek bir kenarın 2'den fazla bağlı olduğu face olduğunda hata verebilir.
+Complex | Her türlü geometri için kesin sonuç sunar. Hesaplamalar daha fazla olduğu için bu modu seçmek yavaşlık ekleyebilir ama kesin sonuç döndürür.
 
 * #### Thickness
 Kalınlık.
@@ -545,13 +550,23 @@ Kalınlık.
 Kalınlığın ekleneceği yön, default olarak bu ayar -1'dir yani normal'ların tersine doğru yani içe doğru kalınlık ekler. Eğer bu ayarı 1 yaparsanız kalınlık normal'lar yönünde eklenir, yani dışa doğru. 0 yaparak iki yöne doğru da ortalı bir şekilde kalınlık ekleyebilirsiniz.
 
 * #### Even Thickness
-Eğer köşelerde uygulanan kalınlık azsa/fazlaysa bu ayarı açarak diğer kısımlar ile eşit şekilde kalınlık ekleyebilirsiniz. Daha fazla işlem gerektirdiği için yavaşlık ekleyebilir.
+Sadece "Mode" ayarı "Simple" modundayken vardır. Eğer köşelerde uygulanan kalınlık azsa/fazlaysa bu ayarı açarak diğer kısımlar ile eşit şekilde kalınlık ekleyebilirsiniz. Daha fazla işlem gerektirdiği için yavaşlık ekleyebilir.
 
 * #### Rim Fill
 Bu ayar açıkken kalınlık ile mesh birbirine bağlıdır. Eğer bu ayarı kapatırsanız oluşturulan kalınlık mesh'e bağlı olmaz, bu da sanki yeni bir yüzey oluşturmuşsunuz gibi, yani kopya oluşturmuşsunuz gibi bir görünüm verir. Oluşturulan kalınlık ile mesh birbirinden ayrı kalır.
 
 * #### Only Rim
 "Mode" ayarı "Simple" modundayken bu ayar sadece kalınlık ekler. Yani mesh'in yüzeyine paralel olan kısımları sonuca eklemez. Sadece kalınlık ekler. Eklediği kalınlığın uçlarını veya iç taraflarını yapmaz. "Mode" ayarı "Complex" modundayken bu ayar kalınlık haricindeki her şeyi siler. Sadece yeni eklenen kalınlık kalır. Yani yüzeyler yeniden oluşturulmaz, sadece kalınlık olarak oluşturulan yeni kısım kalır.
+
+* #### Vertex Group
+Verdiğiniz Vertex Group içindeki vertex'ler kalınlaştırma işleminden etkilenir. Vertex'lerin sahip olduğu weight değeri kullanılarak kalınlık hesaplanır. 0 iken hiç kalınlık olmaz. 1 iken tam kalınlık olur.
+
+* #### Factor
+Vertex Group için factor değeri. Bu ayarın çalışma mantığı şudur, vertex group'un kalınlık değeri üzerinde ne kadar etkisi olacağını belirler. Mesela bu ayar 0 iken tamamen vertex group'un içindeki vertex'lerin weight değerleri kullanılır. Eğer bu ayarı 0.5 yaparsanız yarı yarıya vertex group kullanılır. Yani vertex group içerisinde weight değeri 0 olan vertex'ler olsa bile, bu vertex'ler sadece yarı yarıya vertex weight değerinden etkilendikleri için bu vertex'lere de "Thickness" input'una verdiğiniz değerin yarısı kadar kalınlık uygulanır. Yani kalınlık değerinin yarısı "Thickness" input'undan, yarısı vertex group'tan belirlenir. Eğer bu ayarı 1 yaparsanız vertex group'un hiç etkisi kalmaz. Yani vertex group içerisinde değeri 0 olan vertex'ler ile 1 olan vertex'ler arasında bir fark kalmaz.
+
+
+
+
 
 
 

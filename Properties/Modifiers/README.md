@@ -685,10 +685,19 @@ Keep Corners, Junctions, Concave | Bilmiyorum.
 Keep Boundaries | Bilmiyorum.
 All | Bilmiyorum.
 
+* #### Boundary Smooth
+UV üzerinde yapılacak yumuşatmaları belirler.
 
+Mod | Açıklama
+:---: | :---:
+‎All | Köşeler de dahil olmak üzere her yerde geçişler yumuşatılır.
+‎Keep Corners | Köşe kısımlar haricinde geriye kalan yerlerde geçişler yumuşatılır.
 
+* #### Use Creases
+Bilmiyorum.
 
-
+* #### Use Custom Normals
+Bilmiyorum.
 
 
 

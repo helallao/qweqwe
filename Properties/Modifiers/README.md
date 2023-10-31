@@ -786,16 +786,16 @@ a
 Bu ayar açıkken yeni oluşturulan wireframe şekli mesh'in yerini alır ve orijinal mesh silinir. Eğer bu ayarı kapatırsanız wireframe mesh'in üzerinde olur.
 
 * #### Even
-a
+Bu ayar oluşturulan wireframe'in kenarlarının aynı kalınlığa sahip olmasını sağlar. Bu ayar kapalı iken kenarlar farklı kalınlıklarda olabilir.
 
 * #### Relative
-a
+Oluşturulan wireframe'in kenarlarının kalınlıklarını kenarların uzunluğuna göre belirler. Bu da kenarların birbirleri arasında oranı varmış gibi bir görünüme sebep olur. Yani mesh'in geniş kısımlarında wireframe'in kenarları da kalın iken, küçük kısımlarında wireframe'in kenarları da ince görünüme sahip olur.
 
 * #### Crease Edges
 a
 
 * #### Material Offset
-a
+Oluşturulan wireframe'in materyal değeri. Bu değer şu anda kullanılan materyale ek olarak hesaplanır. Yani 1 yaparsanız bir sonraki, -1 yaparsanız bir önceki materyal kullanılır.
 
 
 ## Vertex Group

@@ -547,9 +547,11 @@ Kalınlığın ekleneceği yön, default olarak bu ayar -1'dir yani normal'ları
 * #### Even Thickness
 Eğer köşelerde uygulanan kalınlık azsa/fazlaysa bu ayarı açarak diğer kısımlar ile eşit şekilde kalınlık ekleyebilirsiniz. Daha fazla işlem gerektirdiği için yavaşlık ekleyebilir.
 
+* #### Rim Fill
+Bu ayar açıkken kalınlık ile mesh birbirine bağlıdır. Eğer bu ayarı kapatırsanız oluşturulan kalınlık mesh'e bağlı olmaz, bu da sanki yeni bir yüzey oluşturmuşsunuz gibi, yani kopya oluşturmuşsunuz gibi bir görünüm verir. Oluşturulan kalınlık ile mesh birbirinden ayrı kalır.
 
-
-
+* #### Only Rim
+"Mode" ayarı "Simple" modundayken bu ayar sadece kalınlık ekler. Yani mesh'in yüzeyine paralel olan kısımları sonuca eklemez. Sadece kalınlık ekler. Eklediği kalınlığın uçlarını veya iç taraflarını yapmaz. "Mode" ayarı "Complex" modundayken bu ayar kalınlık haricindeki her şeyi siler. Sadece yeni eklenen kalınlık kalır. Yani yüzeyler yeniden oluşturulmaz, sadece kalınlık olarak oluşturulan yeni kısım kalır.
 
 
 

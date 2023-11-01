@@ -44,6 +44,10 @@
 * [Weld](#weld)
 * [Wireframe](#wireframe)
 
+# [Deform](#deform-1)
+* [Armature](#armature)
+* [Cast](#cast)
+
 
 <br>
 <br>
@@ -805,6 +809,29 @@ Verdiğiniz Vertex Group içindeki vertex'lerin oluşturduğu kenarlar kalınla�
 
 * #### Factor
 Vertex Group için factor değeri. Bu ayarın çalışma mantığı şudur, vertex group'un kalınlık değeri üzerinde ne kadar etkisi olacağını belirler. Mesela bu ayar 0 iken tamamen vertex group'un içindeki vertex'lerin weight değerleri kullanılır. Eğer bu ayarı 0.5 yaparsanız yarı yarıya vertex group kullanılır. Yani vertex group içerisinde weight değeri 0 olan vertex'ler olsa bile, bu vertex'ler sadece yarı yarıya vertex weight değerinden etkilendikleri için bu vertex'lerin oluşturdukları kenarlara da "Thickness" input'una verdiğiniz değerin yarısı kadar kalınlık uygulanır. Yani kalınlık değerinin yarısı "Thickness" input'undan, yarısı vertex group'tan belirlenir. Eğer bu ayarı 1 yaparsanız vertex group'un hiç etkisi kalmaz. Yani vertex group içerisinde değeri 0 olan vertex'ler ile 1 olan vertex'ler arasında bir fark kalmaz.
+
+
+<br>
+<br>
+
+
+# [Deform]()
+a.
+
+
+## [Armature](https://docs.blender.org/manual/en/3.6/modeling/modifiers/deform/armature.html)
+a.
+
+
+
+## [Cast](https://docs.blender.org/manual/en/3.6/modeling/modifiers/deform/cast.html)
+a.
+
+
+
+
+
+
 
 
 

@@ -896,8 +896,11 @@ Mod | Açıklama
 ‎Y | Y ekseni.
 ‎Z | Z ekseni.
 Normal | Her vertex için normal değerini yani baktığı yön değerini kullanır.
-Custom Normal | a
-RGB to XYZ | a
+Custom Normal | Her vertex için custom normal değerini yani sizin ayarladığınız yön değerini kullanır.
+RGB to XYZ | Displacement texture'unun RGB değerleri XYZ eksenleri için displacement değerleri olarak kullanılır. Yani R -> X, G -> Y, B -> Z olur. Mesela diyelim ki sadece X ekseninde displacement uygulayacaksınız, o zaman texture tamamen kırmızı olmalı. Diyelim ki hem X hem Y hem de Z ekseninde displacement uygulayacaksınız ama X ekseni için 1, Y ekseni için 0.5 ve Z ekseni için 0.25 değerlerinde displacement istiyorsunuz. O zaman oluşturduğunuz texture'un her bir pikselinin değeri (1, 0.5, 0.25) olmalı. Yani anlayacağınız siyah-beyaz displacement texture'u kullanıp tek bir eksende displacement uygulamak yerine, RGB değerlerine sahip olan texture'ları XYZ olarak kullanıp bütün eksenlerde displacement uygulayabilirsiniz.
+
+* #### Space
+Bu ayar işlemlerin gerçekleşeceği uzayı belirler. Local yaparsanız objenin kendi lokal yönleri kullanılır. Global yaparsanız dünyanın yönleri kullanılır.
 
 * #### Strength
 Displacement texture'undan gelen değerler için çarpan görevi görür. Yani displacement derecesini belirler.

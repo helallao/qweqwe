@@ -48,6 +48,7 @@
 * [Armature](#armature)
 * [Cast](#cast)
 * [Curve](#curve)
+* [Displace](#displace)
 
 
 <br>

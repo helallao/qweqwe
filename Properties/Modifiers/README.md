@@ -874,7 +874,7 @@ Sadece bu vertex group'un içindeki vertex'ler modifier'dan etkilenir. Vertex'le
 
 
 ## [Displace](https://docs.blender.org/manual/en/3.6/modeling/modifiers/deform/displace.html)
-Bu modifier verdiğiniz displacement texture'undaki değerler ile mesh'e displacement uygular. Modifier'ın düzgün çalışabilmesi için mesh'in yeterince vertex'e sahip olması gerekir.
+Bu modifier verdiğiniz displacement texture'undaki değerler ile mesh'e displacement uygular. Modifier'ın düzgün çalışabilmesi için mesh'in yeterince vertex'e sahip olması gerekir yani vertex sayısı displacement kalitesini direktmen etkiler.
 
 
 * #### Coordinates
@@ -884,9 +884,29 @@ Mod | Açıklama
 :---: | :---:
 ‎Local | Lokal koordinat sistemi. Mesh'e uygulanan transform işlemleri (location, rotation, scale) displacement'ı etkilemez.
 Global | Global koordinat sistemi. Mesh'e uygulanan transform işlemleri (location, rotation, scale) displacement'ı etkiler yani displacement dünya üzerindeki transform değerlerine göre hesaplanır de denebilir.
-Object | a
+Object | "Global" modu ile aynıdır ama başka bir objenin transform değerlerini kullanır. Yani o objenin konumunu, rotasyonunu, scale'ini kullanır.
+UV | Displacement texture'unu mesh'in UV'sine göre kullanır. Yani bu mod mesh'in UV Map'ini kullanır.
 
+* #### Direction
+Displacement işleminin uygulanacağı yön.
 
+Mod | Açıklama
+:---: | :---:
+‎X | X ekseni.
+‎Y | Y ekseni.
+‎Z | Z ekseni.
+Normal | Her vertex için normal değerini yani baktığı yön değerini kullanır.
+Custom Normal | a
+RGB to XYZ | a
+
+* #### Strength
+Displacement texture'undan gelen değerler için çarpan görevi görür. Yani displacement derecesini belirler.
+
+* #### Midlevel
+Displacement uygulandığında mesh yüzeyini ileri/geri almak için kullanılır.
+
+* #### Coordinates
+Sadece bu vertex group'un içindeki vertex'ler modifier'dan etkilenir. Vertex'lerin weight değerleri modifier'dan ne kadar etkileneceklerini belirtir.
 
 
 

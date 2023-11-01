@@ -825,7 +825,23 @@ a.
 
 
 ## [Cast](https://docs.blender.org/manual/en/3.6/modeling/modifiers/deform/cast.html)
-a.
+Bu modifier mesh'i küre, silindir veya kübik şekle getirir, isterseniz belirli bir nokta belirtebilir veya orijin noktasını kullanabilirsiniz. Ayrıca modifier'ın düzgün çalışabilmesi için mesh'in yeterince vertex'e sahip olması gerekir.
+
+
+* #### Shape
+Şekil.
+
+* #### Axis
+Modifier'dan etkilenecek eksenler.
+
+* #### Factor
+Orijinal şekil ile oluşturulacak şekil arasındaki dereceyi belirler. 0 iken modifier'ın hiç etkisi olmaz. 1 olduğunda mesh seçtiğiniz şekle dönüşür (tam olarak dönüşmediyse muhtemelen mesh'iniz yeterince detaya yani vertex'e sahip değildir). 1'den sonra arttırdıkça deformasyon da artar. Yani şeklin etkisi de artar. Eğer eksilere doğru giderseniz de mesh seçtiğiniz şeklin tam tersi olmaya başlar.
+
+
+
+
+
+
 
 
 

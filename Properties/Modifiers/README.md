@@ -816,7 +816,7 @@ Vertex Group için factor değeri. Bu ayarın çalışma mantığı şudur, vert
 
 
 # [Deform](https://docs.blender.org/manual/en/3.6/modeling/modifiers/index.html#deform)
-a.
+Bu kategorideki modfier'lar objenin topolojisini değiştirmeyen ama şeklini değiştiren modifier'lardır.
 
 
 ## [Armature](https://docs.blender.org/manual/en/3.6/modeling/modifiers/deform/armature.html)

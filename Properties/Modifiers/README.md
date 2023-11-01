@@ -835,17 +835,22 @@ Bu modifier mesh'i küre, silindir veya kübik şekle getirir, isterseniz belirl
 Modifier'dan etkilenecek eksenler.
 
 * #### Factor
-Orijinal şekil ile oluşturulacak şekil arasındaki dereceyi belirler. 0 iken modifier'ın hiç etkisi olmaz. 1 olduğunda mesh seçtiğiniz şekle dönüşür (tam olarak dönüşmediyse muhtemelen mesh'iniz yeterince detaya yani vertex'e sahip değildir). 1'den sonra arttırdıkça deformasyon da artar. Yani şeklin etkisi de artar. Eğer eksilere doğru giderseniz de mesh seçtiğiniz şeklin tam tersi olmaya başlar.
+Orijinal şekil ile oluşturulacak şekil arasındaki dereceyi belirler. 0 iken modifier'ın hiç etkisi olmaz. 1 olduğunda mesh seçtiğiniz şekle dönüşür (tam olarak dönüşmediyse muhtemelen mesh'iniz yeterince detaya yani vertex'e sahip değildir). 1'den sonra arttırdıkça deformasyon da artar. Yani şeklin etkisi de artar. Eğer eksilere doğru giderseniz de mesh seçtiğiniz şeklin tam tersi olmaya başlar. Yani yönü değişir de denebilir.
 
+* #### Radius
+Orijin noktası ile aralarındaki mesafe bu değerden daha az olan vertex'ler modifier'dan etkilenir. Yani yarıçap değerini belirler. 0 yaparsanız sınırsız olur.
 
+* #### Size
+Büyüklük/scale değeri, "Size from Radius" ayarını kapatarak bu ayarı kullanabilirsiniz. Oluşturulacak yeni şekil için büyüklük değerini ayarlar.
 
+* #### Size from Radius
+Bu ayar açık iken büyüklük olarak "Radius" değeri kullanılır. Kapalı iken "Size" değeri kullanılır.
 
+* #### Vertex Group
+Sadece bu vertex group'un içindeki vertex'ler modifier'dan etkilenir. Vertex'lerin weight değerleri modifier'dan ne kadar etkileneceklerini belirtir.
 
-
-
-
-
-
+* #### Object
+Orijin noktasını başka bir obje kullanarak belirleyebilirsiniz. Bu ayar sayesinde çok güzel efektler yapabilirsiniz.
 
 
 

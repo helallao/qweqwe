@@ -49,6 +49,7 @@
 * [Cast](#cast)
 * [Curve](#curve)
 * [Displace](#displace)
+* [Hook](#hook)
 
 
 <br>
@@ -911,6 +912,25 @@ Displacement uygulandığında mesh yüzeyini ileri/geri almak için kullanılı
 
 * #### Coordinates
 Sadece bu vertex group'un içindeki vertex'ler modifier'dan etkilenir. Vertex'lerin weight değerleri modifier'dan ne kadar etkileneceklerini belirtir.
+
+
+
+## [Hook](https://docs.blender.org/manual/en/3.6/modeling/modifiers/deform/hooks.html)
+a
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

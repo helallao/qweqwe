@@ -47,6 +47,7 @@
 # [Deform](#deform-1)
 * [Armature](#armature)
 * [Cast](#cast)
+* [Curve](#curve)
 
 
 <br>
@@ -854,6 +855,21 @@ Orijin noktasını başka bir obje kullanarak belirleyebilirsiniz. Bu ayar sayes
 
 
 https://github.com/helallao/qweqwe/assets/78656003/b32ac485-63aa-48d6-9734-0de8bffaa382
+
+
+
+## [Curve](https://docs.blender.org/manual/en/3.6/modeling/modifiers/deform/curve.html)
+a
+
+
+
+
+
+
+
+
+
+
 
 
 

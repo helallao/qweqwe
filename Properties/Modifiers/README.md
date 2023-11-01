@@ -853,6 +853,7 @@ Sadece bu vertex group'un içindeki vertex'ler modifier'dan etkilenir. Vertex'le
 Orijin noktasını başka bir obje kullanarak belirleyebilirsiniz. Bu ayar sayesinde çok güzel efektler yapabilirsiniz.
 
 
+https://github.com/helallao/qweqwe/assets/78656003/b32ac485-63aa-48d6-9734-0de8bffaa382
 
 
 

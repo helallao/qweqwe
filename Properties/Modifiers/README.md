@@ -859,13 +859,17 @@ https://github.com/helallao/qweqwe/assets/78656003/b32ac485-63aa-48d6-9734-0de8b
 
 
 ## [Curve](https://docs.blender.org/manual/en/3.6/modeling/modifiers/deform/curve.html)
-a
+Bu modifier mesh'i seçtiğiniz curve üzerinde sabitler. Mesh'i curve üzerinde hareket ettirebilir ve curve'e göre deforme ettirebilirsiniz, yani curve'ün büküldüğü kısımlarda mesh'in şekli de bundan etkilenir.
 
 
+* #### Curve Object
+Curve objesi.
 
+* #### Deformation Axis
+Mesh'in curve üzerinde hareket edebilmesi için ilerlemesi gereken yön. Yani mesela bunu Z yaparsanız mesh Z ekseninde ilerledikçe (orijini) curve üzerinde hareket eder.
 
-
-
+* #### Vertex Group
+Sadece bu vertex group'un içindeki vertex'ler modifier'dan etkilenir. Vertex'lerin weight değerleri modifier'dan ne kadar etkileneceklerini belirtir.
 
 
 

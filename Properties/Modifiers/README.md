@@ -102,7 +102,7 @@ Bilmiyorum.
 
 
 # [Generate](https://docs.blender.org/manual/en/3.6/modeling/modifiers/index.html#generate)
-Bu kategorideki modfier'lar objenin geometrisini direktmen değiştirmeyen, daha çok objelerin verisini değiştiren modifier'lardır.
+Bu kategorideki modfier'lar objenin geometrisini/topolojisini direktmen değiştiren modifier'lardır.
 
 
 ## [Array](https://docs.blender.org/manual/en/3.6/modeling/modifiers/generate/array.html)
@@ -816,7 +816,7 @@ Vertex Group için factor değeri. Bu ayarın çalışma mantığı şudur, vert
 
 
 # [Deform](https://docs.blender.org/manual/en/3.6/modeling/modifiers/index.html#deform)
-Bu kategorideki modfier'lar objenin topolojisini değiştirmeyen ama şeklini değiştiren modifier'lardır.
+Bu kategorideki modfier'lar objenin geometrisini/topolojisini değiştirmeyen ama şeklini değiştiren modifier'lardır.
 
 
 ## [Armature](https://docs.blender.org/manual/en/3.6/modeling/modifiers/deform/armature.html)

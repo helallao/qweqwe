@@ -873,6 +873,21 @@ Sadece bu vertex group'un içindeki vertex'ler modifier'dan etkilenir. Vertex'le
 
 
 
+## [Displace](https://docs.blender.org/manual/en/3.6/modeling/modifiers/deform/displace.html)
+Bu modifier verdiğiniz displacement texture'undaki değerler ile mesh'e displacement uygular. Modifier'ın düzgün çalışabilmesi için mesh'in yeterince vertex'e sahip olması gerekir.
+
+
+* #### Coordinates
+Kullanılacak koordinat sistemi.
+
+Mod | Açıklama
+:---: | :---:
+‎Local | Lokal koordinat sistemi. Mesh'e uygulanan transform işlemleri (location, rotation, scale) displacement'ı etkilemez.
+Global | Global koordinat sistemi. Mesh'e uygulanan transform işlemleri (location, rotation, scale) displacement'ı etkiler yani displacement dünya üzerindeki transform değerlerine göre hesaplanır de denebilir.
+Object | a
+
+
+
 
 
 

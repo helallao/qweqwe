@@ -955,6 +955,16 @@ Bu ayar scale değeri farklı olan eksenlerde Falloff'un farklı olmasını enge
 Bu modifier belirlediğiniz anchor vertex'lerden birisi hareket edince, diğer anchor vertex'leri hareket ettirmeden mesh'i bütün olarak (sanki proportional editing gibi) deforme eder, yani şekillendirir. Bu modifier genellikle [Hook](#hook) modifier'ı ile birlikte kullanılır ve güzel bir kombinasyon oluştururlar. Animasyon değil de, küçük poz değişiklikleri yapmak istediğinizde çok kullanışlıdırlar.
 
 
+* #### Repeat
+Anchor haricinde kalan vertex'lerin (yani mesh'in) yerlerini bulmak için yapılacak hesaplama miktarını belirtir. Bu değeri arttırmak daha doğru sonuçlar verir ama hesaplama süresi artar.
+
+* #### Anchor Weights
+Anchor olan vertex'leri belirten vertex group, vertex group'taki vertex'lerin weight değerleri modifier için bir şey ifade etmez. Yani weight değerini arttırmak etki derecesini arttırmaz. Sadece weight değerleri 0'a eşit mi diye kontrol edilir. Weight değeri 0 olan vertex'ler modifier'dan etkilenmez. Ayrıca kenardaki invert işareti (yani <-> işareti) işlemi tersine çevirir, yani invert kapalıyken weight değeri 0'dan büyük olan vertex'ler modifier'dan etkilenir, invert açıkken değeri 0'a eşit olan vertex'ler modifier'dan etkilenir.
+
+* #### Bind/Unbind
+Modifier'ı açar/kapatır. Bunu mesela modifier'ı kullanmadan anchor vertex'lerin yerini değiştirmek için kullanabilirsiniz.
+
+
 
 
 

@@ -916,17 +916,22 @@ Sadece bu vertex group'un içindeki vertex'ler modifier'dan etkilenir. Vertex'le
 
 
 ## [Hook](https://docs.blender.org/manual/en/3.6/modeling/modifiers/deform/hooks.html)
-a
+Bu modifier mesh üzerindeki vertex'leri hook olarak belirtilen objeye bağlar ve obje hareket ettikçe vertex'ler de hareket eder. Ayrıca hook modifier'ı eklemenin kolay bir yolu da edit modda (Ctrl + H) kısayolunu kullanmaktır, tabi önce hook'a bağlanacak vertex'leri seçmelisiniz.
 
 
+* #### Object
+Obje.
 
+* #### Vertex Group
+Sadece bu vertex group'un içindeki vertex'ler modifier'dan etkilenir. Vertex'lerin weight değerleri modifier'dan ne kadar etkileneceklerini belirtir.
 
+* #### Strength
+Vertex'lerin objenin hareketinden ne kadar etkileneceğini belirler. 1'de iken tam etkilenir, 0'da hiç etkilenmez. Mesela 1'de iken obje dünya üzerinde 2 birim Z ekseninde ilerlerse, vertex'ler de dünya üzerinde 2 birim Z ekseninde ilerler, yani tam olarak etkilenir. Bu ayarı 0.5 yaparsanız Z ekseninde 1 birim ilerler, yani yarım etkilenir.
 
+* #### Reset/Recenter
+Bu ayarlar sadece edit moddayken vardır. Reset butonu hook objesini hareket ettirdikten sonra (yani bu durumda mesh'in vertex'leri de hareket etmiş olacak), hook objesinin şu anki konumunu orijin noktası yapmak için kullanılır. Yani hani biz hook objesini mesh'e bağladıktan sonra hook objesini hareket ettirdiğimizde mesh'in vertex'leri de hareket ediyor ya, orijin noktası hook objesini mesh'e bağladığımız anda hook objesi neredeyse orası oluyor ve hareket işlemleri bu noktaya göre hesaplanıyor, ama bazen hook objesinin konumunu değiştirmek isteyebiliriz, hook modifier'ı kaldırıp sonra hook objesini hareket ettirip sonra tekrar hook modifier'ı eklemek çok uzun bir işlem olurdu. Bunu yerine Reset butonunu kullanarak hook objesinin şu anki konumunu orijin noktası olarak ayarlayabilirsiniz.
 
-
-
-
-
+Recenter butonu da
 
 
 

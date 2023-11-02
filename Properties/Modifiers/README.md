@@ -52,6 +52,8 @@
 * [Hook](#hook)
 * [Laplacian Deform](#laplacian-deform)
 * [Lattice](#lattice)
+* [Mesh Deform](#mesh-deform)
+* [Shrinkwrap](#shrinkwrap)
 
 
 <br>
@@ -1000,5 +1002,26 @@ Bu ayar modifier uygulanan mesh üzerinde herhangi bir değiklik yapan diğer ş
 
 * #### Bind/Unbind
 Modifier'ı açar/kapatır. Bunu mesela modifier'ı kullanmadan mesh'in vertex'lerin yerini değiştirmek için kullanabilirsiniz.
+
+
+
+## [Shrinkwrap](https://docs.blender.org/manual/en/3.6/modeling/modifiers/deform/shrinkwrap.html)
+a
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 

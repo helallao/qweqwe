@@ -982,8 +982,23 @@ Lattice modifier'ın etki derecesi.
 
 
 
+## [Mesh Deform](https://docs.blender.org/manual/en/3.6/modeling/modifiers/deform/mesh_deform.html)
+[Lattice](#lattice) gibidir ama mesh'i deforme etmek, yani şekillendirmek için başka bir mesh'i kullanır. Kullnılan mesh'in vertex'leri hareket ettirildikçe bu modifier'a sahip olan mesh'in de şekli değişir.
 
 
+* #### Object
+Mesh objesi.
 
+* #### Vertex Group
+Modifier'dan etkilenecek vertex group, sadece bu vertex group'un içindeki vertex'ler modifier'dan etkilenir. Vertex'lerin weight değeri modifier'dan etkilenme derecesini belirtir. 1 iken tam etkilenir, 0 iken etkilenmez.
+
+* #### Precision
+Mesh'lerin birbirleri arasında eşleşecek yerlerini bulmak için yapılacak hesaplama miktarını belirtir. Bu değeri arttırmak daha doğru sonuçlar verir ama hesaplama süresi artar. Özellikle "Bind" butonuna bastığınızda çok uzun süre hesaplama yapılmasına sebep olabilir (8 yaptım blender çöktü :D).
+
+* #### Dynamic
+Bu ayar modifier uygulanan mesh üzerinde herhangi bir değiklik yapan diğer şeyleri de hesaba katar. Mesela başka modifier'lar da varsa bu ayarı açarsanız birbirleriyle koordine bir şekilde çalışırlar. Bu ayarı açarsanız hesaplama süresi ve ram kullanımı artar.
+
+* #### Bind/Unbind
+Modifier'ı açar/kapatır. Bunu mesela modifier'ı kullanmadan mesh'in vertex'lerin yerini değiştirmek için kullanabilirsiniz.
 
 

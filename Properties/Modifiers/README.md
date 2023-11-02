@@ -931,13 +931,22 @@ Vertex'lerin objenin hareketinden ne kadar etkileneceğini belirler. 1'de iken t
 * #### Reset/Recenter
 Bu ayarlar sadece edit moddayken vardır. Reset butonu hook objesini hareket ettirdikten sonra (yani bu durumda mesh'in vertex'leri de hareket etmiş olacak), hook objesinin şu anki konumunu orijin noktası yapmak için kullanılır. Yani hani biz hook objesini mesh'e bağladıktan sonra hook objesini hareket ettirdiğimizde mesh'in vertex'leri de hareket ediyor ya, orijin noktası hook objesini mesh'e bağladığımız anda hook objesi neredeyse orası oluyor ve hareket işlemleri bu noktaya göre hesaplanıyor, ama bazen hook objesinin konumunu değiştirmek isteyebiliriz, hook modifier'ı kaldırıp sonra hook objesini hareket ettirip sonra tekrar hook modifier'ı eklemek çok uzun bir işlem olurdu. Bunu yerine Reset butonunu kullanarak hook objesinin şu anki konumunu orijin noktası olarak ayarlayabilirsiniz.
 
-Recenter butonu da
+Recenter butonu da Falloff ile ilgili bir ayardır. Tıklandığı anda 3d cursor'ın olduğu konumu hook center olarak ayarlar. Default olarak hook center seçilen vertex'lerin konumlarının ortasıdır (veya ortalaması). Yani Falloff'un seçilen vertex'lerin konumlarının ortasından etki uygular. Falloff etkisini 3d cursor'ın olduğu konuma taşımak için bu butona basın.
+
+* #### Select/Assign
+Bu ayarlar sadece edit moddayken vardır. Select şu an hook'a bağlı olan vertex'leri seçer. Assign seçtiğiniz vertex'leri hook'a bağlar.
 
 
+## Falloff
 
+* #### Type
+Buradan Falloff türünü seçebilirsiniz. "Curve" modunda kendi Falloff profilinizi yapabilirsiniz.
 
+* #### Radius
+Falloff için yarıçap değeri.
 
-
+* #### Uniform Falloff
+Bu ayar scale değeri farklı olan eksenlerde Falloff'un farklı olmasını engellemek içindir. Mesela diyelim ki bir küp oluşturdunuz ve bu küpü X ekseninde scale ederek uzattınız ve bir dikdörtgene dönüştü ve şu anki scale değeri (3, 1, 1) yani X ekseninde 3 kat scale edilmiş. Eğer bu ayar kapalı ise Falloff'un X ekseni üzerinde 3 kat daha geniş olduğunu, yani Falloff'un scale değerine göre kendisini ayarladığını göreceksiniz. Eğer bunu istemiyorsanız bu ayarı açarak her eksende scale değerlerini umursamadan tam olarak "Radius" ayarına verdiğiniz yarıçap üzerinde Falloff uygulayabilirsiniz.
 
 
 

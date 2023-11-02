@@ -50,6 +50,7 @@
 * [Curve](#curve)
 * [Displace](#displace)
 * [Hook](#hook)
+* [Laplacian Deform](#laplacian-deform)
 
 
 <br>
@@ -916,7 +917,7 @@ Sadece bu vertex group'un içindeki vertex'ler modifier'dan etkilenir. Vertex'le
 
 
 ## [Hook](https://docs.blender.org/manual/en/3.6/modeling/modifiers/deform/hooks.html)
-Bu modifier mesh üzerindeki vertex'leri hook olarak belirtilen objeye bağlar ve obje hareket ettikçe vertex'ler de hareket eder. Ayrıca hook modifier'ı eklemenin kolay bir yolu da edit modda (Ctrl + H) kısayolunu kullanmaktır, tabi önce hook'a bağlanacak vertex'leri seçmelisiniz.
+Bu modifier mesh üzerindeki vertex'leri hook olarak belirtilen objeye bağlar ve obje hareket ettikçe vertex'ler de hareket eder. Ayrıca hook modifier'ı eklemenin kolay bir yolu da edit modda (Ctrl + H) kısayolunu kullanmaktır, tabi önce hook'a bağlanacak vertex'leri seçmelisiniz. Ayrıca bu modifier genellikle [Laplacian Deform](#laplacian-deform) modifier'ı ile birlikte kullanılır ve güzel bir kombinasyon oluştururlar. Animasyon değil de, küçük poz değişiklikleri yapmak istediğinizde çok kullanışlıdırlar.
 
 
 * #### Object
@@ -947,6 +948,17 @@ Falloff için yarıçap değeri.
 
 * #### Uniform Falloff
 Bu ayar scale değeri farklı olan eksenlerde Falloff'un farklı olmasını engellemek içindir. Mesela diyelim ki bir küp oluşturdunuz ve bu küpü X ekseninde scale ederek uzattınız ve bir dikdörtgene dönüştü ve şu anki scale değeri (3, 1, 1) yani X ekseninde 3 kat scale edilmiş. Eğer bu ayar kapalı ise Falloff'un X ekseni üzerinde 3 kat daha geniş olduğunu, yani Falloff'un scale değerine göre kendisini ayarladığını göreceksiniz. Eğer bunu istemiyorsanız bu ayarı açarak her eksende scale değerlerini umursamadan tam olarak "Radius" ayarına verdiğiniz yarıçap üzerinde Falloff uygulayabilirsiniz.
+
+
+
+## [Laplacian Deform](https://docs.blender.org/manual/en/3.6/modeling/modifiers/deform/laplacian_deform.html)
+Bu modifier belirlediğiniz anchor vertex'lerden birisi hareket edince, diğer anchor vertex'leri hareket ettirmeden mesh'i bütün olarak (sanki proportional editing gibi) deforme eder, yani şekillendirir. Bu modifier genellikle [Hook](#hook) modifier'ı ile birlikte kullanılır ve güzel bir kombinasyon oluştururlar. Animasyon değil de, küçük poz değişiklikleri yapmak istediğinizde çok kullanışlıdırlar.
+
+
+
+
+
+
 
 
 

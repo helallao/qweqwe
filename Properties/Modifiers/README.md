@@ -51,6 +51,7 @@
 * [Displace](#displace)
 * [Hook](#hook)
 * [Laplacian Deform](#laplacian-deform)
+* [Lattice](#lattice)
 
 
 <br>
@@ -964,6 +965,20 @@ Anchor olan vertex'leri belirten vertex group, vertex group'taki vertex'lerin we
 * #### Bind/Unbind
 Modifier'ı açar/kapatır. Bunu mesela modifier'ı kullanmadan anchor vertex'lerin yerini değiştirmek için kullanabilirsiniz.
 
+
+
+## [Lattice](https://docs.blender.org/manual/en/3.6/modeling/modifiers/deform/lattice.html)
+Lattice kullanıldığında oluşturulan modifier'dır. Eğer obje lattice'e "Lattice Deform" modunda parent'lanırsa bu modifier oluşturulur.
+
+
+* #### Object
+Lattice objesi.
+
+* #### Vertex Group
+Lattice'den etkilenecek vertex group, sadece bu vertex group'un içindeki vertex'ler lattice modifier'dan etkilenir. Vertex'lerin weight değeri modifier'dan etkilenme derecesini belirtir. 1 iken tam etkilenir, 0 iken etkilenmez.
+
+* #### Strength
+Lattice modifier'ın etki derecesi.
 
 
 

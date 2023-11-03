@@ -1006,7 +1006,7 @@ Modifier'ı açar/kapatır. Bunu mesela modifier'ı kullanmadan mesh'in vertex'l
 
 
 ## [Shrinkwrap](https://docs.blender.org/manual/en/3.6/modeling/modifiers/deform/shrinkwrap.html)
-a
+Bu modifier bir objeyi başka bir objenin yüzeyine sarmaya/sarmalamaya yarar. Objeyi diğer objenin üzerine yansıtmamıza yarar.
 
 
 

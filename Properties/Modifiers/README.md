@@ -1006,14 +1006,31 @@ Modifier'ı açar/kapatır. Bunu mesela modifier'ı kullanmadan mesh'in vertex'l
 
 
 ## [Shrinkwrap](https://docs.blender.org/manual/en/3.6/modeling/modifiers/deform/shrinkwrap.html)
-Bu modifier bir objeyi başka bir objenin yüzeyine sarmaya/sarmalamaya yarar. Objeyi diğer objenin üzerine yansıtmamıza yarar.
+Bu modifier bir objeyi başka bir objenin yüzeyine sarmaya/sarmalamaya yarar. Objeyi diğer objenin üzerine yansıtmamıza yarar. Modifier'ın düzgün çalışabilmesi için objenin yeterince vertex'e sahip olması gerekir yani vertex sayısı modifier kalitesini direktmen etkiler.
 
 
+* #### Wrap Method
+Objenin vertex'lerinin hedef obje üzerinde nereye yansıtalacağını belirleyen modlardır.
 
+Mod | Açıklama
+:---: | :---:
+‎Nearest Surface Point | Objenin vertex'leri hedef objenin en yakın olan noktalarına getirilir.
 
+* #### Snap Mode
+a.
 
+Mod | Açıklama
+:---: | :---:
+‎a | a
 
+* #### Target
+Hedef obje.
 
+* #### Offset
+Objeyi hedef objeye sardıktan sonra offset vermemize yani ileri/geri almamıza yarar. Eğer iki obje de üst üste geliyorsa biraz offset vererek birbirlerinden ayırabilirsiniz.
+
+* #### Vertex Group
+Modifier'dan etkilenecek vertex group, sadece bu vertex group'un içindeki vertex'ler modifier'dan etkilenir. Vertex'lerin weight değeri modifier'dan etkilenme derecesini belirtir. 1 iken tam etkilenir, 0 iken etkilenmez.
 
 
 

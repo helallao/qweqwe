@@ -1015,6 +1015,7 @@ Objenin vertex'lerinin hedef obje üzerinde nereye yansıtalacağını belirleye
 Mod | Açıklama
 :---: | :---:
 ‎Nearest Surface Point | Objenin vertex'leri hedef objenin en yakın olan noktalarına getirilir.
+Project | Objenin vertex'leri belirtilen eksende veya normal'lar yönünde hedef objenin üzerine getirilir. Eğer eksen belirlerseniz vertex'ler sadece belirtilen eksende hedef objenin üzerine getirilir, yani mesela Z eksenini kullanırsanız sadece Z ekseninde vertex'ler hedef objenin üzerine getirilir. Mesela üst taraftaki objeyi alt taraftaki objeye yansıtmak için böyle yapabilirsiniz. Eğer eksen belirtmezseniz vertex'lerin normal'ları yani baktıkları yön kullanılarak vertex'ler hedef objenin üzerine getirilir.
 
 * #### Snap Mode
 a.
@@ -1022,6 +1023,19 @@ a.
 Mod | Açıklama
 :---: | :---:
 ‎a | a
+
+* #### Limit
+Sadece "Wrap Method" ayarı "Project" modundayken vardır. Üzerine getirileceği yüzey ile aralarında bu değerden daha fazla mesafe olan vertex'ler hedef objenin üzerine getirilmez. Yani bu ayar mesafe limitini belirler.
+
+* #### Subdivision Levels
+Sadece "Wrap Method" ayarı "Project" modundayken vardır. Vertex'lerin hedef objenin yüzeyinde gelecekleri konumu hesaplarken kullanılacak detay sayısı, bu ayarı arttırmak gerçekten subdivision sayısını arttırmaz yani vertex sayısı artmaz ama hesaplamalar yapılırkenki subdivision sayısını arttırır. Eğer çok fazla arttırırsanız objeyi hareket ettirirken hesaplamaların daha uzun sürdüğünü görebilirsiniz.
+
+* #### Axis
+Sadece "Wrap Method" ayarı "Project" modundayken vardır. Vertex'ler hedef objenin yüzeyine getirilirken kullanılacak eksen, mesela Z eksenini kullanırsanız sadece Z ekseninde vertex'ler hedef objenin üzerine getirilir. Normalde vertex'lerin normal'ları yani baktıkları yön kullanılır ve bu vertex'lerin rastgele gibi hedef yüzeye getirilmesine sebep olabilir. Böyle durumlarda eksen seçmelisiniz.
+
+* #### Negative/Positive
+Sadece "Wrap Method" ayarı "Project" modundayken vardır. Bu ayarlar vertex'lerin hedef objenin yüzeyine gelirken, kullandıkları eksenin hangi yönünde hareket edebileceklerini belirler. Yani mesela objeniz üst tarafta ise ve hedef obje de alt tarafta ise, eğer negative kullanmassanız vertex'ler hedef obje üzerine getirilmeyecektir çünkü hedef yüzeye getirilmeleri için Z ekseninin negatif yönünde ilerlemeleri gerekir.
+
 
 * #### Target
 Hedef obje.

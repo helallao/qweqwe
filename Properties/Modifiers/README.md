@@ -1016,6 +1016,7 @@ Mod | Açıklama
 :---: | :---:
 ‎Nearest Surface Point | Objenin vertex'leri hedef objenin en yakın olan noktalarına getirilir.
 Project | Objenin vertex'leri belirtilen eksende veya normal'lar yönünde hedef objenin üzerine getirilir. Eğer eksen belirlerseniz vertex'ler sadece belirtilen eksende hedef objenin üzerine getirilir, yani mesela Z eksenini kullanırsanız sadece Z ekseninde vertex'ler hedef objenin üzerine getirilir. Mesela üst taraftaki objeyi alt taraftaki objeye yansıtmak için böyle yapabilirsiniz. Eğer eksen belirtmezseniz vertex'lerin normal'ları yani baktıkları yön kullanılarak vertex'ler hedef objenin üzerine getirilir.
+Nearest Vertex | a
 
 * #### Snap Mode
 a.
@@ -1036,9 +1037,17 @@ Sadece "Wrap Method" ayarı "Project" modundayken vardır. Vertex'ler hedef obje
 * #### Negative/Positive
 Sadece "Wrap Method" ayarı "Project" modundayken vardır. Bu ayarlar vertex'lerin hedef objenin yüzeyine gelirken, kullandıkları eksenin hangi yönünde hareket edebileceklerini belirler. Yani mesela objeniz üst tarafta ise ve hedef obje de alt tarafta ise, eğer negative kullanmassanız vertex'ler hedef obje üzerine getirilmeyecektir çünkü hedef yüzeye getirilmeleri için Z ekseninin negatif yönünde ilerlemeleri gerekir.
 
+* #### Face Cull
+Sadece "Wrap Method" ayarı "Project" modundayken vardır. Vertex'lerin hedef objenin yüzeyinde geldikleri face'in ön veya arka olup olmadığını kontrol ederek buna göre vertex'lerin yüzeye getirilip getirilmeyeceğine karar verir. Ön ve arkayı kontrol etmekten kastım face'in normal'ının ön mü yoksa arka mı olduğunu kontrol etmek. Diyelim ki bu ayarı "Front" olarak ayarladınız ve hedef objeniz bir küp ve küpün bütün face'lerinin normal'ları dışa doğru. Bu durumda vertex'ler hedef obje üzerine getirilmeyecektir çünkü hedef objenin face'leri dışa doğru bakıyor. Yani "Front" ayarını seçerseniz normal'ları dışa doğru bakan face'lere vertex getirilmez. Az önce verdiğim küp örneğinde eğer "Back" seçili olsaydı veya face'lerin normal'ları içe doğru olsaydı, vertex'ler bu face'lere getirilebilirdi. Kısacası özet geçmek gerekirse, hedef objenin face'inin normal'ı vertex'lerin o face'e getirildiği yöne bakıyorsa bu face "Front", tersi yöne bakıyorsa "Back" tir, ve bu ayar da istediğini bir yönü kısıtlamanıza, o yöne bakan face'lere vertex getirilmemesine yani o yöne bakan face'leri hariç tutmanıza yarar.
+
+* #### Invert Cull
+Sadece "Wrap Method" ayarı "Project" modundayken vardır. "Face Cull" ayarında verdiğiniz yön değerlerini tersine çevirir. Ne işe yaradığını tam anlamadım.
 
 * #### Target
 Hedef obje.
+
+* #### Auxiliary Target
+Sadece "Wrap Method" ayarı "Project" modundayken vardır. Hedef objeye ek olarak kullanılacak ikincil hedef obje. Yani bunu sanki hedef obje ile birleşikmiş gibi düşünebilirsiniz.
 
 * #### Offset
 Objeyi hedef objeye sardıktan sonra offset vermemize yani ileri/geri almamıza yarar. Eğer iki obje de üst üste geliyorsa biraz offset vererek birbirlerinden ayırabilirsiniz.

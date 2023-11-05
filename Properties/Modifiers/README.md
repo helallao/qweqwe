@@ -56,6 +56,7 @@
 * [Shrinkwrap](#shrinkwrap)
 * [Simple Deform](#simple-deform)
 * [Smooth](#smooth-1)
+* [Smooth Corrective](#smooth-corrective)
 
 
 <br>
@@ -1101,8 +1102,25 @@ Modifier'dan etkilenecek vertex group, sadece bu vertex group'un içindeki verte
 
 
 ## [Smooth](https://docs.blender.org/manual/en/3.6/modeling/modifiers/deform/smooth.html)
-Bu modifier
+Bu modifier smooth tool'unun modifier hali gibidir. Yaptıkları iş bakımından aynıdırlar denebilir. Bu modifier'ı düzgün bir şekilde kullanmayı amaçlıyorsanız "Factor" değerini değiştirmeyin, "Repeat" değerini yükseltin, bu beklenen yumuşatma efektini verecektir.
 
+
+* #### Axis
+Buradan hangi eksenlerde yumuşatma uygulanacağını belirleyebilirsiniz.
+
+* #### Factor
+Yumuşatma derecesi, 0-1 aralığının dışına çıkıldığında acayip şekiller vermeye başlayabilir.
+
+* #### Repeat
+Yumuşatma işlemi tekrarlama sayısı. Smooth tool'unun tekrar tekrar kullanılması ile aynıdır. Yumuşatmayı arttırmak için bu değeri arttırın.
+
+* #### Vertex Group
+Modifier'dan etkilenecek vertex group, sadece bu vertex group'un içindeki vertex'ler modifier'dan etkilenir. Vertex'lerin weight değeri modifier'dan etkilenme derecesini belirtir. 1 iken tam etkilenir, 0 iken etkilenmez.
+
+
+
+## [Smooth Corrective](https://docs.blender.org/manual/en/3.6/modeling/modifiers/deform/corrective_smooth.html)
+Bu modifier
 
 
 

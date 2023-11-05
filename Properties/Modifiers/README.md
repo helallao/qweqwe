@@ -1019,11 +1019,15 @@ Project | Objenin vertex'leri belirtilen eksende veya normal'lar yönünde hedef
 Nearest Vertex | a
 
 * #### Snap Mode
-a.
+Objenin vertex'lerinin hedef obje üzerinde nereye yansıtalacağını ve "Offset" ayarının nasıl çalışacağını belirleyen modlardır.
 
 Mod | Açıklama
 :---: | :---:
-‎a | a
+‎On Surface | Vertex hedef objenin yüzeyine getirilir, offset verirseniz offset yönü vertex'in hedef obje üzerine getirildiği doğrultuda olur.
+Inside | Vertex hedef objenin iç yüzeyi üzerine getirilir, offset verirseniz offset yönü vertex'in hedef obje üzerinde getirilen noktasından vertex'in orijinal konumuna doğru olur.
+Outside | Vertex hedef objenin dış yüzeyi üzerine getirilir, offset verirseniz offset yönü vertex'in hedef obje üzerinde getirilen noktasından vertex'in orijinal konumuna doğru olur.
+Outside Surface | Vertex hedef objenin dış yüzeyi üzerine getirilir, offset verirseniz offset yönü vertex'in hedef obje üzerinde getirilen face'in baktığı yöne göre olur yani hedef objenin face'inin baktığı yöne doğru offset verir.
+Above Surface | Vertex hedef objenin dış yüzeyi üzerine getirilir, offset verirseniz offset yönü vertex'in hedef obje üzerinde getirilen noktasının baktığı yöne göre olur yani hedef objenin yüzeyinin baktığı yöne doğru offset verir. "Outside Surface" den farkı face normal'larını kullanmak yerine bu normal'ların ortalamasını alıp her nokta için hesaplama yapmasıdır, yani tam olarak yüzeyin şeklini hesaplar.
 
 * #### Limit
 Sadece "Wrap Method" ayarı "Project" modundayken vardır. Üzerine getirileceği yüzey ile aralarında bu değerden daha fazla mesafe olan vertex'ler hedef objenin üzerine getirilmez. Yani bu ayar mesafe limitini belirler.

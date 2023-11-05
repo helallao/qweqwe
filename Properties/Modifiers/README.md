@@ -55,7 +55,7 @@
 * [Mesh Deform](#mesh-deform)
 * [Shrinkwrap](#shrinkwrap)
 * [Simple Deform](#simple-deform)
-* [Smooth](#smooth)
+* [Smooth](#smooth-1)
 
 
 <br>

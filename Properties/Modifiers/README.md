@@ -55,6 +55,7 @@
 * [Mesh Deform](#mesh-deform)
 * [Shrinkwrap](#shrinkwrap)
 * [Simple Deform](#simple-deform)
+* [Smooth](#smooth)
 
 
 <br>
@@ -1092,10 +1093,22 @@ Orijin noktası, normalde objenin kendi orijini kullanılır, eğer orijin nokta
 Objeye uygulanacak işlem için lower ve upper (yani alt ve üst) limitleri belirler. Bu limit işlemlerin uygulandığı eksen üzerinde, işlemlerin objenin yüzdelik olarak neresinden neresine kadar etki edeceğini belirler. Mesela diyelim ki elinizdeki objeye "Twist" işlemi uyguluyorsunuz, eğer lower limit değerini 0.25, upper limit değerini 0.75 olarak ayarlarsanız objenizin işlemin uygulandığı eksende sadece %25'inden %75'ine kadar olan kısmı işlemden etkilenir. Lower limit eksenin eksi tarafını temsil ederken, upper limit eksenin artı tarafını temsil eder.
 
 * #### Lock
-Bu ayar "Mode" ayarı "Bend" modundayken yoktur, diğer modlarda vardır.
+Bu ayar "Mode" ayarı "Bend" modundayken yoktur, diğer modlarda vardır. Eğer işlemin herhangi bir eksen üzerinde uyguladığı efekti kaldırmak istiyorsanız buradan seçebilirsiniz.
 
 * #### Vertex Group
 Modifier'dan etkilenecek vertex group, sadece bu vertex group'un içindeki vertex'ler modifier'dan etkilenir. Vertex'lerin weight değeri modifier'dan etkilenme derecesini belirtir. 1 iken tam etkilenir, 0 iken etkilenmez.
+
+
+
+## [Smooth](https://docs.blender.org/manual/en/3.6/modeling/modifiers/deform/smooth.html)
+Bu modifier
+
+
+
+
+
+
+
 
 
 

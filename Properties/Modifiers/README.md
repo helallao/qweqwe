@@ -1064,7 +1064,7 @@ Modifier'dan etkilenecek vertex group, sadece bu vertex group'un içindeki verte
 
 
 ## [Simple Deform](https://docs.blender.org/manual/en/3.6/modeling/modifiers/deform/simple_deform.html)
-a
+Bu modifier objeye orijin noktasından başlayarak deformasyon uygular. İstediğiniz modu kullanarak farklı işlemler uygulayabilirsiniz.
 
 
 * #### Mode
@@ -1077,12 +1077,25 @@ Mod | Açıklama
 ‎Stretch | Objeyi seçtiğiniz eksende sündürmenize yarar.
 
 * #### Angle/Factor
+"Twist" ve "Bend" modları için açı değerini ayarlar. "Taper" ve "Stretch" modları için
+
+* #### Origin
+Orijin noktası, normalde objenin kendi orijini kullanılır, eğer orijin noktasını kendiniz ayarlamak istiyorsanız bu ayarı kullanarak belirttiğiniz objenin orijin noktasını kullanabilirsiniz.
+
+* #### Axis
+İşlemin uygulanacağı eksen.
 
 
+## Restrictions
 
+* #### Limits
+a
 
+* #### Lock
+Bu ayar "Mode" ayarı "Bend" modundayken yoktur, diğer modlarda vardır.
 
-
+* #### Vertex Group
+Modifier'dan etkilenecek vertex group, sadece bu vertex group'un içindeki vertex'ler modifier'dan etkilenir. Vertex'lerin weight değeri modifier'dan etkilenme derecesini belirtir. 1 iken tam etkilenir, 0 iken etkilenmez.
 
 
 

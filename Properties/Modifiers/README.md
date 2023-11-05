@@ -1016,7 +1016,8 @@ Mod | Açıklama
 :---: | :---:
 ‎Nearest Surface Point | Objenin vertex'leri hedef objenin en yakın olan noktalarına getirilir.
 Project | Objenin vertex'leri belirtilen eksende veya normal'lar yönünde hedef objenin üzerine getirilir. Eğer eksen belirlerseniz vertex'ler sadece belirtilen eksende hedef objenin üzerine getirilir, yani mesela Z eksenini kullanırsanız sadece Z ekseninde vertex'ler hedef objenin üzerine getirilir. Mesela üst taraftaki objeyi alt taraftaki objeye yansıtmak için böyle yapabilirsiniz. Eğer eksen belirtmezseniz vertex'lerin normal'ları yani baktıkları yön kullanılarak vertex'ler hedef objenin üzerine getirilir.
-Nearest Vertex | a
+Nearest Vertex | Objenin vertex'leri hedef objenin en yakın olan vertex'lerine getirilir.
+Target Normal Project | Objenin vertex'leri hedef objenin üzerine getirilirken, hedef objenin normal'ları kullanılır. Böylelikle tam olarak üzerine gelen noktayı hesaplar ve çok daha yumuşak bir yerleştirme uygular. En kaliteli moddur ama hesaplama miktarı da artar ve yavaş olabilir.
 
 * #### Snap Mode
 Objenin vertex'lerinin hedef obje üzerinde nereye yansıtalacağını ve "Offset" ayarının nasıl çalışacağını belirleyen modlardır.

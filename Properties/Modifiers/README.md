@@ -1067,12 +1067,16 @@ Modifier'dan etkilenecek vertex group, sadece bu vertex group'un içindeki verte
 a
 
 
-* #### a
-a
+* #### Mode
 
+Mod | Açıklama
+:---: | :---:
+‎Twist | Objeyi seçtiğiniz eksende twist (sarmal, RNA şekli gibi, kıvırcık saç gibi) yapmanıza yarar.
+‎Bend | Objeyi seçtiğiniz eksende bend yapmanıza yani bükmenize yarar.
+‎Taper | Objeyi seçtiğiniz eksende doğrusal olarak büyütmenize (boyutunu değiştirmeye) yarar.
+‎Stretch | Objeyi seçtiğiniz eksende sündürmenize yarar.
 
-
-
+* #### Angle/Factor
 
 
 

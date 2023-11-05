@@ -54,6 +54,7 @@
 * [Lattice](#lattice)
 * [Mesh Deform](#mesh-deform)
 * [Shrinkwrap](#shrinkwrap)
+* [Simple Deform](#simple-deform)
 
 
 <br>
@@ -1059,6 +1060,20 @@ Objeyi hedef objeye sardıktan/yansıttıktan sonra offset vermemize yani ileri/
 
 * #### Vertex Group
 Modifier'dan etkilenecek vertex group, sadece bu vertex group'un içindeki vertex'ler modifier'dan etkilenir. Vertex'lerin weight değeri modifier'dan etkilenme derecesini belirtir. 1 iken tam etkilenir, 0 iken etkilenmez.
+
+
+
+## [Simple Deform](https://docs.blender.org/manual/en/3.6/modeling/modifiers/deform/simple_deform.html)
+a
+
+
+* #### a
+a
+
+
+
+
+
 
 
 

@@ -1006,11 +1006,11 @@ Modifier'ı açar/kapatır. Bunu mesela modifier'ı kullanmadan mesh'in vertex'l
 
 
 ## [Shrinkwrap](https://docs.blender.org/manual/en/3.6/modeling/modifiers/deform/shrinkwrap.html)
-Bu modifier bir objeyi başka bir objenin yüzeyine sarmaya/sarmalamaya yarar. Objeyi diğer objenin üzerine yansıtmamıza yarar. Modifier'ın düzgün çalışabilmesi için objenin yeterince vertex'e sahip olması gerekir yani vertex sayısı modifier kalitesini direktmen etkiler.
+Bu modifier bir objeyi başka bir objenin yüzeyine sarmaya/sarmalamaya yarar. Objeyi hedef objenin üzerine yansıtmamıza yarar. Modifier'ın düzgün çalışabilmesi için objenin yeterince vertex'e sahip olması gerekir yani vertex sayısı modifier kalitesini direktmen etkiler.
 
 
 * #### Wrap Method
-Objenin vertex'lerinin hedef obje üzerinde nereye yansıtalacağını belirleyen modlardır.
+Objenin vertex'lerinin hedef obje üzerinde nereye yansıtalacağını/getirileceğini belirleyen modlardır.
 
 Mod | Açıklama
 :---: | :---:
@@ -1020,15 +1020,15 @@ Nearest Vertex | Objenin vertex'leri hedef objenin en yakın olan vertex'lerine 
 Target Normal Project | Objenin vertex'leri hedef objenin üzerine getirilirken, hedef objenin normal'ları kullanılır. Böylelikle tam olarak üzerine gelen noktayı hesaplar ve çok daha yumuşak bir yerleştirme uygular. En kaliteli moddur ama hesaplama miktarı da artar ve yavaş olabilir.
 
 * #### Snap Mode
-Objenin vertex'lerinin hedef obje üzerinde nereye yansıtalacağını ve "Offset" ayarının nasıl çalışacağını belirleyen modlardır.
+Objenin vertex'lerinin hedef obje üzerinde nereye yansıtalacağını/getirileceğini ve "Offset" ayarının nasıl çalışacağını belirleyen modlardır.
 
 Mod | Açıklama
 :---: | :---:
 ‎On Surface | Vertex hedef objenin yüzeyine getirilir, offset verirseniz offset yönü vertex'in hedef obje üzerine getirildiği doğrultuda olur.
 Inside | Vertex hedef objenin iç yüzeyi üzerine getirilir, offset verirseniz offset yönü vertex'in hedef obje üzerinde getirilen noktasından vertex'in orijinal konumuna doğru olur.
 Outside | Vertex hedef objenin dış yüzeyi üzerine getirilir, offset verirseniz offset yönü vertex'in hedef obje üzerinde getirilen noktasından vertex'in orijinal konumuna doğru olur.
-Outside Surface | Vertex hedef objenin dış yüzeyi üzerine getirilir, offset verirseniz offset yönü vertex'in hedef obje üzerinde getirilen face'in baktığı yöne göre olur yani hedef objenin face'inin baktığı yöne doğru offset verir.
-Above Surface | Vertex hedef objenin dış yüzeyi üzerine getirilir, offset verirseniz offset yönü vertex'in hedef obje üzerinde getirilen noktasının baktığı yöne göre olur yani hedef objenin yüzeyinin baktığı yöne doğru offset verir. "Outside Surface" den farkı face normal'larını kullanmak yerine bu normal'ların ortalamasını alıp her nokta için hesaplama yapmasıdır, yani tam olarak yüzeyin şeklini hesaplar.
+Outside Surface | Vertex hedef objenin dış yüzeyi üzerine getirilir, offset verirseniz offset yönü vertex'in hedef obje üzerinde getirildiği face'in baktığı yöne göre olur yani hedef objenin face'inin baktığı yöne doğru offset verir.
+Above Surface | Vertex hedef objenin dış yüzeyi üzerine getirilir, offset verirseniz offset yönü vertex'in hedef obje üzerinde getirildiği noktanın baktığı yöne göre olur yani hedef objenin yüzeyinin baktığı yöne doğru offset verir. "Outside Surface" den farkı face normal'larını kullanmak yerine bu normal'ların ortalamasını alıp her nokta için hesaplama yapmasıdır, yani tam olarak yüzeyin şeklini hesaplar.
 
 * #### Limit
 Sadece "Wrap Method" ayarı "Project" modundayken vardır. Üzerine getirileceği yüzey ile aralarında bu değerden daha fazla mesafe olan vertex'ler hedef objenin üzerine getirilmez. Yani bu ayar mesafe limitini belirler.
@@ -1037,13 +1037,13 @@ Sadece "Wrap Method" ayarı "Project" modundayken vardır. Üzerine getirileceğ
 Sadece "Wrap Method" ayarı "Project" modundayken vardır. Vertex'lerin hedef objenin yüzeyinde gelecekleri konumu hesaplarken kullanılacak detay sayısı, bu ayarı arttırmak gerçekten subdivision sayısını arttırmaz yani vertex sayısı artmaz ama hesaplamalar yapılırkenki subdivision sayısını arttırır. Eğer çok fazla arttırırsanız objeyi hareket ettirirken hesaplamaların daha uzun sürdüğünü görebilirsiniz.
 
 * #### Axis
-Sadece "Wrap Method" ayarı "Project" modundayken vardır. Vertex'ler hedef objenin yüzeyine getirilirken kullanılacak eksen, mesela Z eksenini kullanırsanız sadece Z ekseninde vertex'ler hedef objenin üzerine getirilir. Normalde vertex'lerin normal'ları yani baktıkları yön kullanılır ve bu vertex'lerin rastgele gibi hedef yüzeye getirilmesine sebep olabilir. Böyle durumlarda eksen seçmelisiniz.
+Sadece "Wrap Method" ayarı "Project" modundayken vardır. Vertex'ler hedef objenin yüzeyine getirilirken kullanılacak eksen, mesela Z eksenini kullanırsanız sadece Z ekseninde vertex'ler hedef objenin üzerine getirilir. Normalde vertex'lerin normal'ları yani baktıkları yön kullanılır ve bu da vertex'lerin dağınık olarak hedef yüzeye getirilmesine sebep olabilir. Böyle durumlarda eksen seçmelisiniz.
 
 * #### Negative/Positive
 Sadece "Wrap Method" ayarı "Project" modundayken vardır. Bu ayarlar vertex'lerin hedef objenin yüzeyine gelirken, kullandıkları eksenin hangi yönünde hareket edebileceklerini belirler. Yani mesela objeniz üst tarafta ise ve hedef obje de alt tarafta ise, eğer negative kullanmassanız vertex'ler hedef obje üzerine getirilmeyecektir çünkü hedef yüzeye getirilmeleri için Z ekseninin negatif yönünde ilerlemeleri gerekir.
 
 * #### Face Cull
-Sadece "Wrap Method" ayarı "Project" modundayken vardır. Vertex'lerin hedef objenin yüzeyinde geldikleri face'in ön veya arka olup olmadığını kontrol ederek buna göre vertex'lerin yüzeye getirilip getirilmeyeceğine karar verir. Ön ve arkayı kontrol etmekten kastım face'in normal'ının ön mü yoksa arka mı olduğunu kontrol etmek. Diyelim ki bu ayarı "Front" olarak ayarladınız ve hedef objeniz bir küp ve küpün bütün face'lerinin normal'ları dışa doğru. Bu durumda vertex'ler hedef obje üzerine getirilmeyecektir çünkü hedef objenin face'leri dışa doğru bakıyor. Yani "Front" ayarını seçerseniz normal'ları dışa doğru bakan face'lere vertex getirilmez. Az önce verdiğim küp örneğinde eğer "Back" seçili olsaydı veya face'lerin normal'ları içe doğru olsaydı, vertex'ler bu face'lere getirilebilirdi. Kısacası özet geçmek gerekirse, hedef objenin face'inin normal'ı vertex'lerin o face'e getirildiği yöne bakıyorsa bu face "Front", tersi yöne bakıyorsa "Back" tir, ve bu ayar da istediğini bir yönü kısıtlamanıza, o yöne bakan face'lere vertex getirilmemesine yani o yöne bakan face'leri hariç tutmanıza yarar.
+Sadece "Wrap Method" ayarı "Project" modundayken vardır. Vertex'lerin hedef objenin yüzeyinde geldikleri face'in ön veya arka olup olmadığını kontrol ederek buna göre vertex'lerin yüzeye getirilip getirilmeyeceğine karar verir. Ön ve arkayı kontrol etmekten kastım face'in normal'ının ön mü yoksa arka mı olduğunu kontrol etmek. Diyelim ki bu ayarı "Front" olarak ayarladınız ve hedef objeniz bir küp ve küpün bütün face'lerinin normal'ları dışa doğru. Bu durumda vertex'ler hedef obje üzerine getirilmeyecektir çünkü hedef objenin face'leri dışa doğru bakıyor. Yani "Front" ayarını seçerseniz normal'ları dışa doğru bakan face'lere vertex getirilmez. Eğer "Back" seçili olsaydı veya küpün face'lerinin normal'ları içe doğru olsaydı, vertex'ler bu face'lere getirilebilirdi. Kısacası özet geçmek gerekirse, hedef objenin face'inin normal'ı vertex'lerin o face'e getirildiği yöne bakıyorsa bu face "Front", tersi yöne bakıyorsa "Back" tir, ve bu ayar da istediğiniz yönü kısıtlamanıza, o yöne bakan face'lere vertex getirilmemesine yani o yöne bakan face'leri hariç tutmanıza yarar.
 
 * #### Invert Cull
 Sadece "Wrap Method" ayarı "Project" modundayken vardır. "Face Cull" ayarında verdiğiniz yön değerlerini tersine çevirir. Ne işe yaradığını tam anlamadım.
@@ -1052,10 +1052,10 @@ Sadece "Wrap Method" ayarı "Project" modundayken vardır. "Face Cull" ayarında
 Hedef obje.
 
 * #### Auxiliary Target
-Sadece "Wrap Method" ayarı "Project" modundayken vardır. Hedef objeye ek olarak kullanılacak ikincil hedef obje. Yani bunu sanki hedef obje ile birleşikmiş gibi düşünebilirsiniz.
+Sadece "Wrap Method" ayarı "Project" modundayken vardır. Hedef objeye ek olarak kullanılacak ikincil hedef obje. Yani bunu sanki hedef obje ile birleşikmiş gibi düşünebilirsiniz. Eğer herhangi bir obje seçerseniz vertex'ler hem "Target" ayarında belirtilen objenin yüzeyine hem de bu ayarda belirtilen objenin yüzeyine getirilir/yansıtılır.
 
 * #### Offset
-Objeyi hedef objeye sardıktan sonra offset vermemize yani ileri/geri almamıza yarar. Eğer iki obje de üst üste geliyorsa biraz offset vererek birbirlerinden ayırabilirsiniz.
+Objeyi hedef objeye sardıktan/yansıttıktan sonra offset vermemize yani ileri/geri almamıza yarar. Eğer yansıtma işleminden sonra iki obje de üst üste geliyorsa biraz offset vererek birbirlerinden ayırabilirsiniz.
 
 * #### Vertex Group
 Modifier'dan etkilenecek vertex group, sadece bu vertex group'un içindeki vertex'ler modifier'dan etkilenir. Vertex'lerin weight değeri modifier'dan etkilenme derecesini belirtir. 1 iken tam etkilenir, 0 iken etkilenmez.

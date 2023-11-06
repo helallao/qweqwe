@@ -1225,7 +1225,7 @@ Koordinat sistemi. [Displace](#displace) modifier'ındaki "Coordinates" ile ayn�
 
 
 ## [Wave](https://docs.blender.org/manual/en/3.6/modeling/modifiers/deform/wave.html)
-Bu modifier objenin geometrisine dalga efekti verir. Modifier'ın düzgün çalışabilmesi için objenin yeterince vertex'e sahip olması gerekir yani vertex sayısı modifier kalitesini direktmen etkiler. Tek bir dalga efekti sizi çok etkilememiş olabilir ama birden fazla dalga yapıp her birine farklı ayarlar yapınca gerçekten çok gerçekçi dalgalı su efektleri oluşturabilirsiniz. Aslında biraz daha teknik ve profesyonel bir açıdan bakacak olursanız bu modifier'ı sinüs dalgası olarak kullanabilirsiniz, ki bu da çok fazla kombinasyon yapılabileceği anlamına gelir.
+Bu modifier objenin geometrisine dalga animasyonu verir. Modifier'ın düzgün çalışabilmesi için objenin yeterince vertex'e sahip olması gerekir yani vertex sayısı modifier kalitesini direktmen etkiler. Tek bir dalga efekti sizi çok etkilememiş olabilir ama birden fazla dalga yapıp her birine farklı ayarlar yapınca gerçekten çok gerçekçi dalgalı su efektleri oluşturabilirsiniz. Aslında biraz daha teknik ve profesyonel bir açıdan bakacak olursanız bu modifier'ı sinüs dalgası olarak kullanabilirsiniz, ki bu da çok fazla kombinasyon yapılabileceğini gösteriyor.
 
 
 * #### Motion
@@ -1268,10 +1268,25 @@ Dalgaların başlangıç noktasını Y ekseninde ilerletir, yani offset verir. B
 ## Time
 
 * #### Offset
-a
+Dalga animasyonunun başlayacağı frame.
+
+* #### Life
+Dalga animasyonunun süresi. 0 sonsuz demektir.
+
+* #### Damping
+Normalde dalga animasyonu tamamlandığı anda dalgalar otomatik olarak yok olmaya başlarlar ve bu süre boyunca dalga animasyonunun süresi bitmiş olsa bile dalgalar hala yok olmaya devam ederler (yok olurken görebilirsiniz yani). Bu ayar da bu yok olma efektinin süresini uzatabilmenize yarar. Yani zaten normalde dalgalar şu anki boyuna (height) göre belirli bir yok olma süresine sahiptirler. Bu ayar sadece yok olma süresini uzatmaya yarar. Dalgaların yok olma süresi bu ayara verdiğiniz frame değeri kadar uzar.
+
+* #### Speed
+Dalga animasyonu hızı.
 
 
+## Texture
 
+* #### Texture
+Buradan dalga için kullanılacak displacement texture'u belirtebilirsiniz.
+
+* #### Coordinates
+Koordinat sistemi. [Displace](#displace) modifier'ındaki "Coordinates" ile aynıdır, gerekli bilgilere oradan ulaşabilirsiniz.
 
 
 

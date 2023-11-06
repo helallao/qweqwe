@@ -61,6 +61,7 @@
 * [Surface Deform](#surface-deform)
 * [Volume Displace](#volume-displace)
 * [Warp](#warp)
+* [Wave](#wave)
 
 
 <br>
@@ -1185,7 +1186,7 @@ Bilmiyorum.
 
 
 ## [Warp](https://docs.blender.org/manual/en/3.6/modeling/modifiers/deform/warp.html)
-Bu modifier [Hook](#hook) ve [Displace](#displace) modifier'larının birleşimi gibidir. "From" olarak belirttiğiniz objeden "To" olarak belirttiğiniz objeye doğru vertex'leri hareket ettirir.
+Bu modifier [Hook](#hook) ve [Displace](#displace) modifier'larının birleşimi gibidir. "From" olarak belirttiğiniz objeden "To" olarak belirttiğiniz objeye doğru vertex'leri hareket ettirir. Modifier'ın düzgün çalışabilmesi için objenin yeterince vertex'e sahip olması gerekir yani vertex sayısı modifier kalitesini direktmen etkiler.
 
 
 * #### Object From
@@ -1220,6 +1221,21 @@ Buradan falloff için kullanılacak displacement texture'u belirtebilirsiniz.
 
 * #### Coordinates
 Koordinat sistemi. [Displace](#displace) modifier'ındaki "Coordinates" ile aynıdır, gerekli bilgilere oradan ulaşabilirsiniz.
+
+
+
+## [Wave](https://docs.blender.org/manual/en/3.6/modeling/modifiers/deform/wave.html)
+Bu modifier objenin geometrisine dalga efekti verir. Modifier'ın düzgün çalışabilmesi için objenin yeterince vertex'e sahip olması gerekir yani vertex sayısı modifier kalitesini direktmen etkiler. Tek bir dalga efekti sizi çok etkilememiş olabilir ama birden fazla dalga yapıp her birine farklı ayarlar yapınca gerçekten çok gerçekçi dalgalı su efektleri oluşturabilirsiniz. Aslında biraz daha teknik ve profesyonel bir açıdan bakacak olursanız bu modifier'ı sinüs dalgası olarak kullanabilirsiniz, ki bu da çok fazla kombinasyon yapılabileceği anlamına gelir.
+
+
+* #### Motion
+a
+
+
+
+
+
+
 
 
 

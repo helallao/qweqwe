@@ -63,6 +63,9 @@
 * [Warp](#warp)
 * [Wave](#wave)
 
+# [Physics](#physics-1)
+* [Cloth](#cloth)
+
 
 <br>
 <br>
@@ -1268,7 +1271,7 @@ Dalgaların başlangıç noktasını Y ekseninde ilerletir, yani offset verir. B
 ## Time
 
 * #### Offset
-Dalga animasyonunun başlayacağı frame.
+Dalga animasyonunun başlayacağı frame. Ayrıca eksi değerler vererek animasyon başladığında sanki önceden başlatılmış gibi efekt verebilirsiniz yani eksi değer vermek animasyonun başlangıcını ileri alır denebilir.
 
 * #### Life
 Dalga animasyonunun süresi. 0 sonsuz demektir.
@@ -1287,6 +1290,25 @@ Buradan dalga için kullanılacak displacement texture'u belirtebilirsiniz.
 
 * #### Coordinates
 Koordinat sistemi. [Displace](#displace) modifier'ındaki "Coordinates" ile aynıdır, gerekli bilgilere oradan ulaşabilirsiniz.
+
+
+<br>
+<br>
+
+
+# [Physics](https://docs.blender.org/manual/en/3.6/modeling/modifiers/index.html#physics)
+a
+
+
+## [Cloth](https://docs.blender.org/manual/en/3.6/modeling/modifiers/physics/cloth.html)
+Bilmiyorum.
+
+
+
+
+
+
+
 
 
 

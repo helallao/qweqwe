@@ -1185,9 +1185,20 @@ Bilmiyorum.
 
 
 ## [Warp](https://docs.blender.org/manual/en/3.6/modeling/modifiers/deform/warp.html)
-Bilmiyorum.
+Bu modifier [Hook](#hook) ve [Displace](#displace) modifier'larının birleşimi gibidir. "From" olarak belirttiğiniz objeden "To" olarak belirttiğiniz objeye doğru vertex'leri hareket ettirir.
 
 
+* #### Object From
+Başlangıç noktası. Bu noktadan "Object To" noktasına doğru vertex'ler bükülür/esnetilir/çekilir.
+
+* #### Object To
+Bitiş noktası. Vertex'ler "Object From" noktasından bu noktaya doğru bükülür/esnetilir/çekilir.
+
+* #### Preserve Volume
+"From" veya "To" olarak belirtilen objelere rotasyon uygulandığında mesh'in vertex'lerinin iç içe girmesine engel olur. Oluşturulan alanı bozmadan korur.
+
+* #### Strength
+"From" olarak belirtilen noktadan "To" olarak belirtilen noktaya doğru uygulanan bükme/esnetme/çekim gücünü ayarlar. Mesela bu ayar 1 iken "From" ile "To" noktaları arasındaki mesafe neyse o kadar bükme uygulanır. Yani maximum bükülen nokta (orta nokta) tam olarak "From" ile "To" noktaları arasındaki mesafeye eşittir. Bu değeri 2 yaparsanız "From" ile "To" noktaları arasındaki mesafenin 2 katı kadar bükme uygulanır.
 
 
 

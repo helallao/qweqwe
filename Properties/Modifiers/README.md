@@ -59,6 +59,8 @@
 * [Smooth Corrective](#smooth-corrective)
 * [Smooth Laplacian](#smooth-laplacian)
 * [Surface Deform](#surface-deform)
+* [Volume Displace](#volume-displace)
+* [Warp](#warp)
 
 
 <br>
@@ -1164,21 +1166,26 @@ Hedef mesh.
 Ne kadar komşu vertex'in hareketten etkileneceğini belirler. Küçük değerler daha yumuşak bir efekt verir ama hafif bozulmalar olabilir, gerekmedikçe default değeri değiştirmeyin.
 
 * #### Strength
-a
+Hedef mesh ile modifier'ın uygulandığı mesh'e etki derecesi. Mesela bunu 2 yaparsanız 2 kat etki olur, yani hedef mesh 1 birim gittiğinde modifier'ın uygulandığı mesh 2 birim gider.
 
 * #### Vertex Group
 Modifier'dan etkilenecek vertex group, sadece bu vertex group'un içindeki vertex'ler modifier'dan etkilenir. Vertex'lerin weight değeri modifier'dan etkilenme derecesini belirtir. 1 iken tam etkilenir, 0 iken etkilenmez.
 
 * #### Sparse Bind
-a
+Vertex group içerisinde weight değeri 0 olan vertex'ler için bağlama işlemi yapmaz. Bu da gereksiz işlemler yapmaktan bizi kurtarır. Eğer vertex group'a yeni vertex'ler eklenirse, tekrar bağlama (bind) işlemi gerçekleştirmeniz gerekir.
 
 * #### Bind/Unbind
 Modifier'ı açar/kapatır yani mesh'leri birbirine bağlar.
 
 
 
+## [Volume Displace](https://docs.blender.org/manual/en/3.6/modeling/modifiers/deform/volume_displace.html)
+Bilmiyorum.
 
 
+
+## [Warp](https://docs.blender.org/manual/en/3.6/modeling/modifiers/deform/warp.html)
+Bilmiyorum.
 
 
 

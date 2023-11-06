@@ -1235,7 +1235,7 @@ Dalga yönü.
 Bu ayar açıkken dalgalar sürekli tekrar eder, kapalıyken sadece bir kere oynatılır.
 
 * #### Along Normals
-a
+Dala animasyonunu mesh'in sadece Z ekseninde değil, diğer eksenlerinde de kullanmak için bu ayarı kullanabilirsiniz. Dalgalar mesh'i face'lerinin normal'larına göre etkiler.
 
 * #### Falloff
 Dalgaların gidebileceği uzaklık/mesafe (başlangıç noktasından). Bu ayar 0 iken dalgalar sonsuza kadar azalmadan gider, ama bu ayarı 0 dışında bir değere ayarlarsanız dalgalar verdiğiniz değer kadar (metre cinsinden) gider ve gitgide dalgalar yok olmaya başlar. Yani bu ayar hem mesafeyi hem de falloff'u (yavaş yavaş yok olma) ayarlar.

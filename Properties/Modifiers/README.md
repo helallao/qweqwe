@@ -57,6 +57,7 @@
 * [Simple Deform](#simple-deform)
 * [Smooth](#smooth-1)
 * [Smooth Corrective](#smooth-corrective)
+* [Smooth Laplacian](#smooth-laplacian)
 
 
 <br>
@@ -1120,8 +1121,27 @@ Modifier'dan etkilenecek vertex group, sadece bu vertex group'un içindeki verte
 
 
 ## [Smooth Corrective](https://docs.blender.org/manual/en/3.6/modeling/modifiers/deform/corrective_smooth.html)
-Bu modifier
+Bilmiyorum.
 
+
+
+## [Smooth Laplacian](https://docs.blender.org/manual/en/3.6/modeling/modifiers/deform/laplacian_smooth.html)
+Bu modifier mesh'in minimal düzeyde şeklini değiştirerek yumuşatma uygular.
+
+
+* #### Repeat
+Yumuşatma işleminin tekrarlama sayısı (iteration).
+
+* #### Axis
+Buradan hangi eksenlerde yumuşatma uygulanacağını belirleyebilirsiniz.
+
+* #### Lambda Factor
+Yumuşatma derecesi, küçük değerler kullanıp "Repeat" sayısını da biraz arttırarak güzel bir yumuşatma elde edebilirsiniz. Büyük değerler kullanırsanız yumuşatma işlemi mesh'in ana şeklinin geometrisini de etkileyebilir.
+
+
+
+* #### Vertex Group
+Modifier'dan etkilenecek vertex group, sadece bu vertex group'un içindeki vertex'ler modifier'dan etkilenir. Vertex'lerin weight değeri modifier'dan etkilenme derecesini belirtir. 1 iken tam etkilenir, 0 iken etkilenmez.
 
 
 

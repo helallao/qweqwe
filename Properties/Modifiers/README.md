@@ -58,6 +58,7 @@
 * [Smooth](#smooth-1)
 * [Smooth Corrective](#smooth-corrective)
 * [Smooth Laplacian](#smooth-laplacian)
+* [Surface Deform](#surface-deform)
 
 
 <br>
@@ -1149,6 +1150,32 @@ Nasıl işlediğini ve ne yaptığını tam olarak bilmiyorum ama yumuşatma efe
 
 * #### Vertex Group
 Modifier'dan etkilenecek vertex group, sadece bu vertex group'un içindeki vertex'ler modifier'dan etkilenir. Vertex'lerin weight değeri modifier'dan etkilenme derecesini belirtir. 1 iken tam etkilenir, 0 iken etkilenmez.
+
+
+
+## [Surface Deform](https://docs.blender.org/manual/en/3.6/modeling/modifiers/deform/surface_deform.html)
+Bu modifier mesh'in bütün vertex'lerini hedef olarak seçtiğiniz mesh'in yüzeyine bağlar ve hedef mesh'in vertex'leri hareket ettiğinde bu modifier'a sahip olan mesh de hareket eder. Yani mesh'e başka bir mesh aracılığı ile deformasyon uygulanır. Modifier'ın düzgün çalışabilmesi için objenin yeterince vertex'e sahip olması gerekir yani vertex sayısı modifier kalitesini direktmen etkiler. Bu modifier'ın en çok kullanıldığı yöntemlerden biri kıyafet simulasyonlarıdır. Bu [video'ya](https://www.youtube.com/watch?v=3tYqf2bmOUI) bakabilirsiniz.
+
+
+* #### Target
+Hedef mesh.
+
+* #### Interpolation Falloff
+Ne kadar komşu vertex'in hareketten etkileneceğini belirler. Küçük değerler daha yumuşak bir efekt verir ama hafif bozulmalar olabilir, gerekmedikçe default değeri değiştirmeyin.
+
+* #### Strength
+a
+
+* #### Vertex Group
+Modifier'dan etkilenecek vertex group, sadece bu vertex group'un içindeki vertex'ler modifier'dan etkilenir. Vertex'lerin weight değeri modifier'dan etkilenme derecesini belirtir. 1 iken tam etkilenir, 0 iken etkilenmez.
+
+* #### Sparse Bind
+a
+
+* #### Bind/Unbind
+Modifier'ı açar/kapatır yani mesh'leri birbirine bağlar.
+
+
 
 
 

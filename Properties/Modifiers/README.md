@@ -1136,9 +1136,16 @@ Yumuşatma işleminin tekrarlama sayısı (iteration).
 Buradan hangi eksenlerde yumuşatma uygulanacağını belirleyebilirsiniz.
 
 * #### Lambda Factor
-Yumuşatma derecesi, küçük değerler kullanıp "Repeat" sayısını da biraz arttırarak güzel bir yumuşatma elde edebilirsiniz. Büyük değerler kullanırsanız yumuşatma işlemi mesh'in ana şeklinin geometrisini de etkileyebilir.
+Yumuşatma derecesi, küçük değerler kullanıp "Repeat" sayısını da biraz arttırarak güzel bir yumuşatma elde edebilirsiniz. Büyük değerler kullanırsanız yumuşatma işlemi mesh'in ana şeklinin geometrisini de etkileyebilir. Eksilere inerseniz yumuşatma değil de tam tersine şekli daha da arttırma işlemi uygular, yani yumuşatmanın tersi neyse.
 
+* #### Lambda Border
+Kenar kısımların devamı olmadığı için yumuşatma derecesi hesaplanamaz. Bu yüzden kenarların yumuşatma derecesini belirlemek için bu ayar kullanılır. Yani kenarlar için yumuşatma derecesi.
 
+* #### Perserve Volume
+Bu ayar açıkken mesh'in kapladığı alan genişliği yumuşatma uygulansa bile aynı derecede tutulmaya çalışılır. Eğer bu ayar kapalı ise yumuşatma efektini arttırdıkça mesh'in küçüldüğünü görebilirsiniz.
+
+* #### Normalized
+Nasıl işlediğini ve ne yaptığını tam olarak bilmiyorum ama yumuşatma efektinin kalitesini arttırıyor denebilir. Bu ayar açıkken sonuç daha güzel oluyor bu yüzden açık bırakın.
 
 * #### Vertex Group
 Modifier'dan etkilenecek vertex group, sadece bu vertex group'un içindeki vertex'ler modifier'dan etkilenir. Vertex'lerin weight değeri modifier'dan etkilenme derecesini belirtir. 1 iken tam etkilenir, 0 iken etkilenmez.

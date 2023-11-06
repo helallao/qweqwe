@@ -1229,11 +1229,46 @@ Bu modifier objenin geometrisine dalga efekti verir. Modifier'ın düzgün çal�
 
 
 * #### Motion
+Dalga yönü.
+
+* #### Cyclic
+Bu ayar açıkken dalgalar sürekli tekrar eder, kapalıyken sadece bir kere oynatılır.
+
+* #### Along Normals
 a
 
+* #### Falloff
+Dalgaların gidebileceği uzaklık/mesafe (başlangıç noktasından). Bu ayar 0 iken dalgalar sonsuza kadar azalmadan gider, ama bu ayarı 0 dışında bir değere ayarlarsanız dalgalar verdiğiniz değer kadar (metre cinsinden) gider ve gitgide dalgalar yok olmaya başlar. Yani bu ayar hem mesafeyi hem de falloff'u (yavaş yavaş yok olma) ayarlar.
+
+* #### Height
+Dalga boyu.
+
+* #### Width
+Dalgalar arasındaki mesafe.
+
+* #### Narrowness
+Dalganın detaylarının arasındaki fark, yani detay derecesi. Dalganın üzerindeki her detayın birbirleri arasındaki mesafe bu ayarda belirttiğiniz değer kadardır (metre cinsinden). Mesela bu değeri arttırırsanız dalga piksel piksel gibi olacaktır, eğer çok azaltırsanız detaylar birbirine daha yakın olacağından toplamda daha fazla detay olur ve bu da daha kaliteli bir dalga efekti oluşturur, tabi bu kadar kaliteli dalgaları görüntüleyebilmek için mesh'in vertex sayısı da fazla olmalıdır.
+
+* #### Vertex Group
+Modifier'dan etkilenecek vertex group, sadece bu vertex group'un içindeki vertex'ler modifier'dan etkilenir. Vertex'lerin weight değeri modifier'dan etkilenme derecesini belirtir. 1 iken tam etkilenir, 0 iken etkilenmez.
 
 
+## Start Position
 
+* #### Object
+Dalgaların başlangıç noktasını başka bir obje kullanarak ayarlayabilirsiniz.
+
+* #### X
+Dalgaların başlangıç noktasını X ekseninde ilerletir, yani offset verir. Başlangıç noktası normalde mesh'in orijin notkasıdır.
+
+* #### Y
+Dalgaların başlangıç noktasını Y ekseninde ilerletir, yani offset verir. Başlangıç noktası normalde mesh'in orijin notkasıdır.
+
+
+## Time
+
+* #### Offset
+a
 
 
 

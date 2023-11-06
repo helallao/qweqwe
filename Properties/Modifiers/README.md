@@ -1200,6 +1200,27 @@ Bitiş noktası. Vertex'ler "Object From" noktasından bu noktaya doğru bükül
 * #### Strength
 "From" olarak belirtilen noktadan "To" olarak belirtilen noktaya doğru uygulanan bükme/esnetme/çekim gücünü ayarlar. Mesela bu ayar 1 iken "From" ile "To" noktaları arasındaki mesafe neyse o kadar bükme uygulanır. Yani maximum bükülen nokta (orta nokta) tam olarak "From" ile "To" noktaları arasındaki mesafeye eşittir. Bu değeri 2 yaparsanız "From" ile "To" noktaları arasındaki mesafenin 2 katı kadar bükme uygulanır.
 
+* #### Vertex Group
+Modifier'dan etkilenecek vertex group, sadece bu vertex group'un içindeki vertex'ler modifier'dan etkilenir. Vertex'lerin weight değeri modifier'dan etkilenme derecesini belirtir. 1 iken tam etkilenir, 0 iken etkilenmez.
+
+
+## Falloff
+
+* #### Falloff Type
+Buradan Falloff türünü seçebilirsiniz. "Curve" modunda kendi Falloff profilinizi yapabilirsiniz.
+
+* #### Radius
+Falloff için yarıçap değeri.
+
+
+## Texture
+
+* #### Texture
+Buradan falloff için kullanılacak displacement texture'u belirtebilirsiniz.
+
+* #### Coordinates
+Koordinat sistemi. [Displace](#displace) modifier'ındaki "Coordinates" ile aynıdır, gerekli bilgilere oradan ulaşabilirsiniz.
+
 
 
 

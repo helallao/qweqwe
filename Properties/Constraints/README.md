@@ -127,13 +127,47 @@ Modifier'ın etki derecesi. Bunu rotasyonu kopyalama derecesi olarak da düşün
 
 
 ## [Copy Scale](https://docs.blender.org/manual/en/latest/animation/constraints/transform/copy_scale.html)
-Bilmiyorum.
+Objeye belirtilen hedef obje ile birlikte scale uygulanır, yani hedef objenin scale değerleri kopyalanır.
 
 
 * #### Target
 Hedef obje.
 
+* #### Axis
+Scale'in kopyalanacağı eksen.
 
+* #### Power
+Scale değeri için çarpan görevi görür. Mesela bu değer 2 iken hedef obje 2 kat scale edildiğinde modifier'ın uygulandığı obje 4 kat scale edilir, yani 2 kat daha fazla scale uygulanır.
+
+* #### Make Uniform
+Scale değerini objeye tek bir (veya 2) eksende değil de bütün eksenlerde uygular. Mesela diyelim ki "Axis" ayarını sadece X olarak ayarladınız. Bu ayar kapalı iken hedef objenin X ekseninde scale değeri arttıkça modifier'ın uygulandığı objenin de X ekseninde scale değeri artar, eğer bu ayarı açarsanız hedef objenin X ekseninde scale değeri arttıkça modifier'ın uygulandığı objenin sadece X değil bütün eksenlerde scale değeri artar. Yani hedef objenin X ekseninde scale değerindeki artış modifier'ın uygulandığı objenin bütün eksenlerine paylaştırılır.
+
+* #### Offset
+Bu ayar açık iken objenin scale değerini değiştirebilirsiniz.
+
+* #### Additive
+Sadece "Offset" ayarı açık iken vardır. Bu ayar kapalı iken, "Offset" ayarını açıp offset uyguladıktan sonra, hedef obje ile modifier'ın uygulandığı obje arasındaki scale değeri çarpma şeklinde ayarlanır. Yani diyelim ki "Offset" ayarını açıp objenin scale değerini 3 katına çıkardınız. Bu durumda hedef objenin scale değeri değiştirildiğinde modifier'ın uygulandığı objenin scale değeri de 3 kat daha fazla değiştirilir. Yani modifier hedef objedeki scale değerini modifier'ın uygulandığı objeye aktarırken objelerin scale değerlerine göre yüzdelik olarak çalışır (yani oranları korur). Eğer bu ayarı açarsanız artık değerler çarparak değil de toplanarak hesaplanır. Yani mesela diyelim ki "Offset" ayarını açıp objenin scale değerini 3 katına çıkardınız, eğer bu ayar kapalı olsaydı bu durumda hedef objenin scale değerini 2 katına çıkardığınızda objenin de scale değeri 2 katına çıkacağından 6 olurdu, ama bu ayarı açarsanız çarpmak yerine toplama olarak hesaplanır ve objenin scale değeri 6 değil 3 + 1'den 4 olur.
+
+* #### Target
+Hedef obje için scale işleminin gerçekleştiği uzayı belirtir.
+
+Mod | Açıklama
+:---: | :---:
+‎World Space | Dünya uzayı (eksenleri) kullanılır.
+‎Custom Space | "Object" input'una verdiğiniz objenin lokal uzayı (eksenleri) kullanılır.
+‎Local Space | Objenin lokal uzayı (eksenleri) kullanılır.
+
+* #### Owner
+Obje için scale işleminin gerçekleşeceği uzayı belirtir.
+
+Mod | Açıklama
+:---: | :---:
+‎World Space | Dünya uzayı (eksenleri) kullanılır.
+‎Custom Space | "Object" input'una verdiğiniz objenin lokal uzayı (eksenleri) kullanılır.
+‎Local Space | Objenin lokal uzayı (eksenleri) kullanılır.
+
+* #### Influence
+Modifier'ın etki derecesi. Bunu scale değerini kopyalama derecesi olarak da düşünebilirsiniz. Mesela bu ayarı 0.5 yaparsanız, hedef objeye 4 kat scale uygulandığında objeye 2 kat scale uygulanır, yani yarıya indirmiş olursunuz.
 
 
 

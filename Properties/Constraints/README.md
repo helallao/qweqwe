@@ -38,16 +38,20 @@ Bilmiyorum.
 
 
 ## [Copy Location](https://docs.blender.org/manual/en/latest/animation/constraints/transform/copy_location.html)
-Bilmiyorum.
+Obje belirtilen hedef obje ile birlikte hareket eder, hedef objenin hareketleri kopyalanır.
 
 
+* #### Target
+Hedef obje.
 
+* #### Axis
+Hareketlerin kopyalanacağı eksen.
 
+* #### Invert
+Seçilen eksenler terse döndürülür, yani konum seçilen eksende terse alınır. Bu da aynalama gibi bir görünüm verir.
 
-
-
-
-
+* #### Offset
+Objenin orijinal konumu kullanılır, bu ayarı açtıktan sonra objeyi hareket de ettirebilirsiniz. Ayrıca bu ayarı açtıktan sonra artık eksenlerin orijin noktası dünyanın orijin noktası olmaz, hareket ettirdikçe eksenlerin orijin noktası da değişir.
 
 
 

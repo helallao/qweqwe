@@ -58,18 +58,18 @@ Hedef obje için hareketlerin gerçekleştiği uzayı belirtir. Mesela bu ayarı
 
 Mod | Açıklama
 :---: | :---:
-‎World Space | Dünya uzayı (eksenleri) kullanılır.
+‎World Space | Dünya uzayı (eksenleri) kullanılır. Ayrıca bu modda hedef objenin hareketini/konumunu etkileyen herhangi bir şey varsa modifier da bu hareketten etkilenir. Mesela hedef objenin bağlı olduğu parent hareket ederse modifier bu hareketi modifier'ın uygulandığı objeye de yansıtır.
 ‎Custom Space | "Object" input'una verdiğiniz objenin lokal uzayı (eksenleri) kullanılır.
-‎Local Space | Objenin lokal uzayı (eksenleri) kullanılır.
+‎Local Space | Objenin lokal uzayı (eksenleri) kullanılır. Ayrıca bu modda hedef objenin hareketini/konumunu etkileyen herhangi bir şey varsa modifier bu hareketten etkilenmez. Mesela hedef objenin bağlı olduğu parent hareket ederse modifier bu hareketi modifier'ın uygulandığı objeye yansıtmaz.
 
 * #### Owner
 Obje için hareketlerin gerçekleşeceği uzayı belirtir. Mesela bu ayarı "Local Space" yaparsanız objenin hareketlerinin kendi lokal uzayına göre olduğunu söylemiş olursunuz. Yani mesela diyelim ki obje X ekseninde ilerleyecek, eğer bu ayar "Local Space" ise ve objenin lokal X ekseni dünya üzerinde Y ekseni ise, o zaman obje X ekseninde ilerlerken aslında dünya üzerinde Y ekseninde ilerler. Yani demek istediğim şey eksenler birbirlerinden farklı olabilir, bu ayarı kullanarak seçtiğiniz uzayın eksenleri ne ise o kullanılır.
 
 Mod | Açıklama
 :---: | :---:
-‎World Space | Dünya uzayı (eksenleri) kullanılır.
+‎World Space | Dünya uzayı (eksenleri) kullanılır. Ayrıca bu modda objenin hareketini/konumunu etkileyen herhangi bir şey varsa modifier da bu hareketten etkilenir. Mesela objenin bağlı olduğu parent hareket ederse hareket işlemi modifier'ın üzerine eklenir, yani obje hem parent'dan hem de modifier'dan etkilenir.
 ‎Custom Space | "Object" input'una verdiğiniz objenin lokal uzayı (eksenleri) kullanılır.
-‎Local Space | Objenin lokal uzayı (eksenleri) kullanılır.
+‎Local Space | Objenin lokal uzayı (eksenleri) kullanılır. Ayrıca bu modda objenin hareketini/konumunu etkileyen herhangi bir şey varsa modifier bu hareketten etkilenmez. Mesela objenin bağlı olduğu parent hareket ederse hareket işlemi objeyi etkilemez, objeyi sadece modifier etkiler.
 
 * #### Influence
 Modifier'ın etki derecesi. Bunu hareketleri/konumu kopyalama derecesi olarak da düşünebilirsiniz. Mesela bu ayarı 0.5 yaparsanız, hedef obje 2 birim ilerlediğinde obje 1 birim ilerler, yani yarıya indirmiş olursunuz.

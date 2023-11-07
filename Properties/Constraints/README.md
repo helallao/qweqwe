@@ -180,14 +180,20 @@ Objeye belirtilen hedef obje ile birlikte transform (location, rotation, scale) 
 Hedef obje.
 
 * #### Remove Target Shear
-a
+Bu ayar hakkında hiçbir yerde düzgün açıklama bulamadım. Kendim denesem bile bir etkisi olduğunu görmedim.
 
 * #### Mix
-a
+Hedef objenin transform değerlerinin objeye nasıl uygulanacağını belirtir.
 
 Mod | Açıklama
 :---: | :---:
-‎a | a
+‎Replace | Default mod. Hedef objenin transform değerlerini modifier uygulanan objeye kopyalar.
+Before Original (Full) | Bilmiyorum.
+Before Original (Aligned) | Bilmiyorum.
+Before Original (Split Channels) | Bilmiyorum.
+After Original (Full) | Bilmiyorum.
+After Original (Aligned) | Bilmiyorum.
+After Original (Split Channels) | Bilmiyorum.
 
 * #### Target
 Hedef obje için transform işlemlerinin gerçekleştiği uzayı belirtir.

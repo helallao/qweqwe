@@ -65,6 +65,14 @@
 
 # [Physics](#physics-1)
 * [Cloth](#cloth)
+* [Collision](#collision)
+* [Dynamic Paint](#dynamic-paint)
+* [Explode](#explode)
+* [Fluid](#fluid)
+* [Ocean](#ocean)
+* [Particle Instance](#particle-instance)
+* [Particle System](#particle-system)
+* [Soft Body](#soft-body)
 
 
 <br>
@@ -1302,6 +1310,42 @@ a
 
 ## [Cloth](https://docs.blender.org/manual/en/3.6/modeling/modifiers/physics/cloth.html)
 Bilmiyorum.
+
+
+## [Collision](https://docs.blender.org/manual/en/3.6/modeling/modifiers/physics/collision.html)
+Bilmiyorum.
+
+
+## [Dynamic Paint](https://docs.blender.org/manual/en/3.6/modeling/modifiers/physics/dynamic_paint.html)
+Bilmiyorum.
+
+
+## [Explode](https://docs.blender.org/manual/en/3.6/modeling/modifiers/physics/explode.html)
+Bilmiyorum.
+
+
+## [Fluid](https://docs.blender.org/manual/en/3.6/modeling/modifiers/physics/fluid.html)
+Bilmiyorum.
+
+
+## [Ocean](https://docs.blender.org/manual/en/3.6/modeling/modifiers/physics/ocean.html)
+Bilmiyorum.
+
+
+## [Particle Instance](https://docs.blender.org/manual/en/3.6/modeling/modifiers/physics/particle_instance.html)
+Bilmiyorum.
+
+
+## [Particle System](https://docs.blender.org/manual/en/3.6/modeling/modifiers/physics/particle_system.html)
+Bilmiyorum.
+
+
+## [Soft Body](https://docs.blender.org/manual/en/3.6/modeling/modifiers/physics/soft_body.html)
+Bilmiyorum.
+
+
+
+
 
 
 

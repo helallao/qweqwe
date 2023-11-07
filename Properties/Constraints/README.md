@@ -17,6 +17,7 @@
 * [Copy Location](#copy-location)
 * [Copy Rotation](#copy-rotation)
 * [Copy Scale](#copy-scale)
+* [Copy Transforms](#copy-transforms)
 
 
 <br>
@@ -168,6 +169,49 @@ Mod | Açıklama
 
 * #### Influence
 Modifier'ın etki derecesi. Bunu scale değerini kopyalama derecesi olarak da düşünebilirsiniz. Mesela bu ayarı 0.5 yaparsanız, hedef objeye 4 kat scale uygulandığında objeye 2 kat scale uygulanır, yani yarıya indirmiş olursunuz.
+
+
+
+## [Copy Transforms](https://docs.blender.org/manual/en/latest/animation/constraints/transform/copy_transforms.html)
+Objeye belirtilen hedef obje ile birlikte transform (location, rotation, scale) uygulanır, yani hedef objenin transform değerleri kopyalanır.
+
+
+* #### Target
+Hedef obje.
+
+* #### Remove Target Shear
+a
+
+* #### Mix
+a
+
+Mod | Açıklama
+:---: | :---:
+‎a | a
+
+* #### Target
+Hedef obje için transform işlemlerinin gerçekleştiği uzayı belirtir.
+
+Mod | Açıklama
+:---: | :---:
+‎World Space | Dünya uzayı (eksenleri) kullanılır.
+‎Custom Space | "Object" input'una verdiğiniz objenin lokal uzayı (eksenleri) kullanılır.
+‎Local Space | Objenin lokal uzayı (eksenleri) kullanılır.
+
+* #### Owner
+Obje için transform işlemlerinin gerçekleşeceği uzayı belirtir.
+
+Mod | Açıklama
+:---: | :---:
+‎World Space | Dünya uzayı (eksenleri) kullanılır.
+‎Custom Space | "Object" input'una verdiğiniz objenin lokal uzayı (eksenleri) kullanılır.
+‎Local Space | Objenin lokal uzayı (eksenleri) kullanılır.
+
+* #### Influence
+Modifier'ın etki derecesi. Bunu transform (location, rotation, scale) değerini kopyalama derecesi olarak da düşünebilirsiniz. Mesela bu ayarı 0.5 yaparsanız, hedef objeye uygulanan transform işlemlerinin yarısı objeye uygulanır, yani yarıya indirmiş olursunuz.
+
+
+
 
 
 

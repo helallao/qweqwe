@@ -53,6 +53,30 @@ Seçilen eksenler terse döndürülür, yani konum seçilen eksende terse alın�
 * #### Offset
 Objenin orijinal konumu kullanılır, bu ayarı açtıktan sonra objeyi hareket de ettirebilirsiniz. Ayrıca bu ayarı açtıktan sonra artık eksenlerin orijin noktası dünyanın orijin noktası olmaz, hareket ettirdikçe eksenlerin orijin noktası da değişir.
 
+* #### Target
+Hedef obje için hareketlerin gerçekleştiği uzayı belirtir.
+
+Mod | Açıklama
+:---: | :---:
+‎World Space | Dünya uzayı (eksenleri) kullanılır.
+‎Custom Space | "Object" input'una verdiğiniz objenin lokal uzayı (eksenleri) kullanılır.
+‎Local Space | Objenin lokal uzayı (eksenleri) kullanılır.
+
+* #### Owner
+Obje için hareketlerin gerçekleşeceği uzayı belirtir.
+
+Mod | Açıklama
+:---: | :---:
+‎World Space | Dünya uzayı (eksenleri) kullanılır.
+‎Custom Space | "Object" input'una verdiğiniz objenin lokal uzayı (eksenleri) kullanılır.
+‎Local Space | Objenin lokal uzayı (eksenleri) kullanılır.
+
+* #### Influence
+Modifier'ın etki derecesi. Bunu hareketleri/konumu kopyalama derecesi olarak da düşünebilirsiniz. Mesela bu ayarı 0.5 yaparsanız, hedef obje 2 birim ilerlediğinde obje 1 birim ilerler, yani yarıya indirmiş olursunuz.
+
+
+
+
 
 
 

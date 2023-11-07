@@ -16,6 +16,7 @@
 # [Transfrom](#transfrom-1)
 * [Copy Location](#copy-location)
 * [Copy Rotation](#copy-rotation)
+* [Copy Scale](#copy-scale)
 
 
 <br>
@@ -125,7 +126,12 @@ Modifier'ın etki derecesi. Bunu rotasyonu kopyalama derecesi olarak da düşün
 
 
 
+## [Copy Scale](https://docs.blender.org/manual/en/latest/animation/constraints/transform/copy_scale.html)
+Bilmiyorum.
 
+
+* #### Target
+Hedef obje.
 
 
 

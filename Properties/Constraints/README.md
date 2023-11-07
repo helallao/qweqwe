@@ -96,7 +96,11 @@ Rotasyonun nasıl uygulanacağını belirtir.
 
 Mod | Açıklama
 :---: | :---:
-‎a | a
+‎Replace | Default mod. Hedef objenin rotasyonunu modifier uygulanan objeye kopyalar.
+Add | Hedef objenin rotasyonunu modifier uygulanan objenin rotasyonunun üzerine ekler.
+Before Original | Rotasyon objenin orijinal rotasyonundan önce eklenir. Bunu şöyle düşünün, mesela objemizin bir parent'ı olsun, parent'a rotasyon uygularsanız objeye de rotasyon uygulanır, modifier'ın rotasyonu ise en son uygulanır (normalde), ama bu modu kullanırsanız rotasyon sanki parent'a uygulanan rotasyonmuş gibi olur, parent'a rotasyon uygular.
+After Original | Rotasyon objenin orijinal rotasyonundan sonra eklenir. Bunu şöyle düşünün, mesela objemiz başka bir objenin parent'ı olsun, parent'a rotasyon uygularsanız objeye de rotasyon uygulanır, normalde modifier'ın rotasyonu parent'a uygulanır sonra parent'a bağlı olan diğer obje parent'dan etkilenir, ama bu modu kullanırsanız rotasyon sanki parent'a bağlı olan objeye uygulanan rotasyonmuş gibi olur, parent'a bağlı olan objeye rotasyon uygular.
+
 
 * #### Target
 Hedef obje için rotasyonun gerçekleştiği uzayı belirtir.

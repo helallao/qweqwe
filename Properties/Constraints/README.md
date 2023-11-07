@@ -15,6 +15,7 @@
 
 # [Transfrom](#transfrom-1)
 * [Copy Location](#copy-location)
+* [Copy Rotation](#copy-rotation)
 
 
 <br>
@@ -73,6 +74,12 @@ Mod | Açıklama
 
 * #### Influence
 Modifier'ın etki derecesi. Bunu hareketleri/konumu kopyalama derecesi olarak da düşünebilirsiniz. Mesela bu ayarı 0.5 yaparsanız, hedef obje 2 birim ilerlediğinde obje 1 birim ilerler, yani yarıya indirmiş olursunuz.
+
+
+
+## [Copy Rotation](https://docs.blender.org/manual/en/latest/animation/constraints/transform/copy_rotation.html)
+Bilmiyorum.
+
 
 
 

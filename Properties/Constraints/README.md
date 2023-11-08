@@ -28,6 +28,9 @@
 * [Transformation](#transformation)
 * [Transform Cache](#transform-cache)
 
+# [Tracking](#tracking-1)
+* [Clamp To](#clamp-to)
+
 
 <br>
 <br>
@@ -54,7 +57,7 @@ Bilmiyorum.
 
 
 # [Transfrom](https://docs.blender.org/manual/en/latest/animation/constraints/index.html#transform)
-Bilmiyorum.
+Bu kategorideki constraint'ler çoğunlukla kopyalama (bilgi aktarma), limitleme ve diğer transform (yani location, rotation, scale) işlemleri ile ilgilidir.
 
 
 ## [Copy Location](https://docs.blender.org/manual/en/latest/animation/constraints/transform/copy_location.html)
@@ -433,11 +436,19 @@ Hedef objeden alınıp kullanılacak değer. İlk baş hangi transform değerini
 
 
 ## [Transform Cache](https://docs.blender.org/manual/en/latest/animation/constraints/transform/transform_cache.html)
-a
+Bilmiyorum.
 
 
+<br>
+<br>
 
 
+# [Tracking](https://docs.blender.org/manual/en/latest/animation/constraints/index.html#tracking)
+Bilmiyorum.
+
+
+## [Clamp To](https://docs.blender.org/manual/en/latest/animation/constraints/tracking/clamp_to.html)
+Bilmiyorum.
 
 
 

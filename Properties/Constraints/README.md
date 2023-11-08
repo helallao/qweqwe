@@ -18,6 +18,7 @@
 * [Copy Rotation](#copy-rotation)
 * [Copy Scale](#copy-scale)
 * [Copy Transforms](#copy-transforms)
+* [Limit Distance](#limit-distance)
 
 
 <br>
@@ -215,6 +216,51 @@ Mod | Açıklama
 
 * #### Influence
 Modifier'ın etki derecesi. Bunu transform (location, rotation, scale) değerini kopyalama derecesi olarak da düşünebilirsiniz. Mesela bu ayarı 0.5 yaparsanız, hedef objeye uygulanan transform işlemlerinin yarısı objeye uygulanır, yani yarıya indirmiş olursunuz.
+
+
+
+## [Limit Distance](https://docs.blender.org/manual/en/latest/animation/constraints/transform/limit_distance.html)
+Objeyi hedef objeden belirtilen mesafe değeri kadar yakında veya uzakta tutar. İsterseniz tam olarak bu mesafeye de sabitleyebilirsiniz.
+
+
+* #### Target
+Hedef obje.
+
+* #### Distance
+Mesafe değeri.
+
+* #### Clamp Region
+"Distance" ayarı bir nevi yarıçap değeri görevi görür. Bu ayar da kullanılacak modu belirtir, objeyi yarıçap'ın içinde/dışında veya üzerinde tutabilirsiniz.
+
+Mod | Açıklama
+:---: | :---:
+‎Inside | Obje yarıçap'ın içinde tutulur, yani obje belirtilen mesafe değerinden daha fazla uzağa gidemez.
+‎Outside | Obje yarıçap'ın dışında tutulur, yani obje belirtilen mesafe değerinden daha fazla yakına gidemez.
+‎On Surface | Obje yarıçap'ın üzerinde tutulur, yani obje belirtilen mesafe değerinden daha fazla yakına veya uzağa gidemez, tam olarak aynı mesafede durur.
+
+* #### Affect Transform
+Bu ayar kapalı iken modifier objenin konum değerini gerçekten değiştirmez. Yani aslında objeyi hareket ettirirseniz obje gidemediği yerlere de gidebilir ama modifier objeyi orijinal konumunda göstermez, yani modifier objeyi sanki oradaymış gibi gösterir ama aslında konum değerleri farklıdır (sağdaki panelden görebilirsiniz). Eğer bu ayarı açarsanız modifier objenin konum değerlerini de değiştirir.
+
+* #### Target
+Hedef obje için transform işlemlerinin gerçekleştiği uzayı belirtir.
+
+Mod | Açıklama
+:---: | :---:
+‎World Space | Dünya uzayı (eksenleri) kullanılır.
+‎Custom Space | "Object" input'una verdiğiniz objenin lokal uzayı (eksenleri) kullanılır.
+‎Local Space | Objenin lokal uzayı (eksenleri) kullanılır.
+
+* #### Owner
+Obje için transform işlemlerinin gerçekleşeceği uzayı belirtir.
+
+Mod | Açıklama
+:---: | :---:
+‎World Space | Dünya uzayı (eksenleri) kullanılır.
+‎Custom Space | "Object" input'una verdiğiniz objenin lokal uzayı (eksenleri) kullanılır.
+‎Local Space | Objenin lokal uzayı (eksenleri) kullanılır.
+
+* #### Influence
+Modifier'ın etki derecesi.
 
 
 

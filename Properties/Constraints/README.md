@@ -24,6 +24,7 @@
 * [Limit Location](#limit-location)
 * [Limit Rotation](#limit-rotation)
 * [Limit Scale](#limit-scale)
+* [Maintain Volume](#maintain-volume)
 
 
 <br>
@@ -335,9 +336,31 @@ Modifier'ın etki derecesi.
 Objenin scale değerini belirttiğiniz minimum ve maximum değerleri arasında tutar.
 
 
-* #### a
-a
+* #### Minimum X/Y/Z
+Objenin scale değeri bu eksenlerde belirttiğiniz değerden daha az olamaz. Eğer tik işaretine basıp ekseni açarsanız verdiğiniz değer kullanılır, açmazsanız objenin scale değeri için minimum değer belirlememişsiniz demektir (yani istediğiniz değeri verebilirsiniz).
 
+* #### Maximum X/Y/Z
+Objenin scale değeri bu eksenlerde belirttiğiniz değerden daha fazla olamaz. Eğer tik işaretine basıp ekseni açarsanız verdiğiniz değer kullanılır, açmazsanız objenin scale değeri için maximum değer belirlememişsiniz demektir (yani istediğiniz değeri verebilirsiniz).
+
+* #### Affect Transform
+Bu ayar kapalı iken modifier objenin scale değerini gerçekten değiştirmez. Yani aslında objeyi scale ederseniz objenin scale değeri limiti geçebilir ama modifier objeyi orijinal scale değerinde göstermez, yani modifier objeyi sanki limit scale değerindeymiş gibi gösterir ama aslında scale değerleri farklıdır (sağdaki panelden görebilirsiniz). Eğer bu ayarı açarsanız modifier objenin scale değerlerini de değiştirir.
+
+* #### Owner
+Obje için scale işlemlerinin gerçekleşeceği uzayı belirtir.
+
+Mod | Açıklama
+:---: | :---:
+‎World Space | Dünya uzayı (eksenleri) kullanılır.
+‎Custom Space | "Object" input'una verdiğiniz objenin lokal uzayı (eksenleri) kullanılır.
+‎Local Space | Objenin lokal uzayı (eksenleri) kullanılır.
+
+* #### Influence
+Modifier'ın etki derecesi.
+
+
+
+## [Maintain Volume](https://docs.blender.org/manual/en/latest/animation/constraints/transform/maintain_volume.html)
+Bilmiyorum.
 
 
 

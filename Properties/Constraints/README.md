@@ -12,6 +12,8 @@
 
 # [Motion Tracking](#motion-tracking-1)
 * [Camera Solver](#camera-solver)
+* [Follow Track](#follow-track)
+* [Object Solver](#object-solver)
 
 # [Transfrom](#transfrom-1)
 * [Copy Location](#copy-location)
@@ -30,6 +32,14 @@ Bilmiyorum.
 
 
 ## [Camera Solver](https://docs.blender.org/manual/en/latest/animation/constraints/motion_tracking/camera_solver.html)
+Bilmiyorum.
+
+
+## [Follow Track](https://docs.blender.org/manual/en/latest/animation/constraints/motion_tracking/follow_track.html)
+Bilmiyorum.
+
+
+## [Object Solver](https://docs.blender.org/manual/en/latest/animation/constraints/motion_tracking/object_solver.html)
 Bilmiyorum.
 
 

@@ -30,7 +30,7 @@
 
 # [Tracking](#tracking-1)
 * [Clamp To](#clamp-to)
-
+* [Damped Track](#damped-track)
 
 <br>
 <br>
@@ -448,7 +448,37 @@ Bilmiyorum.
 
 
 ## [Clamp To](https://docs.blender.org/manual/en/latest/animation/constraints/tracking/clamp_to.html)
-Bilmiyorum.
+Objeyi hedef curve boyunca hareket ettirir, objenin konumu değiştikçe curve üzerindeki konumu da değişir (ileri/geri).
+
+
+* #### Target
+Hedef curve.
+
+* #### Main Axis
+Objenin curve üzerindeki hareketi için kullanılacak konum (eksen) değeri.
+
+Mod | Açıklama
+:---: | :---:
+‎Auto | Objenin dünya üzerindeki konumuna göre hesaplamalar yapılıp curve üzerindeki konumu bulunur.
+X | Objenin dünya üzerindeki konumunun X ekseni kullanılır. Objenin X ekseninde konum değeri arttıkça curve üzerinde de ilerler.
+Y | Objenin dünya üzerindeki konumunun Y ekseni kullanılır. Objenin Y ekseninde konum değeri arttıkça curve üzerinde de ilerler.
+Z | Objenin dünya üzerindeki konumunun Z ekseni kullanılır. Objenin Z ekseninde konum değeri arttıkça curve üzerinde de ilerler.
+
+* #### Cyclic
+Bu ayar açıkken obje curve üzerinde sona ulaşırsa tekrar başa döner yani baştan başlar.
+
+* #### Influence
+Constraint'in etki derecesi.
+
+
+
+## [Damped Track](https://docs.blender.org/manual/en/latest/animation/constraints/tracking/damped_track.html)
+a
+
+
+
+
+
 
 
 

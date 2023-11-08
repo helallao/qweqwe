@@ -497,7 +497,39 @@ a
 
 
 ## [Track To](https://docs.blender.org/manual/en/latest/animation/constraints/tracking/track_to.html)
-Objeyi hedef obje
+Objenin rotasyonunu hedef objeye bakacak şekilde düzenler. Bu constraint'i anlamanız için güzel bir şekilde test etmeniz gerekir, size en anlaşılır test yöntemini vereyim. Test etmek için normal objeler kullanırsanız yönleri anlama konusunda zorluk yaşayabilirsiniz, bu yüzden test için "Arrows" objesini kullanmanızı tavsiye ederim. Obje ekleme bölümünde (Shift + A) "Empty" kategorisindeki "Arrows" objesini kullanarak constraint'i test edebilirsiniz. Aşağıdaki açıklamalar ve biraz uğraş ile constraint'in nasıl çalıştığını anlayabilirsiniz.
 
 
+* #### Target
+Hedef obje.
+
+* #### Track Axis
+Objenin hangi ekseninin hedef objeye doğru bakacağını belirtir. Yani objenin kendi lokal yönlerinin hangisinin hedef objeye doğru bakacağını ayarlar. "Up" ayarında belirtilen eksen ile aynı ekseni seçerseniz constraint düzgün çalışmaz.
+
+* #### Up
+Objenin "Track Axis" ayarında seçtiğiniz yönü hedef objeye doğru bakar, ama hesaplamaların yapılabilmesi için bir eksene daha ihtiyacımız var ([Cross Product](https://en.wikipedia.org/wiki/Cross_product) hesaplaması için 2 eksen gerekir, yani toplamda 3 ekseni oluşturmak için 2 tane eksen belirlemelisiniz). İşte bu eksen de "Up", yani objenin "Track Axis" ayarında seçtiğiniz yönü hedef objeye doğru bakarken, obje hareket ettikçe dönüş (rotasyon) yapabilmesi için kullanılacak yukarı yönü (yani up). Eğer constraint'in açıklamasında yazdığım test yöntemini uyguladıysanız, "Arrows" objesinin bu ayarda seçtiğiniz ekseninin yukarıya doğru baktığını görebilirsiniz. "Track Axis" ayarında belirtilen eksen ile aynı ekseni seçerseniz constraint düzgün çalışmaz.
+
+* #### Target Z
+a
+
+* #### Target
+Hedef obje için transform işlemlerinin gerçekleştiği uzayı belirtir.
+
+Mod | Açıklama
+:---: | :---:
+‎World Space | Dünya uzayı (eksenleri) kullanılır.
+‎Custom Space | "Object" input'una verdiğiniz objenin lokal uzayı (eksenleri) kullanılır.
+‎Local Space | Objenin lokal uzayı (eksenleri) kullanılır.
+
+* #### Owner
+Obje için transform işlemlerinin gerçekleşeceği uzayı belirtir.
+
+Mod | Açıklama
+:---: | :---:
+‎World Space | Dünya uzayı (eksenleri) kullanılır.
+‎Custom Space | "Object" input'una verdiğiniz objenin lokal uzayı (eksenleri) kullanılır.
+‎Local Space | Objenin lokal uzayı (eksenleri) kullanılır.
+
+* #### Influence
+Constraint'in etki derecesi.
 

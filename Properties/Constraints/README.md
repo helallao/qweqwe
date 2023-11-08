@@ -504,13 +504,13 @@ Objenin rotasyonunu hedef objeye bakacak şekilde düzenler. Bu constraint'i anl
 Hedef obje.
 
 * #### Track Axis
-Objenin hangi ekseninin hedef objeye doğru bakacağını belirtir. Yani objenin kendi lokal yönlerinin hangisinin hedef objeye doğru bakacağını ayarlar. "Up" ayarında belirtilen eksen ile aynı ekseni seçerseniz constraint düzgün çalışmaz.
+Objenin hangi ekseninin hedef objeye doğru bakacağını belirtir. Yani objenin kendi lokal yönlerinin hangisinin hedef objeye doğru bakacağını ayarlar. Eksi değere sahip yönler, o yönü hedef objenin tam tersi yöne bakmasını sağlar. "Up" ayarında belirtilen eksen ile aynı ekseni seçerseniz constraint düzgün çalışmaz.
 
 * #### Up
 Objenin "Track Axis" ayarında seçtiğiniz yönü hedef objeye doğru bakar, ama hesaplamaların yapılabilmesi için bir eksene daha ihtiyacımız var ([Cross Product](https://en.wikipedia.org/wiki/Cross_product) hesaplaması için 2 eksen gerekir, yani toplamda 3 ekseni oluşturmak için 2 tane eksen belirlemelisiniz). İşte bu eksen de "Up", yani objenin "Track Axis" ayarında seçtiğiniz yönü hedef objeye doğru bakarken, obje hareket ettikçe dönüş (rotasyon) yapabilmesi için kullanılacak yukarı yönü (yani up). Eğer constraint'in açıklamasında yazdığım test yöntemini uyguladıysanız, "Arrows" objesinin bu ayarda seçtiğiniz ekseninin yukarıya doğru baktığını görebilirsiniz. "Track Axis" ayarında belirtilen eksen ile aynı ekseni seçerseniz constraint düzgün çalışmaz.
 
 * #### Target Z
-a
+Normalde rotasyon gerçekleşirken objenin "Up" yönü dünyanın Z ekseni ile eşitlenir (hesaplamalar Z eksenine göre ayarlanır). Eğer bu ayarı açarsanız objenin "Up" yönü dünyanın Z eksenine değil hedef objenin lokal Z eksenine eşitlenir.
 
 * #### Target
 Hedef obje için transform işlemlerinin gerçekleştiği uzayı belirtir.

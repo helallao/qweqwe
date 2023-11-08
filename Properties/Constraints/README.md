@@ -77,18 +77,18 @@ Hedef obje için hareketlerin gerçekleştiği uzayı belirtir. Mesela bu ayarı
 
 Mod | Açıklama
 :---: | :---:
-‎World Space | Dünya uzayı (eksenleri) kullanılır. Ayrıca bu modda hedef objenin hareketini/konumunu etkileyen herhangi bir şey varsa modifier da bu hareketten etkilenir. Mesela hedef objenin bağlı olduğu parent hareket ederse modifier bu hareketi modifier'ın uygulandığı objeye de yansıtır.
+‎World Space | Dünya uzayı (eksenleri) kullanılır. Ayrıca bu modda hedef objenin hareketini/konumunu etkileyen herhangi bir şey varsa constraint da bu hareketten etkilenir. Mesela hedef objenin bağlı olduğu parent hareket ederse constraint bu hareketi constraint'in uygulandığı objeye de yansıtır.
 ‎Custom Space | "Object" input'una verdiğiniz objenin lokal uzayı (eksenleri) kullanılır.
-‎Local Space | Objenin lokal uzayı (eksenleri) kullanılır. Ayrıca bu modda hedef objenin hareketini/konumunu etkileyen herhangi bir şey varsa modifier bu hareketten etkilenmez. Mesela hedef objenin bağlı olduğu parent hareket ederse modifier bu hareketi modifier'ın uygulandığı objeye yansıtmaz.
+‎Local Space | Objenin lokal uzayı (eksenleri) kullanılır. Ayrıca bu modda hedef objenin hareketini/konumunu etkileyen herhangi bir şey varsa constraint bu hareketten etkilenmez. Mesela hedef objenin bağlı olduğu parent hareket ederse constraint bu hareketi constraint'in uygulandığı objeye yansıtmaz.
 
 * #### Owner
 Obje için hareketlerin gerçekleşeceği uzayı belirtir. Mesela bu ayarı "Local Space" yaparsanız objenin hareketlerinin kendi lokal uzayına göre olduğunu söylemiş olursunuz. Yani mesela diyelim ki obje X ekseninde ilerleyecek, eğer bu ayar "Local Space" ise ve objenin lokal X ekseni dünya üzerinde Y ekseni ise, o zaman obje X ekseninde ilerlerken aslında dünya üzerinde Y ekseninde ilerler. Yani demek istediğim şey eksenler birbirlerinden farklı olabilir, bu ayarı kullanarak seçtiğiniz uzayın eksenleri ne ise o kullanılır.
 
 Mod | Açıklama
 :---: | :---:
-‎World Space | Dünya uzayı (eksenleri) kullanılır. Ayrıca bu modda objenin hareketini/konumunu etkileyen herhangi bir şey varsa modifier da bu hareketten etkilenir. Mesela objenin bağlı olduğu parent hareket ederse hareket işlemi modifier'ın üzerine eklenir, yani obje hem parent'dan hem de modifier'dan etkilenir.
+‎World Space | Dünya uzayı (eksenleri) kullanılır. Ayrıca bu modda objenin hareketini/konumunu etkileyen herhangi bir şey varsa constraint da bu hareketten etkilenir. Mesela objenin bağlı olduğu parent hareket ederse hareket işlemi constraint'in üzerine eklenir, yani obje hem parent'dan hem de constraint'den etkilenir.
 ‎Custom Space | "Object" input'una verdiğiniz objenin lokal uzayı (eksenleri) kullanılır.
-‎Local Space | Objenin lokal uzayı (eksenleri) kullanılır. Ayrıca bu modda objenin hareketini/konumunu etkileyen herhangi bir şey varsa modifier bu hareketten etkilenmez. Mesela objenin bağlı olduğu parent hareket ederse hareket işlemi objeyi etkilemez, objeyi sadece modifier etkiler.
+‎Local Space | Objenin lokal uzayı (eksenleri) kullanılır. Ayrıca bu modda objenin hareketini/konumunu etkileyen herhangi bir şey varsa constraint bu hareketten etkilenmez. Mesela objenin bağlı olduğu parent hareket ederse hareket işlemi objeyi etkilemez, objeyi sadece constraint etkiler.
 
 
 
@@ -114,10 +114,10 @@ Rotasyonun nasıl uygulanacağını belirtir.
 
 Mod | Açıklama
 :---: | :---:
-‎Replace | Default mod. Hedef objenin rotasyonunu modifier uygulanan objeye kopyalar.
-Add | Hedef objenin rotasyonunu modifier uygulanan objenin rotasyonunun üzerine ekler.
-Before Original | Rotasyon objenin orijinal rotasyonundan önce eklenir. Bunu şöyle düşünün, mesela objemizin bir parent'ı olsun, parent'a rotasyon uygularsanız objeye de rotasyon uygulanır, modifier'ın rotasyonu ise en son uygulanır (normalde), ama bu modu kullanırsanız rotasyon sanki parent'a uygulanan rotasyonmuş gibi olur.
-After Original | Rotasyon objenin orijinal rotasyonundan sonra eklenir. Bunu şöyle düşünün, mesela objemiz başka bir objenin parent'ı olsun, parent'a rotasyon uygularsanız objeye de rotasyon uygulanır, normalde modifier'ın rotasyonu parent'a uygulanır sonra parent'a bağlı olan diğer obje parent'dan etkilenir, ama bu modu kullanırsanız rotasyon sanki parent'a bağlı olan objeye uygulanan rotasyonmuş gibi olur.
+‎Replace | Default mod. Hedef objenin rotasyonunu constraint uygulanan objeye kopyalar.
+Add | Hedef objenin rotasyonunu constraint uygulanan objenin rotasyonunun üzerine ekler.
+Before Original | Rotasyon objenin orijinal rotasyonundan önce eklenir. Bunu şöyle düşünün, mesela objemizin bir parent'ı olsun, parent'a rotasyon uygularsanız objeye de rotasyon uygulanır, constraint'in rotasyonu ise en son uygulanır (normalde), ama bu modu kullanırsanız rotasyon sanki parent'a uygulanan rotasyonmuş gibi olur.
+After Original | Rotasyon objenin orijinal rotasyonundan sonra eklenir. Bunu şöyle düşünün, mesela objemiz başka bir objenin parent'ı olsun, parent'a rotasyon uygularsanız objeye de rotasyon uygulanır, normalde constraint'in rotasyonu parent'a uygulanır sonra parent'a bağlı olan diğer obje parent'dan etkilenir, ama bu modu kullanırsanız rotasyon sanki parent'a bağlı olan objeye uygulanan rotasyonmuş gibi olur.
 Offset (Legacy) | Eski offset ayarının mod hali ama bazı sorunları olduğu için artık kullanılmıyor.
 
 * #### Target
@@ -139,7 +139,7 @@ Mod | Açıklama
 ‎Local Space | Objenin lokal uzayı (eksenleri) kullanılır.
 
 * #### Influence
-Modifier'ın etki derecesi. Bunu rotasyonu kopyalama derecesi olarak da düşünebilirsiniz. Mesela bu ayarı 0.5 yaparsanız, hedef obje 90 derece döndüğünde obje 45 derece döner, yani yarıya indirmiş olursunuz.
+Constraint'in etki derecesi. Bunu rotasyonu kopyalama derecesi olarak da düşünebilirsiniz. Mesela bu ayarı 0.5 yaparsanız, hedef obje 90 derece döndüğünde obje 45 derece döner, yani yarıya indirmiş olursunuz.
 
 
 
@@ -154,16 +154,16 @@ Hedef obje.
 Scale'in kopyalanacağı eksen.
 
 * #### Power
-Scale değeri için çarpan görevi görür. Mesela bu değer 2 iken hedef obje 2 kat scale edildiğinde modifier'ın uygulandığı obje 4 kat scale edilir, yani 2 kat daha fazla scale uygulanır.
+Scale değeri için çarpan görevi görür. Mesela bu değer 2 iken hedef obje 2 kat scale edildiğinde constraint'in uygulandığı obje 4 kat scale edilir, yani 2 kat daha fazla scale uygulanır.
 
 * #### Make Uniform
-Scale değerini objeye tek bir (veya 2) eksende değil de bütün eksenlerde uygular. Mesela diyelim ki "Axis" ayarını sadece X olarak ayarladınız. Bu ayar kapalı iken hedef objenin X ekseninde scale değeri arttıkça modifier'ın uygulandığı objenin de X ekseninde scale değeri artar, eğer bu ayarı açarsanız hedef objenin X ekseninde scale değeri arttıkça modifier'ın uygulandığı objenin sadece X değil bütün eksenlerde scale değeri artar. Yani hedef objenin X ekseninde scale değerindeki artış modifier'ın uygulandığı objenin bütün eksenlerine paylaştırılır.
+Scale değerini objeye tek bir (veya 2) eksende değil de bütün eksenlerde uygular. Mesela diyelim ki "Axis" ayarını sadece X olarak ayarladınız. Bu ayar kapalı iken hedef objenin X ekseninde scale değeri arttıkça constraint'in uygulandığı objenin de X ekseninde scale değeri artar, eğer bu ayarı açarsanız hedef objenin X ekseninde scale değeri arttıkça constraint'in uygulandığı objenin sadece X değil bütün eksenlerde scale değeri artar. Yani hedef objenin X ekseninde scale değerindeki artış constraint'in uygulandığı objenin bütün eksenlerine paylaştırılır.
 
 * #### Offset
 Bu ayar açık iken objenin scale değerini değiştirebilirsiniz.
 
 * #### Additive
-Sadece "Offset" ayarı açık iken vardır. Bu ayar kapalı iken, "Offset" ayarını açıp offset uyguladıktan sonra, hedef obje ile modifier'ın uygulandığı obje arasındaki scale değeri çarpma şeklinde ayarlanır. Yani diyelim ki "Offset" ayarını açıp objenin scale değerini 3 katına çıkardınız. Bu durumda hedef objenin scale değeri değiştirildiğinde modifier'ın uygulandığı objenin scale değeri de 3 kat daha fazla değiştirilir. Yani modifier hedef objedeki scale değerini modifier'ın uygulandığı objeye aktarırken objelerin scale değerlerine göre yüzdelik olarak çalışır (yani oranları korur). Eğer bu ayarı açarsanız artık değerler çarparak değil de toplanarak hesaplanır. Yani mesela diyelim ki "Offset" ayarını açıp objenin scale değerini 3 katına çıkardınız, eğer bu ayar kapalı olsaydı bu durumda hedef objenin scale değerini 2 katına çıkardığınızda objenin de scale değeri 2 katına çıkacağından 6 olurdu, ama bu ayarı açarsanız çarpmak yerine toplama olarak hesaplanır ve objenin scale değeri 6 değil 3 + 1'den 4 olur.
+Sadece "Offset" ayarı açık iken vardır. Bu ayar kapalı iken, "Offset" ayarını açıp offset uyguladıktan sonra, hedef obje ile constraint'in uygulandığı obje arasındaki scale değeri çarpma şeklinde ayarlanır. Yani diyelim ki "Offset" ayarını açıp objenin scale değerini 3 katına çıkardınız. Bu durumda hedef objenin scale değeri değiştirildiğinde constraint'in uygulandığı objenin scale değeri de 3 kat daha fazla değiştirilir. Yani constraint hedef objedeki scale değerini constraint'in uygulandığı objeye aktarırken objelerin scale değerlerine göre yüzdelik olarak çalışır (yani oranları korur). Eğer bu ayarı açarsanız artık değerler çarparak değil de toplanarak hesaplanır. Yani mesela diyelim ki "Offset" ayarını açıp objenin scale değerini 3 katına çıkardınız, eğer bu ayar kapalı olsaydı bu durumda hedef objenin scale değerini 2 katına çıkardığınızda objenin de scale değeri 2 katına çıkacağından 6 olurdu, ama bu ayarı açarsanız çarpmak yerine toplama olarak hesaplanır ve objenin scale değeri 6 değil 3 + 1'den 4 olur.
 
 * #### Target
 Hedef obje için scale işleminin gerçekleştiği uzayı belirtir.
@@ -184,7 +184,7 @@ Mod | Açıklama
 ‎Local Space | Objenin lokal uzayı (eksenleri) kullanılır.
 
 * #### Influence
-Modifier'ın etki derecesi. Bunu scale değerini kopyalama derecesi olarak da düşünebilirsiniz. Mesela bu ayarı 0.5 yaparsanız, hedef objeye 4 kat scale uygulandığında objeye 2 kat scale uygulanır, yani yarıya indirmiş olursunuz.
+Constraint'in etki derecesi. Bunu scale değerini kopyalama derecesi olarak da düşünebilirsiniz. Mesela bu ayarı 0.5 yaparsanız, hedef objeye 4 kat scale uygulandığında objeye 2 kat scale uygulanır, yani yarıya indirmiş olursunuz.
 
 
 
@@ -203,7 +203,7 @@ Hedef objenin transform değerlerinin objeye nasıl uygulanacağını belirtir.
 
 Mod | Açıklama
 :---: | :---:
-‎Replace | Default mod. Hedef objenin transform değerlerini modifier uygulanan objeye kopyalar.
+‎Replace | Default mod. Hedef objenin transform değerlerini constraint uygulanan objeye kopyalar.
 Before Original (Full) | Bilmiyorum.
 Before Original (Aligned) | Bilmiyorum.
 Before Original (Split Channels) | Bilmiyorum.
@@ -230,7 +230,7 @@ Mod | Açıklama
 ‎Local Space | Objenin lokal uzayı (eksenleri) kullanılır.
 
 * #### Influence
-Modifier'ın etki derecesi. Bunu transform (location, rotation, scale) değerini kopyalama derecesi olarak da düşünebilirsiniz. Mesela bu ayarı 0.5 yaparsanız, hedef objeye uygulanan transform işlemlerinin yarısı objeye uygulanır, yani yarıya indirmiş olursunuz.
+Constraint'in etki derecesi. Bunu transform (location, rotation, scale) değerini kopyalama derecesi olarak da düşünebilirsiniz. Mesela bu ayarı 0.5 yaparsanız, hedef objeye uygulanan transform işlemlerinin yarısı objeye uygulanır, yani yarıya indirmiş olursunuz.
 
 
 
@@ -254,7 +254,7 @@ Mod | Açıklama
 ‎On Surface | Obje yarıçap'ın üzerinde tutulur, yani obje belirtilen mesafe değerinden daha fazla yakına veya uzağa gidemez, tam olarak aynı mesafede durur.
 
 * #### Affect Transform
-Bu ayar kapalı iken modifier objenin konum değerini gerçekten değiştirmez. Yani aslında objeyi hareket ettirirseniz obje gidemediği yerlere de gidebilir ama modifier objeyi orijinal konumunda göstermez, yani modifier objeyi sanki oradaymış gibi gösterir ama aslında konum değerleri farklıdır (sağdaki panelden görebilirsiniz). Eğer bu ayarı açarsanız modifier objenin konum değerlerini de değiştirir.
+Bu ayar kapalı iken constraint objenin konum değerini gerçekten değiştirmez. Yani aslında objeyi hareket ettirirseniz obje gidemediği yerlere de gidebilir ama constraint objeyi orijinal konumunda göstermez, yani constraint objeyi sanki oradaymış gibi gösterir ama aslında konum değerleri farklıdır (sağdaki panelden görebilirsiniz). Eğer bu ayarı açarsanız constraint objenin konum değerlerini de değiştirir.
 
 * #### Target
 Hedef obje için konum işlemlerinin gerçekleştiği uzayı belirtir.
@@ -275,7 +275,7 @@ Mod | Açıklama
 ‎Local Space | Objenin lokal uzayı (eksenleri) kullanılır.
 
 * #### Influence
-Modifier'ın etki derecesi.
+Constraint'in etki derecesi.
 
 
 
@@ -290,7 +290,7 @@ Objenin konumu bu eksenlerde belirttiğiniz değerden daha az olamaz. Eğer tik 
 Objenin konumu bu eksenlerde belirttiğiniz değerden daha fazla olamaz. Eğer tik işaretine basıp ekseni açarsanız verdiğiniz değer kullanılır, açmazsanız objenin konumu için maximum değer belirlememişsiniz demektir (yani istediğiniz değeri verebilirsiniz).
 
 * #### Affect Transform
-Bu ayar kapalı iken modifier objenin konum değerini gerçekten değiştirmez. Yani aslında objeyi hareket ettirirseniz obje gidemediği yerlere de gidebilir ama modifier objeyi orijinal konumunda göstermez, yani modifier objeyi sanki oradaymış gibi gösterir ama aslında konum değerleri farklıdır (sağdaki panelden görebilirsiniz). Eğer bu ayarı açarsanız modifier objenin konum değerlerini de değiştirir.
+Bu ayar kapalı iken constraint objenin konum değerini gerçekten değiştirmez. Yani aslında objeyi hareket ettirirseniz obje gidemediği yerlere de gidebilir ama constraint objeyi orijinal konumunda göstermez, yani constraint objeyi sanki oradaymış gibi gösterir ama aslında konum değerleri farklıdır (sağdaki panelden görebilirsiniz). Eğer bu ayarı açarsanız constraint objenin konum değerlerini de değiştirir.
 
 * #### Owner
 Obje için konum işlemlerinin gerçekleşeceği uzayı belirtir.
@@ -302,7 +302,7 @@ Mod | Açıklama
 ‎Local Space | Objenin lokal uzayı (eksenleri) kullanılır.
 
 * #### Influence
-Modifier'ın etki derecesi.
+Constraint'in etki derecesi.
 
 
 
@@ -317,7 +317,7 @@ Objenin rotasyonu bu eksenlerde belirttiğiniz değerlerden daha az ve fazla ola
 XYZ eksenleri için rotasyon sıralamasını belirtir.
 
 * #### Affect Transform
-Bu ayar kapalı iken modifier objenin rotasyon değerini gerçekten değiştirmez. Yani aslında objeyi döndürürseniz objenin rotasyon değeri limiti geçebilir ama modifier objeyi orijinal rotasyonunda göstermez, yani modifier objeyi sanki limit rotasyonundaymış gibi gösterir ama aslında rotasyon değerleri farklıdır (sağdaki panelden görebilirsiniz). Eğer bu ayarı açarsanız modifier objenin rotasyon değerlerini de değiştirir.
+Bu ayar kapalı iken constraint objenin rotasyon değerini gerçekten değiştirmez. Yani aslında objeyi döndürürseniz objenin rotasyon değeri limiti geçebilir ama constraint objeyi orijinal rotasyonunda göstermez, yani constraint objeyi sanki limit rotasyonundaymış gibi gösterir ama aslında rotasyon değerleri farklıdır (sağdaki panelden görebilirsiniz). Eğer bu ayarı açarsanız constraint objenin rotasyon değerlerini de değiştirir.
 
 * #### Owner
 Obje için rotasyon işlemlerinin gerçekleşeceği uzayı belirtir.
@@ -329,7 +329,7 @@ Mod | Açıklama
 ‎Local Space | Objenin lokal uzayı (eksenleri) kullanılır.
 
 * #### Influence
-Modifier'ın etki derecesi.
+Constraint'in etki derecesi.
 
 
 
@@ -344,7 +344,7 @@ Objenin scale değeri bu eksenlerde belirttiğiniz değerden daha az olamaz. Eğ
 Objenin scale değeri bu eksenlerde belirttiğiniz değerden daha fazla olamaz. Eğer tik işaretine basıp ekseni açarsanız verdiğiniz değer kullanılır, açmazsanız objenin scale değeri için maximum değer belirlememişsiniz demektir (yani istediğiniz değeri verebilirsiniz).
 
 * #### Affect Transform
-Bu ayar kapalı iken modifier objenin scale değerini gerçekten değiştirmez. Yani aslında objeyi scale ederseniz objenin scale değeri limiti geçebilir ama modifier objeyi orijinal scale değerinde göstermez, yani modifier objeyi sanki limit scale değerindeymiş gibi gösterir ama aslında scale değerleri farklıdır (sağdaki panelden görebilirsiniz). Eğer bu ayarı açarsanız modifier objenin scale değerlerini de değiştirir.
+Bu ayar kapalı iken constraint objenin scale değerini gerçekten değiştirmez. Yani aslında objeyi scale ederseniz objenin scale değeri limiti geçebilir ama constraint objeyi orijinal scale değerinde göstermez, yani constraint objeyi sanki limit scale değerindeymiş gibi gösterir ama aslında scale değerleri farklıdır (sağdaki panelden görebilirsiniz). Eğer bu ayarı açarsanız constraint objenin scale değerlerini de değiştirir.
 
 * #### Owner
 Obje için scale işlemlerinin gerçekleşeceği uzayı belirtir.
@@ -356,7 +356,7 @@ Mod | Açıklama
 ‎Local Space | Objenin lokal uzayı (eksenleri) kullanılır.
 
 * #### Influence
-Modifier'ın etki derecesi.
+Constraint'in etki derecesi.
 
 
 
@@ -388,15 +388,16 @@ Mod | Açıklama
 ‎Local Space | Objenin lokal uzayı (eksenleri) kullanılır.
 
 * #### Influence
-Modifier'ın etki derecesi.
+Constraint'in etki derecesi.
 
 
 
 ## [Transformation](https://docs.blender.org/manual/en/latest/animation/constraints/transform/transformation.html)
-a
+Bu constraint hedef objenin transfrom değerlerinden birini, yani location/rotation/scale değerlerinden birini, constraint'in uygulandığı objenin transfrom değerlerinden birine, yani location/rotation/scale değerlerinden birinine çevirmemizi sağlar. Mesela hedef obje X ekseninde konumunu değiştirince constraint'in uygulandığı objenin rotasyon değerini değiştirmek için bu constraint'i kullanabilirsiniz.
 
 
-
+* #### Influence
+Constraint'in etki derecesi.
 
 
 

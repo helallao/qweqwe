@@ -21,6 +21,8 @@
 * [Copy Scale](#copy-scale)
 * [Copy Transforms](#copy-transforms)
 * [Limit Distance](#limit-distance)
+* [Limit Location](#limit-location)
+* [Limit Rotation](#limit-rotation)
 
 
 <br>
@@ -230,7 +232,7 @@ Modifier'ın etki derecesi. Bunu transform (location, rotation, scale) değerini
 
 
 ## [Limit Distance](https://docs.blender.org/manual/en/latest/animation/constraints/transform/limit_distance.html)
-Objeyi hedef objeden belirtilen mesafe değeri kadar yakında veya uzakta tutar. İsterseniz tam olarak bu mesafeye de sabitleyebilirsiniz.
+Objeyi hedef objeden belirtilen mesafe değeri kadar yakında veya uzakta tutar, isterseniz tam olarak bu mesafeye de sabitleyebilirsiniz.
 
 
 * #### Target
@@ -252,7 +254,7 @@ Mod | Açıklama
 Bu ayar kapalı iken modifier objenin konum değerini gerçekten değiştirmez. Yani aslında objeyi hareket ettirirseniz obje gidemediği yerlere de gidebilir ama modifier objeyi orijinal konumunda göstermez, yani modifier objeyi sanki oradaymış gibi gösterir ama aslında konum değerleri farklıdır (sağdaki panelden görebilirsiniz). Eğer bu ayarı açarsanız modifier objenin konum değerlerini de değiştirir.
 
 * #### Target
-Hedef obje için transform işlemlerinin gerçekleştiği uzayı belirtir.
+Hedef obje için konum işlemlerinin gerçekleştiği uzayı belirtir.
 
 Mod | Açıklama
 :---: | :---:
@@ -261,7 +263,7 @@ Mod | Açıklama
 ‎Local Space | Objenin lokal uzayı (eksenleri) kullanılır.
 
 * #### Owner
-Obje için transform işlemlerinin gerçekleşeceği uzayı belirtir.
+Obje için konum işlemlerinin gerçekleşeceği uzayı belirtir.
 
 Mod | Açıklama
 :---: | :---:
@@ -271,6 +273,43 @@ Mod | Açıklama
 
 * #### Influence
 Modifier'ın etki derecesi.
+
+
+
+## [Limit Location](https://docs.blender.org/manual/en/latest/animation/constraints/transform/limit_location.html)
+Objenin konumunu belirttiğiniz minimum ve maximum değerleri arasında tutar.
+
+
+* #### Minimum X/Y/Z
+Objenin konumu bu eksenlerde belirttiğiniz değerden daha az olamaz. Eğer tik işaretine basıp ekseni açarsanız verdiğiniz değer kullanılır, açmazsanız objenin konumu için minimum değer belirlememişsiniz demektir.
+
+* #### Maximum X/Y/Z
+Objenin konumu bu eksenlerde belirttiğiniz değerden daha fazla olamaz. Eğer tik işaretine basıp ekseni açarsanız verdiğiniz değer kullanılır, açmazsanız objenin konumu için maximum değer belirlememişsiniz demektir.
+
+* #### Affect Transform
+Bu ayar kapalı iken modifier objenin konum değerini gerçekten değiştirmez. Yani aslında objeyi hareket ettirirseniz obje gidemediği yerlere de gidebilir ama modifier objeyi orijinal konumunda göstermez, yani modifier objeyi sanki oradaymış gibi gösterir ama aslında konum değerleri farklıdır (sağdaki panelden görebilirsiniz). Eğer bu ayarı açarsanız modifier objenin konum değerlerini de değiştirir.
+
+* #### Owner
+Obje için konum işlemlerinin gerçekleşeceği uzayı belirtir.
+
+Mod | Açıklama
+:---: | :---:
+‎World Space | Dünya uzayı (eksenleri) kullanılır.
+‎Custom Space | "Object" input'una verdiğiniz objenin lokal uzayı (eksenleri) kullanılır.
+‎Local Space | Objenin lokal uzayı (eksenleri) kullanılır.
+
+* #### Influence
+Modifier'ın etki derecesi.
+
+
+
+## [Limit Rotation](https://docs.blender.org/manual/en/latest/animation/constraints/transform/limit_rotation.html)
+Objenin rotasyonunu belirttiğiniz minimum ve maximum değerleri arasında tutar.
+
+
+* #### Limit X/Y/Z
+a
+
 
 
 

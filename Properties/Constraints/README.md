@@ -396,8 +396,46 @@ Constraint'in etki derecesi.
 Bu constraint hedef objenin transfrom değerlerinden birini, yani location/rotation/scale değerlerinden birini, constraint'in uygulandığı objenin transfrom değerlerinden birine, yani location/rotation/scale değerlerinden birinine çevirmemizi sağlar. Mesela hedef obje X ekseninde konumunu değiştirince constraint'in uygulandığı objenin rotasyon değerini değiştirmek için bu constraint'i kullanabilirsiniz.
 
 
+* #### Target
+Hedef obje.
+
+* #### Extrapolate
+Bu ayar açık iken "Map From" ve "Map To" değerleri için sınırlamalar kalkar. Değerler limitleri geçse bile aralarındaki oran bozulmadan işlemler devam eder. Yani mesela bu ayar kapalı iken "Map From" ile hedef objenin X ekseninde 0 ile 5 arasında konum değiştirmesini "Map To" ile constraint'in uygulandığı objenin scale değerini 0 ile 3 arasında değiştirmek için kullandığınızda, hedef objenin konumu 5'i geçse bile constraint'in uygulandığı objenin scale değeri 3'ü geçmez. Eğer bu ayarı açarsanız bu limitler kaldırılır ve oran bozulmadan işlemler olabilecek bütün değerler için hesaplanıp kullanılır. Mesela hedef objenin konumu 10 olursa constraint'in uygulandığı objenin scale değeri 6 olur (yani 2 katı olur, aralarındaki oran korunur).
+
+* #### Target
+Hedef obje için transform işlemlerinin gerçekleştiği uzayı belirtir.
+
+Mod | Açıklama
+:---: | :---:
+‎World Space | Dünya uzayı (eksenleri) kullanılır.
+‎Custom Space | "Object" input'una verdiğiniz objenin lokal uzayı (eksenleri) kullanılır.
+‎Local Space | Objenin lokal uzayı (eksenleri) kullanılır.
+
+* #### Owner
+Obje için transform işlemlerinin gerçekleşeceği uzayı belirtir.
+
+Mod | Açıklama
+:---: | :---:
+‎World Space | Dünya uzayı (eksenleri) kullanılır.
+‎Custom Space | "Object" input'una verdiğiniz objenin lokal uzayı (eksenleri) kullanılır.
+‎Local Space | Objenin lokal uzayı (eksenleri) kullanılır.
+
 * #### Influence
 Constraint'in etki derecesi.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

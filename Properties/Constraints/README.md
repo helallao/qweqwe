@@ -360,10 +360,34 @@ Modifier'ın etki derecesi.
 
 
 ## [Maintain Volume](https://docs.blender.org/manual/en/latest/animation/constraints/transform/maintain_volume.html)
-Bilmiyorum.
+Objenin kapladığı volume'ü (alanı) bozmadan scale değerlerini düzenler.
 
 
+* #### Mode
 
+Mod | Açıklama
+:---: | :---:
+‎Strict | "Free Axis" ayarında seçilen eksende yapılan scale işlemleri bozulmadan, diğer eksenlerde yapılan scale işlemlerini düzenler, böylelikle volume korunur (yani bozulmadan tutulur). Yani bu mod her türlü volume'ü korur ama "Free Axis" ayarında seçilen eksende yapılan scale işlemleri de bozulmadan tutulur. Diyelim ki "Free Axis" olarak Y eksenini seçtiniz, bu durumda eğer Z ekseninde scale değerini değiştirirseniz, volume X ekseninin scale değeri değiştirilerek korunur.
+Uniform |
+Single Axis | Sadece "Free Axis" ayarında seçilen eksende yapılan scale işlemleri için volume korunur (yani bozulmadan tutulur). Diğer eksenlerde yapılan scale işlemleri için volume korunmaz (yani normal scale gibidirler).
+
+* #### Free Axis
+Objenin free yani serbest bir şekilde scale edilebilecek ekseni. Bu eksen scale edilirken diğer eksenler "Volume" ayarına verilen değere eşit olacak şekilde objenin alanını düzenler.
+
+* #### Volume
+Objenin kapladığı alan değeri, objenin scale değerleri objenin kapladığı alan bu değere eşit olacak şekilde düzenlenir.
+
+* #### Owner
+Obje için scale işlemlerinin gerçekleşeceği uzayı belirtir.
+
+Mod | Açıklama
+:---: | :---:
+‎World Space | Dünya uzayı (eksenleri) kullanılır.
+‎Custom Space | "Object" input'una verdiğiniz objenin lokal uzayı (eksenleri) kullanılır.
+‎Local Space | Objenin lokal uzayı (eksenleri) kullanılır.
+
+* #### Influence
+Modifier'ın etki derecesi.
 
 
 

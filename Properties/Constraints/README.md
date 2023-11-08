@@ -25,6 +25,7 @@
 * [Limit Rotation](#limit-rotation)
 * [Limit Scale](#limit-scale)
 * [Maintain Volume](#maintain-volume)
+* [Transformation](#transformation)
 
 
 <br>
@@ -368,7 +369,7 @@ Objenin kapladığı volume'ü (alanı) bozmadan scale değerlerini düzenler.
 Mod | Açıklama
 :---: | :---:
 ‎Strict | "Free Axis" ayarında seçilen eksende yapılan scale işlemleri bozulmadan, diğer eksenlerde yapılan scale işlemlerini düzenler, böylelikle volume korunur (yani bozulmadan tutulur). Yani bu mod her türlü volume'ü korur ama "Free Axis" ayarında seçilen eksende yapılan scale işlemleri de bozulmadan tutulur. Diyelim ki "Free Axis" olarak Y eksenini seçtiniz, bu durumda eğer Z ekseninde scale değerini değiştirirseniz, volume X ekseninin scale değeri değiştirilerek korunur.
-Uniform |
+Uniform | Objeye bir eksende değil de bütün eksenlerde yani direktmen scale uygulandığında, objenin "Free Axis" ayarında seçilen ekseninde scale değeri korunur (yani bozulmadan tutulur). Diğer eksenlerde yapılan scale işlemleri için volume korunmaz (yani normal scale gibidirler).
 Single Axis | Sadece "Free Axis" ayarında seçilen eksende yapılan scale işlemleri için volume korunur (yani bozulmadan tutulur). Diğer eksenlerde yapılan scale işlemleri için volume korunmaz (yani normal scale gibidirler).
 
 * #### Free Axis
@@ -391,6 +392,8 @@ Modifier'ın etki derecesi.
 
 
 
+## [Transformation](https://docs.blender.org/manual/en/latest/animation/constraints/transform/transformation.html)
+a
 
 
 

@@ -23,6 +23,7 @@
 * [Limit Distance](#limit-distance)
 * [Limit Location](#limit-location)
 * [Limit Rotation](#limit-rotation)
+* [Limit Scale](#limit-scale)
 
 
 <br>
@@ -281,10 +282,10 @@ Objenin konumunu belirttiğiniz minimum ve maximum değerleri arasında tutar.
 
 
 * #### Minimum X/Y/Z
-Objenin konumu bu eksenlerde belirttiğiniz değerden daha az olamaz. Eğer tik işaretine basıp ekseni açarsanız verdiğiniz değer kullanılır, açmazsanız objenin konumu için minimum değer belirlememişsiniz demektir.
+Objenin konumu bu eksenlerde belirttiğiniz değerden daha az olamaz. Eğer tik işaretine basıp ekseni açarsanız verdiğiniz değer kullanılır, açmazsanız objenin konumu için minimum değer belirlememişsiniz demektir (yani istediğiniz değeri verebilirsiniz).
 
 * #### Maximum X/Y/Z
-Objenin konumu bu eksenlerde belirttiğiniz değerden daha fazla olamaz. Eğer tik işaretine basıp ekseni açarsanız verdiğiniz değer kullanılır, açmazsanız objenin konumu için maximum değer belirlememişsiniz demektir.
+Objenin konumu bu eksenlerde belirttiğiniz değerden daha fazla olamaz. Eğer tik işaretine basıp ekseni açarsanız verdiğiniz değer kullanılır, açmazsanız objenin konumu için maximum değer belirlememişsiniz demektir (yani istediğiniz değeri verebilirsiniz).
 
 * #### Affect Transform
 Bu ayar kapalı iken modifier objenin konum değerini gerçekten değiştirmez. Yani aslında objeyi hareket ettirirseniz obje gidemediği yerlere de gidebilir ama modifier objeyi orijinal konumunda göstermez, yani modifier objeyi sanki oradaymış gibi gösterir ama aslında konum değerleri farklıdır (sağdaki panelden görebilirsiniz). Eğer bu ayarı açarsanız modifier objenin konum değerlerini de değiştirir.
@@ -308,7 +309,39 @@ Objenin rotasyonunu belirttiğiniz minimum ve maximum değerleri arasında tutar
 
 
 * #### Limit X/Y/Z
+Objenin rotasyonu bu eksenlerde belirttiğiniz değerlerden daha az ve fazla olamaz. Eğer tik işaretine basıp ekseni açarsanız verdiğiniz değer kullanılır, açmazsanız objenin rotasyonu için değer belirlememişsiniz demektir (yani istediğiniz değeri verebilirsiniz).
+
+* #### Order
+XYZ eksenleri için rotasyon sıralamasını belirtir.
+
+* #### Affect Transform
+Bu ayar kapalı iken modifier objenin rotasyon değerini gerçekten değiştirmez. Yani aslında objeyi döndürürseniz objenin rotasyon değeri limiti geçebilir ama modifier objeyi orijinal rotasyonunda göstermez, yani modifier objeyi sanki limit rotasyonundaymış gibi gösterir ama aslında rotasyon değerleri farklıdır (sağdaki panelden görebilirsiniz). Eğer bu ayarı açarsanız modifier objenin rotasyon değerlerini de değiştirir.
+
+* #### Owner
+Obje için rotasyon işlemlerinin gerçekleşeceği uzayı belirtir.
+
+Mod | Açıklama
+:---: | :---:
+‎World Space | Dünya uzayı (eksenleri) kullanılır.
+‎Custom Space | "Object" input'una verdiğiniz objenin lokal uzayı (eksenleri) kullanılır.
+‎Local Space | Objenin lokal uzayı (eksenleri) kullanılır.
+
+* #### Influence
+Modifier'ın etki derecesi.
+
+
+
+## [Limit Scale](https://docs.blender.org/manual/en/latest/animation/constraints/transform/limit_scale.html)
+Objenin scale değerini belirttiğiniz minimum ve maximum değerleri arasında tutar.
+
+
+* #### a
 a
+
+
+
+
+
 
 
 

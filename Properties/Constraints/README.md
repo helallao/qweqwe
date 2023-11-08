@@ -26,6 +26,7 @@
 * [Limit Scale](#limit-scale)
 * [Maintain Volume](#maintain-volume)
 * [Transformation](#transformation)
+* [Transform Cache](#transform-cache)
 
 
 <br>
@@ -423,12 +424,16 @@ Mod | Açıklama
 * #### Influence
 Constraint'in etki derecesi.
 
+* #### Map From
+Hedef objeden alınıp kullanılacak değer. İlk baş hangi transform değerini kullanacağınızı seçmelisiniz (yani location/rotation/scale). Ardından kullanacağınız eksen için (birden fazla da kullanabilirsiniz) minimum ve maksimum değerler belirlemelisiniz. Ayrıca "Rotation" için farklı rotasyon modları seçebilirsiniz.
+
+* #### Map To
+İlk baş hangi transform değerini kullanacağınızı seçmelisiniz (yani location/rotation/scale). Ardından kullanacağınız eksen için (birden fazla da kullanabilirsiniz) minimum ve maksimum değerler belirlemelisiniz. Her eksen için "Source Axis" diye input vardır, bu input üzerinden hedef objeden gelen transform bilgisinin (yani location/rotation/scale) hangi ekseninin kullanılacağını seçebilirsiniz. Ayrıca "Location" için farklı "Mix" modları seçebilirsiniz, "Replace" direktmen hedef objeden gelen bilginin "Map From" da belirtilen minimum ve maximum oranına göre "Map To" da belirtilen minimum ve maximum aralığında hesaplanmasıdır, "Add" ise aynı işlemi yapar ama yeni değeri şu anki değerin üzerine ekler. "Rotation" için farklı rotasyon sıralamaları seçebilirsiniz, ek olarak "Before Original" ve "After Original" modlarını da kullanabilirsiniz ([Copy Rotation](#copy-rotation) constraint'inin "Mix" ayarına bakın). "Scale" için de farklı "Mix" modları seçebilirsiniz, "Replace" direktmen hedef objeden gelen bilginin "Map From" da belirtilen minimum ve maximum oranına göre "Map To" da belirtilen minimum ve maximum aralığında hesaplanmasıdır, "Multiply" ise aynı işlemi yapar ama yeni değer ile şu anki değerin çarpımını kullanır (anlamadıysanız [Copy Scale](#copy-scale) constraint'inin "Additive" ayarına bakın, orda ekleme ile çarpma arasındaki fark anlatılıyor).
 
 
 
-
-
-
+## [Transform Cache](https://docs.blender.org/manual/en/latest/animation/constraints/transform/transform_cache.html)
+a
 
 
 

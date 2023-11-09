@@ -37,6 +37,12 @@
 
 # [Relationship](#relationship-1)
 * [Action](#action)
+* [Armature](#armature)
+* [Child Of](#child-of)
+* [Floor](#floor)
+* [Follow Path](#follow-path)
+* [Pivot](#pivot)
+* [Shrinkwrap](#shrinkwrap)
 
 
 <br>
@@ -564,20 +570,37 @@ Bilmiyorum.
 
 
 ## [Action](https://docs.blender.org/manual/en/latest/animation/constraints/relationship/action.html)
-a
+Bilmiyorum.
 
 
 
+## [Armature](https://docs.blender.org/manual/en/latest/animation/constraints/relationship/armature.html)
+Bilmiyorum.
 
 
 
+## [Child Of](https://docs.blender.org/manual/en/latest/animation/constraints/relationship/child_of.html)
+Bilmiyorum.
 
 
 
+## [Floor](https://docs.blender.org/manual/en/latest/animation/constraints/relationship/floor.html)
+Bilmiyorum.
 
 
 
+## [Follow Path](https://docs.blender.org/manual/en/latest/animation/constraints/relationship/follow_path.html)
+Bilmiyorum.
 
+
+
+## [Pivot](https://docs.blender.org/manual/en/latest/animation/constraints/relationship/pivot.html)
+Bilmiyorum.
+
+
+
+## [Shrinkwrap](https://docs.blender.org/manual/en/latest/animation/constraints/relationship/shrinkwrap.html)
+Bilmiyorum.
 
 
 

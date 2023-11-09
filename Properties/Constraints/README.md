@@ -35,6 +35,9 @@
 * [Stretch To](#stretch-to)
 * [Track To](#track-to)
 
+# [Relationship](#relationship-1)
+* [Action](#action)
+
 
 <br>
 <br>
@@ -510,7 +513,7 @@ Constraint'in etki derecesi.
 
 
 ## [Stretch To](https://docs.blender.org/manual/en/latest/animation/constraints/tracking/stretch_to.html)
-a
+Bilmiyorum.
 
 
 
@@ -550,4 +553,31 @@ Mod | Açıklama
 
 * #### Influence
 Constraint'in etki derecesi.
+
+
+<br>
+<br>
+
+
+# [Relationship](https://docs.blender.org/manual/en/latest/animation/constraints/index.html#relationship)
+Bilmiyorum.
+
+
+## [Action](https://docs.blender.org/manual/en/latest/animation/constraints/relationship/action.html)
+a
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

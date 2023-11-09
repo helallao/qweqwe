@@ -448,7 +448,7 @@ Bilmiyorum.
 
 
 # [Tracking](https://docs.blender.org/manual/en/latest/animation/constraints/index.html#tracking)
-Bilmiyorum.
+Bu kategoride objenin rotasyonunu hedef objeye doğru bakacak şekilde ayarlayabildiğiniz constraint'ler vardır.
 
 
 ## [Clamp To](https://docs.blender.org/manual/en/latest/animation/constraints/tracking/clamp_to.html)
@@ -477,17 +477,35 @@ Constraint'in etki derecesi.
 
 
 ## [Damped Track](https://docs.blender.org/manual/en/latest/animation/constraints/tracking/damped_track.html)
-a
+[Track To](#track-to) constraint'i ile aynı sayılır, tek farkı size ikincil ekseni (Up) seçebilme hakkı sunmaz. Objenin rotasyonunu hedef objeye bakacak şekilde düzenler. Bu constraint'i anlamanız için güzel bir şekilde test etmeniz gerekir, size en anlaşılır test yöntemini vereyim. Test etmek için normal objeler kullanırsanız yönleri anlama konusunda zorluk yaşayabilirsiniz, bu yüzden test için "Arrows" objesini kullanmanızı tavsiye ederim. Obje ekleme bölümünde (Shift + A) "Empty" kategorisindeki "Arrows" objesini kullanarak constraint'i test edebilirsiniz. Aşağıdaki açıklamalar ve biraz uğraş ile constraint'in nasıl çalıştığını anlayabilirsiniz.
+
+
+* #### Target
+Hedef obje.
+
+* #### Track Axis
+Objenin hangi ekseninin hedef objeye doğru bakacağını belirtir. Yani objenin kendi lokal yönlerinin hangisinin hedef objeye doğru bakacağını ayarlar. Eksi değere sahip yönler, o yönü hedef objenin tam tersi yöne bakmasını sağlar.
+
+* #### Influence
+Constraint'in etki derecesi.
 
 
 
 ## [Locked Track](https://docs.blender.org/manual/en/latest/animation/constraints/tracking/locked_track.html)
-a
+Objenin rotasyonunu tek bir eksende hedef objeye bakacak şekilde düzenler.
 
 
+* #### Target
+Hedef obje.
 
-## [Locked Track](https://docs.blender.org/manual/en/latest/animation/constraints/tracking/locked_track.html)
-a
+* #### Track Axis
+Objenin hangi eksende hedef objeye doğru bakacağını belirtir. Eksi değere sahip yönler, o yönü hedef objenin tam tersi yöne bakmasını sağlar. "Locked Axis" ayarında belirtilen eksen ile aynı ekseni seçerseniz constraint düzgün çalışmaz.
+
+* #### Locked Axis
+Objenin "Track Axis" ayarında seçtiğiniz ekseni hedef objeye doğru bakacak şekilde düzenlenirken, bu düzenlemeden etkilenmeyecek olan eksen. Yani bu ayarda seçtiğiniz eksen sabit tutulur, değiştirilmez. "Track Axis" ayarında belirtilen eksen ile aynı ekseni seçerseniz constraint düzgün çalışmaz.
+
+* #### Influence
+Constraint'in etki derecesi.
 
 
 
@@ -497,7 +515,7 @@ a
 
 
 ## [Track To](https://docs.blender.org/manual/en/latest/animation/constraints/tracking/track_to.html)
-Objenin rotasyonunu hedef objeye bakacak şekilde düzenler. Bu constraint'i anlamanız için güzel bir şekilde test etmeniz gerekir, size en anlaşılır test yöntemini vereyim. Test etmek için normal objeler kullanırsanız yönleri anlama konusunda zorluk yaşayabilirsiniz, bu yüzden test için "Arrows" objesini kullanmanızı tavsiye ederim. Obje ekleme bölümünde (Shift + A) "Empty" kategorisindeki "Arrows" objesini kullanarak constraint'i test edebilirsiniz. Aşağıdaki açıklamalar ve biraz uğraş ile constraint'in nasıl çalıştığını anlayabilirsiniz.
+[Damped Track](#damped-track) constraint'inin daha gelişmişidir denilebilir, size ikincil ekseni (Up) seçebilme hakkı sunar. Objenin rotasyonunu hedef objeye bakacak şekilde düzenler. Bu constraint'i anlamanız için güzel bir şekilde test etmeniz gerekir, size en anlaşılır test yöntemini vereyim. Test etmek için normal objeler kullanırsanız yönleri anlama konusunda zorluk yaşayabilirsiniz, bu yüzden test için "Arrows" objesini kullanmanızı tavsiye ederim. Obje ekleme bölümünde (Shift + A) "Empty" kategorisindeki "Arrows" objesini kullanarak constraint'i test edebilirsiniz. Aşağıdaki açıklamalar ve biraz uğraş ile constraint'in nasıl çalıştığını anlayabilirsiniz.
 
 
 * #### Target

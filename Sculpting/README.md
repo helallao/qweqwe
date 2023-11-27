@@ -213,3 +213,31 @@ a
 
 ## [Mask by Color](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/mask_by_color.html)
 a
+
+
+<br>
+<br>
+
+
+# Brush Ayarları
+Bu kategoride ek brush ayarlarının (her brush'ın kendine özel ayarlarının haricindeki) açıklamaları vardır.
+
+## [Advanced](https://docs.blender.org/manual/en/4.0/sculpt_paint/brush/brush_settings.html#advanced)
+a
+
+## [Texture](https://docs.blender.org/manual/en/4.0/sculpt_paint/brush/texture.html)
+a
+
+## [Stroke](https://docs.blender.org/manual/en/4.0/sculpt_paint/brush/stroke.html)
+a
+
+## [Falloff](https://docs.blender.org/manual/en/4.0/sculpt_paint/brush/falloff.html)
+a
+
+## [Cursor](https://docs.blender.org/manual/en/4.0/sculpt_paint/brush/cursor.html)
+a
+
+
+
+
+

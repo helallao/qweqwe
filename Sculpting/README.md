@@ -12,7 +12,7 @@ Aşağıdaki döküman sözlük mantığında yapılmıştır, herhangi bir konu
 </details>
 
 
-# [Brushlar](#brushlar)
+# [Brushlar](#brushlar-1)
 * [Draw](#draw)
 
 
@@ -21,6 +21,142 @@ Aşağıdaki döküman sözlük mantığında yapılmıştır, herhangi bir konu
 
 
 # Brushlar
+Bu kategoride her bir brush'ın kendisine özel ayarlarının ve ne işe yaradığının açıklamaları vardır.
 
 ## [Draw](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/draw.html)
+a
+
+## [Draw Sharp](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/draw_sharp.html)
+a
+
+## [Clay](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/clay.html)
+a
+
+## [Clay Strips](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/clay_strips.html)
+a
+
+## [Clay Thumb](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/clay_thumb.html)
+a
+
+## [Layer](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/layer.html)
+a
+
+## [Inflate](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/inflate.html)
+a
+
+## [Blob](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/blob.html)
+a
+
+## [Crease](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/crease.html)
+a
+
+## [Smooth](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/smooth.html)
+a
+
+## [Flatten](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/flatten.html)
+a
+
+## [Fill](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/fill.html)
+a
+
+## [Scrape](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/scrape.html)
+a
+
+## [Multi-plane Scrape](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/multiplane_scrape.html)
+a
+
+## [Pinch](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/pinch.html)
+a
+
+## [Grab](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/grab.html)
+a
+
+## [Elastic Deform](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/elastic_deform.html)
+a
+
+## [Snake Hook](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/snake_hook.html)
+a
+
+## [Thumb](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/thumb.html)
+a
+
+## [Pose](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/pose.html)
+a
+
+## [Nudge](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/nudge.html)
+a
+
+## [Rotate](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/rotate.html)
+a
+
+## [Slide Relax](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/slide_relax.html)
+a
+
+## [Boundary](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/boundary.html)
+a
+
+## [Cloth](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/cloth.html)
+a
+
+## [Simplify](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/simplify.html)
+a
+
+## [Mask](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/mask.html)
+a
+
+## [Draw Face Sets](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/draw_facesets.html)
+a
+
+## [Multires Displacement Eraser](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/multires_displacement_eraser.html)
+a
+
+## [Multires Displacement Smear](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/multires_displacement_smear.html)
+a
+
+## [Paint](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/paint.html)
+a
+
+## [Smear](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/smear.html)
+a
+
+## [Box Mask](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/box_mask.html)
+a
+
+## [Lasso Mask](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/lasso_mask.html)
+a
+
+## [Line Mask](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/line_mask.html)
+a
+
+## [Box Hide]()
+a
+
+## [Box Face Set](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/box_face_set.html)
+a
+
+## [Lasso Face Set](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/lasso_face_set.html)
+a
+
+## [Box Trim](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/box_trim.html)
+a
+
+## [Lasso Trim](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/lasso_trim.html)
+a
+
+## [Line Project](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/line_project.html)
+a
+
+## [Mesh Filter](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/mesh_filter.html)
+a
+
+## [Cloth Filter](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/cloth_filter.html)
+a
+
+## [Color Filter](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/color_filter.html)
+a
+
+## [Edit Face Set](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/edit_face_set.html)
+a
+
+## [Mask by Color](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/mask_by_color.html)
 a

@@ -26,7 +26,7 @@ Aşağıdaki döküman sözlük mantığında yapılmıştır, herhangi bir konu
 * [Flatten](#flatten)
 * [Fill](#fill)
 * [Scrape](#scrape)
-* [Multi-plane Scrape](#multiplane-scrape)
+* [Multi-plane Scrape](#multi-plane-scrape)
 * [Pinch](#pinch)
 * [Grab](#grab)
 * [Elastic Deform](#elastic-deform)

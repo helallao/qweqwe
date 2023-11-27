@@ -10,3 +10,17 @@ Aşağıdaki döküman sözlük mantığında yapılmıştır, herhangi bir konu
 * [ALL Sculpt Brushes (EXPLAINED) for 3D Print Design](https://www.youtube.com/playlist?list=PLvCZK2JKGQlPK51aQDWAvJJwh-elJiWXP) - Her brush için açıklamaların olduğu youtube playlist'i, isterseniz udemy linkine de [buradan](https://www.udemy.com/course/blender-sculpting-brushes-202/) ulaşabilirsiniz.
 
 </details>
+
+
+# [Brushlar](#brushlar)
+* [Draw](#draw)
+
+
+<br>
+<br>
+
+
+# Brushlar
+
+## [Draw](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/draw.html)
+a

@@ -11,6 +11,7 @@ Aşağıdaki döküman sözlük mantığında yapılmıştır, herhangi bir konu
 
 </details>
 
+<br>
 
 # [Brushlar](#brushlar-1)
 * [Draw](#draw)
@@ -59,6 +60,13 @@ Aşağıdaki döküman sözlük mantığında yapılmıştır, herhangi bir konu
 * [Color Filter](#color-filter)
 * [Edit Face Set](#edit-face-set)
 * [Mask by Color](#mask-by-color)
+
+# [Brush Ayarları](#brush-ayarlari-1)
+* [Advanced](#advanced)
+* [Texture](#texture)
+* [Stroke](#stroke)
+* [Falloff](#falloff)
+* [Cursor](#cursor)
 
 
 <br>

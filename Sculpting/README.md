@@ -68,16 +68,24 @@ Aşağıdaki döküman sözlük mantığında yapılmıştır, herhangi bir konu
 * [Falloff](#falloff)
 * [Cursor](#cursor)
 
+# [Workflowlar](#workflowlar-1)
+* [Dynamic Topology (Dyntopo)](#voxel-remesh)
+* [Voxel Remesh](#voxel-remesh)
+* [Multiresolution](#multiresolution)
+
 
 <br>
 <br>
 
 
 # Brushlar
-Bu kategoride her bir brush'ın kendisine özel ayarlarının ve ne işe yaradığının açıklamaları vardır.
+Bu kategoride her bir fırçanın kendisine özel ayarlarının ve ne işe yaradığının açıklamaları vardır.
 
 ## [Draw](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/draw.html)
-a
+
+* #### Radius
+Fırçanın yarıçapı. "F" kısayolunu kullanarak ayarlayabilirsiniz (sol ve sağa hareket ettirerek). Ayarlarken sol üstten şu anki radius değerini görebilirsiniz. Fırça yarıçapını ayarlarken "Ctrl" kısayoluna tıklayarak radius değerini 10'un katı olan sayılarda ayarlayabilirsiniz, "Shift" kısayoluna tıklayarak da ince ayar yapabilirsiniz.
+
 
 ## [Draw Sharp](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/draw_sharp.html)
 a
@@ -220,7 +228,7 @@ a
 
 
 # Brush Ayarları
-Bu kategoride ek brush ayarlarının (her brush'ın kendine özel ayarlarının haricindeki) açıklamaları vardır.
+Bu kategoride ek fırça ayarlarının (her fırçanın kendine özel ayarlarının haricindeki) açıklamaları vardır.
 
 ## [Advanced](https://docs.blender.org/manual/en/4.0/sculpt_paint/brush/brush_settings.html#advanced)
 a
@@ -238,6 +246,14 @@ a
 a
 
 
+<br>
+<br>
 
 
+# Workflowlar
 
+## [Dynamic Topology (Dyntopo)](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tool_settings/dyntopo.html)
+
+## [Voxel Remesh](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tool_settings/remesh.html)
+
+## [Multiresolution](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/introduction/adaptive.html#multiresolution)

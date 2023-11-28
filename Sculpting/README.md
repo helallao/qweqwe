@@ -86,7 +86,7 @@ Bu kategoride her bir fırçanın kendisine özel ayarlarının ve ne işe yarad
 ## [Draw](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/draw.html)
 
 * #### Radius
-Fırçanın yarıçapı. "F" kısayolu ile ayarlayabilirsiniz ([Kısayollar](#kısayollar) bölümünden "Genel Kısayollar" a bakın).
+Fırçanın yarıçapı. "F" kısayolu ile ayarlayabilirsiniz ([Kısayollar](#kısayollar-1) bölümünden "Genel Kısayollar" a bakın).
 
 
 ## [Draw Sharp](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/draw_sharp.html)

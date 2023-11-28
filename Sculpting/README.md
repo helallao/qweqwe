@@ -285,7 +285,13 @@ Shift + F | Fırçanın şiddetini ayarlayabilirsiniz (sol ve sağa hareket etti
 </details>
 
 
+<details>
+<summary>Brush Kısayolları</summary>
+<br>
 
+Bu kısayolları tek tek anlatmama gerek yok. "Shift + Boşluk" kısayolunu kullandığınızda brush'ların kısayollarının da yanında yazdığı bir seçim menüsü çıkar. Bu menüden bütün brush kısayollarını ögrenebilirsiniz. Bütün brush'ların kısayollarını bilmenize gerek yok, eğer brush'ın kısayolunun içerisinde herhangi bir harf varsa o kısayolu ögrenin, yani içerisinde harf geçen kısayola sahip olan brush'lar ana brush'lardır. Bunun haricinde sculpting ile çok vakit geçiriyorsanız sürekli "Shift + Boşluk" kısayolundaki seçim menüsünü kullanarak zamanla kullandığınız brush'ların kısayollarını ezberleyebilirsiniz.
+
+</details>
 
 
 

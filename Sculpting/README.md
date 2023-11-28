@@ -84,7 +84,7 @@ Aşağıdaki döküman sözlük mantığında yapılmıştır, herhangi bir konu
 Bu kategoride her bir fırçanın kendisine özel ayarlarının ve ne işe yaradığının açıklamaları vardır.
 
 ## [Draw](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/draw.html)
-Açıklama. Brush'ın kısayolu "V" dir.
+Açıklama. Brush'ın kısayolu "V" dir ([Kısayollar](#kısayollar-1) bölümünden "Brush Kısayolları" na bakın).
 
 
 * #### Radius

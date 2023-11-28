@@ -61,7 +61,7 @@ Aşağıdaki döküman sözlük mantığında yapılmıştır, herhangi bir konu
 * [Edit Face Set](#edit-face-set)
 * [Mask by Color](#mask-by-color)
 
-# [Brush Ayarları](#brush-ayarlari-1)
+# [Brush Ayarları](#brush-ayarları-1)
 * [Advanced](#advanced)
 * [Texture](#texture)
 * [Stroke](#stroke)
@@ -73,7 +73,7 @@ Aşağıdaki döküman sözlük mantığında yapılmıştır, herhangi bir konu
 * [Voxel Remesh](#voxel-remesh)
 * [Multiresolution](#multiresolution)
 
-# [Kısayollar](#kisayollar-1)
+# [Kısayollar](#kısayollar-1)
 
 
 <br>

@@ -69,9 +69,11 @@ Aşağıdaki döküman sözlük mantığında yapılmıştır, herhangi bir konu
 * [Cursor](#cursor)
 
 # [Workflowlar](#workflowlar-1)
-* [Dynamic Topology (Dyntopo)](#voxel-remesh)
+* [Dynamic Topology (Dyntopo)](#dynamic-topology-dyntopo)
 * [Voxel Remesh](#voxel-remesh)
 * [Multiresolution](#multiresolution)
+
+# [Kısayollar](#kisayollar-1)
 
 
 <br>
@@ -84,7 +86,7 @@ Bu kategoride her bir fırçanın kendisine özel ayarlarının ve ne işe yarad
 ## [Draw](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/draw.html)
 
 * #### Radius
-Fırçanın yarıçapı. "F" kısayolunu kullanarak ayarlayabilirsiniz (sol ve sağa hareket ettirerek). Ayarlarken sol üstten şu anki radius değerini görebilirsiniz. Fırça yarıçapını ayarlarken "Ctrl" kısayoluna tıklayarak radius değerini 10'un katı olan sayılarda ayarlayabilirsiniz, "Shift" kısayoluna tıklayarak da ince ayar yapabilirsiniz.
+Fırçanın yarıçapı. "F" kısayolu ile ayarlayabilirsiniz ([Kısayollar](#kısayollar) bölümünden "Genel Kısayollar" a bakın).
 
 
 ## [Draw Sharp](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/draw_sharp.html)
@@ -257,3 +259,39 @@ a
 ## [Voxel Remesh](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tool_settings/remesh.html)
 
 ## [Multiresolution](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/introduction/adaptive.html#multiresolution)
+
+
+<br>
+<br>
+
+
+# Kısayollar
+
+<details>
+<summary>Genel Kısayollar</summary>
+<br>
+
+Kısayol | Açıklama
+:---: | :---:
+F | Fırçanın yarıçapını ayarlayabilirsiniz (sol ve sağa hareket ettirerek). Ayarlarken sol üstten şu anki radius değerini görebilirsiniz. Fırça yarıçapını ayarlarken "Ctrl" kısayoluna tıklayarak radius değerini 10'un katı olan sayılarda ayarlayabilirsiniz, "Shift" kısayoluna tıklayarak da ince ayar yapabilirsiniz.
+
+</details>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

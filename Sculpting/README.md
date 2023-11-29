@@ -111,7 +111,7 @@ Bu ayar fırçayı kullanırken otomatik smooth işlemi uygulamaya yarar. Yani s
 
 
 ## [Draw Sharp](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/draw_sharp.html)
-Bu brush [Draw](#draw) brush'ının birkaç ayarı değiştirilmiş versiyonudur, kısaca özetlemek gerekirse falloff'u [Draw](#draw) brush'ına göre daha keskindir. Bu brush kullanım amacı olarak [Crease](#crease) brush'ına benzer ama ona göre daha agresiftir ve güzel sonuç için fazla geometri gerektirir. Ayrıca bu brush [Dynamic Topology (Dyntopo)](#dynamic-topology-dyntopo) ile beraber kullanılamaz ama [Crease](#crease) brush'ı kullanılabilir. Brush'ın kısayolu "1" dir ([Kısayollar](#kısayollar-1) bölümünden "Brush Kısayolları" na bakın).
+Bu brush [Draw](#draw) brush'ının birkaç ayarı değiştirilmiş versiyonudur, kısaca özetlemek gerekirse falloff'u [Draw](#draw) brush'ına göre daha keskindir. Bu brush kullanım amacı olarak [Crease](#crease) brush'ına benzer ama ona göre daha agresiftir ve güzel sonuç için fazla geometri gerektirir. Ayrıca bu brush [Dynamic Topology (Dyntopo)](#dynamic-topology-dyntopo) ile beraber kullanılamaz ama [Crease](#crease) brush'ı kullanılabilir.
 
 
 * #### Radius
@@ -329,7 +329,7 @@ Ctrl + Sol tık | "Ctrl" kısayoluna basarken mouse'un sol tuşuna basıp çizim
 <summary>Brush Kısayolları</summary>
 <br>
 
-Bu kısayolları tek tek anlatmama gerek yok. "Shift + Boşluk" kısayolunu kullandığınızda brush'ların kısayollarının da yanında yazdığı bir seçim menüsü çıkar. Bu menüden bütün brush kısayollarını ögrenebilirsiniz. Bütün brush'ların kısayollarını bilmenize gerek yok, eğer brush'ın kısayolunun içerisinde herhangi bir harf varsa o kısayolu ögrenin, yani içerisinde harf geçen kısayola sahip olan brush'lar ana brush'lardır. Bunun haricinde sculpting ile çok vakit geçiriyorsanız sürekli "Shift + Boşluk" kısayolundaki seçim menüsünü kullanarak zamanla kullandığınız brush'ların kısayollarını ezberleyebilirsiniz.
+Bu kısayolları tek tek anlatmama gerek yok. "Shift + Boşluk" kısayolunu kullandığınızda brush'ların kısayollarının da yanında yazdığı bir seçim menüsü çıkar (bazen menü kendiliğinden kapanıyor, "Shift + Boşluk" kısayoluna basılı tutarsanız kapanmaz). Bu menüden bütün brush kısayollarını öğrenebilirsiniz. Bütün brush'ların kısayollarını bilmenize gerek yok, eğer brush'ın kısayolunun içerisinde herhangi bir harf varsa o kısayolu öğrenin, yani içerisinde harf geçen kısayola sahip olan brush'lar ana brush'lardır. Kısayolu içerisinde harf olmayan brush'ların da kısayollarını öğrenmeyin çünkü zaten kısayolu kullanabilmeniz için önce "Shift + Boşluk" basmanız gerekli. Yani kısayolu içerisinde harf olmayan brush'ların kısayollarını kullanabilmek için öncesinde "Shift + Boşluk" basarak menüyü açmanız gerek ve zaten menüyü açtığınız için bu brush'ların kısayollarını öğrenmek mantıksız olur, bunun yerine brush'ların menü üzerindeki yerlerini öğrenin.
 
 </details>
 

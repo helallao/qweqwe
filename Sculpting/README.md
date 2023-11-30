@@ -165,7 +165,9 @@ Bu ayar fırçayı kullanırken otomatik smooth işlemi uygulamaya yarar. Yani s
 * #### Plane Offset
 Bu ayar planar işlem yapan brush'larda vardır (Clay, Fill, Flatten, Scrape vs.). Clay brush'ında, mouse'unuzun olduğu konumun çevresindeki geometrinin hesaplanması ile plane oluşturulur. Oluşturulan plane her bir stroke için (yani her bir fırça darbesi, bir kere sol mouse tuşuna tıkayıp basılı tutarak çizim yapmanız) geometrinin hareket ettirilebileceği maksimum mesafedir. Yani mouse'unuzun konumunun altındaki veya üstündeki geometri tek bir stroke'ta en fazla bu plane mesafesi kadar hareket ettirilebilir. Bu ayar da bu plane'in mesafesini arttırabilmenize yarar, yani tek bir stroke'ta fırçanın uygulayabileceği efektin maksimum limitini yükseltir. Aşağıdaki videodan ayarın nasıl çalıştığını görebilirsiniz.
 
-https://github.com/helallao/qweqwe/assets/78656003/c8d7ba27-2cab-4162-a092-0abcb152eca4
+https://github.com/helallao/qweqwe/assets/78656003/39784c90-4d76-4c24-b2a8-fb523f173aba
+
+
 
 
 

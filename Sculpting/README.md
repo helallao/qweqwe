@@ -196,6 +196,16 @@ Bu ayar fırçanın falloff'unun yumuşaklık derecesini belirler. Daha doğrusu
 * #### Auto-Smooth
 Bu ayar fırçayı kullanırken otomatik smooth işlemi uygulamaya yarar. Yani siz fırçayı kullanırken bir yandan da [Smooth](#smooth) fırçasını kullanarak üzerinden geçiyormuşsunuz gibi bir efekt verir. Kullandığınız fırçanın keskin geometrileri yumuşatmasını ve kendisinin de keskin geometri oluşturmamasını istiyorsanız bu ayarı kullanabilirsiniz. Yandaki "Invert Smooth Pressure" ayarını açarak eğer sculpting için çizim tableti kullanıyorsanız, kaleminiz ile ekrana uyguladığınız baskıyı tam tersine çevirme modunu açabilirsiniz. Bu modu açtığınızda hafif baskılar daha fazla smooth işleminin uygulanmasına sebep olur (kapalı iken tam tersi).
 
+* #### Plane Offset
+Bu ayar planar işlem yapan brush'larda vardır (Clay, Fill, Flatten, Scrape vs.). Clay Strips brush'ında bu ayar aynı "Strength" ayarı gibi çalışır, arttırdığınızda uyguladığı efektin şiddeti artar.
+
+* #### Plane Trim
+Bu ayar planar işlem yapan brush'larda vardır (Clay, Fill, Flatten, Scrape vs.). Clay Strips brush'ında, mouse'unuzun olduğu konumun çevresindeki geometrinin hesaplanması ile plane oluşturulur. Bu ayar da brush'ın uyguladığı efekti sadece belirli mesafedeki geometri ile sınırlamamıza yarar, yani uzaklık limiti olarak çalışır. Eğer plane ile aralarındaki mesafe bu ayarda belirtilen mesafeden fazla ise, geometri brush'tan etkilenmez. Aşağıdaki videodan ayarın nasıl çalıştığını görebilirsiniz.
+
+https://github.com/helallao/qweqwe/assets/78656003/5259ce54-8a55-47e7-9d9c-c617c2d4fa78
+
+
+
 
 
 ## [Clay Thumb](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/clay_thumb.html)

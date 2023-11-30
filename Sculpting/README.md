@@ -167,9 +167,9 @@ Bu ayar planar işlem yapan brush'larda vardır (Clay, Fill, Flatten, Scrape vs.
 
 https://github.com/helallao/qweqwe/assets/78656003/39784c90-4d76-4c24-b2a8-fb523f173aba
 
-
 * #### Plane Trim
-Bu ayar planar işlem yapan brush'larda vardır (Clay, Fill, Flatten, Scrape vs.). Clay brush'ında
+Clay brush'ında bu ayarın nasıl çalıştığını bilmiyorum.
+
 
 
 ## [Clay Strips](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/clay_strips.html)

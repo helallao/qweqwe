@@ -265,7 +265,14 @@ Bu ayar fırçanın falloff'unun yumuşaklık derecesini belirler. Daha doğrusu
 Bu ayar fırçayı kullanırken otomatik smooth işlemi uygulamaya yarar. Yani siz fırçayı kullanırken bir yandan da [Smooth](#smooth) fırçasını kullanarak üzerinden geçiyormuşsunuz gibi bir efekt verir. Kullandığınız fırçanın keskin geometrileri yumuşatmasını ve kendisinin de keskin geometri oluşturmamasını istiyorsanız bu ayarı kullanabilirsiniz. Yandaki "Invert Smooth Pressure" ayarını açarak eğer sculpting için çizim tableti kullanıyorsanız, kaleminiz ile ekrana uyguladığınız baskıyı tam tersine çevirme modunu açabilirsiniz. Bu modu açtığınızda hafif baskılar daha fazla smooth işleminin uygulanmasına sebep olur (kapalı iken tam tersi).
 
 * #### Height
-Bu 
+Bu ayar her bir stroke için (yani her bir fırça darbesi, bir kere sol mouse tuşuna tıkayıp basılı tutarak çizim yapmanız) geometrinin hareket ettirilebileceği maksimum yüksekliktir. Yani bu ayar ile oluşturduğunuz yeni katmanın (layer) maksimum yüksekliğini belirlersiniz ve geometri bu yüksekliğe ulaştıktan sonra artık daha yükseğe gidemez.
+
+* #### Persistent
+Bu ayar "Set Persistent Base" butonu ile birlikte kullanılır. Normalde Layer brush'ı kullanırken "Height" ayarı her bir stroke (yani her bir fırça darbesi, bir kere sol mouse tuşuna tıkayıp basılı tutarak çizim yapmanız) için bir defalığına çalışır, yani Layer brush'ı kullanarak yeni bir katman (layer) oluşturduktan sonra tekrar yeni bir stroke ile Layer brush'ı kullandığınızda, az önce oluşturduğunuz katmanın üzerindeki geometrinin yükseklik bilgisi kaydedilmediği için 0 olarak hesaplanır, yani sıfırmış gibi varsayılıp "Height" ayarında belirtilen yükseklik değeri kadar yeni bir katman daha oluşturulur. Kısacası her bir stroke için ayrı bir katman oluşturulur, ama biz tek bir katmanı düzenlerken birden fazla stroke kullanmak isteyebiliriz. İşte bu durumda "Persistent" ayarı kullanılır, "Set Persistent Base" butonuna bastığınız zaman geometrinin şu anki konumları "Persistent Base" olarak kaydedilir ve "Persistent" ayarını açtığımızda yaptığımız bütün stroke'lar tek bir katmanı düzenlemek için kullanılır. Yani "Persistent" ayarı açık olduğu sürece tek bir katman üzerinde çalışırız ve istediğimiz kadar stroke kullanabiliriz.
+
+* #### Set Persistent Base
+Bu ayar "Persistent" ayarı ile birlikte kullanılır. Tıkladığınız anda geometrinin şu anki konumlarını "Persistent Base" olarak kaydeder.
+
 
 
 ## [Inflate](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/inflate.html)

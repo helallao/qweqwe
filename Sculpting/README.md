@@ -204,7 +204,11 @@ Bu ayar planar işlem yapan brush'larda vardır (Clay, Fill, Flatten, Scrape vs.
 
 https://github.com/helallao/qweqwe/assets/78656003/5259ce54-8a55-47e7-9d9c-c617c2d4fa78
 
+* #### Tip Roundness
+Fırçanın kare ile yuvarlak arasında şeklini ayarlar. 0'da iken kare, 1'de iken yuvarlak olur.
 
+* #### Tip Scale X
+Fırçanın kendi X ekseninde scale'ini yani uzunluğunu ayarlar.
 
 
 

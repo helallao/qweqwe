@@ -432,6 +432,8 @@ Bu ayar planar işlem yapan brush'larda vardır (Clay, Fill, Flatten, Scrape vs.
 * #### Plane Trim
 Bu ayar planar işlem yapan brush'larda vardır (Clay, Fill, Flatten, Scrape vs.). Flatten brush'ında, mouse'unuzun olduğu konumun çevresindeki geometrinin hesaplanması ile plane oluşturulur. Bu ayar da brush'ın uyguladığı efekti sadece belirli mesafedeki geometri ile sınırlamamıza yarar, yani uzaklık limiti olarak çalışır. Eğer plane ile aralarındaki mesafe bu ayarda belirtilen mesafeden fazla ise, geometri brush'tan etkilenmez. Aşağıdaki videodan ayarın nasıl çalıştığını görebilirsiniz.
 
+https://github.com/helallao/qweqwe/assets/78656003/f5aae465-2a7c-4ddb-a8a7-a8ba31415ec7
+
 
 
 ## [Fill](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/fill.html)

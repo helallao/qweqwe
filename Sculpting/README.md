@@ -390,6 +390,15 @@ Bu ayar fırçanın falloff'unun yumuşaklık derecesini belirler. Daha doğrusu
 * #### Deformation
 Bu ayar kullanılacak deformasyon yöntemini belirtir. "Laplacian" modunda mesh'in hem yüzey hem de volume yani hacmi smooth edilir. Yani "Surface" modunun aksine mesh'in volume'ünü koruyarak smooth işlemi uygulayamazsınız. Bu da bazı durumlarda istenmedik sonuçlar doğurabilir. Mesela bazen sadece vertex'lerin arasındaki geçişin yumuşak olmasını istiyor ve şeklinizin bozulmamasını istiyor olabilirsiniz ama smooth brush şeklin bozulup bozulmamasına dikkat etmeden her yeri düzlüyor olabilir. Bu durumlarda "Surface" modunu kullanarak hem yüzey üzerinde smooth işlemi uygulayabilir hem de volume'ü yani hacmi koruyabiliriz.
 
+* #### Shape Preservation
+Bu ayar sadece "Deformation" ayarı "Surface" modundayken vardır. Orijinal şeklin korunma derecesini belirtir. Yani bu ayarı arttırdıkça yumuşatma işleminin şiddeti de azalır.
+
+* #### Per-Vertex Displacement
+Bu ayar sadece "Deformation" ayarı "Surface" modundayken vardır. Her bir vertex'in yumuşatma efektine olan etkisini belirtir. Bunu arttırmak yumuşatma efektinin şiddetini azaltır.
+
+* #### Iterations
+Bu ayar sadece "Deformation" ayarı "Surface" modundayken vardır. Yumuşatma işleminin tekrarlama sayısı. Bu ayarı arttırmak yumuşatma efektinin şiddetini arttırmışsınız gibi sonuç verir.
+
 
 
 ## [Flatten](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/flatten.html)

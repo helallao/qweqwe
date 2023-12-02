@@ -25,7 +25,7 @@ G | Node'u hareket ettirir.
 A | Editördeki bütün node'ları seçer.
 Home | Bütün node'lara odaklanır. Editörün büyüklüğünü bütün node'ları görecek hale getirir.
 X / Delete | X veya Delete tuşuna basarsanız seçili olan node'lar silinir.
-Shift + A | Yeni node ekleme menüsünü açar. Bu menüde
+Shift + A | Yeni node ekleme menüsünü açar.
 Ctrl + C | Seçilen node'ları panoya kopyalar.
 Ctrl + V | Panoda en son kopyalanan şeyi yapıştırır.
 Shift + D | Seçilen node'ları duplicate eder yani kopyalarını oluşturur.

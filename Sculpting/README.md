@@ -603,10 +603,11 @@ Bu ayar fırçayı kullanırken otomatik smooth işlemi uygulamaya yarar. Yani s
 Bu ayar brush'ın normal'ının (yani baktığı yön) grab işlemine olan etkisini belirtir. Mesela bu ayar 1 iken geometriyi sadece normal yönünde hareket ettirebilirsiniz. 0-1 arasında iken ise arttıkça normal yönünün harekete olan etkisi artar. 0 iken ise normal yönünün harekete hiç etkisi olmaz, yani istediğiniz gibi hareket ettirebilirsiniz. Ayrıca Grab brush'ında yön değiştirmeye yarayan "Ctrl" kısayolunun farklı bir işlevi vardır. "Ctrl" kısayolu "Normal Weight" değerini 0 iken 1, 0'ın üzerinde iken 0 yapmaya yarar. Yani mesela diyelim ki "Normal Weight" değeri 0, eğer "Ctrl" kısayoluna basarak fırçayı kullanırsanız "Normal Weight" değeri 1 olarak ayarlanır. Eğer "Normal Weight" değeri 0'dan büyükse (0.001 bile olsa) "Ctrl" kısayoluna basarak fırçayı kullanırsanız "Normal Weight" değeri 0 olarak ayarlanır. Yani "Ctrl" kısayolu "Normal Weight" ayarı kapalı iken açmaya, açık içen kapatmaya yarar.
 
 * #### Grab Active Vertex
-Bu ayar
+Bu ayarın nasıl çalıştığını bilmiyorum.
 
 * #### Grab Silhouette
-Bu ayar
+Bu ayarın nasıl çalıştığını bilmiyorum.
+
 
 
 ## [Elastic Deform](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/elastic_deform.html)

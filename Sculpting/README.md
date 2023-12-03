@@ -643,6 +643,8 @@ Efekt | Açıklama
 Grab | [Grab](#grab) brush'ının elastik versiyonudur.
 Bi-scale Grab | "Grab" modu gibidir ama efektin falloff'u orta noktada daha baskındır, falloff ortayı daha çok kenarları daha az etkiler.
 Tri-scale Grab | "Bi-scale Grab" modu gibidir ama efektin falloff'u orta noktada daha baskındır, falloff ortayı daha çok kenarları daha az etkiler.
+Scale | Fırçayı hareket ettirdikçe çevredeki vertex'leri etrafa doğru yayar, scale eder.
+Twist | Fırçayı sola ve sağa hareket ettirdikçe saat ve saatin tersi yönünde twist (bükme) uygular.
 
 * #### Volume Preservation
 Volume yani şeklin hacminin yani orijinal şeklin korunma derecesini belirtir. Bu değeri arttırdıkça şekil de efekt uygulanırken orijinal hacmini koruyacak şekilde ayarlanır.

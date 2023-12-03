@@ -865,13 +865,34 @@ a
 a
 
 ## [Box Mask](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/box_mask.html)
-a
+Bu brush maske oluşturmak için kullanılır, maske oluşturmak için çizdiğiniz dörtgen kullanılır. Ayrıca bu brush seçili iken "Shift" kısayolu ile [Smooth](#smooth) brush'ı kullanamazsınız. "Ctrl" kısayoluna basarak brush'ı kullanırsanız da maske silme modunu açmış olursunuz, seçilen bölge içerisindeki maskeler silinir. Brush'ın tek kullanımlık kısayolu "B" dir ([Kısayollar](#kısayollar-1) bölümünden "Brush Kısayolları" na bakın).
+
+
+* #### Front Faces Only
+Bu ayar kapalıyken kameraya görünmeyen, arkada kalan kısımlar da maskelenir. Bu ayar açıkken sadece kameraya görünen kısımlar maskelenir.
+
+
 
 ## [Lasso Mask](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/lasso_mask.html)
-a
+[Box Mask](#box-mask) brush'ının alternatif versiyonudur. Bu brush maske oluşturmak için kullanılır, maske oluşturmak için çizdiğiniz şekil kullanılır. Ayrıca bu brush seçili iken "Shift" kısayolu ile [Smooth](#smooth) brush'ı kullanamazsınız. "Ctrl" kısayoluna basarak brush'ı kullanırsanız da maske silme modunu açmış olursunuz, seçilen bölge içerisindeki maskeler silinir.
+
+
+* #### Front Faces Only
+Bu ayar kapalıyken kameraya görünmeyen, arkada kalan kısımlar da maskelenir. Bu ayar açıkken sadece kameraya görünen kısımlar maskelenir.
+
+
 
 ## [Line Mask](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/line_mask.html)
-a
+[Box Mask](#box-mask) brush'ının alternatif versiyonudur. Bu brush maske oluşturmak için kullanılır, maske oluşturmak için çizdiğiniz doğru kullanılır. Doğrunun gölgeli kısmında kalan kısımlar maskelenir. Brush'ı kullanırken "F" kısayoluna basarak gölgeli kısmın yönünü değiştirebilirsiniz. Ayrıca bu brush seçili iken "Shift" kısayolu ile [Smooth](#smooth) brush'ı kullanamazsınız. "Ctrl" kısayoluna basarak brush'ı kullanırsanız da maske silme modunu açmış olursunuz, seçilen bölge içerisindeki maskeler silinir.
+
+
+* #### Front Faces Only
+Bu ayar kapalıyken kameraya görünmeyen, arkada kalan kısımlar da maskelenir. Bu ayar açıkken sadece kameraya görünen kısımlar maskelenir.
+
+* #### Limit to Segment
+Bu ayar kapalı iken doğru sonsuza kadar gidiyormuş gibi varsayılarak maskeleme uygulanır. Bu ayar açık iken sadece doğrunun başından sonuna kadar olan kısımlara maskeleme uygulanır.
+
+
 
 ## [Box Hide]()
 a

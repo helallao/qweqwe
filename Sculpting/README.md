@@ -918,7 +918,19 @@ Bu ayar kapalıyken kameraya görünmeyen, arkada kalan kısımlar da face set'e
 
 
 ## [Box Trim](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/box_trim.html)
-a
+Geometri oluşturmak veya silmek için kullanılır. [Bool modifier'ı](../Properties/Modifiers#boolean) gibidir. Bu brush'ı kullanarak base mesh yani mesh'inizin ana hatlarını oluşturabilirsiniz. Her oluşturduğunuz geometri yeni face set'e atanır. Geometri sildiğinizde ise silinen kısmın iç tarafı yeni face set'e atanır.
+
+
+* #### Trim Mode
+Bu ayar kullanılacak modu belirtir.
+
+Mod | Açıklama
+:---: | :---:
+Difference | Çizdiğiniz dörtgen ile kesişen geometriyi silmeye yarar.
+Union | Çizdiğiniz dörtgen şeklinde yeni şekil oluşturulur, eğer varolan geometri ile kesişiyorsa hesaplamalar yapılıp birleştirilir.
+Join | "Union" modu ile aynıdır ama "Union" modu yeni şekil önceki şekil ile kesiştiğinde hesaplamalar yapıp kesişen kısımları geometrik olarak birleştirirken, bu mod birleştirme işlemi uygulamaz, şekillerin geometrileri birbirlerinden bağımsızdır. Eğer Viewport Shading ayarınızı Wireframe moduna alırsanız iç içe giren geometrilerin birbirlerinden bağımsız şekilde durduklarını yani sadece iç içe girdiklerini, aslında geometrilerinin hiç değişmediğini görebilirsiniz.
+
+
 
 ## [Lasso Trim](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/lasso_trim.html)
 a

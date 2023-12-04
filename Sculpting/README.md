@@ -936,7 +936,7 @@ Join | "Union" modu ile aynıdır ama "Union" modu yeni şekil önceki şekil il
 https://github.com/helallao/qweqwe/assets/78656003/8c843409-5026-4a69-a677-cee965dc3452
 
 * #### Extrude Mode
-a
+Oluşturulan şeklin bakacağı yönün nasıl hesaplanacağını belirler. "Project" modunda şekil kameraya doğru bakar, "Fixed" modunda ise kameraya değil de kameranın bakış açısına bakar (bunu [orthographic](https://docs.blender.org/manual/en/latest/editors/3dview/navigate/projections.html) modu gibi düşünebilirsiniz). İki modun arasındaki farkı daha iyi anlamak için [Camera Data](../Shader%20Nodes#camera-data) shader node'una yazdığım açıklamaya bakın. "Project" modu "View Distance" ile, "Fixed" modu "View Z Depth" ile aynı şekilde çalışır.
 
 * #### Use Cursor for Depth
 Bu ayarı açarsanız brush'ınızın radius'unu yani yarıçapını ve orta noktaya olan uzaklığını kullanarak hesaplamaları yapar. Brush'ınızın yarıçapı büyükçe veya orta noktaya olan uzaklığı arttıkça derinlik değeri de artar. Aşagıdaki videodan ayarın nasıl çalıştığını görebilirsiniz.

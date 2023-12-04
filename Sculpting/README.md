@@ -895,13 +895,27 @@ Bu ayar kapalı iken doğru sonsuza kadar gidiyormuş gibi varsayılarak maskele
 
 
 ## [Box Hide]()
-a
+Bu brush geometriyi görünmez yapmak için kullanılır. Edit moddaki Hide/Unhide ile aynıdır. Çizdiğiniz dörtgenin içindeki vertex'ler görünmez olur. "Ctrl" kısayoluna basarak brush'ı kullanırsanız da görünür yapma modunu açmış olursunuz, seçilen bölge içerisindeki görünmez vertex'ler tekrar görünür hale getirilir (Unhide).
+
+
 
 ## [Box Face Set](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/box_face_set.html)
-a
+Bu brush face set oluşturmak için kullanılır, face set oluşturmak için çizdiğiniz dörtgen kullanılır. Ayrıca bu brush seçili iken "Shift" kısayolu ile [Smooth](#smooth) brush'ı kullanamazsınız.
+
+
+* #### Front Faces Only
+Bu ayar kapalıyken kameraya görünmeyen, arkada kalan kısımlar da face set'e dahil olur. Bu ayar açıkken sadece kameraya görünen kısımlardan face set oluşturulur.
+
+
 
 ## [Lasso Face Set](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/lasso_face_set.html)
-a
+[Box Face Set](#box-face-set) brush'ının alternatif versiyonudur. Bu brush face set oluşturmak için kullanılır, face set oluşturmak için çizdiğiniz şekil kullanılır. Ayrıca bu brush seçili iken "Shift" kısayolu ile [Smooth](#smooth) brush'ı kullanamazsınız.
+
+
+* #### Front Faces Only
+Bu ayar kapalıyken kameraya görünmeyen, arkada kalan kısımlar da face set'e dahil olur. Bu ayar açıkken sadece kameraya görünen kısımlardan face set oluşturulur.
+
+
 
 ## [Box Trim](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/box_trim.html)
 a

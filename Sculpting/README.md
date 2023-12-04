@@ -82,7 +82,7 @@ Aşağıdaki döküman sözlük mantığında yapılmıştır, herhangi bir konu
 # Brushlar
 Bu kategoride her bir fırçanın kendisine özel ayarlarının ve ne işe yaradığının açıklamaları vardır.
 
-## [Draw](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/draw.html)
+## [Draw](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/tools/draw.html)
 Klasik çizim brush'ıdır. Geometriyi ileri-geri almamıza yarar, yani kendimize doğru çekmemize veya itmemize yarar. Brush'ın kısayolu "V" dir ([Kısayollar](#kısayollar-1) bölümünden "Brush Kısayolları" na bakın).
 
 
@@ -109,7 +109,7 @@ Bu ayar fırçayı kullanırken otomatik smooth işlemi uygulamaya yarar. Yani s
 
 
 
-## [Draw Sharp](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/draw_sharp.html)
+## [Draw Sharp](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/tools/draw_sharp.html)
 Bu brush [Draw](#draw) brush'ının birkaç ayarı değiştirilmiş versiyonudur, kısaca özetlemek gerekirse falloff'u [Draw](#draw) brush'ına göre daha keskindir. Bu brush kullanım amacı olarak [Crease](#crease) brush'ına benzer ama ona göre daha agresiftir ve güzel sonuç için fazla geometri gerektirir. Ayrıca bu brush [Dynamic Topology (Dyntopo)](#dynamic-topology-dyntopo) ile beraber kullanılamaz ama [Crease](#crease) brush'ı kullanılabilir.
 
 
@@ -136,7 +136,7 @@ Bu ayar fırçayı kullanırken otomatik smooth işlemi uygulamaya yarar. Yani s
 
 
 
-## [Clay](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/clay.html)
+## [Clay](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/tools/clay.html)
 Bu brush gerçekten kil (clay) üzerinde heykeltıraşlık (sculpting) yapıyormuşsunuz gibi bir efekt verir. [Draw](#draw) brush'ına benzer, ek olarak "Plane Offset" ve "Plane Trim" ayarlarına sahiptir.
 
 
@@ -171,7 +171,7 @@ Clay brush'ında bu ayarın nasıl çalıştığını bilmiyorum.
 
 
 
-## [Clay Strips](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/clay_strips.html)
+## [Clay Strips](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/tools/clay_strips.html)
 Bu brush [Draw](#draw) brush'ına ve [Clay](#clay) brush'ına benzer ama daha agresif ve kare şeklindedir. Geniş alanları hızlıca sculpt etmek için sık kullanılan bir brush'tır. Keskin kenarlar bırakan bir brush'tır, ana hatları oluşturmada kullanılır. Yani ince ayar gerektiren işlemler için değil de kaba işlemler için kullanılır. Brush'ın kısayolu "C" dir ([Kısayollar](#kısayollar-1) bölümünden "Brush Kısayolları" na bakın).
 
 
@@ -212,7 +212,7 @@ Fırçanın kendi X ekseninde scale'ini yani uzunluğunu ayarlar.
 
 
 
-## [Clay Thumb](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/clay_thumb.html)
+## [Clay Thumb](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/tools/clay_thumb.html)
 Bu brush [Draw](#draw) brush'ına benzer. Brush'ın amacı gerçekten parmaklarınızı kullanarak bir kili şekillendiriyormuşsunuz gibi efekt vermektir, parmağınızla kilin üzerinde bastırıyormuşsunuz gibi.
 
 
@@ -242,7 +242,7 @@ Clay Thumb brush'ında bu ayarın nasıl çalıştığını bilmiyorum.
 
 
 
-## [Layer](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/layer.html)
+## [Layer](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/tools/layer.html)
 Bu brush [Draw](#draw) brush'ına benzer. Ek olarak "Height" ve "Persistent" ayarlarına sahiptir, bu ayarlar brush'a uygulanan efekti belirli bir yükseklik ile sınırlayabilme özelliği katar. Böylelikle oluşturacağınız yeni katman (layer) üzerinde tam kontrole sahip olursunuz.
 
 
@@ -278,7 +278,7 @@ Bu ayar "Persistent" ayarı ile birlikte kullanılır. Tıkladığınız anda ge
 
 
 
-## [Inflate](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/inflate.html)
+## [Inflate](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/tools/inflate.html)
 Bu brush [Draw](#draw) brush'ına benzer. Tek farkı geometriyi (yani vertex'leri) normal'ı (baktığı yön) yönde ileri/geri almasıdır. Yani vertex'ler baktıkları yönde hareket ettirilirler, bu da bir nevi biraz yumuşak/yuvarlak bir efekt verir. Brush'ın kısayolu "I" dır ([Kısayollar](#kısayollar-1) bölümünden "Brush Kısayolları" na bakın).
 
 
@@ -305,7 +305,7 @@ Bu ayar fırçayı kullanırken otomatik smooth işlemi uygulamaya yarar. Yani s
 
 
 
-## [Blob](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/blob.html)
+## [Blob](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/tools/blob.html)
 Bu brush [Draw](#draw) ve [Inflate](#inflate) brush'larına benzer. Tek farkı geometriyi (yani vertex'leri) hareket ettirirken [Pinch](#pinch) brush'ının tersi olan "Magnify" efektini kullanmasıdır. Yani geometriyi dışa doğru iter, bu da yuvarlakımsı şekiller verir.
 
 
@@ -335,7 +335,7 @@ Geometriyi dışa itme derecesi, "Magnify" efekti şiddeti.
 
 
 
-## [Crease](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/crease.html)
+## [Crease](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/tools/crease.html)
 Bu brush [Draw Sharp](#draw-sharp) brush'ına benzer. Tek farkı geometriyi (yani vertex'leri) hareket ettirirken [Pinch](#pinch) brush'ı efekti kullanmasıdır. Yani geometriyi içe doğru çeker. Bu brush crease yani kırışıklık/buruşukluk yani keskin kesikler oluşturmaya yarar. Brush'ın kısayolu "Shift + C" dir ([Kısayollar](#kısayollar-1) bölümünden "Brush Kısayolları" na bakın).
 
 
@@ -365,7 +365,7 @@ Geometriyi içe çekme derecesi, "Pinch" efekti şiddeti.
 
 
 
-## [Smooth](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/smooth.html)
+## [Smooth](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/tools/smooth.html)
 Bu brush en çok kullanılan brush'tır. Yumuşatma efekti uygular yani vertex'lerin yönlerini çevredeki vertex'lere göre düzenler. Sert geçişli yerleri bu brush ile yumuşak geçişli hale getirebilirsiniz. Bu brush neredeyse her işlemden sonra önceki brush'ın efektini düzenlemek/yumuşatmak için kullanılır. Yani sculpting yaparken sürekli tekrar tekrar bu brush'ı kullanırız. Bu yüzden kendisine özel kısayolu olan tek brush'tır. Kısayolu kullanmak için çizim işlemine başlamadan önce "Shift" kısayoluna basılı tutmanız yeterlidir (çizmeye başladıktan sonra bırakabilirsiniz). "Slide Relax", "Mask", "Draw Face Sets", "Paint", "Smear" ve diğer kategorilerdeki brush'lar ("Smear" brush'ından sonraki) "Shift" kısayolunu kendi kısayolları için kullandıklarından dolayı bu brush'larda "Shift" kısayolunu kullanarak Smooth brush'ını kullanamazsınız. Ayrıca "Shift" kısayolunu kullanarak Smooth brush'ı kullandığınızda Smooth brush'ın şu anki ayarları ne ise o kullanılır, eğer ayarları değiştirmek istiyorsanız Smooth brush'ını seçip ayarlarını değiştirebilirsiniz. Brush'ın kısayolu "S" dir ([Kısayollar](#kısayollar-1) bölümünden "Brush Kısayolları" na bakın).
 
 
@@ -401,7 +401,7 @@ Bu ayar sadece "Deformation" ayarı "Surface" modundayken vardır. Yumuşatma i�
 
 
 
-## [Flatten](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/flatten.html)
+## [Flatten](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/tools/flatten.html)
 Bu brush düzleme veya ayırma (düzlemenin tam tersi, iki tarafı birbirinden uzaklaştırma) işlemleri için kullanılır.
 
 
@@ -436,7 +436,7 @@ https://github.com/helallao/qweqwe/assets/78656003/f5aae465-2a7c-4ddb-a8a7-a8ba3
 
 
 
-## [Fill](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/fill.html)
+## [Fill](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/tools/fill.html)
 Bu brush boşluk olan kısımları doldurmaya yarar. Çevredeki geometriye bakarak aşağıda kalan kısımları doldurur, yükseltir. [Scrape](#scrape) brush'ının tersidir.
 
 
@@ -475,7 +475,7 @@ Bu ayar açıldığında brush'ın yönü ("Direction" ayarı) eksi iken [Scrape
 
 
 
-## [Scrape](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/scrape.html)
+## [Scrape](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/tools/scrape.html)
 Bu brush yüksek olan kısımları indirmeye yarar. Çevredeki geometriye bakarak yukarıda kalan kısımları indirir. [Fill](#fill) brush'ının tersidir. Brush'ın kısayolu "Shift + T" dir ([Kısayollar](#kısayollar-1) bölümünden "Brush Kısayolları" na bakın).
 
 
@@ -514,7 +514,7 @@ Bu ayar açıldığında brush'ın yönü ("Direction" ayarı) eksi iken [Fill](
 
 
 
-## [Multi-plane Scrape](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/multiplane_scrape.html)
+## [Multi-plane Scrape](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/tools/multiplane_scrape.html)
 Bu brush [Scrape](#scrape) brush'ının çift halidir. Brush hem sağdan hem de soldan Scrape efekti uygular ve orta noktada da keskin bir çizgi bırakır.
 
 
@@ -547,7 +547,7 @@ Fırçayı kullanırken plane'leri gösterir.
 
 
 
-## [Pinch](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/pinch.html)
+## [Pinch](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/tools/pinch.html)
 Bu brush çevredeki geometriyi (yani vertex'leri) orta noktaya doğru çeker. Çizdiğiniz doğru boyunca geometri iç tarafa doğru çekilir. "Direction" ayarını artıya alarak geometriyi dışa itebilirsiniz. Brush'ın kısayolu "P" dir ([Kısayollar](#kısayollar-1) bölümünden "Brush Kısayolları" na bakın).
 
 
@@ -574,7 +574,7 @@ Bu ayar fırçayı kullanırken otomatik smooth işlemi uygulamaya yarar. Yani s
 
 
 
-## [Grab](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/grab.html)
+## [Grab](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/tools/grab.html)
 Geometriyi istediğimiz şekilde hareket ettirmemize yarar, tut-çek şeklinde çalışan bir brush'tır. Brush'ın kısayolu "G" dir ([Kısayollar](#kısayollar-1) bölümünden "Brush Kısayolları" na bakın).
 
 
@@ -607,7 +607,7 @@ Bu ayarın nasıl çalıştığını bilmiyorum.
 
 
 
-## [Elastic Deform](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/elastic_deform.html)
+## [Elastic Deform](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/tools/elastic_deform.html)
 Sanki elastik objelere uyguluyormuşsunuz gibi gerçekçi efektler vermeye yarar. Bu brush ile grab, scale, twist efektleri uygulayabilirsiniz.
 
 
@@ -648,7 +648,7 @@ Volume yani şeklin hacminin yani orijinal şeklin korunma derecesini belirtir. 
 
 
 
-## [Snake Hook](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/snake_hook.html)
+## [Snake Hook](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/tools/snake_hook.html)
 [Grab](#grab) brush'ı gibidir ama [Grab](#grab) brush'ı daha çok sündürme efekti uygularken bu brush yeniden oluşturma efekti uygular. [Dynamic Topology (Dyntopo)](#dynamic-topology-dyntopo) ile beraber kullanıldığında etkili bir brush'tır. Brush'ın kısayolu "K" dir ([Kısayollar](#kısayollar-1) bölümünden "Brush Kısayolları" na bakın).
 
 
@@ -684,7 +684,7 @@ Snake Hook brush'ı kullanılırken hareket ettirilen geometrinin hareketin (mou
 
 
 
-## [Thumb](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/thumb.html)
+## [Thumb](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/tools/thumb.html)
 [Grab](#grab) brush'ına benzer ama çok daha hafif bir şekilde yüzeyde çekiştirme efekti uygulamak için kullanılır. Sanki gerçekten parmağınızla sert bir cisime baskı uygulayıp yüzeyini biraz çekiştirmişsiniz gibi.
 
 
@@ -708,10 +708,10 @@ Bu ayar fırçayı kullanırken otomatik smooth işlemi uygulamaya yarar. Yani s
 
 
 
-## [Pose](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/pose.html)
+## [Pose](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/tools/pose.html)
 a
 
-## [Nudge](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/nudge.html)
+## [Nudge](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/tools/nudge.html)
 [Grab](#grab) brush'ına benzer ama bu brush'ın amacı şekli değiştirmek değil geometriyi değiştirmektir. Bu brush geometriyi hareket ettirmeye yarar, Viewport Shading'inizi Wireframe olarak ayarlayıp bu brush'ı kullanırsanız geometriyi yüzey üzerinde hareket ettirdiğini görebilirsiniz. Yani bu brush mesh'in şeklini değiştirmek değil üzerindeki geometrinin yerlerini değiştirmektir.
 
 
@@ -735,7 +735,7 @@ Bu ayar fırçayı kullanırken otomatik smooth işlemi uygulamaya yarar. Yani s
 
 
 
-## [Rotate](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/rotate.html)
+## [Rotate](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/tools/rotate.html)
 Bu brush tıkladığınız noktanın çevresindeki geometriyi nokta etrafında döndürür (girdap gibi).
 
 
@@ -759,7 +759,7 @@ Bu ayar fırçayı kullanırken otomatik smooth işlemi uygulamaya yarar. Yani s
 
 
 
-## [Slide Relax](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/slide_relax.html)
+## [Slide Relax](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/tools/slide_relax.html)
 Geometri üzerinde çeşitli işlemler yapmaya yarar. Ayrıca bu brush seçili iken "Shift" kısayolu ile [Smooth](#smooth) brush'ı kullanamazsınız. Bu brush'ın kendisine özel "Relax" adında bir modu vardır ve "Shift" kısayolu bu modu açar. Relax modu geometrinin yani vertex'lerin aralarındaki boşluğu eşit miktara getirmeye yarar, yani eşit aralıklarla dağıtır.
 
 
@@ -792,16 +792,16 @@ Expand | [Pinch](#pinch) brush'ının tam tersidir yani geometriyi mouse'tan dı
 
 
 
-## [Boundary](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/boundary.html)
+## [Boundary](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/tools/boundary.html)
 a
 
-## [Cloth](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/cloth.html)
+## [Cloth](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/tools/cloth.html)
 a
 
-## [Simplify](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/simplify.html)
+## [Simplify](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/tools/simplify.html)
 a
 
-## [Mask](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/mask.html)
+## [Mask](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/tools/mask.html)
 Bu brush maske oluşturmak için kullanılır. Ayrıca bu brush seçili iken "Shift" kısayolu ile [Smooth](#smooth) brush'ı kullanamazsınız. Bu brush'ın kendisine özel "Smooth" adında bir modu vardır ve "Shift" kısayolu bu modu açar. Smooth modu maskenin kenarlarını yumuşatmaya yarar, maskenin keskin kenarlarındaki değerlerin geçişini yumuşatır. Brush'ın kısayolu "M" dir ([Kısayollar](#kısayollar-1) bölümünden "Brush Kısayolları" na bakın).
 
 
@@ -828,7 +828,7 @@ Bu ayar fırçanın falloff'unun yumuşaklık derecesini belirler. Daha doğrusu
 
 
 
-## [Draw Face Sets](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/draw_facesets.html)
+## [Draw Face Sets](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/tools/draw_facesets.html)
 Bu brush face set oluşturmak için kullanılır. Her stroke (yani her bir fırça darbesi, bir kere sol mouse tuşuna tıkayıp basılı tutarak çizim yapmanız) için yeni bir face set oluşturur. Eğer "Ctrl" kısayoluna basılı tutarak tıklarsanız mouse'unuzun olduğu konumdaki face set'i çizmeye devam eder. Ayrıca bu brush seçili iken "Shift" kısayolu ile [Smooth](#smooth) brush'ı kullanamazsınız. Bu brush'ın kendisine özel "Smooth" modu vardır ve "Shift" kısayolu bu modu açar. Smooth modu face set'in kenarlarını yumuşatmaya/düzlemeye yarar, face set'in düz olmayan kenarlarındaki geometriyi düz olacak şekilde hizaya getirir.
 
 
@@ -852,19 +852,19 @@ Bu ayar fırçayı kullanırken otomatik smooth işlemi uygulamaya yarar. Yani s
 
 
 
-## [Multires Displacement Eraser](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/multires_displacement_eraser.html)
+## [Multires Displacement Eraser](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/tools/multires_displacement_eraser.html)
 a
 
-## [Multires Displacement Smear](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/multires_displacement_smear.html)
+## [Multires Displacement Smear](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/tools/multires_displacement_smear.html)
 a
 
-## [Paint](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/paint.html)
+## [Paint](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/tools/paint.html)
 a
 
-## [Smear](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/smear.html)
+## [Smear](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/tools/smear.html)
 a
 
-## [Box Mask](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/box_mask.html)
+## [Box Mask](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/tools/box_mask.html)
 Bu brush maske oluşturmak için kullanılır, maske oluşturmak için çizdiğiniz dörtgen kullanılır. Ayrıca bu brush seçili iken "Shift" kısayolu ile [Smooth](#smooth) brush'ı kullanamazsınız. "Ctrl" kısayoluna basarak brush'ı kullanırsanız da maske silme modunu açmış olursunuz, seçilen bölge içerisindeki maskeler silinir. Brush'ın tek kullanımlık kısayolu "B" dir ([Kısayollar](#kısayollar-1) bölümünden "Brush Kısayolları" na bakın).
 
 
@@ -873,7 +873,7 @@ Bu ayar kapalıyken kameraya görünmeyen, arkada kalan kısımlar da maskelenir
 
 
 
-## [Lasso Mask](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/lasso_mask.html)
+## [Lasso Mask](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/tools/lasso_mask.html)
 [Box Mask](#box-mask) brush'ının alternatif versiyonudur. Bu brush maske oluşturmak için kullanılır, maske oluşturmak için çizdiğiniz şekil kullanılır. Ayrıca bu brush seçili iken "Shift" kısayolu ile [Smooth](#smooth) brush'ı kullanamazsınız. "Ctrl" kısayoluna basarak brush'ı kullanırsanız da maske silme modunu açmış olursunuz, seçilen bölge içerisindeki maskeler silinir. Brush'ın tek kullanımlık kısayolu "Ctrl + Shift + Sağ Tık" dır.
 
 
@@ -882,7 +882,7 @@ Bu ayar kapalıyken kameraya görünmeyen, arkada kalan kısımlar da maskelenir
 
 
 
-## [Line Mask](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/line_mask.html)
+## [Line Mask](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/tools/line_mask.html)
 [Box Mask](#box-mask) brush'ının alternatif versiyonudur. Bu brush maske oluşturmak için kullanılır, maske oluşturmak için çizdiğiniz doğru kullanılır. Doğrunun gölgeli kısmında kalan kısımlar maskelenir. "Ctrl" kısayoluna basarak brush'ı kullanırsanız da maske silme modunu açmış olursunuz, seçilen bölge içerisindeki maskeler silinir. Brush'ı kullanırken "F" kısayoluna basarak gölgeli kısmın yönünü değiştirebilirsiniz. Brush'ı kullanırken "Ctrl" kısayoluna basılı tutarsanız doğrunun rotasyonunu 15 derecelik açılara sabitlemiş olursunuz, yani doğru 15 derecelik farklar ile hareket eder. Brush'ı kullanırken "Boşluk" kısayoluna basılı tutarsanız doğrunun başlangıç ve bitiş noktasını (yani doğruyu) aynı anda hareket ettirebilirsiniz. Ayrıca bu brush seçili iken "Shift" kısayolu ile [Smooth](#smooth) brush'ı kullanamazsınız.
 
 
@@ -899,7 +899,7 @@ Bu brush geometriyi görünmez yapmak için kullanılır. Edit moddaki Hide/Unhi
 
 
 
-## [Box Face Set](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/box_face_set.html)
+## [Box Face Set](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/tools/box_face_set.html)
 Bu brush face set oluşturmak için kullanılır, face set oluşturmak için çizdiğiniz dörtgen kullanılır. Ayrıca bu brush seçili iken "Shift" kısayolu ile [Smooth](#smooth) brush'ı kullanamazsınız.
 
 
@@ -908,7 +908,7 @@ Bu ayar kapalıyken kameraya görünmeyen, arkada kalan kısımlar da face set'e
 
 
 
-## [Lasso Face Set](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/lasso_face_set.html)
+## [Lasso Face Set](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/tools/lasso_face_set.html)
 [Box Face Set](#box-face-set) brush'ının alternatif versiyonudur. Bu brush face set oluşturmak için kullanılır, face set oluşturmak için çizdiğiniz şekil kullanılır. Ayrıca bu brush seçili iken "Shift" kısayolu ile [Smooth](#smooth) brush'ı kullanamazsınız.
 
 
@@ -917,7 +917,7 @@ Bu ayar kapalıyken kameraya görünmeyen, arkada kalan kısımlar da face set'e
 
 
 
-## [Box Trim](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/box_trim.html)
+## [Box Trim](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/tools/box_trim.html)
 Geometri oluşturmak veya silmek için kullanılır. [Bool modifier'ı](../Properties/Modifiers#boolean) gibidir. Bu brush'ı kullanarak base mesh yani mesh'inizin ana hatlarını oluşturabilirsiniz. Her oluşturduğunuz geometri yeni face set'e atanır. Geometri sildiğinizde ise silinen kısmın iç tarafı yeni face set'e atanır.
 
 
@@ -945,10 +945,10 @@ https://github.com/helallao/qweqwe/assets/78656003/afd13883-d51c-4bba-a9ae-c6336
 
 
 
-## [Lasso Trim](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/lasso_trim.html)
+## [Lasso Trim](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/tools/lasso_trim.html)
 a
 
-## [Line Project](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/line_project.html)
+## [Line Project](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/tools/line_project.html)
 Bu brush geometriyi sıkıştırmak için kullanılır, sıkıştırma için çizdiğiniz doğru kullanılır. Doğrunun gölgeli kısmında kalan kısımlar doğrunun olduğu hizaya getirilir yani dümdüz olur. Brush'ı kullanırken "F" kısayoluna basarak gölgeli kısmın yönünü değiştirebilirsiniz. Brush'ı kullanırken "Ctrl" kısayoluna basılı tutarsanız doğrunun rotasyonunu 15 derecelik açılara sabitlemiş olursunuz, yani doğru 15 derecelik farklar ile hareket eder. Brush'ı kullanırken "Boşluk" kısayoluna basılı tutarsanız doğrunun başlangıç ve bitiş noktasını (yani doğruyu) aynı anda hareket ettirebilirsiniz. Ayrıca bu brush seçili iken "Shift" kısayolu ile [Smooth](#smooth) brush'ı kullanamazsınız.
 
 
@@ -957,19 +957,19 @@ Bu ayar kapalı iken doğru sonsuza kadar gidiyormuş gibi varsayılarak sıkı�
 
 
 
-## [Mesh Filter](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/mesh_filter.html)
+## [Mesh Filter](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/tools/mesh_filter.html)
 a
 
-## [Cloth Filter](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/cloth_filter.html)
+## [Cloth Filter](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/tools/cloth_filter.html)
 a
 
-## [Color Filter](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/color_filter.html)
+## [Color Filter](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/tools/color_filter.html)
 a
 
-## [Edit Face Set](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/edit_face_set.html)
+## [Edit Face Set](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/tools/edit_face_set.html)
 a
 
-## [Mask by Color](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/mask_by_color.html)
+## [Mask by Color](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/tools/mask_by_color.html)
 a
 
 
@@ -980,19 +980,19 @@ a
 # Brush Ayarları
 Bu kategoride ek fırça ayarlarının (her fırçanın kendine özel ayarlarının haricindeki) açıklamaları vardır.
 
-## [Advanced](https://docs.blender.org/manual/en/4.0/sculpt_paint/brush/brush_settings.html#advanced)
+## [Advanced](https://docs.blender.org/manual/en/latest/sculpt_paint/brush/brush_settings.html#advanced)
 a
 
-## [Texture](https://docs.blender.org/manual/en/4.0/sculpt_paint/brush/texture.html)
+## [Texture](https://docs.blender.org/manual/en/latest/sculpt_paint/brush/texture.html)
 a
 
-## [Stroke](https://docs.blender.org/manual/en/4.0/sculpt_paint/brush/stroke.html)
+## [Stroke](https://docs.blender.org/manual/en/latest/sculpt_paint/brush/stroke.html)
 a
 
-## [Falloff](https://docs.blender.org/manual/en/4.0/sculpt_paint/brush/falloff.html)
+## [Falloff](https://docs.blender.org/manual/en/latest/sculpt_paint/brush/falloff.html)
 a
 
-## [Cursor](https://docs.blender.org/manual/en/4.0/sculpt_paint/brush/cursor.html)
+## [Cursor](https://docs.blender.org/manual/en/latest/sculpt_paint/brush/cursor.html)
 a
 
 
@@ -1002,11 +1002,11 @@ a
 
 # Workflowlar
 
-## [Dynamic Topology (Dyntopo)](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tool_settings/dyntopo.html)
+## [Dynamic Topology (Dyntopo)](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/tool_settings/dyntopo.html)
 
-## [Voxel Remesh](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tool_settings/remesh.html)
+## [Voxel Remesh](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/tool_settings/remesh.html)
 
-## [Multiresolution](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/introduction/adaptive.html#multiresolution)
+## [Multiresolution](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/introduction/adaptive.html#multiresolution)
 
 
 <br>

@@ -930,6 +930,17 @@ Difference | Çizdiğiniz dörtgen ile kesişen geometriyi silmeye yarar.
 Union | Çizdiğiniz dörtgen şeklinde yeni şekil oluşturulur, eğer varolan geometri ile kesişiyorsa hesaplamalar yapılıp birleştirilir.
 Join | "Union" modu ile aynıdır ama "Union" modu yeni şekil önceki şekil ile kesiştiğinde hesaplamalar yapıp kesişen kısımları geometrik olarak birleştirirken, bu mod birleştirme işlemi uygulamaz, şekillerin geometrileri birbirlerinden bağımsızdır. Eğer Viewport Shading ayarınızı Wireframe moduna alırsanız iç içe giren geometrilerin birbirlerinden bağımsız şekilde durduklarını yani sadece iç içe girdiklerini, aslında geometrilerinin hiç değişmediğini görebilirsiniz.
 
+* #### Shape Orientation
+"View" modunda çiziminiz kameranın bakış açısına göre hesaplanır, yani kısacası çizdiğiniz şekil ekranınızda nerede görünüyorsa orada işlem yapılır. "Surface" modunda ise çizdiğiniz şekil başka bir mesh'in yüzeyi üzerindeyse o yüzeyin baktığı yön kullanılarak işlem yapılır. Aşagıdaki videodan ayarın nasıl çalıştığını görebilirsiniz.
+
+https://github.com/helallao/qweqwe/assets/78656003/8c843409-5026-4a69-a677-cee965dc3452
+
+* #### Extrude Mode
+a
+
+* #### Use Cursor for Depth
+a
+
 
 
 ## [Lasso Trim](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/lasso_trim.html)

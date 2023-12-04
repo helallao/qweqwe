@@ -924,7 +924,13 @@ a
 a
 
 ## [Line Project](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/line_project.html)
-a
+Bu brush geometriyi sıkıştırmak için kullanılır, sıkıştırma için çizdiğiniz doğru kullanılır. Doğrunun gölgeli kısmında kalan kısımlar doğrunun olduğu hizaya getirilir yani dümdüz olur. Brush'ı kullanırken "F" kısayoluna basarak gölgeli kısmın yönünü değiştirebilirsiniz. Ayrıca bu brush seçili iken "Shift" kısayolu ile [Smooth](#smooth) brush'ı kullanamazsınız. Eğer brush'ı kullanırken "Ctrl" kısayoluna basılı tutarsanız doğrunun rotasyonunu 15 derecelik açılara sabitlemiş olursunuz, yani doğru 15 derecelik farklar ile hareket eder. Eğer brush'ı kullanırken "Ctrl + Boşluk" kısayoluna basılı tutarsanız doğrunun başlangıç ve bitiş noktasını (yani doğruyu) aynı anda hareket ettirebilirsiniz.
+
+
+* #### Limit to Segment
+Bu ayar kapalı iken doğru sonsuza kadar gidiyormuş gibi varsayılarak sıkıştırma uygulanır. Bu ayar açık iken sadece doğrunun başından sonuna kadar olan kısımlara sıkıştırma uygulanır.
+
+
 
 ## [Mesh Filter](https://docs.blender.org/manual/en/4.0/sculpt_paint/sculpting/tools/mesh_filter.html)
 a

@@ -939,7 +939,9 @@ https://github.com/helallao/qweqwe/assets/78656003/8c843409-5026-4a69-a677-cee96
 a
 
 * #### Use Cursor for Depth
-a
+Bu ayarı açarsanız brush'ınızın radius'unu yani yarıçapını ve orta noktaya olan uzaklığını kullanarak hesaplamaları yapar. Brush'ınızın yarıçapı büyükçe veya orta noktaya olan uzaklığı arttıkça derinlik değeri de artar. Aşagıdaki videodan ayarın nasıl çalıştığını görebilirsiniz.
+
+https://github.com/helallao/qweqwe/assets/78656003/afd13883-d51c-4bba-a9ae-c6336757c0e8
 
 
 

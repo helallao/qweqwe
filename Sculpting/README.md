@@ -927,8 +927,8 @@ Bu ayar kullanılacak modu belirtir.
 Mod | Açıklama
 :---: | :---:
 Difference | Çizdiğiniz dörtgen ile kesişen geometriyi silmeye yarar.
-Union | Çizdiğiniz dörtgen şeklinde yeni şekil oluşturulur, eğer varolan geometri ile kesişiyorsa hesaplamalar yapılıp birleştirilir.
-Join | "Union" modu ile aynıdır ama "Union" modu yeni şekil önceki şekil ile kesiştiğinde hesaplamalar yapıp kesişen kısımları geometrik olarak birleştirirken, bu mod birleştirme işlemi uygulamaz, şekillerin geometrileri birbirlerinden bağımsızdır. Eğer Viewport Shading ayarınızı Wireframe moduna alırsanız iç içe giren geometrilerin birbirlerinden bağımsız şekilde durduklarını yani sadece iç içe girdiklerini, aslında geometrilerinin hiç değişmediğini görebilirsiniz.
+Union | Çizdiğiniz dörtgen şeklinde yeni mesh oluşturulur, eğer varolan geometri ile kesişiyorsa hesaplamalar yapılıp birleştirilir.
+Join | "Union" modu ile aynıdır ama "Union" modu yeni mesh önceki mesh ile kesiştiğinde hesaplamalar yapıp kesişen kısımları geometrik olarak birleştirirken, bu mod birleştirme işlemi uygulamaz, mesh'lerin geometrileri birbirlerinden bağımsızdır. Eğer Viewport Shading ayarınızı Wireframe moduna alırsanız iç içe giren geometrilerin birbirlerinden bağımsız şekilde durduklarını yani sadece iç içe girdiklerini, aslında geometrilerinin hiç değişmediğini görebilirsiniz.
 
 * #### Shape Orientation
 "View" modunda çiziminiz kameranın bakış açısına göre hesaplanır, yani kısacası çizdiğiniz şekil ekranınızda nerede görünüyorsa orada işlem yapılır. "Surface" modunda ise çizdiğiniz şekil başka bir mesh'in yüzeyi üzerindeyse o yüzeyin baktığı yön kullanılarak işlem yapılır. Aşagıdaki videodan ayarın nasıl çalıştığını görebilirsiniz.
@@ -946,7 +946,32 @@ https://github.com/helallao/qweqwe/assets/78656003/afd13883-d51c-4bba-a9ae-c6336
 
 
 ## [Lasso Trim](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/tools/lasso_trim.html)
-a
+[Box Trim](#box-trim) brush'ının alternatif versiyonudur. Geometri oluşturmak veya silmek için kullanılır. [Bool modifier'ı](../Properties/Modifiers#boolean) gibidir. Bu brush'ı kullanarak base mesh yani mesh'inizin ana hatlarını oluşturabilirsiniz. Her oluşturduğunuz geometri yeni face set'e atanır. Geometri sildiğinizde ise silinen kısmın iç tarafı yeni face set'e atanır.
+
+
+* #### Trim Mode
+Bu ayar kullanılacak modu belirtir.
+
+Mod | Açıklama
+:---: | :---:
+Difference | Çizdiğiniz şekil ile kesişen geometriyi silmeye yarar.
+Union | Çizdiğiniz şekilde yeni mesh oluşturulur, eğer varolan geometri ile kesişiyorsa hesaplamalar yapılıp birleştirilir.
+Join | "Union" modu ile aynıdır ama "Union" modu yeni mesh önceki mesh ile kesiştiğinde hesaplamalar yapıp kesişen kısımları geometrik olarak birleştirirken, bu mod birleştirme işlemi uygulamaz, mesh'lerin geometrileri birbirlerinden bağımsızdır. Eğer Viewport Shading ayarınızı Wireframe moduna alırsanız iç içe giren geometrilerin birbirlerinden bağımsız şekilde durduklarını yani sadece iç içe girdiklerini, aslında geometrilerinin hiç değişmediğini görebilirsiniz.
+
+* #### Shape Orientation
+"View" modunda çiziminiz kameranın bakış açısına göre hesaplanır, yani kısacası çizdiğiniz şekil ekranınızda nerede görünüyorsa orada işlem yapılır. "Surface" modunda ise çizdiğiniz şekil başka bir mesh'in yüzeyi üzerindeyse o yüzeyin baktığı yön kullanılarak işlem yapılır. Aşagıdaki videodan ayarın nasıl çalıştığını görebilirsiniz ([Box Trim](#box-trim) kullanılmış ama aralarında fark yok).
+
+https://github.com/helallao/qweqwe/assets/78656003/8c843409-5026-4a69-a677-cee965dc3452
+
+* #### Extrude Mode
+Oluşturulan şeklin bakacağı yönün nasıl hesaplanacağını belirler. "Project" modunda şekil kameraya doğru bakar, "Fixed" modunda ise kameraya değil de kameranın bakış açısına bakar (bunu [orthographic](https://docs.blender.org/manual/en/latest/editors/3dview/navigate/projections.html) modu gibi düşünebilirsiniz). İki modun arasındaki farkı daha iyi anlamak için [Camera Data](../Shader%20Nodes#camera-data) shader node'una yazdığım açıklamaya bakın. "Project" modu "View Distance" ile, "Fixed" modu "View Z Depth" ile aynı şekilde çalışır.
+
+* #### Use Cursor for Depth
+Bu ayarı açarsanız brush'ınızın radius'unu yani yarıçapını ve orta noktaya olan uzaklığını kullanarak hesaplamaları yapar. Brush'ınızın yarıçapı büyükçe veya orta noktaya olan uzaklığı arttıkça derinlik değeri de artar. Aşagıdaki videodan ayarın nasıl çalıştığını görebilirsiniz ([Box Trim](#box-trim) kullanılmış ama aralarında fark yok).
+
+https://github.com/helallao/qweqwe/assets/78656003/afd13883-d51c-4bba-a9ae-c6336757c0e8
+
+
 
 ## [Line Project](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/tools/line_project.html)
 Bu brush geometriyi sıkıştırmak için kullanılır, sıkıştırma için çizdiğiniz doğru kullanılır. Doğrunun gölgeli kısmında kalan kısımlar doğrunun olduğu hizaya getirilir yani dümdüz olur. Brush'ı kullanırken "F" kısayoluna basarak gölgeli kısmın yönünü değiştirebilirsiniz. Brush'ı kullanırken "Ctrl" kısayoluna basılı tutarsanız doğrunun rotasyonunu 15 derecelik açılara sabitlemiş olursunuz, yani doğru 15 derecelik farklar ile hareket eder. Brush'ı kullanırken "Boşluk" kısayoluna basılı tutarsanız doğrunun başlangıç ve bitiş noktasını (yani doğruyu) aynı anda hareket ettirebilirsiniz. Ayrıca bu brush seçili iken "Shift" kısayolu ile [Smooth](#smooth) brush'ı kullanamazsınız.

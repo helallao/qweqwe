@@ -1035,7 +1035,13 @@ Bu ayar detay derecesini belirler. "Detailing" ayarı "Relative Detail" modunday
 "Detailing" ayarı "Brush Detail" modundayken detay derecesini belirlemek için yüzdelik bir değer kullanılır. Bu değer azaldıkça detay derecesi artar. Ayrıca "Brush Detail" modu brush'ınızın büyüklüğüne göre detay derecesini değiştirdiği için, brush'ınızın büyüklüğünü/yarıçapını değiştirerek detay derecesini arttırıp/azaltabilirsiniz. Eğer brush'ınızın büyüklüğü artarsa detay derecesi düşer, brush'ınızın büyüklüğü azalırsa detay derecesi artar.
 
 * #### Refine Method
-Bu ayar
+Bu ayar yapılacak işlemi belirler.
+
+Mod | Açıklama
+:---: | :---:
+Subdivide Edges | Bu mod sadece subdivide (bölme) yani detay arttırma işlemi yapar. Eğer çizim yaptığınız yerdeki geometri belirlediğiniz detay derecesinden düşükse subdivide uygulanır ve geometri arttırılır. Eğer çizim yaptığınız yerdeki geometri belirlediğiniz detay derecesinden yüksekse yani zaten fazlasıyla geometriye sahipse bir şey yapılmaz.
+Collapse Edges | Bu mod sadece collapse (birleştirme) yani detay azaltma işlemi yapar. Eğer çizim yaptığınız yerdeki geometri belirlediğiniz detay derecesinden yüksekse collapse uygulanır ve geometri azaltılır. Eğer çizim yaptığınız yerdeki geometri belirlediğiniz detay derecesinden düşükse yani zaten az geometriye sahipse bir şey yapılmaz.
+Subdivide Collapse | Default moddur. "Subdivide Edges" ve "Collapse Edges" modlarının birleşimidir. Çizim yaptığınız yerdeki geometri belirlediğiniz detay derecesinden yüksekse düşürülür, düşükse yükseltilir. Yani şu anki detay derecesi ne ise o kullanılır.
 
 * #### Detailing
 Bu ayar detay derecesinin nasıl ayarlanacağını belirler.

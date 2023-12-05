@@ -1,14 +1,11 @@
 Aşağıdaki döküman sözlük mantığında yapılmıştır, herhangi bir konuda genel olarak konu anlatımı sunmaz. Spesifik olarak aradığınız ayarların açıklamaları, kısayollar, özellikler ve konu anlatımlarına ulaşabileceğiniz kaynakların olduğu bir sözlüktür. Aşağıdaki bölümden benim işime yarayan kapsamlı kaynaklar var ama sadece bunları kullanarak öğrenemezsiniz. Sculping konusunda kendinizi geliştirmek için internetten bulabildiğiniz bütün yazılara ve videolara bakmalısınız ve öğrendiklerinizi kendiniz de uygulamalısınız.
 
-<details>
-<summary>Kullanılan Güzel Kaynaklar</summary>
-<br>
+## Kullanılan Güzel Kaynaklar
 
 * [CGCookie - Fundamentals of Digital Sculpting](https://cgcookie.com/courses/fundamentals-of-digital-sculpting-with-blender) - Udemy'deki en güzel sculpting kurslarından birisi. [Buradan](https://btdig.com/search?order=0&q=CGCookie+-+Fundamentals+of+Digital+Sculpting) torrent'ini bulabilirsiniz (vpn gerekebilir).
 * [CGBoost - Master 3D Sculpting in Blender](https://www.cgboost.com/courses/master-3d-sculpting-in-blender) - En güzel sculpting kurslarından birisi. [Buradan](https://btdig.com/search?q=CGBoost+-+Master+3D+Sculpting+in+Blender) torrent'ini bulabilirsiniz (vpn gerekebilir).
 * [Sculpting the Blender Way](https://www.packtpub.com/product/sculpting-the-blender-way/9781801073875) - Sculpting hakkında kapsamlı kaynaklardan birisi. [Buradan](https://annas-archive.org/md5/959e918ffd6c9275fa2b59694168a6a9) pdf'ini indirebilirsiniz.
 
-</details>
 
 <br>
 
@@ -1028,8 +1025,14 @@ a
 # Workflowlar
 
 ## [Dynamic Topology (Dyntopo)](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/tool_settings/dyntopo.html)
-Dynamic Topology yani kısa ismiyle "Dyntopo", çizim esnasında yeni geometriyi dinamik (otomatik) olarak oluşturan bir workflow'dur. Sculpting işlemine yeni başladıysak ana hatları oluşturmak için bu workflow'u kullanabiliriz, lakin ileri seviye sculpting işlemleri için kullanamayız. Yani sadece başlangıç seviyesinde ana hatları (major forms) oluşturmada kullanılır. Color Attribute, UV Map gibi Custom Attribute'lar bu workflow kullanıldığında silinir veya bozulur, aynı şey face set'ler için de geçerlidir. Ayrıca bu workflow en yavaş çalışan yani en kötü performansa sahip olan workflow'dur. Dynamic Topology sadece çizim yapılan yerlerde geometriyi değiştirdiği için oluşturduğumuz mesh'in bazı yerleri çok geometriye (vertex) sahipken bazı yerleri az geometriye sahip olur, yani eşit bir dağılım olmaz, bu da sculpting için büyük bir sorundur. Bu gibi sebeplerden dolayı Dynamic Topology sadece başlangıçta ana hatları oluşturmak için kullanılır.
+Dynamic Topology yani kısa ismiyle "Dyntopo", çizim esnasında yeni geometriyi dinamik (otomatik) olarak oluşturan bir workflow'dur. Sculpting işlemine yeni başladıysak ana hatları oluşturmak için bu workflow'u kullanabiliriz, lakin ileri seviye sculpting işlemleri için kullanamayız. Yani sadece başlangıç seviyesinde ana hatları (major forms) oluşturmada kullanılır. Color Attribute, UV Map gibi Custom Attribute'lar bu workflow kullanıldığında silinir veya bozulur, aynı şey face set'ler için de geçerlidir, yani bu workflow mesh'leri düzenlemek için değil sıfırdan oluşturmak için kullanılır. Ayrıca bu workflow en yavaş çalışan yani en kötü performansa sahip olan workflow'dur. Dynamic Topology sadece çizim yapılan yerlerde geometriyi değiştirdiği için oluşturduğumuz mesh'in bazı yerleri çok geometriye (vertex) sahipken bazı yerleri az geometriye sahip olur, yani eşit bir dağılım olmaz, bu da sculpting için büyük bir sorundur. Bu gibi sebeplerden dolayı Dynamic Topology sadece başlangıçta ana hatları oluşturmak için kullanılır. Dynamic Topology ayarlarına üst toolbar'ın sağ köşesinden veya Properties panelinin "Tool" bölümünden ulaşabilirsiniz. Bu ayarların açıklamaları aşağıda,
 
+* #### Detail Size/Detail Percentage/Resolution
+Bu ayar detay derecesini belirler. "Detailing" ayarı "Relative Detail" modundayken detay derecesini belirlemek için piksel sayısı kullanılır. Daha küçük piksel sayısı daha fazla detay demektir. Ayrıca "Relative Detail" modu kameranızın mesh'e daha doğrusu çizim yaptığınız yüzeye olan uzaklığına göre değiştiği için, kameranızın çizim yaptığınız yüzeye olan uzaklığı detay derecesini arttırıp/azaltabilir. Eğer kameranız uzaklaşırsa detay azalır çünkü uzaklaşınca çizim yapılan yüzey ekranınızda daha az piksel büyüklüğünde olur, yakınlaşınca da tam tersine detay artar.
+
+"Detailing" ayarı "Constant Detail" veya "Manual Detail" modundayken detay derecesini belirlemek için uzunluk değeri kullanılır. Uzunluk değeri sahnenizdeki 1 grid uzunluğunun verdiğiniz sayıya bölünmesi ile hesaplanır. Yani mesela değeri 2 olarak ayarlarsanız detay derecesi yarım grid uzunluğunda olur. Değer arttıkça bölünme sayısı da artacağı için detay derecesi artar. Ayrıca "Detailing" ayarı "Constant Detail" veya "Manual Detail" modundayken bu ayarın yanında küçük bir pipet butonu çıkar. Bu butona tıkladıktan sonra çizim yaptığınız yüzey üzerinde herhangi bir yeri seçerek o konum ve çevresindeki geometrinin hesaplanması ile detay derecesi değerini kopyalayabilirsiniz.
+
+"Detailing" ayarı "Brush Detail" modundayken detay derecesini belirlemek için
 
 
 ## [Voxel Remesh](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/tool_settings/remesh.html)

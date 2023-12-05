@@ -1028,6 +1028,9 @@ a
 # Workflowlar
 
 ## [Dynamic Topology (Dyntopo)](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/tool_settings/dyntopo.html)
+Dynamic Topology yani kısa ismiyle "Dyntopo", çizim esnasında yeni geometriyi dinamik (otomatik) olarak oluşturan bir workflow'dur. Sculpting işlemine yeni başladıysak ana hatları oluşturmak için bu workflow'u kullanabiliriz, lakin ileri seviye sculpting işlemleri için kullanamayız. Yani sadece başlangıç seviyesinde ana hatları (major forms) oluşturmada kullanılır. Color Attribute, UV Map gibi Custom Attribute'lar bu workflow kullanıldığında silinir veya bozulur, aynı şey face set'ler için de geçerlidir. Ayrıca bu workflow en yavaş çalışan yani en kötü performansa sahip olan workflow'dur. Dynamic Topology sadece çizim yapılan yerlerde geometriyi değiştirdiği için oluşturduğumuz mesh'in bazı yerleri çok geometriye (vertex) sahipken bazı yerleri az geometriye sahip olur, yani eşit bir dağılım olmaz, bu da sculpting için büyük bir sorundur. Bu gibi sebeplerden dolayı Dynamic Topology sadece başlangıçta ana hatları oluşturmak için kullanılır.
+
+
 
 ## [Voxel Remesh](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/tool_settings/remesh.html)
 

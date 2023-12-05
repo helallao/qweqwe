@@ -1032,7 +1032,8 @@ Bu ayar detay derecesini belirler. "Detailing" ayarı "Relative Detail" modunday
 
 "Detailing" ayarı "Constant Detail" veya "Manual Detail" modundayken detay derecesini belirlemek için uzunluk değeri kullanılır. Uzunluk değeri sahnenizdeki 1 grid uzunluğunun verdiğiniz sayıya bölünmesi ile hesaplanır. Yani mesela değeri 2 olarak ayarlarsanız detay derecesi yarım grid uzunluğunda olur. Değer arttıkça bölünme sayısı da artacağı için detay derecesi artar. Ayrıca "Detailing" ayarı "Constant Detail" veya "Manual Detail" modundayken bu ayarın yanında küçük bir pipet butonu çıkar. Bu butona tıkladıktan sonra çizim yaptığınız yüzey üzerinde herhangi bir yeri seçerek o konum ve çevresindeki geometrinin hesaplanması ile detay derecesi değerini kopyalayabilirsiniz.
 
-"Detailing" ayarı "Brush Detail" modundayken detay derecesini belirlemek için
+"Detailing" ayarı "Brush Detail" modundayken detay derecesini belirlemek için yüzdelik bir değer kullanılır. Bu değer azaldıkça detay derecesi artar. Ayrıca "Brush Detail" modu brush'ınızın büyüklüğüne göre detay derecesini değiştirdiği için, brush'ınızın büyüklüğünü/yarıçapını değiştirerek detay derecesini arttırıp/azaltabilirsiniz. Eğer brush'ınızın büyüklüğü artarsa detay derecesi düşer, brush'ınızın büyüklüğü azalırsa detay derecesi artar.
+
 
 
 ## [Voxel Remesh](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/tool_settings/remesh.html)

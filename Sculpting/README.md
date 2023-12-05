@@ -1034,6 +1034,22 @@ Bu ayar detay derecesini belirler. "Detailing" ayarı "Relative Detail" modunday
 
 "Detailing" ayarı "Brush Detail" modundayken detay derecesini belirlemek için yüzdelik bir değer kullanılır. Bu değer azaldıkça detay derecesi artar. Ayrıca "Brush Detail" modu brush'ınızın büyüklüğüne göre detay derecesini değiştirdiği için, brush'ınızın büyüklüğünü/yarıçapını değiştirerek detay derecesini arttırıp/azaltabilirsiniz. Eğer brush'ınızın büyüklüğü artarsa detay derecesi düşer, brush'ınızın büyüklüğü azalırsa detay derecesi artar.
 
+* #### Refine Method
+Bu ayar
+
+* #### Detailing
+Bu ayar detay derecesinin nasıl ayarlanacağını belirler.
+
+Mod | Açıklama
+:---: | :---:
+Relative Detail | Bu modda kameranızın çizim yaptığınız yüzeye olan uzaklığına göre detay derecesi değişir.
+Constant Detail | Bu modda belirlediğiniz uzunluk değeri kullanılır, kameranızın yüzeye olan uzaklığı önemsenmez.
+Brush Detail | Bu modda brush'ınızın büyüklüğü/yarıçapı detay derecesini belirlemek için kullanılır.
+Manual Detail | Bu modda "Constant Detail" modu gibi belirlediğiniz uzunluk değeri kullanılır. Tek farkı bu modda dinamik olarak çizim yaptığınız yüzeyin güncellenmemesidir. Bu modda "Detail Flood Fill" butonuna manuel olarak tıklayarak işlemi gerçekleştirirsiniz.
+
+* #### Detail Flood Fill
+Bu buton sadece "Detailing" ayarı "Constant Detail" veya "Manual Detail" modundayken vardır. Tıkladığınızda bütün yüzeyin detay derecesini belilediğiniz derecede ayarlar.
+
 
 
 ## [Voxel Remesh](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/tool_settings/remesh.html)

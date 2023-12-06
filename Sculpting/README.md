@@ -1059,7 +1059,7 @@ Bu buton sadece "Detailing" ayarı "Constant Detail" veya "Manual Detail" modund
 
 
 ## [Voxel Remesh](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/tool_settings/remesh.html)
-Voxel Remesh eşit aralıkla dağıtılmış yeni geometri oluşturmaya yarayan bir workflow'dur. En çok kullanlıan workflow'dur ve çoğu durumda Dynamic Topology (Dyntopo) workflow'unun yerine tercih edilir, bunun sebebi Voxel Remesh'in Dynamic Topology'e göre çok daha hızlı ve daha az kusurlu olmasıdır. Voxel Remesh de Dynamic Topology gibi ana hatları (base mesh) oluşturmak için kullanılan bir workflow'dur. Voxel Remesh kullanırken fazla detaya inmeniz doğru olmaz çünkü Voxel Remesh'i her çalıştırdığınızda hazırladığınız detaylar bozulur, bunun önüne geçmek için tek bir mesh kullanmak yerine birden fazla mesh kullanıp her birini bağımsız olarak sculpting için kullanabilirsiniz, böylelikle Voxel Remesh'i çalıştırdığınızda diğer parçalar etkilenmemiş olur. Voxel Remesh kullanırken yüksek "Voxel Size" değeri ile başlayıp sonra bu değeri yavaş yavaş azaltmamız gerekir, yani detay derecesini yavaş yavaş arttırarak ana şeklimizi (base mesh) oluştururuz. İster Dynamic Topology kullanıyor olun ister Voxel Remesh, bu iki workflow detaylı şekiller oluşturmak için uygun değildir. Ana hatları yani base mesh'i oluşturmak için kullanılırlar, base mesh oluşturulduktan sonra ise "Multiresolution" workflow'u ile üst düzey detaylar çizilir. Voxel Remesh ayarlarına üst toolbar'ın sağ köşesinden veya Properties panelinin "Tool" bölümünden ulaşabilirsiniz.
+Voxel Remesh eşit aralıkla dağıtılmış yeni geometri oluşturmaya yarayan bir workflow'dur. En çok kullanlıan workflow'dur ve çoğu durumda Dynamic Topology (Dyntopo) workflow'unun yerine tercih edilir, bunun sebebi Voxel Remesh'in Dynamic Topology'e göre çok daha hızlı ve daha az kusurlu olmasıdır. Voxel Remesh de Dynamic Topology gibi ana hatları (base mesh) oluşturmak için kullanılan bir workflow'dur. Voxel Remesh kullanırken fazla detaya inmeniz doğru olmaz çünkü Voxel Remesh'i her çalıştırdığınızda hazırladığınız detaylar bozulur, bunun önüne geçmek için tek bir mesh kullanmak yerine birden fazla mesh kullanıp her birini bağımsız olarak sculpting için kullanabilirsiniz, böylelikle Voxel Remesh'i çalıştırdığınızda diğer parçalar etkilenmemiş olur. Voxel Remesh kullanırken yüksek "Voxel Size" değeri ile başlayıp sonra bu değeri yavaş yavaş azaltmamız gerekir, yani detay derecesini yavaş yavaş arttırarak ana şeklimizi (base mesh) oluştururuz. İster Dynamic Topology kullanıyor olun ister Voxel Remesh, bu iki workflow detaylı şekiller oluşturmak için uygun değildir. Ana hatları yani base mesh'i oluşturmak için kullanılırlar, base mesh oluşturulduktan sonra ise "Multiresolution" workflow'u ile üst düzey detaylar çizilir. Ayrıca Voxel Remesh'in Dynamic Topology'nin aksine mesh'leri birleştirebilme özelliği vardır, yani mesela mesh'inize hızlıca ikinci bir mesh daha eklemek istiyorsanız iki mesh'i birleştirip tek mesh yaptıktan sonra Voxel Remesh kullanabilirsiniz, Voxel Remesh iki mesh'in kesiştiği kısımlardaki geometriyi uygun bir şekilde birleştirir. Voxel Remesh ayarlarına üst toolbar'ın sağ köşesinden veya Properties panelinin "Tool" bölümünden ulaşabilirsiniz. Buradaki "Remesh" butonuna her defasında manuel olarak tıklamak zorunda değilsiniz, bunun için "Ctrl + R" kısayolunu kullanabilirsiniz. Ayrıca detay derecesini ayarlamak için de "R" kısayolunu kullanabilirsiniz ([Kısayollar](#kısayollar-1) bölümünden "Workflow Kısayolları" na bakın).
 
 
 
@@ -1083,6 +1083,18 @@ Kısayol | Açıklama
 F | Fırçanın yarıçapını ayarlayabilirsiniz (sol ve sağa hareket ettirerek). Ayarlarken sol üstten şu anki radius değerini görebilirsiniz. Fırça yarıçapını ayarlarken "Ctrl" kısayoluna tıklayarak radius değerini 10'un katı olan sayılarda ayarlayabilirsiniz, "Shift" kısayoluna tıklayarak da ince ayar yapabilirsiniz.
 Shift + F | Fırçanın şiddetini ayarlayabilirsiniz (sol ve sağa hareket ettirerek). Fırça şiddetini ayarlarken "Ctrl" kısayoluna tıklayarak şiddet değerini 100'ün katı olan sayılarda ayarlayabilirsiniz, "Shift" kısayoluna tıklayarak da ince ayar yapabilirsiniz.
 Ctrl + Sol tık | "Ctrl" kısayoluna basarken mouse'un sol tuşuna basıp çizim yaparsanız fırçanın yönünü değiştirmiş olursunuz, yani "Direction" ayarını terse almış olursunuz. Bazı özel fırçalarda "Ctrl" kısayoluna basılı tutarak tıklamak yön değiştirmeyi değil de fırçanın 2. özelliğini aktifleştirmede kullanılır. Yani "Ctrl" kısayoluna basılı tutarak tıklamak her fırçada yön değiştirmek için kullanılmaz, fırçanın 2. özelliğini kullanmak için de kullanılır (mesela [Mask](#mask)).
+
+</details>
+
+
+<details>
+<summary>Workflow Kısayolları</summary>
+<br>
+
+Kısayol | Açıklama
+:---: | :---:
+R | Hem Dynamic Topology (Dyntopo) hem de Voxel Remesh için detay derecesini ayarlama kısayoludur. Dynamic Topology (Dyntopo) açıkken onun detay derecesini, kapalıyken Voxel Remesh'in detay derecesini ayarlar.
+Ctrl + R | Dynamic Topology (Dyntopo) açıkken ve "Detailing" ayarı "Constant Detail" veya "Manual Detail" modundayken bu kısayol "Detail Flood Fill" butonunun kısayoludur. Dynamic Topology (Dyntopo) kapalıyken bu kısayol Voxel Remesh'in "Remesh" butonunun kısayoludur.
 
 </details>
 

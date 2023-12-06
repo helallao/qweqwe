@@ -1059,6 +1059,11 @@ Bu buton sadece "Detailing" ayarı "Constant Detail" veya "Manual Detail" modund
 
 
 ## [Voxel Remesh](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/tool_settings/remesh.html)
+Voxel Remesh eşit aralıkla dağıtılmış yeni geometri oluşturmaya yarayan bir workflow'dur. En çok kullanlıan workflow'dur ve çoğu durumda Dynamic Topology (Dyntopo) workflow'unun yerine tercih edilir, bunun sebebi Voxel Remesh'in Dynamic Topology'e göre çok daha hızlı ve daha az kusurlu olmasıdır. Voxel Remesh de Dynamic Topology gibi ana hatları (base mesh) oluşturmak için kullanılan bir workflow'dur. Voxel Remesh kullanırken fazla detaya inmeniz doğru olmaz çünkü Voxel Remesh'i her çalıştırdığınızda hazırladığınız detaylar bozulur, bunun önüne geçmek için tek bir mesh kullanmak yerine birden fazla mesh kullanıp her birini bağımsız olarak sculpting için kullanabilirsiniz, böylelikle Voxel Remesh'i çalıştırdığınızda diğer parçalar etkilenmemiş olur. Voxel Remesh kullanırken yüksek "Voxel Size" değeri ile başlayıp sonra bu değeri yavaş yavaş azaltmamız gerekir, yani detay derecesini yavaş yavaş arttırarak ana şeklimizi (base mesh) oluştururuz. İster Dynamic Topology kullanıyor olun ister Voxel Remesh, bu iki workflow detaylı şekiller oluşturmak için uygun değildir. Ana hatları yani base mesh'i oluşturmak için kullanılırlar, base mesh oluşturulduktan sonra ise "Multiresolution" workflow'u ile üst düzey detaylar çizilir. Voxel Remesh ayarlarına üst toolbar'ın sağ köşesinden veya Properties panelinin "Tool" bölümünden ulaşabilirsiniz.
+
+
+
+
 
 ## [Multiresolution](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/introduction/adaptive.html#multiresolution)
 

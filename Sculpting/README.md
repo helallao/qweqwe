@@ -1092,6 +1092,35 @@ Bu butona tıkladığınızda Voxel Remesh uygulanır. Bu butona her defasında 
 
 
 ### [Quadriflow Remesh](https://docs.blender.org/manual/en/latest/modeling/meshes/retopology.html#bpy-ops-object-quadriflow-remesh)
+Voxel Remesh'in başka bir versiyonudur. Voxel Remesh'in aksine Quadriflow yani tamamen dört vertex'e sahip, dört kenarlı face'ler oluşturur ve edge loop'lara dikkat eder. Quadriflow Remesh'i base mesh'i hazırladıktan sonra "Multiresolution" workflow'una geçmeden önce kullanırız. Yani base mesh tamamen hazırlandıktan sonra "Multiresolution" workflow'unda kullanılacak güzel bir topoloji/geometri oluşturmak için Quadriflow Remesh kullanılır. Voxel Remesh gibi birçok defa kullanmayız, sadece bir kere kullanmak yeterlidir. Quadriflow Remesh ile ilgili ayarlara sadece Properties panelinin "Data" (Object Data) bölümünden ulaşabilirsiniz. Buradan mod olarak "Quad" seçtikten sonra "Quadriflow Remesh" butonuna bastığınızda Quadriflow Remesh ayarları menüsü çıkar. Bu ayarların açıklamalarına aşağıdan ulaşabilirsiniz.
+
+* #### Use Mesh Symmetry
+Simetri ayarını kullanır. Yani mesela simetri X ekseninde açıksa Quadriflow Remesh uygulandığında mesh'in -X ekseni +X eksenine kopyalanır.
+
+* #### Preserve Sharp
+Bu ayar açıkken Quadriflow Remesh uygulandığında mesh'in keskin kısımları korunmaya çalışılır. Yani bu ayar açıkken keskin kısımlar olabildiğince değiştirilmemeye çalışılır.
+
+* #### Preserve Mesh Boundary
+Bu ayar açıkken Quadriflow Remesh uygulandığında mesh'in orijinal şekli korunmaya çalışılır. Yani bu ayar açıkken mesh'in şekli olabildiğince değiştirilmemeye çalışılır.
+
+* #### Preserve Paint Mask
+Bu ayar mesh'in üzerindeki maskeyi Quadriflow Remesh uygulandıktan sonraki mesh'e yansıtmaya yarar. Yani maskeyi yeni geometriye aktarır, eğer bu ayar kapalıysa Quadriflow Remesh uygulandığında maske kaybolur.
+
+* #### Smooth Normals
+Bu ayar açıkken Quadriflow Remesh uygulandıktan sonra mesh'in face'lerinin shading modu "Smooth" olarak ayarlanır.
+
+* #### Mode
+Quadriflow Remesh'in detay derecesini belirleyen moddur.
+
+Mod | Açıklama
+:---: | :---:
+Ratio | "Ratio" adında bir input açılır ve bu input'a verdiğiniz değere göre şu anki face sayısı çarpılır. Mesela şu an mesh'inizin 1000 face'i var diyelim, eğer bu ayarı 1.5 olarak ayarlarsanız 1000 x 1.5 = 1500 olur. "Number of Faces" input'u bu modda da vardır ama değeri değiştirilemez, sadece "Ratio" input'una verdiğiniz değere göre oluşturulacak face sayısını göstermek için ordadır.
+Edge Length | "Edge Length" adında bir input açılır ve bu input'a verdiğiniz değer mesh'in 1 kenar uzunluğunu ifade eder, kenar uzunluğu değerine göre mesh'inizin face sayısı hesaplanır. "Number of Faces" input'u bu modda da vardır ama değeri değiştirilemez, sadece "Edge Length" input'una verdiğiniz değere göre oluşturulacak face sayısını göstermek için ordadır.
+Face | "Number of Faces" input'u ile direktmen face sayısını belirtebilirsiniz. Quadriflow Remesh uygulandığında oluşacak face sayısı illaki bu sayıya eşit olmak zorunda değildir ama bu sayıya yakın bir sayı olur.
+
+* #### Seed
+Tohum değeri, aynı ayarları aynı mesh üzerinde kullandığınızda aynı sonucu alırsınız. Eğer farklı (alternatif) sonuçlar görmek istiyorsanız farklı seed numaraları vererek farklı sonuçlar alabilirsiniz.
+
 
 
 ## [Multiresolution](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/introduction/adaptive.html#multiresolution)

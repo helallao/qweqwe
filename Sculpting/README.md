@@ -1091,8 +1091,10 @@ Bu ayar mesh'in üzerindeki color attribute değerlerini Voxel Remesh uygulandı
 Bu butona tıkladığınızda Voxel Remesh uygulanır. Bu butona her defasında manuel olarak tıklamak zorunda değilsiniz, bunun için "Ctrl + R" kısayolunu kullanabilirsiniz ([Kısayollar](#kısayollar-1) bölümünden "Workflow Kısayolları" na bakın).
 
 
+## [Voxel Remesh](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/tool_settings/remesh.html)
 
-## [Multiresolution](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/introduction/adaptive.html#multiresolution)
+
+### [Quadriflow Remesh](https://docs.blender.org/manual/en/latest/modeling/meshes/retopology.html#bpy-ops-object-quadriflow-remesh)
 
 
 <br>

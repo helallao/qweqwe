@@ -1075,7 +1075,20 @@ Bu ayar Voxel Remesh uygularken gereksiz geometrileri silmeye yarar. Gereksiz ol
 * #### Fix Poles
 Bu ayar pole (3 veya daha fazla kenarın birleştiği vertex) sayısını azaltmaya çalışır ve daha düzgün bir topoloji/geometri oluşturmaya yarar. Performans bakımından biraz yavaşlığa sebep olabilir.
 
+* #### Preserve Volume
+Bu ayar orijinal şeklin volume yani hacmini korumaya yarar. Bu ayar açıkken Voxel Remesh uygulandığında objenin orijinal şekli de korunmaya çalışılır.
 
+* #### Preserve Paint Mask
+Bu ayar mesh'in üzerindeki maskeyi Voxel Remesh uygulandıktan sonraki mesh'e yansıtmaya yarar. Yani maskeyi yeni geometriye aktarır, eğer bu ayar kapalıysa Voxel Remesh uygulandığında maske kaybolur.
+
+* #### Preserve Face Sets
+Bu ayar mesh'in üzerindeki face set'i Voxel Remesh uygulandıktan sonraki mesh'e yansıtmaya yarar. Yani face set'i yeni geometriye aktarır, eğer bu ayar kapalıysa Voxel Remesh uygulandığında face set kaybolur.
+
+* #### Preserve Color Attributes
+Bu ayar mesh'in üzerindeki color attribute değerlerini Voxel Remesh uygulandıktan sonraki mesh'e yansıtmaya yarar. Yani color attribute değerlerini yeni geometriye aktarır, eğer bu ayar kapalıysa Voxel Remesh uygulandığında color attribute değerleri kaybolur.
+
+* #### Remesh
+Bu butona tıkladığınızda Voxel Remesh uygulanır. Bu butona her defasında manuel olarak tıklamak zorunda değilsiniz, bunun için "Ctrl + R" kısayolunu kullanabilirsiniz ([Kısayollar](#kısayollar-1) bölümünden "Workflow Kısayolları" na bakın).
 
 
 

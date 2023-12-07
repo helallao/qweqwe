@@ -483,10 +483,22 @@ Eğer base mesh üzerinde yani hiç subdivision uygulanmamış orijinal mesh üz
 Bu ayar açıkken Viewport Shading "Wireframe" modundayken mesh'in subdivision uygulanmış hali değil de orijinal halinin geometrisi gösterilir. Performans amaçlıdır.
 
 
-## Data
+## Subdivision
 
-* #### a
+* #### Subdivide
 a
+
+* #### Simple
+a
+
+* #### Linear
+a
+
+* #### Unsubdivide
+a
+
+* #### Delete Higher
+En yüksek subdivision seviyesini siler, dolayısı ile o subdivision seviyesinde uyguladığınız detaylar da silinir. Bu butona bastığınızda çalışması için şu anki editör modunun subdivision level'ının en yüksek subdivision seviyesinde olmaması gerekir. Yani mesela diyelim ki şu an Viewport'dasınız. O zaman bu butona bastığınızda "Level Viewport" ayarının en son subdivision seviyesinde olmaması gerekir. Yani mesela şu an en yüksek subdivision seviyesi 3 ise "Level Viewport" ayarının 3 olmaması gerekir, daha düşük olmalıdır. Aynı şekilde şu an Sculpting modundaysanız da, "Level Sculpt" ayarının 3 olmaması gerekir, daha düşük olmalıdır.
 
 
 

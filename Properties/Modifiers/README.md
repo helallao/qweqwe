@@ -470,7 +470,24 @@ Bilmiyorum.
 
 
 ## [Multiresolution](https://docs.blender.org/manual/en/3.6/modeling/modifiers/generate/multiresolution.html)
-Bilmiyorum.
+Bu modifier [Sculpting'de](../../Sculpting) kullanılır. Gerekli açıklamalara Sculpting'in [Multiresolution](../../Sculpting#multiresolution) bölümünden ulaşabilirsiniz.
+
+
+* #### Level Viewport/Sculpt/Render
+Buradan Viewport için, Sculpt için ve Render için gösterilecek subdivision level'larını ayarlayabilirsiniz. Bu level'ları seçebilmeniz için o level'ların oluşturulmuş olması gerekir. Burda en çok değiştireceğimiz ayar "Sculpt" olacaktır çünkü sculpting yaparken sürekli detay seviyesini arttırıp/azaltmamız gerekir.
+
+* #### Sculpt Base Mesh
+Eğer base mesh üzerinde yani hiç subdivision uygulanmamış orijinal mesh üzerinde sculpting yapmak istiyorsanız bu ayarı açarak yapabilirsiniz.
+
+* #### Optimal Display
+Bu ayar açıkken Viewport Shading "Wireframe" modundayken mesh'in subdivision uygulanmış hali değil de orijinal halinin geometrisi gösterilir. Performans amaçlıdır.
+
+
+## Data
+
+* #### a
+a
+
 
 
 

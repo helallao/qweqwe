@@ -486,13 +486,13 @@ Bu ayar açıkken Viewport Shading "Wireframe" modundayken mesh'in subdivision u
 ## Subdivision
 
 * #### Subdivide
-a
+Klasik Catmull-Clark subdivision algoritmasını uygular ve mesh'i subdivide eder.
 
 * #### Simple
-a
+Catmull-Clark subdivision algoritmasının aksine bu subdivision algoritması mesh'i yumuşatıp şeklini değiştirmemeye çalışır. Edit moddaki "Subdivide" ile aynıdır, eğer yüzey coplanar değilse yani vertex'ler aynı 2d düzlemde değilse yumuşatma uygulayabilir.
 
 * #### Linear
-a
+Catmull-Clark ve Simple subdivision algoritmalarının aksine bu subdivision algoritması kesinlikle mesh'i yumuşatıp şeklini değiştirmez.
 
 * #### Unsubdivide
 a

@@ -498,7 +498,7 @@ a
 a
 
 * #### Delete Higher
-En yüksek subdivision seviyesini siler, dolayısı ile o subdivision seviyesinde uyguladığınız detaylar da silinir. Bu butona bastığınızda çalışması için şu anki editör modunun subdivision level'ının en yüksek subdivision seviyesinde olmaması gerekir. Yani mesela diyelim ki şu an Viewport'dasınız. O zaman bu butona bastığınızda "Level Viewport" ayarının en son subdivision seviyesinde olmaması gerekir. Yani mesela şu an en yüksek subdivision seviyesi 3 ise "Level Viewport" ayarının 3 olmaması gerekir, daha düşük olmalıdır. Aynı şekilde şu an Sculpting modundaysanız da, "Level Sculpt" ayarının 3 olmaması gerekir, daha düşük olmalıdır.
+Şu anki editör modunun subdivision level'ının üzerindeki bütün subdivision level'larını siler, dolayısı ile o subdivision level'larına uyguladığınız detaylar da silinir. Yani mesela diyelim ki şu an Viewport'dasınız. O zaman bu butona bastığınızda "Level Viewport" ayarının subdivision level'ının üstündeki bütün subdivision level'ları silinir. Yani mesela şu an en yüksek subdivision level 3 ise ve "Level Viewport" ayarının değeri 1 ise, bu butona bastığınızda 2. ve 3. subdivision level'ları silinir. Eğer şu an Sculpting modundaysanız, "Level Viewport" ayarı 1 olsa bile bu butona bastığınızda 2. ve 3. subdivision level'ları silinmez çünkü Sculpting modundayken "Level Sculpt" ayarı kullanılır, yani 2. ve 3. subdivision level'larını silmek için "Level Sculpt" ayarının değeri 1 olmalıdır.
 
 
 

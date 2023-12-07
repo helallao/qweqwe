@@ -1153,7 +1153,7 @@ Kısayol | Açıklama
 :---: | :---:
 R | Hem Dynamic Topology (Dyntopo) hem de Voxel Remesh için detay derecesini ayarlama kısayoludur. Dynamic Topology (Dyntopo) açıkken onun detay derecesini, kapalıyken Voxel Remesh'in detay derecesini ayarlar.
 Ctrl + R | Dynamic Topology (Dyntopo) açıkken ve "Detailing" ayarı "Constant Detail" veya "Manual Detail" modundayken bu kısayol "Detail Flood Fill" butonunun kısayoludur. Dynamic Topology (Dyntopo) kapalıyken bu kısayol Voxel Remesh'in "Remesh" butonunun kısayoludur.
-Ctrl + Numara | "Ctrl" tuşuna basılı tutarken istediğiniz subdivision level'ının sayısına basarak Multiresolution modifier'ı ekleyebilirsiniz. Yani mesela "Ctrl + 3" kısayoluna tıklarsanız subdivision level'ı 3 olan Multiresolution modifier'ı eklenir. Bu sayı en fazla 5 olabilir. Yani "Ctrl + 6" kısayolu çalışmayacaktır.
+Ctrl + Numara | "Ctrl" tuşuna basılı tutarken istediğiniz subdivision level'ının sayısına basarak [Multiresolution modifier'ı](../Properties/Modifiers#multiresolution) ekleyebilirsiniz. Yani mesela "Ctrl + 3" kısayoluna tıklarsanız subdivision level'ı 3 olan Multiresolution modifier'ı eklenir. Bu sayı en fazla 5 olabilir. Yani "Ctrl + 6" kısayolu çalışmayacaktır.
 
 </details>
 

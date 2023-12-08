@@ -507,7 +507,7 @@ Bu buton mesh'in (şu anki Multiresolution modifier'ından bağımsız olarak) s
 a
 
 * #### Apply Base
-a
+Bu buton mesh'in orijinal geometrisini yani modifier uygulanmamış halini subdivision uygulanmış haline benzetmeye çalışır. Yani subdivision level'larına yaptığınız değişiklikleri (Displacement) baz alarak orijinal geometriyi olabildiğince benzetir.
 
 
 ## Generate

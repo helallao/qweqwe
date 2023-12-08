@@ -77,7 +77,8 @@ Aşağıdaki döküman sözlük mantığında yapılmıştır, herhangi bir konu
 
 
 # Brushlar
-Bu kategoride her bir fırçanın kendisine özel ayarlarının ve ne işe yaradığının açıklamaları vardır.
+Bu kategoride her bir fırçanın kendisine özel ayarlarının ve ne işe yaradığının açıklamaları vardır. Brushlar kategori olarak 4'e ayrılır, renklerine göre bu kategorileri görebilirsiniz. Mesela [Draw](#draw) brush'ından [Crease](#crease) brush'ına kadar mavi renkli brush'lar vardır. Mavi renkli brush'lar ekleme/çıkarma yapmaya yarayan brush'lardır. Kırmızı renkli brush'lar varolan geometri üzerinde düzenlemeler yapmaya yarayan brush'lardır. Sarı renkli brush'lar da varolan geometri üzerinde işlemler yaparlar ama daha çok geometriyi hareket ettirme, değişikliğe uğratmaya yöneliktirler. Geriye kalan beyaz brush'lar ise tool yani araç tarzı brush'lardır. Çeşitli amaçlar için kullanılırlar.
+
 
 ## [Draw](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/tools/draw.html)
 Klasik çizim brush'ıdır. Geometriyi ileri-geri almamıza yarar, yani kendimize doğru çekmemize veya itmemize yarar. Brush'ın kısayolu "V" dir ([Kısayollar](#kısayollar-1) bölümünden "Brush Kısayolları" na bakın).

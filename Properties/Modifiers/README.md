@@ -504,7 +504,7 @@ Bu buton mesh'in (şu anki Multiresolution modifier'ından bağımsız olarak) s
 ## Shape
 
 * #### Reshape
-a
+Bu butona bastığınızda aktif objeden bir önce seçilmiş objenin şekli/geometrisi aktif objeye kopyalanır. Yani bu butonu kullanabilmeniz için ilk baş birden fazla mesh seçmiş olmalısınız. Mesela A ve B diye mesh'iniz olduğunu varsayalım, ve siz de A mesh'inin şeklini/geometrisini B mesh'ine kopyalamak istiyorsunuz. Bu durumda ilk baş A mesh'ini seçersiniz sonra "Shift" tuşuna basılı tutarak B mesh'ini seçersiniz, sonra da bu butona tıklarsınız. Butona tıkladığınızda en son seçtiğiniz mesh B olduğu için diğer mesh'in yani A'nın şekli/geometrisi B mesh'ine kopyalanır. Yani bu buton bir mesh'ten diğerine aynı geometriyi kopyalamaya yarar. Bu butonun çalışabilmesi için iki mesh'in de aynı topolojiye/geometriye sahip olması gerekir.
 
 * #### Apply Base
 Bu buton mesh'in orijinal geometrisini yani modifier uygulanmamış halini subdivision uygulanmış haline benzetmeye çalışır. Yani subdivision level'larına yaptığınız değişiklikleri (Displacement) baz alarak orijinal geometriyi olabildiğince benzetir.
@@ -518,6 +518,37 @@ Bu buton sadece şu anki Multiresolution modifier'ı hiç subdivision level'ına
 * #### Save External...
 Bu buton subdivision level'larını yani "Displacement" leri ".btx" uzantılı dosyalara kaydetmenize yarar. Yani Displacement bilgilerini kaydedebilirsiniz, böylelikle proje dosyanızın (.blend dosyası) da boyutu küçülmüş olur ve gerekmediği sürece Displacement bilgilerini ram üzerinde tutmanıza gerek kalmaz. Bu ayarın kullanılış şekli şöyledir, ilk olarak bu butona basıp ".btx" uzantılı dosyayı bir yere kaydedersiniz. Dosyayı kaydettikten sonra butonun isminin "Pack External" a döndüğünü ve altta bir dosya yolu çıktığını görebilirsiniz. Eğer dosya yolunu değiştirip farklı bir ".btx" uzantılı dosya seçip "Pack External" butonuna basarsanız seçtiğiniz ".btx" uzantılı dosyanın içindeki Displacement bilgisi şu anki modifier'a aktarılır. Yani "Save External" butonu Displacement bilgisini kaydetmeye yararken, "Pack External" butonu Displacement bilgisini içe aktarmaya yarar. Ve bu buton her defasında "Save External" ile "Pack External" modları arasında değişir. Kısacası eğer şu anki modifier'ınıza ".btx" dosyasından Displacement bilgisi aktarmak istiyorsanız ilk baş şu anki Displacement bilgisi ".btx" uzantılı bir dosyaya kaydetmelisiniz. Ayrıca bu ayarın düzgün çalışabilmesi için içe aktarılan Displacement bilgisi kaç subdivision level'ı içeriyorsa şu anki modifier'ın da o subdivision level'ında olması gereklidir. Bu yüzden ".btx" dosyalarını kaydederken subdivision level'ını da ismine eklemeyi unutmayın. Ayrıca bu buton "Pack External" modundayken altta çıkan dosya yolunu değiştirdiğiniz anda seçtiğiniz ".btx" dosyasının Displacement bilgisi otomatikmen mesh üzerinde gösterilir, bu sizi yanıltmasın, bilgileri içe aktarmak için "Pack External" butonuna basmanız gereklidir, basmadan işlemler yapmaya kalkarsanız bozulmalar oluşur.
 
+
+## Advanced
+
+* #### Quality
+Kaliteyi yani işlemlerin doğruluk derecesini belirtir. Arttırdıkça kalite de artar ama performans düşer yani hesaplamalar daha fazla vakit alır.
+
+* #### UV Smooth
+UV üzerinde yapılacak değişiklikleri belirler.
+
+Mod | Açıklama
+:---: | :---:
+‎None | UV üzerinde değişiklik yapılmaz.
+Keep Corners | Bilmiyorum.
+Keep Corners, Junctions | Bilmiyorum.
+Keep Corners, Junctions, Concave | Bilmiyorum.
+Keep Boundaries | Bilmiyorum.
+All | Bilmiyorum.
+
+* #### Boundary Smooth
+UV üzerinde yapılacak yumuşatmaları belirler.
+
+Mod | Açıklama
+:---: | :---:
+‎Keep Corners | Köşe kısımlar haricinde geriye kalan yerlerde geçişler yumuşatılır.
+‎All | Köşeler de dahil olmak üzere her yerde geçişler yumuşatılır.
+
+* #### Use Creases
+Bilmiyorum.
+
+* #### Use Custom Normals
+Bilmiyorum.
 
 
 

@@ -495,10 +495,28 @@ Catmull-Clark subdivision algoritmasının aksine bu subdivision algoritması me
 Catmull-Clark ve Simple subdivision algoritmalarının aksine bu subdivision algoritması kesinlikle mesh'i yumuşatıp şeklini değiştirmez.
 
 * #### Unsubdivide
-a
+Bu buton mesh'in (şu anki Multiresolution modifier'ından bağımsız olarak) sahip olduğu subdivision level'larını şu anki Multiresolution modifier'ına subdivision level'ları olarak aktarmamıza yarar. Yani mesela mesh'e daha önce Multiresolution modifier'ı uyguladıysanız, tekrar Multiresolution modifier'ı ekleyip sonra da bu butona basıp mesh'i tekrar Multiresolution modifier'lı hale getirebilirsiniz. "Rebuild Subdivisions" butonu ile aynı mantıkta çalışırlar. Tek farkı bu butonun tek tek subdivision level'larını eklemesidir, yani sadece istediğiniz miktarda subdivision level'larını ekleyebilirsiniz.
 
 * #### Delete Higher
 Şu anki editör modunun subdivision level'ının üzerindeki bütün subdivision level'larını siler, dolayısı ile o subdivision level'larına uyguladığınız detaylar da silinir. Yani mesela diyelim ki şu an Viewport'dasınız. O zaman bu butona bastığınızda "Level Viewport" ayarının subdivision level'ının üstündeki bütün subdivision level'ları silinir. Yani mesela şu an en yüksek subdivision level 3 ise ve "Level Viewport" ayarının değeri 1 ise, bu butona bastığınızda 2. ve 3. subdivision level'ları silinir. Eğer şu an Sculpting modundaysanız, "Level Viewport" ayarı 1 olsa bile bu butona bastığınızda 2. ve 3. subdivision level'ları silinmez çünkü Sculpting modundayken "Level Sculpt" ayarı kullanılır, yani 2. ve 3. subdivision level'larını silmek için "Level Sculpt" ayarının değeri 1 olmalıdır.
+
+
+## Shape
+
+* #### Reshape
+a
+
+* #### Apply Base
+a
+
+
+## Generate
+
+* #### Rebuild Subdivisions
+Bu buton sadece şu anki Multiresolution modifier'ı hiç subdivision level'ına sahip değilken vardır. Bu buton mesh'in sahip olduğu subdivision level'larını şu anki Multiresolution modifier'ına subdivision level'ları olarak aktarmamıza yarar. Yani mesela mesh'e daha önce Multiresolution modifier'ı uyguladıysanız, tekrar Multiresolution modifier'ı ekleyip sonra da bu butona basıp mesh'i tekrar Multiresolution modifier'lı hale getirebilirsiniz. "Unsubdivide" butonu ile aynı mantıkta çalışırlar. Tek farkı bu butonun bütün subdivision level'larını eklemesidir.
+
+* #### Save External...
+a
 
 
 

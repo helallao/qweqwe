@@ -1042,6 +1042,13 @@ Mod | Açıklama
 :---: | :---:
 Smooth | [Smooth](#smooth) efekti uygular.
 Scale | Scale efekti uygular yani mesh'i boyutlandırır.
+Inflate | [Inflate](#inflate) efekti uygular.
+Sphere | Edit moddaki [To Sphere](https://docs.blender.org/manual/en/latest/modeling/meshes/editing/mesh/transform/to_sphere.html) tool'u ile aynı mantıkta çalışır, mesh'i küreleştirir.
+Random | Vertex'leri normal yönlerinde yani baktıkları yönde rastgele derecede hareket ettirir.
+Relax | [Slide Relax](#slide-relax) brush'ında "Shift" kısayoluna bastığınızda çıkan "Relax" efektini uygular. Mesh'in şeklini bozmadan geometriyi eşit aralıklı olacak hale getirir.
+Relax Face Sets | a
+
+
 
 * #### Strength
 Uygulanan efektin şiddeti.

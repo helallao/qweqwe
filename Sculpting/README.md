@@ -1046,7 +1046,8 @@ Inflate | [Inflate](#inflate) efekti uygular.
 Sphere | Edit moddaki [To Sphere](https://docs.blender.org/manual/en/latest/modeling/meshes/editing/mesh/transform/to_sphere.html) tool'u ile aynı mantıkta çalışır, mesh'i küreleştirir.
 Random | Vertex'leri normal yönlerinde yani baktıkları yönde rastgele derecede hareket ettirir.
 Relax | [Slide Relax](#slide-relax) brush'ında "Shift" kısayoluna bastığınızda çıkan "Relax" efektini uygular. Mesh'in şeklini bozmadan geometriyi eşit aralıklı olacak hale getirir.
-Relax Face Sets | a
+Relax Face Sets | [Draw Face Sets](#draw-face-sets) brush'ında "Shift" kısayoluna bastığınızda çıkan "Smooth" efektini uygular. Face set'lerin kenarlarını geometriyi düz olacak şekilde hizaya getirerek yumuşatır/düzler.
+Surface Smooth | [Smooth](#smooth) brush'ının "Deformation" modu "Surface" modundayken uyguladığı efekti uygular. Ayrıca bu modda aynı Smooth brush'ındaki gibi "Shape Preservation" ve "Per-Vertex Displacement" ayarları vardır. Bu ayarların açıklamalarına [Smooth](#smooth) brush'ının açıklamasından ulaşabilirsiniz.
 
 
 

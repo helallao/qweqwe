@@ -80,47 +80,47 @@
 <br>
 
 
-# [Modify](https://docs.blender.org/manual/en/3.6/modeling/modifiers/index.html#modify)
+# [Modify](https://docs.blender.org/manual/en/latest/modeling/modifiers/index.html#modify)
 Bu kategorideki modfier'lar objenin geometrisini direktmen değiştirmeyen, daha çok objelerin verisini değiştiren modifier'lardır.
 
 
-## [Data Transfer](https://docs.blender.org/manual/en/3.6/modeling/modifiers/modify/data_transfer.html)
+## [Data Transfer](https://docs.blender.org/manual/en/latest/modeling/modifiers/modify/data_transfer.html)
 Bilmiyorum.
 
 
-## [Mesh Cache](https://docs.blender.org/manual/en/3.6/modeling/modifiers/modify/mesh_cache.html)
+## [Mesh Cache](https://docs.blender.org/manual/en/latest/modeling/modifiers/modify/mesh_cache.html)
 Bilmiyorum.
 
 
-## [Mesh Sequence Cache](https://docs.blender.org/manual/en/3.6/modeling/modifiers/modify/mesh_sequence_cache.html)
+## [Mesh Sequence Cache](https://docs.blender.org/manual/en/latest/modeling/modifiers/modify/mesh_sequence_cache.html)
 Bilmiyorum.
 
 
-## [Normal Edit](https://docs.blender.org/manual/en/3.6/modeling/modifiers/modify/normal_edit.html)
+## [Normal Edit](https://docs.blender.org/manual/en/latest/modeling/modifiers/modify/normal_edit.html)
 Bilmiyorum.
 
 
-## [Weighted Normal](https://docs.blender.org/manual/en/3.6/modeling/modifiers/modify/weighted_normal.html)
+## [Weighted Normal](https://docs.blender.org/manual/en/latest/modeling/modifiers/modify/weighted_normal.html)
 Bilmiyorum.
 
 
-## [UV Project](https://docs.blender.org/manual/en/3.6/modeling/modifiers/modify/uv_project.html)
+## [UV Project](https://docs.blender.org/manual/en/latest/modeling/modifiers/modify/uv_project.html)
 Bilmiyorum.
 
 
-## [UV Warp](https://docs.blender.org/manual/en/3.6/modeling/modifiers/modify/uv_warp.html)
+## [UV Warp](https://docs.blender.org/manual/en/latest/modeling/modifiers/modify/uv_warp.html)
 Bilmiyorum.
 
 
-## [Vertex Weight Edit](https://docs.blender.org/manual/en/3.6/modeling/modifiers/modify/weight_edit.html)
+## [Vertex Weight Edit](https://docs.blender.org/manual/en/latest/modeling/modifiers/modify/weight_edit.html)
 Bilmiyorum.
 
 
-## [Vertex Weight Mix](https://docs.blender.org/manual/en/3.6/modeling/modifiers/modify/weight_mix.html)
+## [Vertex Weight Mix](https://docs.blender.org/manual/en/latest/modeling/modifiers/modify/weight_mix.html)
 Bilmiyorum.
 
 
-## [Vertex Weight Proximity](https://docs.blender.org/manual/en/3.6/modeling/modifiers/modify/weight_proximity.html)
+## [Vertex Weight Proximity](https://docs.blender.org/manual/en/latest/modeling/modifiers/modify/weight_proximity.html)
 Bilmiyorum.
 
 
@@ -128,11 +128,11 @@ Bilmiyorum.
 <br>
 
 
-# [Generate](https://docs.blender.org/manual/en/3.6/modeling/modifiers/index.html#generate)
+# [Generate](https://docs.blender.org/manual/en/latest/modeling/modifiers/index.html#generate)
 Bu kategorideki modfier'lar objenin geometrisini/topolojisini direktmen değiştiren modifier'lardır.
 
 
-## [Array](https://docs.blender.org/manual/en/3.6/modeling/modifiers/generate/array.html)
+## [Array](https://docs.blender.org/manual/en/latest/modeling/modifiers/generate/array.html)
 Objeyi istediğiniz sayıda ve yönde kopyalar (aynı veriyi paylaşan kopyalar oluşturur).
 
 
@@ -192,7 +192,7 @@ Bu ayarlar ile başlangıca ve sona (her kopya için değil, hepsinden önce ve 
 
 
 
-## [Bevel](https://docs.blender.org/manual/en/3.6/modeling/modifiers/generate/bevel.html)
+## [Bevel](https://docs.blender.org/manual/en/latest/modeling/modifiers/generate/bevel.html)
 Bildiğimiz bevel tool'unun modifier halidir. Daha gelişmiş özellik sunar. Eğer bevel tool'unu bilmiyorsanız internetten ilk baş onu ögrenin. Zaten ayarların çoğu bevel tool'undaki ayarlar ile aynı.
 
 
@@ -245,7 +245,7 @@ Sadece "Profile" ayarı "Custom" modundayken vardır. Curve üzerindeki bütün 
 Bevel ile ilgili şekil ayarları.
 
 * #### Miter Inner/Outer
-Bu ayarlar bevel şekli ile ilgili. [Buradan](https://docs.blender.org/manual/en/3.6/modeling/modifiers/generate/bevel.html#id8) modların yaptığı değişiklikleri görebilirsiniz.
+Bu ayarlar bevel şekli ile ilgili. [Buradan](https://docs.blender.org/manual/en/latest/modeling/modifiers/generate/bevel.html#id8) modların yaptığı değişiklikleri görebilirsiniz.
 
 * #### Spread
 Sadece "Miter Inner" ayarı "Arc" modundayken vardır. Ekstra vertice'leri yayma derecesini belirler.
@@ -280,7 +280,7 @@ Bilmiyorum.
 
 
 
-## [Boolean](https://docs.blender.org/manual/en/3.6/modeling/modifiers/generate/booleans.html)
+## [Boolean](https://docs.blender.org/manual/en/latest/modeling/modifiers/generate/booleans.html)
 Başka bir objeyi kullanarak seçilen obje ile üst üste gelen kısımlar üzerinde işlemler yapabilirsiniz. Mesela kesiştikleri kısmı silebilirsiniz. Bu modifier'ı kullanırsanız mesh'iniz üzerinde n-gon'lar oluşabilir, mesh'inizin topolojisini bozabilir. Sadece basit mesh'ler için kullanın, kompleks mesh'lerinizde bu modifier'ı kullanmak kolaylık değil zorluk getirebilir.
 
 
@@ -317,11 +317,11 @@ Sadece "Solver" ayarı "Fast" modundayken vardır. İki face'in üst üste gelmi
 Hedef objenin kendisi üzerinde üst üste gelen kısımlarını da hesaplar. Bu ayarı açmak hataları önleyebilir ama ek hesaplama yapar.
 
 * #### Hole Tolerant
-Eğer "Solver" ayarı olarak "Exact" kullanıyorsanız ve sonuç hatalı oluyorsa bu ayarı açabilirsiniz. Bu ayarı açmak [Non-manifold](https://docs.blender.org/manual/en/3.6/glossary/index.html#term-Non-manifold) yani hatalı yapılmış yüzeyleri optimize eder. Ek hesaplama yaptığı için yavaş olabilir.
+Eğer "Solver" ayarı olarak "Exact" kullanıyorsanız ve sonuç hatalı oluyorsa bu ayarı açabilirsiniz. Bu ayarı açmak [Non-manifold](https://docs.blender.org/manual/en/latest/glossary/index.html#term-Non-manifold) yani hatalı yapılmış yüzeyleri optimize eder. Ek hesaplama yaptığı için yavaş olabilir.
 
 
 
-## [Build](https://docs.blender.org/manual/en/3.6/modeling/modifiers/generate/build.html)
+## [Build](https://docs.blender.org/manual/en/latest/modeling/modifiers/generate/build.html)
 Bu modifier objeye animasyonlu build efekti (inşa etme) verir. Belirtilen frame sayısına göre her frame'de objenin face'lerini görünmez halden görünür hale getirir. Bu da sanki obje yeniden oluşuyormuş gibi bir efekt verir. Ayrıca genellikle Build modifier'ı kullanıcı tarafından belirlenmiş face sıralamasına göre kullanılır. Face sıralamasını (Sort Order) nasıl yapacağınızı [buradan](https://brandonsdrawings.com/buildmodifier/) ögrenebilirsiniz.
 
 
@@ -342,7 +342,7 @@ Face'lerin oluşma veya yok olma sıralamasını rastgele yapar.
 
 
 
-## [Decimate](https://docs.blender.org/manual/en/3.6/modeling/modifiers/generate/decimate.html)
+## [Decimate](https://docs.blender.org/manual/en/latest/modeling/modifiers/generate/decimate.html)
 Bu modifier mesh üzerindeki vertex/face sayısını düşürmenize yarar.
 
 
@@ -388,7 +388,7 @@ Sadece "Mode" ayarı "Planar" modundayken vardır. Bu ayar face'lerin boundary (
 
 
 
-## [Edge Split](https://docs.blender.org/manual/en/3.6/modeling/modifiers/generate/edge_split.html)
+## [Edge Split](https://docs.blender.org/manual/en/latest/modeling/modifiers/generate/edge_split.html)
 Bu modifier mesh'in kenarlarını birbirinden ayırır, daha doğrusu face'leri birbirine bağlayan kenarları ayırır da denebilir çünkü kenarları ayırırken komşu face'lern birbirlerine olan açı farkına bakar. Bu modifier ile yapabildiklerinizin aynısını Auto Smooth (Properties > Data > Normals > Auto Smooth) ayarı ile de yapabilirsiniz, dolayısıyla artık kullanılmıyor, ek bilgiler için [buraya](https://www.youtube.com/watch?v=xMI3G_M_3dE) bakabilirsiniz.
 
 
@@ -400,12 +400,12 @@ Aralarındaki açı bu açı değerinden fazla olan kenarlar birbirlerinden ayr�
 
 
 
-## [Geometry Nodes](https://docs.blender.org/manual/en/3.6/modeling/modifiers/generate/geometry_nodes.html)
+## [Geometry Nodes](https://docs.blender.org/manual/en/latest/modeling/modifiers/generate/geometry_nodes.html)
 Bilmiyorum.
 
 
 
-## [Mask](https://docs.blender.org/manual/en/3.6/modeling/modifiers/generate/mask.html)
+## [Mask](https://docs.blender.org/manual/en/latest/modeling/modifiers/generate/mask.html)
 Bu modifier mesh'in sadece seçilen vertex group'unu veya seçilen armature'a bağlı olan kısmını gösterir, diğer kısımları göstermez. Bu modifier'ı debug aracı olarak kullanabilirsiniz.
 
 
@@ -425,7 +425,7 @@ Weight değerleri için limit değeri. Vertex Group'un veya seçilen armature'un
 
 
 
-## [Mirror](https://docs.blender.org/manual/en/3.6/modeling/modifiers/generate/mirror.html)
+## [Mirror](https://docs.blender.org/manual/en/latest/modeling/modifiers/generate/mirror.html)
 Bu modifier mesh'i istediğiniz eksende aynalamanıza yarar, mesela yapmak istediğiniz obje simetrik ise sadece yarısını yapıp diğer yarısını da bu modifier ile yapabilirsiniz. Default olarak mesh'in orijin noktasını kullanır.
 
 
@@ -469,7 +469,7 @@ Bilmiyorum.
 
 
 
-## [Multiresolution](https://docs.blender.org/manual/en/3.6/modeling/modifiers/generate/multiresolution.html)
+## [Multiresolution](https://docs.blender.org/manual/en/latest/modeling/modifiers/generate/multiresolution.html)
 Bu modifier [Sculpting'de](../../Sculpting) kullanılır. Gerekli açıklamalara Sculpting'in [Multiresolution](../../Sculpting#multiresolution) bölümünden ulaşabilirsiniz.
 
 
@@ -552,7 +552,7 @@ Bilmiyorum.
 
 
 
-## [Remesh](https://docs.blender.org/manual/en/3.6/modeling/modifiers/generate/remesh.html)
+## [Remesh](https://docs.blender.org/manual/en/latest/modeling/modifiers/generate/remesh.html)
 Bu modifier mesh'i quad'lar yani dörtgenler kullanarak yeniden oluşturur.
 
 
@@ -592,7 +592,7 @@ Sadece "Mode" ayarı "Voxel" modundayken vardır. Bu ayar da aslında "Voxel Siz
 
 
 
-## [Screw](https://docs.blender.org/manual/en/3.6/modeling/modifiers/generate/screw.html)
+## [Screw](https://docs.blender.org/manual/en/latest/modeling/modifiers/generate/screw.html)
 Bu modifier spin tool'unun modifier hali gibidir. Yaptıkları iş bakımından aynıdırlar denebilir.
 
 
@@ -640,12 +640,12 @@ Normal'ların yönünü tersine çevirir.
 
 
 
-## [Skin](https://docs.blender.org/manual/en/3.6/modeling/modifiers/generate/skin.html)
+## [Skin](https://docs.blender.org/manual/en/latest/modeling/modifiers/generate/skin.html)
 Bilmiyorum.
 
 
 
-## [Solidify](https://docs.blender.org/manual/en/3.6/modeling/modifiers/generate/solidify.html)
+## [Solidify](https://docs.blender.org/manual/en/latest/modeling/modifiers/generate/solidify.html)
 Solidify modifier'ı mesh'e kalınlık/derinlik ekler.
 
 
@@ -757,7 +757,7 @@ Bilmiyorum.
 
 
 
-## [Subdivision Surface](https://docs.blender.org/manual/en/3.6/modeling/modifiers/generate/subdivision_surface.html)
+## [Subdivision Surface](https://docs.blender.org/manual/en/latest/modeling/modifiers/generate/subdivision_surface.html)
 Subdivision Surface modifier'ı (veya Subsurf) mesh'inize ekstra geometri eklemenize yarar. Mesh'iniz ile low poly çalışıp (yani face sayısı az) işlerinizi bitirdikten sonra high poly (yani face sayısı fazla) yapabilmenize yarar.
 
 
@@ -769,7 +769,7 @@ Mod | Açıklama
 ‎Simple | Mesh'i sadece subdivide eder. Catmull-Clark'ın aksine şeklini değiştirmez.
 
 * #### Adaptive Subdivision
-Bu ayar sadece [Render Engine](../Render%20Properties#render-engine) "Cycles" iken ve [Feature Set](../Render%20Properties#feature-set) "Experimental" iken vardır. ["Adaptive Subdivision"](https://docs.blender.org/manual/en/3.6/render/cycles/object_settings/adaptive_subdiv.html) özelliğini açar.
+Bu ayar sadece [Render Engine](../Render%20Properties#render-engine) "Cycles" iken ve [Feature Set](../Render%20Properties#feature-set) "Experimental" iken vardır. ["Adaptive Subdivision"](https://docs.blender.org/manual/en/latest/render/cycles/object_settings/adaptive_subdiv.html) özelliğini açar.
 
 * #### Dicing Scale
 Sadece "Adaptive Subdivision" ayarı açıkken vardır. Dicing için scale değerini belirler. Bu değeri düşürürseniz daha fazla subdivision olur, arttırırsanız daha az. Ek ayarlara Render ayarlarında [Subdivision](../Render%20Properties#subdivision-1) kategorisinden ulaşabilirsiniz.
@@ -820,7 +820,7 @@ Bilmiyorum.
 
 
 
-## [Triangulate](https://docs.blender.org/manual/en/3.6/modeling/modifiers/generate/triangulate.html)
+## [Triangulate](https://docs.blender.org/manual/en/latest/modeling/modifiers/generate/triangulate.html)
 Bu modifier mesh'inizin face'lerini üçgene çevirir, triangulate eder.
 
 
@@ -847,16 +847,16 @@ Clip | Ear-clipping algoritması kullanır.
 Triangulate edilecek face'lerin minimum vertice sayısı. Mesela bu ayarı 5 yaparsanız sadece beşgen ve sonrası çokgenler üçgene çevirilir.
 
 * #### Keep Normals
-Eğer [Custom Normals](https://docs.blender.org/manual/en/3.6/modeling/meshes/structure.html#modeling-meshes-normals-custom) kullanıyorsanız normal'ları bozmamaya çalışır.
+Eğer [Custom Normals](https://docs.blender.org/manual/en/latest/modeling/meshes/structure.html#modeling-meshes-normals-custom) kullanıyorsanız normal'ları bozmamaya çalışır.
 
 
 
-## [Volume to Mesh](https://docs.blender.org/manual/en/3.6/modeling/modifiers/generate/volume_to_mesh.html)
+## [Volume to Mesh](https://docs.blender.org/manual/en/latest/modeling/modifiers/generate/volume_to_mesh.html)
 Bilmiyorum.
 
 
 
-## [Weld](https://docs.blender.org/manual/en/3.6/modeling/modifiers/generate/weld.html)
+## [Weld](https://docs.blender.org/manual/en/latest/modeling/modifiers/generate/weld.html)
 Bu modifier birbirine yakın olan vertice'leri birleştirir.
 
 
@@ -878,7 +878,7 @@ Sadece seçilen vertex group içerisindeki weight değeri 0'dan büyük olan ver
 
 
 
-## [Wireframe](https://docs.blender.org/manual/en/3.6/modeling/modifiers/generate/wireframe.html)
+## [Wireframe](https://docs.blender.org/manual/en/latest/modeling/modifiers/generate/wireframe.html)
 Bu modifier mesh'in kenarlarını kullanarak wireframe şekli oluşturur. Yani mesh'in kenarlarına kalınlık ekler ve mesh'in kenarlarının şekli oluşturulur.
 
 
@@ -920,16 +920,16 @@ Vertex Group için factor değeri. Bu ayarın çalışma mantığı şudur, vert
 <br>
 
 
-# [Deform](https://docs.blender.org/manual/en/3.6/modeling/modifiers/index.html#deform)
+# [Deform](https://docs.blender.org/manual/en/latest/modeling/modifiers/index.html#deform)
 Bu kategorideki modfier'lar objenin geometrisini/topolojisini değiştirmeyen ama şeklini değiştiren modifier'lardır. Yani topolojiyi değiştirmeden şeklini değiştirirler.
 
 
-## [Armature](https://docs.blender.org/manual/en/3.6/modeling/modifiers/deform/armature.html)
+## [Armature](https://docs.blender.org/manual/en/latest/modeling/modifiers/deform/armature.html)
 a.
 
 
 
-## [Cast](https://docs.blender.org/manual/en/3.6/modeling/modifiers/deform/cast.html)
+## [Cast](https://docs.blender.org/manual/en/latest/modeling/modifiers/deform/cast.html)
 Bu modifier mesh'i küre, silindir veya kübik şekle getirir, isterseniz belirli bir nokta belirtebilir veya orijin noktasını kullanabilirsiniz. Ayrıca modifier'ın düzgün çalışabilmesi için mesh'in yeterince vertex'e sahip olması gerekir.
 
 
@@ -962,7 +962,7 @@ https://github.com/helallao/qweqwe/assets/78656003/b32ac485-63aa-48d6-9734-0de8b
 
 
 
-## [Curve](https://docs.blender.org/manual/en/3.6/modeling/modifiers/deform/curve.html)
+## [Curve](https://docs.blender.org/manual/en/latest/modeling/modifiers/deform/curve.html)
 Bu modifier mesh'i seçtiğiniz curve üzerinde sabitler. Mesh'i curve üzerinde hareket ettirebilir ve curve'e göre deforme ettirebilirsiniz, yani curve'ün büküldüğü kısımlarda mesh'in şekli de bundan etkilenir.
 
 
@@ -977,7 +977,7 @@ Sadece bu vertex group'un içindeki vertex'ler modifier'dan etkilenir. Vertex'le
 
 
 
-## [Displace](https://docs.blender.org/manual/en/3.6/modeling/modifiers/deform/displace.html)
+## [Displace](https://docs.blender.org/manual/en/latest/modeling/modifiers/deform/displace.html)
 Bu modifier verdiğiniz displacement texture'undaki değerler ile mesh'e displacement uygular. Modifier'ın düzgün çalışabilmesi için mesh'in yeterince vertex'e sahip olması gerekir yani vertex sayısı displacement kalitesini direktmen etkiler.
 
 
@@ -1017,7 +1017,7 @@ Sadece bu vertex group'un içindeki vertex'ler modifier'dan etkilenir. Vertex'le
 
 
 
-## [Hook](https://docs.blender.org/manual/en/3.6/modeling/modifiers/deform/hooks.html)
+## [Hook](https://docs.blender.org/manual/en/latest/modeling/modifiers/deform/hooks.html)
 Bu modifier mesh üzerindeki vertex'leri hook olarak belirtilen objeye bağlar ve obje hareket ettikçe vertex'ler de hareket eder. Ayrıca hook modifier'ı eklemenin kolay bir yolu da edit modda (Ctrl + H) kısayolunu kullanmaktır, tabi önce hook'a bağlanacak vertex'leri seçmelisiniz. Ayrıca bu modifier genellikle [Laplacian Deform](#laplacian-deform) modifier'ı ile birlikte kullanılır ve güzel bir kombinasyon oluştururlar. Animasyon değil de, küçük poz değişiklikleri yapmak istediğinizde çok kullanışlıdırlar.
 
 
@@ -1052,7 +1052,7 @@ Bu ayar scale değeri farklı olan eksenlerde Falloff'un farklı olmasını enge
 
 
 
-## [Laplacian Deform](https://docs.blender.org/manual/en/3.6/modeling/modifiers/deform/laplacian_deform.html)
+## [Laplacian Deform](https://docs.blender.org/manual/en/latest/modeling/modifiers/deform/laplacian_deform.html)
 Bu modifier belirlediğiniz anchor vertex'lerden birisi hareket edince, diğer anchor vertex'leri hareket ettirmeden mesh'i bütün olarak (sanki proportional editing gibi) deforme eder, yani şekillendirir. Bu modifier genellikle [Hook](#hook) modifier'ı ile birlikte kullanılır ve güzel bir kombinasyon oluştururlar. Animasyon değil de, küçük poz değişiklikleri yapmak istediğinizde çok kullanışlıdırlar.
 
 
@@ -1067,7 +1067,7 @@ Modifier'ı açar/kapatır. Bunu mesela modifier'ı kullanmadan anchor vertex'le
 
 
 
-## [Lattice](https://docs.blender.org/manual/en/3.6/modeling/modifiers/deform/lattice.html)
+## [Lattice](https://docs.blender.org/manual/en/latest/modeling/modifiers/deform/lattice.html)
 Lattice kullanıldığında oluşturulan modifier'dır. Eğer obje lattice'e "Lattice Deform" modunda parent'lanırsa bu modifier oluşturulur.
 
 
@@ -1082,7 +1082,7 @@ Lattice modifier'ın etki derecesi.
 
 
 
-## [Mesh Deform](https://docs.blender.org/manual/en/3.6/modeling/modifiers/deform/mesh_deform.html)
+## [Mesh Deform](https://docs.blender.org/manual/en/latest/modeling/modifiers/deform/mesh_deform.html)
 [Lattice](#lattice) gibidir ama mesh'i deforme etmek, yani şekillendirmek için başka bir mesh'i kullanır. Kullnılan mesh'in vertex'leri hareket ettirildikçe bu modifier'a sahip olan mesh'in de şekli değişir.
 
 
@@ -1103,7 +1103,7 @@ Modifier'ı açar/kapatır. Bunu mesela modifier'ı kullanmadan mesh'in vertex'l
 
 
 
-## [Shrinkwrap](https://docs.blender.org/manual/en/3.6/modeling/modifiers/deform/shrinkwrap.html)
+## [Shrinkwrap](https://docs.blender.org/manual/en/latest/modeling/modifiers/deform/shrinkwrap.html)
 Bu modifier bir objeyi başka bir objenin yüzeyine sarmaya/sarmalamaya yarar. Objeyi hedef objenin üzerine yansıtmamıza yarar. Modifier'ın düzgün çalışabilmesi için objenin yeterince vertex'e sahip olması gerekir yani vertex sayısı modifier kalitesini direktmen etkiler.
 
 
@@ -1160,7 +1160,7 @@ Modifier'dan etkilenecek vertex group, sadece bu vertex group'un içindeki verte
 
 
 
-## [Simple Deform](https://docs.blender.org/manual/en/3.6/modeling/modifiers/deform/simple_deform.html)
+## [Simple Deform](https://docs.blender.org/manual/en/latest/modeling/modifiers/deform/simple_deform.html)
 Bu modifier objeye orijin noktasından başlayarak deformasyon uygular. İstediğiniz modu kullanarak farklı işlemler uygulayabilirsiniz. Modifier'ın düzgün çalışabilmesi için objenin yeterince vertex'e sahip olması gerekir yani vertex sayısı modifier kalitesini direktmen etkiler.
 
 
@@ -1196,7 +1196,7 @@ Modifier'dan etkilenecek vertex group, sadece bu vertex group'un içindeki verte
 
 
 
-## [Smooth](https://docs.blender.org/manual/en/3.6/modeling/modifiers/deform/smooth.html)
+## [Smooth](https://docs.blender.org/manual/en/latest/modeling/modifiers/deform/smooth.html)
 Bu modifier smooth tool'unun modifier hali gibidir. Yaptıkları iş bakımından aynıdırlar denebilir. Bu modifier'ı düzgün bir şekilde kullanmayı amaçlıyorsanız "Factor" değerini değiştirmeyin, "Repeat" değerini yükseltin, bu beklenen yumuşatma efektini verecektir.
 
 
@@ -1214,12 +1214,12 @@ Modifier'dan etkilenecek vertex group, sadece bu vertex group'un içindeki verte
 
 
 
-## [Smooth Corrective](https://docs.blender.org/manual/en/3.6/modeling/modifiers/deform/corrective_smooth.html)
+## [Smooth Corrective](https://docs.blender.org/manual/en/latest/modeling/modifiers/deform/corrective_smooth.html)
 Bilmiyorum.
 
 
 
-## [Smooth Laplacian](https://docs.blender.org/manual/en/3.6/modeling/modifiers/deform/laplacian_smooth.html)
+## [Smooth Laplacian](https://docs.blender.org/manual/en/latest/modeling/modifiers/deform/laplacian_smooth.html)
 Bu modifier mesh'in minimal düzeyde şeklini değiştirerek yumuşatma uygular.
 
 
@@ -1246,7 +1246,7 @@ Modifier'dan etkilenecek vertex group, sadece bu vertex group'un içindeki verte
 
 
 
-## [Surface Deform](https://docs.blender.org/manual/en/3.6/modeling/modifiers/deform/surface_deform.html)
+## [Surface Deform](https://docs.blender.org/manual/en/latest/modeling/modifiers/deform/surface_deform.html)
 Bu modifier mesh'in bütün vertex'lerini hedef olarak seçtiğiniz mesh'in yüzeyine bağlar ve hedef mesh'in vertex'leri hareket ettiğinde bu modifier'a sahip olan mesh de hareket eder. Yani mesh'e başka bir mesh aracılığı ile deformasyon uygulanır. Modifier'ın düzgün çalışabilmesi için objenin yeterince vertex'e sahip olması gerekir yani vertex sayısı modifier kalitesini direktmen etkiler. Bu modifier'ın en çok kullanıldığı yöntemlerden biri kıyafet simulasyonlarıdır. Bu [video'ya](https://www.youtube.com/watch?v=3tYqf2bmOUI) bakabilirsiniz.
 
 
@@ -1270,12 +1270,12 @@ Modifier'ı açar/kapatır yani mesh'leri birbirine bağlar.
 
 
 
-## [Volume Displace](https://docs.blender.org/manual/en/3.6/modeling/modifiers/deform/volume_displace.html)
+## [Volume Displace](https://docs.blender.org/manual/en/latest/modeling/modifiers/deform/volume_displace.html)
 Bilmiyorum.
 
 
 
-## [Warp](https://docs.blender.org/manual/en/3.6/modeling/modifiers/deform/warp.html)
+## [Warp](https://docs.blender.org/manual/en/latest/modeling/modifiers/deform/warp.html)
 Bu modifier [Hook](#hook) ve [Displace](#displace) modifier'larının birleşimi gibidir. "From" olarak belirttiğiniz objeden "To" olarak belirttiğiniz objeye doğru vertex'leri hareket ettirir. Modifier'ın düzgün çalışabilmesi için objenin yeterince vertex'e sahip olması gerekir yani vertex sayısı modifier kalitesini direktmen etkiler.
 
 
@@ -1314,7 +1314,7 @@ Koordinat sistemi. [Displace](#displace) modifier'ındaki "Coordinates" ile ayn�
 
 
 
-## [Wave](https://docs.blender.org/manual/en/3.6/modeling/modifiers/deform/wave.html)
+## [Wave](https://docs.blender.org/manual/en/latest/modeling/modifiers/deform/wave.html)
 Bu modifier objenin geometrisine dalga animasyonu verir. Modifier'ın düzgün çalışabilmesi için objenin yeterince vertex'e sahip olması gerekir yani vertex sayısı modifier kalitesini direktmen etkiler. Tek bir dalga efekti sizi çok etkilememiş olabilir ama birden fazla dalga yapıp her birine farklı ayarlar yapınca gerçekten çok gerçekçi dalgalı su efektleri oluşturabilirsiniz. Aslında biraz daha teknik ve profesyonel bir açıdan bakacak olursanız bu modifier'ı sinüs dalgası olarak kullanabilirsiniz, ki bu da çok fazla kombinasyon yapılabileceğini gösteriyor.
 
 
@@ -1383,43 +1383,43 @@ Koordinat sistemi. [Displace](#displace) modifier'ındaki "Coordinates" ile ayn�
 <br>
 
 
-# [Physics](https://docs.blender.org/manual/en/3.6/modeling/modifiers/index.html#physics)
+# [Physics](https://docs.blender.org/manual/en/latest/modeling/modifiers/index.html#physics)
 a
 
 
-## [Cloth](https://docs.blender.org/manual/en/3.6/modeling/modifiers/physics/cloth.html)
+## [Cloth](https://docs.blender.org/manual/en/latest/modeling/modifiers/physics/cloth.html)
 Bilmiyorum.
 
 
-## [Collision](https://docs.blender.org/manual/en/3.6/modeling/modifiers/physics/collision.html)
+## [Collision](https://docs.blender.org/manual/en/latest/modeling/modifiers/physics/collision.html)
 Bilmiyorum.
 
 
-## [Dynamic Paint](https://docs.blender.org/manual/en/3.6/modeling/modifiers/physics/dynamic_paint.html)
+## [Dynamic Paint](https://docs.blender.org/manual/en/latest/modeling/modifiers/physics/dynamic_paint.html)
 Bilmiyorum.
 
 
-## [Explode](https://docs.blender.org/manual/en/3.6/modeling/modifiers/physics/explode.html)
+## [Explode](https://docs.blender.org/manual/en/latest/modeling/modifiers/physics/explode.html)
 Bilmiyorum.
 
 
-## [Fluid](https://docs.blender.org/manual/en/3.6/modeling/modifiers/physics/fluid.html)
+## [Fluid](https://docs.blender.org/manual/en/latest/modeling/modifiers/physics/fluid.html)
 Bilmiyorum.
 
 
-## [Ocean](https://docs.blender.org/manual/en/3.6/modeling/modifiers/physics/ocean.html)
+## [Ocean](https://docs.blender.org/manual/en/latest/modeling/modifiers/physics/ocean.html)
 Bilmiyorum.
 
 
-## [Particle Instance](https://docs.blender.org/manual/en/3.6/modeling/modifiers/physics/particle_instance.html)
+## [Particle Instance](https://docs.blender.org/manual/en/latest/modeling/modifiers/physics/particle_instance.html)
 Bilmiyorum.
 
 
-## [Particle System](https://docs.blender.org/manual/en/3.6/modeling/modifiers/physics/particle_system.html)
+## [Particle System](https://docs.blender.org/manual/en/latest/modeling/modifiers/physics/particle_system.html)
 Bilmiyorum.
 
 
-## [Soft Body](https://docs.blender.org/manual/en/3.6/modeling/modifiers/physics/soft_body.html)
+## [Soft Body](https://docs.blender.org/manual/en/latest/modeling/modifiers/physics/soft_body.html)
 Bilmiyorum.
 
 

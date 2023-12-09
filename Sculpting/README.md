@@ -1036,16 +1036,21 @@ Bu brush aslında tam olarak brush değildir, brush gibi çizim yapmazsınız. M
 
 
 * #### Filter Type
-a
+Kullanılacak filtre/efekt.
+
+Mod | Açıklama
+:---: | :---:
+Smooth | [Smooth](#smooth) efekti uygular.
+Scale | Scale efekti uygular yani mesh'i boyutlandırır.
 
 * #### Strength
-a
+Uygulanan efektin şiddeti.
 
 * #### Deform Axis
-a
+Efektin hangi eksenlerde uygulanacağını belirler. Efekti sadece seçtiğiniz eksenlerde uygular.
 
 * #### Orientation
-a
+"Deform Axis" ayarı için kullanılacak eksenlerin uzayını belirler.
 
 
 

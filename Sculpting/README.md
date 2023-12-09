@@ -1032,7 +1032,22 @@ Bu ayar kapalı iken doğru sonsuza kadar gidiyormuş gibi varsayılarak sıkı�
 
 
 ## [Mesh Filter](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/tools/mesh_filter.html)
+Bu brush aslında tam olarak brush değildir, brush gibi çizim yapmazsınız. Mesh üzerinde çeşitli işlemler yapmamıza yarayan bir araçtır. Ekrana tıklayıp sağa veya sola kaydırarak seçtiğiniz işlemi/efekti uygulayabilirsiniz. Sol altta açılan son işlem panelinden ayarlamalarınızı yapabilirsiniz.
+
+
+* #### Filter Type
 a
+
+* #### Strength
+a
+
+* #### Deform Axis
+a
+
+* #### Orientation
+a
+
+
 
 ## [Cloth Filter](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/tools/cloth_filter.html)
 a

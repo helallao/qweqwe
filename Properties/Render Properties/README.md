@@ -170,7 +170,7 @@ Sadece "Render Engine" ayarı "Cycles" iken vardır. Shader'larda Open Shading L
 <br>
 
 
-# [Sampling](https://docs.blender.org/manual/en/3.6/render/cycles/render_settings/sampling.html)
+# [Sampling](https://docs.blender.org/manual/en/latest/render/cycles/render_settings/sampling.html)
 Bu kategoride genel olarak render ve sampling işlemi ile ilgili ayarlar yani ışık ışınları ile ilgili ayarlar vardır.
 
 
@@ -270,7 +270,7 @@ Transparent ışık ışınları için minimum sekme sayısı. Bu sayıyı artt�
 <br>
 
 
-# [Light Paths](https://docs.blender.org/manual/en/3.6/render/cycles/render_settings/light_paths.html)
+# [Light Paths](https://docs.blender.org/manual/en/latest/render/cycles/render_settings/light_paths.html)
 Bu kategoride ışık ve ışık ışınları ile ilgili ayarlar vardır. Default olarak gelen değerler biraz fazla olabilir, tabi amacınıza göre bunları kendiniz belirlemelisiniz ama genel olarak güzel sonuç veren bir şekilde ayar yapacak olursanız şöyle yapabilirsiniz, sırasıyla: 4, 2, 2, 4, 0, 4.
 
 
@@ -345,7 +345,7 @@ Render için ışığın kaç defa sektikten sonra hesaplanacağını ayarlar.
 <br>
 
 
-# [Volumes](https://docs.blender.org/manual/en/3.6/render/cycles/render_settings/volumes.html)
+# [Volumes](https://docs.blender.org/manual/en/latest/render/cycles/render_settings/volumes.html)
 Bu kategoride volume'ler ile ilgili ayarlar var.
 
 
@@ -363,7 +363,7 @@ Volume hesaplanırken gönderilen ışınların volume içerisinde ne kadar deri
 <br>
 
 
-# [Subdivision](https://docs.blender.org/manual/en/3.6/render/cycles/render_settings/subdivision.html)
+# [Subdivision](https://docs.blender.org/manual/en/latest/render/cycles/render_settings/subdivision.html)
 Bu kategori "Adaptive Subdivision" ile ilgili ayarları barındırır. "Adaptive Subdivision" özelliği sadece [Feature Set](#feature-set) ayarı "Experimental" olarak ayarlandığında kullanılabilir. Dolayısıyla bu kategori de [Feature Set](#feature-set) ayarı "Experimental" olarak ayarlandığında görünecektir.
 
 
@@ -387,7 +387,7 @@ Dicing için kullanılacak kamera, uzaklıklar ve kamera dışındaki objeleri h
 <br>
 
 
-# [Curves](https://docs.blender.org/manual/en/3.6/render/cycles/render_settings/hair.html)
+# [Curves](https://docs.blender.org/manual/en/latest/render/cycles/render_settings/hair.html)
 Bu kategorinin eski adı "Hair" di.
 
 
@@ -411,7 +411,7 @@ a
 <br>
 
 
-# [Simplify](https://docs.blender.org/manual/en/3.6/render/cycles/render_settings/simplify.html)
+# [Simplify](https://docs.blender.org/manual/en/latest/render/cycles/render_settings/simplify.html)
 Bu kategoride sahne için hem Viewport hem de render üzerinde kullanılacak özellikleri sınırlandırabiliriz. Buradaki ayarlar ile genel olarak sahne üzerinde efektlere sınırlar koyabiliriz. Kategorinin yanındaki tik işaretine basarak bu sınırlandırmaları etkinleştirebilir/devre dışı bırakabilirsiniz.
 
 
@@ -476,7 +476,7 @@ a
 <br>
 
 
-# [Motion Blur](https://docs.blender.org/manual/en/3.6/render/cycles/render_settings/motion_blur.html)
+# [Motion Blur](https://docs.blender.org/manual/en/latest/render/cycles/render_settings/motion_blur.html)
 Bu kategoride [motion blur](https://en.wikipedia.org/wiki/Motion_blur) efekti ile ilgili ayarları yapabilirsiniz. Motion blur frame'ler arasına geçiş efekti ekler. Eğer animasyon yapıyorsanız motion blur animasyonlarınıza gerçekçilik ekleyecektir. Kategorinin yanındaki tik işaretine basarak motion blur'u etkinleştirebilir/devre dışı bırakabilirsiniz.
 
 
@@ -511,7 +511,7 @@ Curve Widget kullanımı hakkında detaylı açıklamalara [buradan](https://doc
 <br>
 
 
-# [Film](https://docs.blender.org/manual/en/3.6/render/cycles/render_settings/film.html)
+# [Film](https://docs.blender.org/manual/en/latest/render/cycles/render_settings/film.html)
 Bu kategoride render ile ilgili görünüm ve filtre ayarları var.
 
 
@@ -548,7 +548,7 @@ Sadece "Transparent Glass" ayarı açıkken vardır. Bu ayar "Transparent Glass"
 <br>
 
 
-# [Performance](https://docs.blender.org/manual/en/3.6/render/cycles/render_settings/performance.html)
+# [Performance](https://docs.blender.org/manual/en/latest/render/cycles/render_settings/performance.html)
 Bu kategoride render performans ayarları vardır.
 
 
@@ -601,7 +601,7 @@ Viewport için sahne çözünürlüğü, 2x yaparsanız %50, 4x yaparsanız %25 
 <br>
 
 
-# [Bake](https://docs.blender.org/manual/en/3.6/render/cycles/baking.html)
+# [Bake](https://docs.blender.org/manual/en/latest/render/cycles/baking.html)
 a.
 
 
@@ -609,7 +609,7 @@ a.
 <br>
 
 
-# [Grease Pencil](https://docs.blender.org/manual/en/3.6/render/cycles/render_settings/grease_pencil.html)
+# [Grease Pencil](https://docs.blender.org/manual/en/latest/render/cycles/render_settings/grease_pencil.html)
 a.
 
 
@@ -621,7 +621,7 @@ a.
 <br>
 
 
-# [Freestyle](https://docs.blender.org/manual/en/3.6/render/freestyle/render.html)
+# [Freestyle](https://docs.blender.org/manual/en/latest/render/freestyle/render.html)
 a.
 
 
@@ -636,7 +636,7 @@ a.
 <br>
 
 
-# [Color Management](https://docs.blender.org/manual/en/3.6/render/color_management.html)
+# [Color Management](https://docs.blender.org/manual/en/latest/render/color_management.html)
 Bu kategoride renk ayarları vardır. Buradaki ayarları daha iyi anlamak için [buraya](https://blender.stackexchange.com/questions/134495/color-management-what-is-the-difference-between-display-device-view-transform) bakabilirsiniz.
 
 

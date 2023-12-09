@@ -54,7 +54,7 @@
 <br>
 
 
-# [Format](https://docs.blender.org/manual/en/3.6/render/output/properties/format.html)
+# [Format](https://docs.blender.org/manual/en/latest/render/output/properties/format.html)
 Bu kategori render çıktısı için ekran boyutunun (çözünürlük) ve frame rate'inin (fps) ayarlarının olduğu bölümdür.
 
 
@@ -74,7 +74,7 @@ Aspect ratio yani en boy oranı için X ekseni değeri. Bu değeri attırırsan�
 Aspect ratio yani en boy oranı için Y ekseni değeri. Bu değeri attırırsanız Y ekseni sündürülür. En boy oranı standart orandan farklı olan ekranlar içindir.
 
 * #### Render Region
-Bu ayar açıkken sadece ["Render Region"](https://docs.blender.org/manual/en/3.6/editors/3dview/navigate/regions.html#render-region) olarak seçilen yer render edilir. Çıktının geriye kalan yerleri görünmez olarak ayarlanır.
+Bu ayar açıkken sadece ["Render Region"](https://docs.blender.org/manual/en/latest/editors/3dview/navigate/regions.html#render-region) olarak seçilen yer render edilir. Çıktının geriye kalan yerleri görünmez olarak ayarlanır.
 
 * #### Crop to Render Region
 Sadece "Render Region" ayarı açıkken vardır. Bu ayar açık değilken "Render Region" ayarı seçilen kısmı render eder, geriye kalan kısımlar ise görünmez olarak ayarlanır. Yani çıktı hala aynı boyuttadır ve sadece "Render Region" olarak seçilen kısım render edilir. Eğer bu ayarı açarsanız çıktıda arka plan da gösterilmez. Sadece "Render Region" olarak seçilen kısım render edilir ve bu kısım çıktının kendisidir.
@@ -87,7 +87,7 @@ Animasyonun frame rate'i (fps, kare hızı).
 <br>
 
 
-# [Frame Range](https://docs.blender.org/manual/en/3.6/render/output/properties/frame_range.html)
+# [Frame Range](https://docs.blender.org/manual/en/latest/render/output/properties/frame_range.html)
 Bu kategori yaptığınız animasyonun frame (fps, kare hızı) sayısını ve hızını ayarladığınız bölümdür.
 
 
@@ -114,7 +114,7 @@ Frame başına atlanacak frame sayısı, adım sayısı. Mesela bunu 2 yaparsan�
 <br>
 
 
-# [Stereoscopy](https://docs.blender.org/manual/en/3.6/render/output/properties/stereoscopy/index.html)
+# [Stereoscopy](https://docs.blender.org/manual/en/latest/render/output/properties/stereoscopy/index.html)
 a.
 
 
@@ -122,7 +122,7 @@ a.
 <br>
 
 
-# [Output](https://docs.blender.org/manual/en/3.6/render/output/properties/output.html)
+# [Output](https://docs.blender.org/manual/en/latest/render/output/properties/output.html)
 Render çıktısının dosyası ile ilgili ayarların olduğu bölümdür.
 
 
@@ -152,8 +152,8 @@ Render işlemi başlayınca oluşturulacak bütün dosyalar için aynı isimde b
 <br>
 
 
-# [Metadata](https://docs.blender.org/manual/en/3.6/render/output/properties/metadata.html)
-Çıktı dosyasına yazılacak bilgileri belirlediğiniz kategoridir. Metadata eklemeyi destekleyen formatlara [buradan](https://docs.blender.org/manual/en/3.6/files/media/image_formats.html) ulaşabilirsiniz.
+# [Metadata](https://docs.blender.org/manual/en/latest/render/output/properties/metadata.html)
+Çıktı dosyasına yazılacak bilgileri belirlediğiniz kategoridir. Metadata eklemeyi destekleyen formatlara [buradan](https://docs.blender.org/manual/en/latest/files/media/image_formats.html) ulaşabilirsiniz.
 
 
 * #### Metadata Input
@@ -189,7 +189,7 @@ Resmin içerisinde görünecek yazı eklemenize yarar.
 <br>
 
 
-# [Post Processing](https://docs.blender.org/manual/en/3.6/render/output/properties/post_processing.html)
+# [Post Processing](https://docs.blender.org/manual/en/latest/render/output/properties/post_processing.html)
 Render sonrası efektler/işlemler ile ilgili ayarların olduğu kategoridir.
 
 

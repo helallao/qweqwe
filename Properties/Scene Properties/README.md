@@ -34,7 +34,7 @@
 <br>
 
 
-# [Scene](https://docs.blender.org/manual/en/3.6/scene_layout/scene/properties.html#scene)
+# [Scene](https://docs.blender.org/manual/en/latest/scene_layout/scene/properties.html#scene)
 Bu kategoride sahne ile ilgili ayarlar var.
 
 
@@ -52,7 +52,7 @@ Bilmiyorum.
 <br>
 
 
-# [Units](https://docs.blender.org/manual/en/3.6/scene_layout/scene/properties.html#units)
+# [Units](https://docs.blender.org/manual/en/latest/scene_layout/scene/properties.html#units)
 Bu kategoride sahnenin ölçü sistemi ile ilgili ayarlar var.
 
 
@@ -85,7 +85,7 @@ Sıcaklık için kullanılacak ölçü birimi.
 <br>
 
 
-# [Gravity](https://docs.blender.org/manual/en/3.6/scene_layout/scene/properties.html#gravity)
+# [Gravity](https://docs.blender.org/manual/en/latest/scene_layout/scene/properties.html#gravity)
 Bu kategoride yerçekimi ile ilgili ayarlar var.
 
 
@@ -103,7 +103,7 @@ Fizik efektleri (Physics Effects) için Z ekseninde yerçekimi.
 <br>
 
 
-# [Keying Sets](https://docs.blender.org/manual/en/3.6/animation/keyframes/keying_sets.html)
+# [Keying Sets](https://docs.blender.org/manual/en/latest/animation/keyframes/keying_sets.html)
 Bu kategoride "Keying Sets" ile ilgili ayarlar var. Blender'ın bu konu ile ilgili kendi kaynağını yeterince açıklayıcı buldum, linke tıklayarak okuyabilirsiniz. Ayrıca "Keying Sets" konusu birazcık animasyon editörleri bilgisi gerektirir, youtube'den blender'da timeline kullanımı hakkında videolara bakarsanız zaten hemen anlarsınız ([mesela bu](https://www.youtube.com/watch?v=BLebjFHiDqk)).
 
 
@@ -111,7 +111,7 @@ Bu kategoride "Keying Sets" ile ilgili ayarlar var. Blender'ın bu konu ile ilgi
 <br>
 
 
-# [Audio](https://docs.blender.org/manual/en/3.6/scene_layout/scene/properties.html#audio)
+# [Audio](https://docs.blender.org/manual/en/latest/scene_layout/scene/properties.html#audio)
 Bu kategoride sahnedeki sesler ile ilgili ayarlar vardır.
 
 
@@ -135,7 +135,7 @@ Animasyonun önbellekteki ses verilerini siler. Refresh atar yani.
 <br>
 
 
-# [Rigid Body World](https://docs.blender.org/manual/en/3.6/scene_layout/scene/properties.html#rigid-body-world)
+# [Rigid Body World](https://docs.blender.org/manual/en/latest/scene_layout/scene/properties.html#rigid-body-world)
 Bilmiyorum.
 
 

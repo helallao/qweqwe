@@ -1258,7 +1258,7 @@ Maskeyi siler. Kısayolu "Alt + M" dir ([Kısayollar](#kısayollar-1) bölümün
 
 
 ## [Lasso Mask](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/editing/mask.html#lasso-mask)
-[Lasso Mask](#lasso-mask) brush'ı ile aynı işlevi görür. Kısayolu "Shift + Ctrl + Sağ Tık" dır ([Kısayollar](#kısayollar-1) bölümünden "Maske Kısayolları" na bakın).
+[Lasso Mask](#lasso-mask) brush'ı ile aynı işlevi görür. Kısayolu "Ctrl + Shift + Sağ Tık" dır ([Kısayollar](#kısayollar-1) bölümünden "Maske Kısayolları" na bakın).
 
 
 ## [Smooth Mask](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/editing/mask.html#mask-filters)

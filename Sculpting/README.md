@@ -1290,11 +1290,11 @@ Tıkladığınız noktadan mouse'unuzu hareket ettirdikçe çevreye doğru geome
 
 
 ## [Expand Mask by Normals](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/editing/expand.html#expand-mask-by-normals)
-a
+[Expand Mask by Topology](#expand-mask-by-topology) gibi tıkladığınız noktadan mouse'unuzu hareket ettirdikçe çevreye doğru geometriyi takip ederek yayılan bir maske oluşturma aracıdır, ama geometriyi takip etmek yerine aslında normal'ı yani vertex'lerin baktığı yönü takip eder. Yani eğer çevredeki geometri tıkladığınız noktadaki vertex ile aynı yöne doğru bakıyorsa maskelenir ama farklı bir yöne doğru bakıyorsa yani eğim çoksa maskelenmez. Kısayolu "Shift + Alt + A" dır ([Kısayollar](#kısayollar-1) bölümünden "Maske Kısayolları" na bakın). Ayrıca bu aracı ister toolbar (araç çubuğu) menüsünden, ister kısayola basarak kullanın, bu araç mouse'unuzun mesh üzerindeki en son konumunu baz alarak çalışır, yani mesela mouse'unuzu mesh'in bir köşesinin üzerine getirin sonra da mouse'unuzu kenara çekin ve kısayola tıklayın, aracın mouse'unuzun mesh üzerinde bulunduğu son konumu baz alarak çalıştığını görebilirsiniz.
 
 
 ## [Mask Extract](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/editing/mask.html#mask-extract)
-a
+Mesh'in maskelenen kısmını yeni bir mesh olarak çıkarır.
 
 
 ## [Mask Slice](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/editing/mask.html#mask-slice)
@@ -1370,6 +1370,7 @@ B | [Box Mask'in](#box-mask-1) kısayoludur.
 Ctrl + Shift + Sağ Tık | [Lasso Mask'in](#lasso-mask-1) kısayoludur.
 A | Maske işlemlerinin olduğu bir menünün kısayoludur.
 Shift + A | [Expand Mask by Topology'nin](#expand-mask-by-topology) kısayoludur.
+Shift + Alt + A | [Expand Mask by Normals'ın](#expand-mask-by-normals) kısayoludur.
 
 </details>
 

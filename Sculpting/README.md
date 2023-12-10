@@ -1278,11 +1278,16 @@ Maskeyi küçültür. "A" kısayolunu kullanarak çıkan menüden ulaşabilirsin
 
 
 ## [Increase Contrast](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/editing/mask.html#mask-filters)
-Maskeyi küçültür. "A" kısayolunu kullanarak çıkan menüden ulaşabilirsiniz ([Kısayollar](#kısayollar-1) bölümünden "Maske Kısayolları" na bakın).
+Maskenin kontrastını arttırır yani maske değerini yükseltir. "A" kısayolunu kullanarak çıkan menüden ulaşabilirsiniz ([Kısayollar](#kısayollar-1) bölümünden "Maske Kısayolları" na bakın).
 
 
 ## [Decrease Contrast](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/editing/mask.html#mask-filters)
-Maskeyi küçültür. "A" kısayolunu kullanarak çıkan menüden ulaşabilirsiniz ([Kısayollar](#kısayollar-1) bölümünden "Maske Kısayolları" na bakın).
+Maskenin kontrastını azaltır yani maske değerini düşürür. "A" kısayolunu kullanarak çıkan menüden ulaşabilirsiniz ([Kısayollar](#kısayollar-1) bölümünden "Maske Kısayolları" na bakın).
+
+
+## [Expand Mask by Topology](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/editing/expand.html#expand-mask-by-topology)
+Tıkladığınız noktadan mouse'unuzu hareket ettirdikçe çevreye doğru geometriyi takip ederek yayılan bir maske oluşturma aracıdır. Kısayolu "Shift + A" dır ([Kısayollar](#kısayollar-1) bölümünden "Maske Kısayolları" na bakın).
+
 
 
 
@@ -1338,6 +1343,7 @@ Alt + M | [Clear Mask'in](#clear-mask) kısayoludur. Maskeyi siler.
 B | [Box Mask'in](#box-mask-1) kısayoludur.
 Ctrl + Shift + Sağ Tık | [Lasso Mask'in](#lasso-mask-1) kısayoludur.
 A | Maske işlemlerinin olduğu bir menünün kısayoludur.
+Shift + A | [Expand Mask by Topology'nin](#expand-mask-by-topology) kısayoludur.
 
 </details>
 

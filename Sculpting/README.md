@@ -1253,6 +1253,9 @@ Görünürdeki bütün geometriyi maskeler (gizlenmiş geometri maskelenmez). Ay
 Maskeyi siler. Kısayolu "Alt + M" dir ([Kısayollar](#kısayollar-1) bölümünden "Maske Kısayolları" na bakın).
 
 
+## [Box Mask](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/editing/mask.html#box-mask)
+[Box Mask](#box-mask) brush'ı ile aynı işlevi görür. Kısayolu "B" dir ([Kısayollar](#kısayollar-1) bölümünden "Maske Kısayolları" na bakın).
+
 
 
 <br>
@@ -1304,6 +1307,7 @@ Kısayol | Açıklama
 :---: | :---:
 Ctrl + I | [Invert Mask'in](#invert-mask) kısayoludur. Maskeyi tersine çevirir.
 Alt + M | [Clear Mask'in](#clear-mask) kısayoludur. Maskeyi siler.
+B | [Box Mask'in](#box-mask-1) kısayoludur.
 
 </details>
 

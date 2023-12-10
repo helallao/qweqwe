@@ -1289,6 +1289,32 @@ Maskenin kontrastını azaltır yani maske değerini düşürür. "A" kısayolun
 Tıkladığınız noktadan mouse'unuzu hareket ettirdikçe çevreye doğru geometriyi takip ederek yayılan bir maske oluşturma aracıdır. Kısayolu "Shift + A" dır ([Kısayollar](#kısayollar-1) bölümünden "Maske Kısayolları" na bakın).
 
 
+## [Expand Mask by Normals](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/editing/expand.html#expand-mask-by-normals)
+a
+
+
+## [Mask Extract](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/editing/mask.html#mask-extract)
+a
+
+
+## [Mask Slice](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/editing/mask.html#mask-slice)
+a
+
+
+## [Mask Slice and Fill Holes]()
+a
+
+
+## [Mask Slice to New Object]()
+a
+
+
+## [Mask From Cavity](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/editing/mask.html#mask-from-cavity)
+a
+
+
+## [Random Mask](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/editing/mask.html#random-mask)
+a
 
 
 <br>

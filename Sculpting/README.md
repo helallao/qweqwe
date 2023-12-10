@@ -797,7 +797,9 @@ a
 a
 
 ## [Simplify](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/tools/simplify.html)
-a
+Bu brush Dynamic Topology (Dyntopo) workflow'una özeldir. Bu brush çizim yapmak için kullanılmaz, kullanılma amacı Dynamic Topology tarafından oluşturulmuş kısımların detay miktarını arttırıp/azaltmaktır. Diyelim ki Dynamic Topology kullanırken detay miktarını arttırıp çizim yaptınız, sonra detay miktarı çok olduğu için düşürmek istediniz. Bu durumda bu brush'ı kullanabilirsiniz. Brush'ı kullanabilmeniz için Dynamic Topology'nin açık olması gerekir. Bu brush'ı kullanarak üzerinden geçtiğiniz yerlere Dynamic Topology tarafından şu anki detay seviyesi ne ise o uygulanır. Yani eğer detay derecesini yükseltirseniz çizdiğiniz yerlerdeki geometri de artar, detay derecesini düşürürseniz çizdiğiniz yerlerdeki geometri de azalır. Brush'ın çalışma şekli Dynamic Topology ile beraber kullanılabilen herhangi bir brush'ın çalışma şekli ile aynıdır. Tek farkı bu brush'ın sadece Dynamic Topology efektlerinin uygulanması dışında hiçbir şey yapmamasıdır, bu yüzden brush'ın çalışabilmesi için Dynamic Topology'nin açık olması gerekir. Brush çizdiğiniz yerlerdeki detay miktarını yani geometri miktarını değiştirir ama direktmen mesh'in şeklini değiştirmez.
+
+
 
 ## [Mask](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/tools/mask.html)
 Bu brush maske oluşturmak için kullanılır. Ayrıca bu brush seçili iken "Shift" kısayolu ile [Smooth](#smooth) brush'ı kullanamazsınız. Bu brush'ın kendisine özel "Smooth" adında bir modu vardır ve "Shift" kısayolu bu modu açar. Smooth modu maskenin kenarlarını yumuşatmaya yarar, maskenin keskin kenarlarındaki değerlerin geçişini yumuşatır. Brush'ın kısayolu "M" dir ([Kısayollar](#kısayollar-1) bölümünden "Brush Kısayolları" na bakın).

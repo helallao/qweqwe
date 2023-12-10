@@ -1286,7 +1286,7 @@ Maskenin kontrastını azaltır yani maske değerini düşürür. "A" kısayolun
 
 
 ## [Expand Mask by Topology](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/editing/expand.html#expand-mask-by-topology)
-Tıkladığınız noktadan mouse'unuzu hareket ettirdikçe çevreye doğru geometriyi takip ederek yayılan bir maske oluşturma aracıdır. Kısayolu "Shift + A" dır ([Kısayollar](#kısayollar-1) bölümünden "Maske Kısayolları" na bakın).
+Tıkladığınız noktadan mouse'unuzu hareket ettirdikçe çevreye doğru geometriyi takip ederek yayılan bir maske oluşturma aracıdır. Kısayolu "Shift + A" dır ([Kısayollar](#kısayollar-1) bölümünden "Maske Kısayolları" na bakın). Ayrıca bu aracı ister toolbar (araç çubuğu) menüsünden, ister kısayola basarak kullanın, bu araç mouse'unuzun mesh üzerindeki en son konumunu baz alarak çalışır, yani mesela mouse'unuzu mesh'in bir köşesinin üzerine getirin sonra da mouse'unuzu kenara çekin ve kısayola tıklayın, aracın mouse'unuzun mesh üzerinde bulunduğu son konumu baz alarak çalıştığını görebilirsiniz. Ayrıca bu aracı kullanırken mouse'unuzun mesh üzerinde bulunduğu son konumun üzerinde bir nokta çıkar, böylelikle aracın nereyi baz alarak çalıştığını anlayabilirsiniz.
 
 
 ## [Expand Mask by Normals](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/editing/expand.html#expand-mask-by-normals)

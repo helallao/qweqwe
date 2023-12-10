@@ -1048,7 +1048,7 @@ Random | Vertex'leri normal yönlerinde yani baktıkları yönde rastgele derece
 Relax | [Slide Relax](#slide-relax) brush'ında "Shift" kısayoluna bastığınızda çıkan "Relax" efektini uygular. Mesh'in şeklini bozmadan geometriyi eşit aralıklı olacak hale getirir.
 Relax Face Sets | [Draw Face Sets](#draw-face-sets) brush'ında "Shift" kısayoluna bastığınızda çıkan "Smooth" efektini uygular. Face set'lerin kenarlarını geometriyi düz olacak şekilde hizaya getirerek yumuşatır/düzler.
 Surface Smooth | [Smooth](#smooth) brush'ının "Deformation" modu "Surface" modundayken uyguladığı efekti uygular. Ayrıca bu modda aynı Smooth brush'ındaki gibi "Shape Preservation" ve "Per-Vertex Displacement" ayarları vardır. Bu ayarların açıklamalarına [Smooth](#smooth) brush'ının açıklamasından ulaşabilirsiniz.
-
+Sharpen | Mesh'in eğimine göre, eğimli olan yerlere [Pinch](#pinch) efekti uygulayarak geometriyi yoğunlaştırıp keskinliği arttırırken, eğimsiz yani eğimi düşük olan yerlere de [Smooth](#smooth) efekti uygular ve eğimli kısımları keskin, diğer kısımları da yumuşatılmış bir mesh oluşturur. "Smooth Ratio" ayarını değiştirerek uygulanan yumuşatma efekti derecesini ayarlayabilirsiniz. Eğer istediğiniz derecede yumuşatma uygulanmadıysa "Curvature Smooth Iterations" ayarını değiştirerek yumuşatma işleminin tekrar sayısını arttırabilirsiniz. "Intensify Details" ayarı da eğimli kısımlarda yüksek ve alçak geometrinin arasındaki mesafeyi arttırmaya yarar. Yani tepe ve oyuk olan kısımları birbirlerinden uzaklaştırarak detay miktarını arttırmaya yarar, eğer fazla arttırırsanız detaylar çok fazla olacağı için şekil bozulabilir.
 
 
 * #### Strength

@@ -1242,7 +1242,16 @@ Bu kategoride üst toolbar'ın (araç çubuğu) sol köşesinden ulaşabileceği
 
 
 ## [Invert Mask](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/editing/mask.html#invert-mask)
-Maskeyi tersine çevirir.
+Maskeyi tersine çevirir. Kısayolu "Ctrl + I" dır ([Kısayollar](#kısayollar-1) bölümünden "Maske Kısayolları" na bakın).
+
+
+## [Fill Mask](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/editing/mask.html#fill-mask)
+Görünürdeki bütün geometriyi maskeler (gizlenmiş geometri maskelenmez). Ayrıca maske yokken "Ctrl + I" kısayolu ile [Invert Mask](#invert-mask) kullanarak da aynı sonuca ulaşabilirsiniz.
+
+
+## [Clear Mask](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/editing/mask.html#clear-mask)
+Maskeyi siler. Kısayolu "Alt + M" dir ([Kısayollar](#kısayollar-1) bölümünden "Maske Kısayolları" na bakın).
+
 
 
 
@@ -1294,6 +1303,7 @@ Bu kısayolları tek tek anlatmama gerek yok. "Shift + Boşluk" kısayolunu kull
 Kısayol | Açıklama
 :---: | :---:
 Ctrl + I | [Invert Mask'in](#invert-mask) kısayoludur. Maskeyi tersine çevirir.
+Alt + M | [Clear Mask'in](#clear-mask) kısayoludur. Maskeyi siler.
 
 </details>
 

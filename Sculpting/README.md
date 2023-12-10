@@ -69,7 +69,7 @@ Aşağıdaki döküman sözlük mantığında yapılmıştır, herhangi bir konu
 * [Voxel Remesh](#voxel-remesh)
 * [Multiresolution](#multiresolution)
 
-# [Maske İşlemleri](#maske-işlemleri-1)
+# [Maske İşlemleri](#maske-i̇şlemleri-1)
 
 # [Kısayollar](#kısayollar-1)
 

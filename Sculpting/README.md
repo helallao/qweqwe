@@ -69,6 +69,8 @@ Aşağıdaki döküman sözlük mantığında yapılmıştır, herhangi bir konu
 * [Voxel Remesh](#voxel-remesh)
 * [Multiresolution](#multiresolution)
 
+# [Maske İşlemleri](#maske-işlemleri-1)
+
 # [Kısayollar](#kısayollar-1)
 
 
@@ -1230,6 +1232,20 @@ Tohum değeri, aynı ayarları aynı mesh üzerinde kullandığınızda aynı so
 ## [Multiresolution](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/introduction/adaptive.html#multiresolution)
 Multiresolution workflow'u base mesh (Multiresolution için hazırlanan, ana hatların yapılmış olduğu mesh) hazırlandıktan sonra detayları ve diğer üst düzey ince ayarları yapmak için kullanılan, en son kullanmanız gereken workflow'dur. Eğer Multiresolution workflow'una erken geçerseniz kaba detaylar oluşturamazsınız, eğer geç geçerseniz de önceden yaptığınız detaylar Multiresolution workflow'una geçtikten sonra değişikliğe uğradığından dolayı detayları kaybedebilirsiniz. Multiresolution workflow'una başladıktan sonra Dynamic Topology (Dyntopo) veya Voxel Remesh workflow'larına geri dönemezsiniz. Multiresolution workflow'u yani kısacası [Multiresolution modifier'ı](../Properties/Modifiers#multiresolution) aynı [Subdivision Surface (Subsurf) modifier'ı](../Properties/Modifiers#subdivision-surface) gibi mesh'e subdivide uygular ve geometri sayısını arttırır. [Multiresolution modifier'ı](../Properties/Modifiers#multiresolution) [Subdivision Surface (Subsurf) modifier'ının](../Properties/Modifiers#subdivision-surface) aksine sculpting için uyumlu olarak ayarlanmış bir modifier'dır. Multiresolution'un ana mantığı oluşturulan her bir subdivision level'ını kaydetmek ve istediğiniz zaman yüksek subdivision level'larına geçip yüksek geometri ile, istediğiniz zaman da düşük subdivision level'larına geçip düşük geometri ile çalışabilmenizdir. Subdivision level'ları birbirlerinden etkilenir, yani yüksek geometri miktarı ile ince detayları, düşük geometri miktarı ile kaba detayları hızlıca yapabilirsiniz. Yaptığınız değişiklikler otomatikmen alt ve üst subdivision level'larına da uygulanır. Her subdivision level'ına uygulanan değişiklikler "Displacement" olarak adlandırılır. Multiresolution workflow'una başladıktan sonra Dynamic Topology (Dyntopo) veya Voxel Remesh workflow'larına geri dönerseniz displacement'ler üzerinde hatalara ve bozulmalara sebep olursunuz. Multiresolution modifier'ı hakkında daha fazla bilgiye ulaşmak için [buradan](../Properties/Modifiers#multiresolution) modifier'ın ayarlarının açıklamalarına bakabilirsiniz. Ayrıca Multiresolution modifier'ı eklemenin kısayolu da "Ctrl" tuşuna basılı tutarken istediğiniz subdivision level'ının sayısına basmaktır. Yani mesela "Ctrl + 3" kısayoluna tıklarsanız subdivision level'ı 3 olan Multiresolution modifier'ı eklenir. Bu sayı en fazla 5 olabilir ([Kısayollar](#kısayollar-1) bölümünden "Workflow Kısayolları" na bakın).
 
+
+<br>
+<br>
+
+
+# Maske İşlemleri
+Bu kategoride üst toolbar'ın (araç çubuğu) sol köşesinden ulaşabileceğiniz "Mask" kategorisindeki işlemlerin açıklamaları vardır.
+
+
+## [Invert Mask](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/editing/mask.html#invert-mask)
+Maskeyi tersine çevirir.
+
+
+
 <br>
 <br>
 
@@ -1271,6 +1287,15 @@ Bu kısayolları tek tek anlatmama gerek yok. "Shift + Boşluk" kısayolunu kull
 </details>
 
 
+<details>
+<summary>Maske Kısayolları</summary>
+<br>
+
+Kısayol | Açıklama
+:---: | :---:
+Ctrl + I | [Invert Mask'in](#invert-mask) kısayoludur. Maskeyi tersine çevirir.
+
+</details>
 
 
 

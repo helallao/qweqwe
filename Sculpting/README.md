@@ -1433,11 +1433,11 @@ Bu kısayolları tek tek anlatmama gerek yok. "Shift + Boşluk" kısayolunu kull
 
 Kısayol | Açıklama
 :---: | :---:
-Ctrl + I | [Invert Mask'in](#invert-mask) kısayoludur. Maskeyi tersine çevirir.
-Alt + M | [Clear Mask'in](#clear-mask) kısayoludur. Maskeyi siler.
+A | Maske işlemlerinin olduğu bir menünün kısayoludur.
 B | [Box Mask'in](#box-mask-1) kısayoludur.
 Ctrl + Shift + Sağ Tık | [Lasso Mask'in](#lasso-mask-1) kısayoludur.
-A | Maske işlemlerinin olduğu bir menünün kısayoludur.
+Ctrl + I | [Invert Mask'in](#invert-mask) kısayoludur. Maskeyi tersine çevirir.
+Alt + M | [Clear Mask'in](#clear-mask) kısayoludur. Maskeyi siler.
 Shift + A | [Expand Mask by Topology'nin](#expand-mask-by-topology) kısayoludur.
 Shift + Alt + A | [Expand Mask by Normals'ın](#expand-mask-by-normals) kısayoludur.
 

@@ -1294,7 +1294,7 @@ Tıkladığınız noktadan mouse'unuzu hareket ettirdikçe çevreye doğru geome
 
 
 ## [Mask Extract](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/editing/mask.html#mask-extract)
-Mesh'in maskelenen kısmını yeni bir mesh olarak çıkarır.
+Maskelenmiş geometriyi yeni bir mesh olarak çıkarmaya yarar. Eğer maske değeri "Threshold" değerinin üstünde ise geometri yeni bir mesh objesi olarak kopyalanır. "Add Boundary Loop" ayarı yeni mesh'in çevresini yeni bir face loop ile kaplar, bu ayar kapalı iken "Smooth Iterations" ayarı kullanılamaz yani yumuşatma uygulanamaz, ayrıca bu face loop yeni mesh'e uygulanacak modifier'ların da düzgün çalışabilmesi için önemlidir. "Smooth Iterations" ayarı yeni mesh'in kenarlarını yumuşatır ve düz bir geçiş oluşturur. "Project to Sculpt" ayarı oluşturulan yeni mesh'i ana mesh'in üzerine yansıtır, bu ayarın bir etkisini göremedim. "Extract as Solid" ayarı oluşturulan yeni mesh'e [Solidify modifier'ı](../Properties/Modifiers#solidify) ekler.
 
 
 ## [Mask Slice](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/editing/mask.html#mask-slice)

@@ -1328,11 +1328,11 @@ Bu kategoride üst toolbar'ın (araç çubuğu) sol köşesinden ulaşabileceği
 
 
 ## [Face Set from Masked](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/editing/face_sets.html#face-set-from-masked)
-Maskelenmiş geometriden yeni face set oluşturur.
+Maskelenmiş geometriden yeni face set oluşturur. "Alt + W" kısayolunu kullanarak çıkan menüden ulaşabilirsiniz ([Kısayollar](#kısayollar-1) bölümünden "Face Set Kısayolları" na bakın).
 
 
 ## [Face Set from Visible](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/editing/face_sets.html#face-set-from-visible)
-Görünürdeki bütün geometriden yeni face set oluşturur (gizlenmiş geometri hariç).
+Görünürdeki bütün geometriden yeni face set oluşturur (gizlenmiş geometri hariç). "Alt + W" kısayolunu kullanarak çıkan menüden ulaşabilirsiniz ([Kısayollar](#kısayollar-1) bölümünden "Face Set Kısayolları" na bakın).
 
 
 ## [Face Set from Edit Mode Selection](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/editing/face_sets.html#face-set-from-edit-mode-selection)
@@ -1346,7 +1346,7 @@ Edit modda seçilen geometriden yeni face set oluşturur.
 :---: | :---:
 By Loose Parts | Birbirine bağlı olmayan (hiçbir vertex'i birbirine bağlı olmayan), ayrık geometrilerin her biri için face set oluşturur.
 By Face Set Boundaries | Varolan face set'leri bozmadan bütün mesh'i face set'ler ile doldurur.
-By Materials | Her bir material için face set oluşturur.
+By Materials | Materyalleri kullanarak face set oluşturur.
 By Normals | Face'lerin normal'larını yani baktıkları yönü kullanarak face set oluşturur. Eğer keskin geçişler varsa farklı face set'ler kullanılır, yoksa aynı face set.
 By UV Seams | UV seam'leri kullanarak face set oluşturur.
 By Edge Creases | Edge Crease'leri kullanarak face set oluşturur.
@@ -1450,6 +1450,7 @@ Shift + Alt + A | [Expand Mask by Normals'ın](#expand-mask-by-normals) kısayol
 
 Kısayol | Açıklama
 :---: | :---:
+Alt + W | Face set gizleme işlemleri (hide) ve [Face Set from Masked](#face-set-from-masked) ile [Face Set from Visible](#face-set-from-visible) araçlarının olduğu bir menünün kısayoludur.
 H | Mouse'unuzun altındaki face set'i gizler.
 Shift + H | Mouse'unuzun altındaki face set haricindeki bütün face set'leri gizler.
 Alt + H | Bütün gizli face set'leri görünür yapar.

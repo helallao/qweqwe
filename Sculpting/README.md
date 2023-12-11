@@ -1327,8 +1327,24 @@ Rastgele maske oluşturmaya yarar. "Per Vertex" her bir vertex için rastgele ma
 Bu kategoride üst toolbar'ın (araç çubuğu) sol köşesinden ulaşabileceğiniz "Face Sets" kategorisindeki işlemlerin açıklamaları vardır.
 
 
-## [a](a)
-a
+## [Face Set from Masked](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/editing/face_sets.html#face-set-from-masked)
+Maskelenmiş geometriden yeni face set oluşturur.
+
+
+## [Face Set from Visible](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/editing/face_sets.html#face-set-from-visible)
+Görünürdeki bütün geometriden yeni face set oluşturur (gizlenmiş geometri hariç).
+
+
+## [Face Set from Edit Mode Selection](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/editing/face_sets.html#face-set-from-edit-mode-selection)
+Edit modda seçilen geometriden yeni face set oluşturur.
+
+
+## [Initialize Face Sets](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/editing/face_sets.html#initialize-face-sets)
+Çeşitli şekillerde face set oluşturabilme imkanı sunar.
+
+İşlem | Açıklama
+:---: | :---:
+a | a
 
 
 <br>

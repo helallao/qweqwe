@@ -71,6 +71,8 @@ Aşağıdaki döküman sözlük mantığında yapılmıştır, herhangi bir konu
 
 # [Maske İşlemleri](#maske-i̇şlemleri-1)
 
+# [Face Set İşlemleri](#face-set-i̇şlemleri-1)
+
 # [Kısayollar](#kısayollar-1)
 
 
@@ -1315,6 +1317,18 @@ a
 
 ## [Random Mask](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/editing/mask.html#random-mask)
 Rastgele maske oluşturmaya yarar. "Per Vertex" her bir vertex için rastgele maske değeri oluşturur. "Per Face Set" her bir face set için rastgele maske değeri oluşturur. "Per Loose Mask" birbirine bağlı olmayan (hiçbir vertex'i birbirine bağlı olmayan), ayrık geometrilerin her biri için rastgele maske değeri oluşturur.
+
+
+<br>
+<br>
+
+
+# Face Set İşlemleri
+Bu kategoride üst toolbar'ın (araç çubuğu) sol köşesinden ulaşabileceğiniz "Face Sets" kategorisindeki işlemlerin açıklamaları vardır.
+
+
+## [a](a)
+a
 
 
 <br>

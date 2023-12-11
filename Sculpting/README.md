@@ -1344,7 +1344,46 @@ Edit modda seçilen geometriden yeni face set oluşturur.
 
 İşlem | Açıklama
 :---: | :---:
-a | a
+By Loose Parts | Birbirine bağlı olmayan (hiçbir vertex'i birbirine bağlı olmayan), ayrık geometrilerin her biri için face set oluşturur.
+By Face Set Boundaries | Varolan face set'leri bozmadan bütün mesh'i face set'ler ile doldurur.
+By Materials | Her bir material için face set oluşturur.
+By Normals | Face'lerin normal'larını yani baktıkları yönü kullanarak face set oluşturur. Eğer keskin geçişler varsa farklı face set'ler kullanılır, yoksa aynı face set.
+By UV Seams | UV seam'leri kullanarak face set oluşturur.
+By Edge Creases | Edge Crease'leri kullanarak face set oluşturur.
+By Edge Bevel Weight | Edge Bevel Weight'leri kullanarak face set oluşturur.
+By Sharp Edges | Sharp Edge'leri kullanarak face set oluşturur.
+
+
+## [Grow Face Set](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/editing/face_sets.html#grow-shrink-face-sets)
+Face set'i büyütür. Kısayolu "Ctrl + W" dır ([Kısayollar](#kısayollar-1) bölümünden "Face Set Kısayolları" na bakın).
+
+
+## [Shrink Face Set](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/editing/face_sets.html#grow-shrink-face-sets)
+Face set'i küçültür. Kısayolu "Ctrl + Alt + W" dır ([Kısayollar](#kısayollar-1) bölümünden "Face Set Kısayolları" na bakın).
+
+
+## [Expand Face Set by Topology](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/editing/expand.html#expand-face-set-by-topology)
+Tıkladığınız noktadan mouse'unuzu hareket ettirdikçe çevreye doğru geometriyi takip ederek yayılan bir face set oluşturma aracıdır. Kısayolu "Shift + W" dır ([Kısayollar](#kısayollar-1) bölümünden "Face Set Kısayolları" na bakın). Ayrıca bu aracı ister toolbar (araç çubuğu) menüsünden, ister kısayola basarak kullanın, bu araç mouse'unuzun mesh üzerindeki en son konumunu baz alarak çalışır, yani mesela mouse'unuzu mesh'in bir köşesinin üzerine getirin sonra da mouse'unuzu kenara çekin ve kısayola tıklayın, aracın mouse'unuzun mesh üzerinde bulunduğu son konumu baz alarak çalıştığını görebilirsiniz. Ayrıca bu aracı kullanırken mouse'unuzun mesh üzerinde bulunduğu son konumun üzerinde bir nokta çıkar, böylelikle aracın nereyi baz alarak çalıştığını anlayabilirsiniz.
+
+
+## [Expand Active Face Set](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/editing/expand.html#expand-active-face-set)
+[Expand Face Set by Topology](#expand-face-set-by-topology) ile aynıdır, tek farkı yeni face set oluşturmak yerine mouse'unuzun altındaki face set'i genişletmesidir. Kısayolu "Shift + Alt + W" dır ([Kısayollar](#kısayollar-1) bölümünden "Face Set Kısayolları" na bakın).
+
+
+## [Extract Face Set](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/editing/face_sets.html#extract-face-set)
+Seçtiğiniz face set'in olduğu geometriyi yeni bir mesh olarak çıkarmaya yarar.
+
+
+## [Invert Visible Face Sets](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/editing/face_sets.html#invert-visible-face-sets)
+Gizlenmiş face set'leri görünür yapar, görünür face set'leri gizlenmiş yapar.
+
+
+## [Show All Face Sets](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/editing/face_sets.html#show-all-face-sets)
+Gizlenmiş bütün face set'leri görünür yapar. Kısayolu "Alt + H" dir ([Kısayollar](#kısayollar-1) bölümünden "Face Set Kısayolları" na bakın).
+
+
+## [Randomize Colors](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/editing/face_sets.html#randomize-colors)
+Face set'lerin renklerini değiştirir.
 
 
 <br>
@@ -1405,6 +1444,18 @@ Shift + Alt + A | [Expand Mask by Normals'ın](#expand-mask-by-normals) kısayol
 </details>
 
 
+<details>
+<summary>Face Set Kısayolları</summary>
+<br>
+
+Kısayol | Açıklama
+:---: | :---:
+Ctrl + W | [Grow Face Set'in](#grow-face-set) kısayoludur.
+Ctrl + Alt + W | [Shrink Face Set'in](#shrink-face-set) kısayoludur.
+Shift + W | [Expand Face Set by Topology'nin](#expand-face-set-by-topology) kısayoludur.
+Shift + Alt + W | [Expand Active Face Set'in](#expand-active-face-set) kısayoludur.
+
+</details>
 
 
 

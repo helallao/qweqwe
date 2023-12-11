@@ -1097,7 +1097,24 @@ a
 a
 
 ## [Edit Face Set](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/tools/edit_face_set.html)
-a
+Bu brush aslında tam olarak brush değildir, brush gibi çizim yapmazsınız. Face set'ler üzerinde çeşitli işlemler yapmamıza yarayan bir araçtır.
+
+
+* #### Mode
+Yapılacak işlem modu.
+
+Mod | Açıklama
+:---: | :---:
+Grow Face Set | [Grow Face Set](#grow-face-set) efekti uygular.
+Shrink Face Set | [Shrink Face Set](#shrink-face-set) efekti uygular.
+Delete Geometry | Face set'i siler.
+Fair Positions | Face set'i oluşturan geometriyi düz bir hale getirir. [Linkteki](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/tools/edit_face_set.html) görsellere bakarak daha iyi anlayabilirsiniz.
+Fair Tangency | Face set'i oluşturan geometriyi çevresindeki geometrinin şekline uyacak şekilde yeniden şekillendirir. [Linkteki](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/tools/edit_face_set.html) görsellere bakarak daha iyi anlayabilirsiniz.
+
+* #### Modify Hidden
+İşlemleri gizlenmiş face set'lere de uygular.
+
+
 
 ## [Mask by Color](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/tools/mask_by_color.html)
 a

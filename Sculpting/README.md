@@ -1450,6 +1450,9 @@ Shift + Alt + A | [Expand Mask by Normals'ın](#expand-mask-by-normals) kısayol
 
 Kısayol | Açıklama
 :---: | :---:
+H | Mouse'unuzun altındaki face set'i gizler.
+Shift + H | Mouse'unuzun altındaki face set haricindeki bütün face set'leri gizler.
+Alt + H | Bütün gizli face set'leri görünür yapar.
 Ctrl + W | [Grow Face Set'in](#grow-face-set) kısayoludur.
 Ctrl + Alt + W | [Shrink Face Set'in](#shrink-face-set) kısayoludur.
 Shift + W | [Expand Face Set by Topology'nin](#expand-face-set-by-topology) kısayoludur.

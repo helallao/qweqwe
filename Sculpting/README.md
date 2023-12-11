@@ -1298,15 +1298,15 @@ Mesh'in maskelenen kısmını yeni bir mesh olarak çıkarır.
 
 
 ## [Mask Slice](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/editing/mask.html#mask-slice)
-a
+Maskelenmiş geometriyi silmeye yarar. Eğer maske değeri "Threshold" değerinin üstünde ise geometri silinir. "Fill Holes" ayarını açarak silinen geometrinin yerinde açılan boşlukları doldurabilirsiniz. "Slice to New Object" ayarını açarak silinecek olan geometriyi yeni bir mesh olarak çıkarabilirsiniz. Bu ayarı açtığınız anda object moduna geçilir ve yeni mesh objesi seçilir.
 
 
-## [Mask Slice and Fill Holes]()
-a
+## [Mask Slice and Fill Holes](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/editing/mask.html#mask-slice)
+[Mask Slice](#mask-slice) aracının "Fill Holes" ayarının açık olduğu versiyonudur.
 
 
-## [Mask Slice to New Object]()
-a
+## [Mask Slice to New Object](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/editing/mask.html#mask-slice)
+[Mask Slice](#mask-slice) aracının "Slice to New Object" ayarının açık olduğu versiyonudur.
 
 
 ## [Mask From Cavity](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/editing/mask.html#mask-from-cavity)
@@ -1314,7 +1314,7 @@ a
 
 
 ## [Random Mask](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/editing/mask.html#random-mask)
-a
+Rastgele maske oluşturmaya yarar. "Per Vertex" her bir vertex için rastgele maske değeri oluşturur. "Per Face Set" her bir face set için rastgele maske değeri oluşturur. "Per Loose Mask" birbirine bağlı olmayan (hiçbir vertex'i birbirine bağlı olmayan), ayrık geometrilerin her biri için rastgele maske değeri oluşturur.
 
 
 <br>

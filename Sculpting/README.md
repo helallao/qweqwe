@@ -869,11 +869,25 @@ Bu ayar fırçanın falloff'unun yumuşaklık derecesini belirler. Daha doğrusu
 Bu ayar fırçayı kullanırken otomatik smooth işlemi uygulamaya yarar. Yani siz fırçayı kullanırken bir yandan da [Smooth](#smooth) fırçasını kullanarak üzerinden geçiyormuşsunuz gibi bir efekt verir. Kullandığınız fırçanın keskin geometrileri yumuşatmasını ve kendisinin de keskin geometri oluşturmamasını istiyorsanız bu ayarı kullanabilirsiniz. Yandaki "Invert Smooth Pressure" ayarını açarak eğer sculpting için çizim tableti kullanıyorsanız, kaleminiz ile ekrana uyguladığınız baskıyı tam tersine çevirme modunu açabilirsiniz. Bu modu açtığınızda hafif baskılar daha fazla smooth işleminin uygulanmasına sebep olur (kapalı iken tam tersi).
 
 * #### Persistent
-a
+Bu ayar Layer brush'ının [Persistent](#persistent) ayarı ile aynı mantıkta çalışır. Cloth brush'ı ile yaptığınız her işlem "Persistent Base" olarak kaydedilmiş geometri üzerinden hesaplanarak şu anki geometriye işlenir.
 
 * #### Set Persistent Base
-a
+Bu ayar Layer brush'ının [Set Persistent Base](#set-persistent-base) ayarı ile aynı mantıkta çalışır. Tıkladığınız anda geometrinin şu anki konumlarını "Persistent Base" olarak kaydeder.
 
+* #### Simulation Area
+Bu ayar brush'ın uyguladığı deformasyonun etki alanını belirler. "Local" sadece tıkladığınız noktayı etkiler. "Global" bütün geometri yani bütün mesh'i etkiler ve Blender'ı yavaşlatabilir. "Dynamic" ise fırçanızı hareket ettirdikçe fırçanızın çevresindeki kısımları etkiler yani "Local" modunun dinamik modudur. "Local" ve "Dynamic" modlarında "Simulation Limit" ve "Simulation Falloff" ayarları ile fırçanın uyguladığı deformasyon için yarıçap ve falloff ayarlanabilir.
+
+* #### Simulation Limit
+Bu ayar sadece "Simulation Area" ayarı "Local" veya "Dynamic" modundayken vardır. Fırçanın uyguladığı deformasyonun etki alanını belirleyen yarıçap değeridir. Fırçanın etrafındaki en dıştaki beyaz halka bu yarıçapı gösterir.
+
+* #### Simulation Falloff
+Bu ayar sadece "Simulation Area" ayarı "Local" veya "Dynamic" modundayken vardır. Fırçanın uyguladığı deformasyonun falloff alanını belirleyen yarıçap değeridir. Fırçanın etrafındaki en dıştan 2. çizgili beyaz halka bu yarıçapı gösterir. Bu yarıçap büyüdükçe deformasyonun etkisi de uçlara doğru ulaşmaya başlar.
+
+* #### Pin Simulation Boundary
+Bu ayar sadece "Simulation Area" ayarı "Local" modundayken vardır.
+
+* #### Deformation
+a
 
 
 

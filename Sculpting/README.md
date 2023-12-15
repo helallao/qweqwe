@@ -820,8 +820,29 @@ Bu ayar fırçayı kullanırken otomatik smooth işlemi uygulamaya yarar. Yani s
 Bu ayar uygulanacak deformasyonun türünü belirler. "Geometry" modunda geometri üzerinde deformasyon uygulanırken, "Cloth Simulation" modunda kıyafet/giysi simulasyonu için deformasyon uygulanır. "Cloth Simulation" modunda deformasyonun efekti sanki kıyafet üzerinde deformasyon işlemleri uyguluyormuşsunuz gibi olur.
 
 * #### Deformation
-Bu ayar
+Uygulanacak deformasyon modunu belirtir.
 
+Mod | Açıklama
+:---: | :---:
+Bend | Kenarı büker, rotasyonunu içe/dışa doğru hareket ettirir.
+Expand | Kenarı sündürür, uzatır.
+Inflate | [Inflate](#inflate) brush'ı mantığında çalışır.
+Grab | [Grab](#grab) brush'ı mantığında çalışır.
+Twist | Twist (sarmal, RNA şekli gibi, kıvırcık saç gibi) şeklinde deformasyon uygular.
+Smooth | Yumuşatma şeklinde deformasyon uygular, geometriyi küçültmeye meyillidir.
+
+* #### Boundary Falloff
+Kenardan/sınırdan içe doğru yani beyaz çizgiye (boundary origin) kadar uygulanacak deformasyonun falloff'unu belirtir.
+
+Mod | Açıklama
+:---: | :---:
+Constant | Kenardan beyaz çizgiye (boundary origin) kadar eşit derecede deformasyon uygulanır.
+Brush Radius | Sadece brush'ınızın yarıçapı içerisindeki geometri deformasyondan etkilenir.
+Loop | "Brush Radius" ile aynıdır ama bütün kenarı etkiler, yani deformasyon sadece brush'ınızın yarıçapı içerisindeki kısımlara değil bütün kenara uygulanır. Bunun içinde tekrarlama (loop) kullanılır yani brush'ınızın yarıçapı içerisindeki deformasyon kenar boyunca tekrar edilir.
+Loop and Invert | "Loop" modu gibidir ama her tekrarda (loop) deformasyonu artı ve eksi yönlerinde değiştirir.
+
+* #### Boundary Origin Offset
+Boundary Origin'e yani beyaz çizgiye offset vermenize yani uzatmanıza yarar.
 
 
 

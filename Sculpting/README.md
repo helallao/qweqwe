@@ -893,8 +893,16 @@ Mod | Açıklama
 :---: | :---:
 Drag | Geometriyi sanki kıyafetmiş gibi hareket ettirmenize yarar, yani kıyafeti çekiştiriyormuş gibi efekt verir.
 Push | Geometriyi sanki kıyafete bastırırmışsınız gibi bastırmanıza/itmenize yarar, kıyafetin üzerine sanki bir şey koyulmuş gibi tıkladığınız nokta içe çöker.
-Pinch Point |
-Pinch Perpendicular |
+Pinch Point | Tıkladığınız noktaya [Pinch](#pinch) efekti yani o noktaya çekim efekti uygular. "Pinch Perpendicular" modunun aksine doğru/çizgi şeklinde uygulanmak zorunda değildir, tek bir noktadan Pinch efekti uygulayabilirsiniz.
+Pinch Perpendicular | Tıkladığınız noktaya fırçanızı hareket ettirdikçe doğru/çizgi şeklinde [Pinch](#pinch) efekti yani çekim efekti uygular. "Pinch Point" modunun aksine doğru/çizgi şeklinde uygulanmak zorundadır.
+Inflate | "Push" modunun yönünün değiştirilmiş halidir denebilir. Sanki kıyafetin altında bir şey varmış gibi şişkinlik efekti verir.
+Grab | Sanki kıyafeti elinizle hareket ettiriyormuşsunuz gibi efekt verir.
+Expand | Kıyafeti gerdiriyormuşsunuz gibi bi efekt verir. Bu mod çoğu durumda kırışıklık oluşturur veya kırışıklık oluşturmak için kullanılır. Bu modun yaptığı işlemden tam olarak emin değilim ama kendi testlerimden anladığım kadarıyla bu mod gerginlik efekti vermek için vertex'leri birbirlerinden uzaklaştırıyor ama vertex'ler rastgele yönlere doğru hareket ettikleri için bu da rastgele bir geometri oluşturuyor (yani kırışıklık gibi).
+Snake Hook | Geometriyi sanki kıyafetmiş gibi hareket ettirmenize yarar, diğer hareket ettirmeye yarayan modların aksine bu mod en gerçekçi kıyafet deformasyonu efektini verir.
+
+* #### Force Falloff
+a
+
 
 
 

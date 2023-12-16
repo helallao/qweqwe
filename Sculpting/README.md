@@ -913,7 +913,7 @@ Bu ayar fırçanın etkisinin çevreye olan etki derecesini belirtir. Yani bu ay
 Bu ayar mesh'in volume yani hacminin (yani orijinal şeklinin) korunma derecesini belirtir. Bu ayarın değeri arttırıldıkça mesh'e uygulanan deformasyon efektleri mesh'in hacmini minimum düzeyde etkiler.
 
 * #### Enable Collision
-a
+Bu ayarı açarsanız şu an işlem yaptığınız obje, [Physics](../Properties/Physics) bölümünde "Collision" a sahip olan diğer objeler ile çarpışabilir/çakışabilir (collide) yani objeniz diğer obje tarafından bloklanabilir. Eğer efektlerinizin diğer objelerin collision'ları da hesaplanarak uygulanmasını istiyorsanız bu ayarı kullanabilirsiniz.
 
 
 

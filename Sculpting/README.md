@@ -910,7 +910,7 @@ Geometrinin kütle değerini belirtir. Bu değeri azaltırsanız fırçanızın 
 Bu ayar fırçanın etkisinin çevreye olan etki derecesini belirtir. Yani bu ayarın değeri azaldıkça efektlerin etkisi mouse'unuzun olduğu noktanın çevresinde daha şiddetliyken, arttıkça efektlerin etkisi mouse'unuzun çevresinde daha az şiddetlidir yani gücünü kaybeder. Yani kısacası bu ayar efektin çevreye doğru yayılırken uygulayacağı etkinin ne kadar hızlı azalacağını belirleyen katlanma derecesidir. Değer azaldıkça çevreye uygulanan efekt şiddeti daha fazladır, arttıkça da çevreye uygulanan efekt şiddeti daha azdır çünkü bu değeri arttırmak efektin çevreye doğru yayılmasını engeller.
 
 * #### Soft Body Plasticity
-a
+Bu ayar mesh'in volume yani hacminin (yani orijinal şeklinin) korunma derecesini belirtir. Bu ayarın değeri arttırıldıkça mesh'e uygulanan deformasyon efektleri mesh'in hacmini minimum düzeyde etkiler.
 
 * #### Enable Collision
 a

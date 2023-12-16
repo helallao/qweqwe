@@ -901,8 +901,19 @@ Expand | Kıyafeti gerdiriyormuşsunuz gibi bi efekt verir. Bu mod çoğu durumd
 Snake Hook | Geometriyi sanki kıyafetmiş gibi hareket ettirmenize yarar, diğer hareket ettirmeye yarayan modların aksine bu mod en gerçekçi kıyafet deformasyonu efektini verir.
 
 * #### Force Falloff
+Fırçanın efekti uygulama şeklini belirtir. Normalde bütün fırçalarda da kullandığımız mod olan "Radial" mod seçilidir. Bunun haricinde bir de "Plane" modu vardır, "Plane" modunda fırçanız dairesel olarak değilde doğrusal olarak çalışır, yani fırçanızın çapı büyüklüğünde bir doğru (fırçayı kullanırken doğruyu görebilirsiniz) kullanılarak efekt uygulanır. Eğer bu modu seçip fırçayı kullanırsanız nasıl çalıştığını hemen anlarsınız.
+
+* #### Cloth Mass
 a
 
+* #### Cloth Damping
+a
+
+* #### Soft Body Plasticity
+a
+
+* #### Enable Collision
+a
 
 
 

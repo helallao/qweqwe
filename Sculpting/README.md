@@ -907,7 +907,7 @@ Fırçanın efekti uygulama şeklini belirtir. Normalde bütün fırçalarda da 
 Geometrinin kütle değerini belirtir. Bu değeri azaltırsanız fırçanızın geometri üzerindeki efekti artar yani fırçanın şiddeti artar, değeri arttırırsanız da tam tersine fırçanın şiddeti azalır.
 
 * #### Cloth Damping
-a
+Bu ayar fırçanın etkisinin çevreye olan etki derecesini belirtir. Yani bu ayarın değeri azaldıkça efektlerin etkisi mouse'unuzun olduğu noktanın çevresinde daha şiddetliyken, arttıkça efektlerin etkisi mouse'unuzun çevresinde daha az şiddetlidir yani gücünü kaybeder. Yani kısacası bu ayar efektin çevreye doğru yayılırken uygulayacağı etkinin ne kadar hızlı azalacağını belirleyen katlanma derecesidir. Değer azaldıkça çevreye uygulanan efekt şiddeti daha fazladır, arttıkça da çevreye uygulanan efekt şiddeti daha azdır çünkü bu değeri arttırmak efektin çevreye doğru yayılmasını engeller.
 
 * #### Soft Body Plasticity
 a

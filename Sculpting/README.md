@@ -878,7 +878,7 @@ Bu ayar Layer brush'ının [Set Persistent Base](#set-persistent-base) ayarı il
 Bu ayar brush'ın uyguladığı deformasyonun etki alanını belirler. "Local" sadece tıkladığınız noktayı etkiler. "Global" bütün geometri yani bütün mesh'i etkiler ve Blender'ı yavaşlatabilir. "Dynamic" ise fırçanızı hareket ettirdikçe fırçanızın çevresindeki kısımları etkiler yani "Local" modunun dinamik modudur. "Local" ve "Dynamic" modlarında "Simulation Limit" ve "Simulation Falloff" ayarları ile fırçanın uyguladığı deformasyon için yarıçap ve falloff ayarlanabilir.
 
 * #### Simulation Limit
-Bu ayar sadece "Simulation Area" ayarı "Local" veya "Dynamic" modundayken vardır. Fırçanın uyguladığı deformasyonun etki alanını belirleyen yarıçap değeridir. Fırçanın etrafındaki en dıştaki beyaz halka bu yarıçapı gösterir.
+Bu ayar sadece "Simulation Area" ayarı "Local" veya "Dynamic" modundayken vardır. Fırçanın uyguladığı deformasyonun etki alanını belirleyen yarıçap değeridir. Fırçanın etrafındaki en dıştaki beyaz halka bu yarıçapı gösterir. Ayrıca eğer mouse'unuzu bu yarıçapın dışarısına çıkarırsanız bu halka hiç efekt uygulanmadığını göstermek için kırmızıya döner, yani uyarı anlamında.
 
 * #### Simulation Falloff
 Bu ayar sadece "Simulation Area" ayarı "Local" veya "Dynamic" modundayken vardır. Fırçanın uyguladığı deformasyonun falloff alanını belirleyen yarıçap değeridir. Fırçanın etrafındaki en dıştan 2. çizgili beyaz halka bu yarıçapı gösterir. Bu yarıçap büyüdükçe deformasyonun etkisi de uçlara doğru ulaşmaya başlar.
@@ -904,7 +904,7 @@ Snake Hook | Geometriyi sanki kıyafetmiş gibi hareket ettirmenize yarar, diğe
 Fırçanın efekti uygulama şeklini belirtir. Normalde bütün fırçalarda da kullandığımız mod olan "Radial" mod seçilidir. Bunun haricinde bir de "Plane" modu vardır, "Plane" modunda fırçanız dairesel olarak değilde doğrusal olarak çalışır, yani fırçanızın çapı büyüklüğünde bir doğru (fırçayı kullanırken doğruyu görebilirsiniz) kullanılarak efekt uygulanır. Eğer bu modu seçip fırçayı kullanırsanız nasıl çalıştığını hemen anlarsınız.
 
 * #### Cloth Mass
-a
+Geometrinin kütle değerini belirtir. Bu değeri azaltırsanız fırçanızın geometri üzerindeki efekti artar yani fırçanın şiddeti artar, değeri arttırırsanız da tam tersine fırçanın şiddeti azalır.
 
 * #### Cloth Damping
 a

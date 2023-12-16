@@ -891,8 +891,10 @@ Uygulanacak deformasyon modunu belirtir.
 
 Mod | Açıklama
 :---: | :---:
-Drag | Geometriyi sanki kıyafet hareket ettirirmiş gibi hareket ettirmenize yarar, yani kıyafeti çekiştiriyormuş gibi efekt verir.
-Push | 
+Drag | Geometriyi sanki kıyafetmiş gibi hareket ettirmenize yarar, yani kıyafeti çekiştiriyormuş gibi efekt verir.
+Push | Geometriyi sanki kıyafete bastırırmışsınız gibi bastırmanıza/itmenize yarar, kıyafetin üzerine sanki bir şey koyulmuş gibi tıkladığınız nokta içe çöker.
+Pinch Point |
+Pinch Perpendicular |
 
 
 

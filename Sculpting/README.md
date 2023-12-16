@@ -884,11 +884,15 @@ Bu ayar sadece "Simulation Area" ayarı "Local" veya "Dynamic" modundayken vard�
 Bu ayar sadece "Simulation Area" ayarı "Local" veya "Dynamic" modundayken vardır. Fırçanın uyguladığı deformasyonun falloff alanını belirleyen yarıçap değeridir. Fırçanın etrafındaki en dıştan 2. çizgili beyaz halka bu yarıçapı gösterir. Bu yarıçap büyüdükçe deformasyonun etkisi de uçlara doğru ulaşmaya başlar.
 
 * #### Pin Simulation Boundary
-Bu ayar sadece "Simulation Area" ayarı "Local" modundayken vardır.
+Bu ayar sadece "Simulation Area" ayarı "Local" modundayken vardır. Bu ayarın ne yaptığını tam olarak bilmiyorum ama [açıklamasına](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/tools/cloth.html#bpy-types-brush-use-cloth-pin-simulation-boundary) bakılırsa bozulmaları önlüyor ve falloff alanı içerisindeki vertex'lerin deformasyondan etkilenmeyen kısımlar ile arasında yumuşak bir geçiş oluşturmaya yarıyor.
 
 * #### Deformation
-a
+Uygulanacak deformasyon modunu belirtir.
 
+Mod | Açıklama
+:---: | :---:
+Drag | Geometriyi sanki kıyafet hareket ettirirmiş gibi hareket ettirmenize yarar, yani kıyafeti çekiştiriyormuş gibi efekt verir.
+Push | 
 
 
 

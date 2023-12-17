@@ -1278,11 +1278,14 @@ a
 Bu kategoride ek fırça ayarlarının (her fırçanın kendine özel ayarlarının haricindeki) açıklamaları vardır.
 
 ## [Advanced](https://docs.blender.org/manual/en/latest/sculpt_paint/brush/brush_settings.html#advanced)
-Bu kategoride [auto-masking](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/controls.html#auto-masking) ayarları vardır. Auto-masking modlarını açıp kapamak için "Alt + A" kısayolunu kullanabilirsiniz ([Kısayollar](#kısayollar-1) bölümünden "Genel Kısayollar" a bakın) ama bu kısayol ile açılan menüyü kullanarak auto-masking modlarını açıp/kapatırsanız bu işlem bütün brush'lara uygulanır, yani direktmen sculpting editörü için auto-masking modlarını açmış/kapamış olursunuz. Eğer her brush için özel olarak bu ayarları değiştirmek istiyorsanız brush ayarlarında "Advanced" bölümünden bu ayarları değiştirebilirsiniz. Auto-masking sculpting yaparken normal maskeleri kullanmak yerine 
+Bu kategoride [auto-masking](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/controls.html#auto-masking) ayarları vardır. Auto-masking modlarını açıp kapamak için "Alt + A" kısayolunu kullanabilirsiniz ([Kısayollar](#kısayollar-1) bölümünden "Genel Kısayollar" a bakın) ama bu kısayol ile açılan menüyü kullanarak auto-masking modlarını açıp/kapatırsanız bu işlem bütün brush'lara uygulanır, yani direktmen sculpting editörü için auto-masking modlarını açmış/kapamış olursunuz. Eğer her brush için özel olarak bu ayarları değiştirmek istiyorsanız brush ayarlarında "Advanced" bölümünden bu ayarları değiştirebilirsiniz. Auto-masking sculpting yaparken normal maskeleri kullanmak yerine başka yöntemler kullanarak otomatik maskeler oluşturmamıza yarar, yani maskeleri otomatik olarak oluşturmaya yarar. Bu sayede maske çizmekle uğraşmamıza gerek kalmaz. Bu maskeler her bir stroke (yani her bir fırça darbesi, bir kere sol mouse tuşuna tıkayıp basılı tutarak çizim yapmanız) için yeniden hesaplanır, yani her yaptığınız değişiklikte güncellenir.
 
 
-* #### Modify Hidden
-İşle
+* #### Topology
+Bu ayar açıkken yaptığınız işlemlerden sadece çizime başlarken yani stroke'a (yani her bir fırça darbesi, bir kere sol mouse tuşuna tıkayıp basılı tutarak çizim yapmanız) başlarken tıkladığınız noktadaki vertex'e bağlı olan vertex'ler (yani geometri) etkilenir. Yani diyelim ki mesh'iniz iki ayrık parçadan oluşuyor, bu durumda çizime hangi parçadan başlarsanız sadece o parça çizimden etkilenir, ikinci parça birinci parça ile bağlı olmadığı için işlemlerden etkilenmez.
+
+* #### Face Sets
+Bu ayar
 
 
 

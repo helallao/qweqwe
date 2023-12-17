@@ -1278,7 +1278,14 @@ a
 Bu kategoride ek fırça ayarlarının (her fırçanın kendine özel ayarlarının haricindeki) açıklamaları vardır.
 
 ## [Advanced](https://docs.blender.org/manual/en/latest/sculpt_paint/brush/brush_settings.html#advanced)
-a
+Bu kategoride [auto-masking](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/controls.html#auto-masking) ayarları vardır. Auto-masking modlarını açıp kapamak için "Alt + A" kısayolunu kullanabilirsiniz ([Kısayollar](#kısayollar-1) bölümünden "Genel Kısayollar" a bakın) ama bu kısayol ile açılan menüyü kullanarak auto-masking modlarını açıp/kapatırsanız bu işlem bütün brush'lara uygulanır, yani direktmen sculpting editörü için auto-masking modlarını açmış/kapamış olursunuz. Eğer her brush için özel olarak bu ayarları değiştirmek istiyorsanız brush ayarlarında "Advanced" bölümünden bu ayarları değiştirebilirsiniz. Auto-masking sculpting yaparken normal maskeleri kullanmak yerine 
+
+
+* #### Modify Hidden
+İşle
+
+
+
 
 ## [Texture](https://docs.blender.org/manual/en/latest/sculpt_paint/brush/texture.html)
 a
@@ -1568,6 +1575,7 @@ Kısayol | Açıklama
 F | Fırçanın yarıçapını ayarlayabilirsiniz (sol ve sağa hareket ettirerek). Ayarlarken sol üstten şu anki radius değerini görebilirsiniz. Fırça yarıçapını ayarlarken "Ctrl" kısayoluna tıklayarak radius değerini 10'un katı olan sayılarda ayarlayabilirsiniz, "Shift" kısayoluna tıklayarak da ince ayar yapabilirsiniz.
 Shift + F | Fırçanın şiddetini ayarlayabilirsiniz (sol ve sağa hareket ettirerek). Fırça şiddetini ayarlarken "Ctrl" kısayoluna tıklayarak şiddet değerini 100'ün katı olan sayılarda ayarlayabilirsiniz, "Shift" kısayoluna tıklayarak da ince ayar yapabilirsiniz.
 Ctrl + Sol tık | "Ctrl" kısayoluna basarken mouse'un sol tuşuna basıp çizim yaparsanız fırçanın yönünü değiştirmiş olursunuz, yani "Direction" ayarını terse almış olursunuz. Bazı özel fırçalarda "Ctrl" kısayoluna basılı tutarak tıklamak yön değiştirmeyi değil de fırçanın 2. özelliğini aktifleştirmede kullanılır. Yani "Ctrl" kısayoluna basılı tutarak tıklamak her fırçada yön değiştirmek için kullanılmaz, fırçanın 2. özelliğini kullanmak için de kullanılır (mesela [Mask](#mask)).
+Alt + A | [Auto-masking](#advanced) modlarının kısayoludur. Açılan menü üzerinden istediğiniz modu açabilir/kapatabilirsiniz ama bu kısayol ile açılan menüyü kullanarak auto-masking modlarını açıp/kapatırsanız bu işlem bütün brush'lara uygulanır, yani direktmen sculpting editörü için auto-masking modlarını açmış/kapamış olursunuz. Eğer her brush için özel olarak bu ayarları değiştirmek istiyorsanız brush ayarlarında "Advanced" bölümünden bu ayarları değiştirebilirsiniz.
 
 </details>
 

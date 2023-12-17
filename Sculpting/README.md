@@ -1194,8 +1194,6 @@ Sharpen | Mesh'in eğimine göre, eğimli olan yerlere [Pinch](#pinch) efekti uy
 Enhance Details | [Smooth](#smooth) brush'ında "Ctrl" kısayoluna bastığınızda çıkan "Enhance Details" efektini uygular. "Enhance Details" efekti geometrinin sahip olduğu detayları daha da abartmamıza yani kabalaştırmamıza yarar, kısacası [Smooth](#smooth) efektinin tersidir.
 Erase Displacement | [Multires Displacement Eraser](#multires-displacement-eraser) brush'ı ile aynı işlemi yapar. Gerekli bilgilere [Multires Displacement Eraser](#multires-displacement-eraser) brush'ının açıklamalarından ulaşabilirsiniz. Ayrıca efekti eksi yönde uygularsanız bu mod aynı "Enhance Details" modundaki gibi detayları arttırır, yani Displacement miktarını arttırır.
 
-
-
 * #### Strength
 Uygulanan efektin şiddeti.
 
@@ -1208,7 +1206,30 @@ Efektin hangi eksenlerde uygulanacağını belirler. Efekti sadece seçtiğiniz 
 
 
 ## [Cloth Filter](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/tools/cloth_filter.html)
-a
+Bu brush aslında tam olarak brush değildir, brush gibi çizim yapmazsınız. Mesh üzerinde çeşitli kıyafet/giysi işlemleri/efektleri yapmamıza yarayan bir araçtır. Ekrana tıklayıp sağa veya sola kaydırarak seçtiğiniz işlemi/efekti uygulayabilirsiniz. Bu aracın amacı [Cloth](#cloth) brush'ında yaptığınız bütün kıyafet/giysi efektlerini/simulasyonlarını tek seferde bütün mesh'e uygulamaktır. Yani nasıl ki [Mesh Filter](#mesh-filter) diğer fırçaların uyguladığı işlemleri tek seferde bütün mesh'e uygulamaya yarıyorsa, bu araç da kıyafet/giysi üzerine uygulanan deformasyonları/efektleri tek seferde bütün mesh'e uygulamaya yarar. Ekrana tıklayıp sağa veya sola kaydırarak uygulanan efekti/simulasyonu arttırıp/azaltabilir veya ileri/geri alabilirsiniz.
+
+
+* #### Filter Type
+Kullanılacak filtre/efekt.
+
+Mod | Açıklama
+:---: | :---:
+Gravity | Geometriye yer çekimi simulasyonu uygular. Ekrana tıkladıktan sonra sağa veya sola kaydırarak efekti ileri/geri sarabilirsiniz.
+Inflate | Cloth brush'ının [Deformation](#deformation-5) ayarı "Inflate" modundayken uyguladığı efekti bütün mesh'e uygular.
+Expand | Cloth brush'ının [Deformation](#deformation-5) ayarı "Expand" modundayken uyguladığı efekti bütün mesh'e uygular.
+Pinch | Tıkladığınız noktadan bütün geometriye Cloth brush'ının [Deformation](#deformation-5) ayarı "Pinch Point" modundayken uyguladığı efekti uygular, yani kıyafet/giysi üzerine uygulanıyormuş gibi Pinch efekti verir.
+Scale | Bu modu kullanabilmeniz için mesh'e maske uygulamanız gerekir. Bu efekt maskelenmemiş kısımları scale etmeye yani boyutlandırmaya yarar.
+
+* #### Strength
+Uygulanan efektin şiddeti.
+
+* #### Force Axis
+Efektin hangi eksenlerde uygulanacağını belirler. Efekti sadece seçtiğiniz eksenlerde uygular.
+
+* #### Orientation
+"Force Axis" ayarı için kullanılacak eksenlerin uzayını belirler.
+
+
 
 ## [Color Filter](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/tools/color_filter.html)
 a

@@ -1229,6 +1229,18 @@ Efektin hangi eksenlerde uygulanacağını belirler. Efekti sadece seçtiğiniz 
 * #### Orientation
 "Force Axis" ayarı için kullanılacak eksenlerin uzayını belirler.
 
+* #### Cloth Mass
+Geometrinin kütle değerini belirtir. Bu değeri azaltırsanız uyguladığınız efektin şiddeti artar, değeri arttırırsanız da tam tersine uyguladığınız efektin şiddeti azalır.
+
+* #### Cloth Damping
+Bu ayar aslında Cloth brush'ının [Cloth Damping](#cloth-damping) ayarı gibi çalışır ama Cloth Filter brush'ı efekti mesh'in her yerine uyguladığı için bu ayarın çalışma şekli de değişiyor. Kısacası bu ayarın değeri azaldıkça efektlerin şiddeti fazlayken, bu ayarın değeri arttıkça efektlerin şiddeti azalır.
+
+* #### Use Face Sets
+Bu ayar açıkken efektleriniz sadece tıkladığınız noktadaki face set'e uygulanır.
+
+* #### Use Collisions
+Bu ayarı açarsanız şu an işlem yaptığınız obje, [Physics](../Properties/Physics) bölümünde "Collision" a sahip olan diğer objeler ile çarpışabilir/çakışabilir (collide) yani objeniz diğer obje tarafından bloklanabilir. Eğer efektlerinizin diğer objelerin collision'ları da hesaplanarak uygulanmasını istiyorsanız bu ayarı kullanabilirsiniz.
+
 
 
 ## [Color Filter](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/tools/color_filter.html)

@@ -1285,7 +1285,14 @@ Bu kategoride [auto-masking](https://docs.blender.org/manual/en/latest/sculpt_pa
 Bu ayar açıkken yaptığınız işlemlerden sadece çizime başlarken yani stroke'a (yani her bir fırça darbesi, bir kere sol mouse tuşuna tıkayıp basılı tutarak çizim yapmanız) başlarken tıkladığınız noktadaki vertex'e bağlı olan vertex'ler (yani geometri) etkilenir. Yani diyelim ki mesh'iniz iki ayrık parçadan oluşuyor, bu durumda çizime hangi parçadan başlarsanız sadece o parça çizimden etkilenir, ikinci parça birinci parça ile bağlı olmadığı için işlemlerden etkilenmez.
 
 * #### Face Sets
-Bu ayar
+Bu ayar face set kullanımını açar, bu ayar açıkken yaptığınız işlemlerden sadece çizime başlarken yani stroke'a (yani her bir fırça darbesi, bir kere sol mouse tuşuna tıkayıp basılı tutarak çizim yapmanız) başlarken tıkladığınız face set etkilenir, diğer face set'ler etkilenmez.
+
+* #### Mesh Boundary
+Bu ayar açıkken mesh'in kenar noktaları yani sınır noktaları (geometrinin devam etmediği, uç kenarlar) yaptığınız işlemlerden etkilenmez. Face set'leri gizleyerek de ucu açık kenarlar oluşturabilirsiniz, yani gizlenmiş geometriyi de yokmuş gibi hesaplar. Ayrıca bu ayar açıkken "Propagation Steps" adında yeni bir ayar açılır, bu ayar kenar ile iç taraftaki geometrinin geçişini yumuşatır, yani keskin geçişleri yumuşak geçişe döndürür.
+
+* #### Face Sets Boundary
+Bu ayar çoğunlukla "Face Sets" ayarı da açıkken kullanılır. İki face set'in kesiştikleri kenardaki vertex'ler yaptığınız işlemlerden etkilenmez. Ayrıca bu ayar açıkken "Propagation Steps" adında yeni bir ayar açılır, bu ayar kenar ile iç taraftaki geometrinin geçişini yumuşatır, yani keskin geçişleri yumuşak geçişe döndürür.
+
 
 
 

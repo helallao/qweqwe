@@ -1526,7 +1526,7 @@ Bu ayar maskenin blur derecesini yani yumuşaklık derecesini belitir. Bu değer
 Bu ayar cavity işlemini tersine çevirir yani çukurları maskelemek yerine tümsekleri maskeler.
 
 * #### Custom Curve
-Bu ayar
+Bu ayar curve aracılığı ile cavity miktarına göre maske değeri vermenize yarar. Yani şöyle, curve'ün X ekseni boyunca 0'dan 1'e kayan değeri cavity miktarını belirtir, yani geometrinin ne kadar çukurda (cavity) olduğunu belirtir. Mesela default olarak gelen curve'ün şekli başlangıçta yani X ekseni 0'da iken 0 değerini, sona doğru gittikçe yani X ekseni 1'de iken de 1 değerini gösterecek şekilde ayarlanmıştır. Bu şu anlama gelir, X ekseni 0'da minimum cavity miktarını yani çukur olmayan yerleri ve 1'de maximum cavity miktarını yani çukur olan yerleri ifade ettiği için, ve curve'ün Y eksenindeki değerler X ekseni boyunca 0'dan 1'e doğru arttığı için, bu curve çukur olan yerlere 1'e kayan maske değeri verirken, çukur olmayan yerlere 0'a kayan maske değeri verir. Yani kısacası özetlemek gerekirse, curve'ün X ekseni cavity miktarını yani çukur olma derecesini belirtir (yani 0 çukur değil, 1 çukur). Curve'ün Y ekseni ise maske değerini belirtir (yani 0 maske yok, 1 maske var demektir). İşte bu şekilde curve oluşturarak cavity miktarına göre maske değeri verebilirsiniz. Ayrıca eğer "Cavity (Inverted)" ayarını açarsanız curve'ün Y ekseni tersine döner, yani Y ekseni çukurları değil tümsekleri gösterir, yani "Cavity (Inverted)" ayarını açarsanız curve'ü tam tersine çevirmiş olursunuz.
 
 
 ## [Random Mask](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/editing/mask.html#random-mask)

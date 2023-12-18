@@ -1293,7 +1293,14 @@ Bu ayar açıkken mesh'in kenar noktaları yani sınır noktaları (geometrinin 
 * #### Face Sets Boundary
 Bu ayar çoğunlukla "Face Sets" ayarı da açıkken kullanılır. İki face set'in kesiştikleri kenardaki vertex'ler yaptığınız işlemlerden etkilenmez. Ayrıca bu ayar açıkken "Propagation Steps" adında yeni bir ayar açılır, bu ayar kenar ile iç taraftaki geometrinin geçişini yumuşatır, yani keskin geçişleri yumuşak geçişe döndürür.
 
+* #### Cavity
+Bu ayar [Mask From Cavity](#mask-from-cavity) maske aracı ile aynı mantıkta çalışır. Cavity yani oyuklara, girinti/çıkıntılara göre işlemlerinizden etkilenecek kısımları belirler. "Factor" ve "Blur" ayarlarına sahiptir ve bu ayarların açıklamalarına [Mask From Cavity](#mask-from-cavity) aracının açıklamalarından ulaşabilirsiniz. Hatta "Create Mask" butonuna basarak aynı [Mask From Cavity](#mask-from-cavity) aracını kullanıyormuşsunuz gibi maske bile oluşturabilirsiniz.
 
+* #### Cavity (inverted)
+Bu ayar "Cavity" modu ile aynıdır. Tek farkı inverted yani işlemin tersine çevrilmiş olmasıdır, yani çukurları değil de tümsekleri kullanır. Yani [Mask From Cavity](#mask-from-cavity) aracının "Cavity (Inverted)" ayarının açık olduğu halidir.
+
+* #### View Normal
+a
 
 
 

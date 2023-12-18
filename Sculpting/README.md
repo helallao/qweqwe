@@ -1516,10 +1516,17 @@ Subtract | Önceki maskeden yeni maske çıkarılır.
 * #### Settings
 Bu ayar kullanılacak ayarların nereden alınacağını belirler. "Operator" modu ayarları operatör penceresinden yani şu anki kullandığınız "son işlem" penceresinden manuel olarak ayarlamanıza yarar. "Brush" modu brush'ın kendi auto-masking ayarlarını kullanmanıza yarar (yani [Advanced](#advanced) bölümündeki). "Scene" modu da scene auto-masking ayarlarını kullanmanıza yarar (bilmiyorsanız [Advanced](#advanced) bölümüne bakın). Ayrıca "Brush" veya "Scene" modunu kullanırken "Cavity" veya "Cavity (inverted)" açık olmasa bile en son ayarları ne ise o kullanılır.
 
+* #### Factor
+Bu ayar maskenin kontrastını/şiddetini belirler.
 
+* #### Blur
+Bu ayar maskenin blur derecesini yani yumuşaklık derecesini belitir. Bu değer arttıkça maske daha yumuşak geçişlere sahip olur.
 
+* #### Cavity (Inverted)
+Bu ayar cavity işlemini tersine çevirir yani çukurları maskelemek yerine tümsekleri maskeler.
 
-
+* #### Custom Curve
+Bu ayar
 
 
 ## [Random Mask](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/editing/mask.html#random-mask)

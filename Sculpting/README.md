@@ -1514,7 +1514,11 @@ Subtract | Önceki maskeden yeni maske çıkarılır.
 "Mode" ayarında seçilen ayarın değeri.
 
 * #### Settings
-a
+Bu ayar kullanılacak ayarların nereden alınacağını belirler. "Operator" modu ayarları operatör penceresinden yani şu anki kullandığınız "son işlem" penceresinden manuel olarak ayarlamanıza yarar. "Brush" modu brush'ın kendi auto-masking ayarlarını kullanmanıza yarar (yani [Advanced](#advanced) bölümündeki). "Scene" modu da scene auto-masking ayarlarını kullanmanıza yarar (bilmiyorsanız [Advanced](#advanced) bölümüne bakın). Ayrıca "Brush" veya "Scene" modunu kullanırken "Cavity" veya "Cavity (inverted)" açık olmasa bile en son ayarları ne ise o kullanılır.
+
+
+
+
 
 
 

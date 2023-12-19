@@ -1300,7 +1300,7 @@ Bu ayar [Mask From Cavity](#mask-from-cavity) maske aracı ile aynı mantıkta �
 Bu ayar "Cavity" modu ile aynıdır. Tek farkı inverted yani işlemin tersine çevrilmiş olmasıdır, yani çukurları değil de tümsekleri kullanır. Yani [Mask From Cavity](#mask-from-cavity) aracının "Cavity (Inverted)" ayarının açık olduğu halidir.
 
 * #### View Normal
-a
+Bu ayar kameranızın normal'ı ile vertex'lerin normal'ının aralarındaki açı farkına göre işlemden etkilenecek vertex'leri seçer. "Limit" ayarını kullanarak açı farkının maksimum ne kadar olabileceğini ayarlayabilirsiniz. Kameranızın normal'ı ile vertex'in normal'ı arasındaki açı farkı bu değerden fazla olan vertex'ler işlemden etkilenmez. ""Limit" ayarı 90 derece iken bütün vertex'ler işlemden etkilenir, yani 90 derece bütün vertex'leri kaplar.
 
 
 

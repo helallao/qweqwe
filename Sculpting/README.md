@@ -1300,7 +1300,12 @@ Bu ayar [Mask From Cavity](#mask-from-cavity) maske aracı ile aynı mantıkta �
 Bu ayar "Cavity" modu ile aynıdır. Tek farkı inverted yani işlemin tersine çevrilmiş olmasıdır, yani çukurları değil de tümsekleri kullanır. Yani [Mask From Cavity](#mask-from-cavity) aracının "Cavity (Inverted)" ayarının açık olduğu halidir.
 
 * #### View Normal
-Bu ayar kameranızın normal'ı ile vertex'lerin normal'ının aralarındaki açı farkına göre işlemden etkilenecek vertex'leri seçer. "Limit" ayarını kullanarak açı farkının maksimum ne kadar olabileceğini ayarlayabilirsiniz. Kameranızın normal'ı ile vertex'in normal'ı arasındaki açı farkı bu değerden fazla olan vertex'ler işlemden etkilenmez. ""Limit" ayarı 90 derece iken bütün vertex'ler işlemden etkilenir, yani 90 derece bütün vertex'leri kaplar.
+Bu ayar kameranızın normal'ı ile vertex'lerin normal'ının aralarındaki açı farkına göre işlemden etkilenecek vertex'leri seçer. "Limit" ayarını kullanarak açı farkının maksimum ne kadar olabileceğini ayarlayabilirsiniz. Kameranızın normal'ı ile vertex'in normal'ı arasındaki açı farkı bu değerden fazla olan vertex'ler işlemden etkilenmez. "Limit" ayarı 90 derece iken bütün vertex'ler işlemden etkilenir, yani 90 derece bütün vertex'leri kaplar. "Falloff" ayarının nasıl çalıştığını tam olarak bilmiyorum, arttırdıkça "Limit" değerini de arttırıyor. Eğer kesin sonuçlar almak istiyorsanız "Falloff" değerini 0 yapabilirsiniz, böylelikle "Limit" değerine ne verdiyseniz o değer kullanılır. "Occlusion" ayarı açıldığında ise yaptığınız işlemden sadece başka face'ler tarafından engellenmeyen/bloklanmayan (occlude) vertex'ler etkilenir.
+
+* #### Area Normal
+Bu ayar
+
+
 
 
 

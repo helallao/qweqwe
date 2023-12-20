@@ -1320,8 +1320,17 @@ Z Plane | İşlemler Z ekseninde uygulanır.
 Bu ayar "Sculpt Plane" ayarı "Area Plane" modundayken çalışır (ki zaten diğer modlarda çalışamaz, çalışma mantığına aykırı). Normalde, yani bu ayar kapalı iken, çizim esnasında mouse'unuzu hareket ettirdikçe vertex'lerin ortalama normal'ı tekrar hesaplanır, yani mouse'unuzun güncel konumuna göre normal yönü güncellenir. Eğer bu ayarı açarsanız bu yeniden hesaplama işlemi devre dışı bırakılır, çizime yani stroke'a (yani her bir fırça darbesi, bir kere sol mouse tuşuna tıkayıp basılı tutarak çizim yapmanız) başladığınız andaki vertex'lerin ortalama normal'ı kullanılır.
 
 * #### Original Plane
-Bu ayar
+Bu ayarın nasıl çalıştığını bilmiyorum.
 
+* #### Accumulate
+Bu ayar tek bir stroke (yani her bir fırça darbesi, bir kere sol mouse tuşuna tıkayıp basılı tutarak çizim yapmanız) ile uyguladığınız efekti olabilecek maksimum seviyeye kadar (yani bu durumda kameraya kadar) uygulayabilmenize yarar. Yani normalde bu ayar kapalı iken uyguladığınız efekt sadece belirli bir seviyeye kadar gelebilirken, bu ayarı açarak tek bir stroke ile uyguladığınız efekti istediğiniz seviyeye kadar getirebilirsiniz.
+
+* #### Front Faces Only
+Bu ayar açıldığında yapılan işlemden sadece kameraya bakan yani normal'ı kamera yönünde olan vertex'ler etkilenir. Kameraya bakan derken kastettiğim vertex'ler normal'ları ile kameranın normal'ı arasındaki açı farkı 90 dereceden küçük olanlar.
+
+
+## [Texture](https://docs.blender.org/manual/en/latest/sculpt_paint/brush/texture.html)
+Bu kategoride
 
 
 

@@ -1303,8 +1303,24 @@ Bu ayar "Cavity" modu ile aynıdır. Tek farkı inverted yani işlemin tersine �
 Bu ayar kameranızın normal'ı ile vertex'lerin normal'ının aralarındaki açı farkına göre işlemden etkilenecek vertex'leri seçer. "Limit" ayarını kullanarak açı farkının maksimum ne kadar olabileceğini ayarlayabilirsiniz. Kameranızın normal'ı ile vertex'in normal'ı arasındaki açı farkı bu değerden fazla olan vertex'ler işlemden etkilenmez. "Limit" ayarı 90 derece iken bütün vertex'ler işlemden etkilenir, yani 90 derece bütün vertex'leri kaplar. "Falloff" ayarının nasıl çalıştığını tam olarak bilmiyorum, arttırdıkça "Limit" değerini de arttırıyor. Eğer kesin sonuçlar almak istiyorsanız "Falloff" değerini 0 yapabilirsiniz, böylelikle "Limit" değerine ne verdiyseniz o değer kullanılır. "Occlusion" ayarı açıldığında ise yaptığınız işlemden sadece başka face'ler tarafından engellenmeyen/bloklanmayan (occlude) vertex'ler etkilenir.
 
 * #### Area Normal
-Bu ayar
+Bu ayar "View Normal" ile aynıdır, tek farkı kameranızın normal'ını kullanmak yerine çizime başladığınız vertex'in yani stroke'a (yani her bir fırça darbesi, bir kere sol mouse tuşuna tıkayıp basılı tutarak çizim yapmanız) başlarken tıkladığınız vertex'in normal'ını baz alarak çalışmasıdır. Yani işlemler kameranın normal'ı değil de tıkladığınız vertex'in normal'ı baz alınarak yapılır.
 
+* #### Sculpt Plane
+Bu ayar brush'ınızın işlemleri yapacağı yönü belirler.
+
+Mod | Açıklama
+:---: | :---:
+Area Plane | Default moddur. Brush'ınızın "Normal Radius" u (brush'ın "Normal Radius" ayarının açıklamasına bakın) kullanılarak vertex'lerin ortalama normal'ı hesaplanır ve bu yönde işlem uygulanır.
+View Plane | Kameranızın yönü plane olarak (bunu [orthographic](https://docs.blender.org/manual/en/latest/editors/3dview/navigate/projections.html) modu gibi düşünebilirsiniz, [Camera Data](../Shader%20Nodes#camera-data) shader node'unun "View Z Depth" modundaki görsele bakın) kullanılır ve bu yönde işlem uygulanır.
+X Plane | İşlemler X ekseninde uygulanır.
+Y Plane | İşlemler Y ekseninde uygulanır.
+Z Plane | İşlemler Z ekseninde uygulanır.
+
+* #### Original Normal
+Bu ayar "Sculpt Plane" ayarı "Area Plane" modundayken çalışır (ki zaten diğer modlarda çalışamaz, çalışma mantığına aykırı). Normalde, yani bu ayar kapalı iken, çizim esnasında mouse'unuzu hareket ettirdikçe vertex'lerin ortalama normal'ı tekrar hesaplanır, yani mouse'unuzun güncel konumuna göre normal yönü güncellenir. Eğer bu ayarı açarsanız bu yeniden hesaplama işlemi devre dışı bırakılır, çizime yani stroke'a (yani her bir fırça darbesi, bir kere sol mouse tuşuna tıkayıp basılı tutarak çizim yapmanız) başladığınız andaki vertex'lerin ortalama normal'ı kullanılır.
+
+* #### Original Plane
+Bu ayar
 
 
 

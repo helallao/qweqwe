@@ -1345,6 +1345,19 @@ Tiled | Bu mod "View Plane" modu ile aynı mantıkta çalışır, tiled yani tek
 Random | "Area Plane" modu gibidir ama stroke boyunca her adımda rastgele bir texture coordinate seçer. Yani her adımda texture'u rastgele bir konumdan yerleştirir.
 Stencil | "View Plane" modu gibidir ama texture'u ekranınızda istediğiniz yere yerleştirebilirsiniz. Mouse'unuzun sağ tuşuna basılı tutarak texture'u hareket ettirebilirsiniz. Shift'e basarken mouse'unuzun sağ tuşuna basarak texture'u boyutlandırabilirsiniz, ayrıca X ve Y tuşlarına basark işlemi tek bir eksene kilitleyebilirsiniz. Ctrl'ye basarken mouse'unuzun sağ tuşuna basarak texture'u döndürebilirsiniz.
 
+* #### Angle
+Texture'un açısını değiştirmenize yani texture'u döndürmenize yarar.
+
+* #### Rake
+Sadece "Mapping" ayarı "View Plane", "Area Plane" ve "Random" modundayken vardır. Texture'un açısını otomatik olarak mouse'unuzun hareket ettiği yöne çevirir.
+
+* #### Random
+Sadece "Mapping" ayarı "View Plane", "Area Plane" ve "Random" modundayken vardır. Texture'un açısını stroke boyunca her adımda 0 ile "Random Angle" ayarına verdiğiniz değer arasında rastgele değiştirir.
+
+* #### Offset X/Y/Z
+a
+
+
 
 
 

@@ -1330,7 +1330,18 @@ Bu ayar açıldığında yapılan işlemden sadece kameraya bakan yani normal'ı
 
 
 ## [Texture](https://docs.blender.org/manual/en/latest/sculpt_paint/brush/texture.html)
-Bu kategoride
+Bu kategorideki ayarlar brush'a texture ekleyerek işlemleri bu texture'a göre yapabilmenizi sağlar. Bu texture'lar alpha texture olarak adlandırılır. Texture'ların içerisindeki siyah-beyaz renkler yani 0-1 arası değerler kullanılarak yükseklik değeri belirlenir.
+
+
+* #### Mapping
+Bu ayar texture'un mesh'e nasıl yansıtılacağını belirler.
+
+Mod | Açıklama
+:---: | :---:
+View Plane | Texture mesh'in üzerine kameranın şu anki açısına göre yansıtılır, yani kameranın şu anki açısına göre plane (bunu [orthographic](https://docs.blender.org/manual/en/latest/editors/3dview/navigate/projections.html) modu gibi düşünebilirsiniz, [Camera Data](../Shader%20Nodes#camera-data) shader node'unun "View Z Depth" modundaki görsele bakın) oluşturulur ve texture bu plane'e bakacak şekilde yansıtılır. "Cursor" kategorisindeki [Texture Opacity](#texture-opacity) ayarını açarak bu modun nasıl çalıştığını daha iyi anlayabilirsiniz.
+Area Plane | Texture mesh'in üzerine yüzeyin yani vertex'lerin normal'ı yönünde yansıtılır. Yani yüzey nereye doğru bakıyorsa o şekilde yansıtılır.
+Tiled | Bu mod "View Plane" modu ile aynı mantıkta çalışır, tiled yani tekrarlama modudur. Texture ekranınız boyunca tekrarlanır ve oluşan şekil kullanılır. Yani "View Plane" modunun hareket ettirilemeyen (yani texture'u tıkladığınız yere koyamadığınız) ve bütün ekranı kaplayan versiyonudur. "Cursor" kategorisindeki [Texture Opacity](#texture-opacity) ayarını açarak bu modun nasıl çalıştığını daha iyi anlayabilirsiniz.
+3D | Bu mod
 
 
 
@@ -1344,7 +1355,24 @@ a
 a
 
 ## [Cursor](https://docs.blender.org/manual/en/latest/sculpt_paint/brush/cursor.html)
-a
+Bu kategoride brush'ın cursor yani imleç ile ilgili ayarları vardır.
+
+
+* #### Cursor Color
+Bu ayar imlecin rengini belirtir.
+
+* #### Inverse Color
+Bu ayar brush'ın eksi yönünde kullanılırken imlecinin rengini belirtir.
+
+* #### Falloff Opacity
+Bu ayar kullanılan falloff'un şeklini brush'ınızın yarıçapı içerisinde göstermeye yarar. Yandaki "Override Overlay" ayarını açarak bu özelliğin çizim yaparken devre dışı kalmasını sağlayabilirsiniz. Onun yanındaki "Use Cursor Overlay" ayarını açarak bu özelliği açıp/kapatabilirsiniz.
+
+* #### Texture Opacity
+Bu ayar kullanılan texture'un şeklini göstermeye yarar. Yandaki "Override Overlay" ayarını açarak bu özelliğin çizim yaparken devre dışı kalmasını sağlayabilirsiniz. Onun yanındaki "Use Texture Overlay" ayarını açarak bu özelliği açıp/kapatabilirsiniz.
+
+
+
+
 
 
 <br>

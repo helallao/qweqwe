@@ -1345,6 +1345,12 @@ Tiled | Bu mod "View Plane" modu ile aynı mantıkta çalışır, tiled yani tek
 Random | "Area Plane" modu gibidir ama stroke boyunca her adımda rastgele bir texture coordinate seçer. Yani her adımda texture'u rastgele bir konumdan yerleştirir.
 Stencil | "View Plane" modu gibidir ama texture'u ekranınızda istediğiniz yere yerleştirebilirsiniz. Mouse'unuzun sağ tuşuna basılı tutarak texture'u hareket ettirebilirsiniz. Shift'e basarken mouse'unuzun sağ tuşuna basarak texture'u boyutlandırabilirsiniz, ayrıca X ve Y tuşlarına basark işlemi tek bir eksene kilitleyebilirsiniz. Ctrl'ye basarken mouse'unuzun sağ tuşuna basarak texture'u döndürebilirsiniz.
 
+* #### Image Aspect
+Sadece "Mapping" ayarı "Stencil" modundayken vardır. Eğer ekranınız üzerindeki texture'u sadece X veya Y eksenininde scale ettiyseniz yani boyutlandırdıysanız X ve Y eksenini eşitlemek için yani en/boy oranını eşitlemek için bu butonu kullanabilirsiniz.
+
+* #### Reset Transform
+Sadece "Mapping" ayarı "Stencil" modundayken vardır. Bu buton ekranınız üzerindeki texture'a uyguladığınız scale ve rotasyon ayarlarını sıfırlar.
+
 * #### Angle
 Texture'un açısını değiştirmenize yani texture'u döndürmenize yarar.
 
@@ -1355,10 +1361,16 @@ Sadece "Mapping" ayarı "View Plane", "Area Plane" ve "Random" modundayken vard�
 Sadece "Mapping" ayarı "View Plane", "Area Plane" ve "Random" modundayken vardır. Texture'un açısını stroke boyunca her adımda 0 ile "Random Angle" ayarına verdiğiniz değer arasında rastgele değiştirir.
 
 * #### Offset X/Y/Z
-a
+Texture'un konumunu yani orta noktasını ileri/geri almanıza, offset vermenize yarar.
 
+* #### Size X/Y/Z
+Texture'un boyutunu ayarlamanıza yarar.
 
+* #### Sample Bias
+Bu değer texture'un bütün renk değerlerine eklenir. Yani bütün texture'u yükseltmeye/alçaltmaya yarar. Texture'un yükseklik seviyesini düzeltmek için kullanılır.
 
+* #### Vector Displacement
+Sadece "Mapping" ayarı "Area Plane" modundayken vardır. Brush'ın uyguladığı efekti tek bir yönde değil de 3 yönde yapabilmenize yarar. Kullandığınız texture'un renkli yani RGB olması gerekir. RGB değerlerinin her biri XYZ değerini temsil eder ve bu değerlere göre işlem uygulanır. Mantığını anlamak için [Vector Displacement](../Shader%20Nodes#vector-displacement) shader node'una bakabilirsiniz.
 
 
 ## [Stroke](https://docs.blender.org/manual/en/latest/sculpt_paint/brush/stroke.html)

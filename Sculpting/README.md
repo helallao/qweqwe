@@ -1341,12 +1341,12 @@ Mod | Açıklama
 View Plane | Texture mesh'in üzerine kameranın şu anki açısına göre yansıtılır, yani kameranın şu anki açısına göre plane (bunu [orthographic](https://docs.blender.org/manual/en/latest/editors/3dview/navigate/projections.html) modu gibi düşünebilirsiniz, [Camera Data](../Shader%20Nodes#camera-data) shader node'unun "View Z Depth" modundaki görsele bakın) oluşturulur ve texture bu plane'e bakacak şekilde yansıtılır. "Cursor" kategorisindeki [Texture Opacity](#texture-opacity) ayarını açarak bu modun nasıl çalıştığını daha iyi anlayabilirsiniz.
 Area Plane | Texture mesh'in üzerine yüzeyin yani vertex'lerin normal'ı yönünde yansıtılır. Yani yüzey nereye doğru bakıyorsa o şekilde yansıtılır.
 Tiled | Bu mod "View Plane" modu ile aynı mantıkta çalışır, tiled yani tekrarlama modudur. Texture ekranınız boyunca tekrarlanır ve oluşan şekil kullanılır. Yani "View Plane" modunun hareket ettirilemeyen (yani texture'u tıkladığınız yere koyamadığınız) ve bütün ekranı kaplayan versiyonudur. "Cursor" kategorisindeki [Texture Opacity](#texture-opacity) ayarını açarak bu modun nasıl çalıştığını daha iyi anlayabilirsiniz.
-3D | Bu mod
+3D | Bu mod vertex coordinate değerlerini kullanır ve texture'u mesh'e Z ekseninden mesh'i kaplayacak şekilde yansıtır. Yani texture mesh'e Z eksenine göre yansıtılmış olur, bu modu eğer 2d mesh kullanıyorsanız kullanabilirsiniz.
+Random | "Area Plane" modu gibidir ama stroke boyunca her adımda rastgele bir texture coordinate seçer. Yani her adımda texture'u rastgele bir konumdan yerleştirir.
+Stencil | "View Plane" modu gibidir ama texture'u ekranınızda istediğiniz yere yerleştirebilirsiniz. Mouse'unuzun sağ tuşuna basılı tutarak texture'u hareket ettirebilirsiniz. Shift'e basarken mouse'unuzun sağ tuşuna basarak texture'u boyutlandırabilirsiniz, ayrıca X ve Y tuşlarına basark işlemi tek bir eksene kilitleyebilirsiniz. Ctrl'ye basarken mouse'unuzun sağ tuşuna basarak texture'u döndürebilirsiniz.
 
 
 
-## [Texture](https://docs.blender.org/manual/en/latest/sculpt_paint/brush/texture.html)
-a
 
 ## [Stroke](https://docs.blender.org/manual/en/latest/sculpt_paint/brush/stroke.html)
 a

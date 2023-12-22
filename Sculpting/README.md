@@ -1374,7 +1374,32 @@ Sadece "Mapping" ayarı "Area Plane" modundayken vardır. Brush'ın uyguladığ�
 
 
 ## [Stroke](https://docs.blender.org/manual/en/latest/sculpt_paint/brush/stroke.html)
-a
+Bu kategoride stroke (yani her bir fırça darbesi, bir kere sol mouse tuşuna tıkayıp basılı tutarak çizim yapmanız) ile ilgili ayarlar vardır.
+
+
+* #### Stroke Method
+Kullanılacak stroke modunu belirtir.
+
+Mod | Açıklama
+:---: | :---:
+Dots | a
+Drag Dot | a
+Space | Default moddur. Stroke boyunca "Spacing" ayarında belirtilen aralıkta noktalar koyar. Yani noktaların arasına "Spacing" ayarında belirtilen miktarda boşluk koyar.
+Airbrush | a
+Anchored | a
+Line | a
+Curve | a
+
+* #### Spacing
+Sadece "Stroke Method" ayarı "Space", "Line" ve "Curve" modundayken vardır. Noktaların arasına konulacak boşluk miktarını belirtir. Yani noktalar bu ayarda belirtilen miktarda aralıklı olarak yerleştirilir. Bu değer brush'ın şu anki çapının yüzdesi olarak hesaplanır. Yani mesela 100% iken her bir nokta brush'ın şu anki çapı kadar aralıklı olur. Yandaki "Spacing Pressure" ayarını açarak eğer sculpting için çizim tableti kullanıyorsanız, kaleminiz ile ekrana uyguladığınız baskıya göre kendisini otomatikmen değiştiren (artan/azalan) Spacing modunu açabilirsiniz.
+
+* #### Spacing Distance
+"Spacing" ayarında belirtilen aralık değerinin nasıl hesaplanacağını belirtir. "View" modunda bu aralık ekranınıza göre hesaplanır, yani yeni noktayı eklemek için ekranınız üzerinde bu aralık değeri kadar mouse'unuzu hareket ettirmeniz gerekir. "Scene" modunda ise mouse'unuzun altındaki vertex'in konumu 3d uzayda hesaplanır ve eğer aralık miktarına ulaşıldıysa yeni nokta eklenir. Bu iki mod arasındaki fark genellikle eğimli yüzeylerde belli olur. Mesela eğimli olan bir yüzeye dikey olarak baktığınızı düşünün. "View" modu mouse'unuzun ekranınız üzerindeki konumunu kullanarak hesaplamaları yaptığı için aslında aralık miktarına ulaşılmış olsa bile yeni noktayı koymayabilir, "Scene" modu ise böyle bir durumda noktaları doğru yerleştirir.
+
+* #### Adjust Strength for Spacing
+Sadece "Stroke Method" ayarı "Space", "Line" ve "Curve" modundayken vardır.
+
+
 
 ## [Falloff](https://docs.blender.org/manual/en/latest/sculpt_paint/brush/falloff.html)
 a

@@ -1378,7 +1378,7 @@ Bu kategoride stroke (yani her bir fırça darbesi, bir kere sol mouse tuşuna t
 
 
 * #### Stroke Method
-Kullanılacak stroke modunu belirtir.
+Kullanılacak stroke modunu belirtir. Ayrıca bu ayarı "Alt + E" kısayolu ile ayarlayabilirsiniz ([Kısayollar](#kısayollar-1) bölümünden "Genel Kısayollar" a bakın).
 
 Mod | Açıklama
 :---: | :---:
@@ -1397,7 +1397,14 @@ Sadece "Stroke Method" ayarı "Space", "Line" ve "Curve" modundayken vardır. No
 "Spacing" ayarında belirtilen aralık değerinin nasıl hesaplanacağını belirtir. "View" modunda bu aralık ekranınıza göre hesaplanır, yani yeni noktayı eklemek için ekranınız üzerinde bu aralık değeri kadar mouse'unuzu hareket ettirmeniz gerekir. "Scene" modunda ise mouse'unuzun altındaki vertex'in konumu 3d uzayda hesaplanır ve eğer aralık miktarına ulaşıldıysa yeni nokta eklenir. Bu iki mod arasındaki fark genellikle eğimli yüzeylerde belli olur. Mesela eğimli olan bir yüzeye dikey olarak baktığınızı düşünün. "View" modu mouse'unuzun ekranınız üzerindeki konumunu kullanarak hesaplamaları yaptığı için aslında aralık miktarına ulaşılmış olsa bile yeni noktayı koymayabilir, "Scene" modu ise böyle bir durumda noktaları doğru yerleştirir.
 
 * #### Adjust Strength for Spacing
+Sadece "Stroke Method" ayarı "Space", "Line" ve "Curve" modundayken vardır. Bu ayar çizim yaparken noktalar üst üste geldiğinde noktaların birbirlerinin üzerine binmesini engeller. Özellikle "Spacing" ayarı çok düşükken (mesela 1%) noktalar birbirlerine çok yakın oldukları için uygulanan efekt hemen en üst düzeylere çıkar. Bunu önlemek için bu ayarı açabilirsiniz. Efektin "Strength" değeri "Spacing" değerine göre ayarlanır.
+
+* #### Dash Ratio
 Sadece "Stroke Method" ayarı "Space", "Line" ve "Curve" modundayken vardır.
+
+* #### Dash Length
+Sadece "Stroke Method" ayarı "Space", "Line" ve "Curve" modundayken vardır.
+
 
 
 
@@ -1730,6 +1737,7 @@ Kısayol | Açıklama
 F | Fırçanın yarıçapını ayarlayabilirsiniz (sol ve sağa hareket ettirerek). Ayarlarken sol üstten şu anki radius değerini görebilirsiniz. Fırça yarıçapını ayarlarken "Ctrl" kısayoluna tıklayarak radius değerini 10'un katı olan sayılarda ayarlayabilirsiniz, "Shift" kısayoluna tıklayarak da ince ayar yapabilirsiniz.
 Shift + F | Fırçanın şiddetini ayarlayabilirsiniz (sol ve sağa hareket ettirerek). Fırça şiddetini ayarlarken "Ctrl" kısayoluna tıklayarak şiddet değerini 100'ün katı olan sayılarda ayarlayabilirsiniz, "Shift" kısayoluna tıklayarak da ince ayar yapabilirsiniz.
 Ctrl + F | Fırçanın texture'unun açısını değiştirmenize yarar. Fırça texture'unun açısını ayarlarken "Ctrl" kısayoluna tıklayarak açı değerini 10'un katı olan sayılarda ayarlayabilirsiniz, "Shift" kısayoluna tıklayarak da ince ayar yapabilirsiniz.
+Alt + E | [Stroke Method'u](#stroke-method) değiştirmenize yarar.
 Ctrl + Sol tık | "Ctrl" kısayoluna basarken mouse'un sol tuşuna basıp çizim yaparsanız fırçanın yönünü değiştirmiş olursunuz, yani "Direction" ayarını terse almış olursunuz. Bazı özel fırçalarda "Ctrl" kısayoluna basılı tutarak tıklamak yön değiştirmeyi değil de fırçanın 2. özelliğini aktifleştirmede kullanılır. Yani "Ctrl" kısayoluna basılı tutarak tıklamak her fırçada yön değiştirmek için kullanılmaz, fırçanın 2. özelliğini kullanmak için de kullanılır (mesela [Mask](#mask)).
 Alt + A | Scene [auto-masking](#advanced) modlarının kısayoludur. Açılan menü üzerinden istediğiniz modu açabilir/kapatabilirsiniz, ama bazı ayarları yapamazsınız. Mesela modların ayarlarını/değerlerini değiştiremezsiniz, ayarları/değerleri değiştirmek istiyorsanız sculpting modundayken üst toolbar'ın (araç çubuğu) tam ortasındaki butona tıklayarak scene auto-masking menüsünü kullanabilirsiniz. Bu menü sadece modları açmaya/kapamaya yarar. Ayrıca dediğim gibi bu kısayol scene auto-masking modlarını açıp/kapamaya yarar yani bu işlem bütün brush'lara uygulanır. Eğer her brush için özel olarak bu ayarları değiştirmek istiyorsanız brush ayarlarında "Advanced" bölümünden bu ayarları değiştirebilirsiniz.
 

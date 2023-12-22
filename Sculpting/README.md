@@ -1352,7 +1352,7 @@ Sadece "Mapping" ayarı "Stencil" modundayken vardır. Eğer ekranınız üzerin
 Sadece "Mapping" ayarı "Stencil" modundayken vardır. Bu buton ekranınız üzerindeki texture'a uyguladığınız scale ve rotasyon ayarlarını sıfırlar.
 
 * #### Angle
-Texture'un açısını değiştirmenize yani texture'u döndürmenize yarar.
+Texture'un açısını değiştirmenize yani texture'u döndürmenize yarar. "Ctrl + F" kısayolu ile ayarlayabilirsiniz ([Kısayollar](#kısayollar-1) bölümünden "Genel Kısayollar" a bakın).
 
 * #### Rake
 Sadece "Mapping" ayarı "View Plane", "Area Plane" ve "Random" modundayken vardır. Texture'un açısını otomatik olarak mouse'unuzun hareket ettiği yöne çevirir.
@@ -1704,6 +1704,7 @@ Kısayol | Açıklama
 :---: | :---:
 F | Fırçanın yarıçapını ayarlayabilirsiniz (sol ve sağa hareket ettirerek). Ayarlarken sol üstten şu anki radius değerini görebilirsiniz. Fırça yarıçapını ayarlarken "Ctrl" kısayoluna tıklayarak radius değerini 10'un katı olan sayılarda ayarlayabilirsiniz, "Shift" kısayoluna tıklayarak da ince ayar yapabilirsiniz.
 Shift + F | Fırçanın şiddetini ayarlayabilirsiniz (sol ve sağa hareket ettirerek). Fırça şiddetini ayarlarken "Ctrl" kısayoluna tıklayarak şiddet değerini 100'ün katı olan sayılarda ayarlayabilirsiniz, "Shift" kısayoluna tıklayarak da ince ayar yapabilirsiniz.
+Ctrl + F | Fırçanın texture'unun açısını değiştirmenize yarar. Fırça texture'unun açısını ayarlarken "Ctrl" kısayoluna tıklayarak açı değerini 10'un katı olan sayılarda ayarlayabilirsiniz, "Shift" kısayoluna tıklayarak da ince ayar yapabilirsiniz.
 Ctrl + Sol tık | "Ctrl" kısayoluna basarken mouse'un sol tuşuna basıp çizim yaparsanız fırçanın yönünü değiştirmiş olursunuz, yani "Direction" ayarını terse almış olursunuz. Bazı özel fırçalarda "Ctrl" kısayoluna basılı tutarak tıklamak yön değiştirmeyi değil de fırçanın 2. özelliğini aktifleştirmede kullanılır. Yani "Ctrl" kısayoluna basılı tutarak tıklamak her fırçada yön değiştirmek için kullanılmaz, fırçanın 2. özelliğini kullanmak için de kullanılır (mesela [Mask](#mask)).
 Alt + A | Scene [auto-masking](#advanced) modlarının kısayoludur. Açılan menü üzerinden istediğiniz modu açabilir/kapatabilirsiniz, ama bazı ayarları yapamazsınız. Mesela modların ayarlarını/değerlerini değiştiremezsiniz, ayarları/değerleri değiştirmek istiyorsanız sculpting modundayken üst toolbar'ın (araç çubuğu) tam ortasındaki butona tıklayarak scene auto-masking menüsünü kullanabilirsiniz. Bu menü sadece modları açmaya/kapamaya yarar. Ayrıca dediğim gibi bu kısayol scene auto-masking modlarını açıp/kapamaya yarar yani bu işlem bütün brush'lara uygulanır. Eğer her brush için özel olarak bu ayarları değiştirmek istiyorsanız brush ayarlarında "Advanced" bölümünden bu ayarları değiştirebilirsiniz.
 

@@ -1400,10 +1400,12 @@ Sadece "Stroke Method" ayarı "Space", "Line" ve "Curve" modundayken vardır. No
 Sadece "Stroke Method" ayarı "Space", "Line" ve "Curve" modundayken vardır. Bu ayar çizim yaparken noktalar üst üste geldiğinde noktaların birbirlerinin üzerine binmesini engeller. Özellikle "Spacing" ayarı çok düşükken (mesela 1%) noktalar birbirlerine çok yakın oldukları için uygulanan efekt hemen en üst düzeylere çıkar. Bunu önlemek için bu ayarı açabilirsiniz. Efektin "Strength" değeri "Spacing" değerine göre ayarlanır.
 
 * #### Dash Ratio
-Sadece "Stroke Method" ayarı "Space", "Line" ve "Curve" modundayken vardır.
+Sadece "Stroke Method" ayarı "Space", "Line" ve "Curve" modundayken vardır. Bu ayar "Dash Length" ayarı ile birlikte çalışır. "Dash Length" ayarında belirttiğiniz sayıda noktanın yüzde kaçının kullanılacağını belirtir. Yani şöyle, diyelim ki "Dash Length" değeri 4 olsun, bu durumda bu 4 nokta yüzdelik olarak (0 -> 0.25 -> 0.5 -> 0.75) şeklinde dağıtılır. Eğer bu ayarın değerini 0.6 yaparsanız, bu değer yüzdelik olarak ilk 3 noktayı kapsadığı için yani ilk 3 nokta 60%'lık kısmın içerisinde olduğu için çizim yaparken ilk 3 nokta kullanılır ama 4. nokta kullanılmaz. Yani sıra 4. noktaya geldiği zaman hiçbir efekt uygulanmaz. Bu işlem stroke boyunca bu şekilde devam eder. Kısacası bu ayar her kaç noktadan kaç tanesinin kullanılacağını belirtir, nokta sayısını belirlemek için "Dash Length" değeri, yüzde kaçının kullanılacağını belirlemek için "Dash Ratio" değeri kullanılır.
 
 * #### Dash Length
-Sadece "Stroke Method" ayarı "Space", "Line" ve "Curve" modundayken vardır.
+Sadece "Stroke Method" ayarı "Space", "Line" ve "Curve" modundayken vardır. "Dash Ratio" ayarı için kullanılacak nokta sayısı, daha fazla açıklama için "Dash Ratio" ayarının açıklamasına bakın.
+
+
 
 
 

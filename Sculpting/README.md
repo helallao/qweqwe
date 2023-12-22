@@ -1405,8 +1405,14 @@ Sadece "Stroke Method" ayarı "Space", "Line" ve "Curve" modundayken vardır. Bu
 * #### Dash Length
 Sadece "Stroke Method" ayarı "Space", "Line" ve "Curve" modundayken vardır. "Dash Ratio" ayarı için kullanılacak nokta sayısı, daha fazla açıklama için "Dash Ratio" ayarının açıklamasına bakın.
 
+* #### Jitter
+Çizim yaparken noktaların yerlerini çevreye doğru rastgele değiştirmeye yarar, yani jitter efekti verir.
 
+* #### Jitter Unit
+"View" modunda jitter derecesi yani mesafe ekranınıza göre hesaplanır, bu modda "Jitter" ayarı piksel sayısını belirtir. "Brush" modunda ise jitter derecesi yani mesafe brush'ınızın çapına göre hesaplanır, brush'ınızın çapı büyüdükçe jitter mesafesi de artar, yani mesela bu modda "Jitter" ayarını 1 olarak ayarlarsanız jitter mesafesi en fazla brush'ınızın şu anki çapı kadar uzaklıkta olabilir.
 
+* #### Input Samples
+a
 
 
 

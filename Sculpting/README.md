@@ -1412,7 +1412,7 @@ Sadece "Stroke Method" ayarı "Space", "Line" ve "Curve" modundayken vardır. "D
 "View" modunda jitter derecesi yani mesafe ekranınıza göre hesaplanır, bu modda "Jitter" ayarı piksel sayısını belirtir. "Brush" modunda ise jitter derecesi yani mesafe brush'ınızın çapına göre hesaplanır, brush'ınızın çapı büyüdükçe jitter mesafesi de artar, yani mesela bu modda "Jitter" ayarını 1 olarak ayarlarsanız jitter mesafesi en fazla brush'ınızın şu anki çapı kadar uzaklıkta olabilir.
 
 * #### Input Samples
-a
+Bu ayar çizim için kullandığınız cihazdan (yani eğer mouse kullanıyorsanız mouse'unuzun, çizim tableti kullanıyorsanız çizim tabletinizin) alınacak veri miktarını belirtir. Veri miktarı derken kastettiğim şey konum bilgisidir, yani çizim yaparken yaptığınız hareketlerin konumları. Ne kadar fazla konum alınırsa o kadar fazla veri var demektir ve bu da stroke boyunca konulacak noktaların konumlarının daha doğru yerleştirilebilmesini sağlar. Mesela bu ayar 0 iken hiç ek veri kullanılmadığı için çizim yaparken mouse'unuzun konumu neredeyse nokta da oraya koyulur. Ama eğer mesela bu ayarı 10 yaparsanız noktanın koyulacağı noktanın hesaplanması için 10 tane mouse konumuna ihtiyaç vardır yani mouse'unuzun son 10 konum bilgisi kullanılır. Bu 10 konumun ortalamasının alınması ile noktanın yerleştirileceği konum hesaplanır. Böylelikle de çizim yaparken olan ufak el titremeleri veya bunun gibi hareketinizi çarpıtan şeylerin etkisini minimum seviyeye düşürebilirsiniz. Eğer bu değeri fazla arttırırsanız noktanın yerleştirildiği konumun mouse'unuzun çok gerisinde kaldığını görebilirsiniz çünkü belirttiğiniz miktarda mouse konumu verisinin toplanması beklenir.
 
 
 

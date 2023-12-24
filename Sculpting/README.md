@@ -1382,13 +1382,19 @@ Kullanılacak stroke modunu belirtir. Ayrıca bu ayarı "Alt + E" kısayolu ile 
 
 Mod | Açıklama
 :---: | :---:
-Dots | a
-Drag Dot | a
+Dots | "Space" modu gibidir ama noktalar mouse'unuzun hızına göre koyulur. Mouse'unuzu yavaş hareket ettirdiğinizde noktalar birbirlerine yakın olur, hızlı hareket ettirdiğinizde uzak.
+Drag Dot | Bu modda tek bir nokta konulur, stroke boyunca koyduğunuz noktayı hareket ettirebilirsiniz.
 Space | Default moddur. Stroke boyunca "Spacing" ayarında belirtilen aralıkta noktalar koyar. Yani noktaların arasına "Spacing" ayarında belirtilen miktarda boşluk koyar.
-Airbrush | a
-Anchored | a
-Line | a
+Airbrush | Bu modda noktalar mesafe aralığına göre değil zaman aralığına göre koyulur. Stroke boyunca "Rate" ayarında belirttiğiniz zaman aralığında sürekli noktalar koyulur.
+Anchored | Bu modda tek notka yerleştirilir, nokta yerleştirildikten sonra mouse'unuzu uzaklaştırarak noktanın büyüklüğünü yani o nokta için brush'ın yarıçapını ayarlayabilirsiniz.
+Line | Bu mod "Space" moduyla aynıdır, tek farkı bu modda çizim yapmak yerine iki nokta belirleyerek bu doğru boyunca noktaların koyulmasıdır. Çizdiğiniz doğru boyunca sanki stroke uygulamışsınız gibi noktalar oluşturulur. Ayrıca doğruyu çizerken "Alt" kısayoluna basarak doğruyu 45 derecelik açılara kilitleyebilirsiniz.
 Curve | a
+
+* #### Rate
+Sadece "Stroke Method" ayarı "Airbrush" modundayken vardır. Noktaların kaç saniyede bir yerleştirileceğini belirler. Bu ayarı 1 olarak ayarlarsanız her 1 saniyede bir nokta yerleştirilir, 0.5 olarak ayarlarsanız her yarım saniyede bir nokta yerleştirilir.
+
+* #### Edge to Edge
+Sadece "Stroke Method" ayarı "Anchored" modundayken vardır. Bu ayar açıldığında noktanın büyüklüğü ve yönü iki konum noktasına göre belirlenir. Bu konum noktaları mouse'unuz ile ilk tıkladığınız nokta ve tıkladıktan sonra mouse'unuzu sürüklediğiniz noktadır.
 
 * #### Spacing
 Sadece "Stroke Method" ayarı "Space", "Line" ve "Curve" modundayken vardır. Noktaların arasına konulacak boşluk miktarını belirtir. Yani noktalar bu ayarda belirtilen miktarda aralıklı olarak yerleştirilir. Bu değer brush'ın şu anki çapının yüzdesi olarak hesaplanır. Yani mesela 100% iken her bir nokta brush'ın şu anki çapı kadar aralıklı olur. Yandaki "Spacing Pressure" ayarını açarak eğer sculpting için çizim tableti kullanıyorsanız, kaleminiz ile ekrana uyguladığınız baskıya göre kendisini otomatikmen değiştiren (artan/azalan) Spacing modunu açabilirsiniz.

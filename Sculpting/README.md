@@ -1437,7 +1437,7 @@ Bu kategoride brush'ın falloff ayarları vardır. Falloff ayarı brush'ın "Str
 
 
 * #### Falloff Shape
-a
+Bu ayar falloff şeklinin 2d mi yoksa 3d mi olacağını belirler. "Sphere" modu 2d daire şeklinde yani klasik şekilde çalışır. "Projected" modu ise 3d silinidir şeklinde çalışır yani 2d dairenin uzatılmış ve silindire dönüştürülmüş halidir. Silindirin baktığı yön kameranızın baktığı yöndür.
 
 
 ## [Cursor](https://docs.blender.org/manual/en/latest/sculpt_paint/brush/cursor.html)

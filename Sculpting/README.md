@@ -1422,14 +1422,14 @@ Bu ayar çizim için kullandığınız cihazdan (yani eğer mouse kullanıyorsan
 
 
 ### [Stabilize Stroke](https://docs.blender.org/manual/en/latest/sculpt_paint/brush/stroke.html#stabilize-stroke)
-Bu ayar çiziminizi yumuşatmak için çizim noktası ile mouse arasında gecikme kullanmanıza yarar. Gecikmeden kastım çiziminizin belirli bir uzaklıktan uygulanmasıdır. Gecikme yani mouse'unuz ile çizim noktası arasındaki mesafe arttıkça mouse'unuzun yaptığı hareketlerin çizim noktasına olan etkisi de daha fazla yumuşatılmış (ortalaması alınmış) olur. Bunu bir tren gibi veya arkasına römork takılmış bir traktör gibi düşünebilirsiniz. Başlangıç noktası (mouse) ile vagon/römork (yani en son, çizim noktası) arasındaki mesafe arttıkça başlangıç noktasında yani mouse'unuz ile yaptığınız ani hareketler sona yani çizim noktasına etkisi düşürülmüş bir şekilde ulaşır. Böylelikle de çizim yaparken olan ufak el titremeleri veya bunun gibi hareketinizi çarpıtan şeylerin etkisini minimum seviyeye düşürebilirsiniz. Ayrıca bu özellik birçok 2d dijital çizim uygulamalarında olan bir özelliktir ("lazy" çizim olarak da adlandırılır). Bu konu hakkında ek bilgiye ulaşmak için internette "Stabilizers in Digital Drawing" şeklinde aratabilirsiniz.
+Bu ayar çiziminizi yumuşatmak için çizim noktası ile mouse arasında gecikme kullanmanıza yarar. Gecikmeden kastım çiziminizin belirli bir uzaklıktan uygulanmasıdır. Gecikme yani mouse'unuz ile çizim noktası arasındaki mesafe arttıkça mouse'unuzun yaptığı hareketlerin çizim noktasına olan etkisi de daha fazla yumuşatılmış (ortalaması alınmış) olur. Bunu bir tren gibi veya arkasına römork takılmış bir traktör gibi düşünebilirsiniz. Başlangıç noktası (mouse) ile vagon/römork (yani en son, çizim noktası) arasındaki mesafe arttıkça başlangıç noktasında yani mouse'unuz ile yaptığınız ani hareketler sona yani çizim noktasına etkisi düşürülmüş bir şekilde ulaşır. Böylelikle de çizim yaparken olan ufak el titremeleri veya bunun gibi hareketinizi çarpıtan şeylerin etkisini minimum seviyeye düşürebilirsiniz. Ayrıca bu özellik birçok 2d dijital çizim uygulamalarında olan bir özelliktir ("lazy" çizim olarak da adlandırılır). Bu konu hakkında ek bilgiye ulaşmak için internette "Stabilizers in Digital Drawing" şeklinde aratabilirsiniz. Ayrıca bu ayarı "Shift + S" kısayolu ile ayarlayabilirsiniz ([Kısayollar](#kısayollar-1) bölümünden "Genel Kısayollar" a bakın).
 
 
 * #### Radius
 Bu ayar
 
 * #### Factor
-Bu ayar
+Bu ayar mouse'unuz ile çizim noktası arasındaki mesafeyi belirtir.
 
 
 ## [Falloff](https://docs.blender.org/manual/en/latest/sculpt_paint/brush/falloff.html)
@@ -1762,6 +1762,7 @@ F | Fırçanın yarıçapını ayarlayabilirsiniz (sol ve sağa hareket ettirere
 Shift + F | Fırçanın şiddetini ayarlayabilirsiniz (sol ve sağa hareket ettirerek). Fırça şiddetini ayarlarken "Ctrl" kısayoluna tıklayarak şiddet değerini 100'ün katı olan sayılarda ayarlayabilirsiniz, "Shift" kısayoluna tıklayarak da ince ayar yapabilirsiniz.
 Ctrl + F | Fırçanın texture'unun açısını değiştirmenize yarar. Fırça texture'unun açısını ayarlarken "Ctrl" kısayoluna tıklayarak açı değerini 10'un katı olan sayılarda ayarlayabilirsiniz, "Shift" kısayoluna tıklayarak da ince ayar yapabilirsiniz.
 Alt + E | [Stroke Method'u](#stroke-method) değiştirmenize yarar.
+Shift + S | [Stabilize Stroke](#stabilize-stroke) ayarını açar/kapatır.
 Ctrl + Sol tık | "Ctrl" kısayoluna basarken mouse'un sol tuşuna basıp çizim yaparsanız fırçanın yönünü değiştirmiş olursunuz, yani "Direction" ayarını terse almış olursunuz. Bazı özel fırçalarda "Ctrl" kısayoluna basılı tutarak tıklamak yön değiştirmeyi değil de fırçanın 2. özelliğini aktifleştirmede kullanılır. Yani "Ctrl" kısayoluna basılı tutarak tıklamak her fırçada yön değiştirmek için kullanılmaz, fırçanın 2. özelliğini kullanmak için de kullanılır (mesela [Mask](#mask)).
 Alt + A | Scene [auto-masking](#advanced) modlarının kısayoludur. Açılan menü üzerinden istediğiniz modu açabilir/kapatabilirsiniz, ama bazı ayarları yapamazsınız. Mesela modların ayarlarını/değerlerini değiştiremezsiniz, ayarları/değerleri değiştirmek istiyorsanız sculpting modundayken üst toolbar'ın (araç çubuğu) tam ortasındaki butona tıklayarak scene auto-masking menüsünü kullanabilirsiniz. Bu menü sadece modları açmaya/kapamaya yarar. Ayrıca dediğim gibi bu kısayol scene auto-masking modlarını açıp/kapamaya yarar yani bu işlem bütün brush'lara uygulanır. Eğer her brush için özel olarak bu ayarları değiştirmek istiyorsanız brush ayarlarında "Advanced" bölümünden bu ayarları değiştirebilirsiniz.
 

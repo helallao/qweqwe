@@ -1426,14 +1426,19 @@ Bu ayar çiziminizi yumuşatmak için çizim noktası ile mouse arasında gecikm
 
 
 * #### Radius
-Bu ayar
+Bu ayar aynı "Spacing" mantığındadır. Mouse'unuzu hareket ettirirken yeni noktanın koyulması için en son koyulan noktadan ne kadar uzak olunması gerektiğini belirtir. Yani yeni nokta ile önceki nokta arasındaki farkı.
 
 * #### Factor
 Bu ayar mouse'unuz ile çizim noktası arasındaki mesafeyi belirtir.
 
 
 ## [Falloff](https://docs.blender.org/manual/en/latest/sculpt_paint/brush/falloff.html)
+Bu kategoride brush'ın falloff ayarları vardır. Falloff ayarı brush'ın "Strength" inin orta noktadan uç noktalara doğru nasıl şekilleneceğini belirler. İsterseniz "Custom" modunu seçerek kendi yaptığınız curve'ü kullanarak falloff oluşturabilirsiniz.
+
+
+* #### Falloff Shape
 a
+
 
 ## [Cursor](https://docs.blender.org/manual/en/latest/sculpt_paint/brush/cursor.html)
 Bu kategoride brush'ın cursor yani imleç ile ilgili ayarları vardır.

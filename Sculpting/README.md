@@ -1641,7 +1641,8 @@ R | Maskenin şu anki uç noktalarından iç ve dış yöne doğru iki "Geodesic
 Alt + R | Maskenin şu anki uç noktalarından iç ve dış yöne doğru iki "Topology Falloff" modunda 2 yeni maske oluşturur. Bu işlemi tekrarlayarak maskenizi daha fazla parçaya ayırabilirsiniz.
 W | Maskenin loop sayısını yani döngü sayısını arttırır. Loop sayısı maskenin mesh boyunca kaç uç noktası olacağını belirler.
 Q | Maskenin loop sayısını yani döngü sayısını azaltır.
-
+Y | Bu ayar eğer brush'ın texture ayarlarında ["Mapping"](#mapping) ayarı "3D" olarak ayarlandıysa çalışır. Texture için falloff uzaklığını arttırır, yani bu işlemi her tekrarladığınızda texture'un üzerine gelen maskenin falloff'u (Geodesic/Topology/Diagonals/Spherical bunlardan hangisini kullanıyorsanız) kısaltılır ve texture'unuzun şeklini kullanan falloff uzatılır. Bu ayarı kendiniz test ederek daha iyi anlayabilirsiniz.
+T | Bu ayar eğer brush'ın texture ayarlarında ["Mapping"](#mapping) ayarı "3D" olarak ayarlandıysa çalışır. Texture için falloff uzaklığını azaltır, yani bu işlemi her tekrarladığınızda texture'un üzerine gelen maskenin falloff'u (Geodesic/Topology/Diagonals/Spherical bunlardan hangisini kullanıyorsanız) uzatılır ve texture'unuzun şeklini kullanan falloff kısaltılır. Bu ayarı kendiniz test ederek daha iyi anlayabilirsiniz.
 
 
 ## [Expand Mask by Normals](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/editing/expand.html#expand-mask-by-normals)

@@ -1635,7 +1635,12 @@ F | İşlemi tersine çevirir yani maske oluşturmaya değil maske silmeye yarar
 4 | Spherical Falloff moduna geçer. Spherical Falloff modu "Geodesic Falloff" modu gibidir ama mükemmel daire şekli oluşturan bir falloff modudur. Bunu tepeden 2d olarak daire yansıtılıyormuş gibi düşünebilirsiniz.
 G | Gradient ayarını açar, yani maske değerlerine orta noktadan uç noktalara doğru falloff uygulanır.
 B | "Gradient" ayarı gibidir ama falloff'u belirlemek için şu anki kullandığınız brush'ın [Falloff'unu](#falloff) kullanır.
-
+E | Preserve State ayarını açar. Bu ayarı açtığınızda önceki maskeler silinir.
+Ctrl | Maskeyi mouse'unuzun altındaki face set'i kaplayacak şekilde şekillendirir. Yani maske face set'in şeklini alır.
+R | Maskenin şu anki uç noktalarından iç ve dış yöne doğru iki "Geodesic Falloff" modunda 2 yeni maske oluşturur. Bu işlemi tekrarlayarak maskenizi daha fazla parçaya ayırabilirsiniz.
+Alt + R | Maskenin şu anki uç noktalarından iç ve dış yöne doğru iki "Topology Falloff" modunda 2 yeni maske oluşturur. Bu işlemi tekrarlayarak maskenizi daha fazla parçaya ayırabilirsiniz.
+W | Maskenin loop sayısını yani döngü sayısını arttırır. Loop sayısı maskenin mesh boyunca kaç uç noktası olacağını belirler.
+Q | Maskenin loop sayısını yani döngü sayısını azaltır.
 
 
 

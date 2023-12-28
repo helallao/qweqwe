@@ -84,7 +84,7 @@ Bu ayar vertex'lerin normal'ları yani baktıkları yön ile kameranın baktığ
 
 
 ## [Smear](https://docs.blender.org/manual/en/latest/sculpt_paint/vertex_paint/tools.html)
-a
+[Clay Thumb](../Sculpt#clay-thumb) brush'ının renkler için versiyonudur denebilir. Sanki parmağınızı kullanarak renkleri sürüklüyormuşsunuz gibi efekt verir. Yani geometriyi değil de renkleri çekiştiriyormuşsunuz gibi düşünün.
 
 
 * #### Blend

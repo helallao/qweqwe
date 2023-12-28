@@ -34,7 +34,7 @@ Bu ayar açıkken renklerin alpha değerleri de değiştirilir. Kapalıyken değ
 
 
 ## [Blur](https://docs.blender.org/manual/en/latest/sculpt_paint/vertex_paint/tools.html)
-a
+Çizim yaptığınız yerdeki vertex'lerin renkleri çevresindeki vertex'lerin renklerine göre ortalanır. Yani vertex'lerin renklerini çevresindeki vertex'lerin renklerinin ortalamasına benzetir. Bu da renk geçişini yumuşatır.
 
 
 * #### Blend

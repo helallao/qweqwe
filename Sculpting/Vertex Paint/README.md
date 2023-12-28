@@ -25,6 +25,11 @@ Brush'ın rengini ayarlamanıza yarar. "Color" ve "Secondary Color" şeklinde ik
 Buradan kendinize renk paleti oluşturabilirsiniz. Artı butonuna bastığınızda "Color Picker" menüsünde seçili olan ilk renk değeri palete kaydedilir.
 
 
+### Advanced
+
+* #### Affect Alpha
+a
+
 
 
 

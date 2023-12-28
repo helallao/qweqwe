@@ -1,6 +1,8 @@
 # [Brushlar](#brushlar-1)
 * [Draw](#draw)
 * [Blur](#blur)
+* [Average](#average)
+* [Smear](#smear)
 
 
 <br>
@@ -32,14 +34,72 @@ Buradan kendinize renk paleti oluşturabilirsiniz. Artı butonuna bastığınız
 Bu ayar açıkken renklerin alpha değerleri de değiştirilir. Kapalıyken değiştirilmez.
 
 
+### Falloff
+
+* #### Front-Face Falloff
+Bu ayar vertex'lerin normal'ları yani baktıkları yön ile kameranın baktığı yönün farkına göre işlemi kısmaya yarar. Kameranın yönü ile "Angle" ayarında belirttiğiniz açı değerinden fazla farka sahip olan vertex'lere falloff uygulanır.
+
+
 
 ## [Blur](https://docs.blender.org/manual/en/latest/sculpt_paint/vertex_paint/tools.html)
 Çizim yaptığınız yerdeki vertex'lerin renkleri çevresindeki vertex'lerin renklerine göre ortalanır. Yani vertex'lerin renklerini çevresindeki vertex'lerin renklerinin ortalamasına benzetir. Bu da renk geçişini yumuşatır.
 
 
 * #### Blend
+Renklerin nasıl karıştırılacağını belirleyen tekniktir. Bunları ben de çok fazla anlamadığım için [bu linkten](https://docs.krita.org/en/reference_manual/blending_modes.html) tekniklerin açıklamalarına ulaşabilirsiniz.
+
+
+### Advanced
+
+* #### Affect Alpha
+Bu ayar açıkken renklerin alpha değerleri de değiştirilir. Kapalıyken değiştirilmez.
+
+
+### Falloff
+
+* #### Front-Face Falloff
+Bu ayar vertex'lerin normal'ları yani baktıkları yön ile kameranın baktığı yönün farkına göre işlemi kısmaya yarar. Kameranın yönü ile "Angle" ayarında belirttiğiniz açı değerinden fazla farka sahip olan vertex'lere falloff uygulanır.
+
+
+
+## [Average](https://docs.blender.org/manual/en/latest/sculpt_paint/vertex_paint/tools.html)
+[Blur](#blur) brush'ına benzer ama çalışma şekli farklıdır. Çizim yaptığınız yerdeki vertex'lerin rengini, brush'ınızın yarıçapı içerisindeki bütün vertex'lerin renginin ortalaması olarak ayarlar.
+
+
+* #### Blend
+Renklerin nasıl karıştırılacağını belirleyen tekniktir. Bunları ben de çok fazla anlamadığım için [bu linkten](https://docs.krita.org/en/reference_manual/blending_modes.html) tekniklerin açıklamalarına ulaşabilirsiniz.
+
+
+### Advanced
+
+* #### Affect Alpha
+Bu ayar açıkken renklerin alpha değerleri de değiştirilir. Kapalıyken değiştirilmez.
+
+
+### Falloff
+
+* #### Front-Face Falloff
+Bu ayar vertex'lerin normal'ları yani baktıkları yön ile kameranın baktığı yönün farkına göre işlemi kısmaya yarar. Kameranın yönü ile "Angle" ayarında belirttiğiniz açı değerinden fazla farka sahip olan vertex'lere falloff uygulanır.
+
+
+
+## [Smear](https://docs.blender.org/manual/en/latest/sculpt_paint/vertex_paint/tools.html)
 a
 
 
+* #### Blend
+Renklerin nasıl karıştırılacağını belirleyen tekniktir. Bunları ben de çok fazla anlamadığım için [bu linkten](https://docs.krita.org/en/reference_manual/blending_modes.html) tekniklerin açıklamalarına ulaşabilirsiniz.
+
+
+### Advanced
+
+* #### Affect Alpha
+Bu ayar açıkken renklerin alpha değerleri de değiştirilir. Kapalıyken değiştirilmez.
+
+
+### Falloff
+
+* #### Front-Face Falloff
+Bu ayar vertex'lerin normal'ları yani baktıkları yön ile kameranın baktığı yönün farkına göre işlemi kısmaya yarar. Kameranın yönü ile "Angle" ayarında belirttiğiniz açı değerinden fazla farka sahip olan vertex'lere falloff uygulanır.
 
 

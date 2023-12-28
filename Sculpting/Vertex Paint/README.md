@@ -1,5 +1,6 @@
 # [Brushlar](#brushlar-1)
 * [Draw](#draw)
+* [Blur](#blur)
 
 
 <br>
@@ -28,9 +29,16 @@ Buradan kendinize renk paleti oluşturabilirsiniz. Artı butonuna bastığınız
 ### Advanced
 
 * #### Affect Alpha
+Bu ayar açıkken renklerin alpha değerleri de değiştirilir. Kapalıyken değiştirilmez.
+
+
+
+## [Blur](https://docs.blender.org/manual/en/latest/sculpt_paint/vertex_paint/tools.html)
 a
 
 
+* #### Blend
+a
 
 
 

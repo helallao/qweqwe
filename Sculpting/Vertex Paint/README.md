@@ -1,3 +1,5 @@
+Bu bölüm Vertex Paint editörünü anlatıyor lakin Blender bu işlerde yeni yeni gelişmekte olduğu için çok az brush'a sahip. Ayrıca Vertex Paint ile ilgili bazı brush'lar bu editörde yer almamakta, mesela Sculpt editöründeki [Paint](../Sculpt#paint) ve [Smear](../Sculpt#smear) brush'ları burdaki [Draw](#draw) ve [Smear](#smear) brush'larına göre daha fazla özelliğe sahip, buna ek olarak Sculpt editöründe [Color Filter](../Sculpt#color-filter) ve [Mask by Color](../Sculpt#mask-by-color) brush'ları vardır. Yani anlayacağınız üzere bu editör o kadar da kapsamlı ve kullanışlı bir editör değil.
+
 # [Brushlar](#brushlar-1)
 * [Draw](#draw)
 * [Blur](#blur)

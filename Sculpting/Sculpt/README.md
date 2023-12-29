@@ -1267,7 +1267,20 @@ Fair Tangency | Face set'i oluşturan geometriyi çevresindeki geometrinin şekl
 
 
 ## [Mask by Color](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/tools/mask_by_color.html)
-a
+Bu brush aslında tam olarak brush değildir, brush gibi çizim yapmazsınız. Tıkladığınız vertex'in rengi ile diğer vertex'lerin renklerinin benzerliğini baz alarak maske oluşturmanıza yarayan bir araçtır.
+
+
+* #### Threshold
+Renklerin arasındaki maximum renk benzerliği derecesini belirtir. Yani renklerin farklılığı bu dereceden fazla ise o vertex'ler maskeye dahil edilmez.
+
+* #### Contiguous
+Bu ayar kapalı iken bütün vertex'ler işleme dahil olur. Yani aynı renge sahip vertex'ler birbirlerinden ayrı bölümlerde olabilirler. Eğer bu ayarı açarsanız, sadece birbirleri ile bağlantılı vertex'ler (yani birbirlerine direktmen bağlı vertex'ler) maskeye dahil olur. İki vertex aynı renge sahip olsa bile eğer aralarında farklı bir renge sahip vertex/vertex'ler varsa ayrık bölüm maskeye dahil edilmez.
+
+* #### Invert
+Maskeyi tersine çevirir.
+
+* #### Preserve Previous Mask
+Bu ayar kapalı iken bu aracı kullandığınızda önceki maske silinir. Eğer bu ayarı açarsanız önceki maske silinmez.
 
 
 <br>

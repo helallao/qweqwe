@@ -1050,7 +1050,59 @@ Expand | [Pinch](#pinch) efektinin tersini uygular, yani geometriyi brush'ınız
 
 
 ## [Paint](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/tools/paint.html)
+Vertex Paint modundaki [Draw](../Vertex%20Paint#draw) brush'ı ile aynıdır. Ek özelliklere de sahiptir.
+
+
+* #### Radius
+Fırçanın yarıçapı. 3D Viewport üzerinde mouse'unuzun etrafındaki çember fırçanın yarıçapını belirtir. "F" kısayolu ile ayarlayabilirsiniz ([Kısayollar](#kısayollar-1) bölümünden "Genel Kısayollar" a bakın). Yandaki "Size Pressure" ayarını açarak eğer sculpting için çizim tableti kullanıyorsanız, kaleminiz ile ekrana uyguladığınız baskıya göre kendisini otomatikmen değiştiren yarıçap modunu açabilirsiniz. Onun yanındaki "Use Unified Radius" ayarını açarak da yarıçap değerini bütün fırçalara uygulayabilirsiniz.
+
+* #### Radius Unit
+Fırçanın yarıçap değerini ayarlamak için kullanılacak birim değerini temsil eder. "View" modundayken yarıçap için piksel birimi kullanılır, bu da sculpting yaptığınız mesh'e olan uzaklığınıza göre fırçanın yarıçapının değişebilmesine sebep olur. "Scene" modunda ise yarıçap için Blender'ın kullandığı sahne birimleri (metre) kullanılır.
+
+* #### Strength
+Fırçanın uyguladığı efektin şiddeti, yani fırçanın şiddeti. 3D Viewport üzerinde mouse'unuzun etrafındaki çember fırçanın yarıçapını belirtir, bu çemberin içerisindeki ikinci çember de fırçanın şiddetini belirtir, mesela fırçanın şiddeti 0.5 yani yarım iken iç çemberin dış çemberin yarısı kadar olduğunu görebilirsiniz. "Shift + F" kısayolu ile ayarlayabilirsiniz ([Kısayollar](#kısayollar-1) bölümünden "Genel Kısayollar" a bakın). Yandaki "Strength Pressure" ayarını açarak eğer sculpting için çizim tableti kullanıyorsanız, kaleminiz ile ekrana uyguladığınız baskıya göre kendisini otomatikmen değiştiren fırça şiddeti modunu açabilirsiniz. Onun yanındaki "Use Unified Strength" ayarını açarak da fırça şiddeti değerini bütün fırçalara uygulayabilirsiniz.
+
+* #### Normal Radius
+Bu ayar fırçanın normal'ını yani baktığı yönü hesaplamak için kullanılacak yarıçapı belirtir. 3D Viewport üzerinde mouse'unuzun etrafındaki çember fırçanın yarıçapını belirtir, çemberin baktığı yön ise fırçanın normal'ını belirtir. Fırçanın normal'ı mouse'unuzun şu an üzerinde olduğu konumdan verilen yarıçap boyunca çevredeki diğer vertex'lerin ortalaması alınarak bulunur. Yani verilen yarıçap içerisindeki vertex'lerin normal'larının ortalaması alınır ve çıkan sonuç fırçanın normal'ı olarak kullanılır. İşte bu ayar da bu yarıçapı belirleyen ayardır. Eğer bu ayarın değerini 1 olarak ayarlarsanız fırçanın şu anki yarıçapı ne ise o yarıçap büyüklüğünde "Normal Radius" kullanılır. Eğer bu ayarı 0.5 olarak ayarlarsanız fırçanın şu anki yarıçapı ne ise o yarıçapın yarısı büyüklüğünde "Normal Radius" kullanılır. Yani "Normal Radius" değeri fırçanın yarıçapına da bağlıdır.
+
+* #### Hardness
+Bu ayar fırçanın falloff'unun yumuşaklık derecesini belirler. Daha doğrusu falloff'un başlangıç noktasını beliler. Bu ayarın değeri 0 iken falloff tam orta noktadan başlar, 1'e doğru gittikçe falloff kenara yani uç noktalara doğru kayar, yani kenara yakın olan yerlerden başlar. Bu ayarı bu şekilde anlatması zor, anlamak için kendiniz test etmelisiniz. Düz bir plane oluşturup subdivide uygulayın, sonra fırçanızın şiddetini sona getirip bu ayarı değiştirerek nasıl bir efekt verdiğine bakın. Yandaki "Use Pressure for Hardness" ayarını açarak eğer sculpting için çizim tableti kullanıyorsanız, kaleminiz ile ekrana uyguladığınız baskıya göre kendisini otomatikmen değiştiren hardness modunu açabilirsiniz. Onun yanındaki "Invert Pressure for Hardness" ayarını açarak da kaleminiz ile ekrana uyguladığınız baskıyı tam tersine çevirebilirsiniz.
+
+* #### Color
+Brush'ın rengini ayarlamanıza yarar. "Color" ve "Secondary Color" şeklinde iki renk seçebilirsiniz. Çizim yaparken geçici olarak 2. rengi kullanmak için çizime başlamadan önce "Ctrl" kısayoluna basılı tutmanız yeterlidir. İki rengin yerini değiştirmek için ise yandaki "Swap Colors" butonunu veya "X" kısayolunu kullanabilirsiniz. Onun yanındaki "Use Unified Color" ayarını açarak da renk değerini bütün fırçalara uygulayabilirsiniz.
+
+* #### Blend Mode
+Çizim yaptığınız vertex'lerin renkleri ile brush'ınızın renginin nasıl karıştırılacağını belirleyen tekniktir. Bunları ben de çok fazla anlamadığım için [bu linkten](https://docs.krita.org/en/reference_manual/blending_modes.html) tekniklerin açıklamalarına ulaşabilirsiniz.
+
+* #### Flow
 a
+
+* #### Wet Mix
+a
+
+* #### Wet Persistence
+a
+
+* #### Wet Paint Radius
+a
+
+* #### Density
+a
+
+* #### Tip Roundness
+a
+
+* #### Tip Scale X
+a
+
+### Color Picker
+Brush'ın rengini ayarlamanıza yarar. "Color" ve "Secondary Color" şeklinde iki renk seçebilirsiniz. Çizim yaparken geçici olarak 2. rengi kullanmak için çizime başlamadan önce "Ctrl" kısayoluna basılı tutmanız yeterlidir. İki rengin yerini değiştirmek için ise yandaki "Swap Colors" butonunu veya "X" kısayolunu kullanabilirsiniz. Onun yanındaki "Use Unified Color" ayarını açarak da renk değerini bütün fırçalara uygulayabilirsiniz.
+
+
+### Color Palette
+Buradan kendinize renk paleti oluşturabilirsiniz. Artı butonuna bastığınızda "Color Picker" menüsünde seçili olan ilk renk değeri palete kaydedilir.
+
+
 
 ## [Smear](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/tools/smear.html)
 Vertex Paint modundaki [Smear](../Vertex%20Paint#smear) brush'ı ile aynıdır.

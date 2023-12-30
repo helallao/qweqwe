@@ -1271,7 +1271,29 @@ Bu ayarı açarsanız şu an işlem yaptığınız obje, [Physics](../../Propert
 
 
 ## [Color Filter](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/tools/color_filter.html)
-a
+Bu brush aslında tam olarak brush değildir, brush gibi çizim yapmazsınız. Renkler üzerinde çeşitli işlemler yapmamıza yarayan bir araçtır. Ekrana tıklayıp sağa veya sola kaydırarak seçtiğiniz işlemi/efekti uygulayabilirsiniz. Sol altta açılan son işlem panelinden ayarlamalarınızı yapabilirsiniz.
+
+
+* #### Filter Type
+Kullanılacak filtre/efekt.
+
+Mod | Açıklama
+:---: | :---:
+Fill | Renkler "Fill Color" ayarında seçtiğiniz renge dönüşür.
+Hue | Renkleri renk paletinde saat yönünde döndürmeye yarar. [Burada](https://www.gastroshot.com/fotografta-hue-nedir/) daha güzel anlatılmış.
+Saturation | Renkleri renk paletinde uç noktalara getirir. Yani rengin renkliliğini arttırır. [Burada](https://www.gastroshot.com/fotografta-saturation-nedir/) daha güzel anlatılmış.
+Value | Renklerin koyuluk/açıklık derecesini ayarlar.
+Brightness | Renkleri siyaha veya beyaza doğru kaydırır.
+Contrast | Renklerin [kontrast'ını](https://en.wikipedia.org/wiki/Contrast_(vision)) arttırır/azaltır.
+Smooth | Renklerin geçişini yumuşatır/keskinleştirir.
+Red | Renklerin R kanalının değerini arttırır.
+Green | Renklerin G kanalının değerini arttırır.
+Blue | Renklerin B kanalının değerini arttırır.
+
+* #### Strength
+Uygulanan efektin şiddeti.
+
+
 
 ## [Edit Face Set](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/tools/edit_face_set.html)
 Bu brush aslında tam olarak brush değildir, brush gibi çizim yapmazsınız. Face set'ler üzerinde çeşitli işlemler yapmamıza yarayan bir araçtır.

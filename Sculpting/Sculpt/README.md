@@ -1087,13 +1087,13 @@ Bu ayar brush'ın çizim yaparken uyguladığı renk şiddetini belirler. Genell
 "Wet Mix", "Wet Persistence" ve "Wet Paint Radius" ayarları birbirleriyle bağlantılıdırlar ve Wet Painting'i yani sulu/yağlı boya efektini simule etmeye yararlar (renkler fırçaya bulaşır mantığında). Wet Paint Radius ayarı fırçanın altındaki rengin hesaplanması için kullanılacak yarıçap değerini belirtir ve bu oran şu anki yarıçap değerine göre hesaplanır. Eğer bu ayarın değerini 1 olarak ayarlarsanız fırçanın şu anki yarıçapı ne ise o yarıçap büyüklüğünde "Wet Paint Radius" kullanılır. Eğer bu ayarı 0.5 olarak ayarlarsanız fırçanın şu anki yarıçapı ne ise o yarıçapın yarısı büyüklüğünde "Wet Paint Radius" kullanılır. Yani "Wet Paint Radius" değeri fırçanın yarıçapına da bağlıdır.
 
 * #### Density
-a
+Çizimden etkilenen vertex oranını belirler. Azalttıkça çizimleriniz boşluklu gibi olmaya başlar, yani etkilenmeyen vertex'ler olur.
 
 * #### Tip Roundness
-a
+Fırçanın kare ile yuvarlak arasında şeklini ayarlar. 0'da iken kare, 1'de iken yuvarlak olur.
 
 * #### Tip Scale X
-a
+Fırçanın kendi X ekseninde scale'ini yani uzunluğunu ayarlar. Eğer bu değeri düşürürseniz çiziminiz boşluklu olur.
 
 ### Color Picker
 Brush'ın rengini ayarlamanıza yarar. "Color" ve "Secondary Color" şeklinde iki renk seçebilirsiniz. Çizim yaparken geçici olarak 2. rengi kullanmak için çizime başlamadan önce "Ctrl" kısayoluna basılı tutmanız yeterlidir. İki rengin yerini değiştirmek için ise yandaki "Swap Colors" butonunu veya "X" kısayolunu kullanabilirsiniz. Onun yanındaki "Use Unified Color" ayarını açarak da renk değerini bütün fırçalara uygulayabilirsiniz.

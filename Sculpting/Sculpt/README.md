@@ -1075,7 +1075,7 @@ Brush'ın rengini ayarlamanıza yarar. "Color" ve "Secondary Color" şeklinde ik
 Çizim yaptığınız vertex'lerin renkleri ile brush'ınızın renginin nasıl karıştırılacağını belirleyen tekniktir. Bunları ben de çok fazla anlamadığım için [bu linkten](https://docs.krita.org/en/reference_manual/blending_modes.html) tekniklerin açıklamalarına ulaşabilirsiniz.
 
 * #### Flow
-a
+Bu ayar brush'ın çizim yaparken uyguladığı renk şiddetini belirler. Genellikle "Accumulation" hızını düşürmek için kullanılır, yani çizim yaparken bir yerin üzerinden geçtiğinizde tek seferde efektin (bu durumda rengin) maksimum dereceye ulaşmamasını sağlar. Mesela bu değeri düşürdükten sonra brush'ınız ile az renge sahip olmasını istediğiniz yerlerden daha az, çok renge sahip olmasını istediğiniz yerlerden daha çok geçerek istediğiniz renk derecelerini yakalayabilirsiniz.
 
 * #### Wet Mix
 "Wet Mix", "Wet Persistence" ve "Wet Paint Radius" ayarları birbirleriyle bağlantılıdırlar ve Wet Painting'i yani sulu/yağlı boya efektini simule etmeye yararlar (renkler fırçaya bulaşır mantığında). Wet Mix ayarı fırça renginin mouse'unuzun altındaki renkten ne kadar etkileneceğini belirtir. Yandaki "Use Pressure for Wet Mix" ayarını açarak eğer sculpting için çizim tableti kullanıyorsanız, kaleminiz ile ekrana uyguladığınız baskıya göre kendisini otomatikmen değiştiren Wet Mix modunu açabilirsiniz. Onun yanındaki "Invert Pressure for Wet Mix" ayarını açarak da kaleminiz ile ekrana uyguladığınız baskıyı tam tersine çevirebilirsiniz.

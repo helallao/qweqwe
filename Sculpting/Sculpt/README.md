@@ -1078,13 +1078,13 @@ Brush'ın rengini ayarlamanıza yarar. "Color" ve "Secondary Color" şeklinde ik
 a
 
 * #### Wet Mix
-a
+"Wet Mix", "Wet Persistence" ve "Wet Paint Radius" ayarları birbirleriyle bağlantılıdırlar ve Wet Painting'i yani sulu/yağlı boya efektini simule etmeye yararlar (renkler fırçaya bulaşır mantığında). Wet Mix ayarı fırça renginin mouse'unuzun altındaki renkten ne kadar etkileneceğini belirtir. Yandaki "Use Pressure for Wet Mix" ayarını açarak eğer sculpting için çizim tableti kullanıyorsanız, kaleminiz ile ekrana uyguladığınız baskıya göre kendisini otomatikmen değiştiren Wet Mix modunu açabilirsiniz. Onun yanındaki "Invert Pressure for Wet Mix" ayarını açarak da kaleminiz ile ekrana uyguladığınız baskıyı tam tersine çevirebilirsiniz.
 
 * #### Wet Persistence
-a
+"Wet Mix", "Wet Persistence" ve "Wet Paint Radius" ayarları birbirleriyle bağlantılıdırlar ve Wet Painting'i yani sulu/yağlı boya efektini simule etmeye yararlar (renkler fırçaya bulaşır mantığında). Wet Persistence ayarı fırça renginin mouse'unuzun altındaki renkten ne kadar etkileneceğini belirtir. Yandaki "Use Pressure for Wet Persistence" ayarını açarak eğer sculpting için çizim tableti kullanıyorsanız, kaleminiz ile ekrana uyguladığınız baskıya göre kendisini otomatikmen değiştiren Wet Persistence modunu açabilirsiniz. Onun yanındaki "Invert Pressure for Wet Persistence" ayarını açarak da kaleminiz ile ekrana uyguladığınız baskıyı tam tersine çevirebilirsiniz.
 
 * #### Wet Paint Radius
-a
+"Wet Mix", "Wet Persistence" ve "Wet Paint Radius" ayarları birbirleriyle bağlantılıdırlar ve Wet Painting'i yani sulu/yağlı boya efektini simule etmeye yararlar (renkler fırçaya bulaşır mantığında). Wet Paint Radius ayarı fırçanın altındaki rengin hesaplanması için kullanılacak yarıçap değerini belirtir ve bu oran şu anki yarıçap değerine göre hesaplanır. Eğer bu ayarın değerini 1 olarak ayarlarsanız fırçanın şu anki yarıçapı ne ise o yarıçap büyüklüğünde "Wet Paint Radius" kullanılır. Eğer bu ayarı 0.5 olarak ayarlarsanız fırçanın şu anki yarıçapı ne ise o yarıçapın yarısı büyüklüğünde "Wet Paint Radius" kullanılır. Yani "Wet Paint Radius" değeri fırçanın yarıçapına da bağlıdır.
 
 * #### Density
 a

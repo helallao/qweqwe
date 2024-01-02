@@ -711,7 +711,33 @@ Bu ayar fırçayı kullanırken otomatik smooth işlemi uygulamaya yarar. Yani s
 
 
 ## [Pose](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/tools/pose.html)
-a
+Bu brush geometriye çeşitli deformasyonlar uygulayarak poz vermenize yarar. Ayrıca "Deformation Target" ayarı "Cloth Simulation" modundayken kıyafet/giysi deformasyonu da uygulayabilirsiniz, yani efektler aynı [Cloth](#cloth) brush'ındaki gibi uygulanır. Bu brush'ta "Radius" ve "Strength" ayarları dışındaki ayarların hiçbirisinin bir etkisi yoktur. "Radius" ayarı orijin noktasını yani deformasyon uygulanacak mesafeyi belirlemek için kullanılır. "Strength" ayarı da "Deformation" ayarı "Rotate/Twist" modundayken "Twist" aracının dönme derecesini belirler (yani "Ctrl" basarak Twist aracını kullanırsanız).
+
+
+* #### Radius
+Fırçanın yarıçapı. 3D Viewport üzerinde mouse'unuzun etrafındaki çember fırçanın yarıçapını belirtir. "F" kısayolu ile ayarlayabilirsiniz ([Kısayollar](#kısayollar-1) bölümünden "Genel Kısayollar" a bakın). Yandaki "Size Pressure" ayarını açarak eğer sculpting için çizim tableti kullanıyorsanız, kaleminiz ile ekrana uyguladığınız baskıya göre kendisini otomatikmen değiştiren yarıçap modunu açabilirsiniz. Onun yanındaki "Use Unified Radius" ayarını açarak da yarıçap değerini bütün fırçalara uygulayabilirsiniz.
+
+* #### Radius Unit
+Fırçanın yarıçap değerini ayarlamak için kullanılacak birim değerini temsil eder. "View" modundayken yarıçap için piksel birimi kullanılır, bu da sculpting yaptığınız mesh'e olan uzaklığınıza göre fırçanın yarıçapının değişebilmesine sebep olur. "Scene" modunda ise yarıçap için Blender'ın kullandığı sahne birimleri (metre) kullanılır.
+
+* #### Strength
+Bu ayar bu brush'ta etkisizdir.
+
+* #### Normal Radius
+Bu ayar bu brush'ta etkisizdir.
+
+* #### Hardness
+Bu ayar bu brush'ta etkisizdir.
+
+* #### Auto-Smooth
+Bu ayar bu brush'ta etkisizdir.
+
+* #### Deformation Target
+Bu ayar uygulanan deformasyonun türünü belirtir. "Geometry" modunda geometri üzerinde deformasyon uygulanırken, "Cloth Simulation" modunda kıyafet/giysi simulasyonu için deformasyon uygulanır. "Cloth Simulation" modunda deformasyonun efekti sanki kıyafet üzerinde deformasyon işlemleri uyguluyormuşsunuz gibi olur.
+
+
+
+
 
 ## [Nudge](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/tools/nudge.html)
 [Grab](#grab) brush'ına benzer ama bu brush'ın amacı şekli değiştirmek değil geometriyi değiştirmektir. Bu brush geometriyi hareket ettirmeye yarar, Viewport Shading'inizi Wireframe olarak ayarlayıp bu brush'ı kullanırsanız geometriyi yüzey üzerinde hareket ettirdiğini görebilirsiniz. Yani bu brush mesh'in şeklini değiştirmek değil üzerindeki geometrinin yerlerini değiştirmektir.

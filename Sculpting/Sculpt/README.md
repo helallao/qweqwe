@@ -735,7 +735,44 @@ Bu ayar bu brush'ta etkisizdir.
 * #### Deformation Target
 Bu ayar uygulanan deformasyonun türünü belirtir. "Geometry" modunda geometri üzerinde deformasyon uygulanırken, "Cloth Simulation" modunda kıyafet/giysi simulasyonu için deformasyon uygulanır. "Cloth Simulation" modunda deformasyonun efekti sanki kıyafet üzerinde deformasyon işlemleri uyguluyormuşsunuz gibi olur.
 
+* #### Deformation
+Bu ayar uygulanacak efekti belirtir.
 
+Efekt | Açıklama
+:---: | :---:
+Rotate/Twist | Bu modda geometriyi istediğiniz yöne doğru döndürebilirsiniz. Eğer tıklamadan önce "Ctrl" kısayoluna basarsanız da Twist yani bükme, kendi çevresinde döndürme efekti uygulanır.
+Scale/Translate | Bu modda geometriyi scale edebilirsiniz yani boyutlandırabilirsiniz. Eğer tıklamadan önce "Ctrl" kısayoluna basarsanız da Translate moduna geçer yani geometriyi taşıyabilirsiniz.
+Squash & Stretch | Bu modda geometriyi esnetebilir/sıkıştırabilirsiniz.
+
+* #### Rotation Origins
+Bu ayar orijin noktasının nasıl belirleneceğini ayarlar.
+
+Mod | Açıklama
+:---: | :---:
+Topology | Orijin geometriye göre otomatik olarak hesaplanır ve mesafe/uzaklık olarak da brush'ınızın yarıçapı kullanılır.
+Face Sets | "Pose IK Segments" ayarında belirtilen segment sayısı kadar ardarda gelen segmentler oluşturur. Segmentleri oluşturmak için face set'ler kullanılır.
+Face Sets FK | ["Forward Kinematics"](https://docs.blender.org/manual/en/latest/glossary/index.html#term-Forward-Kinematics) mantığında çalışır, "Face Sets" modu gibi face set'leri kullanarak segmentler oluşturulur ve sizin işlem uyguladığınız segmentten sonraki segmentler "Forward Kinematics" mantığında uygulanan işlemden etkilenir.
+
+* #### Pose Origin Offset
+Bu ayar orijin noktasını daha da uzağa taşımanıza yarar. Bu ayarı 1 yaptığınızda orijin noktasına brush'ınızın şu anki yarıçapı kadar offset verilir, yani orijin noktası 2 kat uzakta olur. Bu ayarı 2 yaptığınızda da orijin noktası 3 kat uzakta olur.
+
+* #### Smooth Iterations
+Bu ayar deformasyon uygulanan köşe/kenar kısımlardaki geçişi yumuşatır.
+
+* #### Pose IK Segments
+Bu ayar "Deformation" ayarı "Rotate/Twist" modundayken ve "Rotation Origins" ayarı "Topology" veya "Face Sets" modundayken vardır. Bu ayar segment sayısını belirtir. ["Inverse Kinematics"](https://docs.blender.org/manual/en/latest/glossary/index.html#term-Inverse-Kinematics) mantığında çalışır.
+
+* #### Lock Rotation When Scaling
+Bu ayar "Deformation" ayarı "Scale/Translate" modundayken vardır. Bu ayar kapalıyken boyutlandırma işlemi uygulanırken döndürme işlemi de uygulanabilir ama eğer bu ayar kapalı ise boyutlandırma işlemi uygulanırken döndürme işlemi uygulanamaz.
+
+* #### Keep Anchor Point
+Bu ayar açıldığı zaman son segmentin yerini sabit tutar, bu ayar kapalıyken geometriyi esnetebilir ve istediğiniz yere götürebilirsiniz.
+
+* #### Connected Only
+a
+
+* #### Max Element Distance
+a
 
 
 

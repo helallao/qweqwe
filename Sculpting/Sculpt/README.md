@@ -769,10 +769,10 @@ Bu ayar "Deformation" ayarı "Scale/Translate" modundayken vardır. Bu ayar kapa
 Bu ayar açıldığı zaman son segmentin yerini sabit tutar, bu ayar kapalıyken geometriyi esnetebilir ve istediğiniz yere götürebilirsiniz.
 
 * #### Connected Only
-a
+Bu ayar açıkken sadece tıkladığınız noktaya bağlı olan geometri uygulanan deformasyondan etkilenir. Bu ayar kapalıyken "Max Element Distance" ayarında belirtilen yarıçap içerisindeki geometri de deformasyondan etkilenir.
 
 * #### Max Element Distance
-a
+"Connected Only" ayarı kapalı iken çalışır, bu yarıçap içerisindeki kopuk (vertex'leri birbirine bağlı olmayan) geometriler de uygulanan deformasyona dahil edilir.
 
 
 

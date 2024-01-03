@@ -6,6 +6,8 @@ Bu bölüm Vertex Paint editörünü anlatıyor lakin Blender bu işlerde yeni y
 * [Average](#average)
 * [Smear](#smear)
 
+# [Kısayollar](#kısayollar-1)
+
 
 <br>
 <br>
@@ -103,5 +105,56 @@ Bu ayar açıkken renklerin alpha değerleri de değiştirilir. Kapalıyken değ
 
 * #### Front-Face Falloff
 Bu ayar vertex'lerin normal'ları yani baktıkları yön ile kameranın baktığı yönün farkına göre işlemi kısmaya yarar. Kameranın yönü ile "Angle" ayarında belirttiğiniz açı değerinden fazla farka sahip olan vertex'lere falloff uygulanır.
+
+
+
+<br>
+<br>
+
+
+# Paint İşlemleri
+Bu kategoride üst toolbar'ın (araç çubuğu) sol köşesinden ulaşabileceğiniz "Paint" kategorisindeki işlemlerin açıklamaları vardır.
+
+
+## [Smooth Vertex Colors](https://docs.blender.org/manual/en/latest/sculpt_paint/vertex_paint/editing.html#smooth-vertex-colors)
+a
+
+## [Dirty Vertex Colors](https://docs.blender.org/manual/en/latest/sculpt_paint/vertex_paint/editing.html#dirty-vertex-colors)
+a
+
+## [Vertex Color from Weight](https://docs.blender.org/manual/en/latest/sculpt_paint/vertex_paint/editing.html#vertex-color-from-weight)
+a
+
+## [Invert](https://docs.blender.org/manual/en/latest/sculpt_paint/vertex_paint/editing.html#invert)
+a
+
+## [Levels](https://docs.blender.org/manual/en/latest/sculpt_paint/vertex_paint/editing.html#levels)
+a
+
+## [Hue/Saturation/Value](https://docs.blender.org/manual/en/latest/sculpt_paint/vertex_paint/editing.html#hue-saturation-value)
+a
+
+## [Brightness/Contrast](https://docs.blender.org/manual/en/latest/sculpt_paint/vertex_paint/editing.html#brightness-contrast)
+a
+
+## [Set Vertex Colors](https://docs.blender.org/manual/en/latest/sculpt_paint/vertex_paint/editing.html#set-vertex-colors)
+a
+
+## [Sample Color](https://docs.blender.org/manual/en/latest/sculpt_paint/vertex_paint/editing.html#sample-color)
+a
+
+
+<br>
+<br>
+
+
+# Kısayollar
+
+Kısayol | Açıklama
+:---: | :---:
+Shift + Sol Tık | Herhangi bir brush'ta "Shift" kısayoluna basılı tutarak çizim yapmak "Smooth" modunu açar, yani [Blur](#blur) brush'ını kullanmanıza yarar.
+Ctrl + X | [Set Vertex Colors](https://docs.blender.org/manual/en/latest/sculpt_paint/vertex_paint/editing.html#set-vertex-colors) aracının kısayoludur. Bütün geometriyi brush'ın şu anki rengine ayarlar.
+1 | a
+2 | a
 
 

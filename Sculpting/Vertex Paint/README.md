@@ -8,7 +8,7 @@ Bu bölüm Vertex Paint editörünü anlatıyor lakin Blender bu işlerde yeni y
 
 # [Paint İşlemleri](#paint-i̇şlemleri-1)
 
-# [Face/Vertex Selection](#paint-i̇şlemleri-1)
+# [Face/Vertex Selection](#facevertex-selection-1)
 
 # [Kısayollar](#kısayollar-1)
 

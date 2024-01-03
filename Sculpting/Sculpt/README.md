@@ -1772,7 +1772,7 @@ Maskeyi siler. Kısayolu "Alt + M" dir ([Kısayollar](#kısayollar-1) bölümün
 
 
 ## [Lasso Mask](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/editing/mask.html#lasso-mask)
-[Lasso Mask](#lasso-mask) brush'ı ile aynı işlevi görür. Kısayolu "Ctrl + Shift + Sağ Tık" dır ([Kısayollar](#kısayollar-1) bölümünden "Maske Kısayolları" na bakın).
+[Lasso Mask](#lasso-mask) brush'ı ile aynı işlevi görür. Kısayolu "Ctrl + Shift + Sağ Tık" dır ([Kısayollar](#kısayollar-1) bölümünden "Maske Kısayolları" na bakın). Ayrıca seçim işlemi sırasında yani bölge seçerken "Spacebar" yani boşluk tuşuna basılı tutarsanız seçili olan bölgeyi hareket ettirebilirsiniz.
 
 
 ## [Smooth Mask](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/editing/mask.html#mask-filters)
@@ -1964,10 +1964,11 @@ Shift + F | Fırçanın şiddetini ayarlayabilirsiniz (sol ve sağa hareket etti
 Ctrl + F | Fırçanın texture'unun açısını değiştirmenize yarar. Fırça texture'unun açısını ayarlarken "Ctrl" kısayoluna tıklayarak açı değerini 10'un katı olan sayılarda ayarlayabilirsiniz, "Shift" kısayoluna tıklayarak da ince ayar yapabilirsiniz.
 Alt + E | [Stroke Method'u](#stroke-method) değiştirmenize yarar.
 Shift + S | [Stabilize Stroke](#stabilize-stroke) ayarını açar/kapatır.
-Ctrl + Sol tık | "Ctrl" kısayoluna basarken mouse'un sol tuşuna basıp çizim yaparsanız fırçanın yönünü değiştirmiş olursunuz, yani "Direction" ayarını terse almış olursunuz. Bazı özel fırçalarda "Ctrl" kısayoluna basılı tutarak tıklamak yön değiştirmeyi değil de fırçanın 2. özelliğini aktifleştirmede kullanılır. Yani "Ctrl" kısayoluna basılı tutarak tıklamak her fırçada yön değiştirmek için kullanılmaz, fırçanın 2. özelliğini kullanmak için de kullanılır (mesela [Mask](#mask)).
+Ctrl + Sol Tık | "Ctrl" kısayoluna basarken mouse'un sol tuşuna basıp çizim yaparsanız fırçanın yönünü değiştirmiş olursunuz, yani "Direction" ayarını terse almış olursunuz. Bazı özel fırçalarda "Ctrl" kısayoluna basılı tutarak tıklamak yön değiştirmeyi değil de fırçanın 2. özelliğini aktifleştirmede kullanılır. Yani "Ctrl" kısayoluna basılı tutarak tıklamak her fırçada yön değiştirmek için kullanılmaz, fırçanın 2. özelliğini kullanmak için de kullanılır (mesela [Mask](#mask)).
 Alt + A | Scene [auto-masking](#advanced) modlarının kısayoludur. Açılan menü üzerinden istediğiniz modu açabilir/kapatabilirsiniz, ama bazı ayarları yapamazsınız. Mesela modların ayarlarını/değerlerini değiştiremezsiniz, ayarları/değerleri değiştirmek istiyorsanız sculpting modundayken üst toolbar'ın (araç çubuğu) tam ortasındaki butona tıklayarak scene auto-masking menüsünü kullanabilirsiniz. Bu menü sadece modları açmaya/kapamaya yarar. Ayrıca dediğim gibi bu kısayol scene auto-masking modlarını açıp/kapamaya yarar yani bu işlem bütün brush'lara uygulanır. Eğer her brush için özel olarak bu ayarları değiştirmek istiyorsanız brush ayarlarında "Advanced" bölümünden bu ayarları değiştirebilirsiniz.
 X | [Paint](#paint) brush'ı için renklerin yerini değiştirme (Swap Colors) kısayoludur.
 Shift + X | [Paint](#paint) brush'ı için mouse'un altındaki rengi brush'ın rengi olarak ayarlama kısayoludur.
+Shift + Sağ Tık | [Pivot Point'i](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/editing/sculpt.html#set-pivot) mouse'unuzun altındaki vertex olarak ayarlamanıza yarar.
 
 </details>
 

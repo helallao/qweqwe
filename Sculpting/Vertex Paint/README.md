@@ -6,6 +6,10 @@ Bu bölüm Vertex Paint editörünü anlatıyor lakin Blender bu işlerde yeni y
 * [Average](#average)
 * [Smear](#smear)
 
+# [Paint İşlemleri](#paint-i̇şlemleri-1)
+
+# [Face/Vertex Selection](#paint-i̇şlemleri-1)
+
 # [Kısayollar](#kısayollar-1)
 
 
@@ -106,6 +110,14 @@ Bu ayar açıkken renklerin alpha değerleri de değiştirilir. Kapalıyken değ
 * #### Front-Face Falloff
 Bu ayar vertex'lerin normal'ları yani baktıkları yön ile kameranın baktığı yönün farkına göre işlemi kısmaya yarar. Kameranın yönü ile "Angle" ayarında belirttiğiniz açı değerinden fazla farka sahip olan vertex'lere falloff uygulanır.
 
+
+
+<br>
+<br>
+
+
+# Face/Vertex Selection
+a
 
 
 <br>

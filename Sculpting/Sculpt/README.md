@@ -1228,12 +1228,12 @@ Bu ayar kapalı iken doğru sonsuza kadar gidiyormuş gibi varsayılarak maskele
 
 
 ## [Box Hide]()
-Bu brush geometriyi görünmez yapmak için kullanılır. Edit moddaki Hide/Unhide ile aynıdır. Çizdiğiniz dörtgenin içindeki vertex'ler görünmez olur. "Ctrl" kısayoluna basarak brush'ı kullanırsanız da görünür yapma modunu açmış olursunuz, seçilen bölge içerisindeki görünmez vertex'ler tekrar görünür hale getirilir (Unhide).
+Bu brush geometriyi görünmez yapmak için kullanılır. Edit moddaki Hide/Unhide ile aynıdır. Çizdiğiniz dörtgenin içindeki vertex'ler görünmez olur. "Ctrl" kısayoluna basarak brush'ı kullanırsanız da görünür yapma modunu açmış olursunuz, seçilen bölge içerisindeki görünmez vertex'ler tekrar görünür hale getirilir (Unhide). Ayrıca seçim işlemi sırasında yani bölge seçerken "Spacebar" yani boşluk tuşuna basılı tutarsanız seçili olan bölgeyi hareket ettirebilirsiniz. Ayrıca bu brush ile ekranın üzerine (rastgel bir yere) bir kere tıklamak her yeri tekrar görünür hale getirir.
 
 
 
 ## [Box Face Set](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/tools/box_face_set.html)
-Bu brush face set oluşturmak için kullanılır, face set oluşturmak için çizdiğiniz dörtgen kullanılır. Ayrıca bu brush seçili iken "Shift" kısayolu ile [Smooth](#smooth) brush'ı kullanamazsınız.
+Bu brush face set oluşturmak için kullanılır, face set oluşturmak için çizdiğiniz dörtgen kullanılır. Ayrıca bu brush seçili iken "Shift" kısayolu ile [Smooth](#smooth) brush'ı kullanamazsınız. Ayrıca seçim işlemi sırasında yani bölge seçerken "Spacebar" yani boşluk tuşuna basılı tutarsanız seçili olan bölgeyi hareket ettirebilirsiniz.
 
 
 * #### Front Faces Only
@@ -1242,7 +1242,7 @@ Bu ayar kapalıyken kameraya görünmeyen, arkada kalan kısımlar da face set'e
 
 
 ## [Lasso Face Set](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/tools/lasso_face_set.html)
-[Box Face Set](#box-face-set) brush'ının alternatif versiyonudur. Bu brush face set oluşturmak için kullanılır, face set oluşturmak için çizdiğiniz şekil kullanılır. Ayrıca bu brush seçili iken "Shift" kısayolu ile [Smooth](#smooth) brush'ı kullanamazsınız.
+[Box Face Set](#box-face-set) brush'ının alternatif versiyonudur. Bu brush face set oluşturmak için kullanılır, face set oluşturmak için çizdiğiniz şekil kullanılır. Ayrıca bu brush seçili iken "Shift" kısayolu ile [Smooth](#smooth) brush'ı kullanamazsınız. Ayrıca seçim işlemi sırasında yani bölge seçerken "Spacebar" yani boşluk tuşuna basılı tutarsanız seçili olan bölgeyi hareket ettirebilirsiniz.
 
 
 * #### Front Faces Only
@@ -1251,7 +1251,7 @@ Bu ayar kapalıyken kameraya görünmeyen, arkada kalan kısımlar da face set'e
 
 
 ## [Box Trim](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/tools/box_trim.html)
-Geometri oluşturmak veya silmek için kullanılır. [Bool modifier'ı](../../Properties/Modifiers#boolean) gibidir. Bu brush'ı kullanarak base mesh yani mesh'inizin ana hatlarını oluşturabilirsiniz. Her oluşturduğunuz geometri yeni face set'e atanır. Geometri sildiğinizde ise silinen kısmın iç tarafı yeni face set'e atanır.
+Geometri oluşturmak veya silmek için kullanılır. [Bool modifier'ı](../../Properties/Modifiers#boolean) gibidir. Bu brush'ı kullanarak base mesh yani mesh'inizin ana hatlarını oluşturabilirsiniz. Her oluşturduğunuz geometri yeni face set'e atanır. Geometri sildiğinizde ise silinen kısmın iç tarafı yeni face set'e atanır. Ayrıca seçim işlemi sırasında yani bölge seçerken "Spacebar" yani boşluk tuşuna basılı tutarsanız seçili olan bölgeyi hareket ettirebilirsiniz.
 
 
 * #### Trim Mode
@@ -1279,7 +1279,7 @@ https://github.com/helallao/qweqwe/assets/78656003/afd13883-d51c-4bba-a9ae-c6336
 
 
 ## [Lasso Trim](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/tools/lasso_trim.html)
-[Box Trim](#box-trim) brush'ının alternatif versiyonudur. Geometri oluşturmak veya silmek için kullanılır. [Bool modifier'ı](../../Properties/Modifiers#boolean) gibidir. Bu brush'ı kullanarak base mesh yani mesh'inizin ana hatlarını oluşturabilirsiniz. Her oluşturduğunuz geometri yeni face set'e atanır. Geometri sildiğinizde ise silinen kısmın iç tarafı yeni face set'e atanır.
+[Box Trim](#box-trim) brush'ının alternatif versiyonudur. Geometri oluşturmak veya silmek için kullanılır. [Bool modifier'ı](../../Properties/Modifiers#boolean) gibidir. Bu brush'ı kullanarak base mesh yani mesh'inizin ana hatlarını oluşturabilirsiniz. Her oluşturduğunuz geometri yeni face set'e atanır. Geometri sildiğinizde ise silinen kısmın iç tarafı yeni face set'e atanır. Ayrıca seçim işlemi sırasında yani bölge seçerken "Spacebar" yani boşluk tuşuna basılı tutarsanız seçili olan bölgeyi hareket ettirebilirsiniz.
 
 
 * #### Trim Mode

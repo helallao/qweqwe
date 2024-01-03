@@ -1969,6 +1969,7 @@ Alt + A | Scene [auto-masking](#advanced) modlarının kısayoludur. Açılan me
 X | [Paint](#paint) brush'ı için renklerin yerini değiştirme (Swap Colors) kısayoludur.
 Shift + X | [Paint](#paint) brush'ı için mouse'un altındaki rengi brush'ın rengi olarak ayarlama kısayoludur.
 Shift + Sağ Tık | [Pivot Point'i](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/editing/sculpt.html#set-pivot) mouse'unuzun altındaki vertex olarak ayarlamanıza yarar.
+Alt + Q | [Transfer Sculpt Mode'un](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/editing/sculpt.html#transfer-sculpt-mode) kısayoludur, başka bir objeyi seçip sculpt moda geçmekle ugraşmanıza gerek kalmadan otomatik olarak mouse'unuzun altındaki objeyi seçip sculpt moda girebilmenize yarar.
 
 </details>
 

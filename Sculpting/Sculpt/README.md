@@ -1198,7 +1198,7 @@ Expand | [Pinch](#pinch) efektinin tersini uygular, yani renkleri brush'ınızda
 
 
 ## [Box Mask](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/tools/box_mask.html)
-Bu brush maske oluşturmak için kullanılır, maske oluşturmak için çizdiğiniz dörtgen kullanılır. Ayrıca bu brush seçili iken "Shift" kısayolu ile [Smooth](#smooth) brush'ı kullanamazsınız. "Ctrl" kısayoluna basarak brush'ı kullanırsanız da maske silme modunu açmış olursunuz, seçilen bölge içerisindeki maskeler silinir. Brush'ın tek kullanımlık kısayolu "B" dir ([Kısayollar](#kısayollar-1) bölümünden "Maske Kısayolları" na bakın).
+Bu brush maske oluşturmak için kullanılır, maske oluşturmak için çizdiğiniz dörtgen kullanılır. Ayrıca bu brush seçili iken "Shift" kısayolu ile [Smooth](#smooth) brush'ı kullanamazsınız. "Ctrl" kısayoluna basarak brush'ı kullanırsanız da maske silme modunu açmış olursunuz, seçilen bölge içerisindeki maskeler silinir. Brush'ın tek kullanımlık kısayolu "B" dir ([Kısayollar](#kısayollar-1) bölümünden "Maske Kısayolları" na bakın), tek kullanımlık kısayol ile brush'ı kullanırsanız brush'ın bazı kısayolları da değişir, bu yüzden tek kullanımlık versiyonun açıklamaları için [Box Mask](#box-mask-1) aracının açıklamasına bakın.
 
 
 * #### Front Faces Only
@@ -1768,7 +1768,7 @@ Maskeyi siler. Kısayolu "Alt + M" dir ([Kısayollar](#kısayollar-1) bölümün
 
 
 ## [Box Mask](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/editing/mask.html#box-mask)
-[Box Mask](#box-mask) brush'ı ile aynı işlevi görür. Kısayolu "B" dir ([Kısayollar](#kısayollar-1) bölümünden "Maske Kısayolları" na bakın).
+[Box Mask](#box-mask) brush'ı ile aynı işlevi görür. Kısayolu "B" dir ([Kısayollar](#kısayollar-1) bölümünden "Maske Kısayolları" na bakın). Bu aracı kullanırken tıkladıktan sonra bırakmadan yani elinizi sol mouse tuşundan çekmeden önce "Shift" kısayoluna basılı tutarsanız, yani elinizi sol mouse tuşundan "Shift" kısayoluna basılı tutarken çekerseniz maske silme modunu açmış olursunuz, seçilen bölge içerisindeki maskeler silinir. Maske silme modunu açmanın farklı kısayolları da vardır, eliniz sol mouse tuşuna basılıyken yani seçim yapıyorken mouse'un orta tuşuna bastığınız anda seçili olan kısımlar silinir, ve ya direktmen seçim işlemi için mouse'un orta tuşunu da kullanabilirsiniz. Mouse'un orta tuşunu kullanırsanız seçtiğiniz bölge içerisindeki maskeler silinir. Ayrıca seçim işlemi sırasında yani bölge seçerken "Spacebar" yani boşluk tuşuna basılı tutarsanız seçili olan bölgeyi hareket ettirebilirsiniz.
 
 
 ## [Lasso Mask](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/editing/mask.html#lasso-mask)

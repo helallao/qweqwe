@@ -143,31 +143,37 @@ Bu kategoride üst toolbar'ın (araç çubuğu) sol köşesinden ulaşabileceği
 
 
 ## [Smooth Vertex Colors](https://docs.blender.org/manual/en/latest/sculpt_paint/vertex_paint/editing.html#smooth-vertex-colors)
-a
+Renklerin geçişini yumuşatır, yani bütün vertex'lerde [Blur](#blur) brush'ını kullanmışsınız gibi yapar.
+
 
 ## [Dirty Vertex Colors](https://docs.blender.org/manual/en/latest/sculpt_paint/vertex_paint/editing.html#dirty-vertex-colors)
 a
 
 ## [Vertex Color from Weight](https://docs.blender.org/manual/en/latest/sculpt_paint/vertex_paint/editing.html#vertex-color-from-weight)
-a
+Vertex'leri Weight değerlerine göre siyahtan beyaza (0-1) renklendirir.
+
 
 ## [Invert](https://docs.blender.org/manual/en/latest/sculpt_paint/vertex_paint/editing.html#invert)
-a
+Renkleri tam tersine çevirir.
+
 
 ## [Levels](https://docs.blender.org/manual/en/latest/sculpt_paint/vertex_paint/editing.html#levels)
 a
 
 ## [Hue/Saturation/Value](https://docs.blender.org/manual/en/latest/sculpt_paint/vertex_paint/editing.html#hue-saturation-value)
-a
+Renklerin Hue/Saturation/Value değerlerini ayarlar. Hue renkleri renk paletinde saat yönünde döndürmeye yarar, [burada](https://www.gastroshot.com/fotografta-hue-nedir/) daha güzel anlatılmış. Saturation, renkleri renk paletinde uç noktalara getirir yani rengin renkliliğini arttırır, [burada](https://www.gastroshot.com/fotografta-saturation-nedir/) daha güzel anlatılmış. Value, renklerin koyuluk/açıklık derecesini ayarlar.
+
 
 ## [Brightness/Contrast](https://docs.blender.org/manual/en/latest/sculpt_paint/vertex_paint/editing.html#brightness-contrast)
-a
+Renklerin Brightness/Contrast değerlerini ayarlar. Brightness renkleri siyaha veya beyaza doğru kaydırır. Contrast renklerin [kontrast'ını](https://en.wikipedia.org/wiki/Contrast_(vision)) arttırır/azaltır.
+
 
 ## [Set Vertex Colors](https://docs.blender.org/manual/en/latest/sculpt_paint/vertex_paint/editing.html#set-vertex-colors)
-a
+Bütün geometriyi brush'ın şu anki rengine ayarlar. Kısayolu "Ctrl + X" dir ([Kısayollar](#kısayollar-1) bölümüne bakın).
+
 
 ## [Sample Color](https://docs.blender.org/manual/en/latest/sculpt_paint/vertex_paint/editing.html#sample-color)
-a
+Seçtiğiniz vertex'in rengini brush'ınızın rengi olarak ayarlar. Kısayolu "Shift + X" dir.
 
 
 <br>
@@ -179,7 +185,7 @@ a
 Kısayol | Açıklama
 :---: | :---:
 Shift + Sol Tık | Herhangi bir brush'ta "Shift" kısayoluna basılı tutarak çizim yapmak "Smooth" modunu açar, yani [Blur](#blur) brush'ını kullanmanıza yarar.
-Ctrl + X | [Set Vertex Colors](https://docs.blender.org/manual/en/latest/sculpt_paint/vertex_paint/editing.html#set-vertex-colors) aracının kısayoludur. Bütün geometriyi brush'ın şu anki rengine ayarlar.
+Ctrl + X | [Set Vertex Colors](#set-vertex-colors) aracının kısayoludur. Bütün geometriyi brush'ın şu anki rengine ayarlar.
 1 | [Face Selection](#facevertex-selection-1) modunun kısayoludur.
 2 | [Vertex Selection](#facevertex-selection-1) modunun kısayoludur.
 

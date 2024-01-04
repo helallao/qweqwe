@@ -147,7 +147,27 @@ Renklerin geçişini yumuşatır, yani bütün vertex'lerde [Blur](#blur) brush'
 
 
 ## [Dirty Vertex Colors](https://docs.blender.org/manual/en/latest/sculpt_paint/vertex_paint/editing.html#dirty-vertex-colors)
+Cavity yani oyuklara, girinti/çıkıntılara göre siyahtan beyaza (0-1) vertex'leri koyulaştırır/rengini değiştirir. Altta kalan kısımlar siyaha (0), üstte kalan kısımlar beyaza (1) kayacak şekilde.
+
+
+* #### Blur Strength
+Yumuşatma derecesi, yani vertex'lerin renk geçişlerinin ne kadar yumuşatılacağını belirler.
+
+* #### Blur Iterations
+Yumuşatma işlemi tekrar sayısı, kaç defa yumuşatma uygulanacağını belirler.
+
+* #### Highlight Angle
 a
+
+* #### Dirt Angle
+a
+
+* #### Dirt Only
+a
+
+* #### Normalize
+a
+
 
 ## [Vertex Color from Weight](https://docs.blender.org/manual/en/latest/sculpt_paint/vertex_paint/editing.html#vertex-color-from-weight)
 Vertex'leri Weight değerlerine göre siyahtan beyaza (0-1) renklendirir.

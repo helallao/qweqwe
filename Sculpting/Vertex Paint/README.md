@@ -117,7 +117,21 @@ Bu ayar vertex'lerin normal'ları yani baktıkları yön ile kameranın baktığ
 
 
 # Face/Vertex Selection
-a
+[Face/Vertex Selection](https://docs.blender.org/manual/en/latest/sculpt_paint/selection_visibility.html) modları sadece seçili olan vertex/face'ler üzerinde işlemler yapmamıza yarayan modlardır. 1 ve 2 kısayolunu kullanarak modlar arasında geçiş yapabilirsiniz ([Kısayollar](#kısayollar-1) bölümüne bakın) veya üst toolbar'ın (araç çubuğu) sol köşesinden manuel olarak da değiştirebilirsiniz. Bu modlardan biri açıldığında sol kenardaki brush menüsüne maske araçları eklenir. Maske araçlarının çalışma şekilleri [Sculpt](../Sculpt#box-mask) modundakiler ile aynıdır. Ayrıca bu modlarda kullanabileceğiniz kısayolların listesine de aşağıdan ulaşabilirsiniz.
+
+
+Kısayol | Açıklama
+:---: | :---:
+Alt + Sol Tık | Maske brush'larının dışındaki brush'ları kullanırken bu kısayol ile tek tek vertex/face seçebilirsiniz. Ayrıca "Shift" tuşuna basarak birden fazla seçebilirsiniz. "Face Selection" modundayken ve maske brush'larından biri seçili iken face loop seçmeye yarar.
+A | Bütün face/vertex'leri seçer.
+A + A | Bütün face/vertex'lerin seçimini kaldırır.
+B | Box Selection brush'ının tek kullanımlık kısayolu.
+C | Circle Selection brush'ının kısayolu.
+Ctrl + I | Seçimi tersine çevirir.
+L | Mouse'unuzun altındaki face/vertex'e bağlı olan bütün face/vertex'leri seçer.
+Ctrl + L | Şu anda seçili olan face/vertex'lere bağlı olan bütün face/vertex'leri seçer.
+Ctrl + Numpad Artı | Seçimi genişletir (uç noktalardaki bağlı olan face/vertex'leri seçer).
+Ctrl + Numpad Eksi | Seçimi küçültür (uç noktalardaki face/vertex'lerin seçimini kaldırır).
 
 
 <br>
@@ -166,7 +180,7 @@ Kısayol | Açıklama
 :---: | :---:
 Shift + Sol Tık | Herhangi bir brush'ta "Shift" kısayoluna basılı tutarak çizim yapmak "Smooth" modunu açar, yani [Blur](#blur) brush'ını kullanmanıza yarar.
 Ctrl + X | [Set Vertex Colors](https://docs.blender.org/manual/en/latest/sculpt_paint/vertex_paint/editing.html#set-vertex-colors) aracının kısayoludur. Bütün geometriyi brush'ın şu anki rengine ayarlar.
-1 | a
-2 | a
+1 | [Face Selection](#facevertex-selection-1) modunun kısayoludur.
+2 | [Vertex Selection](#facevertex-selection-1) modunun kısayoludur.
 
 

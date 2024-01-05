@@ -24,7 +24,7 @@ Aşağıdaki döküman sözlük mantığında yapılmıştır, herhangi bir konu
 * [Fill](#fill)
 * [Scrape](#scrape)
 * [Multi-plane Scrape](#multi-plane-scrape)
-* [Pinch](#pinch)
+* [Pinch](#pinch-1)
 * [Grab](#grab)
 * [Elastic Deform](#elastic-deform)
 * [Snake Hook](#snake-hook)
@@ -308,7 +308,7 @@ Bu ayar fırçayı kullanırken otomatik smooth işlemi uygulamaya yarar. Yani s
 
 
 ## [Blob](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/tools/blob.html)
-Bu brush [Draw](#draw) ve [Inflate](#inflate) brush'larına benzer. Tek farkı geometriyi (yani vertex'leri) hareket ettirirken [Pinch](#pinch) brush'ının tersi olan "Magnify" efektini kullanmasıdır. Yani geometriyi dışa doğru iter, bu da yuvarlakımsı şekiller verir.
+Bu brush [Draw](#draw) ve [Inflate](#inflate) brush'larına benzer. Tek farkı geometriyi (yani vertex'leri) hareket ettirirken [Pinch](#pinch-1) brush'ının tersi olan "Magnify" efektini kullanmasıdır. Yani geometriyi dışa doğru iter, bu da yuvarlakımsı şekiller verir.
 
 
 * #### Radius
@@ -338,7 +338,7 @@ Geometriyi dışa itme derecesi, "Magnify" efekti şiddeti.
 
 
 ## [Crease](https://docs.blender.org/manual/en/latest/sculpt_paint/sculpting/tools/crease.html)
-Bu brush [Draw Sharp](#draw-sharp) brush'ına benzer. Tek farkı geometriyi (yani vertex'leri) hareket ettirirken [Pinch](#pinch) brush'ı efekti kullanmasıdır. Yani geometriyi içe doğru çeker. Bu brush crease yani kırışıklık/buruşukluk yani keskin kesikler oluşturmaya yarar. Brush'ın kısayolu "Shift + C" dir ([Kısayollar](#kısayollar-1) bölümünden "Brush Kısayolları" na bakın).
+Bu brush [Draw Sharp](#draw-sharp) brush'ına benzer. Tek farkı geometriyi (yani vertex'leri) hareket ettirirken [Pinch](#pinch-1) brush'ı efekti kullanmasıdır. Yani geometriyi içe doğru çeker. Bu brush crease yani kırışıklık/buruşukluk yani keskin kesikler oluşturmaya yarar. Brush'ın kısayolu "Shift + C" dir ([Kısayollar](#kısayollar-1) bölümünden "Brush Kısayolları" na bakın).
 
 
 * #### Radius
@@ -852,8 +852,8 @@ Bu ayar uygulanacak efekti belirtir.
 Efekt | Açıklama
 :---: | :---:
 Drag | [Nudge](#nudge) brush'ı ile aynı işlemi yapar.
-Pinch | [Pinch](#pinch) brush'ı ile aynı işlemi yapar.
-Expand | [Pinch](#pinch) brush'ının tam tersidir yani geometriyi mouse'tan dışa doğru iter.
+Pinch | [Pinch](#pinch-1) brush'ı ile aynı işlemi yapar.
+Expand | [Pinch](#pinch-1) brush'ının tam tersidir yani geometriyi mouse'tan dışa doğru iter.
 
 
 
@@ -956,8 +956,8 @@ Mod | Açıklama
 :---: | :---:
 Drag | Geometriyi sanki kıyafetmiş gibi hareket ettirmenize yarar, yani kıyafeti çekiştiriyormuş gibi efekt verir.
 Push | Geometriyi sanki kıyafete bastırırmışsınız gibi bastırmanıza/itmenize yarar, kıyafetin üzerine sanki bir şey koyulmuş gibi tıkladığınız nokta içe çöker.
-Pinch Point | Tıkladığınız noktaya [Pinch](#pinch) efekti yani o noktaya çekim efekti uygular. "Pinch Perpendicular" modunun aksine doğru/çizgi şeklinde uygulanmak zorunda değildir, tek bir noktadan Pinch efekti uygulayabilirsiniz.
-Pinch Perpendicular | Tıkladığınız noktaya fırçanızı hareket ettirdikçe doğru/çizgi şeklinde [Pinch](#pinch) efekti yani çekim efekti uygular. "Pinch Point" modunun aksine doğru/çizgi şeklinde uygulanmak zorundadır.
+Pinch Point | Tıkladığınız noktaya [Pinch](#pinch-1) efekti yani o noktaya çekim efekti uygular. "Pinch Perpendicular" modunun aksine doğru/çizgi şeklinde uygulanmak zorunda değildir, tek bir noktadan Pinch efekti uygulayabilirsiniz.
+Pinch Perpendicular | Tıkladığınız noktaya fırçanızı hareket ettirdikçe doğru/çizgi şeklinde [Pinch](#pinch-1) efekti yani çekim efekti uygular. "Pinch Point" modunun aksine doğru/çizgi şeklinde uygulanmak zorundadır.
 Inflate | "Push" modunun yönünün değiştirilmiş halidir denebilir. Sanki kıyafetin altında bir şey varmış gibi şişkinlik efekti verir.
 Grab | Sanki kıyafeti elinizle hareket ettiriyormuşsunuz gibi efekt verir.
 Expand | Kıyafeti gerdiriyormuşsunuz gibi bi efekt verir. Bu mod çoğu durumda kırışıklık oluşturur veya kırışıklık oluşturmak için kullanılır. Bu modun yaptığı işlemden tam olarak emin değilim ama kendi testlerimden anladığım kadarıyla bu mod gerginlik efekti vermek için vertex'leri birbirlerinden uzaklaştırıyor ama vertex'ler rastgele yönlere doğru hareket ettikleri için bu da rastgele bir geometri oluşturuyor (yani kırışıklık gibi).
@@ -1107,8 +1107,8 @@ Bu ayar kullanılacak deformasyon modunu belirtir.
 Mod | Açıklama
 :---: | :---:
 Drag | Geometri fırçanızı hareket ettirdiğiniz yöne çekilir.
-Pinch | [Pinch](#pinch) efekti uygular, yani çevredeki geometriyi brush'ınıza doğru çeker.
-Expand | [Pinch](#pinch) efektinin tersini uygular, yani geometriyi brush'ınızdan etrafa doğru iter.
+Pinch | [Pinch](#pinch-1) efekti uygular, yani çevredeki geometriyi brush'ınıza doğru çeker.
+Expand | [Pinch](#pinch-1) efektinin tersini uygular, yani geometriyi brush'ınızdan etrafa doğru iter.
 
 
 
@@ -1192,8 +1192,8 @@ Bu ayar kullanılacak deformasyon modunu belirtir.
 Mod | Açıklama
 :---: | :---:
 Drag | Klasik kaydırma modu.
-Pinch | [Pinch](#pinch) efekti uygular, yani çevredeki renkleri brush'ınızın ortasına doğru çeker.
-Expand | [Pinch](#pinch) efektinin tersini uygular, yani renkleri brush'ınızdan etrafa doğru iter.
+Pinch | [Pinch](#pinch-1) efekti uygular, yani çevredeki renkleri brush'ınızın ortasına doğru çeker.
+Expand | [Pinch](#pinch-1) efektinin tersini uygular, yani renkleri brush'ınızdan etrafa doğru iter.
 
 
 
@@ -1332,7 +1332,7 @@ Random | Vertex'leri normal yönlerinde yani baktıkları yönde rastgele derece
 Relax | [Slide Relax](#slide-relax) brush'ında "Shift" kısayoluna bastığınızda çıkan "Relax" efektini uygular. Mesh'in şeklini bozmadan geometriyi eşit aralıklı olacak hale getirir.
 Relax Face Sets | [Draw Face Sets](#draw-face-sets) brush'ında "Shift" kısayoluna bastığınızda çıkan "Smooth" efektini uygular. Face set'lerin kenarlarını geometriyi düz olacak şekilde hizaya getirerek yumuşatır/düzler.
 Surface Smooth | [Smooth](#smooth) brush'ının "Deformation" modu "Surface" modundayken uyguladığı efekti uygular. Ayrıca bu modda aynı Smooth brush'ındaki gibi "Shape Preservation" ve "Per-Vertex Displacement" ayarları vardır. Bu ayarların açıklamalarına [Smooth](#smooth) brush'ının açıklamasından ulaşabilirsiniz.
-Sharpen | Mesh'in eğimine göre, eğimli olan yerlere [Pinch](#pinch) efekti uygulayarak geometriyi yoğunlaştırıp keskinliği arttırırken, eğimsiz yani eğimi düşük olan yerlere de [Smooth](#smooth) efekti uygular ve eğimli kısımları keskin, diğer kısımları da yumuşatılmış bir mesh oluşturur. "Smooth Ratio" ayarını değiştirerek uygulanan yumuşatma efekti derecesini ayarlayabilirsiniz. Eğer istediğiniz derecede yumuşatma uygulanmadıysa "Curvature Smooth Iterations" ayarını değiştirerek yumuşatma işleminin tekrar sayısını arttırabilirsiniz. "Intensify Details" ayarı da eğimli kısımlarda yüksek ve alçak geometrinin arasındaki mesafeyi arttırmaya yarar. Yani tepe ve oyuk olan kısımları birbirlerinden uzaklaştırarak detay miktarını arttırmaya yarar, eğer fazla arttırırsanız detaylar çok fazla olacağı için şekil bozulabilir.
+Sharpen | Mesh'in eğimine göre, eğimli olan yerlere [Pinch](#pinch-1) efekti uygulayarak geometriyi yoğunlaştırıp keskinliği arttırırken, eğimsiz yani eğimi düşük olan yerlere de [Smooth](#smooth) efekti uygular ve eğimli kısımları keskin, diğer kısımları da yumuşatılmış bir mesh oluşturur. "Smooth Ratio" ayarını değiştirerek uygulanan yumuşatma efekti derecesini ayarlayabilirsiniz. Eğer istediğiniz derecede yumuşatma uygulanmadıysa "Curvature Smooth Iterations" ayarını değiştirerek yumuşatma işleminin tekrar sayısını arttırabilirsiniz. "Intensify Details" ayarı da eğimli kısımlarda yüksek ve alçak geometrinin arasındaki mesafeyi arttırmaya yarar. Yani tepe ve oyuk olan kısımları birbirlerinden uzaklaştırarak detay miktarını arttırmaya yarar, eğer fazla arttırırsanız detaylar çok fazla olacağı için şekil bozulabilir.
 Enhance Details | [Smooth](#smooth) brush'ında "Ctrl" kısayoluna bastığınızda çıkan "Enhance Details" efektini uygular. "Enhance Details" efekti geometrinin sahip olduğu detayları daha da abartmamıza yani kabalaştırmamıza yarar, kısacası [Smooth](#smooth) efektinin tersidir.
 Erase Displacement | [Multires Displacement Eraser](#multires-displacement-eraser) brush'ı ile aynı işlemi yapar. Gerekli bilgilere [Multires Displacement Eraser](#multires-displacement-eraser) brush'ının açıklamalarından ulaşabilirsiniz. Ayrıca efekti eksi yönde uygularsanız bu mod aynı "Enhance Details" modundaki gibi detayları arttırır, yani Displacement miktarını arttırır.
 

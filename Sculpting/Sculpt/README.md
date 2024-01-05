@@ -1388,9 +1388,9 @@ Kullanılacak filtre/efekt.
 Mod | Açıklama
 :---: | :---:
 Gravity | Geometriye yer çekimi simulasyonu uygular. Ekrana tıkladıktan sonra sağa veya sola kaydırarak efekti ileri/geri sarabilirsiniz.
-Inflate | Cloth brush'ının [Deformation](#deformation-5) ayarı "Inflate" modundayken uyguladığı efekti bütün mesh'e uygular.
-Expand | Cloth brush'ının [Deformation](#deformation-5) ayarı "Expand" modundayken uyguladığı efekti bütün mesh'e uygular.
-Pinch | Tıkladığınız noktadan bütün geometriye Cloth brush'ının [Deformation](#deformation-5) ayarı "Pinch Point" modundayken uyguladığı efekti uygular, yani kıyafet/giysi üzerine uygulanıyormuş gibi Pinch efekti verir.
+Inflate | Cloth brush'ının [Deformation](#deformation-6) ayarı "Inflate" modundayken uyguladığı efekti bütün mesh'e uygular.
+Expand | Cloth brush'ının [Deformation](#deformation-6) ayarı "Expand" modundayken uyguladığı efekti bütün mesh'e uygular.
+Pinch | Tıkladığınız noktadan bütün geometriye Cloth brush'ının [Deformation](#deformation-6) ayarı "Pinch Point" modundayken uyguladığı efekti uygular, yani kıyafet/giysi üzerine uygulanıyormuş gibi Pinch efekti verir.
 Scale | Bu modu kullanabilmeniz için mesh'e maske uygulamanız gerekir. Bu efekt maskelenmemiş kısımları scale etmeye yani boyutlandırmaya yarar.
 
 * #### Strength
